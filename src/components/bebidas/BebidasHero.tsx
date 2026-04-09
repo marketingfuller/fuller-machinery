@@ -10,7 +10,7 @@ export default function BebidasHero() {
       <div className="relative lg:w-3/5 min-h-[420px] lg:min-h-0 overflow-hidden group">
         <div
           className="absolute inset-0 bg-cover bg-center group-hover:scale-105 transition-transform duration-700"
-          style={{ backgroundImage: "url('/images/bebidas y cafe/Hero bebidas y cafe.webp')" }}
+          style={{ backgroundImage: "url('/images/Bebidas y cafe/Hero bebidas y cafe.webp')" }}
         />
         {/* Divider blend */}
         <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-black/60 to-black/20" />

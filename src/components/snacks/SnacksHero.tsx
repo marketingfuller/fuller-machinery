@@ -12,7 +12,7 @@ export default function SnacksHero() {
           className="absolute inset-0 bg-cover bg-center group-hover:scale-105 transition-transform duration-700"
           style={{
             backgroundImage:
-              "url('/images/Snacks y fast food/Hero snacks.png')",
+              "url('/images/Snacks y fast food/Hero snacks.webp')",
           }}
         />
         <div className="absolute inset-0 bg-gradient-to-r from-black/40 via-black/20 to-slate-950/90" />

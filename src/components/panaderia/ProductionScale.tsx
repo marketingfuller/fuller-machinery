@@ -58,7 +58,7 @@ export default function ProductionScale() {
               className="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105"
               style={{
                 backgroundImage:
-                  "url('/images/panaderia/panaderia industrial.png')",
+                  "url('/images/panaderia/panaderia industrial.webp')",
               }}
             />
             <div className="absolute inset-0 bg-primary/40 mix-blend-multiply" />

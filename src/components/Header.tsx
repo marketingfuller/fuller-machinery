@@ -58,7 +58,7 @@ export default function Header() {
         {/* Logo */}
         <Link href="/" className="flex items-center">
           <Image
-            src="/images/logo-fuller.png"
+            src="/images/logo-fuller.webp"
             alt="Fuller Machinery"
             width={160}
             height={60}

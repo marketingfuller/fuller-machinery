@@ -26,7 +26,7 @@ export default function SplitHero() {
         >
           <div
             className="absolute inset-0 bg-cover bg-center"
-            style={{ backgroundImage: "url('/images/Hero-iniciatupropionegocio.png')" }}
+            style={{ backgroundImage: "url('/images/Hero-iniciatupropionegocio.webp')" }}
           />
           <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-black/40" />
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
@@ -84,7 +84,7 @@ export default function SplitHero() {
         >
           <div
             className="absolute inset-0 bg-cover bg-center"
-            style={{ backgroundImage: "url('/images/Hero-potencia.png')" }}
+            style={{ backgroundImage: "url('/images/Hero-potencia.webp')" }}
           />
           <div className="absolute inset-0 bg-gradient-to-l from-black/80 via-black/60 to-black/40" />
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />

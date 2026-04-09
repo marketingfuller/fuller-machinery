@@ -89,7 +89,7 @@ export default function Footer() {
           <div className="sm:col-span-2 lg:col-span-1">
             <div className="mb-5">
               <Image
-                src="/images/logo-fuller.png"
+                src="/images/logo-fuller.webp"
                 alt="Fuller Machinery"
                 width={160}
                 height={60}
@@ -239,7 +239,7 @@ export default function Footer() {
             >
               <div className="relative w-5 h-5 opacity-80 group-hover:opacity-100 transition-opacity duration-300">
                 <Image 
-                  src="/images/zcalaris-icon.png" 
+                  src="/images/zcalaris-icon.webp" 
                   alt="Zcalaris Icon" 
                   fill
                   className="object-contain"
@@ -255,12 +255,12 @@ export default function Footer() {
           <div className="flex items-center gap-2 flex-wrap justify-center md:justify-end">
             <span className="text-white/60 text-xs mr-1 hidden sm:inline-block">Pagos:</span>
             {[
-              { name: "Visa", src: "/images/visa.png" },
-              { name: "Mastercard", src: "/images/mastercard.png" },
-              { name: "PSE", src: "/images/pse.jpg" },
-              { name: "Nequi", src: "/images/nequi.png" },
-              { name: "Addi", src: "/images/addi.jpg" },
-              { name: "Sistecredito", src: "/images/siste credito.png" },
+              { name: "Visa", src: "/images/visa.webp" },
+              { name: "Mastercard", src: "/images/mastercard.webp" },
+              { name: "PSE", src: "/images/pse.webp" },
+              { name: "Nequi", src: "/images/nequi.webp" },
+              { name: "Addi", src: "/images/addi.webp" },
+              { name: "Sistecredito", src: "/images/siste credito.webp" },
             ].map((card) => (
               <div key={card.name} className="h-7 w-12 rounded bg-white flex items-center justify-center p-0.5">
                 <Image

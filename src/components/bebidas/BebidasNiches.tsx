@@ -8,7 +8,7 @@ const niches = [
     label: "Rentabilidad Visual",
     icon: "ac_unit",
     desc: "Costo real por vaso: ~$4.000 COP en insumos. Precio de venta: $8.000–$10.000. Margen del 50% desde el primer vaso.",
-    image: "/images/bebidas y cafe/Granizados y Frappés - cafe y bebidas.png",
+    image: "/images/bebidas y cafe/Granizados y Frappés - cafe y bebidas.webp",
     href: "https://tienda.fullermachinery.com/?s=granizadora&post_type=product&product_cat=0",
   },
   {
@@ -16,7 +16,7 @@ const niches = [
     label: "El Arte del Café",
     icon: "coffee_maker",
     desc: "Capuccinos, expresos y lattes con calidad de cafetería premium a precio de local.",
-    image: "/images/bebidas y cafe/cafe y barismo - cafe y bebidas.png",
+    image: "/images/bebidas y cafe/cafe y barismo - cafe y bebidas.webp",
     href: "https://tienda.fullermachinery.com/?s=cafe&post_type=product&product_cat=0",
   },
   {
@@ -24,7 +24,7 @@ const niches = [
     label: "Potencia Pura",
     icon: "blender",
     desc: "Licuadoras encapsuladas silenciosas ideales para centros comerciales y cocinas.",
-    image: "/images/bebidas y cafe/Jugos y Licuados- cafe y bebidas.png",
+    image: "/images/bebidas y cafe/Jugos y Licuados- cafe y bebidas.webp",
     href: "https://tienda.fullermachinery.com/?s=licuadora&post_type=product&product_cat=0",
   },
   {
@@ -32,7 +32,7 @@ const niches = [
     label: "Tendencia Global",
     icon: "local_drink",
     desc: "Selladoras de película para delivery sin derrames. El negocio más viral del momento.",
-    image: "/images/bebidas y cafe/Tendencia Bubble Tea- cafe y bebidas.png",
+    image: "/images/bebidas y cafe/Tendencia Bubble Tea- cafe y bebidas.webp",
     href: "https://tienda.fullermachinery.com/?s=selladora+de+vasos&post_type=product&product_cat=0",
   },
 ];

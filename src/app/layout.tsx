@@ -73,7 +73,7 @@ export const metadata: Metadata = {
     locale: "es_CO",
     images: [
       {
-        url: "/images/logo-fuller.png",
+        url: "/images/logo-fuller.webp",
         width: 1200,
         height: 630,
         alt: "Fuller Machinery — Equipos y Maquinaria para la Industria Alimentaria",
@@ -85,11 +85,11 @@ export const metadata: Metadata = {
     title: "Fuller Machinery | Equipos para la Industria Alimentaria",
     description:
       "Maquinaria profesional para panadería, bebidas, snacks, cárnicos, empaque y refrigeración en Colombia.",
-    images: ["/images/logo-fuller.png"],
+    images: ["/images/logo-fuller.webp"],
   },
   icons: {
     icon: "/favicon.ico",
-    apple: "/apple-touch-icon.png",
+    apple: "/apple-touch-icon.webp",
   },
 };
 

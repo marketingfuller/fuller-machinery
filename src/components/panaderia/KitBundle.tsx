@@ -1,9 +1,9 @@
 export default function KitBundle() {
   const images = [
-    "/images/panaderia/amasadora tarjeta oferta.png",
-    "/images/panaderia/Horno tarjeta oferta.png",
-    "/images/panaderia/laminadora tarjeta oferta.png",
-    "/images/panaderia/vitrina tarjeta oferta.png",
+    "/images/panaderia/amasadora tarjeta oferta.webp",
+    "/images/panaderia/Horno tarjeta oferta.webp",
+    "/images/panaderia/laminadora tarjeta oferta.webp",
+    "/images/panaderia/vitrina tarjeta oferta.webp",
   ];
 
   return (

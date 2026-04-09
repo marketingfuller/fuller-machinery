@@ -23,7 +23,7 @@ export default function TechnicalAuthority() {
                 className="absolute inset-0 bg-cover bg-center"
                 style={{
                   backgroundImage:
-                    "url('/images/servicio tecnico inicio.png')",
+                    "url('/images/servicio tecnico inicio.webp')",
                 }}
               />
               <div className="absolute inset-0 bg-gradient-to-tr from-primary/40 to-transparent" />

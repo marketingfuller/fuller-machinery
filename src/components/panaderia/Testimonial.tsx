@@ -11,7 +11,7 @@ export default function Testimonial() {
                 className="absolute inset-0 bg-cover bg-center"
                 style={{
                   backgroundImage:
-                    "url('/images/panaderia/testimonio panaderia.png')",
+                    "url('/images/panaderia/testimonio panaderia.webp')",
                 }}
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />

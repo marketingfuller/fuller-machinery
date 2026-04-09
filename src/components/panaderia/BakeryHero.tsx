@@ -12,7 +12,7 @@ export default function BakeryHero() {
           className="absolute inset-0 bg-cover bg-center group-hover:scale-105 transition-transform duration-700"
           style={{
             backgroundImage:
-              "url('/images/panaderia/hero panaderia.png')",
+              "url('/images/panaderia/hero panaderia.webp')",
           }}
         />
         <div className="absolute inset-0 bg-gradient-to-r from-black/40 via-black/20 to-slate-950/85" />

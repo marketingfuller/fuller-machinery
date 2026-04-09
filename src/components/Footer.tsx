@@ -59,7 +59,7 @@ const footerLinks = {
 
 const sedes = [
   {
-    name: "Sede Principal",
+    name: "Sede Principal & Showroom",
     address: "Calle 63B #79-35 – Bogotá",
     phones: [
       { label: "Recepción", number: "310 285 2053" },

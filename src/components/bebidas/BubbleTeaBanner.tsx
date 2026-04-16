@@ -80,7 +80,7 @@ export default function BubbleTeaBanner() {
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center px-7 py-3.5 border-2 border-white/30 hover:bg-white/10 text-white font-bold rounded-xl text-sm transition-colors"
               >
-                Cotizar Insumos
+                Cotizar Rollo de Sellos
               </a>
             </div>
           </div>

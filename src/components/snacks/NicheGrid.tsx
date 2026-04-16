@@ -8,28 +8,28 @@ const niches = [
     label: "El Olor Vende Solo",
     icon: "fastfood",
     desc: "El aroma de las crispetas atrae clientes desde 20 metros. Costo por bolsa: menos de $1.000 COP. Venta: $3.000–$5.000. Margen real del 300%+.",
-    image: "https://images.unsplash.com/photo-1505686994434-e3cc5abf1330?w=800&h=1000&fit=crop&q=80",
+    image: "/images/Snacks y fast food/Crispetas y algodon.webp",
   },
   {
     title: "Asadores de Salchichas",
     label: "Sin Chef, Sin Cocina",
     icon: "outdoor_grill",
     desc: "Operación sin capacitación: enciendes el equipo y listo. Ideal para estadios, parques y eventos masivos con alta rotación.",
-    image: "https://images.unsplash.com/photo-1612392062631-94f9ea97ac8a?w=800&h=1000&fit=crop&q=80",
+    image: "/images/Snacks y fast food/Asadores de salchichas.webp",
   },
   {
     title: "Waffles & Crepes",
     label: "Contenido en Redes",
     icon: "egg",
     desc: "Formas especiales que generan fotos y videos orgánicos. Clientes que compran para publicar crean publicidad gratuita para tu negocio.",
-    image: "https://images.unsplash.com/photo-1562376552-0d160a2f238d?w=800&h=1000&fit=crop&q=80",
+    image: "/images/Snacks y fast food/Waffles y crepes.webp",
   },
   {
     title: "Dulces & Postres",
     label: "Espectáculo que Vende",
     icon: "icecream",
     desc: "Fuentes de chocolate que convierten tu punto de venta en un show. Ideal para eventos, bodas y celebraciones donde el postre se vuelve el protagonista.",
-    image: "https://images.unsplash.com/photo-1508737027454-e6454ef45afd?w=800&h=1000&fit=crop&q=80",
+    image: "/images/Snacks y fast food/Dulces y postres.webp",
   },
 ];
 

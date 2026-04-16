@@ -1,6 +1,6 @@
 "use client";
 
-import { Mail, MapPin, Phone, Send, Clock } from "lucide-react";
+import { Mail, MapPin, Phone, Clock } from "lucide-react";
 import Image from "next/image";
 
 function InstagramIcon({ size = 18 }: { size?: number }) {
@@ -175,42 +175,24 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Newsletter */}
+          {/* Social links */}
           <div>
             <h4 className="text-white font-semibold text-sm uppercase tracking-wider mb-5">
-              Newsletter
+              Síguenos
             </h4>
-            <p className="text-white/75 text-sm mb-4">
-              Recibe ofertas exclusivas y novedades directo en tu correo.
-            </p>
-            <form className="flex gap-2" onSubmit={(e) => e.preventDefault()}>
-              <input
-                type="email"
-                placeholder="tu@email.com"
-                className="flex-1 bg-white/5 border border-white/10 rounded-lg px-4 py-2.5 text-white text-sm placeholder-white/30 focus:outline-none focus:border-accent/50 focus:ring-1 focus:ring-accent/20 transition-colors"
-              />
-              <button
-                type="submit"
-                className="bg-accent hover:bg-accent-dark text-bg-dark p-2.5 rounded-lg transition-colors duration-200 shrink-0"
-                aria-label="Suscribirse al newsletter"
-              >
-                <Send size={18} />
-              </button>
-            </form>
-            {/* Social links */}
-            <div className="flex gap-3 mt-6">
+            <div className="flex gap-4">
               {socialLinks.map((social) => (
                 <a
                   key={social.label}
                   href={social.href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-9 h-9 rounded-lg bg-white/10 hover:bg-accent/20 flex items-center justify-center text-white/70 hover:text-accent transition-all duration-200"
+                  className="w-12 h-12 rounded-xl bg-white/10 hover:bg-accent/20 flex items-center justify-center text-white/70 hover:text-accent transition-all duration-200"
                   aria-label={social.label}
                 >
-                  {social.icon === "instagram" && <InstagramIcon size={18} />}
-                  {social.icon === "tiktok" && <TikTokIcon size={18} />}
-                  {social.icon === "youtube" && <YoutubeIcon size={18} />}
+                  {social.icon === "instagram" && <InstagramIcon size={22} />}
+                  {social.icon === "tiktok" && <TikTokIcon size={22} />}
+                  {social.icon === "youtube" && <YoutubeIcon size={22} />}
                 </a>
               ))}
             </div>

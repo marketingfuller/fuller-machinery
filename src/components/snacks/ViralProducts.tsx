@@ -10,7 +10,8 @@ const products = [
     tag: "Top Instagram",
     tagClass: "from-purple-600 to-pink-600",
     Icon: TrendingUp,
-    image: "https://images.unsplash.com/photo-1562376552-0d160a2f238d?w=600&q=80",
+    image: "/images/Snacks y fast food/wafflera burbuja - snack.webp",
+    href: "https://tienda.fullermachinery.com/?s=wafflera&post_type=product&product_cat=0",
   },
   {
     title: "Wafflera Formas Especiales",
@@ -18,7 +19,8 @@ const products = [
     tag: "Novedad",
     tagClass: "from-blue-500 to-cyan-500",
     Icon: Sparkles,
-    image: "https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=600&q=80",
+    image: "/images/Snacks y fast food/Wafflera Formas Especiales- SNACK.webp",
+    href: "https://tienda.fullermachinery.com/?s=wafflera+erotica&post_type=product&product_cat=0",
   },
   {
     title: "Mini Donuts Automática",
@@ -26,7 +28,8 @@ const products = [
     tag: "Alta Demanda",
     tagClass: "from-amber-500 to-orange-500",
     Icon: Flame,
-    image: "https://images.unsplash.com/photo-1508737027454-e6454ef45afd?w=600&q=80",
+    image: "/images/Snacks y fast food/Mini Donuts - SNACK.webp",
+    href: "https://tienda.fullermachinery.com/?s=donas&post_type=product&product_cat=0",
   },
 ];
 
@@ -47,8 +50,11 @@ export default function ViralProducts() {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {products.map((product, i) => (
-            <motion.div
+            <motion.a
               key={i}
+              href={product.href}
+              target="_blank"
+              rel="noopener noreferrer"
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
@@ -76,11 +82,11 @@ export default function ViralProducts() {
               <div className="absolute bottom-0 left-0 right-0 p-8 bg-gradient-to-t from-black/90 via-black/50 to-transparent z-10">
                 <h3 className="text-white font-display font-bold text-2xl mb-2">{product.title}</h3>
                 <p className="text-slate-200 text-sm mb-4 line-clamp-2">{product.desc}</p>
-                <button className="w-full bg-white text-slate-900 font-bold py-3 rounded-lg hover:bg-accent hover:text-white transition-colors">
+                <span className="block w-full bg-white text-slate-900 font-bold py-3 rounded-lg text-center group-hover:bg-accent group-hover:text-white transition-colors">
                   Ver Máquina
-                </button>
+                </span>
               </div>
-            </motion.div>
+            </motion.a>
           ))}
         </div>
       </div>

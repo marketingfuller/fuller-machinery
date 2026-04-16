@@ -9,6 +9,7 @@ const niches = [
     icon: "fastfood",
     desc: "El aroma de las crispetas atrae clientes desde 20 metros. Costo por bolsa: menos de $1.000 COP. Venta: $3.000–$5.000. Margen real del 300%+.",
     image: "/images/Snacks y fast food/Crispetas y algodon.webp",
+    href: "https://tienda.fullermachinery.com/?s=crispetera&post_type=product&product_cat=0",
   },
   {
     title: "Asadores de Salchichas",
@@ -16,6 +17,7 @@ const niches = [
     icon: "outdoor_grill",
     desc: "Operación sin capacitación: enciendes el equipo y listo. Ideal para estadios, parques y eventos masivos con alta rotación.",
     image: "/images/Snacks y fast food/Asadores de salchichas.webp",
+    href: "https://tienda.fullermachinery.com/?s=salchichas&post_type=product&product_cat=0",
   },
   {
     title: "Waffles & Crepes",
@@ -23,6 +25,7 @@ const niches = [
     icon: "egg",
     desc: "Formas especiales que generan fotos y videos orgánicos. Clientes que compran para publicar crean publicidad gratuita para tu negocio.",
     image: "/images/Snacks y fast food/Waffles y crepes.webp",
+    href: "https://tienda.fullermachinery.com/?s=waffles&post_type=product&product_cat=0",
   },
   {
     title: "Dulces & Postres",
@@ -30,6 +33,7 @@ const niches = [
     icon: "icecream",
     desc: "Fuentes de chocolate que convierten tu punto de venta en un show. Ideal para eventos, bodas y celebraciones donde el postre se vuelve el protagonista.",
     image: "/images/Snacks y fast food/Dulces y postres.webp",
+    href: "https://tienda.fullermachinery.com/?s=algodonera&post_type=product&product_cat=0",
   },
 ];
 
@@ -74,7 +78,9 @@ export default function NicheGrid() {
             <motion.a
               key={i}
               variants={itemVariants}
-              href="#productos"
+              href={niche.href}
+              target="_blank"
+              rel="noopener noreferrer"
               className="group relative h-[440px] rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-500 cursor-pointer"
             >
               <div
@@ -90,7 +96,11 @@ export default function NicheGrid() {
                 </div>
                 <h3 className="text-white font-display font-black text-xl md:text-2xl mb-1">{niche.title}</h3>
                 <p className="text-accent font-bold uppercase text-xs tracking-widest mb-3">{niche.label}</p>
-                <p className="text-slate-300 text-sm leading-relaxed opacity-0 group-hover:opacity-100 translate-y-3 group-hover:translate-y-0 transition-all duration-300">{niche.desc}</p>
+                <p className="text-slate-300 text-sm leading-relaxed opacity-0 group-hover:opacity-100 translate-y-3 group-hover:translate-y-0 transition-all duration-300 mb-4">{niche.desc}</p>
+                <span className="inline-flex items-center gap-2 bg-secondary text-white text-xs font-bold uppercase tracking-wide px-4 py-2 rounded-lg opacity-0 group-hover:opacity-100 translate-y-3 group-hover:translate-y-0 transition-all duration-300 delay-75">
+                  Ver productos
+                  <span className="material-symbols-outlined text-sm">arrow_forward</span>
+                </span>
               </div>
             </motion.a>
           ))}

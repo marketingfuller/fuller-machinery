@@ -28,7 +28,7 @@ const niches = [
     href: "https://tienda.fullermachinery.com/?s=licuadora&post_type=product&product_cat=0",
   },
   {
-    title: "Bubble Tea",
+    title: "Vasos Sellados",
     label: "Tendencia Global",
     icon: "local_drink",
     desc: "Selladoras de película para delivery sin derrames. El negocio más viral del momento.",

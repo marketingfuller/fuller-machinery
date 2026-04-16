@@ -35,7 +35,7 @@ export default function KitBundle() {
             {/* Text */}
             <div className="w-full lg:w-1/2">
               <h2 className="font-display font-black text-3xl md:text-5xl mb-4">
-                Kit Panadero de Barrio
+                Kit Panadero Emprendedor
               </h2>
               <p className="text-white text-xl font-medium mb-6">
                 Tu panadería completa lista para abrir.
@@ -54,23 +54,8 @@ export default function KitBundle() {
                 ))}
               </ul>
 
-              {/* Bonus */}
-              <div className="bg-white/10 rounded-lg p-4 mb-8 flex items-center gap-4 border border-white/30">
-                <span className="material-symbols-outlined text-white text-4xl">
-                  inventory_2
-                </span>
-                <div>
-                  <span className="block text-white font-bold">
-                    BONUS GRATUITO
-                  </span>
-                  <span className="text-white/80 text-sm">
-                    2 Bandejas de Acero Inoxidable para Panadería
-                  </span>
-                </div>
-              </div>
-
-              <a
-                href={`https://wa.me/573244247198?text=${encodeURIComponent("Hola, me interesa cotizar el Kit Panadero de Barrio que incluye:\n• Amasadora de 50 Libras\n• Horno de Convección 1 Cabina 1 Lata\n• Laminadora de Masas\n• Vitrina Exhibidora para Panadería\n\n¿Me pueden dar más información y precio?")}`}
+              <
+                href={`https://wa.me/573244247198?text=${encodeURIComponent("Hola, me interesa cotizar el Kit Panadero Emprendedor que incluye:\n• Amasadora de 50 Libras\n• Horno de Convección 1 Cabina 1 Lata\n• Laminadora de Masas\n• Vitrina Exhibidora para Panadería\n\n¿Me pueden dar más información y precio?")}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full sm:w-auto bg-accent hover:bg-accent/90 text-bg-dark font-black py-4 px-8 rounded-xl shadow-lg transition-all hover:scale-105 uppercase tracking-wide flex items-center justify-center gap-2"

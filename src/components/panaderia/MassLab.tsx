@@ -102,7 +102,7 @@ export default function MassLab() {
           transition={{ duration: 0.55, delay: 0.4 }}
           className="mt-14 flex flex-col sm:flex-row items-center justify-center gap-4 text-center"
         >
-          <p className="text-white/50 text-sm">¿Necesitas orientación técnica para tu panadería?</p>
+          <p className="text-white/50 text-sm">¿Necesitas orientación para tu panadería?</p>
           <a
             href="https://wa.me/573244247198?text=Hola%2C%20necesito%20orientaci%C3%B3n%20t%C3%A9cnica%20para%20mi%20panader%C3%ADa"
             target="_blank"

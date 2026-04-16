@@ -54,7 +54,7 @@ export default function KitBundle() {
                 ))}
               </ul>
 
-              <
+              <a
                 href={`https://wa.me/573244247198?text=${encodeURIComponent("Hola, me interesa cotizar el Kit Panadero Emprendedor que incluye:\n• Amasadora de 50 Libras\n• Horno de Convección 1 Cabina 1 Lata\n• Laminadora de Masas\n• Vitrina Exhibidora para Panadería\n\n¿Me pueden dar más información y precio?")}`}
                 target="_blank"
                 rel="noopener noreferrer"

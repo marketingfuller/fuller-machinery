@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Headset, CalendarCheck, ShieldCheck, Clock, Wrench, MessageCircle } from "lucide-react";
+import { Headset, ShieldCheck, Clock, Wrench, MessageCircle } from "lucide-react";
 
 const WHATSAPP_NUMBER = "573228534925";
 
@@ -93,26 +93,15 @@ export default function TechnicalAuthority() {
               ))}
             </div>
 
-            {/* CTAs */}
+            {/* CTA */}
             <div className="flex flex-col sm:flex-row gap-4">
-              <motion.a
-                href={`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent("Hola, quisiera agendar un mantenimiento para mi equipo Fuller Machinery.")}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                whileHover={{ scale: 1.02 }}
-                whileTap={{ scale: 0.98 }}
-                className="inline-flex items-center justify-center gap-2 bg-primary hover:bg-primary-dark text-white font-bold text-sm px-7 py-4 rounded-full transition-colors duration-300 shadow-lg shadow-primary/20"
-              >
-                <CalendarCheck size={18} />
-                Agendar Mantenimiento
-              </motion.a>
               <motion.a
                 href={`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent("Hola, tengo una consulta sobre mi equipo Fuller Machinery. ¿Pueden ayudarme?")}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
-                className="inline-flex items-center justify-center gap-2 bg-white border-2 border-primary/20 hover:border-primary text-primary font-bold text-sm px-7 py-4 rounded-full transition-all duration-300"
+                className="inline-flex items-center justify-center gap-2 bg-green-600 hover:bg-green-700 text-white font-bold text-sm px-7 py-4 rounded-full transition-colors duration-300 shadow-lg shadow-green-600/20"
               >
                 <Headset size={18} />
                 Línea de Ayuda

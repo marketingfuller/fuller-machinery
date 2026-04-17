@@ -10,7 +10,7 @@ export default function ProfitCalc() {
             Calculadora de Rentabilidad: Waffle Burbuja
           </h2>
           <p className="text-white/60 max-w-2xl mx-auto text-lg">
-            Entiende por qué este negocio es uno de los más rentables del momento. Recupera tu inversión en menos de 3 meses.
+            Uno de los snacks con mayor margen en Colombia. Con una sola wafflera puedes recuperar tu inversión en menos de 3 días de venta.
           </p>
         </div>
 
@@ -18,29 +18,46 @@ export default function ProfitCalc() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center text-center">
             <div className="flex flex-col gap-2">
               <span className="text-white/50 uppercase text-sm font-bold tracking-wider">Costo Producción</span>
-              <span className="text-4xl font-black text-white/80">$0.60 USD</span>
-              <span className="text-xs text-white/40">Masa + Toppings + Envase</span>
+              <span className="text-4xl font-black text-white/80">$4.200</span>
+              <span className="text-xs text-white/40">Masa + Helado + Topping + Empaque</span>
             </div>
 
             <div className="flex flex-col gap-2 bg-secondary/20 p-5 rounded-xl border border-secondary/50">
-              <span className="text-white uppercase text-sm font-bold tracking-wider">Ganancia Neta</span>
-              <span className="text-4xl font-black text-white">$3.90 USD</span>
-              <span className="text-xs text-white/70">Por unidad vendida</span>
+              <span className="text-white uppercase text-sm font-bold tracking-wider">Ganancia Bruta</span>
+              <span className="text-4xl font-black text-white">$18.800</span>
+              <span className="text-xs text-white/70">Por unidad vendida (82% margen)</span>
             </div>
 
             <div className="flex flex-col gap-2">
               <span className="text-accent uppercase text-sm font-bold tracking-wider">Precio de Venta</span>
-              <span className="text-5xl font-black text-accent">$4.50 USD</span>
-              <span className="text-xs text-accent/70">Precio promedio mercado</span>
+              <span className="text-5xl font-black text-accent">$23.000</span>
+              <span className="text-xs text-accent/70">Precio promedio Colombia</span>
             </div>
           </div>
 
-          <div className="mt-8 pt-8 border-t border-white/10 text-center">
-            <p className="text-lg">
-              Vende solo <span className="font-bold text-accent">20 unidades al día</span> y gana{" "}
-              <span className="font-bold text-accent">$2,340 USD/mes</span>
+          <div className="mt-8 pt-8 border-t border-white/10">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center mb-6">
+              <div className="flex flex-col gap-1">
+                <span className="text-white/50 text-xs uppercase font-bold tracking-wider">Producción / hora</span>
+                <span className="text-2xl font-black text-white">10–12 unidades</span>
+                <span className="text-xs text-white/40">Con 1 wafflera comercial</span>
+              </div>
+              <div className="flex flex-col gap-1">
+                <span className="text-white/50 text-xs uppercase font-bold tracking-wider">Ganancia neta / día</span>
+                <span className="text-2xl font-black text-white">$900.000 – $1.400.000</span>
+                <span className="text-xs text-white/40">7 horas operación (descontando gastos)</span>
+              </div>
+              <div className="flex flex-col gap-1">
+                <span className="text-accent text-xs uppercase font-bold tracking-wider">Ganancia neta / mes</span>
+                <span className="text-2xl font-black text-accent">$22.500.000+</span>
+                <span className="text-xs text-accent/70">25 días de operación</span>
+              </div>
+            </div>
+            <p className="text-center text-lg">
+              Recupera la inversión del equipo en{" "}
+              <span className="font-bold text-accent">1 a 3 días de venta</span> — el resto es ganancia pura.
             </p>
-            <p className="text-xs text-white/40 mt-2">*Estimaciones basadas en promedios de mercado. Los resultados pueden variar.</p>
+            <p className="text-xs text-white/40 mt-2 text-center">*Datos basados en precios reales de mercado colombiano 2025–2026. Los resultados pueden variar según ubicación y volumen.</p>
           </div>
         </div>
       </div>

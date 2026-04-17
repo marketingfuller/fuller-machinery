@@ -1,10 +1,13 @@
 import { CheckCircle } from "lucide-react";
 
 const items = [
-  "Máquina de Crispetas 8oz",
-  "Dispensador de Queso Caliente",
-  "Vitrina de Nachos Calefaccionada",
+  "Crispetera Nostalgia 850 (olla 2.5 oz)",
+  "Calentador de Salsas 2 Puestos",
+  "Freidor Vertical de Salchichas Egg Roller",
 ];
+
+const whatsappUrl =
+  "https://wa.me/573244247198?text=Hola%2C%20me%20interesa%20el%20Kit%20Cine%20en%20Casa%20%28Crispetera%20Nostalgia%20%2B%20Calentador%20de%20Salsas%20%2B%20Egg%20Roller%29";
 
 export default function KitCinema() {
   return (
@@ -20,7 +23,7 @@ export default function KitCinema() {
               Kit Cine en Casa / Local
             </h2>
             <p className="text-white/70 mb-8 text-lg leading-relaxed">
-              Todo lo que necesitas para montar un punto de snacks estilo cine. Incluye crispetera profesional, dispensador de nachos y calentador de queso.
+              Todo lo que necesitas para montar un punto de snacks estilo cine: crispetas recién hechas, perros calientes crocantes y salsas siempre a temperatura perfecta.
             </p>
             <ul className="space-y-3 mb-8">
               {items.map((item, i) => (
@@ -30,22 +33,22 @@ export default function KitCinema() {
                 </li>
               ))}
             </ul>
-            <div className="flex flex-col sm:flex-row items-start sm:items-center gap-6">
-              <div>
-                <span className="block text-white/40 text-sm line-through">Precio Regular: $850</span>
-                <span className="block text-3xl font-bold text-white">$699 USD</span>
-              </div>
-              <button className="bg-secondary hover:bg-secondary/90 text-white font-bold py-3 px-8 rounded-xl transition-colors shadow-lg hover:shadow-secondary/30">
-                Comprar Kit Completo
-              </button>
-            </div>
+            <a
+              href={whatsappUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center gap-2 self-start bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-8 rounded-xl transition-all shadow-lg hover:shadow-green-600/30 hover:-translate-y-0.5"
+            >
+              <span className="material-symbols-outlined text-[20px]">chat</span>
+              Cotizar Kit por WhatsApp
+            </a>
           </div>
 
           {/* Image */}
-          <div className="md:w-1/2 relative h-72 md:h-auto">
+          <div className="md:w-1/2 relative h-72 md:h-auto min-h-[300px]">
             <div
               className="absolute inset-0 bg-cover bg-center"
-              style={{ backgroundImage: `url('https://images.unsplash.com/photo-1505686994434-e3cc5abf1330?w=800&q=80')` }}
+              style={{ backgroundImage: `url('/images/Snacks y fast food/Kit Cine en Casa SNACK.webp')` }}
             />
             <div className="absolute inset-0 bg-gradient-to-t from-bg-dark/50 to-transparent md:bg-gradient-to-l md:from-bg-dark/40 md:to-transparent" />
           </div>

@@ -5,19 +5,23 @@ import { motion } from "framer-motion";
 const faqs = [
   {
     q: "¿Qué voltaje utilizan las máquinas?",
-    a: "La mayoría de nuestros equipos de snacks operan a 110V/60Hz, el estándar doméstico en América. Equipos de mayor capacidad pueden requerir 220V. Verifica la ficha técnica de cada producto — nuestro equipo técnico también puede orientarte antes de la compra.",
+    a: "La mayoría de nuestros equipos de snacks (crispeteras, algodoneras, waffleras, vaporizadores y egg rollers) operan a 110V, el estándar en Colombia. Equipos de mayor capacidad pueden requerir 220V. Verifica la ficha técnica de cada producto o escríbenos antes de la compra.",
   },
   {
-    q: "¿Cuentan con garantía y repuestos?",
-    a: "Sí. Todos los equipos Fuller Machinery incluyen 1 año de garantía por defectos de fábrica. Mantenemos stock permanente de resistencias, termostatos y piezas de desgaste para envío inmediato a cualquier parte del país.",
+    q: "¿Cuentan con garantía?",
+    a: "Sí. La garantía depende del producto y va de 6 meses a 1 año por defectos de fábrica. Al hacer tu cotización te confirmamos el plazo exacto de la máquina que estás solicitando.",
+  },
+  {
+    q: "¿Manejan repuestos?",
+    a: "Sí, pero están sujetos a disponibilidad en stock y solo aplican para máquinas Fuller Machinery. No gestionamos repuestos de equipos de otras marcas. Si tienes una Fuller, escríbenos con el modelo y te confirmamos existencias.",
   },
   {
     q: "¿Ofrecen capacitación de uso?",
-    a: "Al comprar cualquier equipo recibes acceso a nuestra biblioteca de videos tutoriales exclusivos: instalación, puesta en marcha, recetas de alto margen y mantenimiento preventivo para maximizar la vida útil del equipo.",
+    a: "Sí, sin costo adicional. Si estás en Bogotá, la capacitación es presencial al momento de la entrega. Si estás en otra parte del país, te damos la capacitación de forma remota por videollamada, cubriendo instalación, puesta en marcha y recomendaciones de uso.",
   },
   {
     q: "¿Realizan envíos internacionales?",
-    a: "Sí, enviamos a todo el continente americano. Los tiempos de tránsito varían según el país, generalmente entre 5 y 10 días hábiles para entregas estándar. Todos los envíos salen asegurados.",
+    a: "No. Por el momento solo hacemos envíos dentro de Colombia. Despachamos a todo el territorio nacional con operadores aliados y el equipo viaje siempre asegurado.",
   },
 ];
 
@@ -72,8 +76,10 @@ export default function SnacksFAQ() {
         >
           <p className="text-slate-500 text-sm mb-4">¿Tienes una pregunta que no aparece aquí?</p>
           <a
-            href="#"
-            className="inline-flex items-center gap-2 bg-secondary hover:bg-secondary/90 text-white font-bold px-6 py-3 rounded-xl text-sm transition-all hover:-translate-y-0.5 hover:shadow-lg hover:shadow-secondary/25"
+            href="https://wa.me/573244247198?text=Hola%2C%20tengo%20una%20pregunta%20sobre%20los%20equipos%20de%20snacks%20y%20fast%20food"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 bg-green-600 hover:bg-green-700 text-white font-bold px-6 py-3 rounded-xl text-sm transition-all hover:-translate-y-0.5 hover:shadow-lg hover:shadow-green-600/25"
           >
             <span className="material-symbols-outlined text-[18px]">chat</span>
             Contáctanos por WhatsApp

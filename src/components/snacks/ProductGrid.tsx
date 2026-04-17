@@ -5,40 +5,44 @@ import Image from "next/image";
 
 const products = [
   {
-    name: "Crispetera Cinema Pro 8oz",
+    name: "Crispetera 8 oz Mini Comercial",
     badge: "Best Seller",
     badgeColor: "bg-secondary",
-    image: "https://images.unsplash.com/photo-1505686994434-e3cc5abf1330?w=600&h=500&fit=crop&q=80",
-    price: "$320.00",
-    originalPrice: "$390.00",
-    specs: ["8 oz / ciclo", "Motor 800W", "Acero Inox"],
+    image: "/images/Snacks y fast food/Crispetera 8oz Mini.webp",
+    description: "Sistema de agitación, luz interna y tapa imantada. Hasta 3 kg/hora.",
+    specs: ["8 oz / ciclo", "3 kg/hora", "Acero Inox"],
+    fichaUrl: "https://tienda.fullermachinery.com/index.php/producto/crispetera-8-oz-mini-comercial/",
+    whatsappUrl: "https://wa.me/573244247198?text=Hola%2C%20me%20interesa%20la%20Crispetera%208%20oz%20Mini%20Comercial",
   },
   {
-    name: "Wafflera Giratoria Belga",
-    badge: "Top Ventas",
+    name: "Fuente de Chocolate 5 Niveles",
+    badge: "Bodas & Eventos",
     badgeColor: "bg-accent text-bg-dark",
-    image: "https://images.unsplash.com/photo-1562376552-0d160a2f238d?w=600&h=500&fit=crop&q=80",
-    price: "$185.00",
-    originalPrice: null,
-    specs: ["Placa 360°", "Temp. ajustable", "Antiadherente"],
+    image: "/images/Snacks y fast food/Fuente Chocolate 5 Niveles.webp",
+    description: "Derrite y bombea chocolate en flujo continuo para inmersión en eventos.",
+    specs: ["21 L", "230 W", "5 Niveles"],
+    fichaUrl: "https://tienda.fullermachinery.com/index.php/producto/fuente-de-chocolate-grande-5/",
+    whatsappUrl: "https://wa.me/573244247198?text=Hola%2C%20me%20interesa%20la%20Fuente%20de%20Chocolate%205%20Niveles",
   },
   {
-    name: "Asador de Salchichas 11R",
+    name: "Vaporizador de Salchicha y Pan",
     badge: "Locales de Paso",
     badgeColor: "bg-primary",
-    image: "https://images.unsplash.com/photo-1612392062631-94f9ea97ac8a?w=600&h=500&fit=crop&q=80",
-    price: "$245.00",
-    originalPrice: "$290.00",
-    specs: ["11 rodillos", "2 zonas calor", "110V"],
+    image: "/images/Snacks y fast food/Vaporizador Salchicha.webp",
+    description: "Baño María para perros calientes y panes jugosos, listos sin quemarlos.",
+    specs: ["5 L", "180 °C", "Termostato"],
+    fichaUrl: "https://tienda.fullermachinery.com/index.php/producto/vaporizador-de-salchicha-y-pan-12/",
+    whatsappUrl: "https://wa.me/573244247198?text=Hola%2C%20me%20interesa%20el%20Vaporizador%20de%20Salchicha%20y%20Pan",
   },
   {
-    name: "Máquina Algodón de Azúcar XL",
+    name: "Algodonera Mini Comercial",
     badge: "Eventos",
     badgeColor: "bg-purple-600",
-    image: "https://images.unsplash.com/photo-1527905416024-a9a82ad2ae59?w=600&h=500&fit=crop&q=80",
-    price: "$299.00",
-    originalPrice: null,
-    specs: ["Bowl 46cm", "Motor Silencioso", "Uso continuo"],
+    image: "/images/Snacks y fast food/Algodonera Mini.webp",
+    description: "Mini máquina compacta y liviana para algodón de azúcar rápido e intuitivo.",
+    specs: ["110 V", "29 × 17.5 cm", "Acero Inox"],
+    fichaUrl: "https://tienda.fullermachinery.com/index.php/producto/algodonera-mini-comercial/",
+    whatsappUrl: "https://wa.me/573244247198?text=Hola%2C%20me%20interesa%20la%20Algodonera%20Mini%20Comercial",
   },
 ];
 
@@ -55,7 +59,12 @@ export default function ProductGrid() {
               Favoritos de los Emprendedores
             </h2>
           </div>
-          <a href="#" className="inline-flex items-center gap-2 text-primary font-bold text-sm hover:text-secondary transition-colors shrink-0">
+          <a
+            href="https://tienda.fullermachinery.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 text-primary font-bold text-sm hover:text-secondary transition-colors shrink-0"
+          >
             Ver todo el catálogo
             <span className="material-symbols-outlined text-[18px]">arrow_forward</span>
           </a>
@@ -70,14 +79,14 @@ export default function ProductGrid() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: i * 0.1, type: "spring", stiffness: 220, damping: 24 }}
-                className="w-[300px] md:w-[320px] bg-white border border-slate-100 rounded-2xl shadow-md hover:shadow-xl transition-shadow duration-300 overflow-hidden flex-shrink-0 group"
+                className="w-[300px] md:w-[320px] bg-white border border-slate-100 rounded-2xl shadow-md hover:shadow-xl transition-shadow duration-300 overflow-hidden flex-shrink-0 group flex flex-col"
               >
                 <div className="relative h-56 bg-slate-50 overflow-hidden">
                   <Image
                     src={p.image}
                     alt={p.name}
                     fill
-                    className="object-cover group-hover:scale-105 transition-transform duration-500"
+                    className="object-contain p-4 group-hover:scale-105 transition-transform duration-500"
                   />
                   <span className={`absolute top-4 left-4 z-10 text-[10px] font-bold px-3 py-1.5 rounded-full uppercase tracking-wider text-white ${p.badgeColor}`}>
                     {p.badge}
@@ -88,10 +97,11 @@ export default function ProductGrid() {
                   </span>
                 </div>
 
-                <div className="p-6">
-                  <h3 className="font-display font-bold text-base text-slate-900 mb-3 leading-snug">{p.name}</h3>
+                <div className="p-6 flex flex-col flex-1">
+                  <h3 className="font-display font-bold text-base text-slate-900 mb-2 leading-snug">{p.name}</h3>
+                  <p className="text-slate-600 text-xs mb-3 leading-relaxed">{p.description}</p>
 
-                  <div className="flex flex-wrap gap-1.5 mb-4">
+                  <div className="flex flex-wrap gap-1.5 mb-5">
                     {p.specs.map((s, j) => (
                       <span key={j} className="bg-slate-100 text-slate-600 text-[11px] font-semibold px-2.5 py-1 rounded-md">
                         {s}
@@ -99,17 +109,25 @@ export default function ProductGrid() {
                     ))}
                   </div>
 
-                  <div className="flex items-center justify-between">
-                    <div className="flex items-baseline gap-2">
-                      {p.originalPrice && (
-                        <span className="text-slate-400 line-through text-xs">{p.originalPrice}</span>
-                      )}
-                      <span className="text-secondary font-black text-xl">{p.price}</span>
-                    </div>
-                    <button className="text-primary hover:text-secondary font-bold text-xs flex items-center gap-1 transition-colors">
-                      Ficha Técnica
+                  <div className="flex flex-col gap-2 mt-auto">
+                    <a
+                      href={p.whatsappUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center justify-center gap-2 bg-green-600 hover:bg-green-700 text-white font-bold text-sm py-2.5 rounded-lg transition-all hover:shadow-md hover:shadow-green-600/25"
+                    >
+                      <span className="material-symbols-outlined text-[16px]">chat</span>
+                      Cotizar por WhatsApp
+                    </a>
+                    <a
+                      href={p.fichaUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center justify-center gap-1 text-primary hover:text-secondary font-bold text-xs transition-colors"
+                    >
+                      Ver ficha técnica
                       <span className="material-symbols-outlined text-[14px]">open_in_new</span>
-                    </button>
+                    </a>
                   </div>
                 </div>
               </motion.div>

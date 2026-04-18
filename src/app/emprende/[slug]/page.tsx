@@ -45,14 +45,16 @@ export default async function EmprendePostPage({ params }: { params: Params }) {
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-20">
             <Link
               href="/emprende"
-              className="inline-flex items-center gap-2 text-white/60 hover:text-white text-sm mb-6 transition-colors"
+              className="inline-flex items-center gap-2 text-white/60 hover:text-white text-sm mb-8 transition-colors"
             >
               <span className="material-symbols-outlined text-[18px]">arrow_back</span>
               Volver a Emprende
             </Link>
-            <span className="inline-block text-[11px] font-bold uppercase tracking-widest text-accent bg-accent/10 border border-accent/20 px-3 py-1 rounded-full mb-5">
-              {post.category}
-            </span>
+            <div className="mb-5">
+              <span className="inline-block text-[11px] font-bold uppercase tracking-widest text-accent bg-accent/10 border border-accent/20 px-3 py-1 rounded-full">
+                {post.category}
+              </span>
+            </div>
             <h1 className="font-display font-black text-3xl md:text-5xl leading-tight mb-5">
               {post.title}
             </h1>

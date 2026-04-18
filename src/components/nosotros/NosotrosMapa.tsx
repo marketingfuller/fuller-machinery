@@ -1,12 +1,6 @@
 const ADDRESS_QUERY = "Fuller+Machinery+Calle+63B+79-35+Bogota";
 const MAP_EMBED = `https://www.google.com/maps?q=${ADDRESS_QUERY}&output=embed`;
 
-const phones = [
-  { label: "Ventas", number: "+57 310 285 2053", href: "tel:+573102852053" },
-  { label: "Comercial", number: "+57 324 424 7198", href: "tel:+573244247198" },
-  { label: "Servicio técnico", number: "+57 322 853 4925", href: "tel:+573228534925" },
-];
-
 export default function NosotrosMapa() {
   return (
     <section className="py-16 md:py-20 bg-slate-50">
@@ -28,7 +22,7 @@ export default function NosotrosMapa() {
           <div className="w-full md:w-1/3 p-10 bg-bg-dark text-white flex flex-col justify-center">
             <h3 className="font-display font-bold text-2xl mb-2">Visítanos</h3>
             <p className="text-white/45 text-xs uppercase tracking-widest mb-6 pb-4 border-b border-white/10">
-              Sede principal
+              Sede principal & Showroom
             </p>
             <div className="space-y-6">
               <div className="flex items-start gap-4">
@@ -55,18 +49,40 @@ export default function NosotrosMapa() {
                   <h4 className="font-bold text-accent text-sm mb-1">
                     Líneas
                   </h4>
-                  <ul className="space-y-1">
-                    {phones.map((p) => (
-                      <li key={p.number} className="text-white/60 text-sm">
-                        <a
-                          href={p.href}
-                          className="hover:text-accent transition-colors"
-                        >
-                          {p.number}
-                        </a>{" "}
-                        <span className="text-white/35 text-xs">· {p.label}</span>
-                      </li>
-                    ))}
+                  <ul className="space-y-1 text-sm">
+                    <li>
+                      <a
+                        href="tel:+573102852053"
+                        className="text-white/60 hover:text-accent transition-colors"
+                      >
+                        310 285 2053{" "}
+                        <span className="text-white/35 text-xs">
+                          · Recepción
+                        </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="tel:+573244247198"
+                        className="text-white/60 hover:text-accent transition-colors"
+                      >
+                        324 424 7198{" "}
+                        <span className="text-white/35 text-xs">
+                          · Comercial
+                        </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="tel:+573228534925"
+                        className="text-white/60 hover:text-accent transition-colors"
+                      >
+                        322 853 4925{" "}
+                        <span className="text-white/35 text-xs">
+                          · Técnico
+                        </span>
+                      </a>
+                    </li>
                   </ul>
                 </div>
               </div>

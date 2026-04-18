@@ -4,6 +4,7 @@ import Footer from "@/components/Footer";
 import NosotrosHero from "@/components/nosotros/NosotrosHero";
 import NosotrosHistoria from "@/components/nosotros/NosotrosHistoria";
 import NosotrosManifiesto from "@/components/nosotros/NosotrosManifiesto";
+import NosotrosEquipo from "@/components/nosotros/NosotrosEquipo";
 import NosotrosInfra from "@/components/nosotros/NosotrosInfra";
 import NosotrosMapa from "@/components/nosotros/NosotrosMapa";
 
@@ -21,6 +22,7 @@ export default function NosotrosPage() {
         <NosotrosHero />
         <NosotrosHistoria />
         <NosotrosManifiesto />
+        <NosotrosEquipo />
         <NosotrosInfra />
         <NosotrosMapa />
       </main>

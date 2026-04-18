@@ -95,7 +95,7 @@ export default function EmprendeBrowser({
       {showFeatured && <EmprendeFeatured post={featured} />}
 
       {gridPosts.length > 0 ? (
-        <EmprendeGrid posts={gridPosts} />
+        <EmprendeGrid key={`${category}-${normalized}`} posts={gridPosts} />
       ) : (
         <div className="text-center py-16 border border-dashed border-slate-200 rounded-2xl bg-slate-50">
           <div className="text-slate-400 mb-3">

@@ -38,8 +38,7 @@ export default function EmprendeGrid({ posts }: { posts: Post[] }) {
       <motion.div
         variants={containerVariants}
         initial="hidden"
-        whileInView="show"
-        viewport={{ once: true, margin: "-60px" }}
+        animate="show"
         className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
       >
         {posts.map((post) => (

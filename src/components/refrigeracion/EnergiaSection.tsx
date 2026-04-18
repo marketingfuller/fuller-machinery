@@ -89,8 +89,8 @@ export default function EnergiaSection() {
           >
             <div className="relative bg-white p-2 rounded-2xl shadow-2xl transform rotate-1 hover:rotate-0 transition-transform duration-500">
               <Image
-                src="https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?w=900&h=700&fit=crop&q=80"
-                alt="Refrigerador comercial eficiente"
+                src="/images/refrigeracion/cansado de pagar.webp"
+                alt="Equipo de refrigeración eficiente Fuller"
                 width={900}
                 height={700}
                 className="rounded-xl w-full h-auto object-cover"

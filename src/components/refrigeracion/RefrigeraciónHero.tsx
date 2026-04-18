@@ -12,7 +12,7 @@ export default function RefrigeraciónHero() {
           className="absolute inset-0 bg-cover bg-center group-hover:scale-105 transition-transform duration-700"
           style={{
             backgroundImage:
-              "url('https://images.unsplash.com/photo-1608198093002-ad4e005484ec?w=1200&h=900&fit=crop&q=80')",
+              "url('/images/refrigeracion/Hero refrigeracion.webp')",
           }}
         />
         {/* Gradient overlay */}

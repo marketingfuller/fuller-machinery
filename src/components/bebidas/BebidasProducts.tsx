@@ -98,7 +98,7 @@ export default function BebidasProducts() {
                 className="w-[300px] md:w-[320px] bg-white border border-slate-100 rounded-2xl shadow-md hover:shadow-xl transition-shadow duration-300 overflow-hidden flex-shrink-0 group"
               >
                 <div className="relative h-56 bg-slate-50 overflow-hidden">
-                  <Image src={p.image} alt={p.name} fill className="object-cover group-hover:scale-105 transition-transform duration-500" />
+                  <Image src={p.image} alt={`${p.name} — Maquinaria para bebidas y café | Fuller Machinery Colombia`} fill className="object-cover group-hover:scale-105 transition-transform duration-500" />
                   <span className={`absolute top-4 left-4 z-10 text-[10px] font-bold px-3 py-1.5 rounded-full uppercase tracking-wider text-white ${p.badgeColor}`}>{p.badge}</span>
                   <span className="absolute top-4 right-4 z-10 bg-emerald-100 text-emerald-800 text-[10px] font-bold px-2 py-1 rounded-full border border-emerald-200 uppercase flex items-center gap-1">
                     <span className="material-symbols-outlined text-[10px]">local_shipping</span>

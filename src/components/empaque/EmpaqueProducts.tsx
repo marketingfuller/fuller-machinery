@@ -153,7 +153,7 @@ export default function EmpaqueProducts() {
                 <div className="relative h-64 bg-slate-50 overflow-hidden">
                   <Image
                     src={p.image}
-                    alt={p.name}
+                    alt={`${p.name} — Maquinaria de empaque y sellado al vacío | Fuller Machinery Colombia`}
                     fill
                     className="object-contain p-4 group-hover:scale-105 transition-transform duration-500"
                   />

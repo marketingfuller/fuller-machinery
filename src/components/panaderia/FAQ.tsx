@@ -1,6 +1,8 @@
 "use client";
 
 import { motion } from "framer-motion";
+import JsonLd from "@/components/JsonLd";
+import { faqPageJsonLd } from "@/lib/seo";
 
 const faqs = [
   {
@@ -22,6 +24,11 @@ const tags = ["Hornos Eléctricos", "Amasadoras Espiral", "Laminadoras de Mesa",
 export default function FAQ() {
   return (
     <section className="py-20 bg-white">
+      <JsonLd
+        data={faqPageJsonLd(
+          faqs.map((f) => ({ question: f.q, answer: f.a }))
+        )}
+      />
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

@@ -1,74 +1,81 @@
 import type { MetadataRoute } from "next";
+import { getAllPosts } from "@/lib/emprende";
 
 const SITE_URL = "https://www.fullermachinery.com";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  return [
-    {
-      url: SITE_URL,
-      lastModified: new Date(),
-      changeFrequency: "weekly",
-      priority: 1,
-    },
+  const now = new Date();
+
+  const staticRoutes: MetadataRoute.Sitemap = [
+    { url: SITE_URL, lastModified: now, changeFrequency: "weekly", priority: 1 },
     {
       url: `${SITE_URL}/negocios`,
-      lastModified: new Date(),
+      lastModified: now,
       changeFrequency: "weekly",
       priority: 0.9,
     },
     {
       url: `${SITE_URL}/negocios/panaderia`,
-      lastModified: new Date(),
+      lastModified: now,
       changeFrequency: "weekly",
-      priority: 0.8,
+      priority: 0.85,
     },
     {
       url: `${SITE_URL}/negocios/bebidas`,
-      lastModified: new Date(),
+      lastModified: now,
       changeFrequency: "weekly",
-      priority: 0.8,
+      priority: 0.85,
     },
     {
       url: `${SITE_URL}/negocios/snacks`,
-      lastModified: new Date(),
+      lastModified: now,
       changeFrequency: "weekly",
-      priority: 0.8,
+      priority: 0.85,
     },
     {
       url: `${SITE_URL}/negocios/carnicos`,
-      lastModified: new Date(),
+      lastModified: now,
       changeFrequency: "weekly",
-      priority: 0.8,
+      priority: 0.85,
     },
     {
       url: `${SITE_URL}/negocios/refrigeracion`,
-      lastModified: new Date(),
+      lastModified: now,
       changeFrequency: "weekly",
-      priority: 0.8,
+      priority: 0.85,
     },
     {
       url: `${SITE_URL}/negocios/empaque`,
-      lastModified: new Date(),
+      lastModified: now,
       changeFrequency: "weekly",
-      priority: 0.8,
+      priority: 0.85,
     },
     {
       url: `${SITE_URL}/emprende`,
-      lastModified: new Date(),
+      lastModified: now,
       changeFrequency: "daily",
-      priority: 0.7,
-    },
-    {
-      url: `${SITE_URL}/servicio-tecnico`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
       priority: 0.8,
     },
     {
+      url: `${SITE_URL}/servicio-tecnico`,
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.75,
+    },
+    {
       url: `${SITE_URL}/nosotros`,
-      lastModified: new Date(),
+      lastModified: now,
       changeFrequency: "monthly",
       priority: 0.6,
     },
   ];
+
+  const articleRoutes: MetadataRoute.Sitemap = getAllPosts().map((post) => ({
+    url: `${SITE_URL}/emprende/${post.slug}`,
+    lastModified: new Date(post.date),
+    changeFrequency: "monthly",
+    priority: 0.7,
+  }));
+
+  return [...staticRoutes, ...articleRoutes];
 }

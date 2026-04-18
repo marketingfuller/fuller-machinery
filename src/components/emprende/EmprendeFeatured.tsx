@@ -26,10 +26,11 @@ export default function EmprendeFeatured({ post }: { post: Post }) {
           {post.cover && (
             <Image
               src={post.cover}
-              alt={post.title}
+              alt={`${post.title} — ${post.category} | Fuller Machinery`}
               fill
               className="object-cover group-hover:scale-105 transition-transform duration-700"
               priority
+              sizes="(max-width: 1024px) 100vw, 60vw"
             />
           )}
           <div className="absolute inset-0 bg-gradient-to-r from-transparent via-black/10 to-white lg:block hidden" />

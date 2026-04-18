@@ -60,9 +60,9 @@ export default function BakeryHero() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="font-display font-black text-4xl md:text-5xl leading-[1.1] mb-6"
           >
-            El Secreto de un Buen Pan es el{" "}
+            Máquinas para Panadería que{" "}
             <span className="bg-gradient-to-br from-white to-slate-400 bg-clip-text text-transparent">
-              Control Perfecto
+              Respetan tu Receta
             </span>
           </motion.h1>
 
@@ -72,9 +72,10 @@ export default function BakeryHero() {
             transition={{ duration: 0.6, delay: 0.3 }}
             className="text-white/65 text-lg leading-relaxed mb-10 max-w-md"
           >
-            Hornos de precisión térmica y amasadoras de alto torque diseñadas para
-            proteger la estructura del gluten. Eleva tu producción con maquinaria
-            que respeta tu receta.
+            Hornos industriales de precisión térmica, amasadoras de alto torque
+            y laminadoras pensadas para panaderías y pastelerías en Colombia.
+            Eleva tu producción con maquinaria que protege la estructura del
+            gluten.
           </motion.p>
 
           <motion.div

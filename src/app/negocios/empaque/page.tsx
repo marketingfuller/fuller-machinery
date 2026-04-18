@@ -1,4 +1,3 @@
-import type { Metadata } from "next";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import EmpaqueHero from "@/components/empaque/EmpaqueHero";
@@ -9,16 +8,42 @@ import AhorroBanner from "@/components/empaque/AhorroBanner";
 import DeliveryBanner from "@/components/empaque/DeliveryBanner";
 import InsumosStrip from "@/components/empaque/InsumosStrip";
 import EmpaqueFAQ from "@/components/empaque/EmpaqueFAQ";
+import RelatedCategories from "@/components/negocios/RelatedCategories";
+import JsonLd from "@/components/JsonLd";
+import { buildMetadata, breadcrumbJsonLd } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title: "Empaque y Automatización | Fuller Machinery",
+export const metadata = buildMetadata({
+  title:
+    "Empacadoras al Vacío y Selladoras Industriales | Fuller Machinery",
   description:
-    "Sistemas de empaque al vacío y sellado continuo que extienden la vida útil de tus alimentos hasta 5 veces, reducen el desperdicio y mejoran la presentación de tu marca.",
-};
+    "Empacadoras al vacío DZ-400 y doble cámara, selladoras de vasos automáticas, selladora de latas plásticas y banda continua con impresora. Extiende la vida útil de tus alimentos en Colombia.",
+  path: "/negocios/empaque",
+  image: "/images/empques inicio.webp",
+  keywords: [
+    "empacadora al vacío Colombia",
+    "empacadora al vacío DZ-400",
+    "empacadora doble cámara",
+    "selladora banda continua",
+    "selladora de vasos automática",
+    "selladora de latas plásticas",
+    "selladora de latas PET",
+    "máquinas de empaque industrial Colombia",
+    "maquinaria empaque al vacío",
+    "empaque para delivery",
+    "fechadora de bolsas",
+  ],
+});
 
 export default function EmpaquePage() {
   return (
     <>
+      <JsonLd
+        data={breadcrumbJsonLd([
+          { name: "Inicio", path: "/" },
+          { name: "Negocios", path: "/negocios" },
+          { name: "Empaque y Automatización", path: "/negocios/empaque" },
+        ])}
+      />
       <Header />
       <main className="min-h-screen mt-[80px]">
         <EmpaqueHero />
@@ -28,6 +53,7 @@ export default function EmpaquePage() {
         <AhorroBanner />
         <DeliveryBanner />
         <InsumosStrip />
+        <RelatedCategories current="empaque" />
         <EmpaqueFAQ />
       </main>
       <Footer />

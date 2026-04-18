@@ -143,7 +143,7 @@ export default function ProductosRefrigeracion() {
                 <div className="relative h-56 bg-slate-50 overflow-hidden">
                   <Image
                     src={p.image}
-                    alt={p.name}
+                    alt={`${p.name} — Refrigeración comercial industrial | Fuller Machinery Colombia`}
                     fill
                     className="object-contain p-4 group-hover:scale-105 transition-transform duration-500"
                   />

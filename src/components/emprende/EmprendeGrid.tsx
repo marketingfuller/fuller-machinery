@@ -47,9 +47,10 @@ export default function EmprendeGrid({ posts }: { posts: Post[] }) {
               {post.cover && (
                 <Image
                   src={post.cover}
-                  alt={post.title}
+                  alt={`${post.title} — ${post.category} | Fuller Machinery`}
                   fill
                   className="object-cover group-hover:scale-105 transition-transform duration-500"
+                  sizes="(max-width: 768px) 100vw, 33vw"
                 />
               )}
               <div className="absolute bottom-0 left-0 right-0 h-0.5 bg-secondary scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left" />

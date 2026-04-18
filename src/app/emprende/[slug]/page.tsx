@@ -6,7 +6,13 @@ import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import JsonLd from "@/components/JsonLd";
 import { getAllPosts, getPostBySlug } from "@/lib/emprende";
+import {
+  buildMetadata,
+  breadcrumbJsonLd,
+  articleJsonLd,
+} from "@/lib/seo";
 
 type Params = Promise<{ slug: string }>;
 
@@ -14,18 +20,38 @@ export async function generateStaticParams() {
   return getAllPosts().map((p) => ({ slug: p.slug }));
 }
 
-export async function generateMetadata({ params }: { params: Params }): Promise<Metadata> {
+export async function generateMetadata({
+  params,
+}: {
+  params: Params;
+}): Promise<Metadata> {
   const { slug } = await params;
   const post = getPostBySlug(slug);
-  if (!post) return { title: "Artículo no encontrado" };
-  return {
-    title: `${post.title} | Emprende — Fuller Machinery`,
+  if (!post)
+    return {
+      title: "Artículo no encontrado",
+      robots: { index: false, follow: false },
+    };
+
+  const publishedIso = new Date(post.date).toISOString();
+
+  return buildMetadata({
+    title: post.title,
     description: post.excerpt,
-    openGraph: post.cover ? { images: [{ url: post.cover }] } : undefined,
-  };
+    path: `/emprende/${post.slug}`,
+    image: post.cover ?? undefined,
+    type: "article",
+    publishedTime: publishedIso,
+    authors: [post.author],
+    section: post.category,
+  });
 }
 
-export default async function EmprendePostPage({ params }: { params: Params }) {
+export default async function EmprendePostPage({
+  params,
+}: {
+  params: Params;
+}) {
   const { slug } = await params;
   const post = getPostBySlug(slug);
   if (!post) notFound();
@@ -36,18 +62,39 @@ export default async function EmprendePostPage({ params }: { params: Params }) {
     day: "numeric",
   });
 
+  const publishedIso = new Date(post.date).toISOString();
+
   return (
     <>
+      <JsonLd
+        data={[
+          breadcrumbJsonLd([
+            { name: "Inicio", path: "/" },
+            { name: "Emprende", path: "/emprende" },
+            { name: post.title, path: `/emprende/${post.slug}` },
+          ]),
+          articleJsonLd({
+            title: post.title,
+            description: post.excerpt,
+            path: `/emprende/${post.slug}`,
+            image: post.cover ?? undefined,
+            publishedTime: publishedIso,
+            author: post.author,
+            section: post.category,
+          }),
+        ]}
+      />
       <Header />
       <main className="min-h-screen mt-[80px] bg-white">
-        {/* Hero */}
         <header className="relative bg-bg-dark text-white">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-20">
             <Link
               href="/emprende"
               className="inline-flex items-center gap-2 text-white/60 hover:text-white text-sm mb-8 transition-colors"
             >
-              <span className="material-symbols-outlined text-[18px]">arrow_back</span>
+              <span className="material-symbols-outlined text-[18px]">
+                arrow_back
+              </span>
               Volver a Emprende
             </Link>
             <div className="mb-5">
@@ -58,11 +105,13 @@ export default async function EmprendePostPage({ params }: { params: Params }) {
             <h1 className="font-display font-black text-3xl md:text-5xl leading-tight mb-5">
               {post.title}
             </h1>
-            <p className="text-white/70 text-lg leading-relaxed mb-6 max-w-3xl">{post.excerpt}</p>
+            <p className="text-white/70 text-lg leading-relaxed mb-6 max-w-3xl">
+              {post.excerpt}
+            </p>
             <div className="flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-white/50">
               <span>{post.author}</span>
               <span aria-hidden>·</span>
-              <span>{dateFmt}</span>
+              <time dateTime={publishedIso}>{dateFmt}</time>
               <span aria-hidden>·</span>
               <span>{post.readingTime}</span>
             </div>
@@ -72,15 +121,23 @@ export default async function EmprendePostPage({ params }: { params: Params }) {
         {post.cover && (
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 -mt-8 md:-mt-12 relative z-10">
             <div className="relative aspect-[16/9] rounded-2xl overflow-hidden shadow-2xl">
-              <Image src={post.cover} alt={post.title} fill className="object-cover" priority />
+              <Image
+                src={post.cover}
+                alt={`${post.title} — ${post.category} | Fuller Machinery`}
+                fill
+                className="object-cover"
+                priority
+                sizes="(max-width: 1024px) 100vw, 900px"
+              />
             </div>
           </div>
         )}
 
-        {/* Body */}
         <article className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">
           <div className="prose prose-slate md:prose-lg max-w-none prose-headings:font-display prose-headings:font-black prose-headings:text-slate-900 prose-a:text-primary hover:prose-a:text-secondary prose-a:font-semibold prose-strong:text-slate-900 prose-img:rounded-xl prose-table:text-sm prose-table:block prose-table:overflow-x-auto md:prose-table:table">
-            <ReactMarkdown remarkPlugins={[remarkGfm]}>{post.content}</ReactMarkdown>
+            <ReactMarkdown remarkPlugins={[remarkGfm]}>
+              {post.content}
+            </ReactMarkdown>
           </div>
         </article>
       </main>

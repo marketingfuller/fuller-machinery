@@ -113,7 +113,7 @@ export default function ProductGrid() {
                 <div className="relative h-56 bg-slate-50 overflow-hidden">
                   <Image
                     src={p.image}
-                    alt={p.name}
+                    alt={`${p.name} — Maquinaria para snacks y fast food | Fuller Machinery Colombia`}
                     fill
                     className="object-contain p-4 group-hover:scale-105 transition-transform duration-500"
                   />

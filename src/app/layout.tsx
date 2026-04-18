@@ -87,10 +87,6 @@ export const metadata: Metadata = {
       "Maquinaria profesional para panadería, bebidas, snacks, cárnicos, empaque y refrigeración en Colombia.",
     images: ["/images/logo-fuller.webp"],
   },
-  icons: {
-    icon: "/favicon.ico",
-    apple: "/apple-touch-icon.webp",
-  },
 };
 
 const jsonLd = {

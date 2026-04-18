@@ -16,8 +16,8 @@ const faqs = [
     a: "Sí. Nuestras bolsas gofradas están certificadas para uso en cocción sous vide hasta 85°C sin liberar plastificantes. Son las mismas que usan los restaurantes de cocina de autor. Si necesitas temperaturas mayores (hasta 121°C para esterilización), tenemos bolsas de nylon multilayer de alta resistencia disponibles en nuestro catálogo de insumos.",
   },
   {
-    q: "¿Ofrecen mantenimiento preventivo y repuestos?",
-    a: "Sí. Ofrecemos planes de mantenimiento preventivo trimestral y semestral. Las piezas de mayor desgaste — barras de sellado, sellos de vacío, filtros de aceite — están en stock permanente para entrega inmediata. Todos nuestros técnicos están certificados y pueden atender en sitio en las principales ciudades.",
+    q: "¿Manejan repuestos y capacitación de uso?",
+    a: "Sí. Los repuestos (barras de sellado, sellos de vacío y piezas de desgaste) están sujetos a disponibilidad en stock y solo aplican para equipos Fuller Machinery. La capacitación de uso es sin costo: presencial en Bogotá al entregar el equipo, o remota por videollamada si estás en otra ciudad de Colombia.",
   },
 ];
 

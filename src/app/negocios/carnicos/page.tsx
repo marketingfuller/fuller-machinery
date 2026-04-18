@@ -5,7 +5,6 @@ import CarnicosNiches from "@/components/carnicos/CarnicosNiches";
 import CarnicosTrust from "@/components/carnicos/CarnicosTrust";
 import CarnicosProducts from "@/components/carnicos/CarnicosProducts";
 import MiseEnPlaceBanner from "@/components/carnicos/MiseEnPlaceBanner";
-import RepuestosStrip from "@/components/carnicos/RepuestosStrip";
 import CarnicosFAQ from "@/components/carnicos/CarnicosFAQ";
 
 export default function CarnicosPage() {
@@ -18,7 +17,6 @@ export default function CarnicosPage() {
         <CarnicosTrust />
         <CarnicosProducts />
         <MiseEnPlaceBanner />
-        <RepuestosStrip />
         <CarnicosFAQ />
       </main>
       <Footer />

@@ -107,10 +107,12 @@ export default function CarnicosTrust() {
           className="mt-14 flex flex-col sm:flex-row items-center justify-center gap-4 text-center"
         >
           <p className="text-white/50 text-sm">
-            ¿Necesitas asesoría técnica para elegir el equipo correcto?
+            ¿Necesitas asesoría para elegir el equipo correcto?
           </p>
           <a
-            href="#"
+            href="https://wa.me/573244247198?text=Hola%2C%20necesito%20asesor%C3%ADa%20para%20elegir%20un%20equipo%20de%20procesamiento%20c%C3%A1rnico"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center gap-2 text-accent font-bold text-sm hover:text-white transition-colors underline underline-offset-4"
           >
             Habla con un especialista →

@@ -4,16 +4,20 @@ import { motion } from "framer-motion";
 
 const faqs = [
   {
-    q: "¿Qué voltaje requieren los equipos cárnicos?",
-    a: "La mayoría de nuestros equipos operan en 110V/60Hz estándar. Los molinos industriales de mayor potencia (3HP+) y las sierras de cinta grandes requieren 220V trifásico. En la ficha técnica de cada equipo encontrarás la especificación eléctrica exacta. Si necesitas orientación, nuestro equipo técnico puede visitar tu local.",
+    q: "¿Cuentan con garantía?",
+    a: "Sí. La garantía depende del producto y va de 6 meses a 1 año por defectos de fábrica. Al hacer tu cotización te confirmamos el plazo exacto del equipo cárnico que estás solicitando.",
   },
   {
-    q: "¿Los equipos cumplen con normativas INVIMA y sanitarias?",
-    a: "Sí. Todos nuestros equipos de procesamiento cárnico están fabricados en acero inoxidable 304 certificado (también conocido como 18/8), sin zonas de acumulación de bacteria. Las superficies son lisas, fáciles de desmontar y lavar según protocolos HACCP. Podemos proveer fichas técnicas y certificados de materiales para auditorías.",
+    q: "¿Manejan repuestos?",
+    a: "Sí, pero están sujetos a disponibilidad en stock y solo aplican para máquinas Fuller Machinery. No gestionamos repuestos de equipos de otras marcas. Escríbenos con el modelo de tu Fuller y te confirmamos existencias.",
   },
   {
-    q: "¿Incluyen capacitación y soporte técnico post-venta?",
-    a: "Sí. Con cada equipo incluimos una jornada de arranque operativo en la que nuestros técnicos instalan el equipo, realizan las pruebas de funcionamiento y capacitan a los operarios. Adicionalmente ofrecemos soporte remoto sin costo durante los primeros 12 meses y red de servicio técnico autorizado a nivel nacional.",
+    q: "¿Incluyen capacitación de uso?",
+    a: "Sí, sin costo adicional. Si estás en Bogotá la capacitación es presencial al momento de la entrega. Si estás en otra ciudad de Colombia te damos la capacitación de forma remota por videollamada, cubriendo instalación, puesta en marcha y recomendaciones de uso.",
+  },
+  {
+    q: "¿Realizan envíos internacionales?",
+    a: "No. Por el momento solo hacemos envíos dentro de Colombia. Despachamos a todo el territorio nacional con operadores aliados y el equipo viaja siempre asegurado.",
   },
 ];
 
@@ -75,8 +79,10 @@ export default function CarnicosFAQ() {
             ¿Tienes una pregunta que no aparece aquí?
           </p>
           <a
-            href="#"
-            className="inline-flex items-center gap-2 bg-secondary hover:bg-secondary/90 text-white font-bold px-6 py-3 rounded-xl text-sm transition-all hover:-translate-y-0.5 hover:shadow-lg hover:shadow-secondary/25"
+            href="https://wa.me/573244247198?text=Hola%2C%20tengo%20una%20pregunta%20sobre%20los%20equipos%20c%C3%A1rnicos"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 bg-green-600 hover:bg-green-700 text-white font-bold px-6 py-3 rounded-xl text-sm transition-all hover:-translate-y-0.5 hover:shadow-lg hover:shadow-green-600/25"
           >
             <span className="material-symbols-outlined text-[18px]">chat</span>
             Contáctanos por WhatsApp

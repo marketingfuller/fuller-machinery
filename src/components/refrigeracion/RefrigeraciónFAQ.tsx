@@ -12,8 +12,8 @@ const faqs = [
     a: "Triple protección de embalaje: caja de madera estructurada, esquineros de espuma de alta densidad y film stretch multicapa. Cada vitrina sale asegurada al 100% contra roturas. En caso de daño en tránsito, reponemos el equipo sin costo adicional.",
   },
   {
-    q: "¿Cuentan con soporte técnico para instalación?",
-    a: "Sí. Red nacional de técnicos certificados en más de 15 ciudades. Para equipos de gran porte (neveras verticales, vitrinas mostrador y fabricadores de hielo), la instalación en ciudades principales está incluida en el precio. Equipos plug-and-play incluyen videollamada de acompañamiento con técnico.",
+    q: "¿Cuentan con capacitación de uso e instalación?",
+    a: "Sí. La capacitación de uso es sin costo adicional: presencial en Bogotá al momento de la entrega, o remota por videollamada si estás en otra ciudad de Colombia. Te guiamos en instalación, puesta en marcha y recomendaciones de uso para que el equipo funcione desde el primer día.",
   },
 ];
 

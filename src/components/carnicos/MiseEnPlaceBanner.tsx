@@ -82,7 +82,9 @@ export default function MiseEnPlaceBanner() {
             </div>
 
             <a
-              href="#"
+              href="https://tienda.fullermachinery.com/?s=procesador&post_type=product&product_cat=0"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center gap-3 bg-primary hover:bg-bg-dark text-white font-bold px-7 py-4 rounded-xl transition-all duration-200 hover:shadow-lg hover:-translate-y-0.5 text-sm uppercase tracking-wide self-start"
             >
               Ver Ayudantes de Cocina

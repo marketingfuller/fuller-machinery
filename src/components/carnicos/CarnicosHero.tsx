@@ -94,7 +94,9 @@ export default function CarnicosHero() {
             transition={{ duration: 0.6, delay: 0.4 }}
           >
             <a
-              href="#productos"
+              href="https://tienda.fullermachinery.com/?s=procesador&post_type=product&product_cat=0"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center gap-3 bg-secondary hover:bg-secondary/90 text-white font-bold px-7 py-4 rounded-xl transition-all duration-200 hover:shadow-xl hover:shadow-secondary/30 hover:-translate-y-0.5 text-sm uppercase tracking-wide"
             >
               Ver Catálogo de Procesamiento

@@ -53,6 +53,12 @@ function getWhatsAppUrl(productName: string) {
 export default function ViralCarousel() {
   const scrollRef = useRef<HTMLDivElement>(null);
 
+  const scroll = (dir: "left" | "right") => {
+    if (!scrollRef.current) return;
+    const amount = 320;
+    scrollRef.current.scrollBy({ left: dir === "left" ? -amount : amount, behavior: "smooth" });
+  };
+
   return (
     <section id="emprende" className="bg-bg-dark py-20 lg:py-28 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -73,20 +79,40 @@ export default function ViralCarousel() {
               Tendencias Virales
             </h2>
           </div>
-          <a
-            href="https://tienda.fullermachinery.com/index.php/shop/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hidden sm:inline-flex text-accent hover:text-white text-sm font-medium transition-colors"
-          >
-            Ver todo →
-          </a>
+          <div className="hidden md:flex items-center gap-4">
+            <div className="flex items-center gap-2">
+              <button
+                type="button"
+                aria-label="Anterior"
+                onClick={() => scroll("left")}
+                className="size-10 rounded-full border border-white/20 hover:border-accent hover:text-accent text-white/70 flex items-center justify-center transition-colors"
+              >
+                <span className="material-symbols-outlined text-[20px]">chevron_left</span>
+              </button>
+              <button
+                type="button"
+                aria-label="Siguiente"
+                onClick={() => scroll("right")}
+                className="size-10 rounded-full border border-white/20 hover:border-accent hover:text-accent text-white/70 flex items-center justify-center transition-colors"
+              >
+                <span className="material-symbols-outlined text-[20px]">chevron_right</span>
+              </button>
+            </div>
+            <a
+              href="https://tienda.fullermachinery.com/index.php/shop/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-accent hover:text-white text-sm font-medium transition-colors"
+            >
+              Ver todo →
+            </a>
+          </div>
         </motion.div>
 
         {/* Carousel */}
         <div
           ref={scrollRef}
-          className="flex gap-5 overflow-x-auto snap-x snap-mandatory no-scrollbar pb-4 -mx-4 px-4"
+          className="flex gap-5 overflow-x-auto snap-x snap-mandatory no-scrollbar pb-4 -mx-4 px-4 scroll-smooth"
         >
           {products.map((product, i) => (
             <motion.div

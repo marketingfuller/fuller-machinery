@@ -1,5 +1,6 @@
 "use client";
 
+import { useRef } from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
 
@@ -55,6 +56,14 @@ const products = [
 ];
 
 export default function EmpaqueProducts() {
+  const scrollRef = useRef<HTMLDivElement>(null);
+
+  const scroll = (dir: "left" | "right") => {
+    if (!scrollRef.current) return;
+    const amount = 360;
+    scrollRef.current.scrollBy({ left: dir === "left" ? -amount : amount, behavior: "smooth" });
+  };
+
   return (
     <section id="productos" className="bg-white py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -68,19 +77,39 @@ export default function EmpaqueProducts() {
               Catálogo de Empaque
             </h2>
           </div>
-          <a
-            href="#"
-            className="inline-flex items-center gap-2 text-primary font-bold text-sm hover:text-secondary transition-colors shrink-0"
-          >
-            Ver todo el catálogo
-            <span className="material-symbols-outlined text-[18px]">
-              arrow_forward
-            </span>
-          </a>
+          <div className="flex items-center gap-4 shrink-0">
+            <div className="hidden md:flex items-center gap-2">
+              <button
+                type="button"
+                aria-label="Anterior"
+                onClick={() => scroll("left")}
+                className="size-10 rounded-full border border-slate-200 hover:border-primary hover:text-primary text-slate-500 flex items-center justify-center transition-colors shadow-sm hover:shadow"
+              >
+                <span className="material-symbols-outlined text-[20px]">chevron_left</span>
+              </button>
+              <button
+                type="button"
+                aria-label="Siguiente"
+                onClick={() => scroll("right")}
+                className="size-10 rounded-full border border-slate-200 hover:border-primary hover:text-primary text-slate-500 flex items-center justify-center transition-colors shadow-sm hover:shadow"
+              >
+                <span className="material-symbols-outlined text-[20px]">chevron_right</span>
+              </button>
+            </div>
+            <a
+              href="#"
+              className="inline-flex items-center gap-2 text-primary font-bold text-sm hover:text-secondary transition-colors"
+            >
+              Ver todo el catálogo
+              <span className="material-symbols-outlined text-[18px]">
+                arrow_forward
+              </span>
+            </a>
+          </div>
         </div>
 
         {/* Horizontal scroll container */}
-        <div className="overflow-x-auto pb-4 -mx-4 px-4 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+        <div ref={scrollRef} className="overflow-x-auto pb-4 -mx-4 px-4 scroll-smooth [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
           <div className="flex gap-6 w-max">
             {products.map((p, i) => (
               <motion.div

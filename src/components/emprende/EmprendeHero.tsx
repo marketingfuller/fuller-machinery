@@ -1,14 +1,11 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Search } from "lucide-react";
-
-const trending = ["#Granizados", "#PanaderíaArtesanal", "#MantenimientoPreventivo", "#BubbleWaffles"];
+import { ArrowDown } from "lucide-react";
 
 export default function EmprendeHero() {
   return (
-    <section className="relative bg-bg-dark overflow-hidden py-24 px-4">
-      {/* Dot-grid texture */}
+    <section className="relative bg-bg-dark overflow-hidden py-16 md:py-24 px-4">
       <div
         className="absolute inset-0 opacity-[0.06] pointer-events-none"
         style={{
@@ -16,16 +13,14 @@ export default function EmprendeHero() {
           backgroundSize: "24px 24px",
         }}
       />
-      {/* Bottom fade into white */}
-      <div className="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-white to-transparent" />
+      <div className="absolute bottom-0 left-0 right-0 h-20 bg-gradient-to-t from-white to-transparent" />
 
       <div className="relative z-10 max-w-3xl mx-auto text-center">
-        {/* Badge */}
         <motion.div
           initial={{ opacity: 0, y: 12 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-          className="inline-flex items-center gap-2 bg-accent/10 border border-accent/20 text-accent px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-widest mb-7"
+          className="inline-flex items-center gap-2 bg-accent/10 border border-accent/20 text-accent px-4 py-1.5 rounded-full text-[11px] md:text-xs font-bold uppercase tracking-widest mb-6"
         >
           <span className="material-symbols-outlined text-[15px]">school</span>
           Academia Fuller Machinery
@@ -35,7 +30,7 @@ export default function EmprendeHero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.1 }}
-          className="font-display font-black text-4xl md:text-5xl lg:text-6xl text-white leading-[1.05] mb-5 tracking-tight"
+          className="font-display font-black text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-white leading-[1.1] mb-5 tracking-tight"
         >
           Aprende a Construir un{" "}
           <span className="bg-gradient-to-r from-accent to-white bg-clip-text text-transparent">
@@ -47,51 +42,33 @@ export default function EmprendeHero() {
           initial={{ opacity: 0, y: 16 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.2 }}
-          className="text-white/60 text-lg mb-10 max-w-xl mx-auto leading-relaxed"
+          className="text-white/60 text-base md:text-lg mb-8 max-w-xl mx-auto leading-relaxed"
         >
-          Guías técnicas, análisis de mercado y consejos de expertos para
-          proteger tu inversión y maximizar tus ganancias.
+          Guías, análisis de mercado y datos reales para emprendedores gastronómicos en Colombia.
         </motion.p>
 
-        {/* Search bar */}
         <motion.div
-          initial={{ opacity: 0, y: 16 }}
+          initial={{ opacity: 0, y: 12 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.55, delay: 0.3 }}
-          className="relative max-w-2xl mx-auto"
+          className="flex flex-col sm:flex-row items-center justify-center gap-3"
         >
-          <div className="absolute inset-y-0 left-0 pl-5 flex items-center pointer-events-none">
-            <Search size={20} className="text-slate-400" />
-          </div>
-          <input
-            type="text"
-            placeholder="¿Qué quieres aprender? Ej: cómo limpiar mi amasadora..."
-            className="w-full pl-14 pr-16 py-5 rounded-2xl bg-white text-slate-900 placeholder:text-slate-400 text-sm focus:outline-none focus:ring-2 focus:ring-accent shadow-xl"
-          />
-          <div className="absolute inset-y-0 right-2 flex items-center">
-            <button className="bg-primary hover:bg-primary/90 text-white rounded-xl px-4 py-2.5 transition-colors">
-              <span className="material-symbols-outlined text-[20px]">arrow_forward</span>
-            </button>
-          </div>
-        </motion.div>
-
-        {/* Trending tags */}
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 0.5, delay: 0.45 }}
-          className="mt-5 flex flex-wrap justify-center gap-2"
-        >
-          <span className="text-white/40 text-xs font-medium self-center">Tendencias:</span>
-          {trending.map((tag) => (
-            <a
-              key={tag}
-              href="#"
-              className="text-xs font-bold text-accent hover:text-white bg-white/5 hover:bg-white/10 border border-white/10 hover:border-white/20 px-3 py-1 rounded-full transition-all"
-            >
-              {tag}
-            </a>
-          ))}
+          <a
+            href="#articulos"
+            className="inline-flex items-center justify-center gap-2 bg-secondary hover:bg-secondary/90 text-white font-bold px-6 py-3 rounded-xl text-sm uppercase tracking-wide transition-all hover:-translate-y-0.5 hover:shadow-lg hover:shadow-secondary/25 w-full sm:w-auto"
+          >
+            Ver artículos
+            <ArrowDown size={16} />
+          </a>
+          <a
+            href="https://wa.me/573244247198?text=Hola%2C%20necesito%20asesor%C3%ADa%20para%20mi%20negocio%20gastron%C3%B3mico"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center gap-2 bg-white/5 hover:bg-white/10 border border-white/20 text-white font-bold px-6 py-3 rounded-xl text-sm uppercase tracking-wide transition-all w-full sm:w-auto"
+          >
+            <span className="material-symbols-outlined text-[16px]">chat</span>
+            Asesoría por WhatsApp
+          </a>
         </motion.div>
       </div>
     </section>

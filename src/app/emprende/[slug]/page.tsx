@@ -57,11 +57,11 @@ export default async function EmprendePostPage({ params }: { params: Params }) {
               {post.title}
             </h1>
             <p className="text-white/70 text-lg leading-relaxed mb-6 max-w-3xl">{post.excerpt}</p>
-            <div className="flex items-center gap-3 text-sm text-white/50">
+            <div className="flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-white/50">
               <span>{post.author}</span>
-              <span>·</span>
+              <span aria-hidden>·</span>
               <span>{dateFmt}</span>
-              <span>·</span>
+              <span aria-hidden>·</span>
               <span>{post.readingTime}</span>
             </div>
           </div>
@@ -77,7 +77,7 @@ export default async function EmprendePostPage({ params }: { params: Params }) {
 
         {/* Body */}
         <article className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">
-          <div className="prose prose-slate prose-lg max-w-none prose-headings:font-display prose-headings:font-black prose-headings:text-slate-900 prose-a:text-primary hover:prose-a:text-secondary prose-a:font-semibold prose-strong:text-slate-900 prose-img:rounded-xl prose-table:text-sm">
+          <div className="prose prose-slate md:prose-lg max-w-none prose-headings:font-display prose-headings:font-black prose-headings:text-slate-900 prose-a:text-primary hover:prose-a:text-secondary prose-a:font-semibold prose-strong:text-slate-900 prose-img:rounded-xl prose-table:text-sm prose-table:block prose-table:overflow-x-auto md:prose-table:table">
             <ReactMarkdown remarkPlugins={[remarkGfm]}>{post.content}</ReactMarkdown>
           </div>
         </article>

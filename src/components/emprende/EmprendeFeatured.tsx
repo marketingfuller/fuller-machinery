@@ -60,12 +60,12 @@ export default function EmprendeFeatured({ post }: { post: Post }) {
 
           <p className="text-slate-500 text-base leading-relaxed mb-8 line-clamp-3">{post.excerpt}</p>
 
-          <div className="flex items-center gap-3 mb-8 text-xs text-slate-400">
+          <div className="flex flex-wrap items-center gap-x-3 gap-y-1 mb-8 text-xs text-slate-400">
             <div className="size-8 rounded-full bg-primary/10 flex items-center justify-center">
               <span className="material-symbols-outlined text-primary text-[16px]">person</span>
             </div>
             <span className="font-medium text-slate-600">{post.author}</span>
-            <span>·</span>
+            <span aria-hidden>·</span>
             <span>{dateFmt}</span>
           </div>
 

@@ -10,7 +10,7 @@ import { cn } from "@/lib/cn";
 const navLinks = [
   { label: "Inicio", href: "/" },
   { label: "Negocios", href: "/negocios", hasMega: true },
-  { label: "Emprende", href: "/blog" },
+  { label: "Emprende", href: "/emprende" },
   { label: "Servicio Técnico", href: "/servicio-tecnico" },
   { label: "Nosotros", href: "/nosotros" },
 ];

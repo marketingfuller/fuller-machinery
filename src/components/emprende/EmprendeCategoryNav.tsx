@@ -13,7 +13,7 @@ const categories = [
   "Casos de Éxito",
 ];
 
-export default function BlogCategoryNav() {
+export default function EmprendeCategoryNav() {
   const [active, setActive] = useState("Todos");
 
   return (

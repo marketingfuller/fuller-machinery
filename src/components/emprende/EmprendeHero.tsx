@@ -5,7 +5,7 @@ import { Search } from "lucide-react";
 
 const trending = ["#Granizados", "#PanaderíaArtesanal", "#MantenimientoPreventivo", "#BubbleWaffles"];
 
-export default function BlogHero() {
+export default function EmprendeHero() {
   return (
     <section className="relative bg-bg-dark overflow-hidden py-24 px-4">
       {/* Dot-grid texture */}

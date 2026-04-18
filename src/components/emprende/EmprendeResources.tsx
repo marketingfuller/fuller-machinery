@@ -53,7 +53,7 @@ const itemVariants = {
   },
 };
 
-export default function BlogResources() {
+export default function EmprendeResources() {
   return (
     <section className="py-20 md:py-24 bg-bg-dark">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

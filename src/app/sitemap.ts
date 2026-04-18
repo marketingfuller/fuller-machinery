@@ -53,7 +53,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
-      url: `${SITE_URL}/blog`,
+      url: `${SITE_URL}/emprende`,
       lastModified: new Date(),
       changeFrequency: "daily",
       priority: 0.7,

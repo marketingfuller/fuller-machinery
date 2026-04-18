@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 
-export default function BlogNewsletter() {
+export default function EmprendeNewsletter() {
   return (
     <section className="relative bg-primary py-20 px-4 overflow-hidden">
       {/* Dot-grid texture */}

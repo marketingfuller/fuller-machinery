@@ -12,7 +12,7 @@ const services = [
     accentText: "text-accent",
     accentBg: "bg-accent/10 border-accent/30",
     title: "Mantenimiento preventivo",
-    desc: "Revisión programada cada 6 meses para alargar la vida útil del equipo y detectar desgastes antes de que se conviertan en una falla. Presencial en Bogotá o guiado por videollamada.",
+    desc: "Revisión programada cada 6 meses para alargar la vida útil del equipo y detectar desgastes antes de que se conviertan en una falla. Se atiende en nuestra sede de Bogotá.",
     cta: "Agendar preventivo",
     whatsapp:
       WHATSAPP_BASE +
@@ -25,7 +25,7 @@ const services = [
     accentText: "text-secondary",
     accentBg: "bg-secondary/10 border-secondary/30",
     title: "Mantenimiento correctivo",
-    desc: "Cuando el equipo ya presenta una falla específica. Diagnosticamos, cotizamos la reparación y solucionamos con repuestos originales Fuller. Presencial en Bogotá o remoto al resto del país.",
+    desc: "Cuando el equipo ya presenta una falla específica. Diagnosticamos, cotizamos la reparación y solucionamos con repuestos originales Fuller. Se atiende en nuestra sede de Bogotá.",
     cta: "Reportar falla",
     whatsapp:
       WHATSAPP_BASE +
@@ -77,9 +77,8 @@ export default function ServicioServices() {
             Lo que sí hacemos
           </h2>
           <p className="text-slate-500 text-sm mt-3 max-w-xl mx-auto">
-            Tres frentes claros. Lo presencial se atiende en Bogotá; el resto
-            del país lo cubrimos con soporte remoto efectivo y envío de
-            repuestos originales.
+            Tres frentes claros. Mantenimiento presencial en nuestra sede de
+            Bogotá y despacho de repuestos originales Fuller a todo el país.
           </p>
         </div>
 

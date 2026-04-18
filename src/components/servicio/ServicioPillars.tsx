@@ -22,8 +22,8 @@ const pillars = [
     icon: MapPin,
     color: "bg-accent/15 border-accent/30",
     iconColor: "text-accent",
-    title: "Bogotá presencial · Remoto nacional",
-    desc: "Servicio técnico presencial en nuestra sede de Bogotá y soporte remoto por WhatsApp y videollamada al resto del país.",
+    title: "Presencial en Bogotá",
+    desc: "El mantenimiento se atiende en nuestra sede de Bogotá. Para clientes de otras ciudades despachamos repuestos originales Fuller con guía telefónica.",
   },
 ];
 

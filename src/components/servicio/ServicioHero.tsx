@@ -42,9 +42,9 @@ export default function ServicioHero() {
             </h1>
 
             <p className="text-white/60 text-base leading-relaxed mb-8 max-w-lg">
-              Servicio técnico presencial en Bogotá y soporte remoto a nivel
-              nacional por WhatsApp y videollamada. Repuestos originales Fuller
-              y garantía directa de 6 meses a 1 año según el equipo.
+              Servicio técnico presencial en nuestra sede de Bogotá, repuestos
+              originales Fuller con despacho nacional y garantía directa de 6
+              meses a 1 año según el equipo.
             </p>
 
             <div className="grid grid-cols-3 gap-4 mb-8 pb-8 border-b border-white/10 max-w-md">
@@ -66,10 +66,10 @@ export default function ServicioHero() {
               </div>
               <div>
                 <p className="text-accent font-black text-2xl sm:text-3xl font-display">
-                  Remoto
+                  Nacional
                 </p>
                 <p className="text-white/45 text-[11px] mt-1 uppercase tracking-wide">
-                  Nacional
+                  Despacho repuestos
                 </p>
               </div>
             </div>

@@ -12,7 +12,7 @@ export default function CarnicosHero() {
           className="absolute inset-0 bg-cover bg-center group-hover:scale-105 transition-transform duration-700"
           style={{
             backgroundImage:
-              "url('https://images.unsplash.com/photo-1607623814075-e51df1bdc82f?w=1200&h=900&fit=crop&q=80')",
+              "url('/images/carnicos y procesamiento/Hero carnicos.webp')",
           }}
         />
         {/* Gradient fading into the right content panel */}

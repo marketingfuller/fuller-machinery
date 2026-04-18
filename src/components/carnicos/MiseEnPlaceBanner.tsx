@@ -20,7 +20,7 @@ export default function MiseEnPlaceBanner() {
               className="absolute inset-0 bg-cover bg-center"
               style={{
                 backgroundImage:
-                  "url('https://images.unsplash.com/photo-1547592180-85f173990554?w=900&h=700&fit=crop&q=80')",
+                  "url('/images/carnicos y procesamiento/peladoras reducen horas de trabajo- carnicos.webp')",
               }}
             />
             {/* Dark overlay */}

@@ -1,29 +1,29 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ShieldCheck, Award, MapPin } from "lucide-react";
+import { ShieldCheck, Settings2, MapPin } from "lucide-react";
 
 const pillars = [
   {
     icon: ShieldCheck,
     color: "bg-accent/15 border-accent/30",
     iconColor: "text-accent",
-    title: "Stock Real de Repuestos",
-    desc: "Almacén centralizado con más de 5,000 partes originales listas para envío inmediato a todo el país.",
+    title: "Garantía de 6 meses a 1 año",
+    desc: "Cobertura según el equipo, directa con Fuller. Aplica a defectos de fábrica y daños no causados por mal uso.",
   },
   {
-    icon: Award,
+    icon: Settings2,
     color: "bg-secondary/15 border-secondary/30",
     iconColor: "text-secondary",
-    title: "Técnicos Certificados",
-    desc: "Profesionales entrenados directamente por los fabricantes para diagnosticar y reparar con precisión.",
+    title: "Repuestos originales Fuller",
+    desc: "Solo manejamos repuestos de nuestras propias líneas. No compatibles ni genéricos — compatibilidad y duración garantizadas.",
   },
   {
     icon: MapPin,
     color: "bg-accent/15 border-accent/30",
     iconColor: "text-accent",
-    title: "Cobertura Nacional",
-    desc: "Red de asistencia en sitio y soporte remoto para resolver problemas donde tu negocio esté.",
+    title: "Bogotá presencial · Remoto nacional",
+    desc: "Servicio técnico presencial en nuestra sede de Bogotá y soporte remoto por WhatsApp y videollamada al resto del país.",
   },
 ];
 

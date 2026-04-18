@@ -6,13 +6,12 @@ import ServicioPillars from "@/components/servicio/ServicioPillars";
 import ServicioServices from "@/components/servicio/ServicioServices";
 import RepuestoCTA from "@/components/servicio/RepuestoCTA";
 import GarantiaSection from "@/components/servicio/GarantiaSection";
-import ServicioTestimonial from "@/components/servicio/ServicioTestimonial";
 import ServicioForm from "@/components/servicio/ServicioForm";
 
 export const metadata: Metadata = {
   title: "Servicio Técnico y Garantía | Fuller Machinery",
   description:
-    "Soporte técnico especializado, +5,000 repuestos originales y técnicos certificados. Garantía directa de 12 meses sin letra pequeña para tu maquinaria.",
+    "Servicio técnico Fuller: reparación presencial en Bogotá, soporte remoto a nivel nacional, repuestos originales Fuller y garantía directa de 6 meses a 1 año.",
 };
 
 export default function ServicioTecnicoPage() {
@@ -25,7 +24,6 @@ export default function ServicioTecnicoPage() {
         <ServicioServices />
         <RepuestoCTA />
         <GarantiaSection />
-        <ServicioTestimonial />
         <ServicioForm />
       </main>
       <Footer />

@@ -5,52 +5,70 @@ import Image from "next/image";
 
 const products = [
   {
-    name: "Sierra Cinta Industrial",
-    badge: "Carnicerías",
+    name: "Molino de Carne #32 Industrial",
+    badge: "Más Potente",
     badgeColor: "bg-secondary",
     image:
-      "https://images.unsplash.com/photo-1588347818036-c65e4d8e4b5e?w=600&h=500&fit=crop&q=80",
-    originalPrice: "$2,150.00",
-    salePrice: "$1,850.00",
-    hasStrikethrough: true,
-    desc: "Ideal para carnicerías de alto volumen. Corte preciso de hueso y congelados.",
-    specs: ["Motor 1HP", "Hoja 45cm", "Acero 304"],
+      "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=600&h=500&fit=crop&q=80",
+    desc: "Motor reversible 2.200W y 170 rpm. Incluye 2 discos, 2 cuchillas y bandejas en acero inoxidable.",
+    specs: ["350 kg/h", "2.200W", "Reversible"],
+    fichaUrl: "https://tienda.fullermachinery.com/?s=molino+de+carne&post_type=product&product_cat=0",
+    whatsappUrl: "https://wa.me/573244247198?text=Hola%2C%20me%20interesa%20el%20Molino%20de%20Carne%20%2332%20Industrial",
   },
   {
-    name: "Molino de Carne #22",
-    badge: "Más Vendido",
+    name: "Sierra de Hueso y Carnes",
+    badge: "Carnicerías",
     badgeColor: "bg-accent text-bg-dark",
     image:
-      "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=600&h=500&fit=crop&q=80",
-    originalPrice: null,
-    salePrice: "$890.00",
-    hasStrikethrough: false,
-    desc: "Cuerpo en acero inoxidable. Capacidad de 250 kg/hora. Motor 1.5HP.",
-    specs: ["250 kg/h", "Motor 1.5HP", "Platos: 3,5,8mm"],
+      "https://images.unsplash.com/photo-1588347818036-c65e4d8e4b5e?w=600&h=500&fit=crop&q=80",
+    desc: "Sierra industrial de precisión para hueso duro y carnes, ideal para frigoríficos, hoteles y restaurantes.",
+    specs: ["750 W", "110V", "70 kg"],
+    fichaUrl: "https://tienda.fullermachinery.com/index.php/producto/sierra-de-hueso-y-carnes/",
+    whatsappUrl: "https://wa.me/573244247198?text=Hola%2C%20me%20interesa%20la%20Sierra%20de%20Hueso%20y%20Carnes",
   },
   {
-    name: "Procesador de Vegetales",
-    badge: "Cocinas",
-    badgeColor: "bg-primary",
-    image:
-      "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=600&h=500&fit=crop&q=80",
-    originalPrice: "$1,350.00",
-    salePrice: "$1,120.00",
-    hasStrikethrough: true,
-    desc: "Incluye 5 discos de corte intercambiables. Entrada doble boca.",
-    specs: ["5 discos", "2 bocas", "120 kg/h"],
-  },
-  {
-    name: "Embutidora Hidráulica",
+    name: "Embutidora de Chorizos 7 Litros",
     badge: "Charcutería",
     badgeColor: "bg-secondary",
     image:
       "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=600&h=500&fit=crop&q=80",
-    originalPrice: null,
-    salePrice: "$2,450.00",
-    hasStrikethrough: false,
-    desc: "Control de velocidad variable y pedal de accionamiento. 15 litros.",
-    specs: ["15 litros", "Pedal incluido", "Velocidad variable"],
+    desc: "Manual con palanca, acero inoxidable grado alimenticio. Incluye 4 boquillas intercambiables y empaque de repuesto.",
+    specs: ["7 L", "4 boquillas", "Acero Inox"],
+    fichaUrl: "https://tienda.fullermachinery.com/?s=embutidora&post_type=product&product_cat=0",
+    whatsappUrl: "https://wa.me/573244247198?text=Hola%2C%20me%20interesa%20la%20Embutidora%20de%20Chorizos%207%20Litros",
+  },
+  {
+    name: "Clipadora Amarradora de Embutidos",
+    badge: "Acabado",
+    badgeColor: "bg-primary",
+    image:
+      "https://images.unsplash.com/photo-1559847844-5315695dadae?w=600&h=500&fit=crop&q=80",
+    desc: "Cierre seguro de extremos con clips metálicos. Operación manual tipo balancín en acero inoxidable.",
+    specs: ["50 clips/min", "Manual", "7 kg"],
+    fichaUrl: "https://tienda.fullermachinery.com/index.php/producto/clipadora-amarradora-de-embutidos/",
+    whatsappUrl: "https://wa.me/573244247198?text=Hola%2C%20me%20interesa%20la%20Clipadora%20Amarradora%20de%20Embutidos",
+  },
+  {
+    name: "Procesador Cutter 750W",
+    badge: "Multifunción",
+    badgeColor: "bg-accent text-bg-dark",
+    image:
+      "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600&h=500&fit=crop&q=80",
+    desc: "Pica, tritura, mezcla y emulsiona. Ideal para embutidos, hamburguesas, albóndigas, patés, salsas y sofritos.",
+    specs: ["750 W", "Cubeta 6–8 L", "Acero Inox"],
+    fichaUrl: "https://tienda.fullermachinery.com/index.php/producto/procesador-alimentos-industrial-cutter-750w-fuller/",
+    whatsappUrl: "https://wa.me/573244247198?text=Hola%2C%20me%20interesa%20el%20Procesador%20Cutter%20750W",
+  },
+  {
+    name: "Procesador de Vegetales 5 Discos",
+    badge: "Cocinas",
+    badgeColor: "bg-primary",
+    image:
+      "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=600&h=500&fit=crop&q=80",
+    desc: "Cinco discos intercambiables: rebanadas de 2, 4, 5 y 10 mm más cubos de 10×10×10 mm. Ideal para alto volumen.",
+    specs: ["5 discos", "750 W", "300 rpm"],
+    fichaUrl: "https://tienda.fullermachinery.com/index.php/producto/procesador-de-vegetales-5-discos/",
+    whatsappUrl: "https://wa.me/573244247198?text=Hola%2C%20me%20interesa%20el%20Procesador%20de%20Vegetales%205%20Discos",
   },
 ];
 
@@ -69,7 +87,9 @@ export default function CarnicosProducts() {
             </h2>
           </div>
           <a
-            href="#"
+            href="https://tienda.fullermachinery.com/"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center gap-2 text-primary font-bold text-sm hover:text-secondary transition-colors shrink-0"
           >
             Ver todo el catálogo
@@ -94,7 +114,7 @@ export default function CarnicosProducts() {
                   stiffness: 220,
                   damping: 24,
                 }}
-                className="w-[300px] md:w-[340px] bg-white border border-slate-100 rounded-2xl shadow-md hover:shadow-xl transition-shadow duration-300 overflow-hidden flex-shrink-0 group"
+                className="w-[300px] md:w-[340px] bg-white border border-slate-100 rounded-2xl shadow-md hover:shadow-xl transition-shadow duration-300 overflow-hidden flex-shrink-0 group flex flex-col"
               >
                 {/* Image */}
                 <div className="relative h-64 bg-slate-50 overflow-hidden">
@@ -120,11 +140,11 @@ export default function CarnicosProducts() {
                 </div>
 
                 {/* Content */}
-                <div className="p-6">
+                <div className="p-6 flex flex-col flex-1">
                   <h3 className="font-display font-bold text-lg text-slate-900 mb-1.5">
                     {p.name}
                   </h3>
-                  <p className="text-slate-500 text-sm mb-4 leading-relaxed line-clamp-2">
+                  <p className="text-slate-500 text-sm mb-4 leading-relaxed line-clamp-3">
                     {p.desc}
                   </p>
 
@@ -140,24 +160,26 @@ export default function CarnicosProducts() {
                     ))}
                   </div>
 
-                  {/* Price + CTA */}
-                  <div className="flex items-center justify-between">
-                    <div className="flex items-baseline gap-2">
-                      {p.hasStrikethrough && p.originalPrice && (
-                        <span className="text-slate-400 line-through text-xs">
-                          {p.originalPrice}
-                        </span>
-                      )}
-                      <span className="text-secondary font-black text-xl">
-                        {p.salePrice}
-                      </span>
-                    </div>
-                    <button className="text-primary hover:text-secondary font-bold text-xs flex items-center gap-1 transition-colors">
-                      Ficha Técnica
-                      <span className="material-symbols-outlined text-[14px]">
-                        open_in_new
-                      </span>
-                    </button>
+                  {/* CTAs */}
+                  <div className="flex flex-col gap-2 mt-auto">
+                    <a
+                      href={p.whatsappUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center justify-center gap-2 bg-green-600 hover:bg-green-700 text-white font-bold text-sm py-2.5 rounded-lg transition-all hover:shadow-md hover:shadow-green-600/25"
+                    >
+                      <span className="material-symbols-outlined text-[16px]">chat</span>
+                      Cotizar por WhatsApp
+                    </a>
+                    <a
+                      href={p.fichaUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center justify-center gap-1 text-primary hover:text-secondary font-bold text-xs transition-colors"
+                    >
+                      Ver ficha técnica
+                      <span className="material-symbols-outlined text-[14px]">open_in_new</span>
+                    </a>
                   </div>
                 </div>
               </motion.div>

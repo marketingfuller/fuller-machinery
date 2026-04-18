@@ -6,7 +6,7 @@ const niches = [
   {
     title: "Cárnicos",
     label: "La Fuerza",
-    desc: "Molinos de alto torque y sierras de precisión para cortes limpios en res, cerdo y cordero.",
+    desc: "Molinos #22 y #32 (hasta 350 kg/h) más sierra de hueso y carnes para cortes limpios en res, cerdo y cordero.",
     image:
       "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=800&h=1000&fit=crop&q=80",
     icon: "kebab_dining",
@@ -14,7 +14,7 @@ const niches = [
   {
     title: "Vegetales",
     label: "La Velocidad",
-    desc: "Procesadores multi-disco y peladoras automáticas para mise en place de alta velocidad.",
+    desc: "Procesador de 5 discos y cutter industrial de 750W para rebanar, cubear, emulsionar y mezclar en alto volumen.",
     image:
       "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=800&h=1000&fit=crop&q=80",
     icon: "restaurant",
@@ -22,7 +22,7 @@ const niches = [
   {
     title: "Embutidos",
     label: "La Precisión",
-    desc: "Embutidoras hidráulicas y manuales de acero inoxidable para salchichas y chorizos.",
+    desc: "Embutidoras manuales de 7 L con 4 boquillas más clipadora manual en acero inoxidable grado alimenticio.",
     image:
       "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=800&h=1000&fit=crop&q=80",
     icon: "egg",

@@ -28,7 +28,7 @@ export default function CarnicosHero() {
           <div className="flex items-center gap-2 bg-black/50 backdrop-blur-md px-4 py-2.5 rounded-full border border-white/20">
             <ShieldCheck size={16} className="text-accent" />
             <span className="text-white text-sm font-semibold">
-              Cumplimiento INVIMA garantizado
+              Acero inoxidable grado alimenticio
             </span>
           </div>
         </motion.div>
@@ -83,8 +83,8 @@ export default function CarnicosHero() {
             transition={{ duration: 0.6, delay: 0.3 }}
             className="text-white/65 text-lg leading-relaxed mb-10 max-w-md"
           >
-            Molinos de alto torque, sierras de precisión y equipos de preparación
-            diseñados para reducir la merma y maximizar la higiene en cada corte.
+            Molinos de hasta 350 kg/h, sierras de precisión, embutidoras manuales
+            y cutters industriales. Toda la línea para procesar, embutir y cerrar en un solo proveedor.
           </motion.p>
 
           {/* CTA */}
@@ -111,18 +111,18 @@ export default function CarnicosHero() {
           >
             <div>
               <p className="text-accent font-black text-3xl font-display tracking-tight">
-                250kg<span className="text-lg">/h</span>
+                350kg<span className="text-lg">/h</span>
               </p>
               <p className="text-white/45 text-xs mt-1 uppercase tracking-widest">
-                Capacidad máxima
+                Molido máximo (#32)
               </p>
             </div>
             <div>
               <p className="text-accent font-black text-3xl font-display tracking-tight">
-                #304
+                2.200W
               </p>
               <p className="text-white/45 text-xs mt-1 uppercase tracking-widest">
-                Acero Inoxidable
+                Motor reversible
               </p>
             </div>
           </motion.div>

@@ -1,52 +1,11 @@
 "use client";
 
 import { motion } from "framer-motion";
-
-const values = [
-  {
-    icon: "handshake",
-    color: "bg-accent/15 border-accent/30",
-    iconColor: "text-accent",
-    title: "Honestidad en la Asesoría",
-    desc: "No vendemos la máquina más cara, vendemos la que tu negocio realmente necesita para crecer hoy.",
-  },
-  {
-    icon: "verified_user",
-    color: "bg-secondary/15 border-secondary/30",
-    iconColor: "text-secondary",
-    title: "Respaldo Post-Venta",
-    desc: "La venta es solo el comienzo. Nuestra garantía incluye acompañamiento técnico real y humano.",
-  },
-  {
-    icon: "factory",
-    color: "bg-accent/15 border-accent/30",
-    iconColor: "text-accent",
-    title: "Calidad Industrial",
-    desc: "Solo trabajamos con acero inoxidable grado alimenticio y componentes de uso rudo certificados.",
-  },
-];
-
-const containerVariants = {
-  hidden: { opacity: 0 },
-  show: {
-    opacity: 1,
-    transition: { staggerChildren: 0.15, delayChildren: 0.05 },
-  },
-};
-
-const itemVariants = {
-  hidden: { opacity: 0, y: 28 },
-  show: {
-    opacity: 1,
-    y: 0,
-    transition: { type: "spring" as const, stiffness: 220, damping: 24 },
-  },
-};
+import { Target, Telescope } from "lucide-react";
 
 export default function NosotrosManifiesto() {
   return (
     <section className="relative py-20 md:py-24 bg-bg-dark overflow-hidden">
-      {/* Dot-grid texture */}
       <div
         className="absolute inset-0 opacity-[0.07] pointer-events-none"
         style={{
@@ -55,49 +14,63 @@ export default function NosotrosManifiesto() {
           backgroundSize: "22px 22px",
         }}
       />
-      {/* Glow */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-primary/15 rounded-full blur-3xl pointer-events-none" />
 
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Heading */}
+      <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-14">
           <p className="text-accent font-bold text-xs uppercase tracking-widest mb-2">
-            Manifiesto Fuller
+            A dónde vamos
           </p>
           <h2 className="font-display font-black text-3xl md:text-4xl text-white">
-            En lo que creemos
+            Misión y Visión
           </h2>
         </div>
 
-        <motion.div
-          variants={containerVariants}
-          initial="hidden"
-          whileInView="show"
-          viewport={{ once: true, margin: "-60px" }}
-          className="grid grid-cols-1 md:grid-cols-3 gap-8"
-        >
-          {values.map((v, i) => (
-            <motion.div
-              key={i}
-              variants={itemVariants}
-              className="bg-white/5 border border-white/10 rounded-2xl p-8 hover:bg-white/8 hover:border-white/20 transition-all duration-300 text-center flex flex-col items-center"
-            >
-              <div
-                className={`size-16 rounded-xl flex items-center justify-center mb-6 border ${v.color}`}
-              >
-                <span
-                  className={`material-symbols-outlined text-[28px] ${v.iconColor}`}
-                >
-                  {v.icon}
-                </span>
-              </div>
-              <h3 className="font-display font-bold text-xl text-white mb-3">
-                {v.title}
-              </h3>
-              <p className="text-white/50 text-sm leading-relaxed">{v.desc}</p>
-            </motion.div>
-          ))}
-        </motion.div>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <motion.div
+            initial={{ opacity: 0, y: 28 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="bg-white/5 border border-white/10 rounded-2xl p-8 md:p-10 hover:bg-white/8 transition-all"
+          >
+            <div className="size-14 rounded-xl bg-accent/15 border border-accent/30 flex items-center justify-center mb-6">
+              <Target size={26} className="text-accent" />
+            </div>
+            <h3 className="font-display font-bold text-2xl text-white mb-4">
+              Misión
+            </h3>
+            <p className="text-white/70 leading-relaxed">
+              Brindar soluciones en maquinaria, equipos y accesorios para la
+              preparación de alimentos, integrando tecnología de calidad y
+              tendencias actuales, con el objetivo de optimizar la operación de
+              nuestros clientes y contribuir al crecimiento de sus negocios,
+              garantizando siempre su satisfacción.
+            </p>
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 28 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: 0.1 }}
+            className="bg-white/5 border border-white/10 rounded-2xl p-8 md:p-10 hover:bg-white/8 transition-all"
+          >
+            <div className="size-14 rounded-xl bg-secondary/15 border border-secondary/30 flex items-center justify-center mb-6">
+              <Telescope size={26} className="text-secondary" />
+            </div>
+            <h3 className="font-display font-bold text-2xl text-white mb-4">
+              Visión
+            </h3>
+            <p className="text-white/70 leading-relaxed">
+              Para el año 2030, ser una de las empresas líderes en Colombia en
+              maquinaria para alimentos, con presencia a nivel nacional y
+              proyección regional, reconocidos por ofrecer soluciones que
+              realmente mejoran la operación y rentabilidad de nuestros
+              clientes.
+            </p>
+          </motion.div>
+        </div>
       </div>
     </section>
   );

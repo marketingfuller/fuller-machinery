@@ -3,15 +3,14 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import NosotrosHero from "@/components/nosotros/NosotrosHero";
 import NosotrosHistoria from "@/components/nosotros/NosotrosHistoria";
-import NosotrosInfra from "@/components/nosotros/NosotrosInfra";
 import NosotrosManifiesto from "@/components/nosotros/NosotrosManifiesto";
-import NosotrosEquipo from "@/components/nosotros/NosotrosEquipo";
+import NosotrosInfra from "@/components/nosotros/NosotrosInfra";
 import NosotrosMapa from "@/components/nosotros/NosotrosMapa";
 
 export const metadata: Metadata = {
   title: "Nosotros | Fuller Machinery",
   description:
-    "Más que máquinas, somos socios de tu crecimiento. Conoce la historia de Fuller Machinery, nuestro equipo y los valores que nos mueven desde 1995.",
+    "Fuller Machinery Ltda — más de 15 años en Colombia. Especialistas en maquinaria, equipos y accesorios para alimentos, con tres sedes en Bogotá y más de 500 negocios equipados.",
 };
 
 export default function NosotrosPage() {
@@ -21,9 +20,8 @@ export default function NosotrosPage() {
       <main className="min-h-screen mt-[80px]">
         <NosotrosHero />
         <NosotrosHistoria />
-        <NosotrosInfra />
         <NosotrosManifiesto />
-        <NosotrosEquipo />
+        <NosotrosInfra />
         <NosotrosMapa />
       </main>
       <Footer />

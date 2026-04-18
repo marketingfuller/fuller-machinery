@@ -1,29 +1,26 @@
 "use client";
 
 import { motion } from "framer-motion";
-import Image from "next/image";
+import { Store, Warehouse, Wrench } from "lucide-react";
 
-const locations = [
+const sedes = [
   {
-    image:
-      "https://images.unsplash.com/photo-1556761175-4b46a572b786?w=800&h=500&fit=crop&q=80",
-    title: "Showroom Interactivo",
-    sub: "Ven a verlas y tocarlas",
-    desc: "Más de 500 equipos en exhibición listos para demostración en vivo.",
+    icon: Store,
+    title: "Sede principal",
+    sub: "Showroom + ventas",
+    desc: "Punto de atención comercial con equipos en exhibición, asesoría de compra y capacitación presencial.",
   },
   {
-    image:
-      "https://images.unsplash.com/photo-1553413077-190dd305871c?w=800&h=500&fit=crop&q=80",
-    title: "Mega Bodega",
-    sub: "Inventario disponible",
-    desc: "Stock real para entregas inmediatas sin tiempos de espera.",
+    icon: Warehouse,
+    title: "Sede de bodega",
+    sub: "Stock y despacho",
+    desc: "Almacén de equipos importados y accesorios, desde donde despachamos pedidos a todo el país.",
   },
   {
-    image:
-      "https://images.unsplash.com/photo-1581092160607-ee67df57d4d5?w=800&h=500&fit=crop&q=80",
-    title: "Taller Especializado",
-    sub: "Laboratorio de pruebas",
-    desc: "Donde nuestros ingenieros certifican cada máquina antes de salir.",
+    icon: Wrench,
+    title: "Sede de servicio técnico",
+    sub: "Reparación y repuestos",
+    desc: "Área de mantenimiento técnico Fuller: recepción de equipos para reparación y bodega de repuestos originales.",
   },
 ];
 
@@ -48,17 +45,16 @@ export default function NosotrosInfra() {
   return (
     <section className="py-20 md:py-24 bg-slate-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Heading */}
         <div className="text-center mb-14">
           <p className="text-primary font-bold text-xs uppercase tracking-widest mb-2">
-            Infraestructura Real
+            Nuestras instalaciones
           </p>
           <h2 className="font-display font-black text-3xl md:text-4xl text-slate-900 mb-3">
-            Lo que ves en internet, existe.
+            Tres sedes en Bogotá
           </h2>
           <p className="text-slate-500 text-sm max-w-xl mx-auto leading-relaxed">
-            Te invitamos a conocer nuestras instalaciones donde la magia sucede
-            cada día.
+            Atendemos comercialmente, despachamos y damos servicio técnico
+            desde nuestras propias instalaciones — no tercerizamos.
           </p>
         </div>
 
@@ -69,34 +65,29 @@ export default function NosotrosInfra() {
           viewport={{ once: true, margin: "-60px" }}
           className="grid grid-cols-1 md:grid-cols-3 gap-6"
         >
-          {locations.map((loc, i) => (
-            <motion.div
-              key={i}
-              variants={itemVariants}
-              className="group relative h-80 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500"
-            >
-              <Image
-                src={loc.image}
-                alt={loc.title}
-                fill
-                className="object-cover transition-transform duration-700 group-hover:scale-110"
-              />
-              {/* Gradient overlay */}
-              <div className="absolute inset-0 bg-gradient-to-t from-bg-dark/95 via-bg-dark/30 to-transparent" />
-              {/* Content */}
-              <div className="absolute bottom-0 left-0 p-7">
-                <p className="text-accent text-xs font-bold uppercase tracking-widest mb-1">
-                  {loc.sub}
+          {sedes.map((s, i) => {
+            const Icon = s.icon;
+            return (
+              <motion.div
+                key={i}
+                variants={itemVariants}
+                className="bg-white rounded-2xl p-8 border border-slate-100 shadow-sm hover:shadow-xl hover:border-primary/20 transition-all duration-300"
+              >
+                <div className="size-14 rounded-xl bg-primary/10 border border-primary/20 flex items-center justify-center mb-6">
+                  <Icon size={26} className="text-primary" />
+                </div>
+                <p className="text-primary text-xs font-bold uppercase tracking-widest mb-1">
+                  {s.sub}
                 </p>
-                <h3 className="text-white font-display font-bold text-xl mb-1.5">
-                  {loc.title}
+                <h3 className="font-display font-bold text-xl text-slate-900 mb-2.5">
+                  {s.title}
                 </h3>
-                <p className="text-white/55 text-xs leading-relaxed">
-                  {loc.desc}
+                <p className="text-slate-500 text-sm leading-relaxed">
+                  {s.desc}
                 </p>
-              </div>
-            </motion.div>
-          ))}
+              </motion.div>
+            );
+          })}
         </motion.div>
       </div>
     </section>

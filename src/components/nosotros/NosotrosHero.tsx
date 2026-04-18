@@ -1,31 +1,18 @@
 "use client";
 
 import { motion } from "framer-motion";
-import Image from "next/image";
 
 const stats = [
-  { value: "30+", label: "Años de experiencia" },
-  { value: "15k+", label: "Clientes equipados" },
+  { value: "+15", label: "Años en el mercado" },
+  { value: "+500", label: "Negocios equipados" },
+  { value: "3", label: "Sedes en Bogotá" },
   { value: "6", label: "Líneas de negocio" },
-  { value: "5k+", label: "Repuestos en stock" },
 ];
 
 export default function NosotrosHero() {
   return (
-    <section className="relative flex flex-col overflow-hidden">
-      {/* BG */}
-      <div className="relative h-[480px] md:h-[560px]">
-        <Image
-          src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1600&h=800&fit=crop&q=80"
-          alt="Instalaciones Fuller Machinery"
-          fill
-          className="object-cover"
-          priority
-        />
-        {/* Dark overlay */}
-        <div className="absolute inset-0 bg-bg-dark/80" />
-        <div className="absolute inset-0 bg-gradient-to-t from-bg-dark via-bg-dark/30 to-transparent" />
-        {/* Dot-grid */}
+    <section className="relative flex flex-col overflow-hidden bg-bg-dark">
+      <div className="relative h-[460px] md:h-[540px]">
         <div
           className="absolute inset-0 opacity-[0.06] pointer-events-none"
           style={{
@@ -34,8 +21,8 @@ export default function NosotrosHero() {
             backgroundSize: "22px 22px",
           }}
         />
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-primary/20 rounded-full blur-3xl pointer-events-none" />
 
-        {/* Center content */}
         <div className="absolute inset-0 flex items-center justify-center px-4">
           <motion.div
             initial={{ opacity: 0, y: 28 }}
@@ -44,23 +31,25 @@ export default function NosotrosHero() {
             className="text-center max-w-4xl"
           >
             <div className="inline-flex items-center gap-2 bg-accent/10 border border-accent/20 text-accent px-3 py-1 rounded-full text-xs font-bold uppercase tracking-widest mb-6">
-              <span className="material-symbols-outlined text-[14px]">groups</span>
-              Desde 1995
+              <span className="material-symbols-outlined text-[14px]">
+                groups
+              </span>
+              Fuller Machinery Ltda · Desde 2008
             </div>
             <h1 className="font-display font-black text-4xl md:text-5xl lg:text-6xl text-white leading-tight mb-5">
-              Más que Máquinas,
+              Equipamos el crecimiento
               <br />
-              <span className="text-accent">Somos Socios de tu Crecimiento</span>
+              <span className="text-accent">de +500 negocios en Colombia</span>
             </h1>
             <p className="text-white/65 text-lg font-light max-w-2xl mx-auto leading-relaxed">
-              Equipando el sueño de miles de emprendedores gastronómicos desde
-              1995.
+              Más de 15 años especializados en maquinaria, equipos y accesorios
+              para la preparación de alimentos, con tres sedes en Bogotá y
+              alcance nacional.
             </p>
           </motion.div>
         </div>
       </div>
 
-      {/* Stats strip */}
       <div className="bg-bg-dark border-t border-white/10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div

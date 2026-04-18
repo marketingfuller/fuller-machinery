@@ -75,9 +75,8 @@ export default function RefrigeraciónHero() {
             transition={{ duration: 0.6, delay: 0.3 }}
             className="text-white/70 text-lg leading-relaxed mb-10"
           >
-            Tecnología No-Frost con compresores inversores que reducen hasta un
-            40% tus costos operativos. Mantén la cadena de frío sin interrupciones
-            las 24 horas.
+            Congeladores No Frost de hasta 538 L, fabricadoras de hielo de 30 a 90 kg/24h
+            y botelleros mini bar. Refrigerante R290 ecológico en toda la línea.
           </motion.p>
 
           {/* CTA button */}
@@ -87,10 +86,12 @@ export default function RefrigeraciónHero() {
             transition={{ duration: 0.6, delay: 0.4 }}
           >
             <a
-              href="#productos"
+              href="https://tienda.fullermachinery.com/?s=refrigerador&post_type=product&product_cat=0"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center gap-3 bg-secondary hover:bg-secondary/90 text-white font-bold px-7 py-4 rounded-xl transition-all duration-200 hover:shadow-lg hover:shadow-secondary/30 hover:-translate-y-0.5 text-sm uppercase tracking-wide"
             >
-              VER NEVERAS Y CONGELADORES EN TIENDA
+              VER NEVERAS Y CONGELADORES
               <ArrowRight size={18} />
             </a>
           </motion.div>
@@ -103,15 +104,17 @@ export default function RefrigeraciónHero() {
             className="grid grid-cols-2 gap-6 border-t border-white/10 mt-12 pt-8"
           >
             <div>
-              <p className="text-accent font-bold text-3xl font-display">4°C</p>
+              <p className="text-accent font-bold text-3xl font-display">
+                90kg<span className="text-lg">/24h</span>
+              </p>
               <p className="text-white/50 text-xs mt-1 uppercase tracking-wider">
-                Temp. Ideal Pastelería
+                Hielo máximo
               </p>
             </div>
             <div>
-              <p className="text-accent font-bold text-3xl font-display">A+</p>
+              <p className="text-accent font-bold text-3xl font-display">R290</p>
               <p className="text-white/50 text-xs mt-1 uppercase tracking-wider">
-                Eficiencia Energética
+                Refrigerante ecológico
               </p>
             </div>
           </motion.div>

@@ -5,32 +5,32 @@ import { Refrigerator, ShoppingBag, Snowflake, Droplets } from "lucide-react";
 
 const categories = [
   {
-    Icon: Refrigerator,
+    Icon: Snowflake,
+    iconBoxClass: "bg-accent/15 border-accent/30",
+    iconColor: "text-accent",
+    title: "Congeladores",
+    desc: "Horizontales de 538 L con canastillas y verticales de 460 L No Frost para carnicerías, supermercados y heladerías.",
+  },
+  {
+    Icon: Droplets,
     iconBoxClass: "bg-blue-400/15 border-blue-400/30",
     iconColor: "text-blue-400",
-    title: "Exhibición Vertical",
-    desc: "Neveras de 1 a 3 puertas para bebidas y lácteos con iluminación LED de alto contraste.",
+    title: "Fabricadoras de Hielo",
+    desc: "De 30 a 90 kg/24h en cubo. Con filtros, bodega integrada o conexión dual para cualquier volumen de operación.",
+  },
+  {
+    Icon: Refrigerator,
+    iconBoxClass: "bg-purple-400/15 border-purple-400/30",
+    iconColor: "text-purple-400",
+    title: "Botelleros & Enfriadores",
+    desc: "Refrigeradores mini bar de 2 puertas con vidrio templado para bares, tiendas y licoreras.",
   },
   {
     Icon: ShoppingBag,
     iconBoxClass: "bg-secondary/15 border-secondary/30",
     iconColor: "text-secondary",
-    title: "Vitrinas Mostrador",
-    desc: "Exhibición panorámica curva para carnes, delicatesen y pastelería de alta gama.",
-  },
-  {
-    Icon: Snowflake,
-    iconBoxClass: "bg-accent/15 border-accent/30",
-    iconColor: "text-accent",
-    title: "Congelación Dura",
-    desc: "Freezers horizontales y arcones industriales para producto congelado 24/7.",
-  },
-  {
-    Icon: Droplets,
-    iconBoxClass: "bg-purple-400/15 border-purple-400/30",
-    iconColor: "text-purple-400",
-    title: "Hielo y Especializados",
-    desc: "Fabricadores de hielo, abatidores y unidades compactas para bares y restaurantes.",
+    title: "Procesamiento de Hielo",
+    desc: "Trituradoras compactas en acero inoxidable para coctelería, catering y servicio de granizados.",
   },
 ];
 

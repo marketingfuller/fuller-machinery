@@ -8,8 +8,7 @@ const products = [
     name: "Molino de Carne #32 Industrial",
     badge: "Más Potente",
     badgeColor: "bg-secondary",
-    image:
-      "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=600&h=500&fit=crop&q=80",
+    image: "/images/carnicos y procesamiento/Molino Carne 32.webp",
     desc: "Motor reversible 2.200W y 170 rpm. Incluye 2 discos, 2 cuchillas y bandejas en acero inoxidable.",
     specs: ["350 kg/h", "2.200W", "Reversible"],
     fichaUrl: "https://tienda.fullermachinery.com/?s=molino+de+carne&post_type=product&product_cat=0",
@@ -19,8 +18,7 @@ const products = [
     name: "Sierra de Hueso y Carnes",
     badge: "Carnicerías",
     badgeColor: "bg-accent text-bg-dark",
-    image:
-      "https://images.unsplash.com/photo-1588347818036-c65e4d8e4b5e?w=600&h=500&fit=crop&q=80",
+    image: "/images/carnicos y procesamiento/Sierra de Hueso.webp",
     desc: "Sierra industrial de precisión para hueso duro y carnes, ideal para frigoríficos, hoteles y restaurantes.",
     specs: ["750 W", "110V", "70 kg"],
     fichaUrl: "https://tienda.fullermachinery.com/index.php/producto/sierra-de-hueso-y-carnes/",
@@ -30,8 +28,7 @@ const products = [
     name: "Embutidora de Chorizos 7 Litros",
     badge: "Charcutería",
     badgeColor: "bg-secondary",
-    image:
-      "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=600&h=500&fit=crop&q=80",
+    image: "/images/carnicos y procesamiento/Embutidora 7 Litros.webp",
     desc: "Manual con palanca, acero inoxidable grado alimenticio. Incluye 4 boquillas intercambiables y empaque de repuesto.",
     specs: ["7 L", "4 boquillas", "Acero Inox"],
     fichaUrl: "https://tienda.fullermachinery.com/?s=embutidora&post_type=product&product_cat=0",
@@ -41,8 +38,7 @@ const products = [
     name: "Clipadora Amarradora de Embutidos",
     badge: "Acabado",
     badgeColor: "bg-primary",
-    image:
-      "https://images.unsplash.com/photo-1559847844-5315695dadae?w=600&h=500&fit=crop&q=80",
+    image: "/images/carnicos y procesamiento/Clipadora.webp",
     desc: "Cierre seguro de extremos con clips metálicos. Operación manual tipo balancín en acero inoxidable.",
     specs: ["50 clips/min", "Manual", "7 kg"],
     fichaUrl: "https://tienda.fullermachinery.com/index.php/producto/clipadora-amarradora-de-embutidos/",
@@ -63,8 +59,7 @@ const products = [
     name: "Procesador de Vegetales 5 Discos",
     badge: "Cocinas",
     badgeColor: "bg-primary",
-    image:
-      "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=600&h=500&fit=crop&q=80",
+    image: "/images/carnicos y procesamiento/procesador de vegetales- carnicos.webp",
     desc: "Cinco discos intercambiables: rebanadas de 2, 4, 5 y 10 mm más cubos de 10×10×10 mm. Ideal para alto volumen.",
     specs: ["5 discos", "750 W", "300 rpm"],
     fichaUrl: "https://tienda.fullermachinery.com/index.php/producto/procesador-de-vegetales-5-discos/",
@@ -122,7 +117,7 @@ export default function CarnicosProducts() {
                     src={p.image}
                     alt={p.name}
                     fill
-                    className="object-cover group-hover:scale-105 transition-transform duration-500"
+                    className="object-contain p-4 group-hover:scale-105 transition-transform duration-500"
                   />
                   {/* Badge */}
                   <span

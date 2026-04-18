@@ -8,8 +8,8 @@ const faqs = [
     a: "El R290 es propano natural con potencial de calentamiento global casi nulo y sin daño a la capa de ozono. Permite una transferencia de calor más eficiente que los gases sintéticos — hasta 30% menos de consumo eléctrico. Nuestros equipos con R290 cumplen normativa europea F-Gas y están homologados para uso comercial en Colombia.",
   },
   {
-    q: "¿Cómo funciona el envío de vitrinas de vidrio a otras ciudades?",
-    a: "Triple protección de embalaje: caja de madera estructurada, esquineros de espuma de alta densidad y film stretch multicapa. Cada vitrina sale asegurada al 100% contra roturas. En caso de daño en tránsito, reponemos el equipo sin costo adicional.",
+    q: "¿Cómo funciona el envío de equipos con partes de vidrio a otras ciudades?",
+    a: "Cada equipo sale de nuestra bodega perfectamente embalado en su caja original y protegido con icopor (espuma de alta densidad) en las zonas más sensibles. Hacemos todo lo posible para que el equipo llegue en perfectas condiciones, pero el riesgo propio del transporte queda en manos del operador logístico.",
   },
   {
     q: "¿Cuentan con capacitación de uso e instalación?",
@@ -61,7 +61,12 @@ export default function RefrigeraciónFAQ() {
           className="text-center mt-12"
         >
           <p className="text-slate-500 text-sm mb-4">¿Tienes una pregunta que no aparece aquí?</p>
-          <a href="#" className="inline-flex items-center gap-2 bg-secondary hover:bg-secondary/90 text-white font-bold px-6 py-3 rounded-xl text-sm transition-all hover:-translate-y-0.5 hover:shadow-lg hover:shadow-secondary/25">
+          <a
+            href="https://wa.me/573244247198?text=Hola%2C%20tengo%20una%20pregunta%20sobre%20los%20equipos%20de%20refrigeraci%C3%B3n"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 bg-green-600 hover:bg-green-700 text-white font-bold px-6 py-3 rounded-xl text-sm transition-all hover:-translate-y-0.5 hover:shadow-lg hover:shadow-green-600/25"
+          >
             <span className="material-symbols-outlined text-[18px]">chat</span>
             Contáctanos por WhatsApp
           </a>

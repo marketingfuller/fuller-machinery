@@ -150,3 +150,15 @@ body.loading {
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+
+/* ── Image download deterrents (no son impenetrables: F12 / screenshot siguen funcionando) ── */
+img {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+  -webkit-touch-callout: none;
+  user-select: none;
+  -webkit-user-select: none;
+}

@@ -3,6 +3,7 @@ import { Inter, Montserrat } from "next/font/google";
 import "./globals.css";
 import CustomCursor from "@/components/CustomCursor";
 import Preloader from "@/components/Preloader";
+import ImageGuard from "@/components/ImageGuard";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -157,12 +158,15 @@ export default function RootLayout({
         />
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c"),
+          }}
         />
       </head>
       <body className="min-h-full flex flex-col font-sans bg-bg-light text-foreground">
         <CustomCursor />
         <Preloader />
+        <ImageGuard />
         {children}
       </body>
     </html>

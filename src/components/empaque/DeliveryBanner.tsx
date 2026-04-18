@@ -14,7 +14,7 @@ export default function DeliveryBanner() {
               className="absolute inset-0 bg-cover bg-center"
               style={{
                 backgroundImage:
-                  "url('https://images.unsplash.com/photo-1565299507177-b0ac66763828?w=800&h=600&fit=crop&q=80')",
+                  "url('/images/empaque/Domicilio.webp')",
               }}
             />
             <div className="absolute inset-0 bg-bg-dark/60" />

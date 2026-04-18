@@ -25,59 +25,12 @@ export default function AhorroBanner() {
         <div className="bg-white rounded-3xl overflow-hidden shadow-xl flex flex-col lg:flex-row">
           {/* LEFT — comparison visual */}
           <div className="lg:w-1/2 relative min-h-[380px] overflow-hidden">
-            {/* Split: grayscale vs color */}
-            <div className="absolute inset-0 grid grid-cols-2 h-full">
-              {/* Without packaging — grayscale */}
-              <div className="relative overflow-hidden">
-                <div
-                  className="absolute inset-0 bg-cover bg-center grayscale contrast-125"
-                  style={{
-                    backgroundImage:
-                      "url('https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=600&h=600&fit=crop&q=80')",
-                  }}
-                />
-                <div className="absolute inset-0 bg-black/50 flex items-center justify-center">
-                  <span className="text-white/80 font-bold text-sm uppercase tracking-widest border border-white/40 px-3 py-1.5 backdrop-blur-sm">
-                    Sin Empaque
-                  </span>
-                </div>
-                <div className="absolute bottom-0 left-0 right-0 bg-secondary/90 text-white p-3 text-center">
-                  <span className="block text-[10px] uppercase font-bold mb-0.5 tracking-wider">
-                    Día 3
-                  </span>
-                  <span className="font-display font-bold text-sm">
-                    Oxidación y Merma
-                  </span>
-                </div>
-              </div>
-
-              {/* With Fuller — full color */}
-              <div className="relative overflow-hidden">
-                <div
-                  className="absolute inset-0 bg-cover bg-center"
-                  style={{
-                    backgroundImage:
-                      "url('https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=600&h=600&fit=crop&q=80')",
-                  }}
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-bg-dark/80 to-transparent flex items-center justify-center">
-                  <span className="text-white font-bold text-sm uppercase tracking-widest border-2 border-accent px-3 py-1.5 bg-accent/10 backdrop-blur-md">
-                    Sellado Fuller
-                  </span>
-                </div>
-                <div className="absolute bottom-0 left-0 right-0 bg-bg-dark/90 text-white p-3 text-center">
-                  <span className="block text-[10px] uppercase font-bold mb-0.5 text-accent tracking-wider">
-                    Día 21
-                  </span>
-                  <span className="font-display font-bold text-sm">
-                    Fresco e Intacto
-                  </span>
-                </div>
-              </div>
-
-              {/* Divider line */}
-              <div className="absolute inset-y-0 left-1/2 w-[2px] bg-white/60 -translate-x-1/2 z-10" />
-            </div>
+            <div
+              className="absolute inset-0 bg-cover bg-center"
+              style={{
+                backgroundImage: "url('/images/empaque/antes y despues.webp')",
+              }}
+            />
           </div>
 
           {/* RIGHT — content */}

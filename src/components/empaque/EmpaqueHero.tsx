@@ -12,7 +12,7 @@ export default function EmpaqueHero() {
           className="absolute inset-0 bg-cover bg-center group-hover:scale-105 transition-transform duration-700"
           style={{
             backgroundImage:
-              "url('https://images.unsplash.com/photo-1553413077-190dd305871c?w=1200&h=900&fit=crop&q=80')",
+              "url('/images/empaque/Hero empaques.webp')",
           }}
         />
         <div className="absolute inset-0 bg-gradient-to-r from-black/50 via-black/30 to-slate-950/90" />

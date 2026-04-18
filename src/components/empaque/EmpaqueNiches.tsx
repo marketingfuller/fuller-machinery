@@ -7,33 +7,29 @@ const niches = [
     title: "Al Vacío",
     label: "Conservación Máxima",
     desc: "Empacadoras de una cámara (DZ300SE / DZ-400) y doble cámara (2SB). Extienden la vida útil de carnes, quesos y alimentos perecederos.",
-    image:
-      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=1000&fit=crop&q=80",
+    image: "/images/empaque/Niche al vacio.webp",
     icon: "inventory_2",
   },
   {
     title: "Banda Continua",
     label: "Alta Velocidad",
-    desc: "Selladoras industriales de hasta 150 sellos por minuto, con fechador e impresora de tinta. Ideales para snacks, café molido y polvos.",
-    image:
-      "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=800&h=1000&fit=crop&q=80",
+    desc: "Selladoras industriales de hasta 150 sellos por minuto. Operación vertical y horizontal para snacks, café molido y polvos.",
+    image: "/images/empaque/Niche banda continua.webp",
     icon: "local_shipping",
+  },
+  {
+    title: "Fechado y Loteo",
+    label: "Trazabilidad Total",
+    desc: "Selladoras con impresora de tinta integrada que codifican fecha de vencimiento y número de lote en cada bolsa, con mueble base opcional.",
+    image: "/images/empaque/Niche fechado loteo.webp",
+    icon: "calendar_today",
   },
   {
     title: "Sellado de Vasos",
     label: "Delivery Sin Derrames",
     desc: "Selladoras manual, semi-automática, automática y full automática para vasos de 7 a 22 oz. Hermeticidad total para bebidas y postres.",
-    image:
-      "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?w=800&h=1000&fit=crop&q=80",
+    image: "/images/empaque/Niche sellado vasos.webp",
     icon: "local_cafe",
-  },
-  {
-    title: "Sellado de Latas",
-    label: "Presentación Premium",
-    desc: "Selladora de latas PET y PP en acero inoxidable — 15 latas por minuto. Perfecta para snacks, granos, especias y bebidas envasadas.",
-    image:
-      "https://images.unsplash.com/photo-1542838132-92c53300491e?w=800&h=1000&fit=crop&q=80",
-    icon: "cookie",
   },
 ];
 

@@ -2,9 +2,10 @@
 
 import { Package } from "lucide-react";
 
+const WHATSAPP_URL = "https://wa.me/573244247198?text=Hola%2C%20me%20interesan%20los%20insumos%20para%20empaque%20(rollos%2C%20cintas%2C%20bolsas)";
+
 const insumos = [
   { icon: "receipt_long", label: "Rollos de Vacío" },
-  { icon: "grid_on", label: "Bolsas Gofradas" },
   { icon: "edit_calendar", label: "Cintas de Fechado" },
   { icon: "inventory_2", label: "Bolsas de Celofán" },
 ];
@@ -34,7 +35,9 @@ export default function InsumosStrip() {
             {insumos.map((item, i) => (
               <a
                 key={i}
-                href="#"
+                href={WHATSAPP_URL}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="bg-white/5 hover:bg-white/10 border border-white/20 rounded-lg px-5 py-3 text-white flex items-center gap-3 transition-colors text-sm"
               >
                 <span className="material-symbols-outlined text-[#4ab84c] text-[20px]">
@@ -47,10 +50,12 @@ export default function InsumosStrip() {
 
           {/* CTA */}
           <a
-            href="#"
+            href={WHATSAPP_URL}
+            target="_blank"
+            rel="noopener noreferrer"
             className="text-white hover:text-[#4ab84c] font-bold text-sm uppercase flex items-center gap-1 transition-colors shrink-0"
           >
-            Ver todos los insumos
+            Cotizar por WhatsApp
             <span className="material-symbols-outlined text-lg">
               arrow_forward
             </span>

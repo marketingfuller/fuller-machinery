@@ -28,7 +28,7 @@ export default function AhorroBanner() {
             <div
               className="absolute inset-0 bg-cover bg-center"
               style={{
-                backgroundImage: "url('/images/empaque/antes y despues.webp')",
+                backgroundImage: "url('/images/empaque/empaque al vacio 2.webp')",
               }}
             />
           </div>
@@ -67,14 +67,18 @@ export default function AhorroBanner() {
 
               <div className="flex flex-col sm:flex-row gap-3">
                 <a
-                  href="#productos"
+                  href="https://tienda.fullermachinery.com/index.php/producto/empacadora-al-vacio-dz-400/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 bg-secondary hover:bg-secondary/90 text-white font-bold px-6 py-3 rounded-xl text-sm transition-all hover:-translate-y-0.5 hover:shadow-lg hover:shadow-secondary/25"
                 >
-                  Ver Equipos de Vacío
+                  Ver Empacadora al Vacío DZ
                   <ArrowRight size={16} />
                 </a>
                 <a
-                  href="#"
+                  href="https://wa.me/573244247198?text=Hola%2C%20me%20interesa%20conocer%20las%20empacadoras%20al%20vac%C3%ADo"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 border-2 border-primary text-primary hover:bg-primary hover:text-white font-bold px-6 py-3 rounded-xl text-sm transition-all"
                 >
                   Hablar con un Experto

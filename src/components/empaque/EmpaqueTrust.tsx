@@ -8,8 +8,8 @@ const features = [
     icon: ShieldCheck,
     color: "bg-[#4ab84c]/15 border-[#4ab84c]/30",
     iconColor: "text-[#4ab84c]",
-    title: "Certificación HACCP",
-    desc: "Superficies de acero inoxidable 304 sin poros ni recovecos. Desmontables para lavado profundo. Cumplimiento total con normas sanitarias para procesos de alimentos.",
+    title: "Acero Inoxidable de Calidad",
+    desc: "Superficies en acero inoxidable grado alimenticio, sin poros ni recovecos. Fáciles de desmontar y lavar para una higiene impecable en cada ciclo.",
   },
   {
     icon: TrendingDown,
@@ -111,7 +111,9 @@ export default function EmpaqueTrust() {
             ¿No sabes qué sistema de empaque necesitas?
           </p>
           <a
-            href="#"
+            href="https://wa.me/573244247198?text=Hola%2C%20necesito%20asesor%C3%ADa%20para%20elegir%20un%20sistema%20de%20empaque"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center gap-2 text-[#4ab84c] font-bold text-sm hover:text-white transition-colors underline underline-offset-4"
           >
             Habla con un especialista →

@@ -12,8 +12,8 @@ const faqs = [
     a: "Depende del producto y de la temperatura de almacenamiento. En términos generales: carnes frescas pasan de 3-5 días a 21-25 días en refrigeración; quesos de 2 semanas a 3-4 meses; embutidos de 1 semana a 6 semanas. El vacío elimina el oxígeno que necesitan las bacterias aeróbicas para crecer, deteniendo la oxidación y el enranciamiento.",
   },
   {
-    q: "¿Las bolsas de vacío son compatibles con cocción sous vide?",
-    a: "Sí. Nuestras bolsas gofradas están certificadas para uso en cocción sous vide hasta 85°C sin liberar plastificantes. Son las mismas que usan los restaurantes de cocina de autor. Si necesitas temperaturas mayores (hasta 121°C para esterilización), tenemos bolsas de nylon multilayer de alta resistencia disponibles en nuestro catálogo de insumos.",
+    q: "¿Qué insumos manejan para empaque al vacío?",
+    a: "Trabajamos con rollos de vacío de uso alimenticio, bolsas de celofán y cintas de fechado en distintas medidas. La disponibilidad depende del stock del momento y solo aplica para equipos Fuller Machinery. Escríbenos por WhatsApp con las medidas que necesitas y te confirmamos existencias.",
   },
   {
     q: "¿Manejan repuestos y capacitación de uso?",

@@ -59,10 +59,12 @@ export default function DeliveryBanner() {
               </p>
 
               <a
-                href="#productos"
+                href="https://tienda.fullermachinery.com/index.php/producto/selladora-de-vasos-full-automatica/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 bg-secondary hover:bg-secondary/90 text-white font-bold px-7 py-3.5 rounded-xl text-sm transition-all hover:-translate-y-0.5 hover:shadow-lg hover:shadow-secondary/25"
               >
-                Ver Equipos para Delivery
+                Ver Selladora de Vasos
                 <ArrowRight size={16} />
               </a>
             </motion.div>

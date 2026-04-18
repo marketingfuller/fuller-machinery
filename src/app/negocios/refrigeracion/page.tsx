@@ -5,7 +5,6 @@ import RefrigeraciónCategories from "@/components/refrigeracion/RefrigeraciónC
 import EnergiaSection from "@/components/refrigeracion/EnergiaSection";
 import ProductosRefrigeracion from "@/components/refrigeracion/ProductosRefrigeracion";
 import TropicalizadoBanner from "@/components/refrigeracion/TropicalizadoBanner";
-import VacioSection from "@/components/refrigeracion/VacioSection";
 import RefrigeraciónFAQ from "@/components/refrigeracion/RefrigeraciónFAQ";
 
 export default function RefrigeracionPage() {
@@ -18,7 +17,6 @@ export default function RefrigeracionPage() {
         <EnergiaSection />
         <ProductosRefrigeracion />
         <TropicalizadoBanner />
-        <VacioSection />
         <RefrigeraciónFAQ />
       </main>
       <Footer />

@@ -14,7 +14,7 @@ const niches = [
     title: "Vegetales",
     label: "La Velocidad",
     desc: "Procesador de 5 discos y cutter industrial de 750W para rebanar, cubear, emulsionar y mezclar en alto volumen.",
-    image: "/images/carnicos y procesamiento/procesador de vegetales- carnicos.webp",
+    image: "/images/carnicos y procesamiento/Procesador Vegetales.webp",
     icon: "restaurant",
   },
   {

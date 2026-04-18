@@ -49,8 +49,7 @@ const products = [
     name: "Procesador Cutter 750W",
     badge: "Multifunción",
     badgeColor: "bg-accent text-bg-dark",
-    image:
-      "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600&h=500&fit=crop&q=80",
+    image: "/images/carnicos y procesamiento/procesador de vegetales- carnicos.webp",
     desc: "Pica, tritura, mezcla y emulsiona. Ideal para embutidos, hamburguesas, albóndigas, patés, salsas y sofritos.",
     specs: ["750 W", "Cubeta 6–8 L", "Acero Inox"],
     fichaUrl: "https://tienda.fullermachinery.com/index.php/producto/procesador-alimentos-industrial-cutter-750w-fuller/",
@@ -60,7 +59,7 @@ const products = [
     name: "Procesador de Vegetales 5 Discos",
     badge: "Cocinas",
     badgeColor: "bg-primary",
-    image: "/images/carnicos y procesamiento/procesador de vegetales- carnicos.webp",
+    image: "/images/carnicos y procesamiento/Procesador Vegetales.webp",
     desc: "Cinco discos intercambiables: rebanadas de 2, 4, 5 y 10 mm más cubos de 10×10×10 mm. Ideal para alto volumen.",
     specs: ["5 discos", "750 W", "300 rpm"],
     fichaUrl: "https://tienda.fullermachinery.com/index.php/producto/procesador-de-vegetales-5-discos/",

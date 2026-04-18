@@ -8,16 +8,22 @@ const team = [
     image: "/images/nosotros/angie-loaiza.webp",
     name: "Angie Loaiza",
     role: "Directora Comercial",
+    quote:
+      "Antes de recomendarte una máquina, me interesa entender cómo funciona tu negocio. Así te vendo lo que de verdad necesitas, no lo más caro.",
   },
   {
     image: "/images/nosotros/ivan-parra.webp",
     name: "Iván Parra",
     role: "Jefe de Ingeniería",
+    quote:
+      "Cada equipo que sale de Fuller pasa por mis manos. Si hay algo que no me convence, no lo entregamos — así de simple.",
   },
   {
     image: "/images/nosotros/astrid-solano.webp",
     name: "Astrid Solano",
     role: "Contadora",
+    quote:
+      "Te acompaño con facturas, formas de pago y financiación para que la compra no sea un dolor de cabeza y tu negocio siga caminando.",
   },
 ];
 
@@ -31,24 +37,24 @@ const containerVariants = {
   hidden: { opacity: 0 },
   show: {
     opacity: 1,
-    transition: { staggerChildren: 0.14, delayChildren: 0.05 },
+    transition: { staggerChildren: 0.15, delayChildren: 0.05 },
   },
 };
 
 const itemVariants = {
-  hidden: { opacity: 0, y: 28 },
+  hidden: { opacity: 0, y: 32 },
   show: {
     opacity: 1,
     y: 0,
-    transition: { type: "spring" as const, stiffness: 220, damping: 24 },
+    transition: { type: "spring" as const, stiffness: 200, damping: 22 },
   },
 };
 
 export default function NosotrosEquipo() {
   return (
-    <section className="py-20 md:py-24 bg-white">
+    <section className="py-20 md:py-28 bg-white">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-14">
+        <div className="text-center mb-14 md:mb-20">
           <p className="text-secondary font-bold text-xs uppercase tracking-widest mb-2">
             El equipo Fuller
           </p>
@@ -62,7 +68,7 @@ export default function NosotrosEquipo() {
           initial="hidden"
           whileInView="show"
           viewport={{ once: true, margin: "-60px" }}
-          className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-14"
+          className="grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-8 mb-14"
         >
           {team.map((member, i) => (
             <motion.div
@@ -70,20 +76,24 @@ export default function NosotrosEquipo() {
               variants={itemVariants}
               className="group flex flex-col items-center text-center"
             >
-              <div className="relative w-44 h-44 rounded-full overflow-hidden mb-6 border-4 border-slate-100 shadow-xl group-hover:border-primary transition-all duration-300 bg-slate-50">
+              <div className="relative w-full max-w-[280px] aspect-[4/5] rounded-3xl overflow-hidden mb-6 shadow-lg shadow-slate-300/40 ring-1 ring-slate-100 bg-slate-50">
                 <Image
                   src={member.image}
                   alt={`${member.name} — ${member.role}, Fuller Machinery`}
                   fill
-                  className="object-cover"
-                  sizes="176px"
+                  className="object-cover group-hover:scale-[1.03] transition-transform duration-500"
+                  sizes="(max-width: 768px) 280px, 320px"
                 />
+                <div className="absolute bottom-0 left-0 right-0 h-1 bg-primary scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-500" />
               </div>
-              <h3 className="font-display font-bold text-xl text-slate-900 mb-1">
+              <h3 className="font-display font-bold text-2xl text-slate-900 mb-1">
                 {member.name}
               </h3>
-              <p className="text-secondary font-semibold text-sm">
+              <p className="text-secondary font-semibold text-sm uppercase tracking-wide mb-4">
                 {member.role}
+              </p>
+              <p className="text-slate-500 text-[15px] leading-relaxed max-w-xs italic">
+                &ldquo;{member.quote}&rdquo;
               </p>
             </motion.div>
           ))}

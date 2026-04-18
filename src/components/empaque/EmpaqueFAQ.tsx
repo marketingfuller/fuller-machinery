@@ -79,8 +79,10 @@ export default function EmpaqueFAQ() {
             ¿Tienes una pregunta que no aparece aquí?
           </p>
           <a
-            href="#"
-            className="inline-flex items-center gap-2 bg-secondary hover:bg-secondary/90 text-white font-bold px-6 py-3 rounded-xl text-sm transition-all hover:-translate-y-0.5 hover:shadow-lg hover:shadow-secondary/25"
+            href="https://wa.me/573244247198?text=Hola%2C%20tengo%20una%20pregunta%20sobre%20los%20equipos%20de%20empaque"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 bg-green-600 hover:bg-green-700 text-white font-bold px-6 py-3 rounded-xl text-sm transition-all hover:-translate-y-0.5 hover:shadow-lg hover:shadow-green-600/25"
           >
             <span className="material-symbols-outlined text-[18px]">chat</span>
             Contáctanos por WhatsApp

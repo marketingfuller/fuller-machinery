@@ -1,49 +1,49 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Wrench, Video, GraduationCap } from "lucide-react";
+import { CalendarCheck, Wrench, Package } from "lucide-react";
 import { cn } from "@/lib/cn";
 
 const WHATSAPP_BASE = "https://wa.me/573228534925?text=";
 
 const services = [
   {
-    icon: Wrench,
+    icon: CalendarCheck,
     accentText: "text-accent",
     accentBg: "bg-accent/10 border-accent/30",
-    title: "Reparación en sede (Bogotá)",
-    desc: "Diagnóstico y reparación en nuestras instalaciones de Bogotá. Recibes tu equipo revisado, con repuestos originales instalados y prueba de funcionamiento.",
-    cta: "Agendar revisión",
+    title: "Mantenimiento preventivo",
+    desc: "Revisión programada cada 6 meses para alargar la vida útil del equipo y detectar desgastes antes de que se conviertan en una falla. Presencial en Bogotá o guiado por videollamada.",
+    cta: "Agendar preventivo",
     whatsapp:
       WHATSAPP_BASE +
       encodeURIComponent(
-        "Hola, necesito llevar mi equipo Fuller a servicio técnico en Bogotá. ¿Me indican proceso y cita?"
+        "Hola, quiero agendar el mantenimiento preventivo de mi equipo Fuller (revisión cada 6 meses)."
       ),
   },
   {
-    icon: Video,
+    icon: Wrench,
     accentText: "text-secondary",
     accentBg: "bg-secondary/10 border-secondary/30",
-    title: "Soporte remoto nacional",
-    desc: "Si estás fuera de Bogotá te acompañamos por WhatsApp y videollamada para diagnosticar la falla, enviarte el repuesto y guiarte en la reparación.",
-    cta: "Solicitar soporte",
+    title: "Mantenimiento correctivo",
+    desc: "Cuando el equipo ya presenta una falla específica. Diagnosticamos, cotizamos la reparación y solucionamos con repuestos originales Fuller. Presencial en Bogotá o remoto al resto del país.",
+    cta: "Reportar falla",
     whatsapp:
       WHATSAPP_BASE +
       encodeURIComponent(
-        "Hola, estoy fuera de Bogotá y necesito soporte técnico remoto para mi equipo Fuller"
+        "Hola, mi equipo Fuller presenta una falla específica y necesito servicio técnico correctivo."
       ),
   },
   {
-    icon: GraduationCap,
+    icon: Package,
     accentText: "text-accent",
     accentBg: "bg-accent/10 border-accent/30",
-    title: "Capacitación de operación",
-    desc: "Entrenamos a tu equipo para operar la máquina correctamente: presencial en Bogotá al momento de la entrega, o remota por videollamada para el resto del país.",
-    cta: "Agendar capacitación",
+    title: "Repuestos Fuller",
+    desc: "Solo trabajamos repuestos originales de nuestras propias líneas — no compatibles ni genéricos. Envíanos foto de la pieza y el modelo del equipo para confirmar stock y precio.",
+    cta: "Cotizar repuesto",
     whatsapp:
       WHATSAPP_BASE +
       encodeURIComponent(
-        "Hola, necesito capacitación para operar mi equipo Fuller. ¿Me indican opciones presencial en Bogotá o remota?"
+        "Hola, necesito un repuesto para mi equipo Fuller. Adjunto foto de la pieza y modelo de la máquina."
       ),
   },
 ];
@@ -77,9 +77,9 @@ export default function ServicioServices() {
             Lo que sí hacemos
           </h2>
           <p className="text-slate-500 text-sm mt-3 max-w-xl mx-auto">
-            Tres modalidades claras. Sin promesas de visita a otras ciudades —
-            lo presencial se atiende en Bogotá y el resto se cubre con soporte
-            remoto efectivo.
+            Tres frentes claros. Lo presencial se atiende en Bogotá; el resto
+            del país lo cubrimos con soporte remoto efectivo y envío de
+            repuestos originales.
           </p>
         </div>
 

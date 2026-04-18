@@ -46,16 +46,6 @@ const products = [
     whatsappUrl: "https://wa.me/573244247198?text=Hola%2C%20me%20interesa%20la%20Clipadora%20Amarradora%20de%20Embutidos",
   },
   {
-    name: "Procesador Cutter 750W",
-    badge: "Multifunción",
-    badgeColor: "bg-accent text-bg-dark",
-    image: "/images/carnicos y procesamiento/procesador de vegetales- carnicos.webp",
-    desc: "Pica, tritura, mezcla y emulsiona. Ideal para embutidos, hamburguesas, albóndigas, patés, salsas y sofritos.",
-    specs: ["750 W", "Cubeta 6–8 L", "Acero Inox"],
-    fichaUrl: "https://tienda.fullermachinery.com/index.php/producto/procesador-alimentos-industrial-cutter-750w-fuller/",
-    whatsappUrl: "https://wa.me/573244247198?text=Hola%2C%20me%20interesa%20el%20Procesador%20Cutter%20750W",
-  },
-  {
     name: "Procesador de Vegetales 5 Discos",
     badge: "Cocinas",
     badgeColor: "bg-primary",

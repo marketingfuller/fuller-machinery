@@ -27,7 +27,7 @@ export default function EmpaqueHero() {
           <div className="flex items-center gap-2 bg-black/50 backdrop-blur-md px-4 py-2.5 rounded-full border border-white/20">
             <BadgeCheck size={16} className="text-accent" />
             <span className="text-white text-sm font-semibold">
-              Norma HACCP — Sellado hermético certificado
+              Acero inoxidable — Sellado hermético
             </span>
           </div>
         </motion.div>
@@ -92,7 +92,9 @@ export default function EmpaqueHero() {
             transition={{ duration: 0.6, delay: 0.4 }}
           >
             <a
-              href="#productos"
+              href="https://tienda.fullermachinery.com/index.php/categoria-producto/equipos-de-empaque/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center gap-3 bg-secondary hover:bg-secondary/90 text-white font-bold px-7 py-4 rounded-xl transition-all duration-200 hover:shadow-xl hover:shadow-secondary/30 hover:-translate-y-0.5 text-sm uppercase tracking-wide"
             >
               Ver Catálogo de Empaque
@@ -109,18 +111,18 @@ export default function EmpaqueHero() {
           >
             <div>
               <p className="text-accent font-black text-3xl font-display tracking-tight">
-                5x
+                150<span className="text-lg">/min</span>
               </p>
               <p className="text-white/45 text-xs mt-1 uppercase tracking-widest">
-                Más Vida Útil
+                Sellos por minuto
               </p>
             </div>
             <div>
               <p className="text-accent font-black text-3xl font-display tracking-tight">
-                30%
+                16
               </p>
               <p className="text-white/45 text-xs mt-1 uppercase tracking-widest">
-                Menos Desperdicio
+                Modelos en catálogo
               </p>
             </div>
           </motion.div>

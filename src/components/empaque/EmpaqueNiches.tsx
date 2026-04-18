@@ -6,34 +6,34 @@ const niches = [
   {
     title: "Al Vacío",
     label: "Conservación Máxima",
-    desc: "Extrae el oxígeno al 99.9%. Ideal para carnes, quesos y salsas: extiende la vida útil hasta 5 veces sin conservantes.",
+    desc: "Empacadoras de una cámara (DZ300SE / DZ-400) y doble cámara (2SB). Extienden la vida útil de carnes, quesos y alimentos perecederos.",
     image:
       "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=1000&fit=crop&q=80",
     icon: "inventory_2",
   },
   {
-    title: "Sellado Continuo",
+    title: "Banda Continua",
     label: "Alta Velocidad",
-    desc: "Bandas de sellado térmico para snacks, café y polvos. Hasta 12 metros por minuto con impresión de fecha integrada.",
+    desc: "Selladoras industriales de hasta 150 sellos por minuto, con fechador e impresora de tinta. Ideales para snacks, café molido y polvos.",
     image:
       "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=800&h=1000&fit=crop&q=80",
     icon: "local_shipping",
   },
   {
-    title: "Fechado y Loteo",
-    label: "Trazabilidad Total",
-    desc: "Codificadoras de tinta y térmica para imprimir fecha de vencimiento y número de lote de forma indeleble.",
-    image:
-      "https://images.unsplash.com/photo-1542838132-92c53300491e?w=800&h=1000&fit=crop&q=80",
-    icon: "calendar_today",
-  },
-  {
     title: "Sellado de Vasos",
     label: "Delivery Sin Derrames",
-    desc: "Equipos de termoformado para vasos y bandejas. Garantiza hermeticidad total para bebidas y postres a domicilio.",
+    desc: "Selladoras manual, semi-automática, automática y full automática para vasos de 7 a 22 oz. Hermeticidad total para bebidas y postres.",
     image:
       "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?w=800&h=1000&fit=crop&q=80",
     icon: "local_cafe",
+  },
+  {
+    title: "Sellado de Latas",
+    label: "Presentación Premium",
+    desc: "Selladora de latas PET y PP en acero inoxidable — 15 latas por minuto. Perfecta para snacks, granos, especias y bebidas envasadas.",
+    image:
+      "https://images.unsplash.com/photo-1542838132-92c53300491e?w=800&h=1000&fit=crop&q=80",
+    icon: "cookie",
   },
 ];
 

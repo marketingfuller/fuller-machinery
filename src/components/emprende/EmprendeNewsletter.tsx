@@ -21,7 +21,7 @@ export default function EmprendeNewsletter() {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <div className="inline-flex items-center gap-2 bg-accent/10 border border-accent/20 text-accent px-3 py-1 rounded-full text-[11px] md:text-xs font-bold uppercase tracking-widest mb-5">
+          <div className="inline-flex items-center gap-2 bg-white/15 border border-white/30 text-white px-3 py-1 rounded-full text-[11px] md:text-xs font-bold uppercase tracking-widest mb-5">
             <span className="material-symbols-outlined text-[14px]">groups</span>
             Comunidad Fuller
           </div>

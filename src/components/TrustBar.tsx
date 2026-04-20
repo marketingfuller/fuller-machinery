@@ -1,4 +1,4 @@
-import { Truck, Wrench, ShieldCheck, CreditCard } from "lucide-react";
+import { Truck, Wrench, CreditCard } from "lucide-react";
 
 const features = [
   {
@@ -14,12 +14,6 @@ const features = [
     color: "#4ab84c",
   },
   {
-    icon: ShieldCheck,
-    title: "Garantía Directa",
-    desc: "Sin intermediarios",
-    color: "#F59E0B",
-  },
-  {
     icon: CreditCard,
     title: "Financiación",
     desc: "Planes flexibles",
@@ -31,7 +25,7 @@ export default function TrustBar() {
   return (
     <section className="relative bg-bg-dark border-y border-white/5 py-6">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 lg:gap-4">
           {features.map((feat, i) => (
             <div
               key={i}

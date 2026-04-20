@@ -7,7 +7,7 @@ const WHATSAPP_URL = "https://wa.me/573244247198?text=Hola%2C%20me%20interesan%2
 const insumos = [
   { icon: "receipt_long", label: "Rollos de Vacío" },
   { icon: "edit_calendar", label: "Cintas de Fechado" },
-  { icon: "inventory_2", label: "Bolsas EVOH Poliamida" },
+  { icon: "inventory_2", label: "Bolsas Polietileno" },
 ];
 
 export default function InsumosStrip() {

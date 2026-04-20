@@ -16,14 +16,14 @@ const pillars = [
     color: "bg-secondary/15 border-secondary/30",
     iconColor: "text-secondary",
     title: "Repuestos originales Fuller",
-    desc: "Solo manejamos repuestos de nuestras propias líneas. No compatibles ni genéricos — compatibilidad y duración garantizadas.",
+    desc: "Solo manejamos repuestos de nuestras propias líneas — no compatibles ni genéricos. No se despachan a otras ciudades; todo está sujeto a verificación de stock y facturación previa en sede Bogotá.",
   },
   {
     icon: MapPin,
     color: "bg-accent/15 border-accent/30",
     iconColor: "text-accent",
     title: "Presencial en Bogotá",
-    desc: "El mantenimiento se atiende en nuestra sede de Bogotá. Para clientes de otras ciudades despachamos repuestos originales Fuller con guía telefónica.",
+    desc: "El mantenimiento y la entrega de repuestos se atienden únicamente en nuestra sede de Bogotá. Para clientes de otras ciudades ofrecemos guía telefónica.",
   },
 ];
 

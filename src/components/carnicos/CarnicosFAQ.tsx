@@ -15,7 +15,7 @@ const faqs = [
   },
   {
     q: "¿Incluyen capacitación de uso?",
-    a: "Sí, sin costo adicional. Si estás en Bogotá la capacitación es presencial al momento de la entrega. Si estás en otra ciudad de Colombia te damos la capacitación de forma remota por videollamada, cubriendo instalación, puesta en marcha y recomendaciones de uso.",
+    a: "Sí. La primera capacitación es sin costo adicional: si estás en Bogotá es presencial al momento de la entrega; si estás en otra ciudad de Colombia es remota por videollamada, cubriendo instalación, puesta en marcha y recomendaciones de uso. Las capacitaciones adicionales sí tienen un costo.",
   },
   {
     q: "¿Realizan envíos internacionales?",

@@ -59,14 +59,10 @@ export default function GarantiaSection() {
               . La cobertura aplica a defectos de fábrica y se atiende en nuestra
               sede de Bogotá.
             </p>
-            <p className="text-slate-600 leading-relaxed mb-4">
+            <p className="text-slate-600 leading-relaxed mb-8">
               No cubre: golpes, mal uso, sobrevoltaje, daños por transporte una
               vez entregado, ni intervenciones previas de terceros. Para activar
               la garantía necesitamos factura de compra y modelo del equipo.
-            </p>
-            <p className="text-slate-500 text-sm leading-relaxed mb-8">
-              El tiempo exacto de garantía viene especificado en la ficha
-              técnica de cada producto y en la factura.
             </p>
             <a
               href={WHATSAPP_URL}

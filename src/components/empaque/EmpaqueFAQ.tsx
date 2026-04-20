@@ -15,7 +15,7 @@ const faqs = [
   },
   {
     q: "¿Qué insumos manejan para empaque al vacío?",
-    a: "Trabajamos con rollos de vacío de uso alimenticio, bolsas de polietileno y cintas de fechado en distintas medidas. No manejamos bolsas de celofán. La disponibilidad depende del stock del momento y solo aplica para equipos Fuller Machinery. Escríbenos por WhatsApp con las medidas que necesitas y te confirmamos existencias.",
+    a: "Trabajamos con rollos de vacío de uso alimenticio, bolsas de polietileno y cintas de fechado en distintas medidas. La disponibilidad depende del stock del momento y solo aplica para equipos Fuller Machinery. Escríbenos por WhatsApp con las medidas que necesitas y te confirmamos existencias.",
   },
   {
     q: "¿Manejan repuestos y capacitación de uso?",

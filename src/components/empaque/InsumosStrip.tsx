@@ -2,12 +2,12 @@
 
 import { Package } from "lucide-react";
 
-const WHATSAPP_URL = "https://wa.me/573244247198?text=Hola%2C%20me%20interesan%20los%20insumos%20para%20empaque%20(rollos%2C%20cintas%2C%20bolsas)";
+const WHATSAPP_URL = "https://wa.me/573244247198?text=Hola%2C%20me%20interesan%20los%20insumos%20para%20empaque%20(rollos%20y%20bolsas%20de%20vac%C3%ADo)";
 
 const insumos = [
   { icon: "receipt_long", label: "Rollos de Vacío" },
   { icon: "edit_calendar", label: "Cintas de Fechado" },
-  { icon: "inventory_2", label: "Bolsas de Celofán" },
+  { icon: "inventory_2", label: "Bolsas EVOH Poliamida" },
 ];
 
 export default function InsumosStrip() {

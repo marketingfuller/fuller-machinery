@@ -9,8 +9,8 @@ const ContentSecurityPolicy = [
   "font-src 'self' data: https://fonts.gstatic.com",
   // Imágenes: propias + data/blob + tienda.fullermachinery.com + Unsplash (2 refs pendientes de reemplazar)
   "img-src 'self' data: blob: https://images.unsplash.com https://tienda.fullermachinery.com",
-  // Iframes permitidos: solo Google Maps (usado en /nosotros)
-  "frame-src https://www.google.com https://maps.google.com",
+  // Iframes permitidos: Google Maps (/nosotros) + TikTok embed (/negocios/bebidas)
+  "frame-src https://www.google.com https://maps.google.com https://www.tiktok.com",
   // Impedir que el sitio sea incrustado en iframes de terceros (anti-clickjacking)
   "frame-ancestors 'self'",
   // Sin conexiones salientes externas (todos los WhatsApp son navegación, no fetch)

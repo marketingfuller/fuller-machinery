@@ -15,11 +15,11 @@ const faqs = [
   },
   {
     q: "¿Qué insumos manejan para empaque al vacío?",
-    a: "Trabajamos con rollos de vacío de uso alimenticio, bolsas de celofán y cintas de fechado en distintas medidas. La disponibilidad depende del stock del momento y solo aplica para equipos Fuller Machinery. Escríbenos por WhatsApp con las medidas que necesitas y te confirmamos existencias.",
+    a: "Trabajamos con rollos de vacío de uso alimenticio, bolsas EVOH poliamida y cintas de fechado en distintas medidas. No manejamos bolsas de celofán. La disponibilidad depende del stock del momento y solo aplica para equipos Fuller Machinery. Escríbenos por WhatsApp con las medidas que necesitas y te confirmamos existencias.",
   },
   {
     q: "¿Manejan repuestos y capacitación de uso?",
-    a: "Sí. Los repuestos (barras de sellado, sellos de vacío y piezas de desgaste) están sujetos a disponibilidad en stock y solo aplican para equipos Fuller Machinery. La capacitación de uso es sin costo: presencial en Bogotá al entregar el equipo, o remota por videollamada si estás en otra ciudad de Colombia.",
+    a: "Sí. Los repuestos (barras de sellado, sellos de vacío y piezas de desgaste) están sujetos a disponibilidad en stock y solo aplican para equipos Fuller Machinery. La primera capacitación de uso es sin costo: presencial en Bogotá al entregar el equipo, o remota por videollamada si estás en otra ciudad de Colombia. Capacitaciones adicionales tienen un costo.",
   },
 ];
 

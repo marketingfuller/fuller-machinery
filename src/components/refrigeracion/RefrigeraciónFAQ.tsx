@@ -15,7 +15,7 @@ const faqs = [
   },
   {
     q: "¿Cuentan con capacitación de uso e instalación?",
-    a: "Sí. La capacitación de uso es sin costo adicional: presencial en Bogotá al momento de la entrega, o remota por videollamada si estás en otra ciudad de Colombia. Te guiamos en instalación, puesta en marcha y recomendaciones de uso para que el equipo funcione desde el primer día.",
+    a: "Sí. La primera capacitación de uso es sin costo adicional: presencial en Bogotá al momento de la entrega, o remota por videollamada si estás en otra ciudad de Colombia. Te guiamos en instalación, puesta en marcha y recomendaciones de uso para que el equipo funcione desde el primer día. Capacitaciones adicionales tienen un costo.",
   },
 ];
 

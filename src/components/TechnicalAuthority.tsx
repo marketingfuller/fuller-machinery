@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Headset, ShieldCheck, Clock, Wrench, MessageCircle } from "lucide-react";
+import { Headset, ShieldCheck, Wrench, MessageCircle } from "lucide-react";
 
 const WHATSAPP_NUMBER = "573228534925";
 
@@ -82,7 +82,6 @@ export default function TechnicalAuthority() {
               {[
                 { icon: ShieldCheck, text: "Repuestos originales con garantía de fábrica" },
                 { icon: Wrench, text: "Técnicos certificados en todas las líneas" },
-                { icon: Clock, text: "Tiempos de respuesta menores a 24 horas" },
               ].map((feat, i) => (
                 <div key={i} className="flex items-center gap-4">
                   <div className="w-10 h-10 rounded-lg bg-primary/8 flex items-center justify-center shrink-0">

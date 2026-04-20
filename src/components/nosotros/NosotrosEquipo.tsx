@@ -16,7 +16,7 @@ const team = [
     name: "Iván Parra",
     role: "Jefe de Ingeniería",
     quote:
-      "Cada equipo que sale de Fuller pasa por mis manos. Si hay algo que no me convence, no lo entregamos — así de simple.",
+      "Al revisar tu máquina, me interesa entender qué pasó y cómo la estás usando. Así solucionamos la causa real del problema, no solo el daño visible.",
   },
   {
     image: "/images/nosotros/astrid-solano.webp",

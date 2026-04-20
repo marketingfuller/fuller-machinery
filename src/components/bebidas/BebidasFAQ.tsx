@@ -15,7 +15,7 @@ const faqs = [
   },
   {
     q: "¿La selladora de vasos es compatible con los vasos de mi proveedor?",
-    a: "Sí. La Selladora de Vasos Manual trabaja con vasos de 7 a 22 oz (210ml a 650ml), el rango estándar del mercado colombiano. Sella con película PET de uso alimenticio y tiene contador digital integrado para control de producción. Rinde entre 140 y 160 vasos por hora.",
+    a: "En cuanto a capacidad, sí: la Selladora de Vasos Manual trabaja con vasos de 7 a 22 oz (210ml a 650ml), el rango estándar del mercado colombiano. Sin embargo, el diámetro del vaso varía entre proveedores aunque sea el mismo tamaño en oz — antes de comprar, verifica el diámetro exacto de tu vaso con el dato que te entrega tu proveedor. Sella con película PET de uso alimenticio y tiene contador digital integrado para control de producción. Rinde entre 140 y 160 vasos por hora.",
   },
 ];
 

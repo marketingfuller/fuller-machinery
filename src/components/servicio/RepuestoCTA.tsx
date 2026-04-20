@@ -12,7 +12,7 @@ const WHATSAPP_URL =
 const checks = [
   "Repuestos originales Fuller — no manejamos compatibles ni genéricos",
   "Identificamos la pieza con la foto del equipo y su modelo",
-  "Despacho a todo el país una vez confirmado el pago",
+  "Disponibilidad sujeta a verificación de stock y facturación previa — solo en sede Bogotá",
 ];
 
 export default function RepuestoCTA() {
@@ -49,7 +49,8 @@ export default function RepuestoCTA() {
             <p className="text-white/60 text-base leading-relaxed mb-8 max-w-xl">
               Solo vendemos repuestos de nuestras propias líneas para asegurar
               compatibilidad y durabilidad. Mándanos una foto de la pieza y el
-              modelo de tu máquina y te confirmamos stock y precio.
+              modelo de tu máquina. La disponibilidad y retiro son exclusivamente
+              en nuestra sede de Bogotá, sujeto a verificación de stock y pago previo.
             </p>
             <ul className="flex flex-col gap-4">
               {checks.map((c, i) => (

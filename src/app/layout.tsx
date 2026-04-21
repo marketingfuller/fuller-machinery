@@ -4,6 +4,7 @@ import "./globals.css";
 import CustomCursor from "@/components/CustomCursor";
 import Preloader from "@/components/Preloader";
 import ImageGuard from "@/components/ImageGuard";
+import FloatingWhatsApp from "@/components/FloatingWhatsApp";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -168,6 +169,7 @@ export default function RootLayout({
         <Preloader />
         <ImageGuard />
         {children}
+        <FloatingWhatsApp />
       </body>
     </html>
   );

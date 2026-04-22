@@ -33,6 +33,36 @@ function normalizePhone(raw: string): string | null {
   return null;
 }
 
+// Solo permite http/https/mailto/tel — bloquea javascript: y data: URIs.
+function safeButtonUrl(raw: string): string | null {
+  const trimmed = raw.trim();
+  if (!trimmed) return null;
+  try {
+    const u = new URL(trimmed);
+    if (!["http:", "https:", "mailto:", "tel:"].includes(u.protocol)) return null;
+    return u.toString();
+  } catch {
+    return null;
+  }
+}
+
+const MAX_TEXT = 500;
+function clampText(raw: FormDataEntryValue | null): string | null {
+  if (typeof raw !== "string") return null;
+  const trimmed = raw.trim();
+  if (!trimmed) return null;
+  return trimmed.length > MAX_TEXT ? trimmed.slice(0, MAX_TEXT) : trimmed;
+}
+
+// MIME + extension allowlist. SVG se excluye explícitamente (puede contener <script>).
+const ALLOWED_IMAGE_MIME = new Set([
+  "image/jpeg",
+  "image/png",
+  "image/webp",
+  "image/avif",
+]);
+const ALLOWED_IMAGE_EXT = new Set(["jpg", "jpeg", "png", "webp", "avif"]);
+
 export type FormState = { ok: boolean; message?: string };
 
 export async function saveWhatsApp(
@@ -76,37 +106,50 @@ export async function saveHero(
   const leftImage = formData.get("hero_left_image") as File | null;
   const rightImage = formData.get("hero_right_image") as File | null;
 
+  const leftBtnUrlRaw = clampText(formData.get("hero_left_button_url"));
+  const rightBtnUrlRaw = clampText(formData.get("hero_right_button_url"));
+  const leftBtnUrl = leftBtnUrlRaw ? safeButtonUrl(leftBtnUrlRaw) : null;
+  const rightBtnUrl = rightBtnUrlRaw ? safeButtonUrl(rightBtnUrlRaw) : null;
+  if (leftBtnUrlRaw && !leftBtnUrl) {
+    return {
+      ok: false,
+      message: "URL del botón izquierdo inválida. Debe empezar con http://, https://, mailto: o tel:.",
+    };
+  }
+  if (rightBtnUrlRaw && !rightBtnUrl) {
+    return {
+      ok: false,
+      message: "URL del botón derecho inválida. Debe empezar con http://, https://, mailto: o tel:.",
+    };
+  }
+
   const updates: Record<string, string | boolean | null> = {
     hero_left_enabled: formData.get("hero_left_enabled") === "on",
-    hero_left_eyebrow: (formData.get("hero_left_eyebrow") as string) || null,
-    hero_left_title: (formData.get("hero_left_title") as string) || null,
-    hero_left_title_accent:
-      (formData.get("hero_left_title_accent") as string) || null,
-    hero_left_subtitle: (formData.get("hero_left_subtitle") as string) || null,
-    hero_left_button_text:
-      (formData.get("hero_left_button_text") as string) || null,
-    hero_left_button_url:
-      (formData.get("hero_left_button_url") as string) || null,
+    hero_left_eyebrow: clampText(formData.get("hero_left_eyebrow")),
+    hero_left_title: clampText(formData.get("hero_left_title")),
+    hero_left_title_accent: clampText(formData.get("hero_left_title_accent")),
+    hero_left_subtitle: clampText(formData.get("hero_left_subtitle")),
+    hero_left_button_text: clampText(formData.get("hero_left_button_text")),
+    hero_left_button_url: leftBtnUrl,
     hero_right_enabled: formData.get("hero_right_enabled") === "on",
-    hero_right_eyebrow: (formData.get("hero_right_eyebrow") as string) || null,
-    hero_right_title: (formData.get("hero_right_title") as string) || null,
-    hero_right_title_accent:
-      (formData.get("hero_right_title_accent") as string) || null,
-    hero_right_subtitle:
-      (formData.get("hero_right_subtitle") as string) || null,
-    hero_right_button_text:
-      (formData.get("hero_right_button_text") as string) || null,
-    hero_right_button_url:
-      (formData.get("hero_right_button_url") as string) || null,
+    hero_right_eyebrow: clampText(formData.get("hero_right_eyebrow")),
+    hero_right_title: clampText(formData.get("hero_right_title")),
+    hero_right_title_accent: clampText(formData.get("hero_right_title_accent")),
+    hero_right_subtitle: clampText(formData.get("hero_right_subtitle")),
+    hero_right_button_text: clampText(formData.get("hero_right_button_text")),
+    hero_right_button_url: rightBtnUrl,
   };
 
   async function uploadImage(
     file: File,
     side: "left" | "right",
   ): Promise<string | { error: string }> {
-    if (!file.type.startsWith("image/")) return { error: "Archivo no es una imagen." };
+    if (!ALLOWED_IMAGE_MIME.has(file.type)) {
+      return { error: "Tipo no permitido. Solo jpg, png, webp o avif." };
+    }
     if (file.size > 5 * 1024 * 1024) return { error: "Máximo 5 MB por imagen." };
-    const ext = file.name.split(".").pop()?.toLowerCase() || "webp";
+    const rawExt = file.name.split(".").pop()?.toLowerCase() || "";
+    const ext = ALLOWED_IMAGE_EXT.has(rawExt) ? rawExt : "webp";
     const path = `hero-${side}-${Date.now()}.${ext}`;
     const { error: upErr } = await admin.storage
       .from("hero-images")

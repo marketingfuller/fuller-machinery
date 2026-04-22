@@ -10,7 +10,35 @@ type Props = {
   right: HeroSide;
 };
 
+// Defense-in-depth: aunque los admins solo pueden guardar URLs http/https/local,
+// escapamos comillas y paréntesis antes de meter la URL en CSS url('...').
+function safeImageUrl(raw: string | null): string | null {
+  if (!raw) return null;
+  const trimmed = raw.trim();
+  if (!trimmed) return null;
+  const isHttp = /^https?:\/\//i.test(trimmed);
+  const isLocal = trimmed.startsWith("/");
+  if (!isHttp && !isLocal) return null;
+  return trimmed.replace(/['"()\\]/g, encodeURIComponent);
+}
+
+// Bloquea javascript:/data: URIs que podrían haberse colado en DB antigua.
+function safeHref(raw: string | null): string | null {
+  if (!raw) return null;
+  try {
+    const u = new URL(raw, "https://fullermachinery.com");
+    if (!["http:", "https:", "mailto:", "tel:"].includes(u.protocol)) return null;
+    return u.toString();
+  } catch {
+    return null;
+  }
+}
+
 export default function SplitHero({ left, right }: Props) {
+  const leftImage = safeImageUrl(left.imageUrl);
+  const rightImage = safeImageUrl(right.imageUrl);
+  const leftHref = safeHref(left.buttonUrl);
+  const rightHref = safeHref(right.buttonUrl);
   const sectionRef = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
     target: sectionRef,
@@ -35,10 +63,10 @@ export default function SplitHero({ left, right }: Props) {
           }`}
         >
           <motion.div className="absolute inset-0 scale-110" style={{ y: bgY1 }}>
-            {left.imageUrl && (
+            {leftImage && (
               <div
                 className="absolute inset-0 bg-cover bg-center"
-                style={{ backgroundImage: `url('${left.imageUrl}')` }}
+                style={{ backgroundImage: `url("${leftImage}")` }}
               />
             )}
             <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-black/40" />
@@ -78,9 +106,9 @@ export default function SplitHero({ left, right }: Props) {
                 </p>
               )}
 
-              {left.buttonText && left.buttonUrl && (
+              {left.buttonText && leftHref && (
                 <motion.a
-                  href={left.buttonUrl}
+                  href={leftHref}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-3 bg-accent hover:bg-accent-dark text-bg-dark font-bold text-sm px-7 py-4 rounded-full transition-all duration-300 group hover:shadow-xl hover:shadow-accent/25"
@@ -108,10 +136,10 @@ export default function SplitHero({ left, right }: Props) {
           data-cursor="machine"
         >
           <motion.div className="absolute inset-0 scale-110" style={{ y: bgY2 }}>
-            {right.imageUrl && (
+            {rightImage && (
               <div
                 className="absolute inset-0 bg-cover bg-center"
-                style={{ backgroundImage: `url('${right.imageUrl}')` }}
+                style={{ backgroundImage: `url("${rightImage}")` }}
               />
             )}
             <div className="absolute inset-0 bg-gradient-to-l from-black/80 via-black/60 to-black/40" />
@@ -151,9 +179,9 @@ export default function SplitHero({ left, right }: Props) {
                 </p>
               )}
 
-              {right.buttonText && right.buttonUrl && (
+              {right.buttonText && rightHref && (
                 <motion.a
-                  href={right.buttonUrl}
+                  href={rightHref}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-3 bg-white/10 hover:bg-white/20 border border-white/20 text-white font-bold text-sm px-7 py-4 rounded-full transition-all duration-300 group backdrop-blur-sm"

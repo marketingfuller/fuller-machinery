@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import LoginForm from "./LoginForm";
 
 export default function AdminLoginPage() {
@@ -10,7 +11,9 @@ export default function AdminLoginPage() {
         <p className="text-slate-500 text-sm mb-6">
           Ingresa con tu correo autorizado.
         </p>
-        <LoginForm />
+        <Suspense fallback={<div className="text-slate-500 text-sm">Cargando…</div>}>
+          <LoginForm />
+        </Suspense>
       </div>
     </main>
   );

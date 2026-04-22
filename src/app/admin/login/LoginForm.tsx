@@ -1,14 +1,19 @@
 "use client";
 
 import { useState } from "react";
-import { useRouter } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import { createSupabaseBrowserClient } from "@/lib/supabase/client";
 
 export default function LoginForm() {
   const router = useRouter();
+  const searchParams = useSearchParams();
+  const urlError =
+    searchParams.get("error") === "not-admin"
+      ? "Tu usuario no está autorizado para acceder al panel. Contactá al administrador."
+      : null;
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [error, setError] = useState<string | null>(null);
+  const [error, setError] = useState<string | null>(urlError);
   const [loading, setLoading] = useState(false);
 
   async function handleSubmit(e: React.FormEvent) {
@@ -26,6 +31,13 @@ export default function LoginForm() {
       return;
     }
     router.replace("/admin");
+    router.refresh();
+  }
+
+  async function handleSignOut() {
+    const supabase = createSupabaseBrowserClient();
+    await supabase.auth.signOut();
+    router.replace("/admin/login");
     router.refresh();
   }
 
@@ -60,9 +72,18 @@ export default function LoginForm() {
         />
       </div>
       {error && (
-        <p className="text-red-600 text-sm bg-red-50 border border-red-200 rounded-lg px-3 py-2">
-          {error}
-        </p>
+        <div className="text-red-600 text-sm bg-red-50 border border-red-200 rounded-lg px-3 py-2 flex flex-col gap-2">
+          <p>{error}</p>
+          {urlError && (
+            <button
+              type="button"
+              onClick={handleSignOut}
+              className="text-xs font-semibold underline self-start"
+            >
+              Cerrar sesión y usar otra cuenta
+            </button>
+          )}
+        </div>
       )}
       <button
         type="submit"

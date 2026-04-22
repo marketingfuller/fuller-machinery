@@ -7,6 +7,7 @@ import ViralCarousel from "@/components/ViralCarousel";
 import StarterKits from "@/components/StarterKits";
 import TechnicalAuthority from "@/components/TechnicalAuthority";
 import Footer from "@/components/Footer";
+import { getSettings } from "@/lib/settings";
 
 export const metadata: Metadata = {
   title: "Fuller Machinery | Equipos y Maquinaria para la Industria Alimentaria",
@@ -17,12 +18,13 @@ export const metadata: Metadata = {
   },
 };
 
-export default function Home() {
+export default async function Home() {
+  const settings = await getSettings();
   return (
     <>
       <Header />
       <main>
-        <SplitHero />
+        <SplitHero left={settings.heroLeft} right={settings.heroRight} />
         <TrustBar />
         <BentoCategories />
         <ViralCarousel />

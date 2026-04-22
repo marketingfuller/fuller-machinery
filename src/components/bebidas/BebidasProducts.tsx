@@ -3,6 +3,8 @@
 import { useRef } from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import { useSettings } from "@/components/SettingsProvider";
+import { rewriteWhatsAppNumber } from "@/lib/whatsapp";
 
 const products = [
   {
@@ -44,6 +46,7 @@ const products = [
 ];
 
 export default function BebidasProducts() {
+  const { whatsappCommercial } = useSettings();
   const scrollRef = useRef<HTMLDivElement>(null);
 
   const scroll = (dir: "left" | "right") => {
@@ -114,7 +117,7 @@ export default function BebidasProducts() {
                   </div>
                   <div className="flex items-center justify-between gap-2">
                     <a
-                      href={p.whatsapp}
+                      href={rewriteWhatsAppNumber(p.whatsapp, whatsappCommercial)}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="inline-flex items-center gap-1.5 bg-secondary hover:bg-secondary/90 text-white font-bold text-xs px-4 py-2 rounded-lg transition-colors"

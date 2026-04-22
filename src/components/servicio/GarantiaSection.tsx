@@ -1,14 +1,13 @@
 "use client";
 
 import { motion } from "framer-motion";
-
-const WHATSAPP_URL =
-  "https://wa.me/573228534925?text=" +
-  encodeURIComponent(
-    "Hola, necesito activar la garantía de mi equipo Fuller. Tengo la factura y el modelo a la mano."
-  );
+import { useWhatsApp } from "@/components/SettingsProvider";
 
 export default function GarantiaSection() {
+  const { url: WHATSAPP_URL } = useWhatsApp(
+    "support",
+    "Hola, necesito activar la garantía de mi equipo Fuller. Tengo la factura y el modelo a la mano.",
+  );
   return (
     <section className="py-20 md:py-24 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

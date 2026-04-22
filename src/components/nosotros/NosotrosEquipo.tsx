@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
+import { useWhatsApp } from "@/components/SettingsProvider";
 
 const team = [
   {
@@ -27,12 +28,6 @@ const team = [
   },
 ];
 
-const WHATSAPP_URL =
-  "https://wa.me/573244247198?text=" +
-  encodeURIComponent(
-    "Hola, me gustaría hablar con un asesor comercial de Fuller Machinery."
-  );
-
 const containerVariants = {
   hidden: { opacity: 0 },
   show: {
@@ -51,6 +46,10 @@ const itemVariants = {
 };
 
 export default function NosotrosEquipo() {
+  const { url: WHATSAPP_URL } = useWhatsApp(
+    "commercial",
+    "Hola, me gustaría hablar con un asesor comercial de Fuller Machinery.",
+  );
   return (
     <section className="py-20 md:py-28 bg-white">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">

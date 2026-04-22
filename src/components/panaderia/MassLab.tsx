@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { ThermometerSun, Wind, Layers } from "lucide-react";
+import { useWhatsApp } from "@/components/SettingsProvider";
 
 const problems = [
   {
@@ -41,6 +42,10 @@ const itemVariants = {
 };
 
 export default function MassLab() {
+  const { url: waUrl } = useWhatsApp(
+    "commercial",
+    "Hola, necesito orientación técnica para mi panadería",
+  );
   return (
     <section className="py-20 md:py-28 bg-bg-dark text-white overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -104,7 +109,7 @@ export default function MassLab() {
         >
           <p className="text-white/50 text-sm">¿Necesitas orientación para tu panadería?</p>
           <a
-            href="https://wa.me/573244247198?text=Hola%2C%20necesito%20orientaci%C3%B3n%20t%C3%A9cnica%20para%20mi%20panader%C3%ADa"
+            href={waUrl}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 text-accent font-bold text-sm hover:text-white transition-colors underline underline-offset-4"

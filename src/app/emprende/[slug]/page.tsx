@@ -13,6 +13,7 @@ import {
   breadcrumbJsonLd,
   articleJsonLd,
 } from "@/lib/seo";
+import { getSettings } from "@/lib/settings";
 
 type Params = Promise<{ slug: string }>;
 
@@ -55,6 +56,13 @@ export default async function EmprendePostPage({
   const { slug } = await params;
   const post = getPostBySlug(slug);
   if (!post) notFound();
+
+  // Los artículos tienen números de WhatsApp hardcoded en el markdown.
+  // Sustituimos por los actuales del CMS en cada render.
+  const settings = await getSettings();
+  const renderedContent = post.content
+    .replace(/wa\.me\/573244247198/g, `wa.me/${settings.whatsappCommercial}`)
+    .replace(/wa\.me\/573228534925/g, `wa.me/${settings.whatsappSupport}`);
 
   const dateFmt = new Date(post.date).toLocaleDateString("es-CO", {
     year: "numeric",
@@ -136,7 +144,7 @@ export default async function EmprendePostPage({
         <article className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">
           <div className="prose prose-slate md:prose-lg max-w-none prose-headings:font-display prose-headings:font-black prose-headings:text-slate-900 prose-a:text-primary hover:prose-a:text-secondary prose-a:font-semibold prose-strong:text-slate-900 prose-img:rounded-xl prose-table:text-sm prose-table:block prose-table:overflow-x-auto md:prose-table:table">
             <ReactMarkdown remarkPlugins={[remarkGfm]}>
-              {post.content}
+              {renderedContent}
             </ReactMarkdown>
           </div>
         </article>

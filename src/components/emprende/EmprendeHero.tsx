@@ -2,8 +2,13 @@
 
 import { motion } from "framer-motion";
 import { ArrowDown } from "lucide-react";
+import { useWhatsApp } from "@/components/SettingsProvider";
 
 export default function EmprendeHero() {
+  const { url: waUrl } = useWhatsApp(
+    "commercial",
+    "Hola, necesito asesoría para mi negocio gastronómico",
+  );
   return (
     <section className="relative bg-bg-dark overflow-hidden py-16 md:py-24 px-4">
       <div
@@ -61,7 +66,7 @@ export default function EmprendeHero() {
             <ArrowDown size={16} />
           </a>
           <a
-            href="https://wa.me/573244247198?text=Hola%2C%20necesito%20asesor%C3%ADa%20para%20mi%20negocio%20gastron%C3%B3mico"
+            href={waUrl}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-2 bg-white/5 hover:bg-white/10 border border-white/20 text-white font-bold px-6 py-3 rounded-xl text-sm uppercase tracking-wide transition-all w-full sm:w-auto"

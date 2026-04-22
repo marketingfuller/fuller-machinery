@@ -3,8 +3,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Check, Star, MessageCircle, Coffee, IceCream, Beef } from "lucide-react";
-
-const WHATSAPP_NUMBER = "573244247198";
+import { useSettings } from "@/components/SettingsProvider";
 
 interface Kit {
   name: string;
@@ -39,14 +38,6 @@ const kits: Kit[] = [
   },
 ];
 
-function getWhatsAppUrl(kit: Kit) {
-  const itemsList = kit.items.map((item) => `• ${item}`).join("\n");
-  const msg = encodeURIComponent(
-    `Hola, estoy interesado en el Kit *${kit.name}* que incluye:\n${itemsList}\n\n¿Me pueden dar más información y precio?`
-  );
-  return `https://wa.me/${WHATSAPP_NUMBER}?text=${msg}`;
-}
-
 const cardVariants = {
   hidden: { opacity: 0, y: 40 },
   visible: (i: number) => ({
@@ -57,6 +48,14 @@ const cardVariants = {
 };
 
 export default function StarterKits() {
+  const { whatsappCommercial } = useSettings();
+  const getWhatsAppUrl = (kit: Kit) => {
+    const itemsList = kit.items.map((item) => `• ${item}`).join("\n");
+    const msg = encodeURIComponent(
+      `Hola, estoy interesado en el Kit *${kit.name}* que incluye:\n${itemsList}\n\n¿Me pueden dar más información y precio?`,
+    );
+    return `https://wa.me/${whatsappCommercial}?text=${msg}`;
+  };
   return (
     <section className="relative bg-[#026504] py-20 lg:py-28 overflow-hidden">
       {/* Decorative background elements */}

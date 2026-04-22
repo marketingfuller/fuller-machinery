@@ -1,8 +1,7 @@
 "use client";
 
 import { Package } from "lucide-react";
-
-const WHATSAPP_URL = "https://wa.me/573244247198?text=Hola%2C%20me%20interesan%20los%20insumos%20para%20empaque%20(rollos%20y%20bolsas%20de%20vac%C3%ADo)";
+import { useWhatsApp } from "@/components/SettingsProvider";
 
 const insumos = [
   { icon: "receipt_long", label: "Rollos de Vacío" },
@@ -11,6 +10,10 @@ const insumos = [
 ];
 
 export default function InsumosStrip() {
+  const { url: WHATSAPP_URL } = useWhatsApp(
+    "commercial",
+    "Hola, me interesan los insumos para empaque (rollos y bolsas de vacío)",
+  );
   return (
     <section className="bg-bg-dark py-12 border-t border-white/10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

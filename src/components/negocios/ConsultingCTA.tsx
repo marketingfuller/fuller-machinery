@@ -1,6 +1,13 @@
+"use client";
+
 import React from 'react';
+import { useWhatsApp } from "@/components/SettingsProvider";
 
 export default function ConsultingCTA() {
+  const { url: waUrl } = useWhatsApp(
+    "commercial",
+    "Hola, necesito asesoría para elegir la maquinaria adecuada para mi negocio.",
+  );
   return (
     <section className="relative py-20 bg-bg-dark overflow-hidden">
       {/* Light green dot pattern */}
@@ -65,7 +72,7 @@ export default function ConsultingCTA() {
             {/* CTA button */}
             <div className="shrink-0 w-full md:w-auto">
               <a
-                href={`https://wa.me/573244247198?text=${encodeURIComponent("Hola, necesito asesoría para elegir la maquinaria adecuada para mi negocio.")}`}
+                href={waUrl}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group w-full md:w-auto inline-flex items-center justify-center gap-3 border-2 border-white text-white hover:bg-white hover:text-primary py-4 px-9 rounded-2xl font-bold transition-all duration-300 hover:scale-105 text-base md:text-lg"

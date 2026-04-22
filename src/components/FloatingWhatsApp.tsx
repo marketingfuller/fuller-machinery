@@ -1,15 +1,16 @@
 "use client";
 
 import { motion } from "framer-motion";
-
-const WHATSAPP_URL =
-  "https://wa.me/573244247198?text=" +
-  encodeURIComponent("Hola, me gustaría recibir información sobre sus equipos.");
+import { useWhatsApp } from "@/components/SettingsProvider";
 
 export default function FloatingWhatsApp() {
+  const { url } = useWhatsApp(
+    "commercial",
+    "Hola, me gustaría recibir información sobre sus equipos.",
+  );
   return (
     <motion.a
-      href={WHATSAPP_URL}
+      href={url}
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Chatea con nosotros por WhatsApp"

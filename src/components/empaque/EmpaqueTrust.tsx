@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { ShieldCheck, TrendingDown, Zap } from "lucide-react";
+import { useWhatsApp } from "@/components/SettingsProvider";
 
 const features = [
   {
@@ -45,6 +46,10 @@ const itemVariants = {
 };
 
 export default function EmpaqueTrust() {
+  const { url: waUrl } = useWhatsApp(
+    "commercial",
+    "Hola, necesito asesoría para elegir un sistema de empaque",
+  );
   return (
     <section className="py-20 md:py-28 bg-bg-dark text-white overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -111,7 +116,7 @@ export default function EmpaqueTrust() {
             ¿No sabes qué sistema de empaque necesitas?
           </p>
           <a
-            href="https://wa.me/573244247198?text=Hola%2C%20necesito%20asesor%C3%ADa%20para%20elegir%20un%20sistema%20de%20empaque"
+            href={waUrl}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 text-[#4ab84c] font-bold text-sm hover:text-white transition-colors underline underline-offset-4"

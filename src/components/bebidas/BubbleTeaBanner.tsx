@@ -1,7 +1,13 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { useWhatsApp } from "@/components/SettingsProvider";
+
 export default function BubbleTeaBanner() {
+  const { url: waUrl } = useWhatsApp(
+    "commercial",
+    "Hola, me interesa cotizar insumos para bubble tea y selladoras de vasos",
+  );
   return (
     <section className="py-20 bg-bg-dark">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -75,7 +81,7 @@ export default function BubbleTeaBanner() {
                 Ver Máquinas Selladoras
               </a>
               <a
-                href="https://wa.me/573244247198?text=Hola%2C%20me%20interesa%20cotizar%20insumos%20para%20bubble%20tea%20y%20selladoras%20de%20vasos"
+                href={waUrl}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center px-7 py-3.5 border-2 border-white/30 hover:bg-white/10 text-white font-bold rounded-xl text-sm transition-colors"

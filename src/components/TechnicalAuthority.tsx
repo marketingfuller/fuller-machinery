@@ -2,10 +2,13 @@
 
 import { motion } from "framer-motion";
 import { Headset, ShieldCheck, Wrench, MessageCircle } from "lucide-react";
-
-const WHATSAPP_NUMBER = "573228534925";
+import { useWhatsApp } from "@/components/SettingsProvider";
 
 export default function TechnicalAuthority() {
+  const { url } = useWhatsApp(
+    "support",
+    "Hola, tengo una consulta sobre mi equipo Fuller Machinery. ¿Pueden ayudarme?",
+  );
   return (
     <section id="servicio" className="bg-bg-light py-20 lg:py-28 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -95,7 +98,7 @@ export default function TechnicalAuthority() {
             {/* CTA */}
             <div className="flex flex-col sm:flex-row gap-4">
               <motion.a
-                href={`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent("Hola, tengo una consulta sobre mi equipo Fuller Machinery. ¿Pueden ayudarme?")}`}
+                href={url}
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.02 }}

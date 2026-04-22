@@ -1,4 +1,12 @@
+"use client";
+
+import { useWhatsApp } from "@/components/SettingsProvider";
+
 export default function KitBundle() {
+  const { url: waUrl } = useWhatsApp(
+    "commercial",
+    "Hola, me interesa cotizar el Kit Panadero Emprendedor que incluye:\n• Amasadora de 50 Libras\n• Horno de Convección 1 Cabina 1 Lata\n• Laminadora de Masas\n• Vitrina Exhibidora para Panadería\n\n¿Me pueden dar más información y precio?",
+  );
   const images = [
     "/images/panaderia/amasadora tarjeta oferta.webp",
     "/images/panaderia/Horno tarjeta oferta.webp",
@@ -55,7 +63,7 @@ export default function KitBundle() {
               </ul>
 
               <a
-                href={`https://wa.me/573244247198?text=${encodeURIComponent("Hola, me interesa cotizar el Kit Panadero Emprendedor que incluye:\n• Amasadora de 50 Libras\n• Horno de Convección 1 Cabina 1 Lata\n• Laminadora de Masas\n• Vitrina Exhibidora para Panadería\n\n¿Me pueden dar más información y precio?")}`}
+                href={waUrl}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full sm:w-auto bg-accent hover:bg-accent/90 text-bg-dark font-black py-4 px-8 rounded-xl shadow-lg transition-all hover:scale-105 uppercase tracking-wide flex items-center justify-center gap-2"

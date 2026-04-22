@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { ShieldCheck, Zap, Award } from "lucide-react";
+import { useWhatsApp } from "@/components/SettingsProvider";
 
 const features = [
   {
@@ -45,6 +46,10 @@ const itemVariants = {
 };
 
 export default function CarnicosTrust() {
+  const { url: waUrl } = useWhatsApp(
+    "commercial",
+    "Hola, necesito asesoría para elegir un equipo de procesamiento cárnico",
+  );
   return (
     <section className="py-20 md:py-28 bg-bg-dark text-white overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -110,7 +115,7 @@ export default function CarnicosTrust() {
             ¿Necesitas asesoría para elegir el equipo correcto?
           </p>
           <a
-            href="https://wa.me/573244247198?text=Hola%2C%20necesito%20asesor%C3%ADa%20para%20elegir%20un%20equipo%20de%20procesamiento%20c%C3%A1rnico"
+            href={waUrl}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 text-accent font-bold text-sm hover:text-white transition-colors underline underline-offset-4"

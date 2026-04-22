@@ -1,4 +1,7 @@
+"use client";
+
 import { CheckCircle } from "lucide-react";
+import { useWhatsApp } from "@/components/SettingsProvider";
 
 const items = [
   "Crispetera Nostalgia 850 (olla 2.5 oz)",
@@ -6,10 +9,11 @@ const items = [
   "Freidor Vertical de Salchichas Egg Roller",
 ];
 
-const whatsappUrl =
-  "https://wa.me/573244247198?text=Hola%2C%20me%20interesa%20el%20Kit%20Cine%20en%20Casa%20%28Crispetera%20Nostalgia%20%2B%20Calentador%20de%20Salsas%20%2B%20Egg%20Roller%29";
-
 export default function KitCinema() {
+  const { url: whatsappUrl } = useWhatsApp(
+    "commercial",
+    "Hola, me interesa el Kit Cine en Casa (Crispetera Nostalgia + Calentador de Salsas + Egg Roller)",
+  );
   return (
     <section className="py-12 px-4 bg-[#f5f5f5]">
       <div className="max-w-7xl mx-auto">

@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import JsonLd from "@/components/JsonLd";
 import { faqPageJsonLd } from "@/lib/seo";
+import { useWhatsApp } from "@/components/SettingsProvider";
 
 const faqs = [
   {
@@ -20,6 +21,10 @@ const faqs = [
 ];
 
 export default function BebidasFAQ() {
+  const { url: waUrl } = useWhatsApp(
+    "commercial",
+    "Hola, tengo una pregunta sobre los equipos de bebidas y café",
+  );
   return (
     <section className="py-20 bg-white">
       <JsonLd
@@ -68,7 +73,7 @@ export default function BebidasFAQ() {
           className="text-center mt-12"
         >
           <p className="text-slate-500 text-sm mb-4">¿Tienes una pregunta que no aparece aquí?</p>
-          <a href="https://wa.me/573244247198?text=Hola%2C%20tengo%20una%20pregunta%20sobre%20los%20equipos%20de%20bebidas%20y%20caf%C3%A9" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-secondary hover:bg-secondary/90 text-white font-bold px-6 py-3 rounded-xl text-sm transition-all hover:-translate-y-0.5 hover:shadow-lg hover:shadow-secondary/25">
+          <a href={waUrl} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-secondary hover:bg-secondary/90 text-white font-bold px-6 py-3 rounded-xl text-sm transition-all hover:-translate-y-0.5 hover:shadow-lg hover:shadow-secondary/25">
             <span className="material-symbols-outlined text-[18px]">chat</span>
             Contáctanos por WhatsApp
           </a>

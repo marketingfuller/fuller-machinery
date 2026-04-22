@@ -1,7 +1,18 @@
+"use client";
+
+import { useSettings } from "@/components/SettingsProvider";
+
 const ADDRESS_QUERY = "Fuller+Machinery+Calle+63B+79-35+Bogota";
 const MAP_EMBED = `https://www.google.com/maps?q=${ADDRESS_QUERY}&output=embed`;
 
+function formatCoPhone(raw: string): string {
+  const digits = raw.replace(/\D/g, "").replace(/^57/, "");
+  if (digits.length !== 10) return raw;
+  return `${digits.slice(0, 3)} ${digits.slice(3, 6)} ${digits.slice(6)}`;
+}
+
 export default function NosotrosMapa() {
+  const { whatsappCommercial, whatsappSupport } = useSettings();
   return (
     <section className="py-16 md:py-20 bg-slate-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -63,10 +74,10 @@ export default function NosotrosMapa() {
                     </li>
                     <li>
                       <a
-                        href="tel:+573244247198"
+                        href={`tel:+${whatsappCommercial}`}
                         className="text-white/60 hover:text-accent transition-colors"
                       >
-                        324 424 7198{" "}
+                        {formatCoPhone(whatsappCommercial)}{" "}
                         <span className="text-white/35 text-xs">
                           · Comercial
                         </span>
@@ -74,10 +85,10 @@ export default function NosotrosMapa() {
                     </li>
                     <li>
                       <a
-                        href="tel:+573228534925"
+                        href={`tel:+${whatsappSupport}`}
                         className="text-white/60 hover:text-accent transition-colors"
                       >
-                        322 853 4925{" "}
+                        {formatCoPhone(whatsappSupport)}{" "}
                         <span className="text-white/35 text-xs">
                           · Técnico
                         </span>

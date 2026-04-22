@@ -1,6 +1,14 @@
 import { getAllPosts } from "@/lib/emprende";
+import { getSettings } from "@/lib/settings";
 
-export const dynamic = "force-static";
+// Se regenera bajo demanda (con cache por tag de site-settings).
+export const revalidate = 3600;
+
+function formatCoPhone(raw: string): string {
+  const digits = raw.replace(/\D/g, "").replace(/^57/, "");
+  if (digits.length !== 10) return raw;
+  return `${digits.slice(0, 3)} ${digits.slice(3, 6)} ${digits.slice(6)}`;
+}
 
 const SITE_URL = "https://www.fullermachinery.com";
 
@@ -250,11 +258,16 @@ function formatDate(iso: string): string {
   }
 }
 
-export function GET() {
+export async function GET() {
   const posts = getAllPosts();
+  const settings = await getSettings();
+  const commercialFmt = formatCoPhone(settings.whatsappCommercial);
 
   const articleSections = posts
     .map((post) => {
+      const normalized = post.content
+        .replace(/wa\.me\/573244247198/g, `wa.me/${settings.whatsappCommercial}`)
+        .replace(/wa\.me\/573228534925/g, `wa.me/${settings.whatsappSupport}`);
       return [
         `## ${post.title}`,
         "",
@@ -265,12 +278,18 @@ export function GET() {
         "",
         `${post.excerpt}`,
         "",
-        post.content.trim(),
+        normalized.trim(),
       ].join("\n");
     })
     .join("\n\n---\n\n");
 
-  const body = HEADER + articleSections + FOOTER;
+  const headerRendered = HEADER
+    .replace(/\(\+57\) 324 424 7198/g, `(+57) ${commercialFmt}`)
+    .replace(/\(\+57\) 322 853 4925/g, `(+57) ${formatCoPhone(settings.whatsappSupport)}`)
+    .replace(/wa\.me\/573244247198/g, `wa.me/${settings.whatsappCommercial}`)
+    .replace(/wa\.me\/573228534925/g, `wa.me/${settings.whatsappSupport}`);
+
+  const body = headerRendered + articleSections + FOOTER;
 
   return new Response(body, {
     headers: {

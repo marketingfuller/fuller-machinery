@@ -5,6 +5,8 @@ import CustomCursor from "@/components/CustomCursor";
 import Preloader from "@/components/Preloader";
 import ImageGuard from "@/components/ImageGuard";
 import FloatingWhatsApp from "@/components/FloatingWhatsApp";
+import { SettingsProvider } from "@/components/SettingsProvider";
+import { getSettings } from "@/lib/settings";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -91,7 +93,8 @@ export const metadata: Metadata = {
   },
 };
 
-const jsonLd = {
+function buildJsonLd(commercial: string, support: string) {
+  return {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "@id": `${SITE_URL}/#organization`,
@@ -101,7 +104,7 @@ const jsonLd = {
   url: SITE_URL,
   logo: `${SITE_URL}/images/logo-fuller.png`,
   image: `${SITE_URL}/images/logo-fuller.png`,
-  telephone: ["+573102852053", "+573244247198", "+573228534925"],
+  telephone: ["+573102852053", `+${commercial}`, `+${support}`],
   email: "ventasfullermachinery@gmail.com",
   priceRange: "$$",
   address: {
@@ -140,13 +143,16 @@ const jsonLd = {
     "@type": "Country",
     name: "Colombia",
   },
-};
+  };
+}
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const settings = await getSettings();
+  const jsonLd = buildJsonLd(settings.whatsappCommercial, settings.whatsappSupport);
   return (
     <html
       lang="es"
@@ -165,11 +171,13 @@ export default function RootLayout({
         />
       </head>
       <body className="min-h-full flex flex-col font-sans bg-bg-light text-foreground">
-        <CustomCursor />
-        <Preloader />
-        <ImageGuard />
-        {children}
-        <FloatingWhatsApp />
+        <SettingsProvider value={settings}>
+          <CustomCursor />
+          <Preloader />
+          <ImageGuard />
+          {children}
+          <FloatingWhatsApp />
+        </SettingsProvider>
       </body>
     </html>
   );

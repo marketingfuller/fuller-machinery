@@ -2,12 +2,7 @@
 
 import { motion } from "framer-motion";
 import { CheckCircle2, Camera } from "lucide-react";
-
-const WHATSAPP_URL =
-  "https://wa.me/573228534925?text=" +
-  encodeURIComponent(
-    "Hola, necesito un repuesto para mi equipo Fuller. Adjunto foto de la pieza y modelo de la máquina."
-  );
+import { useWhatsApp } from "@/components/SettingsProvider";
 
 const checks = [
   "Repuestos originales Fuller — no manejamos compatibles ni genéricos",
@@ -16,6 +11,10 @@ const checks = [
 ];
 
 export default function RepuestoCTA() {
+  const { url: WHATSAPP_URL } = useWhatsApp(
+    "support",
+    "Hola, necesito un repuesto para mi equipo Fuller. Adjunto foto de la pieza y modelo de la máquina.",
+  );
   return (
     <section className="relative py-20 md:py-24 bg-bg-dark overflow-hidden">
       <div

@@ -3,6 +3,8 @@
 import { useRef } from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import { useSettings } from "@/components/SettingsProvider";
+import { rewriteWhatsAppNumber } from "@/lib/whatsapp";
 
 const products = [
   {
@@ -48,6 +50,7 @@ const products = [
 ];
 
 export default function ProductGrid() {
+  const { whatsappCommercial } = useSettings();
   const scrollRef = useRef<HTMLDivElement>(null);
 
   const scroll = (dir: "left" | "right") => {
@@ -140,7 +143,7 @@ export default function ProductGrid() {
 
                   <div className="flex flex-col gap-2 mt-auto">
                     <a
-                      href={p.whatsappUrl}
+                      href={rewriteWhatsAppNumber(p.whatsappUrl, whatsappCommercial)}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="inline-flex items-center justify-center gap-2 bg-green-600 hover:bg-green-700 text-white font-bold text-sm py-2.5 rounded-lg transition-all hover:shadow-md hover:shadow-green-600/25"

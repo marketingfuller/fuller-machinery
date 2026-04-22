@@ -2,8 +2,26 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
+import { useSettings } from "@/components/SettingsProvider";
 
-const sedes = [
+function formatCoPhone(raw: string): string {
+  const digits = raw.replace(/\D/g, "").replace(/^57/, "");
+  if (digits.length !== 10) return raw;
+  return `${digits.slice(0, 3)} ${digits.slice(3, 6)} ${digits.slice(6)}`;
+}
+
+const cardVariants = {
+  hidden: { opacity: 0, y: 20 },
+  show: (i: number) => ({
+    opacity: 1,
+    y: 0,
+    transition: { type: "spring" as const, stiffness: 200, damping: 22, delay: i * 0.1 },
+  }),
+};
+
+export default function RegionalInfo() {
+  const { whatsappCommercial, whatsappSupport } = useSettings();
+  const sedes = [
   {
     name: "Sede Principal",
     address: "Calle 63B #79-35, Bogotá",
@@ -12,8 +30,8 @@ const sedes = [
     highlights: ["Showroom con equipos en vivo", "Asesoría personalizada", "Despacho nacional"],
     phones: [
       { label: "Recepción", number: "310 285 2053" },
-      { label: "Comercial", number: "324 424 7198" },
-      { label: "Técnico", number: "322 853 4925" },
+      { label: "Comercial", number: formatCoPhone(whatsappCommercial) },
+      { label: "Técnico", number: formatCoPhone(whatsappSupport) },
     ],
   },
   {
@@ -38,16 +56,6 @@ const sedes = [
   },
 ];
 
-const cardVariants = {
-  hidden: { opacity: 0, y: 20 },
-  show: (i: number) => ({
-    opacity: 1,
-    y: 0,
-    transition: { type: "spring" as const, stiffness: 200, damping: 22, delay: i * 0.1 },
-  }),
-};
-
-export default function RegionalInfo() {
   return (
     <section className="py-20 bg-bg-light">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-5xl">

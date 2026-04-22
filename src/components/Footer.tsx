@@ -2,6 +2,14 @@
 
 import { Mail, MapPin, Phone, Clock } from "lucide-react";
 import Image from "next/image";
+import { useSettings } from "@/components/SettingsProvider";
+
+// Formatea "573244247198" como "324 424 7198" (quita "57" y agrupa 3-3-4).
+function formatCoPhone(raw: string): string {
+  const digits = raw.replace(/\D/g, "").replace(/^57/, "");
+  if (digits.length !== 10) return raw;
+  return `${digits.slice(0, 3)} ${digits.slice(3, 6)} ${digits.slice(6)}`;
+}
 
 function InstagramIcon({ size = 18 }: { size?: number }) {
   return (
@@ -57,29 +65,31 @@ const footerLinks = {
   ],
 };
 
-const sedes = [
-  {
-    name: "Sede Principal & Showroom",
-    address: "Calle 63B #79-35 – Bogotá",
-    phones: [
-      { label: "Recepción", number: "310 285 2053" },
-      { label: "Comercial", number: "324 424 7198" },
-      { label: "Técnico", number: "322 853 4925" },
-    ],
-  },
-  {
-    name: "Ricaurte #1",
-    address: "Calle 12 #27-09 – Bogotá",
-    phones: [{ label: "", number: "320 330 5992" }],
-  },
-  {
-    name: "Ricaurte #2",
-    address: "Calle 13 #27-11 – Bogotá",
-    phones: [{ label: "", number: "310 265 9634" }],
-  },
-];
-
 export default function Footer() {
+  const settings = useSettings();
+  const commercialFmt = formatCoPhone(settings.whatsappCommercial);
+  const supportFmt = formatCoPhone(settings.whatsappSupport);
+  const sedes = [
+    {
+      name: "Sede Principal & Showroom",
+      address: "Calle 63B #79-35 – Bogotá",
+      phones: [
+        { label: "Recepción", number: "310 285 2053" },
+        { label: "Comercial", number: commercialFmt },
+        { label: "Técnico", number: supportFmt },
+      ],
+    },
+    {
+      name: "Ricaurte #1",
+      address: "Calle 12 #27-09 – Bogotá",
+      phones: [{ label: "", number: "320 330 5992" }],
+    },
+    {
+      name: "Ricaurte #2",
+      address: "Calle 13 #27-11 – Bogotá",
+      phones: [{ label: "", number: "310 265 9634" }],
+    },
+  ];
   return (
     <footer className="bg-bg-dark border-t border-white/5">
       {/* Main footer */}
@@ -104,9 +114,9 @@ export default function Footer() {
                 <Phone size={15} className="shrink-0" />
                 (+57) 310 285 2053
               </a>
-              <a href="tel:+573244247198" className="flex items-center gap-3 text-white/80 hover:text-accent text-sm transition-colors">
+              <a href={`tel:+${settings.whatsappCommercial}`} className="flex items-center gap-3 text-white/80 hover:text-accent text-sm transition-colors">
                 <Phone size={15} className="shrink-0" />
-                (+57) 324 424 7198
+                (+57) {commercialFmt}
               </a>
               <a href="mailto:ventasfullermachinery@gmail.com" className="flex items-center gap-3 text-white/80 hover:text-accent text-sm transition-colors break-all">
                 <Mail size={15} className="shrink-0" />

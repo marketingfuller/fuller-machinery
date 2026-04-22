@@ -2,11 +2,13 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
-
-const WHATSAPP_URL =
-  "https://wa.me/573228534925?text=Hola%2C%20necesito%20soporte%20t%C3%A9cnico%20para%20mi%20equipo%20Fuller";
+import { useWhatsApp } from "@/components/SettingsProvider";
 
 export default function ServicioHero() {
+  const { url: WHATSAPP_URL } = useWhatsApp(
+    "support",
+    "Hola, necesito soporte técnico para mi equipo Fuller",
+  );
   return (
     <section className="relative bg-bg-dark overflow-hidden">
       <div className="absolute top-0 left-0 right-0 h-1 bg-secondary z-20" />

@@ -3,12 +3,12 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { Send } from "lucide-react";
-
-const WHATSAPP_NUMBER = "573228534925";
+import { useSettings } from "@/components/SettingsProvider";
 
 type TipoSoporte = "Reparación en sede (Bogotá)" | "Soporte remoto nacional" | "Repuesto" | "Capacitación" | "Otro";
 
 export default function ServicioForm() {
+  const { whatsappSupport } = useSettings();
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
   const [city, setCity] = useState("");
@@ -34,7 +34,7 @@ export default function ServicioForm() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    const url = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(buildMessage())}`;
+    const url = `https://wa.me/${whatsappSupport}?text=${encodeURIComponent(buildMessage())}`;
     window.open(url, "_blank", "noopener,noreferrer");
   };
 

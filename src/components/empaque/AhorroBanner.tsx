@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { Clock, ArrowRight } from "lucide-react";
+import { useWhatsApp } from "@/components/SettingsProvider";
 
 const bullets = [
   {
@@ -19,6 +20,10 @@ const bullets = [
 ];
 
 export default function AhorroBanner() {
+  const { url: waUrl } = useWhatsApp(
+    "commercial",
+    "Hola, me interesa conocer las empacadoras al vacío",
+  );
   return (
     <section className="py-20 bg-slate-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -76,7 +81,7 @@ export default function AhorroBanner() {
                   <ArrowRight size={16} />
                 </a>
                 <a
-                  href="https://wa.me/573244247198?text=Hola%2C%20me%20interesa%20conocer%20las%20empacadoras%20al%20vac%C3%ADo"
+                  href={waUrl}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 border-2 border-primary text-primary hover:bg-primary hover:text-white font-bold px-6 py-3 rounded-xl text-sm transition-all"

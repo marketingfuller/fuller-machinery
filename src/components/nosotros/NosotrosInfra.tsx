@@ -2,34 +2,13 @@
 
 import { motion } from "framer-motion";
 import { Store, Building2, Phone, MapPin } from "lucide-react";
+import { useSettings } from "@/components/SettingsProvider";
 
-const sedes = [
-  {
-    icon: Store,
-    tag: "Sede principal & Showroom",
-    address: "Calle 63B #79-35, Bogotá",
-    phones: [
-      { label: "Recepción", number: "310 285 2053", tel: "+573102852053" },
-      { label: "Comercial", number: "324 424 7198", tel: "+573244247198" },
-      { label: "Técnico", number: "322 853 4925", tel: "+573228534925" },
-    ],
-    desc: "Atención comercial, showroom con equipos en exhibición y asesoría presencial de compra.",
-  },
-  {
-    icon: Building2,
-    tag: "Ricaurte #1",
-    address: "Calle 12 #27-09, Bogotá",
-    phones: [{ label: "", number: "320 330 5992", tel: "+573203305992" }],
-    desc: "Sede de atención en zona Ricaurte. Cercanía para clientes mayoristas y del sector alimentario.",
-  },
-  {
-    icon: Building2,
-    tag: "Ricaurte #2",
-    address: "Calle 13 #27-11, Bogotá",
-    phones: [{ label: "", number: "310 265 9634", tel: "+573102659634" }],
-    desc: "Segunda sede en Ricaurte, a una cuadra de la primera. Atención comercial y exhibición complementaria.",
-  },
-];
+function formatCoPhone(raw: string): string {
+  const digits = raw.replace(/\D/g, "").replace(/^57/, "");
+  if (digits.length !== 10) return raw;
+  return `${digits.slice(0, 3)} ${digits.slice(3, 6)} ${digits.slice(6)}`;
+}
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -49,6 +28,34 @@ const itemVariants = {
 };
 
 export default function NosotrosInfra() {
+  const { whatsappCommercial, whatsappSupport } = useSettings();
+  const sedes = [
+    {
+      icon: Store,
+      tag: "Sede principal & Showroom",
+      address: "Calle 63B #79-35, Bogotá",
+      phones: [
+        { label: "Recepción", number: "310 285 2053", tel: "+573102852053" },
+        { label: "Comercial", number: formatCoPhone(whatsappCommercial), tel: `+${whatsappCommercial}` },
+        { label: "Técnico", number: formatCoPhone(whatsappSupport), tel: `+${whatsappSupport}` },
+      ],
+      desc: "Atención comercial, showroom con equipos en exhibición y asesoría presencial de compra.",
+    },
+    {
+      icon: Building2,
+      tag: "Ricaurte #1",
+      address: "Calle 12 #27-09, Bogotá",
+      phones: [{ label: "", number: "320 330 5992", tel: "+573203305992" }],
+      desc: "Sede de atención en zona Ricaurte. Cercanía para clientes mayoristas y del sector alimentario.",
+    },
+    {
+      icon: Building2,
+      tag: "Ricaurte #2",
+      address: "Calle 13 #27-11, Bogotá",
+      phones: [{ label: "", number: "310 265 9634", tel: "+573102659634" }],
+      desc: "Segunda sede en Ricaurte, a una cuadra de la primera. Atención comercial y exhibición complementaria.",
+    },
+  ];
   return (
     <section className="py-20 md:py-24 bg-slate-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

@@ -3,6 +3,7 @@
 import React, { useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
 import { cn } from '@/lib/cn';
+import { useSettings } from "@/components/SettingsProvider";
 
 const kits = [
   {
@@ -55,6 +56,7 @@ const headerVariants = {
 };
 
 export default function BusinessKits() {
+  const { whatsappCommercial } = useSettings();
   const ref = useRef<HTMLDivElement>(null);
   const isInView = useInView(ref, { once: true, margin: "-80px" });
 
@@ -144,7 +146,7 @@ export default function BusinessKits() {
 
               {/* CTA */}
               <a
-                href={`https://wa.me/573244247198?text=${encodeURIComponent(`Hola, me interesa el kit ${kit.title}. ¿Podrían enviarme una cotización?`)}`}
+                href={`https://wa.me/${whatsappCommercial}?text=${encodeURIComponent(`Hola, me interesa el kit ${kit.title}. ¿Podrían enviarme una cotización?`)}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className={cn(

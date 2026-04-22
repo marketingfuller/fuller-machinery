@@ -1,8 +1,13 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { useWhatsApp } from "@/components/SettingsProvider";
 
 export default function EmprendeNewsletter() {
+  const { url: waUrl } = useWhatsApp(
+    "commercial",
+    "Hola, vi los artículos de Emprende y necesito asesoría para mi negocio",
+  );
   return (
     <section className="relative bg-primary py-16 md:py-20 px-4 overflow-hidden">
       <div
@@ -33,7 +38,7 @@ export default function EmprendeNewsletter() {
           </p>
 
           <a
-            href="https://wa.me/573244247198?text=Hola%2C%20vi%20los%20art%C3%ADculos%20de%20Emprende%20y%20necesito%20asesor%C3%ADa%20para%20mi%20negocio"
+            href={waUrl}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-xl shadow-lg transition-all hover:-translate-y-0.5 hover:shadow-green-600/30 text-sm uppercase tracking-wide"

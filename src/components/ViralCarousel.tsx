@@ -3,8 +3,7 @@
 import { useRef } from "react";
 import { motion } from "framer-motion";
 import { Flame, MessageCircle, ExternalLink } from "lucide-react";
-
-const WHATSAPP_NUMBER = "573244247198";
+import { useSettings } from "@/components/SettingsProvider";
 
 interface Product {
   name: string;
@@ -45,12 +44,12 @@ const products: Product[] = [
   },
 ];
 
-function getWhatsAppUrl(productName: string) {
-  const msg = encodeURIComponent(`Hola, me interesa conocer el precio y disponibilidad de: ${productName}`);
-  return `https://wa.me/${WHATSAPP_NUMBER}?text=${msg}`;
-}
-
 export default function ViralCarousel() {
+  const { whatsappCommercial } = useSettings();
+  const getWhatsAppUrl = (productName: string) => {
+    const msg = encodeURIComponent(`Hola, me interesa conocer el precio y disponibilidad de: ${productName}`);
+    return `https://wa.me/${whatsappCommercial}?text=${msg}`;
+  };
   const scrollRef = useRef<HTMLDivElement>(null);
 
   const scroll = (dir: "left" | "right") => {

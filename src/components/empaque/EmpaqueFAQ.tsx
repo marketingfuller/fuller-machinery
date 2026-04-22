@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import JsonLd from "@/components/JsonLd";
 import { faqPageJsonLd } from "@/lib/seo";
+import { useWhatsApp } from "@/components/SettingsProvider";
 
 const faqs = [
   {
@@ -24,6 +25,10 @@ const faqs = [
 ];
 
 export default function EmpaqueFAQ() {
+  const { url: waUrl } = useWhatsApp(
+    "commercial",
+    "Hola, tengo una pregunta sobre los equipos de empaque",
+  );
   return (
     <section className="py-20 bg-white">
       <JsonLd
@@ -86,7 +91,7 @@ export default function EmpaqueFAQ() {
             ¿Tienes una pregunta que no aparece aquí?
           </p>
           <a
-            href="https://wa.me/573244247198?text=Hola%2C%20tengo%20una%20pregunta%20sobre%20los%20equipos%20de%20empaque"
+            href={waUrl}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-green-600 hover:bg-green-700 text-white font-bold px-6 py-3 rounded-xl text-sm transition-all hover:-translate-y-0.5 hover:shadow-lg hover:shadow-green-600/25"

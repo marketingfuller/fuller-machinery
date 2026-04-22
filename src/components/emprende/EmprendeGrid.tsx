@@ -5,6 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Clock, Download } from "lucide-react";
 import type { Post } from "@/lib/emprende";
+import { useWhatsApp } from "@/components/SettingsProvider";
 
 const categoryStyles: Record<string, string> = {
   Panadería: "bg-primary/8 text-primary border-primary/20",
@@ -33,6 +34,10 @@ const itemVariants = {
 };
 
 export default function EmprendeGrid({ posts }: { posts: Post[] }) {
+  const { url: waUrl } = useWhatsApp(
+    "commercial",
+    "Hola, necesito asesoría para mi negocio",
+  );
   return (
     <section className="mb-20">
       <motion.div
@@ -103,7 +108,7 @@ export default function EmprendeGrid({ posts }: { posts: Post[] }) {
             </p>
           </div>
           <a
-            href="https://wa.me/573244247198?text=Hola%2C%20necesito%20asesor%C3%ADa%20para%20mi%20negocio"
+            href={waUrl}
             target="_blank"
             rel="noopener noreferrer"
             className="relative z-10 inline-flex items-center justify-center gap-2 bg-accent hover:bg-accent/90 text-bg-dark font-bold py-3 px-5 rounded-xl text-sm uppercase tracking-wide transition-all hover:-translate-y-0.5"

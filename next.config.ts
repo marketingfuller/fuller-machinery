@@ -3,7 +3,8 @@ import type { NextConfig } from "next";
 const ContentSecurityPolicy = [
   "default-src 'self'",
   // Next.js hydration y framer-motion requieren inline scripts (sin 'unsafe-eval')
-  "script-src 'self' 'unsafe-inline'",
+  // zocam.app: carga de zocam-analytics.js
+  "script-src 'self' 'unsafe-inline' https://zocam.app",
   // Framer Motion / Tailwind / Material Symbols requieren inline styles + Google Fonts
   "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
   "font-src 'self' data: https://fonts.gstatic.com",
@@ -14,7 +15,8 @@ const ContentSecurityPolicy = [
   // Impedir que el sitio sea incrustado en iframes de terceros (anti-clickjacking)
   "frame-ancestors 'self'",
   // Supabase para auth + datos del CMS (navegación de WhatsApp sigue siendo ok)
-  "connect-src 'self' https://awxewohsgzpvnkxffmgj.supabase.co wss://awxewohsgzpvnkxffmgj.supabase.co",
+  // zocam.app: POST de pings de analítica al endpoint /collect
+  "connect-src 'self' https://awxewohsgzpvnkxffmgj.supabase.co wss://awxewohsgzpvnkxffmgj.supabase.co https://zocam.app",
   "object-src 'none'",
   "base-uri 'self'",
   "form-action 'self'",

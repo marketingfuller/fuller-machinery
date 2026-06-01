@@ -183,6 +183,7 @@ export default async function RootLayout({
           src="https://zocam.app/zocam-analytics.js"
           data-site-key="zcm_4b0793d290f2f5cc502c9c541c8f9359e627"
           data-endpoint="https://zocam.app"
+          data-cookie-domain=".fullermachinery.com"
           strategy="afterInteractive"
         />
       </body>

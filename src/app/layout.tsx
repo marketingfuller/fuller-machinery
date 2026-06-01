@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import { Inter, Montserrat } from "next/font/google";
 import "./globals.css";
 import CustomCursor from "@/components/CustomCursor";
@@ -178,6 +179,12 @@ export default async function RootLayout({
           {children}
           <FloatingWhatsApp />
         </SettingsProvider>
+        <Script
+          src="https://zocam.app/zocam-analytics.js"
+          data-site-key="zcm_4b0793d290f2f5cc502c9c541c8f9359e627"
+          data-endpoint="https://zocam.app"
+          strategy="afterInteractive"
+        />
       </body>
     </html>
   );

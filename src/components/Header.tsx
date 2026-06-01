@@ -141,6 +141,7 @@ export default function Header() {
             href="https://tienda.fullermachinery.com/index.php/shop/"
             target="_blank"
             rel="noopener noreferrer"
+            data-zocam-event="catalogo-header"
             className="hidden sm:flex items-center gap-2 bg-secondary hover:bg-secondary/90 text-white font-semibold text-sm px-5 py-2.5 rounded-full transition-all duration-200 hover:scale-105 hover:shadow-lg hover:shadow-secondary/30"
           >
             <ShoppingBag size={16} />
@@ -197,6 +198,7 @@ export default function Header() {
                 href="https://tienda.fullermachinery.com/index.php/shop/"
                 target="_blank"
                 rel="noopener noreferrer"
+                data-zocam-event="catalogo-header-movil"
                 className="flex items-center justify-center gap-2 bg-secondary hover:bg-secondary/90 text-white font-semibold text-sm px-5 py-3 rounded-full mt-4 transition-colors"
               >
                 <ShoppingBag size={16} />

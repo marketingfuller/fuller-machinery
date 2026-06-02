@@ -15,6 +15,7 @@ import {
 } from "@/lib/products";
 import { searchProducts } from "@/lib/search";
 import { getSettings } from "@/lib/settings";
+import { buildWhatsAppUrl } from "@/lib/whatsapp";
 import SearchBox from "@/components/SearchBox";
 
 export const metadata = buildMetadata({
@@ -105,6 +106,12 @@ export default async function ProductosPage({
     ? (withBadge.length >= 6 ? withBadge : catalogProducts).slice(0, 10)
     : [];
 
+  // Mosaico del hero: una imagen por categoría (máxima variedad visual).
+  const heroMosaic = activeCategories
+    .map((cat) => catalogProducts.find((p) => p.category === cat && p.images?.[0]))
+    .filter((p): p is NonNullable<typeof p> => !!p)
+    .slice(0, 6);
+
   // Enlace de paginación que preserva la categoría activa.
   const pageHref = (p: number) => {
     const params = new URLSearchParams();
@@ -135,26 +142,119 @@ export default async function ProductosPage({
       />
       <Header />
       <main className="min-h-screen mt-[80px] bg-slate-50">
-        {/* Encabezado */}
-        <section className="bg-bg-dark text-white">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14 md:py-20">
-            <span className="text-accent font-bold text-sm uppercase tracking-widest block mb-3">
-              Catálogo
-            </span>
-            <h1 className="font-display font-black text-3xl md:text-5xl leading-tight mb-4">
-              Maquinaria que hace crecer tu negocio
-            </h1>
-            <p className="text-white/70 text-lg max-w-2xl">
-              Equipos profesionales con garantía, soporte técnico y envío nacional
-              desde Bogotá. Cotiza por WhatsApp y recibe asesoría experta.
-            </p>
-            <div className="mt-7 max-w-xl">
-              <SearchBox
-                variant="page"
-                initialQuery={queryStr}
-                placeholder="Buscar: granizadora, freidora a gas, báscula…"
-              />
+        {/* Encabezado (split: texto + mosaico de productos) */}
+        <section className="relative bg-bg-dark text-white overflow-hidden">
+          {/* Glows de acento de fondo */}
+          <div className="pointer-events-none absolute -top-32 -right-24 w-[28rem] h-[28rem] rounded-full bg-accent/10 blur-3xl" />
+          <div className="pointer-events-none absolute -bottom-40 -left-24 w-[28rem] h-[28rem] rounded-full bg-primary/10 blur-3xl" />
+
+          <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14 md:py-20 grid lg:grid-cols-2 gap-10 lg:gap-14 items-center">
+            {/* Columna izquierda */}
+            <div>
+              <span className="text-accent font-bold text-sm uppercase tracking-widest block mb-3">
+                Catálogo
+              </span>
+              <h1 className="font-display font-black text-3xl md:text-5xl leading-tight mb-4">
+                Maquinaria que hace crecer tu negocio
+              </h1>
+              <p className="text-white/70 text-lg max-w-xl">
+                Equipos profesionales con garantía, soporte técnico y envío nacional
+                desde Bogotá. Cotiza por WhatsApp y recibe asesoría experta.
+              </p>
+
+              {/* Stats reales */}
+              <div className="mt-6 flex flex-wrap items-center gap-x-6 gap-y-2 text-sm">
+                <span className="flex items-baseline gap-1.5">
+                  <span className="font-display font-black text-xl text-accent">
+                    {catalogProducts.length}+
+                  </span>
+                  <span className="text-white/60">equipos</span>
+                </span>
+                <span className="hidden sm:block w-px h-5 bg-white/15" />
+                <span className="flex items-baseline gap-1.5">
+                  <span className="font-display font-black text-xl text-accent">
+                    {activeCategories.length}
+                  </span>
+                  <span className="text-white/60">categorías</span>
+                </span>
+                <span className="hidden sm:block w-px h-5 bg-white/15" />
+                <span className="text-white/60">Envío nacional</span>
+              </div>
+
+              <div className="mt-7 max-w-xl">
+                <SearchBox
+                  variant="page"
+                  initialQuery={queryStr}
+                  placeholder="Buscar: granizadora, freidora a gas, báscula…"
+                />
+              </div>
+
+              <div className="mt-5 flex flex-wrap gap-3">
+                <Link
+                  href="/colecciones"
+                  className="inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/15 border border-white/15 text-white font-semibold text-sm px-5 py-2.5 rounded-full transition-colors"
+                >
+                  Explorar por categoría
+                </Link>
+                <a
+                  href={buildWhatsAppUrl(
+                    settings.whatsappCommercial,
+                    "Hola, quiero asesoría para elegir un equipo para mi negocio.",
+                  )}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center gap-2 bg-accent hover:bg-accent/90 text-white font-semibold text-sm px-5 py-2.5 rounded-full transition-colors"
+                >
+                  Asesoría por WhatsApp
+                </a>
+              </div>
             </div>
+
+            {/* Columna derecha: mosaico escalonado de productos reales */}
+            {heroMosaic.length >= 4 && (
+              <div className="relative hidden lg:grid grid-cols-2 gap-4">
+                <div className="space-y-4">
+                  {heroMosaic
+                    .filter((_, i) => i % 2 === 0)
+                    .map((p) => (
+                      <div
+                        key={p.slug}
+                        className="rounded-2xl bg-white/95 p-4 shadow-xl shadow-black/30 ring-1 ring-white/10"
+                      >
+                        <div className="relative aspect-square">
+                          <Image
+                            src={p.images[0]}
+                            alt={p.name}
+                            fill
+                            sizes="22vw"
+                            className="object-contain"
+                          />
+                        </div>
+                      </div>
+                    ))}
+                </div>
+                <div className="space-y-4 mt-10">
+                  {heroMosaic
+                    .filter((_, i) => i % 2 === 1)
+                    .map((p) => (
+                      <div
+                        key={p.slug}
+                        className="rounded-2xl bg-white/95 p-4 shadow-xl shadow-black/30 ring-1 ring-white/10"
+                      >
+                        <div className="relative aspect-square">
+                          <Image
+                            src={p.images[0]}
+                            alt={p.name}
+                            fill
+                            sizes="22vw"
+                            className="object-contain"
+                          />
+                        </div>
+                      </div>
+                    ))}
+                </div>
+              </div>
+            )}
           </div>
         </section>
 

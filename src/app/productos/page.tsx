@@ -1,4 +1,6 @@
 import Link from "next/link";
+import Image from "next/image";
+import { ShieldCheck, Truck, Wrench, PackageCheck } from "lucide-react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import JsonLd from "@/components/JsonLd";
@@ -83,6 +85,26 @@ export default async function ProductosPage({
   const from = filtered.length === 0 ? 0 : (current - 1) * PAGE_SIZE + 1;
   const to = Math.min(current * PAGE_SIZE, filtered.length);
 
+  // Secciones "hub" (tiles de categoría + destacados): solo en la vista base
+  // (sin filtro, sin búsqueda, primera página) para no saturar vistas filtradas.
+  const isLanding = !active && !queryStr && current === 1;
+  const tiles = isLanding
+    ? activeCategories.map((cat) => {
+        const inCat = catalogProducts.filter((p) => p.category === cat);
+        return {
+          cat,
+          label: CATEGORY_META[cat].label,
+          tagline: CATEGORY_META[cat].tagline,
+          image: inCat.find((p) => p.images?.[0])?.images[0] ?? null,
+          count: inCat.length,
+        };
+      })
+    : [];
+  const withBadge = catalogProducts.filter((p) => p.badge);
+  const featured = isLanding
+    ? (withBadge.length >= 6 ? withBadge : catalogProducts).slice(0, 10)
+    : [];
+
   // Enlace de paginación que preserva la categoría activa.
   const pageHref = (p: number) => {
     const params = new URLSearchParams();
@@ -136,8 +158,91 @@ export default async function ProductosPage({
           </div>
         </section>
 
-        {/* Filtros por categoría */}
+        {/* Barra de confianza */}
+        <section className="bg-white border-b border-slate-100">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5 grid grid-cols-2 md:grid-cols-4 gap-x-4 gap-y-5">
+            {[
+              { Icon: PackageCheck, t: `${catalogProducts.length} equipos`, s: "Catálogo completo" },
+              { Icon: ShieldCheck, t: "Garantía Fuller", s: "Respaldo en cada equipo" },
+              { Icon: Truck, t: "Envío nacional", s: "Despacho desde Bogotá" },
+              { Icon: Wrench, t: "Soporte propio", s: "Servicio técnico postventa" },
+            ].map(({ Icon, t, s }) => (
+              <div key={t} className="flex items-center gap-3">
+                <span className="shrink-0 size-10 rounded-xl bg-primary/10 text-primary flex items-center justify-center">
+                  <Icon size={20} />
+                </span>
+                <div className="leading-tight">
+                  <p className="font-bold text-bg-dark text-sm">{t}</p>
+                  <p className="text-slate-500 text-xs">{s}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        {/* Explora por categoría (solo en la landing base) */}
+        {isLanding && (
+          <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-12">
+            <h2 className="font-display font-black text-2xl md:text-3xl text-bg-dark mb-1">
+              Explora por categoría
+            </h2>
+            <p className="text-slate-500 mb-6">
+              Encuentra rápido el tipo de equipo para tu negocio.
+            </p>
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+              {tiles.map((t) => (
+                <Link
+                  key={t.cat}
+                  href={`/productos?categoria=${t.cat}`}
+                  className="group rounded-2xl overflow-hidden border border-slate-200 bg-white hover:shadow-lg hover:border-primary transition-all"
+                >
+                  <div className="relative aspect-[4/3] bg-slate-50">
+                    {t.image && (
+                      <Image
+                        src={t.image}
+                        alt={t.label}
+                        fill
+                        sizes="(max-width: 768px) 50vw, 25vw"
+                        className="object-contain p-4 group-hover:scale-105 transition-transform duration-300"
+                      />
+                    )}
+                  </div>
+                  <div className="p-3.5 border-t border-slate-100">
+                    <p className="font-bold text-bg-dark text-sm group-hover:text-primary transition-colors">
+                      {t.label}
+                    </p>
+                    <p className="text-slate-400 text-xs mt-0.5">{t.count} equipos</p>
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </section>
+        )}
+
+        {/* Equipos destacados (solo en la landing base) */}
+        {isLanding && featured.length > 0 && (
+          <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-14">
+            <h2 className="font-display font-black text-2xl md:text-3xl text-bg-dark mb-1">
+              Equipos destacados
+            </h2>
+            <p className="text-slate-500 mb-6">Una selección de nuestros equipos estrella.</p>
+            <div className="flex gap-5 overflow-x-auto pb-4 -mx-4 px-4 scroll-smooth [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+              {featured.map((p) => (
+                <div key={p.slug} className="w-64 sm:w-72 shrink-0">
+                  <ProductCard product={p} whatsappCommercial={settings.whatsappCommercial} />
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
+
+        {/* Catálogo completo + filtros */}
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+          {isLanding && (
+            <h2 className="font-display font-black text-2xl md:text-3xl text-bg-dark mb-4">
+              Todo el catálogo
+            </h2>
+          )}
           <div className="mb-6">
             <Link
               href="/colecciones"

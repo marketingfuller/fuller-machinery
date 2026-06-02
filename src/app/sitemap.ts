@@ -1,9 +1,10 @@
 import type { MetadataRoute } from "next";
 import { getAllPosts } from "@/lib/emprende";
+import { getAllProducts, getCollections } from "@/lib/products";
 
 const SITE_URL = "https://www.fullermachinery.com";
 
-export default function sitemap(): MetadataRoute.Sitemap {
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const now = new Date();
 
   const staticRoutes: MetadataRoute.Sitemap = [
@@ -51,6 +52,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.85,
     },
     {
+      url: `${SITE_URL}/productos`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
+    {
+      url: `${SITE_URL}/colecciones`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.85,
+    },
+    {
       url: `${SITE_URL}/emprende`,
       lastModified: now,
       changeFrequency: "daily",
@@ -77,5 +90,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  return [...staticRoutes, ...articleRoutes];
+  const products = await getAllProducts();
+  const productRoutes: MetadataRoute.Sitemap = products.map((p) => ({
+    url: `${SITE_URL}/productos/${p.slug}`,
+    lastModified: now,
+    changeFrequency: "weekly",
+    priority: 0.8,
+  }));
+
+  const collections = await getCollections();
+  const collectionRoutes: MetadataRoute.Sitemap = collections.map((c) => ({
+    url: `${SITE_URL}/colecciones/${c.slug}`,
+    lastModified: now,
+    changeFrequency: "weekly",
+    priority: 0.85,
+  }));
+
+  return [...staticRoutes, ...collectionRoutes, ...productRoutes, ...articleRoutes];
 }

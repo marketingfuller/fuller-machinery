@@ -6,6 +6,7 @@ import { ShoppingBag, Menu, X, ChevronDown, Cake, Coffee, Popcorn, Beef, Snowfla
 import Link from "next/link";
 import Image from "next/image";
 import { cn } from "@/lib/cn";
+import SearchBox from "@/components/SearchBox";
 
 const navLinks = [
   { label: "Inicio", href: "/" },
@@ -152,6 +153,7 @@ export default function Header() {
 
         {/* Right side */}
         <div className="flex items-center gap-3">
+          <SearchBox variant="header" className="hidden md:block w-56 xl:w-72" />
           <Link
             href="/productos"
             data-zocam-event="catalogo-header"
@@ -183,6 +185,7 @@ export default function Header() {
             className="lg:hidden overflow-hidden bg-bg-dark/98 backdrop-blur-xl border-t border-white/10"
           >
             <div className="max-w-7xl mx-auto px-4 py-6 space-y-3">
+              <SearchBox variant="header" className="mb-2" />
               {navLinks.map((link) => (
                 <Link
                   key={link.label}

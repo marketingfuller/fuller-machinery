@@ -11,7 +11,9 @@ import {
   CATEGORY_META,
   type ProductCategory,
 } from "@/lib/products";
+import { searchProducts } from "@/lib/search";
 import { getSettings } from "@/lib/settings";
+import SearchBox from "@/components/SearchBox";
 
 export const metadata = buildMetadata({
   title: "Catálogo de Maquinaria | Equipos para tu Negocio — Fuller Machinery",
@@ -27,7 +29,7 @@ export const metadata = buildMetadata({
   ],
 });
 
-type SearchParams = Promise<{ categoria?: string; page?: string }>;
+type SearchParams = Promise<{ categoria?: string; page?: string; q?: string }>;
 
 const PAGE_SIZE = 24;
 
@@ -53,7 +55,7 @@ export default async function ProductosPage({
 }: {
   searchParams: SearchParams;
 }) {
-  const { categoria, page } = await searchParams;
+  const { categoria, page, q } = await searchParams;
   const [allProducts, catalogProducts, activeCategories, settings] = await Promise.all([
     getAllProducts(),
     getCatalogProducts(),
@@ -62,11 +64,14 @@ export default async function ProductosPage({
   ]);
 
   const active = isCategory(categoria) ? categoria : null;
+  const queryStr = (q ?? "").trim();
   // Con filtro: esa categoría (incluye ocultas si se entra por enlace directo).
   // Sin filtro: grid principal sin categorías ocultas (novelty).
-  const filtered = active
+  const base = active
     ? allProducts.filter((p) => p.category === active)
     : catalogProducts;
+  // Búsqueda con lógica de relevancia (misma que el buscador instantáneo).
+  const filtered = queryStr ? searchProducts(base, queryStr) : base;
 
   // Paginación: el grid completo (244) pesaba ~2.3 MB de HTML; servimos de a 24.
   const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
@@ -82,6 +87,7 @@ export default async function ProductosPage({
   const pageHref = (p: number) => {
     const params = new URLSearchParams();
     if (active) params.set("categoria", active);
+    if (queryStr) params.set("q", queryStr);
     if (p > 1) params.set("page", String(p));
     const qs = params.toString();
     return qs ? `/productos?${qs}` : "/productos";
@@ -120,6 +126,13 @@ export default async function ProductosPage({
               Equipos profesionales con garantía, soporte técnico y envío nacional
               desde Bogotá. Cotiza por WhatsApp y recibe asesoría experta.
             </p>
+            <div className="mt-7 max-w-xl">
+              <SearchBox
+                variant="page"
+                initialQuery={queryStr}
+                placeholder="Buscar: granizadora, freidora a gas, báscula…"
+              />
+            </div>
           </div>
         </section>
 
@@ -159,16 +172,31 @@ export default async function ProductosPage({
             ))}
           </div>
 
+          {/* Encabezado de resultados de búsqueda */}
+          {queryStr && (
+            <div className="mb-6 flex flex-wrap items-baseline gap-x-3 gap-y-1">
+              <h2 className="font-display font-black text-2xl text-bg-dark">
+                {filtered.length} resultado{filtered.length === 1 ? "" : "s"} para «{queryStr}»
+              </h2>
+              <Link href={active ? `/productos?categoria=${active}` : "/productos"} className="text-sm font-bold text-primary hover:underline">
+                Quitar búsqueda
+              </Link>
+            </div>
+          )}
+
           {/* Grid */}
           {products.length === 0 ? (
             <p className="text-slate-500 py-20 text-center">
-              Pronto agregaremos productos en esta categoría.
+              {queryStr
+                ? `Sin resultados para «${queryStr}». Prueba con otro término o explora las categorías.`
+                : "Pronto agregaremos productos en esta categoría."}
             </p>
           ) : (
             <>
               <p className="text-sm text-slate-500 mb-5">
                 Mostrando <span className="font-semibold text-slate-700">{from}–{to}</span> de{" "}
-                <span className="font-semibold text-slate-700">{filtered.length}</span> productos
+                <span className="font-semibold text-slate-700">{filtered.length}</span>{" "}
+                {queryStr ? "resultados" : "productos"}
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
                 {products.map((p) => (

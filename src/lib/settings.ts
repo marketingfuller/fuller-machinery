@@ -21,8 +21,7 @@ const FALLBACK: SiteSettings = {
     subtitle:
       "Equipos de tendencia para waffles, helados y bebidas que garantizan filas de clientes.",
     buttonText: "VER EQUIPOS PARA EMPRENDER",
-    buttonUrl:
-      "https://tienda.fullermachinery.com/index.php/categoria-producto/comida-divertida/page/3/",
+    buttonUrl: "/colecciones",
   },
   heroRight: {
     enabled: true,
@@ -33,8 +32,7 @@ const FALLBACK: SiteSettings = {
     subtitle:
       "Soluciones de empaque al vacío y procesamiento para maximizar la eficiencia de tu planta.",
     buttonText: "VER LÍNEA INDUSTRIAL",
-    buttonUrl:
-      "https://tienda.fullermachinery.com/index.php/categoria-producto/preparacion-de-alimentos/equipos-industriales-preparacion-de-alimentos/",
+    buttonUrl: "/productos",
   },
 };
 

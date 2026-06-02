@@ -13,7 +13,7 @@ const products = [
     badgeColor: "bg-secondary",
     image: "/images/Bebidas y cafe/granizadora 3 tanques.webp",
     specs: ["3x12 Litros", "Motor 1.200W", "Hasta -9°C", "Refrigerante R290"],
-    fichaHref: "https://tienda.fullermachinery.com/index.php/producto/granizadora-3-tanques-12-litros/",
+    fichaHref: "/productos/granizadora-3-tanques-12-litros",
     whatsapp: "https://wa.me/573244247198?text=Hola%2C%20me%20interesa%20conocer%20el%20precio%20de%20la%20Granizadora%20Triple%20Tanque%2012L",
   },
   {
@@ -22,7 +22,7 @@ const products = [
     badgeColor: "bg-accent text-bg-dark",
     image: "/images/Bebidas y cafe/Licuadora encapsulada.webp",
     specs: ["Capacidad 2.7L", "Motor 1.800W", "Aislador de Ruido", "110V"],
-    fichaHref: "https://tienda.fullermachinery.com/index.php/producto/licuadora-industrial-2-7-litros-aislador-ruido/",
+    fichaHref: "/productos/licuadora-industrial-2-7-litros-aislador-ruido",
     whatsapp: "https://wa.me/573244247198?text=Hola%2C%20me%20interesa%20conocer%20el%20precio%20de%20la%20Licuadora%20Industrial%202.7L",
   },
   {
@@ -31,7 +31,7 @@ const products = [
     badgeColor: "bg-primary",
     image: "/images/Bebidas y cafe/capuchinera 1 grupo.webp",
     specs: ["1 Grupo Profesional", "Potencia 2.500W", "Tanque 3 Litros", "220V"],
-    fichaHref: "https://tienda.fullermachinery.com/index.php/producto/capuchinera-barismo-magister-1-grupo/",
+    fichaHref: "/productos/capuchinera-barismo-magister-1-grupo",
     whatsapp: "https://wa.me/573244247198?text=Hola%2C%20me%20interesa%20conocer%20el%20precio%20de%20la%20Capuchinera%201%20Grupo",
   },
   {
@@ -40,7 +40,7 @@ const products = [
     badgeColor: "bg-purple-600",
     image: "/images/Bebidas y cafe/selladora de vasos.webp",
     specs: ["7 a 22 Oz", "140-160 Vasos/h", "Contador Digital", "110V"],
-    fichaHref: "https://tienda.fullermachinery.com/index.php/producto/selladora-de-vasos-manual-contador-digital/",
+    fichaHref: "/productos/selladora-de-vasos-manual-contador-digital",
     whatsapp: "https://wa.me/573244247198?text=Hola%2C%20me%20interesa%20conocer%20el%20precio%20de%20la%20Selladora%20de%20Vasos%20Manual",
   },
 ];
@@ -82,7 +82,7 @@ export default function BebidasProducts() {
                 <span className="material-symbols-outlined text-[20px]">chevron_right</span>
               </button>
             </div>
-            <a href="#" className="inline-flex items-center gap-2 text-primary font-bold text-sm hover:text-secondary transition-colors">
+            <a href="/productos?categoria=bebidas" className="inline-flex items-center gap-2 text-primary font-bold text-sm hover:text-secondary transition-colors">
               Ver todo el catálogo
               <span className="material-symbols-outlined text-[18px]">arrow_forward</span>
             </a>
@@ -127,8 +127,6 @@ export default function BebidasProducts() {
                     </a>
                     <a
                       href={p.fichaHref}
-                      target="_blank"
-                      rel="noopener noreferrer"
                       className="text-primary hover:text-secondary font-bold text-xs flex items-center gap-1 transition-colors"
                     >
                       Ficha Técnica

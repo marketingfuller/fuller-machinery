@@ -80,7 +80,7 @@ Tres cosas que vale la pena saber:
 
 ## ¿Listo para el salto?
 
-El [Molino de Carne #32 Industrial Fuller Machinery](https://tienda.fullermachinery.com/?s=molino+de+carne&post_type=product&product_cat=0) incluye motor reversible de 2.200W, 2 discos, 2 cuchillas y bandejas en acero inoxidable. Garantía por producto (6 meses a 1 año) y capacitación de uso presencial en Bogotá o remota por videollamada al resto del país.
+El [Molino de Carne #32 Industrial Fuller Machinery](/colecciones/equipos-para-carniceria) incluye motor reversible de 2.200W, 2 discos, 2 cuchillas y bandejas en acero inoxidable. Garantía por producto (6 meses a 1 año) y capacitación de uso presencial en Bogotá o remota por videollamada al resto del país.
 
 ---
 

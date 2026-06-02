@@ -14,7 +14,7 @@ const products = [
     image: "/images/empaque/Empacadora DZ-400.webp",
     desc: "Empacado al vacío profesional para carnicerías, fruterías y cocinas industriales. Alta potencia y ciclos rápidos.",
     specs: ["750 W", "2–3 ciclos/min", "Barra 280mm"],
-    fichaUrl: "https://tienda.fullermachinery.com/index.php/producto/empacadora-al-vacio-dz-400/",
+    fichaUrl: "/productos/empacadora-al-vacio-dz-400",
     whatsappUrl: "https://wa.me/573244247198?text=Hola%2C%20me%20interesa%20la%20Empacadora%20al%20Vac%C3%ADo%20DZ-400",
   },
   {
@@ -24,7 +24,7 @@ const products = [
     image: "/images/empaque/Empacadora DZ300SE.webp",
     desc: "Compacta para carnes, quesos, frutas y granos. Ideal para panaderías, tiendas saludables y pequeños negocios.",
     specs: ["150 W", "110V", "Barra 30cm"],
-    fichaUrl: "https://tienda.fullermachinery.com/index.php/producto/empacadora-al-vacio-dz300se/",
+    fichaUrl: "/productos/empacadora-al-vacio-dz300se",
     whatsappUrl: "https://wa.me/573244247198?text=Hola%2C%20me%20interesa%20la%20Empacadora%20al%20Vac%C3%ADo%20DZ300SE",
   },
   {
@@ -34,7 +34,7 @@ const products = [
     image: "/images/empaque/Empacadora Doble Camara 2SB.webp",
     desc: "Doble cámara con barras de 40 cm para empacado al vacío de alto volumen en supermercados y plantas de producción.",
     specs: ["40 cm barra", "2 cámaras", "Industrial"],
-    fichaUrl: "https://tienda.fullermachinery.com/index.php/producto/empacadora-al-vacio-doble-camara-2sb-doble-barra/",
+    fichaUrl: "/productos/empacadora-al-vacio-doble-camara-2sb-doble-barra",
     whatsappUrl: "https://wa.me/573244247198?text=Hola%2C%20me%20interesa%20la%20Empacadora%20Doble%20C%C3%A1mara%202SB",
   },
   {
@@ -44,7 +44,7 @@ const products = [
     image: "/images/empaque/Selladora Banda Impresora.webp",
     desc: "Sellado continuo con impresión de fecha y lote integrada. Operación vertical y horizontal para cualquier producto.",
     specs: ["750 W", "Tinta integrada", "Vert/Horiz"],
-    fichaUrl: "https://tienda.fullermachinery.com/index.php/producto/selladora-bolsas-banda-continua-impresora/",
+    fichaUrl: "/productos/selladora-bolsas-banda-continua-impresora",
     whatsappUrl: "https://wa.me/573244247198?text=Hola%2C%20me%20interesa%20la%20Selladora%20Banda%20Continua%20con%20Impresora",
   },
   {
@@ -54,7 +54,7 @@ const products = [
     image: "/images/empaque/Selladora Banda Industrial.webp",
     desc: "Sellado de alto volumen con fechador integrado. Ideal para plantas de snacks, café molido y polvos.",
     specs: ["150 sellos/min", "0–300 °C", "Fechador"],
-    fichaUrl: "https://tienda.fullermachinery.com/index.php/producto/selladora-bolsas-industrial-banda-continua/",
+    fichaUrl: "/productos/selladora-bolsas-industrial-banda-continua",
     whatsappUrl: "https://wa.me/573244247198?text=Hola%2C%20me%20interesa%20la%20Selladora%20Banda%20Continua%20Industrial",
   },
   {
@@ -64,7 +64,7 @@ const products = [
     image: "/images/empaque/Selladora Vasos Full Automatica.webp",
     desc: "Sellado 100% automático de vasos para volumen comercial. Hermeticidad total para bebidas y postres a domicilio.",
     specs: ["Automática", "110V", "Uso continuo"],
-    fichaUrl: "https://tienda.fullermachinery.com/index.php/producto/selladora-de-vasos-full-automatica/",
+    fichaUrl: "/productos/selladora-de-vasos-full-automatica",
     whatsappUrl: "https://wa.me/573244247198?text=Hola%2C%20me%20interesa%20la%20Selladora%20de%20Vasos%20Full%20Autom%C3%A1tica",
   },
   {
@@ -74,7 +74,7 @@ const products = [
     image: "/images/empaque/Selladora Vasos Manual.webp",
     desc: "Sellado manual con contador digital. Compatible con vasos de 7 a 22 oz — ideal para juguerías y bares de café.",
     specs: ["7–22 oz", "140–160 vasos/h", "Contador"],
-    fichaUrl: "https://tienda.fullermachinery.com/index.php/producto/selladora-de-vasos-manual-contador-digital/",
+    fichaUrl: "/productos/selladora-de-vasos-manual-contador-digital",
     whatsappUrl: "https://wa.me/573244247198?text=Hola%2C%20me%20interesa%20la%20Selladora%20de%20Vasos%20Manual",
   },
   {
@@ -84,7 +84,7 @@ const products = [
     image: "/images/empaque/Selladora Latas.webp",
     desc: "Sellado hermético de latas PET y PP para snacks, granos, especias y bebidas. Acero inoxidable.",
     specs: ["15 latas/min", "110V", "Acero Inox"],
-    fichaUrl: "https://tienda.fullermachinery.com/index.php/producto/selladora-de-latas-plasticas/",
+    fichaUrl: "/productos/selladora-de-latas-plasticas",
     whatsappUrl: "https://wa.me/573244247198?text=Hola%2C%20me%20interesa%20la%20Selladora%20de%20Latas%20Pl%C3%A1sticas",
   },
 ];
@@ -131,9 +131,7 @@ export default function EmpaqueProducts() {
               </button>
             </div>
             <a
-              href="https://tienda.fullermachinery.com/index.php/categoria-producto/equipos-de-empaque/"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="/productos?categoria=empaque"
               className="inline-flex items-center gap-2 text-primary font-bold text-sm hover:text-secondary transition-colors"
             >
               Ver todo el catálogo
@@ -193,8 +191,6 @@ export default function EmpaqueProducts() {
                     </a>
                     <a
                       href={p.fichaUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
                       className="inline-flex items-center justify-center gap-1 text-primary hover:text-secondary font-bold text-xs transition-colors"
                     >
                       Ver ficha técnica

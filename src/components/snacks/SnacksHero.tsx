@@ -95,9 +95,7 @@ export default function SnacksHero() {
             className="flex flex-col sm:flex-row gap-3"
           >
             <a
-              href="https://tienda.fullermachinery.com/index.php/categoria-producto/comida-divertida/"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="/productos?categoria=snacks"
               className="inline-flex items-center gap-3 bg-secondary hover:bg-secondary/90 text-white font-bold px-7 py-4 rounded-xl transition-all hover:shadow-xl hover:shadow-secondary/30 hover:-translate-y-0.5 text-sm uppercase tracking-wide"
             >
               Ver Catálogo de Snacks

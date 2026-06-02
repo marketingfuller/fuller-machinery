@@ -11,7 +11,7 @@ const products = [
     tagClass: "from-purple-600 to-pink-600",
     Icon: TrendingUp,
     image: "/images/Snacks y fast food/wafflera burbuja - snack.webp",
-    href: "https://tienda.fullermachinery.com/?s=wafflera&post_type=product&product_cat=0",
+    href: "/colecciones/wafleras-industriales",
   },
   {
     title: "Wafflera Formas Especiales",
@@ -20,7 +20,7 @@ const products = [
     tagClass: "from-blue-500 to-cyan-500",
     Icon: Sparkles,
     image: "/images/Snacks y fast food/Wafflera Formas Especiales- SNACK.webp",
-    href: "https://tienda.fullermachinery.com/?s=wafflera+erotica&post_type=product&product_cat=0",
+    href: "/productos?categoria=novelty",
   },
   {
     title: "Mini Donuts Automática",
@@ -29,7 +29,7 @@ const products = [
     tagClass: "from-amber-500 to-orange-500",
     Icon: Flame,
     image: "/images/Snacks y fast food/Mini Donuts - SNACK.webp",
-    href: "https://tienda.fullermachinery.com/?s=donas&post_type=product&product_cat=0",
+    href: "/productos?categoria=panaderia",
   },
 ];
 
@@ -53,8 +53,6 @@ export default function ViralProducts() {
             <motion.a
               key={i}
               href={product.href}
-              target="_blank"
-              rel="noopener noreferrer"
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}

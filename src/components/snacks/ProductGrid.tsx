@@ -14,7 +14,7 @@ const products = [
     image: "/images/Snacks y fast food/Crispetera 8oz Mini.webp",
     description: "Sistema de agitación, luz interna y tapa imantada. Hasta 3 kg/hora.",
     specs: ["8 oz / ciclo", "3 kg/hora", "Acero Inox"],
-    fichaUrl: "https://tienda.fullermachinery.com/index.php/producto/crispetera-8-oz-mini-comercial/",
+    fichaUrl: "/productos/crispetera-8-oz-mini-comercial",
     whatsappUrl: "https://wa.me/573244247198?text=Hola%2C%20me%20interesa%20la%20Crispetera%208%20oz%20Mini%20Comercial",
   },
   {
@@ -24,7 +24,7 @@ const products = [
     image: "/images/Snacks y fast food/Fuente Chocolate 5 Niveles.webp",
     description: "Derrite y bombea chocolate en flujo continuo para inmersión en eventos.",
     specs: ["21 L", "230 W", "5 Niveles"],
-    fichaUrl: "https://tienda.fullermachinery.com/index.php/producto/fuente-de-chocolate-grande-5/",
+    fichaUrl: "/productos/fuente-de-chocolate-grande-5",
     whatsappUrl: "https://wa.me/573244247198?text=Hola%2C%20me%20interesa%20la%20Fuente%20de%20Chocolate%205%20Niveles",
   },
   {
@@ -34,7 +34,7 @@ const products = [
     image: "/images/Snacks y fast food/Vaporizador Salchicha.webp",
     description: "Baño María para perros calientes y panes jugosos, listos sin quemarlos.",
     specs: ["5 L", "180 °C", "Termostato"],
-    fichaUrl: "https://tienda.fullermachinery.com/index.php/producto/vaporizador-de-salchicha-y-pan-12/",
+    fichaUrl: "/productos/vaporizador-de-salchicha-y-pan-12",
     whatsappUrl: "https://wa.me/573244247198?text=Hola%2C%20me%20interesa%20el%20Vaporizador%20de%20Salchicha%20y%20Pan",
   },
   {
@@ -44,7 +44,7 @@ const products = [
     image: "/images/Snacks y fast food/Algodonera Mini.webp",
     description: "Mini máquina compacta y liviana para algodón de azúcar rápido e intuitivo.",
     specs: ["110 V", "29 × 17.5 cm", "Acero Inox"],
-    fichaUrl: "https://tienda.fullermachinery.com/index.php/producto/algodonera-mini-comercial/",
+    fichaUrl: "/productos/algodonera-mini-comercial",
     whatsappUrl: "https://wa.me/573244247198?text=Hola%2C%20me%20interesa%20la%20Algodonera%20Mini%20Comercial",
   },
 ];
@@ -91,9 +91,7 @@ export default function ProductGrid() {
               </button>
             </div>
             <a
-              href="https://tienda.fullermachinery.com/"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="/productos"
               className="inline-flex items-center gap-2 text-primary font-bold text-sm hover:text-secondary transition-colors"
             >
               Ver todo el catálogo
@@ -153,8 +151,6 @@ export default function ProductGrid() {
                     </a>
                     <a
                       href={p.fichaUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
                       className="inline-flex items-center justify-center gap-1 text-primary hover:text-secondary font-bold text-xs transition-colors"
                     >
                       Ver ficha técnica

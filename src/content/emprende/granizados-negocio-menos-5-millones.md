@@ -91,7 +91,7 @@ Todas las granizadoras modernas usan uno de dos gases refrigerantes: **R134a (si
 1. **30% menos consumo eléctrico** por su mejor eficiencia térmica. En un equipo que funciona 10 horas diarias, eso se traduce en $80.000–$120.000 menos de luz al mes.
 2. **Cero impacto ambiental**: no daña la capa de ozono ni tiene potencial de calentamiento global.
 
-La [Granizadora Triple Tanque 12L de Fuller](https://tienda.fullermachinery.com/index.php/producto/granizadora-3-tanques-12-litros/) usa R290 de fábrica.
+La [Granizadora Triple Tanque 12L de Fuller](/productos/granizadora-3-tanques-12-litros) usa R290 de fábrica.
 
 ## Cuándo NO comprar una granizadora
 

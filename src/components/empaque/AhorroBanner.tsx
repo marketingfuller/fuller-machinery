@@ -72,9 +72,7 @@ export default function AhorroBanner() {
 
               <div className="flex flex-col sm:flex-row gap-3">
                 <a
-                  href="https://tienda.fullermachinery.com/index.php/producto/empacadora-al-vacio-dz-400/"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href="/productos/empacadora-al-vacio-dz-400"
                   className="inline-flex items-center gap-2 bg-secondary hover:bg-secondary/90 text-white font-bold px-6 py-3 rounded-xl text-sm transition-all hover:-translate-y-0.5 hover:shadow-lg hover:shadow-secondary/25"
                 >
                   Ver Empacadora al Vacío DZ

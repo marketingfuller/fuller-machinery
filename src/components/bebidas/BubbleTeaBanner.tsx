@@ -73,9 +73,7 @@ export default function BubbleTeaBanner() {
             {/* Buttons */}
             <div className="flex flex-col sm:flex-row gap-3 pt-2">
               <a
-                href="https://tienda.fullermachinery.com/?s=selladora+de+vasos&post_type=product&product_cat=0"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="/colecciones/selladoras-de-vasos"
                 className="inline-flex items-center justify-center px-7 py-3.5 bg-white hover:bg-white/90 text-bg-dark font-bold rounded-xl text-sm transition-all hover:-translate-y-0.5 hover:shadow-lg"
               >
                 Ver Máquinas Selladoras

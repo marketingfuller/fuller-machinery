@@ -22,7 +22,7 @@ Sector: Distribución de maquinaria industrial para alimentos en Colombia
 Sedes físicas: 3 en Bogotá
 Negocios equipados: +500 en Colombia
 Sitio web: ${SITE_URL}
-Tienda en línea: https://tienda.fullermachinery.com/index.php/shop/
+Tienda en línea: /productos
 
 ---
 
@@ -52,7 +52,7 @@ Tienda en línea: https://tienda.fullermachinery.com/index.php/shop/
 - Instagram: https://www.instagram.com/fullermachinery/
 - TikTok: https://www.tiktok.com/@fuller_machinery
 - YouTube: https://www.youtube.com/@fullermachinery118
-- Tienda en línea: https://tienda.fullermachinery.com/index.php/shop/
+- Tienda en línea: /productos
 
 ---
 

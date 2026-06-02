@@ -14,7 +14,7 @@ const products = [
     image: "/images/refrigeracion/Congelador Piso 538L.webp",
     desc: "Horizontal con vidrio templado y cerradura de seguridad. 5 canastillas organizadoras y congelamiento de 28 kg/24h.",
     specs: ["538 L", "5 canastillas", "R290"],
-    fichaUrl: "https://tienda.fullermachinery.com/index.php/producto/congelador-de-piso-5-canastillas-538lt/",
+    fichaUrl: "/productos/congelador-de-piso-5-canastillas-538lt",
     whatsappUrl: "https://wa.me/573244247198?text=Hola%2C%20me%20interesa%20el%20Congelador%20de%20Piso%20538%20L",
   },
   {
@@ -24,7 +24,7 @@ const products = [
     image: "/images/refrigeracion/Congelador Vertical 460L.webp",
     desc: "Vertical con tecnología No Frost (sin escarcha) y estantes ajustables. Ideal para exhibición de congelados.",
     specs: ["460 L", "No Frost", "110V"],
-    fichaUrl: "https://tienda.fullermachinery.com/index.php/producto/congelador-vertical-460-litros-no-frost/",
+    fichaUrl: "/productos/congelador-vertical-460-litros-no-frost",
     whatsappUrl: "https://wa.me/573244247198?text=Hola%2C%20me%20interesa%20el%20Congelador%20Vertical%20460%20L%20No%20Frost",
   },
   {
@@ -34,7 +34,7 @@ const products = [
     image: "/images/refrigeracion/Fabricadora Hielo 90kg.webp",
     desc: "Alta producción para operación intensiva. Bajo consumo y fácil limpieza para hoteles y bares de alto tráfico.",
     specs: ["90 kg/24h", "Bodega 25 kg", "110V"],
-    fichaUrl: "https://tienda.fullermachinery.com/index.php/producto/fabricadora-de-hielo-en-cubo-90kg/",
+    fichaUrl: "/productos/fabricadora-de-hielo-en-cubo-90kg",
     whatsappUrl: "https://wa.me/573244247198?text=Hola%2C%20me%20interesa%20la%20Fabricadora%20de%20Hielo%2090%20kg",
   },
   {
@@ -44,7 +44,7 @@ const products = [
     image: "/images/refrigeracion/Fabricadora Hielo 30kg.webp",
     desc: "Compacta, silenciosa y con filtros de agua incluidos. Producción automática continua para espacios reducidos.",
     specs: ["25–30 kg/24h", "Con filtros", "240 W"],
-    fichaUrl: "https://tienda.fullermachinery.com/index.php/producto/fabricadora-de-hielo-fuller-machinery-30kg-cubos-110v-c-filtros/",
+    fichaUrl: "/productos/fabricadora-de-hielo-fuller-machinery-30kg-cubos-110v-c-filtros",
     whatsappUrl: "https://wa.me/573244247198?text=Hola%2C%20me%20interesa%20la%20Fabricadora%20de%20Hielo%2030%20kg%20con%20Filtros",
   },
   {
@@ -54,7 +54,7 @@ const products = [
     image: "/images/refrigeracion/Maquina Hielo 45kg.webp",
     desc: "Fabricadora con bodega integrada y conexión dual (red o botellón). Perfecta donde no hay toma de agua fija.",
     specs: ["45 kg/24h", "Bodega 18 kg", "Dual"],
-    fichaUrl: "https://tienda.fullermachinery.com/index.php/producto/maquina-hielo-45kg-18kg-bodega-fuller/",
+    fichaUrl: "/productos/maquina-hielo-45kg-18kg-bodega-fuller",
     whatsappUrl: "https://wa.me/573244247198?text=Hola%2C%20me%20interesa%20la%20M%C3%A1quina%20de%20Hielo%2045%20kg%20con%20Bodega",
   },
   {
@@ -64,7 +64,7 @@ const products = [
     image: "/images/refrigeracion/Botellero Mini Bar 191L.webp",
     desc: "Botellero compacto con 2 puertas de vidrio templado y estantes ajustables. Enfriamiento eficiente para bebidas.",
     specs: ["191 L", "2 puertas", "R290"],
-    fichaUrl: "https://tienda.fullermachinery.com/index.php/producto/refrigerador-botellero-mini-bar-2-puertas-191l/",
+    fichaUrl: "/productos/refrigerador-botellero-mini-bar-2-puertas-191l",
     whatsappUrl: "https://wa.me/573244247198?text=Hola%2C%20me%20interesa%20el%20Refrigerador%20Botellero%20Mini%20Bar%20191%20L",
   },
   {
@@ -74,7 +74,7 @@ const products = [
     image: "/images/refrigeracion/Trituradora Hielo.webp",
     desc: "Compacta en acero inoxidable con base pesada. Hielo triturado o granizado al momento para coctelería y catering.",
     specs: ["120 lb/h", "Acero Inox", "110V"],
-    fichaUrl: "https://tienda.fullermachinery.com/index.php/producto/trituradora-de-hielo-mediana/",
+    fichaUrl: "/productos/trituradora-de-hielo-mediana",
     whatsappUrl: "https://wa.me/573244247198?text=Hola%2C%20me%20interesa%20la%20Trituradora%20de%20Hielo%20Mediana",
   },
 ];
@@ -121,9 +121,7 @@ export default function ProductosRefrigeracion() {
               </button>
             </div>
             <a
-              href="https://tienda.fullermachinery.com/?s=refrigerador&post_type=product&product_cat=0"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="/colecciones/refrigeracion-comercial"
               className="inline-flex items-center gap-2 text-primary font-bold text-sm hover:text-secondary transition-colors"
             >
               Ver todo el catálogo
@@ -183,8 +181,6 @@ export default function ProductosRefrigeracion() {
                     </a>
                     <a
                       href={p.fichaUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
                       className="inline-flex items-center justify-center gap-1 text-primary hover:text-secondary font-bold text-xs transition-colors"
                     >
                       Ver ficha técnica

@@ -10,6 +10,7 @@ import { cn } from "@/lib/cn";
 const navLinks = [
   { label: "Inicio", href: "/" },
   { label: "Negocios", href: "/negocios", hasMega: true },
+  { label: "Catálogo", href: "/productos" },
   { label: "Emprende", href: "/emprende" },
   { label: "Servicio Técnico", href: "/servicio-tecnico" },
   { label: "Nosotros", href: "/nosotros" },
@@ -128,6 +129,20 @@ export default function Header() {
                         </Link>
                       ))}
                     </div>
+                    <div className="mt-4 pt-4 border-t border-white/10 grid grid-cols-2 gap-3">
+                      <Link
+                        href="/productos"
+                        className="flex items-center justify-center gap-2 text-sm font-semibold text-white bg-white/5 hover:bg-white/10 rounded-xl py-2.5 transition-colors"
+                      >
+                        Ver todo el catálogo
+                      </Link>
+                      <Link
+                        href="/colecciones"
+                        className="flex items-center justify-center gap-2 text-sm font-semibold text-accent bg-accent/10 hover:bg-accent/20 rounded-xl py-2.5 transition-colors"
+                      >
+                        Explorar por tipo
+                      </Link>
+                    </div>
                   </div>
                 </div>
               )}
@@ -137,16 +152,14 @@ export default function Header() {
 
         {/* Right side */}
         <div className="flex items-center gap-3">
-          <a
-            href="https://tienda.fullermachinery.com/index.php/shop/"
-            target="_blank"
-            rel="noopener noreferrer"
+          <Link
+            href="/productos"
             data-zocam-event="catalogo-header"
             className="hidden sm:flex items-center gap-2 bg-secondary hover:bg-secondary/90 text-white font-semibold text-sm px-5 py-2.5 rounded-full transition-all duration-200 hover:scale-105 hover:shadow-lg hover:shadow-secondary/30"
           >
             <ShoppingBag size={16} />
             Catálogo
-          </a>
+          </Link>
           
           {/* Mobile toggle */}
           <button
@@ -194,16 +207,22 @@ export default function Header() {
                   </Link>
                 ))}
               </div>
-              <a
-                href="https://tienda.fullermachinery.com/index.php/shop/"
-                target="_blank"
-                rel="noopener noreferrer"
+              <Link
+                href="/colecciones"
+                onClick={() => setMobileOpen(false)}
+                className="flex items-center justify-center gap-2 text-accent bg-accent/10 hover:bg-accent/20 font-semibold text-sm px-5 py-2.5 rounded-full mt-4 transition-colors"
+              >
+                Explorar por tipo
+              </Link>
+              <Link
+                href="/productos"
+                onClick={() => setMobileOpen(false)}
                 data-zocam-event="catalogo-header-movil"
-                className="flex items-center justify-center gap-2 bg-secondary hover:bg-secondary/90 text-white font-semibold text-sm px-5 py-3 rounded-full mt-4 transition-colors"
+                className="flex items-center justify-center gap-2 bg-secondary hover:bg-secondary/90 text-white font-semibold text-sm px-5 py-3 rounded-full mt-2 transition-colors"
               >
                 <ShoppingBag size={16} />
-                Catálogo
-              </a>
+                Ver catálogo
+              </Link>
             </div>
           </motion.div>
         )}

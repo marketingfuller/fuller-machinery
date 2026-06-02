@@ -85,9 +85,7 @@ export default function BakeryHero() {
             className="flex flex-col sm:flex-row gap-3"
           >
             <a
-              href="https://tienda.fullermachinery.com/?s=panaderia&post_type=product&product_cat=0"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="/productos?categoria=panaderia"
               className="inline-flex items-center gap-3 bg-secondary hover:bg-secondary/90 text-white font-bold px-7 py-4 rounded-xl transition-all hover:shadow-xl hover:shadow-secondary/30 hover:-translate-y-0.5 text-sm uppercase tracking-wide"
             >
               Ver Equipos de Panadería

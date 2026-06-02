@@ -9,7 +9,7 @@ const steps = [
     label: "Desarrollo del Gluten",
     cta: "Ver Amasadoras",
     image: "/images/panaderia/amasadora panaderia.webp",
-    href: "https://tienda.fullermachinery.com/?s=amasadora&post_type=product&product_cat=0",
+    href: "/colecciones/amasadoras-industriales",
     icon: "soup_kitchen",
   },
   {
@@ -18,7 +18,7 @@ const steps = [
     label: "Precisión en Gramaje",
     cta: "Ver Laminadoras",
     image: "/images/panaderia/laminadora panaderia.webp",
-    href: "https://tienda.fullermachinery.com/?s=laminadora&post_type=product&product_cat=0",
+    href: "/colecciones/procesamiento-de-alimentos",
     icon: "straighten",
   },
   {
@@ -27,7 +27,7 @@ const steps = [
     label: "Cámara de Crecimiento",
     cta: "Ver Cámaras",
     image: "/images/panaderia/crecimiento panaderia.webp",
-    href: "https://tienda.fullermachinery.com/?s=camara&post_type=product&product_cat=0",
+    href: "/colecciones/hornos-industriales",
     icon: "thermostat",
   },
   {
@@ -36,7 +36,7 @@ const steps = [
     label: "Corteza Perfecta",
     cta: "Ver Hornos",
     image: "/images/panaderia/horno panaderia.webp",
-    href: "https://tienda.fullermachinery.com/?s=horno&post_type=product&product_cat=0",
+    href: "/colecciones/hornos-industriales",
     icon: "local_fire_department",
   },
 ];

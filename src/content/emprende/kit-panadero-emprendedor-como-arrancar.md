@@ -88,7 +88,7 @@ Después de más de una década vendiendo equipos a panaderías en Colombia, est
 
 ## El equipo correcto hace la diferencia
 
-Las [amasadoras espiral Fuller](https://tienda.fullermachinery.com/?s=amasadora&post_type=product&product_cat=0) y los [hornos panaderos](https://tienda.fullermachinery.com/?s=horno+panaderia&post_type=product&product_cat=0) están pensados exactamente para este tipo de operación: volumen moderado, uso intensivo (12+ horas/día), bajo mantenimiento. Al comprarlos te damos capacitación presencial si estás en Bogotá o remota por videollamada si estás en cualquier otra ciudad de Colombia.
+Las [amasadoras espiral Fuller](/colecciones/amasadoras-industriales) y los [hornos panaderos](/colecciones/hornos-industriales) están pensados exactamente para este tipo de operación: volumen moderado, uso intensivo (12+ horas/día), bajo mantenimiento. Al comprarlos te damos capacitación presencial si estás en Bogotá o remota por videollamada si estás en cualquier otra ciudad de Colombia.
 
 ---
 

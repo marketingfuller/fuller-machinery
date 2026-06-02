@@ -115,7 +115,7 @@ Con **local arrendado**, la recuperación puede tardar entre **4 y 8 meses**, de
 
 ## El equipo que necesitas
 
-La [Wafflera Burbuja Fuller Machinery](https://tienda.fullermachinery.com/index.php/producto/waflera-burbuja/) es el corazón del negocio:
+La [Wafflera Burbuja Fuller Machinery](/productos/waflera-burbuja) es el corazón del negocio:
 
 - Potencia 1.415 W
 - Temperatura ajustable de 50 a 300 °C

@@ -9,7 +9,7 @@ const niches = [
     icon: "fastfood",
     desc: "El aroma de las crispetas atrae clientes desde 20 metros. Costo por bolsa: menos de $1.000 COP. Venta: $3.000–$5.000. Margen real del 300%+.",
     image: "/images/Snacks y fast food/Crispetas y algodon.webp",
-    href: "https://tienda.fullermachinery.com/?s=crispetera&post_type=product&product_cat=0",
+    href: "/colecciones/crispeteras",
   },
   {
     title: "Asadores de Salchichas",
@@ -17,7 +17,7 @@ const niches = [
     icon: "outdoor_grill",
     desc: "Operación sin capacitación: enciendes el equipo y listo. Ideal para estadios, parques y eventos masivos con alta rotación.",
     image: "/images/Snacks y fast food/Asadores de salchichas.webp",
-    href: "https://tienda.fullermachinery.com/?s=salchichas&post_type=product&product_cat=0",
+    href: "/colecciones/asadores-de-salchichas",
   },
   {
     title: "Waffles & Crepes",
@@ -25,7 +25,7 @@ const niches = [
     icon: "egg",
     desc: "Formas especiales que generan fotos y videos orgánicos. Clientes que compran para publicar crean publicidad gratuita para tu negocio.",
     image: "/images/Snacks y fast food/Waffles y crepes.webp",
-    href: "https://tienda.fullermachinery.com/?s=waffles&post_type=product&product_cat=0",
+    href: "/colecciones/wafleras-industriales",
   },
   {
     title: "Dulces & Postres",
@@ -33,7 +33,7 @@ const niches = [
     icon: "icecream",
     desc: "Fuentes de chocolate que convierten tu punto de venta en un show. Ideal para eventos, bodas y celebraciones donde el postre se vuelve el protagonista.",
     image: "/images/Snacks y fast food/Dulces y postres.webp",
-    href: "https://tienda.fullermachinery.com/?s=algodonera&post_type=product&product_cat=0",
+    href: "/colecciones/maquinas-de-algodon-de-azucar",
   },
 ];
 
@@ -79,8 +79,6 @@ export default function NicheGrid() {
               key={i}
               variants={itemVariants}
               href={niche.href}
-              target="_blank"
-              rel="noopener noreferrer"
               className="group relative h-[440px] rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-500 cursor-pointer"
             >
               <div

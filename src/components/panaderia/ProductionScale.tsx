@@ -14,9 +14,7 @@ export default function ProductionScale() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-12 h-auto md:h-[500px]">
           {/* Artisanal */}
           <a
-            href="https://tienda.fullermachinery.com/?s=hornos&post_type=product&product_cat=0"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="/colecciones/hornos-industriales"
             className="group relative rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all cursor-pointer h-[400px] md:h-full"
           >
             <div
@@ -49,9 +47,7 @@ export default function ProductionScale() {
 
           {/* Industrial */}
           <a
-            href="https://tienda.fullermachinery.com/?s=amasadora&post_type=product&product_cat=0"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="/colecciones/amasadoras-industriales"
             className="group relative rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all cursor-pointer h-[400px] md:h-full"
           >
             <div

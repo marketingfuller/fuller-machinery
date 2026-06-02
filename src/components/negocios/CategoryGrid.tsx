@@ -12,7 +12,7 @@ const categories = [
     tag: "Alta Rentabilidad",
     image: "/images/negocios/Snacks y fast food negocios.webp",
     accentColor: "#ef5350",
-    href: "https://tienda.fullermachinery.com/index.php/categoria-producto/comida-divertida/?per_page=24",
+    href: "/productos?categoria=snacks",
     external: true,
   },
   {
@@ -20,7 +20,7 @@ const categories = [
     desc: "Granizadoras, dispensadores, máquinas de helado soft y equipos para bebidas calientes premium.",
     image: "/images/negocios/Bebidas y cafe negocios.webp",
     accentColor: "#4ab84c",
-    href: "https://tienda.fullermachinery.com/index.php/categoria-producto/preparacion-de-bebidas/",
+    href: "/productos?categoria=bebidas",
     external: true,
   },
   {
@@ -28,7 +28,7 @@ const categories = [
     desc: "Hornos de convección, batidoras planetarias, amasadoras espirales y cuarto de crecimiento.",
     image: "/images/negocios/panaderia negocios.webp",
     accentColor: "#F59E0B",
-    href: "https://tienda.fullermachinery.com/index.php/categoria-producto/preparacion-de-alimentos/hornos/",
+    href: "/colecciones/hornos-industriales",
     external: true,
   },
   {
@@ -36,7 +36,7 @@ const categories = [
     desc: "Vitrinas refrigeradas, congeladores horizontales, fabricadores de hielo y trituradoras de hielo.",
     image: "/images/negocios/refrigeracion y exhibicion negocios.webp",
     accentColor: "#4ab84c",
-    href: "https://tienda.fullermachinery.com/index.php/categoria-producto/maquinas-de-frio/",
+    href: "/productos?categoria=refrigeracion",
     external: true,
   },
   {
@@ -44,7 +44,7 @@ const categories = [
     desc: "Sierras para hueso, molinos de carne industriales, básculas especializadas y mesas de trabajo.",
     image: "/images/negocios/carniceria y procesos.webp",
     accentColor: "#d32f2f",
-    href: "https://tienda.fullermachinery.com/?s=carne&post_type=product&product_cat=0",
+    href: "/productos?categoria=carnicos",
     external: true,
   },
   {
@@ -52,7 +52,7 @@ const categories = [
     desc: "Empacadoras al vacío de cámara, selladoras de banda continua y selladoras de vasos y latas.",
     image: "/images/negocios/empaques negocios.webp",
     accentColor: "#d32f2f",
-    href: "https://tienda.fullermachinery.com/index.php/categoria-producto/equipos-de-empaque/page/2/",
+    href: "/productos?categoria=empaque",
     external: true,
   },
 ];

@@ -19,28 +19,28 @@ const products: Product[] = [
     tag: "Tendencia",
     tagColor: "#d32f2f",
     image: "/images/wafflera burbuja tendencia inicio.webp",
-    href: "https://tienda.fullermachinery.com/index.php/producto/waflera-burbuja/",
+    href: "/productos/waflera-burbuja",
   },
   {
     name: "Granizadora 3 Tanques 12 Litros",
     tag: "Popular",
     tagColor: "#ef5350",
     image: "/images/granizadora tendencisas inicio.webp",
-    href: "https://tienda.fullermachinery.com/index.php/producto/granizadora-3-tanques-12-litros/",
+    href: "/productos/granizadora-3-tanques-12-litros",
   },
   {
     name: "Selladora de Vasos",
     tag: "Nuevo",
     tagColor: "#4ab84c",
     image: "/images/selladora de vasos tendencias inicio.webp",
-    href: "https://tienda.fullermachinery.com/index.php/producto/selladora-de-vasos-full-automatica/",
+    href: "/productos/selladora-de-vasos-full-automatica",
   },
   {
     name: "Selladora de Latas",
     tag: "Pro",
     tagColor: "#4ab84c",
     image: "/images/selladora latas tendencia inicio.webp",
-    href: "https://tienda.fullermachinery.com/index.php/producto/selladora-de-latas-plasticas/",
+    href: "/productos/selladora-de-latas-plasticas",
   },
 ];
 
@@ -98,9 +98,7 @@ export default function ViralCarousel() {
               </button>
             </div>
             <a
-              href="https://tienda.fullermachinery.com/index.php/shop/"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="/productos"
               className="text-accent hover:text-white text-sm font-medium transition-colors"
             >
               Ver todo →
@@ -145,8 +143,6 @@ export default function ViralCarousel() {
                   {/* Ver producto link */}
                   <a
                     href={product.href}
-                    target="_blank"
-                    rel="noopener noreferrer"
                     className="absolute top-4 right-4 w-8 h-8 rounded-full bg-black/40 backdrop-blur-sm flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 hover:bg-accent"
                     aria-label={`Ver ${product.name} en tienda`}
                   >
@@ -171,8 +167,6 @@ export default function ViralCarousel() {
                     </a>
                     <a
                       href={product.href}
-                      target="_blank"
-                      rel="noopener noreferrer"
                       className="w-10 h-10 rounded-xl bg-white/10 hover:bg-accent/20 border border-white/10 hover:border-accent/40 flex items-center justify-center transition-colors duration-200"
                       aria-label="Ver en tienda"
                     >
@@ -187,7 +181,10 @@ export default function ViralCarousel() {
 
         {/* Mobile see all */}
         <div className="sm:hidden text-center mt-8">
-          <a href="https://tienda.fullermachinery.com/index.php/shop/" target="_blank" rel="noopener noreferrer" className="text-accent text-sm font-medium">
+          <a
+            href="/productos"
+            className="text-accent hover:text-white text-sm font-medium transition-colors"
+          >
             Ver todos los equipos →
           </a>
         </div>

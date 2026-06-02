@@ -23,16 +23,21 @@ function safeImageUrl(raw: string | null): string | null {
 }
 
 // Bloquea javascript:/data: URIs que podrían haberse colado en DB antigua.
+// Preserva rutas internas ("/productos") tal cual para navegar en el mismo dominio.
 function safeHref(raw: string | null): string | null {
   if (!raw) return null;
+  const trimmed = raw.trim();
+  if (trimmed.startsWith("/")) return trimmed; // ruta interna
   try {
-    const u = new URL(raw, "https://fullermachinery.com");
+    const u = new URL(trimmed, "https://fullermachinery.com");
     if (!["http:", "https:", "mailto:", "tel:"].includes(u.protocol)) return null;
     return u.toString();
   } catch {
     return null;
   }
 }
+
+const isInternal = (href: string | null) => !!href && href.startsWith("/");
 
 export default function SplitHero({ left, right }: Props) {
   const leftImage = safeImageUrl(left.imageUrl);
@@ -109,8 +114,8 @@ export default function SplitHero({ left, right }: Props) {
               {left.buttonText && leftHref && (
                 <motion.a
                   href={leftHref}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  target={isInternal(leftHref) ? undefined : "_blank"}
+                  rel={isInternal(leftHref) ? undefined : "noopener noreferrer"}
                   className="inline-flex items-center gap-3 bg-accent hover:bg-accent-dark text-bg-dark font-bold text-sm px-7 py-4 rounded-full transition-all duration-300 group hover:shadow-xl hover:shadow-accent/25"
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.98 }}
@@ -182,8 +187,8 @@ export default function SplitHero({ left, right }: Props) {
               {right.buttonText && rightHref && (
                 <motion.a
                   href={rightHref}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  target={isInternal(rightHref) ? undefined : "_blank"}
+                  rel={isInternal(rightHref) ? undefined : "noopener noreferrer"}
                   className="inline-flex items-center gap-3 bg-white/10 hover:bg-white/20 border border-white/20 text-white font-bold text-sm px-7 py-4 rounded-full transition-all duration-300 group backdrop-blur-sm"
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.98 }}

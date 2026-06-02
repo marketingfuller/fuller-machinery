@@ -115,7 +115,7 @@ No abandones tu línea actual de golpe. La estrategia que mejor funciona:
 
 ## El equipo correcto acelera el aprendizaje
 
-Si tu amasadora actual es muy pequeña para manejar 3–5 kg de masa hidratada al 70% (como requiere la masa madre), considera una [amasadora espiral de 15–20 kg](https://tienda.fullermachinery.com/?s=amasadora&post_type=product&product_cat=0). Las amasadoras planetarias no funcionan bien con masas de alta hidratación.
+Si tu amasadora actual es muy pequeña para manejar 3–5 kg de masa hidratada al 70% (como requiere la masa madre), considera una [amasadora espiral de 15–20 kg](/colecciones/amasadoras-industriales). Las amasadoras planetarias no funcionan bien con masas de alta hidratación.
 
 ---
 

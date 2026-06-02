@@ -9,7 +9,7 @@ const niches = [
     icon: "ac_unit",
     desc: "Costo real por vaso: ~$4.000 COP en insumos. Precio de venta: $8.000–$10.000. Margen del 50% desde el primer vaso.",
     image: "/images/Bebidas y cafe/Granizados y Frappés - cafe y bebidas.webp",
-    href: "https://tienda.fullermachinery.com/?s=granizadora&post_type=product&product_cat=0",
+    href: "/colecciones/granizadoras-industriales",
   },
   {
     title: "Café y Barismo",
@@ -17,7 +17,7 @@ const niches = [
     icon: "coffee_maker",
     desc: "Capuccinos, expresos y lattes con calidad de cafetería premium a precio de local.",
     image: "/images/Bebidas y cafe/cafe y barismo - cafe y bebidas.webp",
-    href: "https://tienda.fullermachinery.com/?s=cafe&post_type=product&product_cat=0",
+    href: "/colecciones/capuchineras-maquinas-de-cafe",
   },
   {
     title: "Jugos y Licuados",
@@ -25,7 +25,7 @@ const niches = [
     icon: "blender",
     desc: "Licuadoras encapsuladas silenciosas ideales para centros comerciales y cocinas.",
     image: "/images/Bebidas y cafe/Jugos y Licuados- cafe y bebidas.webp",
-    href: "https://tienda.fullermachinery.com/?s=licuadora&post_type=product&product_cat=0",
+    href: "/colecciones/licuadoras-industriales",
   },
   {
     title: "Vasos Sellados",
@@ -33,7 +33,7 @@ const niches = [
     icon: "local_drink",
     desc: "Selladoras de película para delivery sin derrames. El negocio más viral del momento.",
     image: "/images/Bebidas y cafe/Tendencia Bubble Tea- cafe y bebidas.webp",
-    href: "https://tienda.fullermachinery.com/?s=selladora+de+vasos&post_type=product&product_cat=0",
+    href: "/colecciones/selladoras-de-vasos",
   },
 ];
 
@@ -70,8 +70,6 @@ export default function BebidasNiches() {
               key={i}
               variants={itemVariants}
               href={niche.href}
-              target="_blank"
-              rel="noopener noreferrer"
               className="group relative h-[450px] rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-500 cursor-pointer"
             >
               <div

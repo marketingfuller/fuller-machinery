@@ -59,6 +59,8 @@ const footerLinks = {
   navegacion: [
     { label: "Inicio", href: "/" },
     { label: "Negocios", href: "/negocios" },
+    { label: "Catálogo", href: "/productos" },
+    { label: "Colecciones", href: "/colecciones" },
     { label: "Emprende", href: "/emprende" },
     { label: "Servicio Técnico", href: "/servicio-tecnico" },
     { label: "Nosotros", href: "/nosotros" },

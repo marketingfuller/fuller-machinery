@@ -32,6 +32,8 @@ type Props = {
   /** "header" = compacto sobre fondo oscuro; "page" = grande. */
   variant?: "header" | "page";
   className?: string;
+  /** Se llama al navegar (elegir resultado o ver todos) — p. ej. cerrar overlay. */
+  onClose?: () => void;
 };
 
 export default function SearchBox({
@@ -40,6 +42,7 @@ export default function SearchBox({
   autoFocus = false,
   variant = "header",
   className = "",
+  onClose,
 }: Props) {
   const router = useRouter();
   const [q, setQ] = useState(initialQuery);
@@ -87,6 +90,7 @@ export default function SearchBox({
     const term = q.trim();
     if (!term) return;
     setOpen(false);
+    onClose?.();
     router.push(`/productos?q=${encodeURIComponent(term)}`);
   };
 
@@ -153,7 +157,10 @@ export default function SearchBox({
                   <li key={p.slug}>
                     <Link
                       href={`/productos/${p.slug}`}
-                      onClick={() => setOpen(false)}
+                      onClick={() => {
+                        setOpen(false);
+                        onClose?.();
+                      }}
                       className="flex items-center gap-3 px-3 py-2 hover:bg-slate-50 transition-colors"
                     >
                       <span className="relative shrink-0 size-11 rounded-lg bg-slate-50 overflow-hidden border border-slate-100">

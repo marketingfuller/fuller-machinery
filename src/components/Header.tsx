@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { ShoppingBag, Menu, X, ChevronDown, Cake, Coffee, Popcorn, Beef, Snowflake, Package } from "lucide-react";
+import { ShoppingBag, Menu, X, ChevronDown, Cake, Coffee, Popcorn, Beef, Snowflake, Package, Search } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
 import { cn } from "@/lib/cn";
@@ -11,7 +11,6 @@ import SearchBox from "@/components/SearchBox";
 const navLinks = [
   { label: "Inicio", href: "/" },
   { label: "Negocios", href: "/negocios", hasMega: true },
-  { label: "Catálogo", href: "/productos" },
   { label: "Emprende", href: "/emprende" },
   { label: "Servicio Técnico", href: "/servicio-tecnico" },
   { label: "Nosotros", href: "/nosotros" },
@@ -30,6 +29,7 @@ export default function Header() {
   const [scrolled, setScrolled] = useState(false);
   const [megaOpen, setMegaOpen] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
+  const [searchOpen, setSearchOpen] = useState(false);
   const megaTimeout = useRef<NodeJS.Timeout | null>(null);
 
   useEffect(() => {
@@ -37,6 +37,28 @@ export default function Header() {
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
+
+  // Atajos: ⌘K / Ctrl+K abre el buscador; Escape lo cierra.
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => {
+      if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === "k") {
+        e.preventDefault();
+        setSearchOpen(true);
+      } else if (e.key === "Escape") {
+        setSearchOpen(false);
+      }
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, []);
+
+  // Bloquea el scroll del fondo cuando el overlay está abierto.
+  useEffect(() => {
+    document.body.style.overflow = searchOpen ? "hidden" : "";
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, [searchOpen]);
 
   const handleMegaEnter = () => {
     if (megaTimeout.current) clearTimeout(megaTimeout.current);
@@ -48,6 +70,7 @@ export default function Header() {
   };
 
   return (
+    <>
     <header
       className={cn(
         "fixed top-0 left-0 right-0 z-[100] transition-all duration-300",
@@ -152,8 +175,15 @@ export default function Header() {
         </nav>
 
         {/* Right side */}
-        <div className="flex items-center gap-3">
-          <SearchBox variant="header" className="hidden md:block w-56 xl:w-72" />
+        <div className="flex items-center gap-2 sm:gap-3">
+          <button
+            type="button"
+            onClick={() => setSearchOpen(true)}
+            aria-label="Buscar productos"
+            className="text-white/80 hover:text-accent p-2 rounded-lg hover:bg-white/10 transition-colors"
+          >
+            <Search size={20} />
+          </button>
           <Link
             href="/productos"
             data-zocam-event="catalogo-header"
@@ -185,7 +215,6 @@ export default function Header() {
             className="lg:hidden overflow-hidden bg-bg-dark/98 backdrop-blur-xl border-t border-white/10"
           >
             <div className="max-w-7xl mx-auto px-4 py-6 space-y-3">
-              <SearchBox variant="header" className="mb-2" />
               {navLinks.map((link) => (
                 <Link
                   key={link.label}
@@ -231,5 +260,41 @@ export default function Header() {
         )}
       </AnimatePresence>
     </header>
+
+    {/* Overlay de búsqueda (⌘K) */}
+    <AnimatePresence>
+      {searchOpen && (
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
+          transition={{ duration: 0.18 }}
+          className="fixed inset-0 z-[200] flex items-start justify-center"
+        >
+          <div
+            className="absolute inset-0 bg-black/60 backdrop-blur-sm"
+            onClick={() => setSearchOpen(false)}
+          />
+          <motion.div
+            initial={{ y: -16, opacity: 0, scale: 0.98 }}
+            animate={{ y: 0, opacity: 1, scale: 1 }}
+            exit={{ y: -16, opacity: 0, scale: 0.98 }}
+            transition={{ duration: 0.2, ease: "easeOut" }}
+            className="relative w-full max-w-2xl mx-4 mt-[12vh]"
+          >
+            <SearchBox
+              variant="page"
+              autoFocus
+              onClose={() => setSearchOpen(false)}
+              placeholder="Buscar: granizadora, freidora a gas, báscula…"
+            />
+            <p className="mt-3 text-center text-xs text-white/50">
+              Escribe para buscar entre 250+ equipos · Esc para cerrar
+            </p>
+          </motion.div>
+        </motion.div>
+      )}
+    </AnimatePresence>
+    </>
   );
 }

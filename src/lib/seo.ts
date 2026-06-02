@@ -158,6 +158,61 @@ export function articleJsonLd(input: {
   };
 }
 
+export function productJsonLd(input: {
+  name: string;
+  description: string;
+  path: string;
+  images?: string[];
+  sku?: string;
+  brand?: string;
+  category?: string;
+  // Comercial — opcional. Hoy (modelo WhatsApp) se omite el precio y se
+  // declara disponibilidad genérica; en fase 2 se pasa price + currency.
+  price?: number | null;
+  currency?: string;
+  availability?: "InStock" | "OutOfStock" | "PreOrder";
+}): object {
+  const url = `${SITE_URL}${input.path}`;
+  const images = (input.images?.length ? input.images : [DEFAULT_OG_IMAGE]).map(
+    (img) => (img.startsWith("http") ? img : `${SITE_URL}${img}`),
+  );
+
+  const offers =
+    input.price != null
+      ? {
+          "@type": "Offer",
+          price: input.price,
+          priceCurrency: input.currency ?? "COP",
+          availability: `https://schema.org/${input.availability ?? "InStock"}`,
+          url,
+          seller: { "@type": "Organization", name: SITE_NAME },
+        }
+      : {
+          // Sin precio público: declaramos la oferta como "consultar" para que
+          // el producto sea elegible como rich result sin inventar un precio.
+          "@type": "Offer",
+          availability: `https://schema.org/${input.availability ?? "InStock"}`,
+          url,
+          seller: { "@type": "Organization", name: SITE_NAME },
+          priceSpecification: {
+            "@type": "PriceSpecification",
+            priceCurrency: input.currency ?? "COP",
+          },
+        };
+
+  return {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    name: input.name,
+    description: input.description,
+    image: images,
+    ...(input.sku && { sku: input.sku }),
+    ...(input.category && { category: input.category }),
+    brand: { "@type": "Brand", name: input.brand ?? SITE_NAME },
+    offers,
+  };
+}
+
 export function itemListJsonLd(input: {
   name: string;
   items: { name: string; url?: string; image?: string }[];

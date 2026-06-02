@@ -1,10 +1,15 @@
 import type { NextConfig } from "next";
 
+// En desarrollo, React + Turbopack requieren eval() para HMR y debugging.
+// En producción NUNCA se usa eval, así que mantenemos el CSP estricto.
+const isDev = process.env.NODE_ENV !== "production";
+
 const ContentSecurityPolicy = [
   "default-src 'self'",
-  // Next.js hydration y framer-motion requieren inline scripts (sin 'unsafe-eval')
+  // Next.js hydration y framer-motion requieren inline scripts.
+  // 'unsafe-eval' solo en dev (HMR de React/Turbopack); en prod se omite.
   // zocam.app: carga de zocam-analytics.js
-  "script-src 'self' 'unsafe-inline' https://zocam.app",
+  `script-src 'self' 'unsafe-inline'${isDev ? " 'unsafe-eval'" : ""} https://zocam.app`,
   // Framer Motion / Tailwind / Material Symbols requieren inline styles + Google Fonts
   "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
   "font-src 'self' data: https://fonts.gstatic.com",

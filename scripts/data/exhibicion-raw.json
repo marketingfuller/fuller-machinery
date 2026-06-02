@@ -1,0 +1,1147 @@
+[
+  {
+    "wooId": 19053,
+    "name": "VITRINA PARA SUSHI",
+    "slug": "vitrina-para-sushi",
+    "price": 3980000,
+    "regularPrice": 3980000,
+    "stockStatus": "instock",
+    "currency": "COP",
+    "categories": [
+      "preparacion-de-alimentos",
+      "vitrinas-de-calefaccion"
+    ],
+    "specs": [
+      {
+        "label": "Volumen",
+        "value": "52 litros"
+      },
+      {
+        "label": "Frecuencia",
+        "value": "60 Hz"
+      },
+      {
+        "label": "Voltaje",
+        "value": "110V–120V"
+      }
+    ],
+    "shortDescriptionHtml": "<p>Vitrina refrigerada para sushi con temperatura de 2°C a 12°C, iluminación LED y diseño compacto. Ideal para exhibir y conservar productos frescos con alta rotación.</p>\n",
+    "descriptionHtml": "<p data-start=\"136\" data-end=\"328\">La vitrina refrigerada para sushi <strong data-start=\"170\" data-end=\"182\">JCFS-52Z</strong> está diseñada para negocios que necesitan exhibir productos frescos manteniendo una presentación impecable y condiciones óptimas de conservación.</p>\n<p data-start=\"330\" data-end=\"536\">Gracias a su sistema de refrigeración por compresor, mantiene una temperatura estable entre <strong data-start=\"422\" data-end=\"436\">2°C y 12°C</strong>, ideal para conservar sushi, rolls, sashimi y otros productos delicados sin comprometer su calidad.</p>\n<p data-start=\"538\" data-end=\"734\">Su diseño compacto y elegante la convierte en una pieza clave para barras de sushi, restaurantes, hoteles y eventos gourmet, donde la exhibición es parte fundamental de la experiencia del cliente.</p>\n<p data-start=\"736\" data-end=\"923\">Cuenta con iluminación LED interna que resalta los alimentos, mejorando la visibilidad y aumentando el atractivo visual del producto, lo que impacta directamente en la decisión de compra.</p>\n<p data-start=\"925\" data-end=\"1020\">Además, su operación silenciosa y eficiente la hace perfecta para espacios abiertos al público.</p>\n<h3 data-section-id=\"tcr4w1\" data-start=\"1022\" data-end=\"1057\">🔧 Características principales:</h3>\n<ul data-start=\"1058\" data-end=\"1349\">\n<li data-section-id=\"g2i83i\" data-start=\"1058\" data-end=\"1078\">Modelo: JCFS-52Z</li>\n<li data-section-id=\"vf9qgu\" data-start=\"1079\" data-end=\"1115\">Rango de temperatura: 2°C a 12°C</li>\n<li data-section-id=\"1mgopte\" data-start=\"1116\" data-end=\"1140\">Capacidad: 52 litros</li>\n<li data-section-id=\"1td5c0z\" data-start=\"1141\" data-end=\"1180\">Sistema de refrigeración: compresor</li>\n<li data-section-id=\"1s2qjg5\" data-start=\"1181\" data-end=\"1218\">Iluminación: 2 luces LED internas</li>\n<li data-section-id=\"t7rh4d\" data-start=\"1219\" data-end=\"1241\">Voltaje: 110V–120V</li>\n<li data-section-id=\"1ymcbcx\" data-start=\"1242\" data-end=\"1262\">Corriente: 2.1 A</li>\n<li data-section-id=\"1sn33sx\" data-start=\"1263\" data-end=\"1284\">Frecuencia: 60 Hz</li>\n<li data-section-id=\"1p0sf7h\" data-start=\"1285\" data-end=\"1314\">Refrigerante: R290 (37 g)</li>\n<li data-section-id=\"d7zx9n\" data-start=\"1315\" data-end=\"1349\">Agente espumante: ciclopentano</li>\n</ul>\n<h3 data-section-id=\"13uagx5\" data-start=\"1351\" data-end=\"1375\">🚀 Beneficios clave:</h3>\n<ul data-start=\"1376\" data-end=\"1697\">\n<li data-section-id=\"11otf3v\" data-start=\"1376\" data-end=\"1445\"><strong data-start=\"1378\" data-end=\"1402\">Conservación óptima:</strong> mantiene frescura y textura del producto</li>\n<li data-section-id=\"1ndeqlf\" data-start=\"1446\" data-end=\"1510\"><strong data-start=\"1448\" data-end=\"1475\">Mayor atractivo visual:</strong> iluminación que resalta el sushi</li>\n<li data-section-id=\"1wszwrq\" data-start=\"1511\" data-end=\"1571\"><strong data-start=\"1513\" data-end=\"1535\">Impulso en ventas:</strong> mejor exhibición = mayor rotación</li>\n<li data-section-id=\"1ce06is\" data-start=\"1572\" data-end=\"1632\"><strong data-start=\"1574\" data-end=\"1599\">Operación silenciosa:</strong> ideal para atención al público</li>\n<li data-section-id=\"1p1bngk\" data-start=\"1633\" data-end=\"1697\"><strong data-start=\"1635\" data-end=\"1655\">Diseño compacto:</strong> se adapta a barras y espacios reducido</li>\n</ul>\n",
+    "images": [
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-para-sushi/0.png",
+        "alt": ""
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-para-sushi/1.png",
+        "alt": ""
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-para-sushi/2.png",
+        "alt": ""
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-para-sushi/3.png",
+        "alt": ""
+      }
+    ],
+    "wooUrl": "https://tienda.fullermachinery.com/index.php/producto/vitrina-para-sushi/"
+  },
+  {
+    "wooId": 17867,
+    "name": "VITRINA DE CALEFACCIÓN D503",
+    "slug": "vitrina-calefactora-2-pisos-ref-d503",
+    "price": 1399000,
+    "regularPrice": 1399000,
+    "stockStatus": "instock",
+    "currency": "COP",
+    "categories": [
+      "preparacion-de-alimentos",
+      "vitrinas-de-calefaccion"
+    ],
+    "specs": [
+      {
+        "label": "Referencia",
+        "value": "503"
+      },
+      {
+        "label": "Material",
+        "value": "Acrílico y acero inoxidable"
+      },
+      {
+        "label": "Número de pisos",
+        "value": "2"
+      },
+      {
+        "label": "Dimensiones",
+        "value": "50.5 x 37.5 x 43.5 cm"
+      },
+      {
+        "label": "Peso",
+        "value": "11.2 Kg"
+      },
+      {
+        "label": "Voltaje",
+        "value": "110v"
+      },
+      {
+        "label": "Potencia",
+        "value": "0.3 Kw"
+      },
+      {
+        "label": "Rango de temperatura",
+        "value": "30°C a 85°C"
+      }
+    ],
+    "shortDescriptionHtml": "<p>Vitrina calefactora de mostrador de 2 niveles con control de temperatura de 30°C a 85°C. Compacta, elegante y de bajo consumo (0.3 kW), ideal para mantener tus alimentos calientes, visibles y listos para la venta.</p>\n",
+    "descriptionHtml": "<p data-start=\"1977\" data-end=\"2173\">\n<p data-start=\"101\" data-end=\"287\">La vitrina de calefacción <strong data-start=\"127\" data-end=\"135\">D503</strong> es una solución práctica y eficiente para negocios que necesitan mantener alimentos calientes, visibles y listos para la venta durante toda la jornada.</p>\n<p data-start=\"289\" data-end=\"472\">Con un rango de temperatura de <strong data-start=\"320\" data-end=\"335\">30°C a 85°C</strong>, permite conservar productos como empanadas, panadería, snacks y comidas rápidas en condiciones ideales, manteniendo su textura y sabor.</p>\n<p data-start=\"474\" data-end=\"621\">Su diseño compacto tipo mostrador facilita la exhibición directa al cliente, impulsando la compra por impulso y mejorando la rotación de productos.</p>\n<p data-start=\"623\" data-end=\"732\">Gracias a su consumo eficiente de <strong data-start=\"657\" data-end=\"667\">0.3 kW</strong>, es ideal para uso continuo sin generar altos costos operativos.</p>\n<h3 data-section-id=\"tcr4w1\" data-start=\"734\" data-end=\"769\">🔧 Características principales:</h3>\n<ul data-start=\"770\" data-end=\"944\">\n<li data-section-id=\"1p2f3gg\" data-start=\"770\" data-end=\"786\">Modelo: D503</li>\n<li data-section-id=\"1yfvy0k\" data-start=\"787\" data-end=\"809\">Alimentación: 110V</li>\n<li data-section-id=\"aijou9\" data-start=\"810\" data-end=\"830\">Frecuencia: 60Hz</li>\n<li data-section-id=\"1xj8cnc\" data-start=\"831\" data-end=\"851\">Potencia: 0.3 kW</li>\n<li data-section-id=\"2z840x\" data-start=\"852\" data-end=\"889\">Rango de temperatura: 30°C a 85°C</li>\n<li data-section-id=\"p8w1w4\" data-start=\"890\" data-end=\"905\">Peso: 12 kg</li>\n<li data-section-id=\"1spbpk7\" data-start=\"906\" data-end=\"944\">Dimensiones: 50.5 × 37.5 × 43.5 cm</li>\n</ul>\n<h3 data-section-id=\"13uagx5\" data-start=\"946\" data-end=\"970\">🚀 Beneficios clave:</h3>\n<ul data-start=\"971\" data-end=\"1180\">\n<li data-section-id=\"1l6v3xt\" data-start=\"971\" data-end=\"1025\">Mantiene alimentos listos para venta inmediata</li>\n<li data-section-id=\"1fmuqvz\" data-start=\"1026\" data-end=\"1072\">Aumenta ventas por visibilidad directa</li>\n<li data-section-id=\"jwcgwb\" data-start=\"1073\" data-end=\"1104\">Bajo consumo energético</li>\n<li data-section-id=\"t72s2y\" data-start=\"1105\" data-end=\"1142\">Ideal para espacios reducidos</li>\n<li data-section-id=\"d7bg2r\" data-start=\"1143\" data-end=\"1180\">Operación sencilla y práctica</li>\n</ul>\n",
+    "images": [
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-calefactora-2-pisos-ref-d503/0.png",
+        "alt": "Vitrina de calefacción de dos pisos en acrílico y acero inoxidable, ideal para exhibir alimentos calientes"
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-calefactora-2-pisos-ref-d503/1.png",
+        "alt": "Vitrina de calefacción de dos pisos en acrílico y acero inoxidable, ideal para exhibir alimentos calientes"
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-calefactora-2-pisos-ref-d503/2.png",
+        "alt": "Vitrina de calefacción de dos pisos en acrílico y acero inoxidable, ideal para exhibir alimentos calientes"
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-calefactora-2-pisos-ref-d503/3.png",
+        "alt": "Vitrina de calefacción de dos pisos en acrílico y acero inoxidable, ideal para exhibir alimentos calientes"
+      }
+    ],
+    "wooUrl": "https://tienda.fullermachinery.com/index.php/producto/vitrina-calefactora-2-pisos-ref-d503/"
+  },
+  {
+    "wooId": 17828,
+    "name": "VITRINA DE CALEFACCIÓN D5031",
+    "slug": "vitrina-calefactora-compacta-ref-d5031",
+    "price": 1199900,
+    "regularPrice": 1199900,
+    "stockStatus": "instock",
+    "currency": "COP",
+    "categories": [
+      "preparacion-de-alimentos",
+      "vitrinas-de-calefaccion"
+    ],
+    "specs": [],
+    "shortDescriptionHtml": "<p data-start=\"2023\" data-end=\"2185\">Vitrina calefactora compacta Ref D5031. Ideal para exhibir y mantener calientes productos en cafeterías, panaderías o tiendas pequeñas. Acero inoxidable y vidrio.</p>\n",
+    "descriptionHtml": "<p data-start=\"106\" data-end=\"276\">La vitrina de calefacción <strong data-start=\"132\" data-end=\"141\">D5031</strong> es una solución ideal para negocios que necesitan mantener alimentos calientes, visibles y listos para la venta en espacios reducidos.</p>\n<p data-start=\"278\" data-end=\"485\">Con un rango de temperatura de <strong data-start=\"309\" data-end=\"324\">30°C a 85°C</strong>, permite conservar productos como empanadas, panadería, snacks y comidas rápidas en condiciones óptimas, manteniendo su textura y sabor durante toda la jornada.</p>\n<p data-start=\"487\" data-end=\"673\">Su diseño compacto tipo mostrador la hace perfecta para cafeterías, tiendas y puntos de venta donde el espacio es limitado, pero la exhibición sigue siendo clave para impulsar la compra.</p>\n<p data-start=\"675\" data-end=\"811\">Además, su bajo consumo de <strong data-start=\"702\" data-end=\"712\">0.3 kW</strong> permite una operación eficiente y continua sin aumentar significativamente los costos energéticos.</p>\n<h3 data-section-id=\"tcr4w1\" data-start=\"813\" data-end=\"848\">🔧 Características principales:</h3>\n<ul data-start=\"849\" data-end=\"1058\">\n<li data-section-id=\"qcp2pd\" data-start=\"849\" data-end=\"866\">Modelo: D5031</li>\n<li data-section-id=\"1yfvy0k\" data-start=\"867\" data-end=\"889\">Alimentación: 110V</li>\n<li data-section-id=\"aijou9\" data-start=\"890\" data-end=\"910\">Frecuencia: 60Hz</li>\n<li data-section-id=\"1xj8cnc\" data-start=\"911\" data-end=\"931\">Potencia: 0.3 kW</li>\n<li data-section-id=\"2z840x\" data-start=\"932\" data-end=\"969\">Rango de temperatura: 30°C a 85°C</li>\n<li data-section-id=\"whgxlh\" data-start=\"970\" data-end=\"986\">Peso: 8.4 kg</li>\n<li data-section-id=\"1hw4dvc\" data-start=\"987\" data-end=\"1023\">Dimensiones: 50.5 × 37.5 × 30 cm</li>\n<li data-section-id=\"17dnwjs\" data-start=\"1024\" data-end=\"1058\">Diseño compacto para mostrador</li>\n</ul>\n<h3 data-section-id=\"13uagx5\" data-start=\"1060\" data-end=\"1084\">🚀 Beneficios clave:</h3>\n<ul data-start=\"1085\" data-end=\"1282\">\n<li data-section-id=\"t72s2y\" data-start=\"1085\" data-end=\"1122\">Ideal para espacios reducidos</li>\n<li data-section-id=\"jwcgwb\" data-start=\"1123\" data-end=\"1154\">Bajo consumo energético</li>\n<li data-section-id=\"1wmufca\" data-start=\"1155\" data-end=\"1202\">Mantiene alimentos listos para la venta</li>\n<li data-section-id=\"15ikueq\" data-start=\"1203\" data-end=\"1244\">Mejora la exhibición del producto</li>\n<li data-section-id=\"d7bg2r\" data-start=\"1245\" data-end=\"1282\">Operación sencilla y práctica</li>\n</ul>\n",
+    "images": [
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-calefactora-compacta-ref-d5031/0.png",
+        "alt": "Vitrina de mostrador compacta de acero inoxidable y vidrio para exhibición de alimentos."
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-calefactora-compacta-ref-d5031/1.png",
+        "alt": "Vitrina de mostrador compacta de acero inoxidable y vidrio para exhibición de alimentos."
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-calefactora-compacta-ref-d5031/2.png",
+        "alt": "Vitrina de mostrador compacta de acero inoxidable y vidrio para exhibición de alimentos."
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-calefactora-compacta-ref-d5031/3.png",
+        "alt": "Vitrina de mostrador compacta de acero inoxidable y vidrio para exhibición de alimentos."
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-calefactora-compacta-ref-d5031/4.png",
+        "alt": "Vitrina de mostrador compacta de acero inoxidable y vidrio para exhibición de alimentos."
+      }
+    ],
+    "wooUrl": "https://tienda.fullermachinery.com/index.php/producto/vitrina-calefactora-compacta-ref-d5031/"
+  },
+  {
+    "wooId": 17820,
+    "name": "VITRINA DE CALEFACCIÓN D1PN",
+    "slug": "vitrina-de-calefaccion-ref-d1pn",
+    "price": 1299000,
+    "regularPrice": 1299000,
+    "stockStatus": "instock",
+    "currency": "COP",
+    "categories": [
+      "preparacion-de-alimentos",
+      "vitrinas-de-calefaccion"
+    ],
+    "specs": [
+      {
+        "label": "Dimensiones",
+        "value": "37 x 38 x 63.5 cm"
+      },
+      {
+        "label": "Peso",
+        "value": "15.7 Kg"
+      },
+      {
+        "label": "Material",
+        "value": "Acero inoxidable y vidrio templado"
+      },
+      {
+        "label": "Número de bandejas",
+        "value": "3"
+      },
+      {
+        "label": "Voltaje",
+        "value": "110V"
+      },
+      {
+        "label": "Potencia",
+        "value": "0.8 Kw"
+      },
+      {
+        "label": "Ideal para",
+        "value": "Cafeterías, panaderías, tiendas de conveniencia, etc."
+      }
+    ],
+    "shortDescriptionHtml": "<p data-start=\"2116\" data-end=\"2280\">Vitrina caliente vertical con temperatura de 30°C a 85°C. Ideal para mantener alimentos calientes, organizados y visibles en mostrador.</p>\n",
+    "descriptionHtml": "<p data-start=\"100\" data-end=\"262\">La vitrina de calefacción <strong data-start=\"126\" data-end=\"134\">D1PN</strong> es una solución ideal para negocios que necesitan mantener alimentos calientes, organizados y visibles durante toda la jornada.</p>\n<p data-start=\"264\" data-end=\"447\">Con un rango de temperatura de <strong data-start=\"295\" data-end=\"310\">30°C a 85°C</strong>, permite conservar productos como empanadas, panadería, snacks y comidas rápidas en condiciones óptimas, listos para la venta inmediata.</p>\n<p data-start=\"449\" data-end=\"698\">Su diseño vertical ofrece mayor capacidad de exhibición sin ocupar demasiado espacio en mostrador, facilitando la organización del producto y mejorando la presentación frente al cliente. Esto impacta directamente en la rotación y ventas por impulso.</p>\n<p data-start=\"700\" data-end=\"870\">Gracias a su potencia de <strong data-start=\"725\" data-end=\"735\">0.8 kW</strong>, proporciona un calentamiento eficiente y constante, ideal para operaciones continuas en cafeterías, tiendas y negocios de alto flujo.</p>\n<h3 data-section-id=\"tcr4w1\" data-start=\"872\" data-end=\"907\">🔧 Características principales:</h3>\n<ul data-start=\"908\" data-end=\"1122\">\n<li data-section-id=\"1p7aeu1\" data-start=\"908\" data-end=\"924\">Modelo: D1PN</li>\n<li data-section-id=\"1yfvy0k\" data-start=\"925\" data-end=\"947\">Alimentación: 110V</li>\n<li data-section-id=\"aijou9\" data-start=\"948\" data-end=\"968\">Frecuencia: 60Hz</li>\n<li data-section-id=\"6v55er\" data-start=\"969\" data-end=\"989\">Potencia: 0.8 kW</li>\n<li data-section-id=\"2z840x\" data-start=\"990\" data-end=\"1027\">Rango de temperatura: 30°C a 85°C</li>\n<li data-section-id=\"19fqaru\" data-start=\"1028\" data-end=\"1045\">Peso: 15.7 kg</li>\n<li data-section-id=\"1k494q3\" data-start=\"1046\" data-end=\"1080\">Dimensiones: 37 × 38 × 63.5 cm</li>\n<li data-section-id=\"1o66q2q\" data-start=\"1081\" data-end=\"1122\">Diseño vertical para mejor exhibición</li>\n</ul>\n<h3 data-section-id=\"13uagx5\" data-start=\"1124\" data-end=\"1148\">🚀 Beneficios clave:</h3>\n<ul data-start=\"1149\" data-end=\"1348\">\n<li data-section-id=\"ttkky3\" data-start=\"1149\" data-end=\"1189\">Mayor capacidad en menos espacio</li>\n<li data-section-id=\"1wmufca\" data-start=\"1190\" data-end=\"1237\">Mantiene alimentos listos para la venta</li>\n<li data-section-id=\"bpexk1\" data-start=\"1238\" data-end=\"1281\">Aumenta la visibilidad del producto</li>\n<li data-section-id=\"4hsizk\" data-start=\"1282\" data-end=\"1310\">Ideal para mostrador</li>\n<li data-section-id=\"1i4uwd5\" data-start=\"1311\" data-end=\"1348\">Operación sencilla y continua</li>\n</ul>\n",
+    "images": [
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-d1pn/0.png",
+        "alt": "Vitrina de calefacción compacta de acero inoxidable y vidrio templado, con 3 bandejas. Ideal para cafeterías y panaderías."
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-d1pn/1.png",
+        "alt": "Vitrina de calefacción profesional para alimentos, modelo D1PM, ideal para restaurantes y panaderías. Exhibe y mantiene calientes alimentos como pasteles, pan y platos preparados. Diseño en acero inoxidable y vidrio templado."
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-d1pn/2.png",
+        "alt": "Vitrina de calefacción compacta de acero inoxidable y vidrio templado, con 3 bandejas. Ideal para cafeterías y panaderías."
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-d1pn/3.png",
+        "alt": "Vitrina de calefacción compacta de acero inoxidable y vidrio templado, con 3 bandejas. Ideal para cafeterías y panaderías."
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-d1pn/4.png",
+        "alt": "Vitrina de calefacción compacta de acero inoxidable y vidrio templado, con 3 bandejas. Ideal para cafeterías y panaderías."
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-d1pn/5.png",
+        "alt": "Vitrina de calefacción compacta de acero inoxidable y vidrio templado, con 3 bandejas. Ideal para cafeterías y panaderías."
+      }
+    ],
+    "wooUrl": "https://tienda.fullermachinery.com/index.php/producto/vitrina-de-calefaccion-ref-d1pn/"
+  },
+  {
+    "wooId": 17814,
+    "name": "VITRINA DE CALEFACCIÓN D1PL",
+    "slug": "vitrina-de-calefaccion-ref-d1pm",
+    "price": 1649900,
+    "regularPrice": 1649900,
+    "stockStatus": "instock",
+    "currency": "COP",
+    "categories": [
+      "preparacion-de-alimentos",
+      "vitrinas-de-calefaccion"
+    ],
+    "specs": [
+      {
+        "label": "Dimensiones",
+        "value": "51,5 cm (ancho) x 54 cm (fondo) x 63,5 cm (alto)"
+      },
+      {
+        "label": "Peso",
+        "value": "26 kg"
+      },
+      {
+        "label": "Temperatura ajustable",
+        "value": "30°C – 85°C"
+      },
+      {
+        "label": "Voltaje",
+        "value": "110v"
+      }
+    ],
+    "shortDescriptionHtml": "<p>Vitrina caliente de capacidad intermedia con temperatura de 30°C a 85°C. Ideal para mantener alimentos calientes y visibles en mostrador.</p>\n",
+    "descriptionHtml": "<p data-start=\"108\" data-end=\"337\">La vitrina de calefacción <strong data-start=\"134\" data-end=\"142\">D1PL</strong> es una solución ideal para negocios que necesitan mantener alimentos calientes, visibles y listos para la venta con una capacidad superior a modelos compactos, pero sin ocupar demasiado espacio.</p>\n<p data-start=\"339\" data-end=\"544\">Con un rango de temperatura de <strong data-start=\"370\" data-end=\"385\">30°C a 85°C</strong>, permite conservar productos como empanadas, panadería, fritos y snacks en condiciones óptimas, manteniendo su textura y presentación durante toda la jornada.</p>\n<p data-start=\"546\" data-end=\"748\">Su diseño ofrece una <strong data-start=\"567\" data-end=\"591\">capacidad intermedia</strong>, facilitando la organización de distintos productos y mejorando la exhibición frente al cliente, lo que impulsa la compra por impulso y aumenta la rotación.</p>\n<p data-start=\"750\" data-end=\"919\">Gracias a su potencia de <strong data-start=\"775\" data-end=\"785\">0.8 kW</strong>, proporciona un calentamiento uniforme y estable, ideal para operación continua en cafeterías, tiendas y negocios de flujo constante.</p>\n<h3 data-section-id=\"tcr4w1\" data-start=\"921\" data-end=\"956\">🔧 Características principales:</h3>\n<ul data-start=\"957\" data-end=\"1168\">\n<li data-section-id=\"1p7agij\" data-start=\"957\" data-end=\"973\">Modelo: D1PL</li>\n<li data-section-id=\"1yfvy0k\" data-start=\"974\" data-end=\"996\">Alimentación: 110V</li>\n<li data-section-id=\"aijou9\" data-start=\"997\" data-end=\"1017\">Frecuencia: 60Hz</li>\n<li data-section-id=\"6v55er\" data-start=\"1018\" data-end=\"1038\">Potencia: 0.8 kW</li>\n<li data-section-id=\"2z840x\" data-start=\"1039\" data-end=\"1076\">Rango de temperatura: 30°C a 85°C</li>\n<li data-section-id=\"1v1uch8\" data-start=\"1077\" data-end=\"1094\">Peso: 20.7 kg</li>\n<li data-section-id=\"fztzlq\" data-start=\"1095\" data-end=\"1131\">Dimensiones: 61.5 × 41 × 53.5 cm</li>\n<li data-section-id=\"3h34y6\" data-start=\"1132\" data-end=\"1168\">Diseño intermedio para mostrador</li>\n</ul>\n<h3 data-section-id=\"13uagx5\" data-start=\"1170\" data-end=\"1194\">🚀 Beneficios clave:</h3>\n<ul data-start=\"1195\" data-end=\"1437\">\n<li data-section-id=\"1uj9de2\" data-start=\"1195\" data-end=\"1260\">Capacidad equilibrada: mayor espacio sin ocupar demasiado</li>\n<li data-section-id=\"1wmufca\" data-start=\"1261\" data-end=\"1308\">Mantiene alimentos listos para la venta</li>\n<li data-section-id=\"4bb7zs\" data-start=\"1309\" data-end=\"1351\">Mejora la visibilidad del producto</li>\n<li data-section-id=\"1ymnlkf\" data-start=\"1352\" data-end=\"1394\">Calentamiento uniforme y constante</li>\n<li data-section-id=\"fgecsr\" data-start=\"1395\" data-end=\"1437\">Ideal para negocios de flujo medio</li>\n</ul>\n",
+    "images": [
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-d1pm/0.png",
+        "alt": "Vitrina de calefacción profesional para alimentos, modelo D1PM, ideal para restaurantes y panaderías. Exhibe y mantiene calientes alimentos como pasteles, pan y platos preparados. Diseño en acero inoxidable y vidrio templado."
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-d1pm/1.png",
+        "alt": "Vitrina de calefacción profesional para alimentos, modelo D1PM, ideal para restaurantes y panaderías. Exhibe y mantiene calientes alimentos como pasteles, pan y platos preparados. Diseño en acero inoxidable y vidrio templado."
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-d1pm/2.png",
+        "alt": "Vitrina de calefacción profesional para alimentos, modelo D1PM, ideal para restaurantes y panaderías. Exhibe y mantiene calientes alimentos como pasteles, pan y platos preparados. Diseño en acero inoxidable y vidrio templado."
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-d1pm/3.png",
+        "alt": "Vitrina de calefacción profesional para alimentos, modelo D1PM, ideal para restaurantes y panaderías. Exhibe y mantiene calientes alimentos como pasteles, pan y platos preparados. Diseño en acero inoxidable y vidrio templado."
+      }
+    ],
+    "wooUrl": "https://tienda.fullermachinery.com/index.php/producto/vitrina-de-calefaccion-ref-d1pm/"
+  },
+  {
+    "wooId": 17807,
+    "name": "VITRINA DE CALEFACCÓN REF D1PM",
+    "slug": "vitrina-de-calefaccion-ref-d1pl",
+    "price": 1599000,
+    "regularPrice": 1599000,
+    "stockStatus": "instock",
+    "currency": "COP",
+    "categories": [
+      "preparacion-de-alimentos",
+      "vitrinas-de-calefaccion"
+    ],
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Fuller Machinery"
+      },
+      {
+        "label": "Referencia",
+        "value": "D1PL"
+      },
+      {
+        "label": "Tipo",
+        "value": "Vitrina de calefacción comercial"
+      },
+      {
+        "label": "Material",
+        "value": "Acero inoxidable y vidrio templado"
+      },
+      {
+        "label": "Dimensiones",
+        "value": "61,5 cm (ancho) x 41 cm (fondo) x 53,5 cm (alto)"
+      },
+      {
+        "label": "Peso",
+        "value": "20,7 kg"
+      },
+      {
+        "label": "Temperatura ajustable",
+        "value": "30°C - 85°C"
+      },
+      {
+        "label": "Voltaje",
+        "value": "110V / 60Hz"
+      },
+      {
+        "label": "Número de bandejas",
+        "value": "3 rejillas"
+      },
+      {
+        "label": "Usos recomendados",
+        "value": "Panaderías, cafeterías, restaurantes, negocios de comida rápida"
+      }
+    ],
+    "shortDescriptionHtml": "<p>Vitrina caliente amplia con temperatura de 30°C a 85°C. Ideal para mantener alimentos calientes, organizados y listos para la venta.</p>\n",
+    "descriptionHtml": "<p data-start=\"111\" data-end=\"306\">La vitrina de calefacción <strong data-start=\"137\" data-end=\"145\">D1PM</strong> es una solución ideal para negocios que necesitan mantener alimentos calientes, visibles y listos para la venta, con mayor capacidad de exhibición en mostrador.</p>\n<p data-start=\"308\" data-end=\"520\">Con un rango de temperatura de <strong data-start=\"339\" data-end=\"354\">30°C a 85°C</strong>, permite conservar productos como empanadas, panadería, fritos y snacks en condiciones óptimas, manteniendo su textura, sabor y presentación durante toda la jornada.</p>\n<p data-start=\"522\" data-end=\"730\">Su diseño amplio ofrece <strong data-start=\"546\" data-end=\"571\">mayor espacio interno</strong>, facilitando la organización de diferentes productos y mejorando la visibilidad frente al cliente, lo que impulsa la compra por impulso y aumenta la rotación.</p>\n<p data-start=\"732\" data-end=\"896\">Gracias a su potencia de <strong data-start=\"757\" data-end=\"767\">0.8 kW</strong>, proporciona un calentamiento uniforme y estable, ideal para operación continua en cafeterías, tiendas y negocios de alto flujo.</p>\n<h3 data-section-id=\"tcr4w1\" data-start=\"898\" data-end=\"933\">🔧 Características principales:</h3>\n<ul data-start=\"934\" data-end=\"1139\">\n<li data-section-id=\"1p7ahay\" data-start=\"934\" data-end=\"950\">Modelo: D1PM</li>\n<li data-section-id=\"1yfvy0k\" data-start=\"951\" data-end=\"973\">Alimentación: 110V</li>\n<li data-section-id=\"aijou9\" data-start=\"974\" data-end=\"994\">Frecuencia: 60Hz</li>\n<li data-section-id=\"6v55er\" data-start=\"995\" data-end=\"1015\">Potencia: 0.8 kW</li>\n<li data-section-id=\"2z840x\" data-start=\"1016\" data-end=\"1053\">Rango de temperatura: 30°C a 85°C</li>\n<li data-section-id=\"1eix3v7\" data-start=\"1054\" data-end=\"1069\">Peso: 26 kg</li>\n<li data-section-id=\"m23pui\" data-start=\"1070\" data-end=\"1106\">Dimensiones: 51.5 × 54 × 63.5 cm</li>\n<li data-section-id=\"1amvkae\" data-start=\"1107\" data-end=\"1139\">Diseño amplio para mostrador</li>\n</ul>\n<h3 data-section-id=\"13uagx5\" data-start=\"1141\" data-end=\"1165\">🚀 Beneficios clave:</h3>\n<ul data-start=\"1166\" data-end=\"1385\">\n<li data-section-id=\"6dlr5l\" data-start=\"1166\" data-end=\"1203\">Mayor capacidad de exhibición</li>\n<li data-section-id=\"1wmufca\" data-start=\"1204\" data-end=\"1251\">Mantiene alimentos listos para la venta</li>\n<li data-section-id=\"4bb7zs\" data-start=\"1252\" data-end=\"1294\">Mejora la visibilidad del producto</li>\n<li data-section-id=\"1ymnlkf\" data-start=\"1295\" data-end=\"1337\">Calentamiento uniforme y constante</li>\n<li data-section-id=\"biobjk\" data-start=\"1338\" data-end=\"1385\">Ideal para negocios de flujo medio-alto</li>\n</ul>\n",
+    "images": [
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-d1pl/0.png",
+        "alt": "Vitrina de calefacción Fuller Machinery D1PL en acero inoxidable y vidrio templado, ideal para mantener alimentos calientes en panaderías, restaurantes y cafeterías"
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-d1pl/1.png",
+        "alt": "Vitrina de calefacción Fuller Machinery D1PL en acero inoxidable y vidrio templado, ideal para mantener alimentos calientes en panaderías, restaurantes y cafeterías"
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-d1pl/2.png",
+        "alt": "Vitrina de calefacción Fuller Machinery D1PL en acero inoxidable y vidrio templado, ideal para mantener alimentos calientes en panaderías, restaurantes y cafeterías"
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-d1pl/3.png",
+        "alt": "Vitrina de calefacción Fuller Machinery D1PL en acero inoxidable y vidrio templado, ideal para mantener alimentos calientes en panaderías, restaurantes y cafeterías"
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-d1pl/4.png",
+        "alt": "Vitrina de calefacción Fuller Machinery D1PL en acero inoxidable y vidrio templado, ideal para mantener alimentos calientes en panaderías, restaurantes y cafeterías"
+      }
+    ],
+    "wooUrl": "https://tienda.fullermachinery.com/index.php/producto/vitrina-de-calefaccion-ref-d1pl/"
+  },
+  {
+    "wooId": 17799,
+    "name": "VITRINA DE CALEFACCIÓN 801P",
+    "slug": "vitrina-de-calefaccion-ref-801p",
+    "price": 1199000,
+    "regularPrice": 1199000,
+    "stockStatus": "instock",
+    "currency": "COP",
+    "categories": [
+      "preparacion-de-alimentos",
+      "vitrinas-de-calefaccion"
+    ],
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Fuller Machinery"
+      },
+      {
+        "label": "Referencia",
+        "value": "801p"
+      },
+      {
+        "label": "Tipo",
+        "value": "Vitrina caliente para exhibición de alimentos"
+      },
+      {
+        "label": "Material",
+        "value": "Acero inoxidable y vidrio templado"
+      },
+      {
+        "label": "Diseño",
+        "value": "Vidrio curvo para mejor exhibición"
+      },
+      {
+        "label": "Entrepaños",
+        "value": "Inclinados para mayor visibilidad"
+      },
+      {
+        "label": "Dimensiones",
+        "value": "37 cm (ancho) x 54 cm (fondo) x 61 cm (alto)"
+      },
+      {
+        "label": "Voltaje",
+        "value": "110V"
+      },
+      {
+        "label": "Frecuencia",
+        "value": "60 Hz"
+      },
+      {
+        "label": "Potencia",
+        "value": "1.0 kW"
+      },
+      {
+        "label": "Rango de temperatura",
+        "value": "30°C - 85°C"
+      },
+      {
+        "label": "Peso neto",
+        "value": "25Kg"
+      },
+      {
+        "label": "Usos",
+        "value": "Panaderías, cafeterías, restaurantes, food trucks y negocios de comida rápida"
+      }
+    ],
+    "shortDescriptionHtml": "<p>Vitrina caliente de alta capacidad con temperatura de 30°C a 85°C y potencia de 1 kW. Ideal para mantener alimentos calientes y listos para la venta.</p>\n",
+    "descriptionHtml": "<p data-start=\"106\" data-end=\"303\">La vitrina de calefacción <strong data-start=\"132\" data-end=\"140\">801P</strong> es una solución ideal para negocios que necesitan mantener alimentos calientes, visibles y listos para la venta en todo momento, incluso en horas de alta demanda.</p>\n<p data-start=\"305\" data-end=\"498\">Con un rango de temperatura de <strong data-start=\"336\" data-end=\"351\">30°C a 85°C</strong>, permite conservar productos como empanadas, panadería, snacks y comidas rápidas en condiciones óptimas, asegurando textura, sabor y presentación.</p>\n<p data-start=\"500\" data-end=\"686\">Su diseño amplio ofrece mayor capacidad de exhibición, permitiendo organizar distintos productos de forma ordenada y atractiva, lo que impulsa la compra por impulso y mejora la rotación.</p>\n<p data-start=\"688\" data-end=\"845\">Gracias a su potencia de <strong data-start=\"713\" data-end=\"721\">1 kW</strong>, garantiza un calentamiento más rápido y uniforme, ideal para operaciones continuas en negocios con alto flujo de clientes.</p>\n<h3 data-section-id=\"tcr4w1\" data-start=\"847\" data-end=\"882\">🔧 Características principales:</h3>\n<ul data-start=\"883\" data-end=\"1094\">\n<li data-section-id=\"4wmsfv\" data-start=\"883\" data-end=\"899\">Modelo: 801P</li>\n<li data-section-id=\"1yfvy0k\" data-start=\"900\" data-end=\"922\">Alimentación: 110V</li>\n<li data-section-id=\"aijou9\" data-start=\"923\" data-end=\"943\">Frecuencia: 60Hz</li>\n<li data-section-id=\"16u0aj8\" data-start=\"944\" data-end=\"962\">Potencia: 1 kW</li>\n<li data-section-id=\"2z840x\" data-start=\"963\" data-end=\"1000\">Rango de temperatura: 30°C a 85°C</li>\n<li data-section-id=\"1bbzvu8\" data-start=\"1001\" data-end=\"1016\">Peso: 25 kg</li>\n<li data-section-id=\"phuvmg\" data-start=\"1017\" data-end=\"1049\">Dimensiones: 37 × 54 × 61 cm</li>\n<li data-section-id=\"m6ip1t\" data-start=\"1050\" data-end=\"1094\">Diseño de mayor capacidad para mostrador</li>\n</ul>\n<h3 data-section-id=\"13uagx5\" data-start=\"1096\" data-end=\"1120\">🚀 Beneficios clave:</h3>\n<ul data-start=\"1121\" data-end=\"1331\">\n<li data-section-id=\"6dlr5l\" data-start=\"1121\" data-end=\"1158\">Mayor capacidad de exhibición</li>\n<li data-section-id=\"zgfuk5\" data-start=\"1159\" data-end=\"1198\">Calentamiento rápido y uniforme</li>\n<li data-section-id=\"1wmufca\" data-start=\"1199\" data-end=\"1246\">Mantiene alimentos listos para la venta</li>\n<li data-section-id=\"4bb7zs\" data-start=\"1247\" data-end=\"1289\">Mejora la visibilidad del producto</li>\n<li data-section-id=\"8ysiyf\" data-start=\"1290\" data-end=\"1331\">Ideal para negocios de alto flujo</li>\n</ul>\n",
+    "images": [
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-801p/0.png",
+        "alt": "Vitrina de calefacción Fuller Machinery 801P con vidrio curvo y entrepaños de acero inoxidable."
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-801p/1.png",
+        "alt": "Vitrina de calefacción Fuller Machinery 801P con vidrio curvo y entrepaños de acero inoxidable."
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-801p/2.png",
+        "alt": "Vitrina de calefacción Fuller Machinery 801P con vidrio curvo y entrepaños de acero inoxidable."
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-801p/3.png",
+        "alt": "Vitrina de calefacción Fuller Machinery 801P con vidrio curvo y entrepaños de acero inoxidable."
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-801p/4.png",
+        "alt": "Vitrina de calefacción Fuller Machinery 801P con vidrio curvo y entrepaños de acero inoxidable."
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-801p/5.png",
+        "alt": "Vitrina de calefacción Fuller Machinery 801P con vidrio curvo y entrepaños de acero inoxidable."
+      }
+    ],
+    "wooUrl": "https://tienda.fullermachinery.com/index.php/producto/vitrina-de-calefaccion-ref-801p/"
+  },
+  {
+    "wooId": 17789,
+    "name": "VITRINA EXHIBIDORA DE CALENTAMIENTO REF LD3P",
+    "slug": "vitrina-de-calefaccion-ref-ld3p",
+    "price": 1611900,
+    "regularPrice": 1611900,
+    "stockStatus": "outofstock",
+    "currency": "COP",
+    "categories": [
+      "preparacion-de-alimentos",
+      "vitrinas-de-calefaccion"
+    ],
+    "specs": [
+      {
+        "label": "Material",
+        "value": "Acero inoxidable y vidrio templado"
+      },
+      {
+        "label": "Dimensiones",
+        "value": "95 cm (ancho) x 58 cm (alto) x 58 cm (fondo)"
+      },
+      {
+        "label": "Control de temperatura",
+        "value": "Termostato ajustable"
+      },
+      {
+        "label": "Voltaje",
+        "value": "110V"
+      },
+      {
+        "label": "Luz interior",
+        "value": "SI"
+      },
+      {
+        "label": "Panel de control",
+        "value": "Manual"
+      },
+      {
+        "label": "Peso",
+        "value": "30 kg"
+      }
+    ],
+    "shortDescriptionHtml": "<p>Vitrina caliente vertical ideal para mantener alimentos calientes, organizados y visibles en el punto de venta.</p>\n",
+    "descriptionHtml": "<p data-start=\"99\" data-end=\"305\">La vitrina exhibidora de calentamiento <strong data-start=\"138\" data-end=\"177\">Vitrina Exhibidora de Calentamiento</strong> es una solución ideal para negocios que necesitan mantener alimentos calientes, organizados y visibles durante toda la jornada.</p>\n<p data-start=\"307\" data-end=\"565\">Su diseño vertical permite aprovechar mejor el espacio, ofreciendo mayor capacidad de exhibición sin ocupar demasiado lugar en el mostrador. Es perfecta para productos como empanadas, panadería, fritos y snacks, manteniéndolos listos para la venta inmediata.</p>\n<p data-start=\"567\" data-end=\"712\">Gracias a su formato exhibidor, mejora la presentación del producto frente al cliente, impulsando la compra por impulso y aumentando la rotación.</p>\n<h3 data-section-id=\"tcr4w1\" data-start=\"714\" data-end=\"749\">🔧 Características principales:</h3>\n<ul data-start=\"750\" data-end=\"918\">\n<li data-section-id=\"1yfvy0k\" data-start=\"750\" data-end=\"772\">Alimentación: 110V</li>\n<li data-section-id=\"1e2ioog\" data-start=\"773\" data-end=\"834\">Dimensiones: 90 cm alto × 60 cm ancho × 40 cm profundidad</li>\n<li data-section-id=\"1o66q2q\" data-start=\"835\" data-end=\"876\">Diseño vertical para mejor exhibición</li>\n<li data-section-id=\"1foz9yu\" data-start=\"877\" data-end=\"918\">Ideal para mostrador o punto de venta</li>\n</ul>\n<h3 data-section-id=\"13uagx5\" data-start=\"920\" data-end=\"944\">🚀 Beneficios clave:</h3>\n<ul data-start=\"945\" data-end=\"1171\">\n<li data-section-id=\"y1w59p\" data-start=\"945\" data-end=\"988\">Mayor capacidad en formato vertical</li>\n<li data-section-id=\"4bb7zs\" data-start=\"989\" data-end=\"1031\">Mejora la visibilidad del producto</li>\n<li data-section-id=\"lzv965\" data-start=\"1032\" data-end=\"1077\">Impulsa ventas por exhibición directa</li>\n<li data-section-id=\"m4re8c\" data-start=\"1078\" data-end=\"1123\">Optimiza espacio en el punto de venta</li>\n<li data-section-id=\"1wmufca\" data-start=\"1124\" data-end=\"1171\">Mantiene alimentos listos para la venta</li>\n</ul>\n",
+    "images": [
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-ld3p/0.jpg",
+        "alt": "Vitrina de calefacción LD3P de Fuller Machinery en color rojo, fabricada en acero inoxidable y vidrio templado, con una capacidad de 30 kg y sistema de calentamiento por vapor."
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-ld3p/1.png",
+        "alt": "Vitrina de calefacción LD3P de Fuller Machinery en color rojo, fabricada en acero inoxidable y vidrio templado, con una capacidad de 30 kg y sistema de calentamiento por vapor."
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-ld3p/2.png",
+        "alt": "Vitrina de calefacción LD3P de Fuller Machinery en color rojo, fabricada en acero inoxidable y vidrio templado, con una capacidad de 30 kg y sistema de calentamiento por vapor."
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-ld3p/3.png",
+        "alt": "Vitrina de calefacción LD3P de Fuller Machinery en color rojo, fabricada en acero inoxidable y vidrio templado, con una capacidad de 30 kg y sistema de calentamiento por vapor."
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-ld3p/4.png",
+        "alt": "Vitrina de calefacción LD3P de Fuller Machinery en color rojo, fabricada en acero inoxidable y vidrio templado, con una capacidad de 30 kg y sistema de calentamiento por vapor."
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-ld3p/5.png",
+        "alt": "Vitrina de calefacción LD3P de Fuller Machinery en color rojo, fabricada en acero inoxidable y vidrio templado, con una capacidad de 30 kg y sistema de calentamiento por vapor."
+      }
+    ],
+    "wooUrl": "https://tienda.fullermachinery.com/index.php/producto/vitrina-de-calefaccion-ref-ld3p/"
+  },
+  {
+    "wooId": 17781,
+    "name": "VITRINA DE CALEFACCIÓN D1PB",
+    "slug": "vitrina-de-calefaccion-ref-d1pb",
+    "price": 1297900,
+    "regularPrice": 1297900,
+    "stockStatus": "instock",
+    "currency": "COP",
+    "categories": [
+      "preparacion-de-alimentos",
+      "vitrinas-de-calefaccion"
+    ],
+    "specs": [
+      {
+        "label": "DImensiones",
+        "value": "45 cm (frente) x 47 cm (fondo) x 52 cm (alto)"
+      },
+      {
+        "label": "Voltaje",
+        "value": "110V"
+      },
+      {
+        "label": "Termostato",
+        "value": "ajustable (30°C - 85°C)"
+      }
+    ],
+    "shortDescriptionHtml": "<p>Vitrina caliente compacta con temperatura de 30°C a 85°C y potencia de 0.8 kW. Ideal para mantener alimentos calientes y visibles en mostrador.</p>\n",
+    "descriptionHtml": "<p data-start=\"127\" data-end=\"303\">La vitrina de calefacción <strong data-start=\"153\" data-end=\"161\">D1PB</strong> es una solución funcional para negocios que necesitan mantener alimentos calientes, visibles y listos para la venta en espacios de mostrador.</p>\n<p data-start=\"305\" data-end=\"510\">Con un rango de temperatura de <strong data-start=\"336\" data-end=\"351\">30°C a 85°C</strong>, permite conservar productos como empanadas, panadería, fritos y snacks en condiciones óptimas, manteniendo su textura y presentación durante toda la jornada.</p>\n<p data-start=\"512\" data-end=\"700\">Su diseño compacto con buena capacidad la convierte en una opción versátil para cafeterías, tiendas y negocios de comida rápida que buscan equilibrio entre espacio y volumen de exhibición.</p>\n<p data-start=\"702\" data-end=\"818\">Gracias a su potencia de <strong data-start=\"727\" data-end=\"737\">0.8 kW</strong>, proporciona un calentamiento uniforme y estable, ideal para operación continua.</p>\n<h3 data-section-id=\"tcr4w1\" data-start=\"820\" data-end=\"855\">🔧 Características principales:</h3>\n<ul data-start=\"856\" data-end=\"1059\">\n<li data-section-id=\"1p7abh1\" data-start=\"856\" data-end=\"872\">Modelo: D1PB</li>\n<li data-section-id=\"1yfvy0k\" data-start=\"873\" data-end=\"895\">Alimentación: 110V</li>\n<li data-section-id=\"aijou9\" data-start=\"896\" data-end=\"916\">Frecuencia: 60Hz</li>\n<li data-section-id=\"6v55er\" data-start=\"917\" data-end=\"937\">Potencia: 0.8 kW</li>\n<li data-section-id=\"2z840x\" data-start=\"938\" data-end=\"975\">Rango de temperatura: 30°C a 85°C</li>\n<li data-section-id=\"ldfj6m\" data-start=\"976\" data-end=\"991\">Peso: 18 kg</li>\n<li data-section-id=\"1sx2ahp\" data-start=\"992\" data-end=\"1024\">Dimensiones: 45 × 45 × 52 cm</li>\n<li data-section-id=\"17dnwjs\" data-start=\"1025\" data-end=\"1059\">Diseño compacto para mostrador</li>\n</ul>\n<h3 data-section-id=\"13uagx5\" data-start=\"1061\" data-end=\"1085\">🚀 Beneficios clave:</h3>\n<ul data-start=\"1086\" data-end=\"1310\">\n<li data-section-id=\"1ee5g1w\" data-start=\"1086\" data-end=\"1139\">Capacidad equilibrada: ideal para flujo medio</li>\n<li data-section-id=\"1wmufca\" data-start=\"1140\" data-end=\"1187\">Mantiene alimentos listos para la venta</li>\n<li data-section-id=\"15ikueq\" data-start=\"1188\" data-end=\"1229\">Mejora la exhibición del producto</li>\n<li data-section-id=\"1ymnlkf\" data-start=\"1230\" data-end=\"1272\">Calentamiento uniforme y constante</li>\n<li data-section-id=\"1ugdjar\" data-start=\"1273\" data-end=\"1310\">Optimiza espacio en mostrador</li>\n</ul>\n",
+    "images": [
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-d1pb/0.png",
+        "alt": "Vitrina de calefacción modelo D1PB de Fuller Machinery con vidrio curvado, iluminación interna y estructura en acero inoxidable para exhibición de alimentos calientes."
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-d1pb/1.png",
+        "alt": "Vitrina de calefacción modelo D1PB de Fuller Machinery con vidrio curvado, iluminación interna y estructura en acero inoxidable para exhibición de alimentos calientes."
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-d1pb/2.png",
+        "alt": "Vitrina de calefacción modelo D1PB de Fuller Machinery con vidrio curvado, iluminación interna y estructura en acero inoxidable para exhibición de alimentos calientes."
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-d1pb/3.png",
+        "alt": "Vitrina de calefacción modelo D1PB de Fuller Machinery con vidrio curvado, iluminación interna y estructura en acero inoxidable para exhibición de alimentos calientes."
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-d1pb/4.png",
+        "alt": "Vitrina de calefacción modelo D1PB de Fuller Machinery con vidrio curvado, iluminación interna y estructura en acero inoxidable para exhibición de alimentos calientes."
+      }
+    ],
+    "wooUrl": "https://tienda.fullermachinery.com/index.php/producto/vitrina-de-calefaccion-ref-d1pb/"
+  },
+  {
+    "wooId": 17774,
+    "name": "VVITRINA DE CALEFACCIÓN D1P",
+    "slug": "vitrina-de-calefaccion-ref-d1p",
+    "price": 899900,
+    "regularPrice": 899900,
+    "stockStatus": "instock",
+    "currency": "COP",
+    "categories": [
+      "preparacion-de-alimentos",
+      "vitrinas-de-calefaccion"
+    ],
+    "specs": [
+      {
+        "label": "DImensiones",
+        "value": "35 cm (largo) x 42 cm (ancho) x 52 cm (alto)"
+      },
+      {
+        "label": "Voltaje",
+        "value": "110V"
+      },
+      {
+        "label": "Niveles",
+        "value": "3"
+      }
+    ],
+    "shortDescriptionHtml": "<p>Vitrina caliente compacta y liviana con temperatura de 30°C a 85°C. Ideal para mantener alimentos calientes y visibles en mostrador.</p>\n",
+    "descriptionHtml": "<p data-start=\"123\" data-end=\"297\">La vitrina de calefacción <strong data-start=\"149\" data-end=\"156\">D1P</strong> es una solución práctica para negocios que necesitan mantener alimentos calientes, visibles y listos para la venta en espacios de mostrador.</p>\n<p data-start=\"299\" data-end=\"504\">Con un rango de temperatura de <strong data-start=\"330\" data-end=\"345\">30°C a 85°C</strong>, permite conservar productos como empanadas, panadería, fritos y snacks en condiciones óptimas, manteniendo su textura y presentación durante toda la jornada.</p>\n<p data-start=\"506\" data-end=\"738\">Su diseño compacto y liviano facilita su ubicación en puntos de venta con espacio limitado, sin sacrificar funcionalidad ni visibilidad del producto. Es ideal para cafeterías, tiendas y negocios de comida rápida con flujo constante.</p>\n<p data-start=\"740\" data-end=\"859\">Gracias a su potencia de <strong data-start=\"765\" data-end=\"775\">0.8 kW</strong>, proporciona un calentamiento uniforme y estable, adecuado para operación continua.</p>\n<h3 data-section-id=\"tcr4w1\" data-start=\"861\" data-end=\"896\">🔧 Características principales:</h3>\n<ul data-start=\"897\" data-end=\"1101\">\n<li data-section-id=\"1hihiif\" data-start=\"897\" data-end=\"912\">Modelo: D1P</li>\n<li data-section-id=\"1yfvy0k\" data-start=\"913\" data-end=\"935\">Alimentación: 110V</li>\n<li data-section-id=\"aijou9\" data-start=\"936\" data-end=\"956\">Frecuencia: 60Hz</li>\n<li data-section-id=\"6v55er\" data-start=\"957\" data-end=\"977\">Potencia: 0.8 kW</li>\n<li data-section-id=\"2z840x\" data-start=\"978\" data-end=\"1015\">Rango de temperatura: 30°C a 85°C</li>\n<li data-section-id=\"t4opjm\" data-start=\"1016\" data-end=\"1031\">Peso: 14 kg</li>\n<li data-section-id=\"1bhzw83\" data-start=\"1032\" data-end=\"1066\">Dimensiones: 37.5 × 45 × 52 cm</li>\n<li data-section-id=\"17dnwjs\" data-start=\"1067\" data-end=\"1101\">Diseño compacto para mostrador</li>\n</ul>\n<h3 data-section-id=\"13uagx5\" data-start=\"1103\" data-end=\"1127\">🚀 Beneficios clave:</h3>\n<ul data-start=\"1128\" data-end=\"1331\">\n<li data-section-id=\"t64iaz\" data-start=\"1128\" data-end=\"1160\">Ligera y fácil de ubicar</li>\n<li data-section-id=\"1wmufca\" data-start=\"1161\" data-end=\"1208\">Mantiene alimentos listos para la venta</li>\n<li data-section-id=\"15ikueq\" data-start=\"1209\" data-end=\"1250\">Mejora la exhibición del producto</li>\n<li data-section-id=\"1ymnlkf\" data-start=\"1251\" data-end=\"1293\">Calentamiento uniforme y constante</li>\n<li data-section-id=\"t72s2y\" data-start=\"1294\" data-end=\"1331\">Ideal para espacios reducidos</li>\n</ul>\n",
+    "images": [
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-d1p/0.png",
+        "alt": "Vitrina de calefacción DP1 en acero inoxidable con vidrio templado y 3 bandejas tipo rejilla, utilizada para exhibir y conservar alimentos calientes en restaurantes, panaderías y cafeterías."
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-d1p/1.png",
+        "alt": "Vitrina de calefacción DP1 en acero inoxidable con vidrio templado y 3 bandejas tipo rejilla, utilizada para exhibir y conservar alimentos calientes en restaurantes, panaderías y cafeterías."
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-d1p/2.png",
+        "alt": "Vitrina de calefacción DP1 en acero inoxidable con vidrio templado y 3 bandejas tipo rejilla, utilizada para exhibir y conservar alimentos calientes en restaurantes, panaderías y cafeterías."
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-d1p/3.png",
+        "alt": "Vitrina de calefacción DP1 en acero inoxidable con vidrio templado y 3 bandejas tipo rejilla, utilizada para exhibir y conservar alimentos calientes en restaurantes, panaderías y cafeterías."
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-d1p/4.png",
+        "alt": "Vitrina de calefacción DP1 en acero inoxidable con vidrio templado y 3 bandejas tipo rejilla, utilizada para exhibir y conservar alimentos calientes en restaurantes, panaderías y cafeterías."
+      }
+    ],
+    "wooUrl": "https://tienda.fullermachinery.com/index.php/producto/vitrina-de-calefaccion-ref-d1p/"
+  },
+  {
+    "wooId": 17767,
+    "name": "VITRINA DE CALEFACCIÓN REF 702",
+    "slug": "vitrina-calefactora-vidrio-curvado-ref-702",
+    "price": 1699900,
+    "regularPrice": 1699900,
+    "stockStatus": "instock",
+    "currency": "COP",
+    "categories": [
+      "preparacion-de-alimentos",
+      "vitrinas-de-calefaccion"
+    ],
+    "specs": [],
+    "shortDescriptionHtml": "<p data-start=\"1579\" data-end=\"1701\">Vitrina caliente de alta capacidad con potencia de 1.2 kW y temperatura de 30°C a 85°C. Ideal para negocios de alto flujo.</p>\n",
+    "descriptionHtml": "<p data-start=\"121\" data-end=\"303\">La vitrina de calefacción <strong data-start=\"147\" data-end=\"154\">702</strong> está diseñada para negocios que requieren mantener un mayor volumen de alimentos calientes, visibles y listos para la venta durante toda la jornada.</p>\n<p data-start=\"305\" data-end=\"493\">Con un rango de temperatura de <strong data-start=\"336\" data-end=\"351\">30°C a 85°C</strong>, permite conservar productos como empanadas, panadería, fritos y snacks en condiciones óptimas, manteniendo su textura, sabor y presentación.</p>\n<p data-start=\"495\" data-end=\"720\">Gracias a su diseño amplio, ofrece <strong data-start=\"530\" data-end=\"563\">mayor capacidad de exhibición</strong>, facilitando la organización de diferentes productos y mejorando la visibilidad frente al cliente. Esto impulsa la compra por impulso y aumenta la rotación.</p>\n<p data-start=\"722\" data-end=\"900\">Su potencia de <strong data-start=\"737\" data-end=\"747\">1.2 kW</strong> proporciona un calentamiento más rápido y uniforme, ideal para negocios con alta demanda como cafeterías, tiendas, panaderías y puntos de comida rápida.</p>\n<h3 data-section-id=\"tcr4w1\" data-start=\"902\" data-end=\"937\">🔧 Características principales:</h3>\n<ul data-start=\"938\" data-end=\"1146\">\n<li data-section-id=\"1htnohz\" data-start=\"938\" data-end=\"953\">Modelo: 702</li>\n<li data-section-id=\"1yfvy0k\" data-start=\"954\" data-end=\"976\">Alimentación: 110V</li>\n<li data-section-id=\"aijou9\" data-start=\"977\" data-end=\"997\">Frecuencia: 60Hz</li>\n<li data-section-id=\"1maulxk\" data-start=\"998\" data-end=\"1018\">Potencia: 1.2 kW</li>\n<li data-section-id=\"2z840x\" data-start=\"1019\" data-end=\"1056\">Rango de temperatura: 30°C a 85°C</li>\n<li data-section-id=\"dgxg97\" data-start=\"1057\" data-end=\"1074\">Peso: 25.5 kg</li>\n<li data-section-id=\"nfqmqf\" data-start=\"1075\" data-end=\"1107\">Dimensiones: 66 × 45 × 59 cm</li>\n<li data-section-id=\"mnrefd\" data-start=\"1108\" data-end=\"1146\">Diseño amplio para mayor capacidad</li>\n</ul>\n<h3 data-section-id=\"13uagx5\" data-start=\"1148\" data-end=\"1172\">🚀 Beneficios clave:</h3>\n<ul data-start=\"1173\" data-end=\"1419\">\n<li data-section-id=\"16xcedp\" data-start=\"1173\" data-end=\"1230\">Alta capacidad: ideal para negocios de alto flujo</li>\n<li data-section-id=\"zgfuk5\" data-start=\"1231\" data-end=\"1270\">Calentamiento rápido y uniforme</li>\n<li data-section-id=\"15ikueq\" data-start=\"1271\" data-end=\"1312\">Mejora la exhibición del producto</li>\n<li data-section-id=\"1l6v3xt\" data-start=\"1313\" data-end=\"1367\">Mantiene alimentos listos para venta inmediata</li>\n<li data-section-id=\"1ntvjus\" data-start=\"1368\" data-end=\"1419\">Incrementa la rotación y ventas por impulso</li>\n</ul>\n",
+    "images": [
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-calefactora-vidrio-curvado-ref-702/0.png",
+        "alt": "Vitrina de calefacción Ref 702 de acero inoxidable con vidrio curvado, ideal para mantener alimentos calientes como pizza, pollo y hamburguesas en negocios de comida"
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-calefactora-vidrio-curvado-ref-702/1.png",
+        "alt": "Vitrina de calefacción Ref 702 de acero inoxidable con vidrio curvado, ideal para mantener alimentos calientes como pizza, pollo y hamburguesas en negocios de comida"
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-calefactora-vidrio-curvado-ref-702/2.png",
+        "alt": "Vitrina de calefacción Ref 702 de acero inoxidable con vidrio curvado, ideal para mantener alimentos calientes como pizza, pollo y hamburguesas en negocios de comida"
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-calefactora-vidrio-curvado-ref-702/3.png",
+        "alt": "Vitrina de calefacción Ref 702 de acero inoxidable con vidrio curvado, ideal para mantener alimentos calientes como pizza, pollo y hamburguesas en negocios de comida"
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-calefactora-vidrio-curvado-ref-702/4.png",
+        "alt": "Vitrina de calefacción Ref 702 de acero inoxidable con vidrio curvado, ideal para mantener alimentos calientes como pizza, pollo y hamburguesas en negocios de comida"
+      }
+    ],
+    "wooUrl": "https://tienda.fullermachinery.com/index.php/producto/vitrina-calefactora-vidrio-curvado-ref-702/"
+  },
+  {
+    "wooId": 17759,
+    "name": "VITRINA DE CALEFACCIÓN 701",
+    "slug": "vitrina-calefactora-vidrio-curvo-ref-701",
+    "price": 1199900,
+    "regularPrice": 1199900,
+    "stockStatus": "instock",
+    "currency": "COP",
+    "categories": [
+      "preparacion-de-alimentos",
+      "vitrinas-de-calefaccion"
+    ],
+    "specs": [
+      {
+        "label": "Dimensiones",
+        "value": "45.7 cm de largo x 35.5 cm de ancho x 58.4 cm de alto."
+      },
+      {
+        "label": "Niveles",
+        "value": "3"
+      },
+      {
+        "label": "Peso",
+        "value": "7.2 kilos"
+      }
+    ],
+    "shortDescriptionHtml": "<p>Vitrina caliente de capacidad media con temperatura de 30°C a 85°C y potencia de 1.0 kW. Ideal para mantener alimentos calientes y visibles.</p>\n",
+    "descriptionHtml": "<p data-start=\"99\" data-end=\"274\">La vitrina de calefacción <strong data-start=\"125\" data-end=\"132\">701</strong> es una solución ideal para negocios que necesitan mantener alimentos calientes, visibles y listos para la venta sin ocupar demasiado espacio.</p>\n<p data-start=\"276\" data-end=\"481\">Con un rango de temperatura de <strong data-start=\"307\" data-end=\"322\">30°C a 85°C</strong>, permite conservar productos como empanadas, panadería, fritos y snacks en condiciones óptimas, manteniendo su calidad y presentación durante toda la jornada.</p>\n<p data-start=\"483\" data-end=\"656\">Su diseño equilibrado ofrece una <strong data-start=\"516\" data-end=\"535\">capacidad media</strong>, perfecta para negocios con flujo constante que requieren exhibición organizada sin necesidad de equipos de gran tamaño.</p>\n<p data-start=\"658\" data-end=\"835\">Gracias a su potencia de <strong data-start=\"683\" data-end=\"693\">1.0 kW</strong>, proporciona un calentamiento uniforme y estable, ideal para operación continua en cafeterías, tiendas, panaderías y puntos de comida rápida.</p>\n<h3 data-section-id=\"tcr4w1\" data-start=\"837\" data-end=\"872\">🔧 Características principales:</h3>\n<ul data-start=\"873\" data-end=\"1078\">\n<li data-section-id=\"1htnnlw\" data-start=\"873\" data-end=\"888\">Modelo: 701</li>\n<li data-section-id=\"1yfvy0k\" data-start=\"889\" data-end=\"911\">Alimentación: 110V</li>\n<li data-section-id=\"aijou9\" data-start=\"912\" data-end=\"932\">Frecuencia: 60Hz</li>\n<li data-section-id=\"1nlg822\" data-start=\"933\" data-end=\"953\">Potencia: 1.0 kW</li>\n<li data-section-id=\"2z840x\" data-start=\"954\" data-end=\"991\">Rango de temperatura: 30°C a 85°C</li>\n<li data-section-id=\"1t0jcvh\" data-start=\"992\" data-end=\"1009\">Peso: 17.2 kg</li>\n<li data-section-id=\"cn4apf\" data-start=\"1010\" data-end=\"1042\">Dimensiones: 37 × 45 × 59 cm</li>\n<li data-section-id=\"dkukm3\" data-start=\"1043\" data-end=\"1078\">Diseño funcional para mostrador</li>\n</ul>\n<h3 data-section-id=\"13uagx5\" data-start=\"1080\" data-end=\"1104\">🚀 Beneficios clave:</h3>\n<ul data-start=\"1105\" data-end=\"1317\">\n<li data-section-id=\"1fsf6kn\" data-start=\"1105\" data-end=\"1145\">Capacidad ideal para flujo medio</li>\n<li data-section-id=\"1ymnlkf\" data-start=\"1146\" data-end=\"1188\">Calentamiento uniforme y constante</li>\n<li data-section-id=\"4bb7zs\" data-start=\"1189\" data-end=\"1231\">Mejora la visibilidad del producto</li>\n<li data-section-id=\"1wmufca\" data-start=\"1232\" data-end=\"1279\">Mantiene alimentos listos para la venta</li>\n<li data-section-id=\"1ugdjar\" data-start=\"1280\" data-end=\"1317\">Optimiza espacio en mostrador</li>\n</ul>\n",
+    "images": [
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-calefactora-vidrio-curvo-ref-701/0.png",
+        "alt": "Vitrina de calefacción Ref. 701 en acero inoxidable y vidrio templado, con puerta abatible y estantes de acero para exhibición de alimentos calientes."
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-calefactora-vidrio-curvo-ref-701/1.png",
+        "alt": "Vitrina de calefacción Ref. 701 en acero inoxidable y vidrio templado, con puerta abatible y estantes de acero para exhibición de alimentos calientes."
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-calefactora-vidrio-curvo-ref-701/2.png",
+        "alt": "Vitrina de calefacción Ref. 701 en acero inoxidable y vidrio templado, con puerta abatible y estantes de acero para exhibición de alimentos calientes."
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-calefactora-vidrio-curvo-ref-701/3.png",
+        "alt": "Vitrina de calefacción Ref. 701 en acero inoxidable y vidrio templado, con puerta abatible y estantes de acero para exhibición de alimentos calientes."
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-calefactora-vidrio-curvo-ref-701/4.png",
+        "alt": "Vitrina de calefacción Ref. 701 en acero inoxidable y vidrio templado, con puerta abatible y estantes de acero para exhibición de alimentos calientes."
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-calefactora-vidrio-curvo-ref-701/5.png",
+        "alt": "Vitrina de calefacción Ref. 701 en acero inoxidable y vidrio templado, con puerta abatible y estantes de acero para exhibición de alimentos calientes."
+      }
+    ],
+    "wooUrl": "https://tienda.fullermachinery.com/index.php/producto/vitrina-calefactora-vidrio-curvo-ref-701/"
+  },
+  {
+    "wooId": 17752,
+    "name": "VITRINA DE CALEFACCIÓN 602",
+    "slug": "vitrina-calefactora-acero-negra-ref-602",
+    "price": 1899900,
+    "regularPrice": 1899900,
+    "stockStatus": "instock",
+    "currency": "COP",
+    "categories": [
+      "preparacion-de-alimentos",
+      "vitrinas-de-calefaccion"
+    ],
+    "specs": [
+      {
+        "label": "DImensiones",
+        "value": "Frente: 40 cm, Fondo: 49 cm, Alto: 64 cm."
+      },
+      {
+        "label": "Rango de temperatura",
+        "value": "30°C - 85°C"
+      },
+      {
+        "label": "control de humedad",
+        "value": "Mantiene la textura y frescura de los productos."
+      },
+      {
+        "label": "Material resistente",
+        "value": "Acero inoxidable con acabado negro"
+      }
+    ],
+    "shortDescriptionHtml": "<p>Vitrina caliente de gran capacidad con potencia de 1.5 kW y temperatura de 30°C a 85°C. Ideal para negocios de alto volumen.</p>\n",
+    "descriptionHtml": "<p data-start=\"209\" data-end=\"406\">La vitrina de calefacción <strong data-start=\"235\" data-end=\"242\">602</strong> está diseñada para negocios que manejan alto volumen de producto y necesitan mantener alimentos calientes, visibles y listos para la venta durante toda la jornada.</p>\n<p data-start=\"408\" data-end=\"588\">Con un amplio rango de temperatura de <strong data-start=\"446\" data-end=\"461\">30°C a 85°C</strong>, permite conservar empanadas, fritos, panadería y snacks en condiciones óptimas, manteniendo su textura, sabor y presentación.</p>\n<p data-start=\"590\" data-end=\"807\">Su diseño de gran formato ofrece <strong data-start=\"623\" data-end=\"655\">alta capacidad de exhibición</strong>, ideal para organizar múltiples productos y maximizar la visibilidad en mostrador. Esto se traduce directamente en mayor rotación y ventas por impulso.</p>\n<p data-start=\"809\" data-end=\"934\">Gracias a su potencia de <strong data-start=\"834\" data-end=\"844\">1.5 kW</strong>, garantiza un calentamiento rápido, uniforme y estable, incluso en horas de alta demanda.</p>\n<h3 data-section-id=\"tcr4w1\" data-start=\"936\" data-end=\"971\">🔧 Características principales:</h3>\n<ul data-start=\"972\" data-end=\"1188\">\n<li data-section-id=\"1hublqe\" data-start=\"972\" data-end=\"987\">Modelo: 602</li>\n<li data-section-id=\"1yfvy0k\" data-start=\"988\" data-end=\"1010\">Alimentación: 110V</li>\n<li data-section-id=\"aijou9\" data-start=\"1011\" data-end=\"1031\">Frecuencia: 60Hz</li>\n<li data-section-id=\"1mwmab3\" data-start=\"1032\" data-end=\"1052\">Potencia: 1.5 kW</li>\n<li data-section-id=\"2z840x\" data-start=\"1053\" data-end=\"1090\">Rango de temperatura: 30°C a 85°C</li>\n<li data-section-id=\"1drjvx8\" data-start=\"1091\" data-end=\"1106\">Peso: 38 kg</li>\n<li data-section-id=\"e3ys93\" data-start=\"1107\" data-end=\"1141\">Dimensiones: 90 × 48.5 × 65 cm</li>\n<li data-section-id=\"ivx7ek\" data-start=\"1142\" data-end=\"1188\">Diseño de gran capacidad para alto volumen</li>\n</ul>\n<h3 data-section-id=\"13uagx5\" data-start=\"1190\" data-end=\"1214\">🚀 Beneficios clave:</h3>\n<ul data-start=\"1215\" data-end=\"1455\">\n<li data-section-id=\"nytpyn\" data-start=\"1215\" data-end=\"1272\">Máxima capacidad: ideal para alto flujo y volumen</li>\n<li data-section-id=\"zgfuk5\" data-start=\"1273\" data-end=\"1312\">Calentamiento rápido y uniforme</li>\n<li data-section-id=\"ihkpcb\" data-start=\"1313\" data-end=\"1351\">Exhibición amplia y organizada</li>\n<li data-section-id=\"1l6v3xt\" data-start=\"1352\" data-end=\"1406\">Mantiene alimentos listos para venta inmediata</li>\n<li data-section-id=\"1gs3vk3\" data-start=\"1407\" data-end=\"1455\">Aumenta la rotación y ventas por impulso</li>\n</ul>\n",
+    "images": [
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-calefactora-acero-negra-ref-602/0.png",
+        "alt": "Vitrina de calefacción Ref. 602 de acero inoxidable con puertas de vidrio templado para exhibición y conservación de alimentos calientes como pollo, pizza y pan"
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-calefactora-acero-negra-ref-602/1.png",
+        "alt": "Vitrina de calefacción Ref. 602 de acero inoxidable con puertas de vidrio templado para exhibición y conservación de alimentos calientes como pollo, pizza y pan"
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-calefactora-acero-negra-ref-602/2.png",
+        "alt": "Vitrina de calefacción Ref. 602 de acero inoxidable con puertas de vidrio templado para exhibición y conservación de alimentos calientes como pollo, pizza y pan"
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-calefactora-acero-negra-ref-602/3.png",
+        "alt": "Vitrina de calefacción Ref. 602 de acero inoxidable con puertas de vidrio templado para exhibición y conservación de alimentos calientes como pollo, pizza y pan"
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-calefactora-acero-negra-ref-602/4.png",
+        "alt": "Vitrina de calefacción Ref. 602 de acero inoxidable con puertas de vidrio templado para exhibición y conservación de alimentos calientes como pollo, pizza y pan"
+      }
+    ],
+    "wooUrl": "https://tienda.fullermachinery.com/index.php/producto/vitrina-calefactora-acero-negra-ref-602/"
+  },
+  {
+    "wooId": 17743,
+    "name": "VITRINA DE CALEFACCIÓN PIZZA 18P",
+    "slug": "vitrina-de-calefaccion-para-pizza-18-ref-18p",
+    "price": 2425900,
+    "regularPrice": 2425900,
+    "stockStatus": "instock",
+    "currency": "COP",
+    "categories": [
+      "sin-categorizar"
+    ],
+    "specs": [
+      {
+        "label": "Material",
+        "value": "Acero inoxidable"
+      },
+      {
+        "label": "Niveles",
+        "value": "4"
+      },
+      {
+        "label": "Capacidad",
+        "value": "18\""
+      }
+    ],
+    "shortDescriptionHtml": "<p data-start=\"1595\" data-end=\"1728\">Vitrina caliente para pizza de hasta 18” con temperatura de 30°C a 85°C. Ideal para mantener pizzas calientes y listas para la venta.</p>\n",
+    "descriptionHtml": "<p data-start=\"107\" data-end=\"294\">La vitrina de calefacción para pizza <strong data-start=\"144\" data-end=\"176\">Vitrina Calefacción Pizza 18</strong> está diseñada para negocios que necesitan mantener pizzas calientes, visibles y listas para la venta en todo momento.</p>\n<p data-start=\"296\" data-end=\"560\">Compatible con pizzas de hasta <strong data-start=\"327\" data-end=\"342\">18 pulgadas</strong>, es ideal para pizzerías, cafeterías y puntos de comida rápida que manejan producto listo para despacho inmediato. Mantiene una temperatura constante entre <strong data-start=\"499\" data-end=\"514\">30°C y 85°C</strong>, conservando el calor sin afectar la textura.</p>\n<p data-start=\"562\" data-end=\"823\">Su diseño tipo mostrador permite exhibir el producto de forma atractiva, impulsando la compra por impulso y mejorando la rotación. Además, su consumo eficiente de <strong data-start=\"725\" data-end=\"735\">0.5 kW</strong> la hace perfecta para uso continuo sin elevar significativamente los costos operativos.</p>\n<h3 data-section-id=\"tcr4w1\" data-start=\"825\" data-end=\"860\">🔧 Características principales:</h3>\n<ul data-start=\"861\" data-end=\"1095\">\n<li data-section-id=\"1kx3qyg\" data-start=\"861\" data-end=\"897\">Capacidad: para pizzas hasta 18”</li>\n<li data-section-id=\"1yfvy0k\" data-start=\"898\" data-end=\"920\">Alimentación: 110V</li>\n<li data-section-id=\"aijou9\" data-start=\"921\" data-end=\"941\">Frecuencia: 60Hz</li>\n<li data-section-id=\"1w8mx8u\" data-start=\"942\" data-end=\"962\">Potencia: 0.5 kW</li>\n<li data-section-id=\"2z840x\" data-start=\"963\" data-end=\"1000\">Rango de temperatura: 30°C a 85°C</li>\n<li data-section-id=\"1x2whvz\" data-start=\"1001\" data-end=\"1018\">Peso: 26.2 kg</li>\n<li data-section-id=\"1ik75ff\" data-start=\"1019\" data-end=\"1055\">Dimensiones: 55.5 × 53.5 × 61 cm</li>\n<li data-section-id=\"14km20b\" data-start=\"1056\" data-end=\"1095\">Diseño para exhibición en mostrador</li>\n</ul>\n<h3 data-section-id=\"13uagx5\" data-start=\"1097\" data-end=\"1121\">🚀 Beneficios clave:</h3>\n<ul data-start=\"1122\" data-end=\"1442\">\n<li data-section-id=\"1f1jaqb\" data-start=\"1122\" data-end=\"1204\"><strong data-start=\"1124\" data-end=\"1151\">Ideal para pizza lista:</strong> mantiene el producto caliente para venta inmediata</li>\n<li data-section-id=\"83nntf\" data-start=\"1205\" data-end=\"1262\"><strong data-start=\"1207\" data-end=\"1232\">Mejora la exhibición:</strong> impulsa compras por impulso</li>\n<li data-section-id=\"190m8hx\" data-start=\"1263\" data-end=\"1311\"><strong data-start=\"1265\" data-end=\"1287\">Consumo eficiente:</strong> bajo gasto energético</li>\n<li data-section-id=\"1oz1xju\" data-start=\"1312\" data-end=\"1377\"><strong data-start=\"1314\" data-end=\"1337\">Capacidad adecuada:</strong> diseñada para formato de pizza grande</li>\n<li data-section-id=\"1f1g3xd\" data-start=\"1378\" data-end=\"1442\"><strong data-start=\"1380\" data-end=\"1403\">Operación continua:</strong> perfecta para negocios de alto flujo</li>\n</ul>\n",
+    "images": [
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-para-pizza-18-ref-18p/0.png",
+        "alt": "Vitrina calefactora para pizza de 18 pulgadas con 4 niveles, sistema de calentamiento con vapor y estructura de acero inoxidable y vidrio templado."
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-para-pizza-18-ref-18p/1.png",
+        "alt": "Vitrina calefactora para pizza de 18 pulgadas con 4 niveles, sistema de calentamiento con vapor y estructura de acero inoxidable y vidrio templado."
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-para-pizza-18-ref-18p/2.png",
+        "alt": "Vitrina calefactora para pizza de 18 pulgadas con 4 niveles, sistema de calentamiento con vapor y estructura de acero inoxidable y vidrio templado."
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-para-pizza-18-ref-18p/3.png",
+        "alt": "Vitrina calefactora para pizza de 18 pulgadas con 4 niveles, sistema de calentamiento con vapor y estructura de acero inoxidable y vidrio templado."
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-para-pizza-18-ref-18p/4.png",
+        "alt": "Vitrina calefactora para pizza de 18 pulgadas con 4 niveles, sistema de calentamiento con vapor y estructura de acero inoxidable y vidrio templado."
+      }
+    ],
+    "wooUrl": "https://tienda.fullermachinery.com/index.php/producto/vitrina-de-calefaccion-para-pizza-18-ref-18p/"
+  },
+  {
+    "wooId": 17736,
+    "name": "VITRINA DE CALEFACCIÓN PIZZA 12",
+    "slug": "vitrina-calefactora-de-pizza-de-12-ref-12p",
+    "price": 1998900,
+    "regularPrice": 1998900,
+    "stockStatus": "instock",
+    "currency": "COP",
+    "categories": [
+      "preparacion-de-alimentos",
+      "vitrinas-de-calefaccion"
+    ],
+    "specs": [
+      {
+        "label": "Material",
+        "value": "Acero inoxidable"
+      },
+      {
+        "label": "Niveles",
+        "value": "4"
+      }
+    ],
+    "shortDescriptionHtml": "<p>Vitrina caliente compacta para pizza de 12” con temperatura de 30°C a 85°C. Ideal para mantener pizzas calientes y listas para la venta.</p>\n",
+    "descriptionHtml": "<p data-start=\"128\" data-end=\"328\">La vitrina de calefacción para pizza <strong data-start=\"165\" data-end=\"197\">Vitrina Calefacción Pizza 12</strong> es la solución ideal para negocios que necesitan mantener pizzas calientes, visibles y listas para la venta en espacios reducidos.</p>\n<p data-start=\"330\" data-end=\"526\">Diseñada para pizzas de hasta <strong data-start=\"360\" data-end=\"375\">12 pulgadas</strong>, permite conservar el producto en un rango de <strong data-start=\"422\" data-end=\"437\">30°C a 85°C</strong>, manteniendo su temperatura adecuada para consumo inmediato sin afectar su presentación.</p>\n<p data-start=\"528\" data-end=\"717\">Su formato compacto la hace perfecta para mostradores, cafeterías, tiendas y puntos de comida rápida donde el espacio es limitado pero la exhibición sigue siendo clave para impulsar ventas.</p>\n<p data-start=\"719\" data-end=\"835\">Gracias a su consumo eficiente de <strong data-start=\"753\" data-end=\"763\">0.5 kW</strong>, es ideal para operación continua sin generar altos costos energéticos.</p>\n<h3 data-section-id=\"tcr4w1\" data-start=\"837\" data-end=\"872\">🔧 Características principales:</h3>\n<ul data-start=\"873\" data-end=\"1098\">\n<li data-section-id=\"1kxb2sy\" data-start=\"873\" data-end=\"909\">Capacidad: para pizzas hasta 12”</li>\n<li data-section-id=\"1yfvy0k\" data-start=\"910\" data-end=\"932\">Alimentación: 110V</li>\n<li data-section-id=\"aijou9\" data-start=\"933\" data-end=\"953\">Frecuencia: 60Hz</li>\n<li data-section-id=\"1w8mx8u\" data-start=\"954\" data-end=\"974\">Potencia: 0.5 kW</li>\n<li data-section-id=\"2z840x\" data-start=\"975\" data-end=\"1012\">Rango de temperatura: 30°C a 85°C</li>\n<li data-section-id=\"4rwq77\" data-start=\"1013\" data-end=\"1030\">Peso: 18.3 kg</li>\n<li data-section-id=\"1slvbw2\" data-start=\"1031\" data-end=\"1063\">Dimensiones: 40 × 38 × 61 cm</li>\n<li data-section-id=\"17dnwjs\" data-start=\"1064\" data-end=\"1098\">Diseño compacto para mostrador</li>\n</ul>\n<h3 data-section-id=\"13uagx5\" data-start=\"1100\" data-end=\"1124\">🚀 Beneficios clave:</h3>\n<ul data-start=\"1125\" data-end=\"1334\">\n<li data-section-id=\"t72s2y\" data-start=\"1125\" data-end=\"1162\">Ideal para espacios reducidos</li>\n<li data-section-id=\"g1djj2\" data-start=\"1163\" data-end=\"1214\">Mantiene pizzas listas para venta inmediata</li>\n<li data-section-id=\"15ikueq\" data-start=\"1215\" data-end=\"1256\">Mejora la exhibición del producto</li>\n<li data-section-id=\"jwcgwb\" data-start=\"1257\" data-end=\"1288\">Bajo consumo energético</li>\n<li data-section-id=\"vq2rsw\" data-start=\"1289\" data-end=\"1334\">Perfecta para puntos de venta rápidos</li>\n</ul>\n",
+    "images": [
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-calefactora-de-pizza-de-12-ref-12p/0.png",
+        "alt": "Vitrina calefactora para pizza de 12 pulgadas con 4 niveles, sistema de calentamiento con vapor y estructura de acero inoxidable y vidrio templado."
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-calefactora-de-pizza-de-12-ref-12p/1.png",
+        "alt": "Vitrina calefactora para pizza de 12 pulgadas con 4 niveles, sistema de calentamiento con vapor y estructura de acero inoxidable y vidrio templado."
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-calefactora-de-pizza-de-12-ref-12p/2.png",
+        "alt": "Vitrina calefactora para pizza de 12 pulgadas con 4 niveles, sistema de calentamiento con vapor y estructura de acero inoxidable y vidrio templado."
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-calefactora-de-pizza-de-12-ref-12p/3.png",
+        "alt": "Vitrina calefactora para pizza de 12 pulgadas con 4 niveles, sistema de calentamiento con vapor y estructura de acero inoxidable y vidrio templado."
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-calefactora-de-pizza-de-12-ref-12p/4.png",
+        "alt": "Vitrina calefactora para pizza de 12 pulgadas con 4 niveles, sistema de calentamiento con vapor y estructura de acero inoxidable y vidrio templado."
+      }
+    ],
+    "wooUrl": "https://tienda.fullermachinery.com/index.php/producto/vitrina-calefactora-de-pizza-de-12-ref-12p/"
+  },
+  {
+    "wooId": 16859,
+    "name": "VITRINA DE CALEFACCIÓN PARA ALIMENTOS 2 PUERTAS",
+    "slug": "vitrina-de-calefaccion-hvw-2-puerta",
+    "price": 1249900,
+    "regularPrice": 1249900,
+    "stockStatus": "instock",
+    "currency": "COP",
+    "categories": [
+      "preparacion-de-alimentos",
+      "vitrinas-de-calefaccion"
+    ],
+    "specs": [
+      {
+        "label": "Material",
+        "value": "Metal"
+      },
+      {
+        "label": "Capacidad",
+        "value": "3 Metros de largo"
+      },
+      {
+        "label": "Potencia",
+        "value": "1 kW"
+      },
+      {
+        "label": "Alimentación",
+        "value": "110 V"
+      },
+      {
+        "label": "Garantía",
+        "value": "6 meses"
+      },
+      {
+        "label": "Incluye",
+        "value": "Manual"
+      },
+      {
+        "label": "Medidas",
+        "value": "Alto 90 cm - 1.2 metros Largo - 60 cm ancho"
+      }
+    ],
+    "shortDescriptionHtml": "<p data-start=\"1978\" data-end=\"2125\">Vitrina caliente de 2 puertas con 3 bandejas y temperatura hasta 85°C. Ideal para mantener alimentos calientes, organizados y listos para la venta.</p>\n",
+    "descriptionHtml": "<p data-start=\"115\" data-end=\"362\">La vitrina de calefacción para alimentos de <strong data-start=\"159\" data-end=\"189\">Vitrina Caliente 2 Puertas</strong> es una solución ideal para negocios que necesitan mayor capacidad de exhibición y mantener sus productos calientes, visibles y listos para la venta durante toda la jornada.</p>\n<p data-start=\"364\" data-end=\"695\">Gracias a su diseño de <strong data-start=\"387\" data-end=\"403\">doble puerta</strong>, permite un acceso más práctico y una mejor organización interna, facilitando la reposición de productos sin afectar la exhibición. Su rango de temperatura de <strong data-start=\"563\" data-end=\"577\">0°C a 85°C</strong> asegura que alimentos como empanadas, panadería, fritos y snacks se mantengan en condiciones óptimas para el consumo.</p>\n<p data-start=\"697\" data-end=\"862\">Cuenta con <strong data-start=\"708\" data-end=\"731\">3 bandejas internas</strong>, lo que permite distribuir distintos productos de manera ordenada, mejorando la presentación y aumentando la rotación por impulso.</p>\n<p data-start=\"864\" data-end=\"1044\">Su estructura en acero inoxidable y vidrio templado garantiza durabilidad, resistencia y fácil limpieza, ideal para uso continuo en cafeterías, tiendas y negocios de comida rápida.</p>\n<h3 data-section-id=\"tcr4w1\" data-start=\"1046\" data-end=\"1081\">🔧 Características principales:</h3>\n<ul data-start=\"1082\" data-end=\"1561\">\n<li data-section-id=\"1kbmbsf\" data-start=\"1082\" data-end=\"1124\">Tipo: Vitrina calefactora de 2 puertas</li>\n<li data-section-id=\"1djxzrm\" data-start=\"1125\" data-end=\"1161\">Rango de temperatura: 0°C a 85°C</li>\n<li data-section-id=\"16u0aj8\" data-start=\"1162\" data-end=\"1180\">Potencia: 1 kW</li>\n<li data-section-id=\"l46kij\" data-start=\"1181\" data-end=\"1198\">Voltaje: 110V</li>\n<li data-section-id=\"aijou9\" data-start=\"1199\" data-end=\"1219\">Frecuencia: 60Hz</li>\n<li data-section-id=\"dgxg97\" data-start=\"1220\" data-end=\"1237\">Peso: 25.5 kg</li>\n<li data-section-id=\"10a5env\" data-start=\"1238\" data-end=\"1297\">Dimensiones: 52 cm alto × 70.5 cm ancho × 38.5 cm largo</li>\n<li data-section-id=\"18mjbq2\" data-start=\"1298\" data-end=\"1346\">Material: acero inoxidable + vidrio templado</li>\n<li data-section-id=\"l4vivg\" data-start=\"1347\" data-end=\"1379\">Incluye: 3 bandejas internas</li>\n<li data-section-id=\"3acmdx\" data-start=\"1380\" data-end=\"1416\">Control de temperatura ajustable</li>\n<li data-section-id=\"1dapb8w\" data-start=\"1417\" data-end=\"1445\">Indicador de temperatura</li>\n<li data-section-id=\"1xpnm0q\" data-start=\"1446\" data-end=\"1476\">Botón de encendido/apagado</li>\n<li data-section-id=\"gtxmnv\" data-start=\"1477\" data-end=\"1515\">Puertas de fácil apertura y cierre</li>\n<li data-section-id=\"1xaxl8z\" data-start=\"1516\" data-end=\"1561\">Garantía: 6 meses por defectos de fábrica</li>\n</ul>\n<h3 data-section-id=\"13uagx5\" data-start=\"1563\" data-end=\"1587\">🚀 Beneficios clave:</h3>\n<ul data-start=\"1588\" data-end=\"1829\">\n<li data-section-id=\"14wl6lw\" data-start=\"1588\" data-end=\"1650\">Mayor capacidad y organización gracias a sus 3 niveles</li>\n<li data-section-id=\"du2elg\" data-start=\"1651\" data-end=\"1691\">Acceso práctico con doble puerta</li>\n<li data-section-id=\"1wmufca\" data-start=\"1692\" data-end=\"1739\">Mantiene alimentos listos para la venta</li>\n<li data-section-id=\"1of86vr\" data-start=\"1740\" data-end=\"1790\">Mejora la exhibición y aumenta la rotación</li>\n<li data-section-id=\"1y3ukkf\" data-start=\"1791\" data-end=\"1829\">Fácil limpieza y mantenimiento</li>\n</ul>\n",
+    "images": [
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-hvw-2-puerta/0.png",
+        "alt": "Mantén tus alimentos frescos y calientes con nuestra Vitrina de Calefacción de 2 Puertas! Diseñada para satisfacer las necesidades de cualquier negocio que requiera mantener sus alimentos a la temperatura perfecta, esta vitrina es la solución ideal para garantizar la frescura y calidad de tus productos durante todo el día."
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-hvw-2-puerta/1.png",
+        "alt": "Mantén tus alimentos frescos y calientes con nuestra Vitrina de Calefacción de 2 Puertas! Diseñada para satisfacer las necesidades de cualquier negocio que requiera mantener sus alimentos a la temperatura perfecta, esta vitrina es la solución ideal para garantizar la frescura y calidad de tus productos durante todo el día."
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-hvw-2-puerta/2.png",
+        "alt": "Mantén tus alimentos frescos y calientes con nuestra Vitrina de Calefacción de 2 Puertas! Diseñada para satisfacer las necesidades de cualquier negocio que requiera mantener sus alimentos a la temperatura perfecta, esta vitrina es la solución ideal para garantizar la frescura y calidad de tus productos durante todo el día."
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-hvw-2-puerta/3.png",
+        "alt": "Mantén tus alimentos frescos y calientes con nuestra Vitrina de Calefacción de 2 Puertas! Diseñada para satisfacer las necesidades de cualquier negocio que requiera mantener sus alimentos a la temperatura perfecta, esta vitrina es la solución ideal para garantizar la frescura y calidad de tus productos durante todo el día."
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-hvw-2-puerta/4.png",
+        "alt": "Mantén tus alimentos frescos y calientes con nuestra Vitrina de Calefacción de 2 Puertas! Diseñada para satisfacer las necesidades de cualquier negocio que requiera mantener sus alimentos a la temperatura perfecta, esta vitrina es la solución ideal para garantizar la frescura y calidad de tus productos durante todo el día."
+      }
+    ],
+    "wooUrl": "https://tienda.fullermachinery.com/index.php/producto/vitrina-de-calefaccion-hvw-2-puerta/"
+  },
+  {
+    "wooId": 16852,
+    "name": "VITRINA EXHIBIDORA DE CALEFACCIÓN 604",
+    "slug": "vitrina-de-calefaccion-ref-604-2",
+    "price": 1327900,
+    "regularPrice": 1327900,
+    "stockStatus": "instock",
+    "currency": "COP",
+    "categories": [
+      "preparacion-de-alimentos",
+      "vitrinas-de-calefaccion"
+    ],
+    "specs": [
+      {
+        "label": "Material",
+        "value": "Metal"
+      },
+      {
+        "label": "Capacidad",
+        "value": "3 Metros de largo"
+      },
+      {
+        "label": "Potencia",
+        "value": "800 W"
+      },
+      {
+        "label": "Alimentación",
+        "value": "110 V"
+      },
+      {
+        "label": "Garantía",
+        "value": "6 meses"
+      },
+      {
+        "label": "Incluye",
+        "value": "Manual, Tornillos para armado"
+      },
+      {
+        "label": "Medidas",
+        "value": "Alto 90 cm - 1.2 metros Largo - 60 cm ancho"
+      }
+    ],
+    "shortDescriptionHtml": "<p>Vitrina caliente en acero inoxidable con temperatura hasta 80°C y puertas corredizas removibles. Ideal para mantener alimentos calientes y visibles.</p>\n",
+    "descriptionHtml": "<p data-start=\"111\" data-end=\"288\">La vitrina exhibidora de calefacción <strong data-start=\"148\" data-end=\"155\">604</strong> es una solución confiable para negocios que necesitan mantener alimentos calientes, visibles y en óptimas condiciones para la venta.</p>\n<p data-start=\"290\" data-end=\"462\">Con una temperatura de hasta <strong data-start=\"319\" data-end=\"327\">80°C</strong>, permite conservar productos como empanadas, panadería, fritos y snacks manteniendo su calidad y presentación durante toda la jornada.</p>\n<p data-start=\"464\" data-end=\"713\">Su construcción <strong data-start=\"480\" data-end=\"508\">100% en acero inoxidable</strong> garantiza durabilidad, higiene y resistencia al uso continuo, además de cumplir con estándares aptos para contacto con alimentos. Esto la convierte en una opción segura para cualquier operación comercial.</p>\n<p data-start=\"715\" data-end=\"910\">Cuenta con <strong data-start=\"726\" data-end=\"771\">puertas de vidrio corredizas y removibles</strong>, lo que facilita el acceso al producto y la limpieza del equipo. Su diseño permite una exhibición clara, impulsando la compra por impulso.</p>\n<h3 data-section-id=\"tcr4w1\" data-start=\"912\" data-end=\"947\">🔧 Características principales:</h3>\n<ul data-start=\"948\" data-end=\"1320\">\n<li data-section-id=\"1hubgow\" data-start=\"948\" data-end=\"963\">Modelo: 604</li>\n<li data-section-id=\"6obhrg\" data-start=\"964\" data-end=\"993\">Alimentación: 110V / 50Hz</li>\n<li data-section-id=\"1288hsm\" data-start=\"994\" data-end=\"1013\">Potencia: 800 W</li>\n<li data-section-id=\"123vfji\" data-start=\"1014\" data-end=\"1041\">Temperatura: hasta 80°C</li>\n<li data-section-id=\"1bxq2c7\" data-start=\"1042\" data-end=\"1057\">Peso: 22 kg</li>\n<li data-section-id=\"de6tpq\" data-start=\"1058\" data-end=\"1113\">Dimensiones: 38 cm ancho × 49 cm fondo × 65 cm alto</li>\n<li data-section-id=\"1k12f5i\" data-start=\"1114\" data-end=\"1166\">Material: acero inoxidable (interior y exterior)</li>\n<li data-section-id=\"k7d1fe\" data-start=\"1167\" data-end=\"1225\">Puertas de vidrio corredizas, removibles y resistentes</li>\n<li data-section-id=\"1dapb8w\" data-start=\"1226\" data-end=\"1254\">Indicador de temperatura</li>\n<li data-section-id=\"fjlori\" data-start=\"1255\" data-end=\"1290\">Luz indicadora de calentamiento</li>\n<li data-section-id=\"1on0qlj\" data-start=\"1291\" data-end=\"1320\">Base con 4 patas estables</li>\n</ul>\n<h3 data-section-id=\"13uagx5\" data-start=\"1322\" data-end=\"1346\">🚀 Beneficios clave:</h3>\n<ul data-start=\"1347\" data-end=\"1621\">\n<li data-section-id=\"1yaxfmv\" data-start=\"1347\" data-end=\"1406\"><strong data-start=\"1349\" data-end=\"1366\">Alta higiene:</strong> materiales aptos para uso alimentario</li>\n<li data-section-id=\"d9tpop\" data-start=\"1407\" data-end=\"1470\"><strong data-start=\"1409\" data-end=\"1430\">Buena exhibición:</strong> producto visible para aumentar ventas</li>\n<li data-section-id=\"5a2hyy\" data-start=\"1471\" data-end=\"1513\"><strong data-start=\"1473\" data-end=\"1492\">Fácil limpieza:</strong> puertas removibles</li>\n<li data-section-id=\"e51xpd\" data-start=\"1514\" data-end=\"1573\"><strong data-start=\"1516\" data-end=\"1532\">Durabilidad:</strong> estructura robusta en acero inoxidable</li>\n<li data-section-id=\"1wmufca\" data-start=\"1574\" data-end=\"1621\">Mantiene alimentos listos para la venta</li>\n</ul>\n",
+    "images": [
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-604-2/0.png",
+        "alt": "¿Qué es el equipo? La Vitrina de Calefacción de Acero Inoxidable es un dispositivo diseñado para exhibir y mantener alimentos calientes en entornos comerciales. Está construida con materiales de alta calidad, como el acero inoxidable, y cuenta con características como puertas de vidrio corredizas, contenedor central para baño maría y un indicador de luz caliente para monitorear la temperatura interna."
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-604-2/1.png",
+        "alt": "¿Qué es el equipo? La Vitrina de Calefacción de Acero Inoxidable es un dispositivo diseñado para exhibir y mantener alimentos calientes en entornos comerciales. Está construida con materiales de alta calidad, como el acero inoxidable, y cuenta con características como puertas de vidrio corredizas, contenedor central para baño maría y un indicador de luz caliente para monitorear la temperatura interna."
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-604-2/2.png",
+        "alt": "¿Qué es el equipo? La Vitrina de Calefacción de Acero Inoxidable es un dispositivo diseñado para exhibir y mantener alimentos calientes en entornos comerciales. Está construida con materiales de alta calidad, como el acero inoxidable, y cuenta con características como puertas de vidrio corredizas, contenedor central para baño maría y un indicador de luz caliente para monitorear la temperatura interna."
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-604-2/3.png",
+        "alt": "¿Qué es el equipo? La Vitrina de Calefacción de Acero Inoxidable es un dispositivo diseñado para exhibir y mantener alimentos calientes en entornos comerciales. Está construida con materiales de alta calidad, como el acero inoxidable, y cuenta con características como puertas de vidrio corredizas, contenedor central para baño maría y un indicador de luz caliente para monitorear la temperatura interna."
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-604-2/4.png",
+        "alt": "¿Qué es el equipo? La Vitrina de Calefacción de Acero Inoxidable es un dispositivo diseñado para exhibir y mantener alimentos calientes en entornos comerciales. Está construida con materiales de alta calidad, como el acero inoxidable, y cuenta con características como puertas de vidrio corredizas, contenedor central para baño maría y un indicador de luz caliente para monitorear la temperatura interna."
+      }
+    ],
+    "wooUrl": "https://tienda.fullermachinery.com/index.php/producto/vitrina-de-calefaccion-ref-604-2/"
+  },
+  {
+    "wooId": 16838,
+    "name": "VITRINA DE CALEFACCIÓN PARA ALIMENTOS HBW1P",
+    "slug": "vitrina-de-calefaccion-ref-604",
+    "price": 1145754,
+    "regularPrice": 1145754,
+    "stockStatus": "instock",
+    "currency": "COP",
+    "categories": [
+      "preparacion-de-alimentos",
+      "vitrinas-de-calefaccion"
+    ],
+    "specs": [
+      {
+        "label": "Material",
+        "value": "Metal"
+      },
+      {
+        "label": "Capacidad",
+        "value": "3 Metros de largo"
+      },
+      {
+        "label": "Potencia",
+        "value": "0.85 kW"
+      },
+      {
+        "label": "Alimentación",
+        "value": "110 V"
+      },
+      {
+        "label": "Garantía",
+        "value": "6 meses"
+      },
+      {
+        "label": "Incluye",
+        "value": "Manual"
+      },
+      {
+        "label": "Medidas",
+        "value": "Alto 90 cm - 1.2 metros Largo - 60 cm ancho"
+      }
+    ],
+    "shortDescriptionHtml": "<p>Vitrina caliente con 3 bandejas y temperatura hasta 85°C. Ideal para mantener alimentos calientes, organizados y listos para la venta.</p>\n",
+    "descriptionHtml": "<p data-start=\"109\" data-end=\"300\">La vitrina de calefacción para alimentos <strong data-start=\"150\" data-end=\"159\">HBW1P</strong> es una solución ideal para negocios que necesitan mantener sus productos calientes, visibles y listos para la venta durante toda la jornada.</p>\n<p data-start=\"302\" data-end=\"489\">Con un rango de temperatura de <strong data-start=\"333\" data-end=\"347\">0°C a 85°C</strong>, permite conservar alimentos como empanadas, panadería, fritos y snacks en condiciones óptimas, manteniendo su textura, sabor y presentación.</p>\n<p data-start=\"491\" data-end=\"686\">Cuenta con <strong data-start=\"502\" data-end=\"525\">3 bandejas internas</strong>, lo que facilita la organización de diferentes productos y mejora la exhibición en el punto de venta, impulsando la compra por impulso y aumentando la rotación.</p>\n<p data-start=\"688\" data-end=\"868\">Su estructura en acero inoxidable y vidrio templado garantiza durabilidad, resistencia y fácil limpieza, ideal para uso continuo en cafeterías, tiendas y negocios de comida rápida.</p>\n<h3 data-section-id=\"tcr4w1\" data-start=\"870\" data-end=\"905\">🔧 Características principales:</h3>\n<ul data-start=\"906\" data-end=\"1361\">\n<li data-section-id=\"whxlgu\" data-start=\"906\" data-end=\"923\">Modelo: HBW1P</li>\n<li data-section-id=\"1yfvy0k\" data-start=\"924\" data-end=\"946\">Alimentación: 110V</li>\n<li data-section-id=\"aijou9\" data-start=\"947\" data-end=\"967\">Frecuencia: 60Hz</li>\n<li data-section-id=\"1wp7kye\" data-start=\"968\" data-end=\"989\">Potencia: 0.85 kW</li>\n<li data-section-id=\"1djxzrm\" data-start=\"990\" data-end=\"1026\">Rango de temperatura: 0°C a 85°C</li>\n<li data-section-id=\"ru33f4\" data-start=\"1027\" data-end=\"1042\">Peso: 16 kg</li>\n<li data-section-id=\"11dana2\" data-start=\"1043\" data-end=\"1098\">Dimensiones: 52 cm alto × 38 cm ancho × 35 cm largo</li>\n<li data-section-id=\"18mjbq2\" data-start=\"1099\" data-end=\"1147\">Material: acero inoxidable + vidrio templado</li>\n<li data-section-id=\"l4vivg\" data-start=\"1148\" data-end=\"1180\">Incluye: 3 bandejas internas</li>\n<li data-section-id=\"3acmdx\" data-start=\"1181\" data-end=\"1217\">Control de temperatura ajustable</li>\n<li data-section-id=\"1dapb8w\" data-start=\"1218\" data-end=\"1246\">Indicador de temperatura</li>\n<li data-section-id=\"1xpnm0q\" data-start=\"1247\" data-end=\"1277\">Botón de encendido/apagado</li>\n<li data-section-id=\"1sjy1e0\" data-start=\"1278\" data-end=\"1315\">Puerta de fácil apertura y cierre</li>\n<li data-section-id=\"1xaxl8z\" data-start=\"1316\" data-end=\"1361\">Garantía: 6 meses por defectos de fábrica</li>\n</ul>\n<h3 data-section-id=\"13uagx5\" data-start=\"1363\" data-end=\"1387\">🚀 Beneficios clave:</h3>\n<ul data-start=\"1388\" data-end=\"1640\">\n<li data-section-id=\"7wkdyd\" data-start=\"1388\" data-end=\"1455\">Organización eficiente: 3 niveles para diferentes productos</li>\n<li data-section-id=\"1wmufca\" data-start=\"1456\" data-end=\"1503\">Mantiene alimentos listos para la venta</li>\n<li data-section-id=\"1ge7cug\" data-start=\"1504\" data-end=\"1546\">Mejora la exhibición y visibilidad</li>\n<li data-section-id=\"1y3ukkf\" data-start=\"1547\" data-end=\"1585\">Fácil limpieza y mantenimiento</li>\n<li data-section-id=\"1bffac3\" data-start=\"1586\" data-end=\"1640\">Ideal para mostrador en negocios de alto flujo</li>\n</ul>\n",
+    "images": [
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-604/0.png",
+        "alt": "Mantén tus alimentos frescos y calientes con nuestra Vitrina de Calefacción de 1 Puerta! Diseñada para satisfacer las necesidades de cualquier negocio que requiera mantener sus alimentos a la temperatura perfecta, esta vitrina es la solución ideal para mantener tu comida fresca y deliciosa durante todo el día."
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-604/1.png",
+        "alt": "Mantén tus alimentos frescos y calientes con nuestra Vitrina de Calefacción de 1 Puerta! Diseñada para satisfacer las necesidades de cualquier negocio que requiera mantener sus alimentos a la temperatura perfecta, esta vitrina es la solución ideal para mantener tu comida fresca y deliciosa durante todo el día."
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-604/2.png",
+        "alt": "Mantén tus alimentos frescos y calientes con nuestra Vitrina de Calefacción de 1 Puerta! Diseñada para satisfacer las necesidades de cualquier negocio que requiera mantener sus alimentos a la temperatura perfecta, esta vitrina es la solución ideal para mantener tu comida fresca y deliciosa durante todo el día."
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-604/3.png",
+        "alt": "Mantén tus alimentos frescos y calientes con nuestra Vitrina de Calefacción de 1 Puerta! Diseñada para satisfacer las necesidades de cualquier negocio que requiera mantener sus alimentos a la temperatura perfecta, esta vitrina es la solución ideal para mantener tu comida fresca y deliciosa durante todo el día."
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-604/4.png",
+        "alt": "Mantén tus alimentos frescos y calientes con nuestra Vitrina de Calefacción de 1 Puerta! Diseñada para satisfacer las necesidades de cualquier negocio que requiera mantener sus alimentos a la temperatura perfecta, esta vitrina es la solución ideal para mantener tu comida fresca y deliciosa durante todo el día."
+      }
+    ],
+    "wooUrl": "https://tienda.fullermachinery.com/index.php/producto/vitrina-de-calefaccion-ref-604/"
+  },
+  {
+    "wooId": 16831,
+    "name": "VITRINA EXHIBIDORA DE CALEFACCIÓN 601",
+    "slug": "vitrina-de-calefaccion-ref-601",
+    "price": 1658900,
+    "regularPrice": 1658900,
+    "stockStatus": "instock",
+    "currency": "COP",
+    "categories": [
+      "preparacion-de-alimentos",
+      "vitrinas-de-calefaccion"
+    ],
+    "specs": [
+      {
+        "label": "Material",
+        "value": "Metal"
+      },
+      {
+        "label": "Capacidad",
+        "value": "3 Metros de largo"
+      },
+      {
+        "label": "Potencia",
+        "value": "1.94 kW"
+      },
+      {
+        "label": "Alimentación",
+        "value": "110 V"
+      },
+      {
+        "label": "Garantía",
+        "value": "6 meses"
+      },
+      {
+        "label": "Incluye",
+        "value": "Manual, Tornillos para armado"
+      },
+      {
+        "label": "Medidas",
+        "value": "Alto 90 cm - 1.2 metros Largo - 60 cm ancho"
+      }
+    ],
+    "shortDescriptionHtml": "<p>Vitrina caliente con sistema baño maría y 3 niveles de exhibición. Ideal para mantener alimentos calientes, jugosos y listos para la venta.</p>\n",
+    "descriptionHtml": "<p data-start=\"111\" data-end=\"295\">La vitrina exhibidora de calefacción <strong data-start=\"148\" data-end=\"155\">601</strong> es una solución profesional para negocios que buscan mantener alimentos calientes con una mejor conservación de humedad, textura y calidad.</p>\n<p data-start=\"297\" data-end=\"536\">A diferencia de vitrinas convencionales, este modelo incorpora un sistema de <strong data-start=\"374\" data-end=\"407\">calentamiento tipo baño maría</strong>, mediante un contenedor central de agua que permite una distribución uniforme del calor, evitando que los alimentos se resequen.</p>\n<p data-start=\"538\" data-end=\"728\">Cuenta con <strong data-start=\"549\" data-end=\"576\">3 niveles de exhibición</strong>, ideales para organizar distintos productos como empanadas, fritos, panadería o comidas preparadas, maximizando la visibilidad y mejorando la rotación.</p>\n<p data-start=\"730\" data-end=\"950\">Su construcción en acero inoxidable garantiza durabilidad, higiene y resistencia al uso continuo, mientras que sus puertas de vidrio corredizas, removibles y aptas para lavavajillas facilitan la limpieza y mantenimiento.</p>\n<h3 data-section-id=\"tcr4w1\" data-start=\"952\" data-end=\"987\">🔧 Características principales:</h3>\n<ul data-start=\"988\" data-end=\"1448\">\n<li data-section-id=\"1hubj9h\" data-start=\"988\" data-end=\"1003\">Modelo: 601</li>\n<li data-section-id=\"6obhrg\" data-start=\"1004\" data-end=\"1033\">Alimentación: 110V / 50Hz</li>\n<li data-section-id=\"1j2jgzb\" data-start=\"1034\" data-end=\"1055\">Potencia: 1.94 kW</li>\n<li data-section-id=\"1ixm0r8\" data-start=\"1056\" data-end=\"1071\">Peso: 30 kg</li>\n<li data-section-id=\"z7hui6\" data-start=\"1072\" data-end=\"1127\">Dimensiones: 66 cm ancho × 50 cm fondo × 66 cm alto</li>\n<li data-section-id=\"g3af0f\" data-start=\"1128\" data-end=\"1191\">Sistema de calentamiento: baño maría (con depósito de agua)</li>\n<li data-section-id=\"l9vw8k\" data-start=\"1192\" data-end=\"1219\">3 niveles de exhibición</li>\n<li data-section-id=\"404f4f\" data-start=\"1220\" data-end=\"1289\">Construcción 100% en acero inoxidable (apto para uso alimentario)</li>\n<li data-section-id=\"k7d1fe\" data-start=\"1290\" data-end=\"1348\">Puertas de vidrio corredizas, removibles y resistentes</li>\n<li data-section-id=\"1dapb8w\" data-start=\"1349\" data-end=\"1377\">Indicador de temperatura</li>\n<li data-section-id=\"f8h2da\" data-start=\"1378\" data-end=\"1415\">Indicador de luz de calentamiento</li>\n<li data-section-id=\"fdi1xb\" data-start=\"1416\" data-end=\"1448\">Base con 4 patas resistentes</li>\n</ul>\n<h3 data-section-id=\"13uagx5\" data-start=\"1450\" data-end=\"1474\">🚀 Beneficios clave:</h3>\n<ul data-start=\"1475\" data-end=\"1785\">\n<li data-section-id=\"sbhwtj\" data-start=\"1475\" data-end=\"1538\"><strong data-start=\"1477\" data-end=\"1500\">Mejor conservación:</strong> evita que los alimentos se resequen</li>\n<li data-section-id=\"qafagq\" data-start=\"1539\" data-end=\"1592\"><strong data-start=\"1541\" data-end=\"1560\">Calor uniforme:</strong> gracias al sistema baño maría</li>\n<li data-section-id=\"d88cld\" data-start=\"1593\" data-end=\"1653\"><strong data-start=\"1595\" data-end=\"1629\">Mayor capacidad de exhibición:</strong> 3 niveles organizados</li>\n<li data-section-id=\"opo8qy\" data-start=\"1654\" data-end=\"1720\"><strong data-start=\"1656\" data-end=\"1673\">Alta higiene:</strong> materiales aptos para contacto con alimentos</li>\n<li data-section-id=\"ylbboo\" data-start=\"1721\" data-end=\"1785\"><strong data-start=\"1723\" data-end=\"1742\">Fácil limpieza:</strong> puertas removibles y estructura práctica</li>\n</ul>\n<p data-start=\"1787\" data-end=\"1942\">Este tipo de vitrina no solo mantiene caliente, mantiene la calidad del producto, lo que impacta directamente en la satisfacción del cliente y la recompra.</p>\n",
+    "images": [
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-601/0.png",
+        "alt": "La Vitrina de Calefacción de Acero Inoxidable es un dispositivo diseñado para exhibir y mantener alimentos calientes en entornos comerciales. Está construida con materiales de alta calidad, como el acero inoxidable, y cuenta con características como puertas de vidrio corredizas, contenedor central para baño maría y un indicador de luz caliente para monitorear la temperatura interna."
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-601/1.png",
+        "alt": "La Vitrina de Calefacción de Acero Inoxidable es un dispositivo diseñado para exhibir y mantener alimentos calientes en entornos comerciales. Está construida con materiales de alta calidad, como el acero inoxidable, y cuenta con características como puertas de vidrio corredizas, contenedor central para baño maría y un indicador de luz caliente para monitorear la temperatura interna."
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-601/2.png",
+        "alt": "La Vitrina de Calefacción de Acero Inoxidable es un dispositivo diseñado para exhibir y mantener alimentos calientes en entornos comerciales. Está construida con materiales de alta calidad, como el acero inoxidable, y cuenta con características como puertas de vidrio corredizas, contenedor central para baño maría y un indicador de luz caliente para monitorear la temperatura interna."
+      }
+    ],
+    "wooUrl": "https://tienda.fullermachinery.com/index.php/producto/vitrina-de-calefaccion-ref-601/"
+  }
+]

@@ -1,0 +1,74 @@
+// ────────────────────────────────────────────────────────────
+// Modelo de producto del catálogo Fuller.
+// Diseñado para el modelo HÍBRIDO: hoy el CTA va a WhatsApp (cotización),
+// pero los campos comerciales (price, sku, stockStatus) ya existen para
+// habilitar carrito + checkout en una fase 2 sin migrar el esquema.
+// ────────────────────────────────────────────────────────────
+
+export type ProductCategory =
+  | "bebidas"
+  | "carnicos"
+  | "panaderia"
+  | "snacks"
+  | "refrigeracion"
+  | "empaque"
+  | "pesaje"
+  | "exhibicion"
+  | "procesamiento"
+  | "buffet"
+  | "mobiliario"
+  | "novelty";
+
+export type StockStatus = "in_stock" | "out_of_stock" | "on_request";
+
+export type ProductSpec = { label: string; value: string };
+
+export type ProductBadge = { text: string; color: string };
+
+export type Product = {
+  /** Slug único para la URL: /productos/[slug] */
+  slug: string;
+  name: string;
+  category: ProductCategory;
+  categoryLabel: string;
+  /** Tipo de equipo (granizadora, freidora, horno…). Agrupa colecciones SEO. */
+  type?: string;
+
+  /** 1–2 líneas para tarjetas y base de la meta description. */
+  shortDescription: string;
+  /** Cuerpo SEO en markdown (descripción IA optimizada). Tiene prioridad. */
+  description?: string;
+  /** Descripción HTML original de WooCommerce (fallback si no hay markdown). */
+  descriptionHtml?: string;
+  /** Bullets de venta rápida mostrados junto a las specs. */
+  highlights?: string[];
+
+  /** La primera imagen es la principal (usada en card, OG y galería). */
+  images: string[];
+  specs: ProductSpec[];
+  badge?: ProductBadge;
+
+  // ── Campos comerciales (híbrido — listos para carrito en fase 2) ──
+  sku?: string;
+  price?: number | null;
+  currency?: string;
+  stockStatus?: StockStatus;
+
+  // ── SEO ──
+  metaTitle?: string;
+  metaDescription?: string;
+  keywords?: string[];
+
+  // ── Enlaces ──
+  /** Ficha técnica original en WooCommerce (mientras migramos). */
+  wooUrl?: string;
+  /** ID del producto en WooCommerce para sincronización futura. */
+  wooId?: number;
+  /** Mensaje prellenado para el CTA de WhatsApp. */
+  whatsappMessage?: string;
+
+  /** Orden manual dentro de su categoría (menor = primero). */
+  sortOrder?: number;
+  /** Si false, no se renderiza ni entra al sitemap. */
+  published?: boolean;
+};

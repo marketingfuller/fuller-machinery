@@ -1,0 +1,1604 @@
+[
+  {
+    "wooId": 18969,
+    "name": "AMASADORA 20LIBRAS INDUSTRIAL 2 VELOCIDADES",
+    "slug": "amasadora-20libras-industrial-2-velocidades",
+    "price": 3998900,
+    "regularPrice": 3998900,
+    "stockStatus": "instock",
+    "currency": "COP",
+    "categories": [
+      "amasadoras",
+      "preparacion-de-alimentos"
+    ],
+    "specs": [
+      {
+        "label": "Capacidad",
+        "value": "20 litros"
+      },
+      {
+        "label": "Material",
+        "value": "Acero inox"
+      },
+      {
+        "label": "Dimensiones",
+        "value": "Alto: 90 cm Largo: 73 cm Ancho: 40cm"
+      },
+      {
+        "label": "Potencia",
+        "value": "1.5 kW Caballo de fuerza de motor:2,0"
+      }
+    ],
+    "shortDescriptionHtml": "<p>Amasadora industrial de 20 lb en acero inoxidable, con motor de 2 HP, doble velocidad y sistema de seguridad, ideal para masas de pan, pizza y productos granulados.</p>\n",
+    "descriptionHtml": "<p>La amasadora industrial de 20 libras está diseñada para preparar masas granuladas de forma eficiente, uniforme y segura, siendo ideal para negocios de panadería, pizzerías y producción de productos como pan de queso y biscochos; su tazón en acero inoxidable de 36 cm de diámetro y 23 cm de profundidad garantiza higiene y resistencia en uso continuo, mientras su motor de 2 HP y potencia de 1.5 kW permite un rendimiento constante incluso en altas cargas de trabajo.</p>\n<p>Opera a 110V e incorpora dos velocidades (rápida y lenta) que se adaptan a diferentes tipos de mezcla, junto con temporizador para mayor control del proceso y rejilla de seguridad que protege al operario durante su funcionamiento. Su estructura robusta, con un peso de 100 kg, incluye botones de apagado y paro de emergencia que refuerzan la seguridad en operación.</p>\n<p>Con dimensiones de 90 × 73 × 40 cm, es una solución confiable y duradera para optimizar la producción, recomendándose trabajar con mezclas que contengan mínimo 60% de humedad para lograr un amasado adecuado y consistente.</p>\n",
+    "images": [
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/amasadora-20libras-industrial-2-velocidades/0.png",
+        "alt": ""
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/amasadora-20libras-industrial-2-velocidades/1.png",
+        "alt": ""
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/amasadora-20libras-industrial-2-velocidades/2.png",
+        "alt": ""
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/amasadora-20libras-industrial-2-velocidades/3.png",
+        "alt": ""
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/amasadora-20libras-industrial-2-velocidades/4.png",
+        "alt": ""
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/amasadora-20libras-industrial-2-velocidades/5.png",
+        "alt": ""
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/amasadora-20libras-industrial-2-velocidades/6.png",
+        "alt": ""
+      }
+    ],
+    "wooUrl": "https://tienda.fullermachinery.com/index.php/producto/amasadora-20libras-industrial-2-velocidades/"
+  },
+  {
+    "wooId": 18802,
+    "name": "Horno Pizza Eléctrico Doble Cámara (2 Pisos) con Piedra | 350°C - Fuller Machinery",
+    "slug": "potencia-multiplicada-por-dossi-tu-negocio-esta-creciendo-el-horno-ep2st-de-fuller-machinery-es-el-siguiente-paso-logico-a-diferencia-de-los-hornos-de-una-sola-boca-este-modelo-cuenta-con-dos-camar",
+    "price": 1998900,
+    "regularPrice": 1998900,
+    "stockStatus": "instock",
+    "currency": "COP",
+    "categories": [
+      "hornos",
+      "preparacion-de-alimentos"
+    ],
+    "specs": [
+      {
+        "label": "Tipo",
+        "value": "Horno Pizza"
+      },
+      {
+        "label": "Voltaje",
+        "value": "220V"
+      },
+      {
+        "label": "Potencia",
+        "value": "3000 W"
+      },
+      {
+        "label": "Material",
+        "value": "Acero Inoxidable"
+      },
+      {
+        "label": "Temperatura Máxima",
+        "value": "350°C"
+      },
+      {
+        "label": "Niveles",
+        "value": "2 Cámaras (Doble)"
+      }
+    ],
+    "shortDescriptionHtml": "<p data-path-to-node=\"11\">Maximiza la rentabilidad de tu pizzería con el Horno de Doble Cámara JCET-EP2ST. Diseñado para alta rotación, este equipo te permite hornear <b>dos pizzas simultáneamente</b> con control de temperatura independiente, alcanzando hasta <b>350°C</b> para resultados profesionales. Su estructura compacta duplica tu capacidad de despacho sin sacrificar espacio en la cocina.</p>\n<ul data-path-to-node=\"12\">\n<li>\n<p data-path-to-node=\"12,0,0\"><b>Capacidad:</b> 2 Cámaras (2 Pizzas a la vez).</p>\n</li>\n<li>\n<p data-path-to-node=\"12,1,0\"><b>Potencia:</b> 3000W (Alta recuperación de calor).</p>\n</li>\n<li>\n<p data-path-to-node=\"12,2,0\"><b>Voltaje:</b> 220V (Bifásico).</p>\n</li>\n<li>\n<p data-path-to-node=\"12,3,0\"><b>Base:</b> Piedra refractaria en ambos niveles.</p>\n</li>\n</ul>\n",
+    "descriptionHtml": "<h4 data-path-to-node=\"15\">Potencia Multiplicada por Dos</h4>\n<p data-path-to-node=\"16\">Si tu negocio está creciendo, el <b>Horno EP2ST de Fuller Machinery</b> es el siguiente paso lógico. A diferencia de los hornos de una sola boca, este modelo cuenta con dos cámaras de cocción apiladas, lo que te permite gestionar múltiples pedidos al mismo tiempo o cocinar diferentes productos (ej. pizza arriba, gratinados abajo) sin mezclar procesos.</p>\n<h4 data-path-to-node=\"17\">Ventajas Técnicas para Alto Flujo</h4>\n<ul data-path-to-node=\"18\">\n<li>\n<p data-path-to-node=\"18,0,0\"><b>Doble Piedra Refractaria:</b> Cada nivel cuenta con su propia losa de piedra, esencial para absorber la humedad de la masa y entregar ese piso crujiente característico de la pizza italiana.</p>\n</li>\n<li>\n<p data-path-to-node=\"18,1,0\"><b>Aislamiento Térmico Superior:</b> Al tener mayor potencia (3 kW), su estructura de acero inoxidable está reforzada con aislamiento de alta densidad para retener el calor, ahorrando energía y protegiendo al operador.</p>\n</li>\n<li>\n<p data-path-to-node=\"18,2,0\"><b>Control Total:</b> Equipado con perillas robustas para regular el termostato hasta 350°C y temporizador, permitiendo estandarizar los tiempos de horneado para que el personal no dependa del \"ojo\".</p>\n</li>\n<li>\n<p data-path-to-node=\"18,3,0\"><b>Versatilidad de Menú:</b> No solo es para pizza. Aprovecha la doble altura para hornear panes, lasañas, focaccias o calentar sándwiches rápidamente.</p>\n</li>\n</ul>\n<h4 data-path-to-node=\"19\">Ficha Técnica</h4>\n<table data-path-to-node=\"20\">\n<thead>\n<tr>\n<td><strong>Característica</strong></td>\n<td><strong>Especificación</strong></td>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><span data-path-to-node=\"20,1,0,0\"><b>Modelo</b></span></td>\n<td><span data-path-to-node=\"20,1,1,0\">JCET-EP2ST</span></td>\n</tr>\n<tr>\n<td><span data-path-to-node=\"20,2,0,0\"><b>Configuración</b></span></td>\n<td><span data-path-to-node=\"20,2,1,0\">Doble Cámara (2 Pisos)</span></td>\n</tr>\n<tr>\n<td><span data-path-to-node=\"20,3,0,0\"><b>Rango de Temperatura</b></span></td>\n<td><span data-path-to-node=\"20,3,1,0\">50°C a <b>350°C</b></span></td>\n</tr>\n<tr>\n<td><span data-path-to-node=\"20,4,0,0\"><b>Potencia Total</b></span></td>\n<td><span data-path-to-node=\"20,4,1,0\">3 kW (3000 Watts)</span></td>\n</tr>\n<tr>\n<td><span data-path-to-node=\"20,5,0,0\"><b>Voltaje</b></span></td>\n<td><span data-path-to-node=\"20,5,1,0\"><b>220V</b> / 50-60 Hz</span></td>\n</tr>\n<tr>\n<td><span data-path-to-node=\"20,6,0,0\"><b>Peso</b></span></td>\n<td><span data-path-to-node=\"20,6,1,0\">26.45 kg</span></td>\n</tr>\n<tr>\n<td><span data-path-to-node=\"20,7,0,0\"><b>Material</b></span></td>\n<td><span data-path-to-node=\"20,7,1,0\">Acero Inoxidable + Piedras Refractarias</span></td>\n</tr>\n<tr>\n<td><span data-path-to-node=\"20,8,0,0\"><b>Mantenimiento</b></span></td>\n<td><span data-path-to-node=\"20,8,1,0\">Limpieza en seco (piedras) y paño húmedo (exterior)</span></td>\n</tr>\n</tbody>\n</table>\n<p data-path-to-node=\"23\">\n<h4 data-path-to-node=\"24\">Comparativa: Horno Doble (EP2ST) vs. Horno Sencillo (EP1ST)</h4>\n<p data-path-to-node=\"25\">¿Cuál se adapta a tu flujo de venta?</p>\n<table data-path-to-node=\"26\">\n<thead>\n<tr>\n<td><strong>Variable</strong></td>\n<td><strong>Horno Doble (Este modelo)</strong></td>\n<td><strong>Horno Sencillo (1 Piso)</strong></td>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><span data-path-to-node=\"26,1,0,0\"><b>Capacidad</b></span></td>\n<td><span data-path-to-node=\"26,1,1,0\"><b>2 Pizzas</b> simultáneas</span></td>\n<td><span data-path-to-node=\"26,1,2,0\">1 Pizza</span></td>\n</tr>\n<tr>\n<td><span data-path-to-node=\"26,2,0,0\"><b>Flexibilidad</b></span></td>\n<td><span data-path-to-node=\"26,2,1,0\">Alta (Cocina 2 cosas distintas)</span></td>\n<td><span data-path-to-node=\"26,2,2,0\">Baja (Una cosa a la vez)</span></td>\n</tr>\n<tr>\n<td><span data-path-to-node=\"26,3,0,0\"><b>Potencia</b></span></td>\n<td><span data-path-to-node=\"26,3,1,0\"><b>3 kW</b> (Recupera calor rápido)</span></td>\n<td><span data-path-to-node=\"26,3,2,0\">2 kW</span></td>\n</tr>\n<tr>\n<td><span data-path-to-node=\"26,4,0,0\"><b>Espacio en Mesa</b></span></td>\n<td><span data-path-to-node=\"26,4,1,0\">Igual (Crece hacia arriba)</span></td>\n<td><span data-path-to-node=\"26,4,2,0\">Igual</span></td>\n</tr>\n<tr>\n<td><span data-path-to-node=\"26,5,0,0\"><b>Ideal para</b></span></td>\n<td><span data-path-to-node=\"26,5,1,0\">Pizzerías establecidas / Delivery</span></td>\n<td><span data-path-to-node=\"26,5,2,0\">Food Trucks / Inicios</span></td>\n</tr>\n</tbody>\n</table>\n<h4 data-path-to-node=\"27\">Preguntas Frecuentes (FAQ)</h4>\n<ul data-path-to-node=\"28\">\n<li><strong>¿Puedo encender solo un piso?</strong>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>Sí, el sistema permite gestionar la temperatura, por lo que si tienes baja demanda puedes operar de manera eficiente sin desperdiciar energía al máximo.</li>\n<li><strong>¿Qué instalación eléctrica necesito?</strong>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>Este equipo es potente (3000W) y funciona a 220V. Requiere una toma bifásica adecuada y un breaker independiente para garantizar la seguridad y el rendimiento óptimo.</li>\n<li>¿<strong>Cómo se limpian las dos piedras?</strong>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>Al igual que el modelo sencillo, las piedras nunca deben mojarse. Se recomienda usar un cepillo de cerdas metálicas o una espátula para raspar residuos quemados y limpiar con un trapo apenas húmedo.</li>\n</ul>\n",
+    "images": [
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/potencia-multiplicada-por-dossi-tu-negocio-esta-creciendo-el-horno-ep2st-de-fuller-machinery-es-el-siguiente-paso-logico-a-diferencia-de-los-hornos-de-una-sola-boca-este-modelo-cuenta-con-dos-camar/0.png",
+        "alt": "Horno pizza doble cámara eléctrico acero inoxidable Fuller"
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/potencia-multiplicada-por-dossi-tu-negocio-esta-creciendo-el-horno-ep2st-de-fuller-machinery-es-el-siguiente-paso-logico-a-diferencia-de-los-hornos-de-una-sola-boca-este-modelo-cuenta-con-dos-camar/1.png",
+        "alt": "“Interior horno doble piso con piedras refractarias”"
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/potencia-multiplicada-por-dossi-tu-negocio-esta-creciendo-el-horno-ep2st-de-fuller-machinery-es-el-siguiente-paso-logico-a-diferencia-de-los-hornos-de-una-sola-boca-este-modelo-cuenta-con-dos-camar/2.png",
+        "alt": "“Panel control temperatura horno pizza doble”"
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/potencia-multiplicada-por-dossi-tu-negocio-esta-creciendo-el-horno-ep2st-de-fuller-machinery-es-el-siguiente-paso-logico-a-diferencia-de-los-hornos-de-una-sola-boca-este-modelo-cuenta-con-dos-camar/3.png",
+        "alt": "producción"
+      }
+    ],
+    "wooUrl": "https://tienda.fullermachinery.com/index.php/producto/potencia-multiplicada-por-dossi-tu-negocio-esta-creciendo-el-horno-ep2st-de-fuller-machinery-es-el-siguiente-paso-logico-a-diferencia-de-los-hornos-de-una-sola-boca-este-modelo-cuenta-con-dos-camar/"
+  },
+  {
+    "wooId": 18793,
+    "name": "Horno Pizza Eléctrico con Piedra Refractaria | 350°C Profesional - Fuller Machinery",
+    "slug": "horno-pizza-electrico-piedra-350c-fuller",
+    "price": 1596900,
+    "regularPrice": 1596900,
+    "stockStatus": "instock",
+    "currency": "COP",
+    "categories": [
+      "hornos",
+      "preparacion-de-alimentos"
+    ],
+    "specs": [
+      {
+        "label": "Tipo",
+        "value": "Horno Pizza"
+      },
+      {
+        "label": "Temperatura",
+        "value": "350°C"
+      },
+      {
+        "label": "Voltaje",
+        "value": "220V"
+      },
+      {
+        "label": "Material",
+        "value": "Acero Inoxidable"
+      },
+      {
+        "label": "Base",
+        "value": "Piedra Refractaria"
+      },
+      {
+        "label": "Potencia",
+        "value": "2 kW"
+      }
+    ],
+    "shortDescriptionHtml": "<p data-path-to-node=\"11\">Convierte tu negocio en una pizzería profesional con el Horno Eléctrico JCET-EP1ST de Fuller Machinery. Alcanza hasta <b>350°C</b> para lograr esa base crujiente y bordes dorados que los clientes aman, gracias a su <b>piedra refractaria interna</b> que distribuye el calor como un horno de leña. Compacto, construido en <b>acero inoxidable</b> y perfecto para food trucks o cocinas con espacio limitado.</p>\n<ul data-path-to-node=\"12\">\n<li>\n<p data-path-to-node=\"12,0,0\"><b>Temperatura Máx:</b> 350°C.</p>\n</li>\n<li>\n<p data-path-to-node=\"12,1,0\"><b>Base:</b> Piedra refractaria (Incluida).</p>\n</li>\n<li>\n<p data-path-to-node=\"12,2,0\"><b>Voltaje:</b> 220V (Bifásico).</p>\n</li>\n</ul>\n",
+    "descriptionHtml": "<h4 data-path-to-node=\"15\">La Diferencia entre una Pizza \"Casera\" y una Profesional</h4>\n<p data-path-to-node=\"16\">El secreto de una buena pizza no es solo la masa, es el golpe de calor. Este horno está diseñado específicamente para alcanzar <b>350°C (660°F)</b>, una temperatura que los hornos convencionales no logran. Esto permite sellar la masa rápidamente, manteniendo la humedad por dentro y la crocancia por fuera.</p>\n<h4 data-path-to-node=\"17\">Características de Alto Rendimiento</h4>\n<ul data-path-to-node=\"18\">\n<li>\n<p data-path-to-node=\"18,0,0\"><b>Piedra Refractaria Real:</b> Incluye una losa de piedra en la base que absorbe la humedad de la masa, garantizando un piso crocante y evitando que la pizza quede \"aguada\" en el centro.</p>\n</li>\n<li>\n<p data-path-to-node=\"18,1,0\"><b>Control Preciso:</b> Cuenta con <b>doble perilla manual</b>: una para el termostato (50°C - 350°C) y otra para el temporizador (Timer), permitiendo estandarizar la cocción para que cualquier empleado pueda operarlo.</p>\n</li>\n<li>\n<p data-path-to-node=\"18,2,0\"><b>Construcción Robusta:</b> Fabricado totalmente en <b>acero inoxidable</b> con aislamiento térmico de alta densidad, lo que mantiene el calor adentro y evita quemaduras accidentales al tocar la carcasa exterior.</p>\n</li>\n<li>\n<p data-path-to-node=\"18,3,0\"><b>Versatilidad:</b> Aunque es especialista en pizzas, su altura y temperatura lo hacen excelente para gratinar lasañas, tostar sándwiches o cocinar panes planos (focaccias).</p>\n</li>\n</ul>\n<h4 data-path-to-node=\"19\">Ficha Técnica</h4>\n<table data-path-to-node=\"20\">\n<thead>\n<tr>\n<td><strong>Característica</strong></td>\n<td><strong>Especificación</strong></td>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><span data-path-to-node=\"20,1,0,0\"><b>Modelo</b></span></td>\n<td><span data-path-to-node=\"20,1,1,0\">JCET-EP1ST</span></td>\n</tr>\n<tr>\n<td><span data-path-to-node=\"20,2,0,0\"><b>Rango de Temperatura</b></span></td>\n<td><span data-path-to-node=\"20,2,1,0\">50°C a <b>350°C</b></span></td>\n</tr>\n<tr>\n<td><span data-path-to-node=\"20,3,0,0\"><b>Potencia</b></span></td>\n<td><span data-path-to-node=\"20,3,1,0\">2000 W (2 kW)</span></td>\n</tr>\n<tr>\n<td><span data-path-to-node=\"20,4,0,0\"><b>Voltaje</b></span></td>\n<td><span data-path-to-node=\"20,4,1,0\"><b>220V</b> / 60 Hz (Requiere toma especial)</span></td>\n</tr>\n<tr>\n<td><span data-path-to-node=\"20,5,0,0\"><b>Material</b></span></td>\n<td><span data-path-to-node=\"20,5,1,0\">Acero Inoxidable + Piedra Refractaria</span></td>\n</tr>\n<tr>\n<td><span data-path-to-node=\"20,6,0,0\"><b>Dimensiones Cámara</b></span></td>\n<td><span data-path-to-node=\"20,6,1,0\"><i>Ideal para pizza mediana/familiar (verificar medida exacta)</i></span></td>\n</tr>\n<tr>\n<td><span data-path-to-node=\"20,7,0,0\"><b>Peso Neto</b></span></td>\n<td><span data-path-to-node=\"20,7,1,0\">18.9 Kg</span></td>\n</tr>\n<tr>\n<td><span data-path-to-node=\"20,8,0,0\"><b>Controles</b></span></td>\n<td><span data-path-to-node=\"20,8,1,0\">Termostato + Temporizador</span></td>\n</tr>\n</tbody>\n</table>\n<h4 data-path-to-node=\"24\">Comparativa: Horno de Pizza Fuller vs. Horno Convencional</h4>\n<p data-path-to-node=\"25\">¿Por qué invertir en un equipo especializado?</p>\n<table data-path-to-node=\"26\">\n<thead>\n<tr>\n<td><strong>Variable</strong></td>\n<td><strong>Horno Pizza Fuller (Piedra)</strong></td>\n<td><strong>Horno Convencional (Lata)</strong></td>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><span data-path-to-node=\"26,1,0,0\"><b>Temperatura Máxima</b></span></td>\n<td><span data-path-to-node=\"26,1,1,0\"><b>350°C</b> (Profesional)</span></td>\n<td><span data-path-to-node=\"26,1,2,0\">250°C (Casero)</span></td>\n</tr>\n<tr>\n<td><span data-path-to-node=\"26,2,0,0\"><b>Base de Cocción</b></span></td>\n<td><span data-path-to-node=\"26,2,1,0\"><b>Piedra</b> (Absorbe humedad)</span></td>\n<td><span data-path-to-node=\"26,2,2,0\">Rejilla o Lata (No absorbe)</span></td>\n</tr>\n<tr>\n<td><span data-path-to-node=\"26,3,0,0\"><b>Tiempo de Cocción</b></span></td>\n<td><span data-path-to-node=\"26,3,1,0\">3 - 5 minutos (Rápido)</span></td>\n<td><span data-path-to-node=\"26,3,2,0\">15 - 20 minutos (Lento)</span></td>\n</tr>\n<tr>\n<td><span data-path-to-node=\"26,4,0,0\"><b>Resultado</b></span></td>\n<td><span data-path-to-node=\"26,4,1,0\">Masa crocante y piso seco</span></td>\n<td><span data-path-to-node=\"26,4,2,0\">Masa tipo \"pan\" o blanda</span></td>\n</tr>\n</tbody>\n</table>\n<h4 data-path-to-node=\"27\">Preguntas Frecuentes (FAQ)</h4>\n<ul data-path-to-node=\"28\">\n<li><strong>¿Necesita instalación especial?</strong>Sí, este equipo funciona a 220V. Asegúrate de que tu local o food truck tenga una conexión bifásica disponible. No funciona en enchufes comunes de casa (110V).</li>\n<li><strong>¿Se puede lavar la piedra?</strong>La piedra refractaria NO se debe mojar ni lavar con jabón, ya que es porosa y absorbería los químicos. Se debe limpiar raspando los residuos sólidos y pasando un trapo apenas húmedo cuando esté fría.</li>\n<li><strong>¿Qué tamaño de pizza cabe?</strong>Está diseñado para pizzas estándar de tamaño mediano a familiar (aprox. 35-40cm, verificar medida interna de la piedra).</li>\n</ul>\n",
+    "images": [
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-pizza-electrico-piedra-350c-fuller/0.png",
+        "alt": "Horno pizza eléctrico acero inoxidable con piedra Fuller"
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-pizza-electrico-piedra-350c-fuller/1.png",
+        "alt": "“Interior horno pizza con base de piedra refractaria”"
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-pizza-electrico-piedra-350c-fuller/2.png",
+        "alt": "Horneado de pizza a 350 grados en horno eléctrico"
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-pizza-electrico-piedra-350c-fuller/3.png",
+        "alt": "Termostato 350 grados horno pizza profesional"
+      }
+    ],
+    "wooUrl": "https://tienda.fullermachinery.com/index.php/producto/horno-pizza-electrico-piedra-350c-fuller/"
+  },
+  {
+    "wooId": 18783,
+    "name": "Horno de Convección Eléctrico 4 Bandejas (60 Litros) | Cocción Uniforme - Fuller Machinery",
+    "slug": "horno-conveccion-4-bandejas-60l-fuller",
+    "price": 3898900,
+    "regularPrice": 3898900,
+    "stockStatus": "outofstock",
+    "currency": "COP",
+    "categories": [
+      "hornos",
+      "preparacion-de-alimentos"
+    ],
+    "specs": [
+      {
+        "label": "Capacidad",
+        "value": "60 Litros"
+      },
+      {
+        "label": "Número de Bandejas",
+        "value": "4 Bandejas"
+      },
+      {
+        "label": "Tecnología",
+        "value": "Convección (Ventilador)"
+      },
+      {
+        "label": "Fuente de Energía",
+        "value": "Eléctrico"
+      },
+      {
+        "label": "Material",
+        "value": "Acero Inoxidable"
+      },
+      {
+        "label": "Uso",
+        "value": "Panadería / Repostería"
+      }
+    ],
+    "shortDescriptionHtml": "<p data-path-to-node=\"11\">Lleva la calidad de tu panadería al siguiente nivel con el Horno de Convección de 60 Litros de Fuller Machinery. Gracias a su sistema de <b>ventilación forzada</b>, el calor circula uniformemente por las <b>4 bandejas</b>, garantizando un dorado perfecto en panes, galletas y hojaldres sin necesidad de rotar el producto. Compacto, potente y construido en acero inoxidable para durar.</p>\n<ul data-path-to-node=\"12\">\n<li>\n<p data-path-to-node=\"12,0,0\"><b>Capacidad:</b> 4 Bandejas Estándar (60 Litros).</p>\n</li>\n<li>\n<p data-path-to-node=\"12,1,0\"><b>Sistema:</b> Convección (Ventilador interno).</p>\n</li>\n<li>\n<p data-path-to-node=\"12,2,0\"><b>Uso:</b> Panadería, pastelería y snacks.</p>\n</li>\n</ul>\n",
+    "descriptionHtml": "<h4 data-path-to-node=\"15\">El Secreto de un Dorado Perfecto</h4>\n<p data-path-to-node=\"16\">¿Por qué las grandes panaderías usan convección? Porque el aire caliente en movimiento cocina más rápido y de manera pareja. Este modelo de Fuller Machinery trae esa tecnología profesional a un tamaño compacto, ideal para cafeterías, pequeños obradores o restaurantes que hornean su propio pan.</p>\n<h4 data-path-to-node=\"17\">Características que Rentabilizan tu Negocio</h4>\n<ul data-path-to-node=\"18\">\n<li>\n<p data-path-to-node=\"18,0,0\"><b>Flujo de Aire Constante:</b> El ventilador trasero distribuye el calor por toda la cámara, eliminando los \"puntos fríos\". Olvídate de bandejas quemadas al fondo y crudas al frente.</p>\n</li>\n<li>\n<p data-path-to-node=\"18,1,0\"><b>Capacidad Optimizada:</b> A pesar de su diseño compacto (ideal para mesones), permite hornear en <b>4 niveles simultáneamente</b>, multiplicando tu producción por hora.</p>\n</li>\n<li>\n<p data-path-to-node=\"18,2,0\"><b>Control Total:</b> Perillas manuales de alta resistencia para ajustar <b>Tiempo y Temperatura</b> con precisión, reduciendo la dependencia de electrónica compleja que suele fallar en ambientes calientes.</p>\n</li>\n<li>\n<p data-path-to-node=\"18,3,0\"><b>Visibilidad:</b> Puerta de vidrio templado y luz interna para supervisar el crecimiento del producto sin abrir el horno y perder calor.</p>\n</li>\n</ul>\n<h4 data-path-to-node=\"19\">Ficha Técnica</h4>\n<table data-path-to-node=\"20\">\n<thead>\n<tr>\n<td><strong>Característica</strong></td>\n<td><strong>Especificación</strong></td>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><span data-path-to-node=\"20,1,0,0\"><b>Tipo de Horno</b></span></td>\n<td><span data-path-to-node=\"20,1,1,0\">Convección Eléctrico</span></td>\n</tr>\n<tr>\n<td><span data-path-to-node=\"20,2,0,0\"><b>Capacidad</b></span></td>\n<td><span data-path-to-node=\"20,2,1,0\">60 Litros / 4 Bandejas</span></td>\n</tr>\n<tr>\n<td><span data-path-to-node=\"20,3,0,0\"><b>Material</b></span></td>\n<td><span data-path-to-node=\"20,3,1,0\">Acero Inoxidable (Cuerpo y cámara)</span></td>\n</tr>\n<tr>\n<td><span data-path-to-node=\"20,4,0,0\"><b>Control</b></span></td>\n<td><span data-path-to-node=\"20,4,1,0\">Analógico (Temperatura + Temporizador)</span></td>\n</tr>\n<tr>\n<td><span data-path-to-node=\"20,5,0,0\"><b>Sistema de Calor</b></span></td>\n<td><span data-path-to-node=\"20,5,1,0\">Ventilación Forzada</span></td>\n</tr>\n<tr>\n<td><span data-path-to-node=\"20,6,0,0\"><b>Medidas Aprox.</b></span></td>\n<td><span data-path-to-node=\"20,6,1,0\"><i>Revisar manual exacto</i> (Ref: 53.5 x 58 cm prof/alto)</span></td>\n</tr>\n<tr>\n<td><span data-path-to-node=\"20,7,0,0\"><b>Uso Recomendado</b></span></td>\n<td><span data-path-to-node=\"20,7,1,0\">Panadería, galletería, pizzas, snacks</span></td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>\n<h4 data-path-to-node=\"24\">Comparativa: Horno de Convección vs. Horno Convencional (Estático)</h4>\n<p data-path-to-node=\"25\">Si vas a vender pan, mira la diferencia:</p>\n<table data-path-to-node=\"26\">\n<thead>\n<tr>\n<td><strong>Variable</strong></td>\n<td><strong>Horno Convección Fuller</strong></td>\n<td><strong>Horno Casero / Estático</strong></td>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><span data-path-to-node=\"26,1,0,0\"><b>Distribución de Calor</b></span></td>\n<td><span data-path-to-node=\"26,1,1,0\">Aire en movimiento (360°)</span></td>\n<td><span data-path-to-node=\"26,1,2,0\">Calor radiante (Sube al techo)</span></td>\n</tr>\n<tr>\n<td><span data-path-to-node=\"26,2,0,0\"><b>Resultado en Pan</b></span></td>\n<td><span data-path-to-node=\"26,2,1,0\">Dorado parejo y corteza crujiente</span></td>\n<td><span data-path-to-node=\"26,2,2,0\">Base quemada o centro crudo</span></td>\n</tr>\n<tr>\n<td><span data-path-to-node=\"26,3,0,0\"><b>Velocidad</b></span></td>\n<td><span data-path-to-node=\"26,3,1,0\">25% más rápido (Ahorra luz)</span></td>\n<td><span data-path-to-node=\"26,3,2,0\">Más lento</span></td>\n</tr>\n<tr>\n<td><span data-path-to-node=\"26,4,0,0\"><b>Producción</b></span></td>\n<td><span data-path-to-node=\"26,4,1,0\">4 Bandejas al mismo tiempo</span></td>\n<td><span data-path-to-node=\"26,4,2,0\">Solo 1 o 2 bandejas útiles</span></td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>\n",
+    "images": [
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-conveccion-4-bandejas-60l-fuller/0.png",
+        "alt": "Horno de convección eléctrico 4 bandejas acero inoxidable Fuller"
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-conveccion-4-bandejas-60l-fuller/1.png",
+        "alt": "Interior horno convección 60 litros con 4 bandejas de panadería"
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-conveccion-4-bandejas-60l-fuller/2.png",
+        "alt": "ontroles temperatura y tiempo horno panadero"
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-conveccion-4-bandejas-60l-fuller/3.png",
+        "alt": "cocina bogota horno"
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-conveccion-4-bandejas-60l-fuller/4.png",
+        "alt": "medidas"
+      }
+    ],
+    "wooUrl": "https://tienda.fullermachinery.com/index.php/producto/horno-conveccion-4-bandejas-60l-fuller/"
+  },
+  {
+    "wooId": 18749,
+    "name": "Horno Microondas Comercial 25 Litros en Acero Inoxidable | Uso Rudo 1000W - Fuller Machinery",
+    "slug": "microondas-comercial-25l-acero-fuller",
+    "price": 1747900,
+    "regularPrice": 1747900,
+    "stockStatus": "instock",
+    "currency": "COP",
+    "categories": [
+      "hornos"
+    ],
+    "specs": [
+      {
+        "label": "Material",
+        "value": "Acero inoxidable"
+      },
+      {
+        "label": "Capacidad",
+        "value": "25L"
+      }
+    ],
+    "shortDescriptionHtml": "<p data-path-to-node=\"11\">Diseñado para el alto rendimiento de <b>restaurantes, cafeterías y hoteles en Colombia</b>. Este horno microondas de uso comercial ofrece una construcción robusta en <b>acero inoxidable</b> y una potencia de salida de 1000W para un calentamiento rápido y uniforme. Optimiza los tiempos de tu cocina con un equipo compacto, fácil de limpiar y creado para resistir el trabajo pesado.</p>\n<ul data-path-to-node=\"12\">\n<li>\n<p data-path-to-node=\"12,0,0\"><b>Capacidad:</b> 25 Litros.</p>\n</li>\n<li>\n<p data-path-to-node=\"12,1,0\"><b>Voltaje:</b> 110V (Estándar).</p>\n</li>\n<li>\n<p data-path-to-node=\"12,2,0\"><b>Ideal para:</b> Descongelar y calentar en negocios de alto flujo</p>\n</li>\n</ul>\n",
+    "descriptionHtml": "<h4>Eficiencia y Durabilidad para tu Cocina Profesional</h4>\n<p>&nbsp;</p>\n<p data-path-to-node=\"18\">El <b>Horno Microondas Comercial de Fuller Machinery</b> es la solución definitiva para negocios gastronómicos que requieren velocidad sin sacrificar calidad. A diferencia de los hornos domésticos, este equipo (Modelo JCEM025FJT) está fabricado específicamente para soportar la frecuencia de uso de una cocina industrial.</p>\n<h4>¿Por qué elegir este microondas para tu negocio?</h4>\n<p>&nbsp;</p>\n<ul data-path-to-node=\"20\">\n<li>\n<p data-path-to-node=\"20,0,0\"><b>Construcción \"Heavy Duty\":</b> Fabricado íntegramente en acero inoxidable, lo que garantiza una mayor resistencia a golpes, corrosión y facilita la limpieza exigida por normas de sanidad.</p>\n</li>\n<li>\n<p data-path-to-node=\"20,1,0\"><b>Potencia Real de Trabajo:</b> Con 1000W de potencia de salida y 1500W de entrada, asegura que los alimentos se calienten o descongelen uniformemente en tiempo récord, agilizando el servicio en horas pico.</p>\n</li>\n<li>\n<p data-path-to-node=\"20,2,0\"><b>Diseño Inteligente:</b> Su capacidad de 25 litros es el equilibrio perfecto entre volumen interno y un diseño externo compacto (51cm de largo) que no invade tu mesa de trabajo.</p>\n</li>\n<li>\n<p data-path-to-node=\"20,3,0\"><b>Panel Digital Programable:</b> Facilita la operación estandarizada, ideal para cadenas de comida rápida o estaciones de café</p>\n</li>\n</ul>\n<table data-path-to-node=\"22\">\n<thead>\n<tr>\n<td><strong>Característica</strong></td>\n<td><strong>Especificación</strong></td>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><span data-path-to-node=\"22,1,0,0\"><b>Modelo</b></span></td>\n<td><span data-path-to-node=\"22,1,1,0\">JCEM025FJT-SOSA00</span></td>\n</tr>\n<tr>\n<td><span data-path-to-node=\"22,2,0,0\"><b>Tipo de Uso</b></span></td>\n<td><span data-path-to-node=\"22,2,1,0\">Comercial / Industrial</span></td>\n</tr>\n<tr>\n<td><span data-path-to-node=\"22,3,0,0\"><b>Material</b></span></td>\n<td><span data-path-to-node=\"22,3,1,0\">Acero Inoxidable (Interior y Exterior)</span></td>\n</tr>\n<tr>\n<td><span data-path-to-node=\"22,4,0,0\"><b>Capacidad</b></span></td>\n<td><span data-path-to-node=\"22,4,1,0\">25 Litros</span></td>\n</tr>\n<tr>\n<td><span data-path-to-node=\"22,5,0,0\"><b>Medidas Externas</b></span></td>\n<td><span data-path-to-node=\"22,5,1,0\">51 cm (Largo) x 39 cm (Ancho) x 31 cm (Alto)</span></td>\n</tr>\n<tr>\n<td><span data-path-to-node=\"22,6,0,0\"><b>Voltaje</b></span></td>\n<td><span data-path-to-node=\"22,6,1,0\">110V / 60Hz</span></td>\n</tr>\n<tr>\n<td><span data-path-to-node=\"22,7,0,0\"><b>Potencia de Entrada</b></span></td>\n<td><span data-path-to-node=\"22,7,1,0\">1500 W</span></td>\n</tr>\n<tr>\n<td><span data-path-to-node=\"22,8,0,0\"><b>Potencia de Salida</b></span></td>\n<td><span data-path-to-node=\"22,8,1,0\">1000 W</span></td>\n</tr>\n<tr>\n<td><span data-path-to-node=\"22,9,0,0\"><b>Frecuencia</b></span></td>\n<td><span data-path-to-node=\"22,9,1,0\">2450 MHz</span></td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>\n<h4>Usos Recomendados</h4>\n<p>&nbsp;</p>\n<p data-path-to-node=\"24\">Este equipo es indispensable para:</p>\n<ul data-path-to-node=\"25\">\n<li>\n<p data-path-to-node=\"25,0,0\"><b>Restaurantes y Hoteles:</b> Para regeneración de platos y descongelación rápida.</p>\n</li>\n<li>\n<p data-path-to-node=\"25,1,0\"><b>Cafeterías y Panaderías:</b> Calentamiento de snacks y bebidas al instante.</p>\n</li>\n<li>\n<p data-path-to-node=\"25,2,0\"><b>Tiendas de Conveniencia:</b> Autoservicio rápido y seguro</p>\n</li>\n</ul>\n<h4>Diferencias entre este Horno Fuller (Comercial) vs. Microondas de Hogar</h4>\n<p>&nbsp;</p>\n<p data-path-to-node=\"10\">Para ayudar a tu decisión de compra, comparamos el rendimiento:</p>\n<table data-path-to-node=\"11\">\n<thead>\n<tr>\n<td><strong>Característica</strong></td>\n<td><strong>Microondas Fuller JCEM025</strong></td>\n<td><strong>Microondas Doméstico Promedio</strong></td>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><span data-path-to-node=\"11,1,0,0\"><b>Ciclo de trabajo</b></span></td>\n<td><span data-path-to-node=\"11,1,1,0\">Diseñado para +200 usos diarios continuos</span></td>\n<td><span data-path-to-node=\"11,1,2,0\">Diseñado para 5-10 usos diarios</span></td>\n</tr>\n<tr>\n<td><span data-path-to-node=\"11,2,0,0\"><b>Material</b></span></td>\n<td><span data-path-to-node=\"11,2,1,0\">Acero Inoxidable 100% (Higiénico/Norma)</span></td>\n<td><span data-path-to-node=\"11,2,2,0\">Plástico o lámina pintada</span></td>\n</tr>\n<tr>\n<td><span data-path-to-node=\"11,3,0,0\"><b>Sistema de enfriamiento</b></span></td>\n<td><span data-path-to-node=\"11,3,1,0\">Ventiladores axiales de alto flujo</span></td>\n<td><span data-path-to-node=\"11,3,2,0\">Ventilación pasiva o básica</span></td>\n</tr>\n<tr>\n<td><span data-path-to-node=\"11,4,0,0\"><b>Plato/Base</b></span></td>\n<td><span data-path-to-node=\"11,4,1,0\">Fijo (Mayor capacidad útil)</span></td>\n<td><span data-path-to-node=\"11,4,2,0\">Giratorio (Se rompe o descarrila)</span></td>\n</tr>\n<tr>\n<td><span data-path-to-node=\"11,5,0,0\"><b>Garantía</b></span></td>\n<td><span data-path-to-node=\"11,5,1,0\">Cubre uso comercial</span></td>\n<td><span data-path-to-node=\"11,5,2,0\">Se anula si se usa en negocio</span></td>\n</tr>\n</tbody>\n</table>\n<p data-path-to-node=\"15\"><b>Preguntas Frecuentes sobre el Horno JCEM025FJT</b></p>\n<ul data-path-to-node=\"16\">\n<li>\n<p data-path-to-node=\"16,0,0\"><b>¿Este microondas sirve para un restaurante de alto flujo?</b> Sí, el modelo JCEM025FJT de Fuller Machinery está clasificado como equipo de <b>uso comercial</b>. Su potencia de 1000W y construcción en acero inoxidable permiten ciclos de calentamiento repetitivos sin sobrecalentarse, ideal para horas pico en restaurantes y cafeterías.</p>\n</li>\n<li>\n<p data-path-to-node=\"16,1,0\"><b>¿Dónde puedo comprar este microondas industrial en Colombia?</b> Fuller Machinery realiza envíos directos de este equipo a nivel nacional, con sedes físicas en Bogotá (Ricaurte y villa luz) para soporte y garantía inmediata.</p>\n</li>\n<li>\n<p data-path-to-node=\"16,2,0\"><b>¿Cumple con las normas de sanidad para negocios de alimentos?</b> Absolutamente. Al estar construido enteramente en acero inoxidable (interno y externo) y tener superficies lisas, cumple con las exigencias de higiene para manipulación de alimentos en Colombia.</p>\n</li>\n</ul>\n",
+    "images": [
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/microondas-comercial-25l-acero-fuller/0.png",
+        "alt": "Horno microondas comercial 25 Litros Fuller Machinery"
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/microondas-comercial-25l-acero-fuller/1.png",
+        "alt": "Horno microondas comercial 25 Litros Fuller Machinery"
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/microondas-comercial-25l-acero-fuller/2.png",
+        "alt": "Horno microondas comercial 25 Litros Fuller Machinery"
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/microondas-comercial-25l-acero-fuller/3.png",
+        "alt": "Horno microondas comercial 25 Litros Fuller Machinery"
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/microondas-comercial-25l-acero-fuller/4.png",
+        "alt": ""
+      }
+    ],
+    "wooUrl": "https://tienda.fullermachinery.com/index.php/producto/microondas-comercial-25l-acero-fuller/"
+  },
+  {
+    "wooId": 18528,
+    "name": "AMASADORA 30 LIBRAS 2 VELOCIDADES",
+    "slug": "amasadora-industrial-30-libras-2-velocidades",
+    "price": 4968900,
+    "regularPrice": 4968900,
+    "stockStatus": "instock",
+    "currency": "COP",
+    "categories": [
+      "sin-categorizar"
+    ],
+    "specs": [],
+    "shortDescriptionHtml": "<p data-start=\"653\" data-end=\"799\">Amasadora de 30 libras con tazón en acero inoxidable, motor 2HP, velocidades 150 y 200 rpm, temporizador y botón de emergencia. Alimentación 110V.</p>\n",
+    "descriptionHtml": "<p data-start=\"857\" data-end=\"948\"><strong data-start=\"857\" data-end=\"948\">Amasadora Industrial 30 Libras | Precisión, potencia y seguridad en tu cocina comercial</strong></p>\n<p data-start=\"950\" data-end=\"1252\">Esta <strong data-start=\"955\" data-end=\"992\">amasadora industrial de 30 libras</strong> está diseñada para ofrecer un amasado eficiente, seguro y de alta calidad en panaderías, pizzerías, pastelerías y negocios gastronómicos. Su estructura compacta pero robusta está equipada con un tazón de <strong data-start=\"1197\" data-end=\"1217\">acero inoxidable</strong> y componentes de alto rendimiento.</p>\n<p data-start=\"1254\" data-end=\"1436\">Con <strong data-start=\"1258\" data-end=\"1277\">dos velocidades</strong> (150 y 200 rpm), temporizador, rejilla de seguridad y botón de parada de emergencia, es ideal para una operación continua y controlada en ambientes exigentes.</p>\n<hr data-start=\"1438\" data-end=\"1441\" />\n<h3 data-start=\"1443\" data-end=\"1479\">⚙️ <strong data-start=\"1450\" data-end=\"1479\">Características técnicas:</strong></h3>\n<ul data-start=\"1481\" data-end=\"1959\">\n<li data-start=\"1481\" data-end=\"1519\">\n<p data-start=\"1483\" data-end=\"1519\"><strong data-start=\"1483\" data-end=\"1507\">Capacidad del tazón:</strong> 30 libras</p>\n</li>\n<li data-start=\"1520\" data-end=\"1554\">\n<p data-start=\"1522\" data-end=\"1554\"><strong data-start=\"1522\" data-end=\"1535\">Material:</strong> Acero inoxidable</p>\n</li>\n<li data-start=\"1555\" data-end=\"1585\">\n<p data-start=\"1557\" data-end=\"1585\"><strong data-start=\"1557\" data-end=\"1573\">Velocidad 1:</strong> 150 r/min</p>\n</li>\n<li data-start=\"1586\" data-end=\"1616\">\n<p data-start=\"1588\" data-end=\"1616\"><strong data-start=\"1588\" data-end=\"1604\">Velocidad 2:</strong> 200 r/min</p>\n</li>\n<li data-start=\"1617\" data-end=\"1641\">\n<p data-start=\"1619\" data-end=\"1641\"><strong data-start=\"1619\" data-end=\"1632\">Potencia:</strong> 1.5 kW</p>\n</li>\n<li data-start=\"1642\" data-end=\"1664\">\n<p data-start=\"1644\" data-end=\"1664\"><strong data-start=\"1644\" data-end=\"1654\">Motor:</strong> 2.00 HP</p>\n</li>\n<li data-start=\"1665\" data-end=\"1699\">\n<p data-start=\"1667\" data-end=\"1699\"><strong data-start=\"1667\" data-end=\"1684\">Alimentación:</strong> 110V – 60 Hz</p>\n</li>\n<li data-start=\"1700\" data-end=\"1734\">\n<p data-start=\"1702\" data-end=\"1734\"><strong data-start=\"1702\" data-end=\"1725\">Peso de la máquina:</strong> 100 kg</p>\n</li>\n<li data-start=\"1735\" data-end=\"1794\">\n<p data-start=\"1737\" data-end=\"1794\"><strong data-start=\"1737\" data-end=\"1753\">Dimensiones:</strong> Alto 90 cm x Largo 75 cm x Ancho 44 cm</p>\n</li>\n<li data-start=\"1795\" data-end=\"1906\">\n<p data-start=\"1797\" data-end=\"1811\"><strong data-start=\"1797\" data-end=\"1809\">Incluye:</strong></p>\n<ul data-start=\"1814\" data-end=\"1906\">\n<li data-start=\"1814\" data-end=\"1830\">\n<p data-start=\"1816\" data-end=\"1830\">Temporizador</p>\n</li>\n<li data-start=\"1833\" data-end=\"1857\">\n<p data-start=\"1835\" data-end=\"1857\">Rejilla de seguridad</p>\n</li>\n<li data-start=\"1860\" data-end=\"1880\">\n<p data-start=\"1862\" data-end=\"1880\">Botón de apagado</p>\n</li>\n<li data-start=\"1883\" data-end=\"1906\">\n<p data-start=\"1885\" data-end=\"1906\">Botón de emergencia</p>\n</li>\n</ul>\n</li>\n<li data-start=\"1907\" data-end=\"1934\">\n<p data-start=\"1909\" data-end=\"1934\"><strong data-start=\"1909\" data-end=\"1925\">Procedencia:</strong> Taiwán</p>\n</li>\n<li data-start=\"1935\" data-end=\"1959\">\n<p data-start=\"1937\" data-end=\"1959\"><strong data-start=\"1937\" data-end=\"1950\">Garantía:</strong> 12 meses</p>\n</li>\n</ul>\n<hr data-start=\"1961\" data-end=\"1964\" />\n<h3 data-start=\"1966\" data-end=\"2002\">✅ <strong data-start=\"1972\" data-end=\"2002\">Aplicaciones recomendadas:</strong></h3>\n<ul data-start=\"2004\" data-end=\"2121\">\n<li data-start=\"2004\" data-end=\"2030\">\n<p data-start=\"2006\" data-end=\"2030\">Panaderías y pizzerías</p>\n</li>\n<li data-start=\"2031\" data-end=\"2063\">\n<p data-start=\"2033\" data-end=\"2063\">Negocios de comida artesanal</p>\n</li>\n<li data-start=\"2064\" data-end=\"2121\">\n<p data-start=\"2066\" data-end=\"2121\">Producción de masas para panes, bizcochos, pizzas y más</p>\n</li>\n</ul>\n",
+    "images": [
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/amasadora-industrial-30-libras-2-velocidades/0.png",
+        "alt": ""
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/amasadora-industrial-30-libras-2-velocidades/1.png",
+        "alt": ""
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/amasadora-industrial-30-libras-2-velocidades/2.png",
+        "alt": ""
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/amasadora-industrial-30-libras-2-velocidades/3.png",
+        "alt": ""
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/amasadora-industrial-30-libras-2-velocidades/4.png",
+        "alt": ""
+      }
+    ],
+    "wooUrl": "https://tienda.fullermachinery.com/index.php/producto/amasadora-industrial-30-libras-2-velocidades/"
+  },
+  {
+    "wooId": 17616,
+    "name": "Máquina Industrial para Donas | Alta Capacidad | Operación Continua",
+    "slug": "maquina-para-hacer-donas-industrial",
+    "price": 1099900,
+    "regularPrice": 1099900,
+    "stockStatus": "instock",
+    "currency": "COP",
+    "categories": [
+      "maquinas-de-donas",
+      "preparacion-de-alimentos",
+      "waffleras"
+    ],
+    "specs": [
+      {
+        "label": "Capacidad",
+        "value": "6 donas"
+      },
+      {
+        "label": "Diámetro de dona",
+        "value": "7 cm"
+      },
+      {
+        "label": "Profundidad de dona",
+        "value": "2 cm"
+      },
+      {
+        "label": "Material del molde",
+        "value": "Recubrimiento de teflón"
+      },
+      {
+        "label": "Voltaje",
+        "value": "110V"
+      },
+      {
+        "label": "Frecuencia",
+        "value": "60 Hz"
+      },
+      {
+        "label": "Potencia",
+        "value": "1.7 kW"
+      },
+      {
+        "label": "Rango de temperatura",
+        "value": "50°C - 300°C"
+      },
+      {
+        "label": "Dimensiones (abierta)",
+        "value": "33 cm (ancho) x 29 cm (largo) x 45 cm (alto)"
+      },
+      {
+        "label": "Peso",
+        "value": "8.4 kg"
+      }
+    ],
+    "shortDescriptionHtml": "<p>Máquina comercial para hacer 6 donas con control de temperatura y temporizador. Ideal para cafeterías y postres.</p>\n",
+    "descriptionHtml": "<p data-start=\"38\" data-end=\"217\">La <strong data-start=\"76\" data-end=\"114\">Máquina para Hacer Donas Comercial</strong> es una solución ideal para negocios que buscan preparar donas de forma rápida, uniforme y profesional.</p>\n<p data-start=\"219\" data-end=\"385\">Cuenta con capacidad para <strong data-start=\"245\" data-end=\"266\">6 donas por ciclo</strong>, permitiendo una producción práctica para cafeterías, panaderías, negocios de postres y emprendimientos gastronómicos.</p>\n<p data-start=\"387\" data-end=\"518\">Sus moldes con recubrimiento en teflón facilitan el desmolde y la limpieza, evitando que el producto se adhiera durante la cocción.</p>\n<p data-start=\"520\" data-end=\"672\">Además, incorpora control de temperatura ajustable entre <strong data-start=\"577\" data-end=\"593\">50°C y 300°C</strong>, permitiendo adaptar la preparación según el tipo de mezcla y acabado deseado.</p>\n<p data-start=\"674\" data-end=\"814\">Incluye temporizador de 1 a 5 minutos, indicadores de encendido y calentamiento, brindando mayor control y practicidad durante la operación.</p>\n<p data-start=\"816\" data-end=\"889\">Su diseño compacto y resistente está pensado para uso comercial continuo.</p>\n<h3 data-section-id=\"cczdnb\" data-start=\"896\" data-end=\"929\">🔧 Especificaciones técnicas:</h3>\n<ul data-start=\"930\" data-end=\"1036\">\n<li data-section-id=\"l46kij\" data-start=\"930\" data-end=\"947\">Voltaje: 110V</li>\n<li data-section-id=\"aijou9\" data-start=\"948\" data-end=\"968\">Frecuencia: 60Hz</li>\n<li data-section-id=\"1lm6nal\" data-start=\"969\" data-end=\"989\">Potencia: 1.7 kW</li>\n<li data-section-id=\"whgxlh\" data-start=\"990\" data-end=\"1006\">Peso: 8.4 kg</li>\n<li data-section-id=\"1qjezsd\" data-start=\"1007\" data-end=\"1036\">Temperatura: 50°C a 300°C</li>\n</ul>\n<h3 data-section-id=\"1ag3u0\" data-start=\"1043\" data-end=\"1062\">📏 Dimensiones:</h3>\n<ul data-start=\"1063\" data-end=\"1121\">\n<li data-section-id=\"1bbkfoj\" data-start=\"1063\" data-end=\"1086\">Alto abierta: 45 cm</li>\n<li data-section-id=\"1eyo6he\" data-start=\"1087\" data-end=\"1104\">Frente: 33 cm</li>\n<li data-section-id=\"m48irf\" data-start=\"1105\" data-end=\"1121\">Fondo: 29 cm</li>\n</ul>\n<h3 data-section-id=\"rowgct\" data-start=\"1128\" data-end=\"1163\">⚙️ Características principales:</h3>\n<ul data-start=\"1164\" data-end=\"1382\">\n<li data-section-id=\"6ox31j\" data-start=\"1164\" data-end=\"1199\">Producción de 6 donas por ciclo</li>\n<li data-section-id=\"1yznx93\" data-start=\"1200\" data-end=\"1238\">Moldes con recubrimiento en teflón</li>\n<li data-section-id=\"18elg9t\" data-start=\"1239\" data-end=\"1272\">Temporizador de 1 a 5 minutos</li>\n<li data-section-id=\"q6761i\" data-start=\"1273\" data-end=\"1317\">Indicadores de encendido y calentamiento</li>\n<li data-section-id=\"3acmdx\" data-start=\"1318\" data-end=\"1354\">Control de temperatura ajustable</li>\n<li data-section-id=\"16vz7rx\" data-start=\"1355\" data-end=\"1382\">Fácil limpieza y manejo</li>\n</ul>\n<h3 data-section-id=\"i3lvw\" data-start=\"1389\" data-end=\"1413\">🍩 Medidas de donas:</h3>\n<ul data-start=\"1414\" data-end=\"1454\">\n<li data-section-id=\"116ex52\" data-start=\"1414\" data-end=\"1432\">Diámetro: 7 cm</li>\n<li data-section-id=\"dzhkr6\" data-start=\"1433\" data-end=\"1454\">Profundidad: 2 cm</li>\n</ul>\n<h3 data-section-id=\"6m067p\" data-start=\"1461\" data-end=\"1486\">🎯 Usos recomendados:</h3>\n<ul data-start=\"1487\" data-end=\"1604\">\n<li data-section-id=\"atzdn9\" data-start=\"1487\" data-end=\"1501\">Cafeterías</li>\n<li data-section-id=\"1gq7056\" data-start=\"1502\" data-end=\"1516\">Panaderías</li>\n<li data-section-id=\"1cyomao\" data-start=\"1517\" data-end=\"1540\">Negocios de postres</li>\n<li data-section-id=\"y569ax\" data-start=\"1541\" data-end=\"1574\">Emprendimientos gastronómicos</li>\n<li data-section-id=\"xpja6\" data-start=\"1575\" data-end=\"1604\">Ferias y puntos de snacks</li>\n</ul>\n<h3 data-section-id=\"4dbvo4\" data-start=\"1611\" data-end=\"1638\">🛠️ Soporte y garantía:</h3>\n<ul data-start=\"1639\" data-end=\"1734\">\n<li data-section-id=\"1i1058q\" data-start=\"1639\" data-end=\"1660\">Garantía: 6 meses</li>\n<li data-section-id=\"6trb9o\" data-start=\"1661\" data-end=\"1692\">Disponibilidad de repuestos</li>\n<li data-section-id=\"xrj1xq\" data-start=\"1693\" data-end=\"1734\">Centro de servicio técnico disponible</li>\n</ul>\n<h3 data-section-id=\"13uagx5\" data-start=\"1741\" data-end=\"1765\">🚀 Beneficios clave:</h3>\n<ul data-start=\"1766\" data-end=\"1973\">\n<li data-section-id=\"12in5zr\" data-start=\"1766\" data-end=\"1802\">Producción rápida y uniforme</li>\n<li data-section-id=\"1ned0u9\" data-start=\"1803\" data-end=\"1843\">Fácil limpieza gracias al teflón</li>\n<li data-section-id=\"rge52c\" data-start=\"1844\" data-end=\"1891\">Control preciso de temperatura y tiempo</li>\n<li data-section-id=\"1k40xwk\" data-start=\"1892\" data-end=\"1936\">Ideal para venta de snacks y postres</li>\n<li data-section-id=\"iw1cqp\" data-start=\"1937\" data-end=\"1973\">Diseño compacto para negocio</li>\n</ul>\n<p data-start=\"1975\" data-end=\"2074\">\n",
+    "images": [
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/maquina-para-hacer-donas-industrial/0.png",
+        "alt": "Máquina para hacer donas compacta con moldes de Teflón y control de temperatura."
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/maquina-para-hacer-donas-industrial/1.png",
+        "alt": "Máquina para hacer donas compacta con moldes de Teflón y control de temperatura."
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/maquina-para-hacer-donas-industrial/2.png",
+        "alt": "Máquina para hacer donas compacta con moldes de Teflón y control de temperatura."
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/maquina-para-hacer-donas-industrial/3.png",
+        "alt": "Máquina para hacer donas compacta con moldes de Teflón y control de temperatura."
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/maquina-para-hacer-donas-industrial/4.png",
+        "alt": "Máquina para hacer donas compacta con moldes de Teflón y control de temperatura."
+      }
+    ],
+    "wooUrl": "https://tienda.fullermachinery.com/index.php/producto/maquina-para-hacer-donas-industrial/"
+  },
+  {
+    "wooId": 17404,
+    "name": "Batidora de Mesa | 7L | 12 Velocidades | Uso Doméstico y Comercial",
+    "slug": "batidora-7-litros-12-velocidades-copia",
+    "price": 1896000,
+    "regularPrice": 1896000,
+    "stockStatus": "instock",
+    "currency": "COP",
+    "categories": [
+      "batidoras",
+      "preparacion-de-alimentos"
+    ],
+    "specs": [
+      {
+        "label": "Material",
+        "value": "Carcasa plástica duro"
+      },
+      {
+        "label": "Capacidad",
+        "value": "7 Lt"
+      },
+      {
+        "label": "Potencia",
+        "value": "280 W"
+      },
+      {
+        "label": "Alimentación",
+        "value": "110 V"
+      },
+      {
+        "label": "Incluye",
+        "value": "Accesorios: globo, pala y gancho"
+      },
+      {
+        "label": "Garantía",
+        "value": "12 Meses"
+      }
+    ],
+    "shortDescriptionHtml": "<p data-start=\"224\" data-end=\"554\">🍰 <strong data-start=\"227\" data-end=\"315\">Batidora Profesional de 7 Litros | Potencia, versatilidad y robustez para tu negocio</strong><br data-start=\"315\" data-end=\"318\" />Esta <strong data-start=\"323\" data-end=\"347\">Batidora de 7 Litros</strong> ha sido diseñada para satisfacer las exigencias de <strong data-start=\"399\" data-end=\"488\">panaderías, hoteles, restaurantes, comedores industriales y procesadores de alimentos</strong> que buscan <strong data-start=\"500\" data-end=\"553\">rendimiento constante, higiene y facilidad de uso</strong>.</p>\n<p data-start=\"556\" data-end=\"744\">Con un <strong data-start=\"563\" data-end=\"580\">motor de 280W</strong>, esta batidora maneja una amplia gama de tareas, desde mezclar ingredientes ligeros hasta amasar masas más densas, asegurando resultados homogéneos y consistentes.</p>\n<hr data-start=\"746\" data-end=\"749\" />\n<h3 data-start=\"751\" data-end=\"788\">⭐ <strong data-start=\"757\" data-end=\"788\">Características destacadas:</strong></h3>\n<p data-start=\"790\" data-end=\"1773\">✅ <strong data-start=\"792\" data-end=\"818\">Motor potente de 280W:</strong> Capaz de trabajar de forma continua con mezclas de diferente densidad.<br data-start=\"889\" data-end=\"892\" />✅ <strong data-start=\"894\" data-end=\"921\">Velocidades ajustables:</strong> 3 velocidades preestablecidas (90, 160 y 300 rpm) y <strong data-start=\"974\" data-end=\"1009\">12 velocidades finas ajustables</strong> entre 75 y 660 rpm, para máximo control y precisión.<br data-start=\"1062\" data-end=\"1065\" />✅ <strong data-start=\"1067\" data-end=\"1092\">Accesorios incluidos:</strong> Pala mezcladora, batidor de globo y batidor de alambre, ideales para diversas preparaciones.<br data-start=\"1185\" data-end=\"1188\" />✅ <strong data-start=\"1190\" data-end=\"1216\">Capacidad de 7 litros:</strong> Perfecta para preparar cantidades medianas de alimentos.<br data-start=\"1273\" data-end=\"1276\" />✅ <strong data-start=\"1278\" data-end=\"1301\">Estructura robusta:</strong> Fabricada en acero inoxidable resistente y duradero.<br data-start=\"1354\" data-end=\"1357\" />✅ <strong data-start=\"1359\" data-end=\"1377\">Peso de 18 kg:</strong> Brinda estabilidad durante la operación, evitando vibraciones.<br data-start=\"1440\" data-end=\"1443\" />✅ <strong data-start=\"1445\" data-end=\"1470\">Rejilla de seguridad:</strong> Protección adicional para el operario.<br data-start=\"1509\" data-end=\"1512\" />✅ <strong data-start=\"1514\" data-end=\"1550\">Sistema de sube y baja de tazón:</strong> Facilita la carga y descarga de ingredientes.<br data-start=\"1596\" data-end=\"1599\" />✅ <strong data-start=\"1601\" data-end=\"1622\">Motor silencioso:</strong> Operación eficiente con bajo nivel de ruido.<br data-start=\"1667\" data-end=\"1670\" />✅ <strong data-start=\"1672\" data-end=\"1708\">Componentes de acero inoxidable:</strong> Cumplen con altos estándares de higiene y seguridad alimentaria.</p>\n<hr data-start=\"1775\" data-end=\"1778\" />\n<h3 data-start=\"1780\" data-end=\"1814\">⚙️ <strong data-start=\"1787\" data-end=\"1814\">Modo de funcionamiento:</strong></h3>\n<p data-start=\"1816\" data-end=\"1903\">1️⃣ Coloca los ingredientes en el tazón de 7L.<br data-start=\"1862\" data-end=\"1865\" />2️⃣ Selecciona la velocidad deseada:</p>\n<ul data-start=\"1907\" data-end=\"2335\">\n<li data-start=\"1907\" data-end=\"1969\">\n<p data-start=\"1909\" data-end=\"1969\">Usa las 3 velocidades preestablecidas para tareas básicas.</p>\n</li>\n<li data-start=\"1973\" data-end=\"2335\">\n<p data-start=\"1975\" data-end=\"2335\">Ajusta manualmente entre 12 niveles para mayor control y precisión.<br data-start=\"2042\" data-end=\"2045\" />3️⃣ Enciende la batidora y baja el cabezal hasta que los accesorios toquen los ingredientes.<br data-start=\"2137\" data-end=\"2140\" />4️⃣ Mezcla, bate o amasa según la receta.<br data-start=\"2181\" data-end=\"2184\" />5️⃣ Al terminar, apaga la máquina, levanta el cabezal y retira el tazón.<br data-start=\"2256\" data-end=\"2259\" />6️⃣ Limpia fácilmente gracias a sus piezas desmontables de acero inoxidable.</p>\n</li>\n</ul>\n<hr data-start=\"2337\" data-end=\"2340\" />\n<h3 data-start=\"2342\" data-end=\"2389\">🏭 <strong data-start=\"2349\" data-end=\"2389\">Industrias recomendadas en Colombia:</strong></h3>\n<ul data-start=\"2391\" data-end=\"2792\">\n<li data-start=\"2391\" data-end=\"2473\">\n<p data-start=\"2393\" data-end=\"2473\">🥖 <strong data-start=\"2396\" data-end=\"2411\">Panaderías:</strong> Masas para pan, galletas, pasteles y repostería en general.</p>\n</li>\n<li data-start=\"2474\" data-end=\"2546\">\n<p data-start=\"2476\" data-end=\"2546\">🏨 <strong data-start=\"2479\" data-end=\"2491\">Hoteles:</strong> Ideal para preparar desayunos, postres y coberturas.</p>\n</li>\n<li data-start=\"2547\" data-end=\"2621\">\n<p data-start=\"2549\" data-end=\"2621\">🍽️ <strong data-start=\"2553\" data-end=\"2570\">Restaurantes:</strong> Perfecta para salsas, cremas y aderezos frescos.</p>\n</li>\n<li data-start=\"2622\" data-end=\"2699\">\n<p data-start=\"2624\" data-end=\"2699\">🏢 <strong data-start=\"2627\" data-end=\"2654\">Comedores industriales:</strong> Mezclas para menús completos y saludables.</p>\n</li>\n<li data-start=\"2700\" data-end=\"2792\">\n<p data-start=\"2702\" data-end=\"2792\">🏭 <strong data-start=\"2705\" data-end=\"2735\">Procesadores de alimentos:</strong> Eficiente para producciones medianas de mezclas y masas.</p>\n</li>\n</ul>\n<hr data-start=\"2794\" data-end=\"2797\" />\n<h3 data-start=\"2799\" data-end=\"2838\">🎯 <strong data-start=\"2806\" data-end=\"2838\">Consideraciones adicionales:</strong></h3>\n<ul data-start=\"2840\" data-end=\"3148\">\n<li data-start=\"2840\" data-end=\"2946\">\n<p data-start=\"2842\" data-end=\"2946\">✔️ <strong data-start=\"2845\" data-end=\"2868\">Versatilidad total:</strong> 14 niveles de velocidad y 3 accesorios intercambiables para múltiples usos.</p>\n</li>\n<li data-start=\"2947\" data-end=\"3027\">\n<p data-start=\"2949\" data-end=\"3027\">✔️ <strong data-start=\"2952\" data-end=\"2976\">Higiene garantizada:</strong> Piezas de acero inoxidable de grado alimenticio.</p>\n</li>\n<li data-start=\"3028\" data-end=\"3148\">\n<p data-start=\"3030\" data-end=\"3148\">✔️ <strong data-start=\"3033\" data-end=\"3059\">Inversión inteligente:</strong> Precio accesible para negocios que necesitan equipo profesional sin comprometer calidad.</p>\n</li>\n</ul>\n",
+    "descriptionHtml": "",
+    "images": [
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/batidora-7-litros-12-velocidades-copia/0.png",
+        "alt": "Panadería: Ideal para preparar masas para pan, pasteles, galletas y otros productos horneados. Hoteles: Perfecta para elaborar desayunos, postres y otras delicias para los huéspedes. Restaurantes: Útil para crear salsas, aderezos, cremas y otras preparaciones culinarias. Comedores: Adecuada para preparar menús completos y nutritivos para los comensales. Procesadores de alimentos: Sirve para mezclar, batir y amasar grandes cantidades de ingredientes para diversos productos alimenticios."
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/batidora-7-litros-12-velocidades-copia/1.png",
+        "alt": "Panadería: Ideal para preparar masas para pan, pasteles, galletas y otros productos horneados. Hoteles: Perfecta para elaborar desayunos, postres y otras delicias para los huéspedes. Restaurantes: Útil para crear salsas, aderezos, cremas y otras preparaciones culinarias. Comedores: Adecuada para preparar menús completos y nutritivos para los comensales. Procesadores de alimentos: Sirve para mezclar, batir y amasar grandes cantidades de ingredientes para diversos productos alimenticios"
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/batidora-7-litros-12-velocidades-copia/2.png",
+        "alt": "Panadería: Ideal para preparar masas para pan, pasteles, galletas y otros productos horneados. Hoteles: Perfecta para elaborar desayunos, postres y otras delicias para los huéspedes. Restaurantes: Útil para crear salsas, aderezos, cremas y otras preparaciones culinarias. Comedores: Adecuada para preparar menús completos y nutritivos para los comensales. Procesadores de alimentos: Sirve para mezclar, batir y amasar grandes cantidades de ingredientes para diversos productos alimenticios"
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/batidora-7-litros-12-velocidades-copia/3.png",
+        "alt": "Panadería: Ideal para preparar masas para pan, pasteles, galletas y otros productos horneados. Hoteles: Perfecta para elaborar desayunos, postres y otras delicias para los huéspedes. Restaurantes: Útil para crear salsas, aderezos, cremas y otras preparaciones culinarias. Comedores: Adecuada para preparar menús completos y nutritivos para los comensales. Procesadores de alimentos: Sirve para mezclar, batir y amasar grandes cantidades de ingredientes para diversos productos alimenticios"
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/batidora-7-litros-12-velocidades-copia/4.png",
+        "alt": "Panadería: Ideal para preparar masas para pan, pasteles, galletas y otros productos horneados. Hoteles: Perfecta para elaborar desayunos, postres y otras delicias para los huéspedes. Restaurantes: Útil para crear salsas, aderezos, cremas y otras preparaciones culinarias. Comedores: Adecuada para preparar menús completos y nutritivos para los comensales. Procesadores de alimentos: Sirve para mezclar, batir y amasar grandes cantidades de ingredientes para diversos productos alimenticios"
+      }
+    ],
+    "wooUrl": "https://tienda.fullermachinery.com/index.php/producto/batidora-7-litros-12-velocidades-copia/"
+  },
+  {
+    "wooId": 16866,
+    "name": "Escabiladero Panadero | Desarmable | Ajustable | Con Rodachines | 15 Bandejas 40x60 cm | Acero Inoxidable",
+    "slug": "escabiladero-de-15-latas",
+    "price": 848900,
+    "regularPrice": 848900,
+    "stockStatus": "instock",
+    "currency": "COP",
+    "categories": [
+      "escabiladero",
+      "preparacion-de-alimentos"
+    ],
+    "specs": [
+      {
+        "label": "Material",
+        "value": "Acero inoxidable"
+      },
+      {
+        "label": "Capacidad",
+        "value": "15 Bandejas de 40 cm por 60 cm"
+      },
+      {
+        "label": "Potencia",
+        "value": "1 kW"
+      },
+      {
+        "label": "Alimentación",
+        "value": "110 V"
+      },
+      {
+        "label": "Garantía",
+        "value": "6 meses"
+      },
+      {
+        "label": "Incluye",
+        "value": "Manual de armado"
+      },
+      {
+        "label": "Medidas",
+        "value": "Alto 90 cm - 1.2 metros Largo - 60 cm ancho"
+      }
+    ],
+    "shortDescriptionHtml": "<p>Escabiladero panadero para 15 bandejas 40&#215;60 cm. Desarmable, ajustable en altura y con rodachines para fácil movilidad. Fabricado en acero inoxidable. Ideal para panaderías y fábricas de repostería.</p>\n",
+    "descriptionHtml": "<p data-start=\"379\" data-end=\"616\"><strong data-start=\"379\" data-end=\"477\">¡Organiza, enfría y exhibe tus productos horneados con el nuevo Escabiladero Fuller Machinery!</strong><br data-start=\"477\" data-end=\"480\" />Diseñado especialmente para panaderías, fábricas de masas y negocios de repostería que necesitan maximizar espacio y optimizar procesos.</p>\n<p data-start=\"618\" data-end=\"652\"><strong data-start=\"618\" data-end=\"652\">🔑 Características Destacadas:</strong></p>\n<p data-start=\"654\" data-end=\"781\">✅ <strong data-start=\"656\" data-end=\"680\">Fabricación Premium:</strong><br data-start=\"680\" data-end=\"683\" />Construido 100% en acero inoxidable de alta calidad, resistente a la corrosión y fácil de limpiar.</p>\n<p data-start=\"783\" data-end=\"944\">✅ <strong data-start=\"785\" data-end=\"811\">Dimensiones Perfectas:</strong><br data-start=\"811\" data-end=\"814\" />Altura de 170 cm, ancho de 50 cm y largo de 62 cm. Ideal para acomodar hasta 15 latas de panadería de medidas estándar 40 x 60 cm.</p>\n<p data-start=\"946\" data-end=\"1070\">✅ <strong data-start=\"948\" data-end=\"970\">Diseño Desarmable:</strong><br data-start=\"970\" data-end=\"973\" />Fácil de armar y desarmar para transporte o almacenamiento. Ahorra espacio cuando no está en uso.</p>\n<p data-start=\"1072\" data-end=\"1201\">✅ <strong data-start=\"1074\" data-end=\"1095\">Altura Ajustable:</strong><br data-start=\"1095\" data-end=\"1098\" />Incluye ajustadores para personalizar la separación entre estantes según tus necesidades de producción.</p>\n<p data-start=\"1203\" data-end=\"1336\">✅ <strong data-start=\"1205\" data-end=\"1225\">Movilidad Total:</strong><br data-start=\"1225\" data-end=\"1228\" />Equipa rodachines de alta resistencia para desplazarlo cómodamente dentro del área de trabajo, sin esfuerzo.</p>\n<hr data-start=\"1338\" data-end=\"1341\" />\n<p data-start=\"1343\" data-end=\"1558\"><strong data-start=\"1343\" data-end=\"1376\">🍞 Aplicaciones Recomendadas:</strong><br data-start=\"1376\" data-end=\"1379\" />✔️ Panaderías artesanales e industriales.<br data-start=\"1420\" data-end=\"1423\" />✔️ Fábricas de masas y pastelerías.<br data-start=\"1458\" data-end=\"1461\" />✔️ Cocinas industriales y zonas de enfriamiento.<br data-start=\"1509\" data-end=\"1512\" />✔️ Exhibición temporal de productos horneados.</p>\n<hr data-start=\"1560\" data-end=\"1563\" />\n<p data-start=\"1565\" data-end=\"1879\"><strong data-start=\"1565\" data-end=\"1588\">✨ Beneficios Clave:</strong><br data-start=\"1588\" data-end=\"1591\" />✅ Optimiza el espacio y organiza la producción.<br data-start=\"1638\" data-end=\"1641\" />✅ Facilita la manipulación y transporte de bandejas calientes o frías.<br data-start=\"1711\" data-end=\"1714\" />✅ Diseño robusto y funcional para trabajo diario intensivo.<br data-start=\"1773\" data-end=\"1776\" />✅ Desplazamiento ágil gracias a los rodachines.<br data-start=\"1823\" data-end=\"1826\" />✅ Desarmable: práctico para mudanzas o reubicaciones.</p>\n<hr data-start=\"1881\" data-end=\"1884\" />\n<p data-start=\"1886\" data-end=\"2208\"><strong data-start=\"1886\" data-end=\"1904\">📌 Conclusión:</strong><br data-start=\"1904\" data-end=\"1907\" />El <strong data-start=\"1910\" data-end=\"1943\">Escabiladero Fuller Machinery</strong> es la inversión perfecta para profesionales que buscan eficiencia, higiene y movilidad en sus procesos de panadería y repostería. Su diseño inteligente y duradero lo convierte en el aliado ideal para mejorar la productividad y mantener la calidad de tus productos.</p>\n",
+    "images": [
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/escabiladero-de-15-latas/0.png",
+        "alt": "Con unas medidas de 170 cm de altura, 50 cm de ancho y 62 cm de largo, este escabiladero ofrece un amplio espacio para enfriar y exhibir hasta 15 latas de pan o productos de repostería, con una capacidad perfecta para bandejas de hasta 40 cm de ancho y 60 cm de largo."
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/escabiladero-de-15-latas/1.png",
+        "alt": "Con unas medidas de 170 cm de altura, 50 cm de ancho y 62 cm de largo, este escabiladero ofrece un amplio espacio para enfriar y exhibir hasta 15 latas de pan o productos de repostería, con una capacidad perfecta para bandejas de hasta 40 cm de ancho y 60 cm de largo."
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/escabiladero-de-15-latas/2.png",
+        "alt": ""
+      }
+    ],
+    "wooUrl": "https://tienda.fullermachinery.com/index.php/producto/escabiladero-de-15-latas/"
+  },
+  {
+    "wooId": 16728,
+    "name": "Cortadora Tajadora de Pan | 31 Cuchillas | Corte 12mm",
+    "slug": "cortadora-de-pan-31-cuchillas",
+    "price": 3996900,
+    "regularPrice": 3996900,
+    "stockStatus": "instock",
+    "currency": "COP",
+    "categories": [
+      "equipos-industriales-preparacion-de-alimentos",
+      "preparacion-de-alimentos"
+    ],
+    "specs": [
+      {
+        "label": "Material",
+        "value": "Acero inoxidable"
+      },
+      {
+        "label": "Capacidad",
+        "value": "31 cuchillas"
+      },
+      {
+        "label": "Potencia",
+        "value": "0.37 kW"
+      },
+      {
+        "label": "Alimentación",
+        "value": "110 V"
+      },
+      {
+        "label": "Garantía",
+        "value": "6 Meses"
+      },
+      {
+        "label": "Incluye",
+        "value": "Manual"
+      }
+    ],
+    "shortDescriptionHtml": "<ul data-start=\"2637\" data-end=\"3001\">\n<li data-start=\"2637\" data-end=\"2696\">\n<p data-start=\"2639\" data-end=\"2696\">31 cuchillas de acero templado con separación de 12 mm.</p>\n</li>\n<li data-start=\"2697\" data-end=\"2757\">\n<p data-start=\"2699\" data-end=\"2757\">Base y bandejas en acero inoxidable para máxima higiene.</p>\n</li>\n<li data-start=\"2758\" data-end=\"2823\">\n<p data-start=\"2760\" data-end=\"2823\">Sistema de corte por gravedad para operación rápida y segura.</p>\n</li>\n<li data-start=\"2824\" data-end=\"2888\">\n<p data-start=\"2826\" data-end=\"2888\">Guías ajustables para personalizar el tamaño de la rebanada.</p>\n</li>\n<li data-start=\"2889\" data-end=\"2946\">\n<p data-start=\"2891\" data-end=\"2946\">Potencia: 0.37 kW | Alimentación: 110V | Peso: 67 kg.</p>\n</li>\n<li data-start=\"2947\" data-end=\"3001\">\n<p data-start=\"2949\" data-end=\"3001\">Dimensiones: 65 cm fondo x 74 cm ancho x 78 cm alto.</p>\n</li>\n</ul>\n",
+    "descriptionHtml": "<p data-start=\"587\" data-end=\"916\">La <strong data-start=\"590\" data-end=\"622\">Rebanadora de Pan Industrial</strong> es la aliada ideal para panaderías, cafeterías, hoteles y negocios gastronómicos que necesitan un corte uniforme, rápido y seguro de grandes volúmenes de pan. Construida con materiales de alta calidad, esta máquina combina robustez, precisión y practicidad para optimizar tu producción diaria.</p>\n<p data-start=\"918\" data-end=\"951\"><strong data-start=\"918\" data-end=\"951\">✅ Características Destacadas:</strong></p>\n<ul data-start=\"953\" data-end=\"2124\">\n<li data-start=\"953\" data-end=\"1103\">\n<p data-start=\"955\" data-end=\"1103\"><strong data-start=\"955\" data-end=\"977\">Estructura Sólida:</strong> Base fabricada en acero inoxidable con un espesor de 12 mm, lo que asegura estabilidad y durabilidad incluso en uso continuo.</p>\n</li>\n<li data-start=\"1104\" data-end=\"1248\">\n<p data-start=\"1106\" data-end=\"1248\"><strong data-start=\"1106\" data-end=\"1124\">Corte Preciso:</strong> Equipada con <strong data-start=\"1138\" data-end=\"1172\">31 cuchillas de acero templado</strong>, guías y tensores que garantizan un corte limpio y parejo en cada rebanada.</p>\n</li>\n<li data-start=\"1249\" data-end=\"1391\">\n<p data-start=\"1251\" data-end=\"1391\"><strong data-start=\"1251\" data-end=\"1272\">Espesor Uniforme:</strong> La separación de las cuchillas es de <strong data-start=\"1310\" data-end=\"1319\">12 mm</strong>, logrando tajadas perfectas para satisfacer la demanda de tus clientes.</p>\n</li>\n<li data-start=\"1392\" data-end=\"1531\">\n<p data-start=\"1394\" data-end=\"1531\"><strong data-start=\"1394\" data-end=\"1423\">Funcionamiento Eficiente:</strong> Su sistema de caída por gravedad facilita el paso del pan a través de las cuchillas sin esfuerzo adicional.</p>\n</li>\n<li data-start=\"1532\" data-end=\"1629\">\n<p data-start=\"1534\" data-end=\"1629\"><strong data-start=\"1534\" data-end=\"1555\">Guías Ajustables:</strong> Incorpora guías para ajustar el tamaño de la tajada según el tipo de pan.</p>\n</li>\n<li data-start=\"1630\" data-end=\"1793\">\n<p data-start=\"1632\" data-end=\"1793\"><strong data-start=\"1632\" data-end=\"1665\">Bandejas en Acero Inoxidable:</strong> Tanto la bandeja de alimentación como la de descarga están construidas en acero inoxidable para mayor higiene y fácil limpieza.</p>\n</li>\n<li data-start=\"1794\" data-end=\"1931\">\n<p data-start=\"1796\" data-end=\"1931\"><strong data-start=\"1796\" data-end=\"1822\">Dimensiones Compactas:</strong> Con medidas de <strong data-start=\"1838\" data-end=\"1888\">65 cm de fondo, 74 cm de ancho y 78 cm de alto</strong>, ocupa poco espacio en tu área de trabajo.</p>\n</li>\n<li data-start=\"1932\" data-end=\"2056\">\n<p data-start=\"1934\" data-end=\"2056\"><strong data-start=\"1934\" data-end=\"1959\">Potencia y Seguridad:</strong> Alimentación de 110V con motor de <strong data-start=\"1994\" data-end=\"2005\">0.37 kW</strong>, diseñado para operar de forma constante y segura.</p>\n</li>\n<li data-start=\"2057\" data-end=\"2124\">\n<p data-start=\"2059\" data-end=\"2124\"><strong data-start=\"2059\" data-end=\"2068\">Peso:</strong> 67 kg que aportan estabilidad al equipo durante su uso.</p>\n</li>\n</ul>\n<p data-start=\"2126\" data-end=\"2365\"><strong data-start=\"2126\" data-end=\"2150\">Aplicación Versátil:</strong><br data-start=\"2150\" data-end=\"2153\" />Perfecta para panaderías, negocios de repostería, hoteles y todo negocio que requiera una rebanadora de alto rendimiento para ofrecer pan perfectamente cortado, manteniendo la calidad y presentación del producto.</p>\n",
+    "images": [
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/cortadora-de-pan-31-cuchillas/0.png",
+        "alt": "La cortadora tajadora de pan por gravedad de 31 cuchillas de 12mm de ancho es una máquina diseñada específicamente para cortar rebanadas de pan de manera eficiente y uniforme. Consiste en una estructura robusta con cuchillas de acero templado dispuestas en serie, que permiten realizar cortes precisos y regulares en el pan. Su diseño incluye bandejas de alimentación y descarga en acero inoxidable, lo que facilita el proceso de manejo del pan y garantiza la higiene durante su uso."
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/cortadora-de-pan-31-cuchillas/1.png",
+        "alt": "La cortadora tajadora de pan por gravedad de 31 cuchillas de 12mm de ancho es una máquina diseñada específicamente para cortar rebanadas de pan de manera eficiente y uniforme. Consiste en una estructura robusta con cuchillas de acero templado dispuestas en serie, que permiten realizar cortes precisos y regulares en el pan. Su diseño incluye bandejas de alimentación y descarga en acero inoxidable, lo que facilita el proceso de manejo del pan y garantiza la higiene durante su uso."
+      }
+    ],
+    "wooUrl": "https://tienda.fullermachinery.com/index.php/producto/cortadora-de-pan-31-cuchillas/"
+  },
+  {
+    "wooId": 16587,
+    "name": "Batidora  7 Litros 11 Velocidades",
+    "slug": "batidora-7-litros-11-velocidades",
+    "price": 2290900,
+    "regularPrice": 2290900,
+    "stockStatus": "instock",
+    "currency": "COP",
+    "categories": [
+      "batidoras",
+      "preparacion-de-alimentos"
+    ],
+    "specs": [
+      {
+        "label": "Material",
+        "value": "Acero inoxidable"
+      },
+      {
+        "label": "Capacidad",
+        "value": "7 Lt"
+      },
+      {
+        "label": "Potencia",
+        "value": "280 W"
+      },
+      {
+        "label": "Alimentación",
+        "value": "110 V"
+      },
+      {
+        "label": "Incluye",
+        "value": "Accesorios: globo, pala y gancho"
+      },
+      {
+        "label": "Garantía",
+        "value": "12 Meses"
+      }
+    ],
+    "shortDescriptionHtml": "<p>Motor: 280W de potencia, capaz de manejar una amplia gama de tareas.</p>\n<p>Velocidades: 3 velocidades preestablecidas (90 rpm, 160 rpm y 300 rpm) y 11 velocidades ajustables entre 75 rpm y 660 rpm.</p>\n<p>Accesorios: Pala mezcladora, batidor de globo y batidor de alambre.</p>\n<p>Estructura: Acero inoxidable resistente y duradero.</p>\n<p>Peso: 18kg para mayor estabilidad.</p>\n<p>Características adicionales: Rejilla de seguridad, sube y baja de tazón, motor silencioso y piezas de acero inoxidable de alta calidad.</p>\n<p>Funcionamiento:</p>\n<p>&nbsp;</p>\n<p>Coloque los ingredientes en el tazón de la batidora.</p>\n<p>Seleccione la velocidad deseada:</p>\n<p>Use las velocidades preestablecidas para tareas básicas.</p>\n<p>Ajuste la velocidad manualmente para mayor control y precisión.</p>\n<p>Encienda la batidora.</p>\n<p>Baje el cabezal de la batidora hasta que los accesorios toquen los ingredientes.</p>\n<p>Mezcle los ingredientes a la velocidad deseada.</p>\n<p>Una vez que haya terminado, apague la batidora y levante el cabezal.</p>\n<p>Retire los ingredientes del tazón de la batidora.</p>\n<p>Industrias en Colombia:</p>\n<p>&nbsp;</p>\n<p>Panadería: Ideal para preparar masas para pan, pasteles, galletas y otros productos horneados.</p>\n<p>Hoteles: Perfecta para elaborar desayunos, postres y otras delicias para los huéspedes.</p>\n<p>Restaurantes: Útil para crear salsas, aderezos, cremas y otras preparaciones culinarias.</p>\n<p>Comedores: Adecuada para preparar menús completos y nutritivos para los comensales.</p>\n<p>Procesadores de alimentos: Sirve para mezclar, batir y amasar grandes cantidades de ingredientes para diversos productos alimenticios.</p>\n<p>Consideraciones adicionales:</p>\n<p>&nbsp;</p>\n<p>Capacidad: 7 litros, ideal para negocios que requieren preparar cantidades medianas de alimentos.</p>\n<p>Potencia: El motor de 280W garantiza un rendimiento eficiente en diversas tareas.</p>\n<p>Versatilidad: Las 14 velocidades y los 3 accesorios permiten utilizar la batidora para una amplia gama de aplicaciones.</p>\n<p>Higiene: Las piezas de acero inoxidable de alta calidad cumplen con los estándares de higiene, garantizando la seguridad alimentaria.</p>\n<p>Precio: Una inversión accesible para negocios que buscan una batidora comercial de calidad.</p>\n",
+    "descriptionHtml": "",
+    "images": [
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/batidora-7-litros-11-velocidades/0.png",
+        "alt": "Ideal para preparar masas para pan, pasteles, galletas y otros productos horneados. Hoteles: Perfecta para elaborar desayunos, postres y otras delicias para los huéspedes. Restaurantes: Útil para crear salsas, aderezos, cremas y otras preparaciones culinarias. Comedores: Adecuada para preparar menús completos y nutritivos para los comensales"
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/batidora-7-litros-11-velocidades/1.png",
+        "alt": ""
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/batidora-7-litros-11-velocidades/2.png",
+        "alt": "Ideal para preparar masas para pan, pasteles, galletas y otros productos horneados. Hoteles: Perfecta para elaborar desayunos, postres y otras delicias para los huéspedes. Restaurantes: Útil para crear salsas, aderezos, cremas y otras preparaciones culinarias. Comedores: Adecuada para preparar menús completos y nutritivos para los comensales"
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/batidora-7-litros-11-velocidades/3.png",
+        "alt": "Ideal para preparar masas para pan, pasteles, galletas y otros productos horneados. Hoteles: Perfecta para elaborar desayunos, postres y otras delicias para los huéspedes. Restaurantes: Útil para crear salsas, aderezos, cremas y otras preparaciones culinarias. Comedores: Adecuada para preparar menús completos y nutritivos para los comensales"
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/batidora-7-litros-11-velocidades/4.png",
+        "alt": "Ideal para preparar masas para pan, pasteles, galletas y otros productos horneados. Hoteles: Perfecta para elaborar desayunos, postres y otras delicias para los huéspedes. Restaurantes: Útil para crear salsas, aderezos, cremas y otras preparaciones culinarias. Comedores: Adecuada para preparar menús completos y nutritivos para los comensales"
+      }
+    ],
+    "wooUrl": "https://tienda.fullermachinery.com/index.php/producto/batidora-7-litros-11-velocidades/"
+  },
+  {
+    "wooId": 16581,
+    "name": "Batidora de Pedestal 30 Lt 3 Velocidades Industrial",
+    "slug": "batidora-de-pedestal-30-lt-3-velocidades-industrial",
+    "price": 4275900,
+    "regularPrice": 4275900,
+    "stockStatus": "instock",
+    "currency": "COP",
+    "categories": [
+      "batidoras",
+      "preparacion-de-alimentos"
+    ],
+    "specs": [
+      {
+        "label": "Material",
+        "value": "Acero inoxidable"
+      },
+      {
+        "label": "Capacidad",
+        "value": "30 Lt"
+      },
+      {
+        "label": "Potencia",
+        "value": "1.5 kW"
+      },
+      {
+        "label": "Alimentación",
+        "value": "110 V"
+      },
+      {
+        "label": "Incluye",
+        "value": "Accesorios: globo, pala y gancho"
+      },
+      {
+        "label": "Garantía",
+        "value": "12 Meses"
+      }
+    ],
+    "shortDescriptionHtml": "<p>La batidora de pedestal de 30 litros es una poderosa herramienta diseñada para satisfacer las demandas de negocios relacionados con la industria alimentaria. Con un diseño robusto de acero inoxidable y una capacidad generosa de 30 litros, esta máquina ofrece un rendimiento excepcional para una variedad de aplicaciones.</p>\n<p>Una de las características destacadas de esta batidora es su motor de 2.011 caballos de fuerza (hp), que garantiza un funcionamiento potente y eficiente. A pesar de su potencia, el motor funciona silenciosamente, lo que contribuye a un ambiente de trabajo más tranquilo y cómodo.</p>\n<p>Con tres velocidades ajustables, esta batidora proporciona la flexibilidad necesaria para adaptarse a diferentes tipos de preparaciones. Desde mezclas ligeras hasta masas densas, las velocidades de 125RPM, 204RPM y 483RPM permiten obtener resultados óptimos en todo momento.</p>\n<p>La inclusión de una rejilla de seguridad y un elevador de bowl garantiza la protección del operador y facilita la manipulación de los ingredientes. Además, su fácil operación hace que sea una elección ideal para diversos entornos comerciales e industriales, como panaderías, hoteles, restaurantes, comedores y otros lugares de procesamiento de alimentos.</p>\n<p>Esta batidora de pedestal está fabricada bajo altos estándares de calidad, cumpliendo así con todas las exigencias de la industria alimentaria. Su durabilidad, eficiencia y versatilidad la convierten en una inversión valiosa para cualquier negocio que requiera equipos de preparación de alimentos de alto rendimiento.</p>\n<p>En resumen, la batidora de pedestal de 30 litros es una opción confiable y eficiente para aquellos que buscan maximizar la productividad y la calidad en sus operaciones de cocina. Su combinación de potencia, capacidad y facilidad de uso la convierte en una herramienta indispensable en cualquier entorno alimentario comercial o industrial.</p>\n<p>Producto: Batidora de Pedestal de 30 Litros</p>\n<p>La batidora de pedestal de 30 litros es un equipo de cocina diseñado para mezclar, batir y amasar grandes cantidades de ingredientes de manera eficiente y uniforme. Se compone principalmente de los siguientes elementos:</p>\n<p>Material: Fabricada principalmente en acero inoxidable, lo que le otorga durabilidad, resistencia a la corrosión y facilita su limpieza.</p>\n<p>Motor: Equipada con un motor potente de 2.011 caballos de fuerza (hp), que impulsa el movimiento de la paleta o el gancho de mezcla.</p>\n<p>Bowl y Accesorios: Posee un bowl de capacidad generosa de 30 litros, en el cual se colocan los ingredientes a mezclar. Además, puede incluir accesorios como una rejilla de seguridad y un elevador de bowl para facilitar su uso y garantizar la seguridad del operador.</p>\n<p>Velocidades: Ofrece tres velocidades ajustables para adaptarse a diferentes tipos de preparaciones. Estas velocidades varían desde 125RPM para mezclas más livianas hasta 483RPM para masas más densas.</p>\n<p>Funcionamiento:</p>\n<p>El funcionamiento de la batidora de pedestal de 30 litros es relativamente simple. Se colocan los ingredientes en el bowl, se selecciona la velocidad deseada y se activa el motor. Dependiendo de la receta y de la consistencia de los ingredientes, se ajusta la velocidad para lograr el resultado deseado. El movimiento de la paleta o el gancho de mezcla dentro del bowl garantiza una mezcla uniforme y homogénea de los ingredientes.</p>\n<p>Industrias en las que podría servir:</p>\n<p>Dada su capacidad, potencia y versatilidad, la batidora de pedestal de 30 litros podría ser útil en diversas industrias relacionadas con la preparación y procesamiento de alimentos, incluyendo:</p>\n<p>Panaderías: Para la elaboración de masas de pan, pasteles, galletas y otros productos horneados.</p>\n<p>Hoteles y Restaurantes: Para preparar grandes cantidades de salsas, rellenos, masas y otros ingredientes utilizados en la cocina comercial.</p>\n<p>Comedores Industriales: Para la producción de alimentos en grandes cantidades para comedores escolares, hospitales, empresas u otras instituciones.</p>\n<p>Industria Alimentaria en General: Puede ser útil en la producción a gran escala de alimentos envasados, productos lácteos, pastelería industrial, entre otros.</p>\n",
+    "descriptionHtml": "",
+    "images": [
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/batidora-de-pedestal-30-lt-3-velocidades-industrial/0.png",
+        "alt": "Esta batidora de pedestal está fabricada bajo altos estándares de calidad, cumpliendo así con todas las exigencias de la industria alimentaria. Su durabilidad, eficiencia y versatilidad la convierten en una inversión valiosa para cualquier negocio que requiera equipos de preparación de alimentos de alto rendimiento. En resumen, la batidora de pedestal de 30 litros es una opción confiable y eficiente para aquellos que buscan maximizar la productividad y la calidad en sus operaciones de cocina. Su combinación de potencia, capacidad y facilidad de uso la convierte en una herramienta indispensable en cualquier entorno alimentario comercial o industrial. Producto: Batidora de Pedestal de 30 Litros"
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/batidora-de-pedestal-30-lt-3-velocidades-industrial/1.png",
+        "alt": "Esta batidora de pedestal está fabricada bajo altos estándares de calidad, cumpliendo así con todas las exigencias de la industria alimentaria. Su durabilidad, eficiencia y versatilidad la convierten en una inversión valiosa para cualquier negocio que requiera equipos de preparación de alimentos de alto rendimiento. En resumen, la batidora de pedestal de 30 litros es una opción confiable y eficiente para aquellos que buscan maximizar la productividad y la calidad en sus operaciones de cocina. Su combinación de potencia, capacidad y facilidad de uso la convierte en una herramienta indispensable en cualquier entorno alimentario comercial o industrial. Producto: Batidora de Pedestal de 30 Litros"
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/batidora-de-pedestal-30-lt-3-velocidades-industrial/2.png",
+        "alt": "Esta batidora de pedestal está fabricada bajo altos estándares de calidad, cumpliendo así con todas las exigencias de la industria alimentaria. Su durabilidad, eficiencia y versatilidad la convierten en una inversión valiosa para cualquier negocio que requiera equipos de preparación de alimentos de alto rendimiento. En resumen, la batidora de pedestal de 30 litros es una opción confiable y eficiente para aquellos que buscan maximizar la productividad y la calidad en sus operaciones de cocina. Su combinación de potencia, capacidad y facilidad de uso la convierte en una herramienta indispensable en cualquier entorno alimentario comercial o industrial. Producto: Batidora de Pedestal de 30 Litros"
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/batidora-de-pedestal-30-lt-3-velocidades-industrial/3.png",
+        "alt": "Esta batidora de pedestal está fabricada bajo altos estándares de calidad, cumpliendo así con todas las exigencias de la industria alimentaria. Su durabilidad, eficiencia y versatilidad la convierten en una inversión valiosa para cualquier negocio que requiera equipos de preparación de alimentos de alto rendimiento. En resumen, la batidora de pedestal de 30 litros es una opción confiable y eficiente para aquellos que buscan maximizar la productividad y la calidad en sus operaciones de cocina. Su combinación de potencia, capacidad y facilidad de uso la convierte en una herramienta indispensable en cualquier entorno alimentario comercial o industrial. Producto: Batidora de Pedestal de 30 Litros"
+      }
+    ],
+    "wooUrl": "https://tienda.fullermachinery.com/index.php/producto/batidora-de-pedestal-30-lt-3-velocidades-industrial/"
+  },
+  {
+    "wooId": 16575,
+    "name": "Batidora de Pedestal  Digital 20 Lt 3 velocidades Industrial",
+    "slug": "batidora-de-pedestal-digital-20-lt-3-velocidades-industrial",
+    "price": 3918900,
+    "regularPrice": 3918900,
+    "stockStatus": "instock",
+    "currency": "COP",
+    "categories": [
+      "batidoras",
+      "preparacion-de-alimentos"
+    ],
+    "specs": [
+      {
+        "label": "Material",
+        "value": "Acero inoxidable"
+      },
+      {
+        "label": "Capacidad",
+        "value": "20 Lt"
+      },
+      {
+        "label": "Potencia",
+        "value": "750 W"
+      },
+      {
+        "label": "Alimentación",
+        "value": "110 V"
+      },
+      {
+        "label": "Incluye",
+        "value": "Accesorios: globo, pala y gancho"
+      },
+      {
+        "label": "Garantía",
+        "value": "12 Meses"
+      }
+    ],
+    "shortDescriptionHtml": "<p>Introducimos la última innovación en tecnología de batidoras: la batidora de panel digital de 20 litros. Con una capacidad impresionante y un diseño sofisticado, esta batidora está destinada a revolucionar tu experiencia en la cocina.</p>\n<p>Diseño y Tecnología Vanguardista:</p>\n<p>El diseño de esta batidora es una combinación perfecta de funcionalidad y elegancia. Construida con materiales de primera calidad como acero inoxidable y metal industrial, garantiza durabilidad y resistencia en cualquier entorno de cocina. Su panel digital ofrece una interfaz intuitiva que facilita el control y la programación, permitiendo un manejo preciso y eficiente.</p>\n<p>Potencia y Rendimiento:</p>\n<p>Equipada con un potente motor de 750W, esta batidora es capaz de manejar hasta 6kg de masa con facilidad. Con una velocidad ajustable que varía desde 80 hasta 300 revoluciones por minuto, ofrece un rendimiento excepcional en una amplia gama de aplicaciones, desde batir hasta amasar. Los botones de menor y mayor velocidad permiten un control total sobre el proceso de mezcla, garantizando resultados perfectos en cada uso.</p>\n<p>Versatilidad y Conveniencia:</p>\n<p>Esta batidora no solo es potente, sino también versátil. Ideal para panaderías, hoteles, restaurantes y otros establecimientos de procesamiento de alimentos, se adapta a diversas necesidades culinarias con facilidad. Su rejilla de seguridad proporciona tranquilidad al operar la máquina, mientras que su motor silencioso de alta eficiencia garantiza un ambiente de trabajo cómodo y tranquilo.</p>\n<p>Higiene y Calidad:</p>\n<p>En cuanto a higiene, esta batidora cumple con los más altos estándares. Todas las partes que entran en contacto con los alimentos están fabricadas con acero inoxidable de alta calidad, garantizando la seguridad y la pureza de tus creaciones culinarias. Además, su diseño modular facilita la limpieza y el mantenimiento, asegurando un funcionamiento impecable durante años.</p>\n<p>Equipo, funcionamiento e industrias para la batidora digital de 20 litros en Colombia:</p>\n<p>Equipo:</p>\n<p>Motor: 750W de potencia, capaz de manejar hasta 6kg de masa.</p>\n<p>Velocidad: Ajustable de 80 a 300 revoluciones por minuto.</p>\n<p>Controles: Panel digital intuitivo con botones de menor y mayor velocidad.</p>\n<p>Rejilla de seguridad: Para mayor protección durante el uso.</p>\n<p>Material: Acero inoxidable y metal industrial para mayor durabilidad.</p>\n<p>Diseño: Modular para facilitar la limpieza y el mantenimiento.</p>\n<p>Funcionamiento:</p>\n<p>Encienda la batidora utilizando el interruptor de encendido/apagado.</p>\n<p>Seleccione la velocidad deseada utilizando los botones de menor y mayor velocidad.</p>\n<p>Agregue los ingredientes al tazón de la batidora.</p>\n<p>Baje el cabezal de la batidora hasta que toque los ingredientes.</p>\n<p>Encienda la batidora y deje que funcione hasta obtener la consistencia deseada.</p>\n<p>Una vez que haya terminado, apague la batidora y levante el cabezal.</p>\n<p>Retire los ingredientes del tazón de la batidora.</p>\n<p>Industrias en Colombia:</p>\n<p>Panaderías: Ideal para preparar grandes cantidades de masa para pan, pasteles, galletas y otros productos horneados.</p>\n<p>Hoteles: Perfecta para preparar desayunos, postres y otras delicias para los huéspedes.</p>\n<p>Restaurantes: Útil para crear salsas, aderezos, cremas y otras preparaciones culinarias.</p>\n<p>Pastelerías: Ideal para elaborar pasteles, tartas, cupcakes y otros postres gourmet.</p>\n<p>Procesadores de alimentos: Adecuada para mezclar, batir y amasar grandes cantidades de ingredientes para diversos productos alimenticios.</p>\n<p>Consideraciones adicionales:</p>\n<p>Tamaño: La capacidad de 20 litros la convierte en una opción ideal para negocios que requieren preparar grandes cantidades de alimentos.</p>\n<p>Potencia: El motor de 750W garantiza un rendimiento eficiente incluso con tareas exigentes.</p>\n<p>Versatilidad: La velocidad ajustable y los diversos accesorios permiten utilizar la batidora para una amplia gama de aplicaciones.</p>\n<p>Higiene: Los materiales de alta calidad y el diseño modular facilitan la limpieza y el mantenimiento.</p>\n",
+    "descriptionHtml": "",
+    "images": [
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/batidora-de-pedestal-digital-20-lt-3-velocidades-industrial/0.png",
+        "alt": "El diseño de esta batidora es una combinación perfecta de funcionalidad y elegancia. Construida con materiales de primera calidad como acero inoxidable y metal industrial, garantiza durabilidad y resistencia en cualquier entorno de cocina. Su panel digital ofrece una interfaz intuitiva que facilita el control y la programación, permitiendo un manejo preciso y eficiente. Potencia y Rendimiento"
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/batidora-de-pedestal-digital-20-lt-3-velocidades-industrial/1.png",
+        "alt": ""
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/batidora-de-pedestal-digital-20-lt-3-velocidades-industrial/2.png",
+        "alt": "El diseño de esta batidora es una combinación perfecta de funcionalidad y elegancia. Construida con materiales de primera calidad como acero inoxidable y metal industrial, garantiza durabilidad y resistencia en cualquier entorno de cocina. Su panel digital ofrece una interfaz intuitiva que facilita el control y la programación, permitiendo un manejo preciso y eficiente. Potencia y Rendimiento"
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/batidora-de-pedestal-digital-20-lt-3-velocidades-industrial/3.png",
+        "alt": "El diseño de esta batidora es una combinación perfecta de funcionalidad y elegancia. Construida con materiales de primera calidad como acero inoxidable y metal industrial, garantiza durabilidad y resistencia en cualquier entorno de cocina. Su panel digital ofrece una interfaz intuitiva que facilita el control y la programación, permitiendo un manejo preciso y eficiente. Potencia y Rendimiento"
+      }
+    ],
+    "wooUrl": "https://tienda.fullermachinery.com/index.php/producto/batidora-de-pedestal-digital-20-lt-3-velocidades-industrial/"
+  },
+  {
+    "wooId": 16570,
+    "name": "Batidora de pedestal 10 Lt 3 velocidades Industrial",
+    "slug": "batidora-de-pedestal-10-lt-3-velocidades-industrial-2",
+    "price": 2799900,
+    "regularPrice": 2799900,
+    "stockStatus": "instock",
+    "currency": "COP",
+    "categories": [
+      "batidoras",
+      "preparacion-de-alimentos"
+    ],
+    "specs": [
+      {
+        "label": "Material",
+        "value": "Acero inoxidable"
+      },
+      {
+        "label": "Capacidad",
+        "value": "10 Lt"
+      },
+      {
+        "label": "Potencia",
+        "value": "0.37 kW"
+      },
+      {
+        "label": "Alimentación",
+        "value": "110 V"
+      },
+      {
+        "label": "Incluye",
+        "value": "Accesorios : Gancho, Pala y Globo"
+      },
+      {
+        "label": "Garantía",
+        "value": "12 Meses"
+      }
+    ],
+    "shortDescriptionHtml": "<p>Dimensiones: 40 cm Ancho x 37 cm Largo x 60 Alto cm Dimensión del tazón:</p>\n<p>Capacidad: 20 litros Alimentación:110v Material: acero inoxidable Peso:70kg Frecuencia:60 Hertz Power:1,1 kW</p>\n<p>Caballo de fuerza:1,5 hp</p>\n<p>3 Velocidades:1.ª 105 rpm, 2.ª 180 rpm, 3.ª 425 rpm Incluye pala, globo y batidor</p>\n<p>Velocidades tres velocidades. Incluye: Rejilla de seguridad. Incluye: sube y baja de tazón</p>\n<p>&nbsp;</p>\n<p>Ideal para panadería, hoteles, restaurantes, comedores y otros lugares de operación o procesamiento de alimentos</p>\n<p>Motor silencioso de alta eficiencia</p>\n<p>Las partes que entran en contacto con los alimentos están hechas de acero inoxidable de alta calidad, que cumple con los estándares nacionales de higiene.</p>\n",
+    "descriptionHtml": "",
+    "images": [
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/batidora-de-pedestal-10-lt-3-velocidades-industrial-2/0.png",
+        "alt": "leva tu negocio a un nuevo nivel con la Batidora Industrial de 10 Litros, una herramienta indispensable para panaderías, hoteles, restaurantes, comedores y cualquier lugar donde se procesen alimentos a gran escala. Su diseño robusto, potencia excepcional y versatilidad la convierten en la aliada perfecta para los profesionales más exigentes."
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/batidora-de-pedestal-10-lt-3-velocidades-industrial-2/1.png",
+        "alt": "leva tu negocio a un nuevo nivel con la Batidora Industrial de 10 Litros, una herramienta indispensable para panaderías, hoteles, restaurantes, comedores y cualquier lugar donde se procesen alimentos a gran escala. Su diseño robusto, potencia excepcional y versatilidad la convierten en la aliada perfecta para los profesionales más exigentes."
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/batidora-de-pedestal-10-lt-3-velocidades-industrial-2/2.png",
+        "alt": ""
+      }
+    ],
+    "wooUrl": "https://tienda.fullermachinery.com/index.php/producto/batidora-de-pedestal-10-lt-3-velocidades-industrial-2/"
+  },
+  {
+    "wooId": 16547,
+    "name": "Batidora de pedestal 20 Lt 3 velocidades Industrial",
+    "slug": "batidora-de-pedestal-10-lt-3-velocidades-industrial",
+    "price": 3569900,
+    "regularPrice": 3569900,
+    "stockStatus": "instock",
+    "currency": "COP",
+    "categories": [
+      "batidoras",
+      "preparacion-de-alimentos"
+    ],
+    "specs": [
+      {
+        "label": "Material",
+        "value": "Acero inoxidable"
+      },
+      {
+        "label": "Capacidad",
+        "value": "20 Lt"
+      },
+      {
+        "label": "Potencia",
+        "value": "0.37 kW"
+      },
+      {
+        "label": "Alimentación",
+        "value": "110 V"
+      },
+      {
+        "label": "Incluye",
+        "value": "Accesorios : Gancho, Pala y Globo"
+      },
+      {
+        "label": "Garantía",
+        "value": "12 Meses"
+      }
+    ],
+    "shortDescriptionHtml": "<p>Dimensiones: 40 cm Ancho x 37 cm Largo x 60 Alto cm Dimensión del tazón:</p>\n<p>Capacidad: 20 litros Alimentación:110v Material: acero inoxidable Peso:70kg Frecuencia:60 Hertz Power:1,1 kW</p>\n<p>Caballo de fuerza:1,5 hp</p>\n<p>3 Velocidades:1.ª 105 rpm, 2.ª 180 rpm, 3.ª 425 rpm Incluye pala, globo y batidor</p>\n<p>Velocidades tres velocidades. Incluye: Rejilla de seguridad. Incluye: sube y baja de tazón</p>\n<p>&nbsp;</p>\n<p>Ideal para panadería, hoteles, restaurantes, comedores y otros lugares de operación o procesamiento de alimentos</p>\n<p>Motor silencioso de alta eficiencia</p>\n<p>Las partes que entran en contacto con los alimentos están hechas de acero inoxidable de alta calidad, que cumple con los estándares nacionales de higiene.</p>\n",
+    "descriptionHtml": "",
+    "images": [
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/batidora-de-pedestal-10-lt-3-velocidades-industrial/0.png",
+        "alt": "deal para panadería, hoteles, restaurantes, comedores y otros lugares de operación o procesamiento de alimentos Motor silencioso de alta eficiencia"
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/batidora-de-pedestal-10-lt-3-velocidades-industrial/1.png",
+        "alt": ""
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/batidora-de-pedestal-10-lt-3-velocidades-industrial/2.png",
+        "alt": "deal para panadería, hoteles, restaurantes, comedores y otros lugares de operación o procesamiento de alimentos Motor silencioso de alta eficiencia"
+      }
+    ],
+    "wooUrl": "https://tienda.fullermachinery.com/index.php/producto/batidora-de-pedestal-10-lt-3-velocidades-industrial/"
+  },
+  {
+    "wooId": 16535,
+    "name": "AMASADORA INDUSTRIAL 50 LIBRAS | MOTOR 3HP",
+    "slug": "amasadora-industrial-50-libras-20kg-110v",
+    "price": 6128900,
+    "regularPrice": 6128900,
+    "stockStatus": "instock",
+    "currency": "COP",
+    "categories": [
+      "amasadoras",
+      "preparacion-de-alimentos"
+    ],
+    "specs": [
+      {
+        "label": "Material",
+        "value": "Acero inoxidable"
+      },
+      {
+        "label": "Alimentación",
+        "value": "110 V"
+      },
+      {
+        "label": "Capacidad",
+        "value": "50 Lb"
+      },
+      {
+        "label": "Potencia",
+        "value": "2.2 kW"
+      },
+      {
+        "label": "Garantía",
+        "value": "12 meses"
+      },
+      {
+        "label": "Incluye",
+        "value": "Manual"
+      }
+    ],
+    "shortDescriptionHtml": "<p>Amasadora industrial de 50 libras (20 kg) con tazón de acero inoxidable, motor 3HP, reversa automática, temporizador y rejilla de seguridad. Alimentación 110V.</p>\n",
+    "descriptionHtml": "<p data-start=\"876\" data-end=\"951\"><strong data-start=\"876\" data-end=\"951\">Amasadora Industrial 50 Libras | Potencia y precisión para tu panadería</strong></p>\n<p data-start=\"953\" data-end=\"1229\">Diseñada para entornos exigentes, esta <strong data-start=\"992\" data-end=\"1029\">amasadora industrial de 50 libras</strong> es ideal para preparar masas de pan, pizza, bizcochos y más. Su tazón de acero inoxidable de <strong data-start=\"1123\" data-end=\"1167\">52 cm de diámetro y 30 cm de profundidad</strong> ofrece una capacidad de trabajo de hasta <strong data-start=\"1209\" data-end=\"1218\">20 kg</strong> por carga.</p>\n<p data-start=\"1231\" data-end=\"1570\">Equipada con un motor de <strong data-start=\"1256\" data-end=\"1280\">3 caballos de fuerza</strong>, trabaja a una velocidad de 250 RPM en el gancho y 25 RPM en el tazón, brindando una mezcla homogénea en cada uso. Su <strong data-start=\"1399\" data-end=\"1421\">función de reversa</strong> mejora el amasado, y la operación asistida, junto al <strong data-start=\"1475\" data-end=\"1517\">temporizador y la rejilla de seguridad</strong>, garantizan eficiencia y protección en todo momento.</p>\n<hr data-start=\"1572\" data-end=\"1575\" />\n<h3 data-start=\"1577\" data-end=\"1613\">⚙️ <strong data-start=\"1584\" data-end=\"1613\">Características técnicas:</strong></h3>\n<ul data-start=\"1615\" data-end=\"2153\">\n<li data-start=\"1615\" data-end=\"1675\">\n<p data-start=\"1617\" data-end=\"1675\"><strong data-start=\"1617\" data-end=\"1641\">Capacidad del tazón:</strong> 50 libras / 20 kg / 1.6 arrobas</p>\n</li>\n<li data-start=\"1676\" data-end=\"1709\">\n<p data-start=\"1678\" data-end=\"1709\"><strong data-start=\"1678\" data-end=\"1701\">Diámetro del tazón:</strong> 52 cm</p>\n</li>\n<li data-start=\"1710\" data-end=\"1746\">\n<p data-start=\"1712\" data-end=\"1746\"><strong data-start=\"1712\" data-end=\"1738\">Profundidad del tazón:</strong> 30 cm</p>\n</li>\n<li data-start=\"1747\" data-end=\"1784\">\n<p data-start=\"1749\" data-end=\"1784\"><strong data-start=\"1749\" data-end=\"1774\">Velocidad del gancho:</strong> 250 RPM</p>\n</li>\n<li data-start=\"1785\" data-end=\"1820\">\n<p data-start=\"1787\" data-end=\"1820\"><strong data-start=\"1787\" data-end=\"1811\">Velocidad del tazón:</strong> 25 RPM</p>\n</li>\n<li data-start=\"1821\" data-end=\"1845\">\n<p data-start=\"1823\" data-end=\"1845\"><strong data-start=\"1823\" data-end=\"1836\">Potencia:</strong> 2.2 kW</p>\n</li>\n<li data-start=\"1846\" data-end=\"1865\">\n<p data-start=\"1848\" data-end=\"1865\"><strong data-start=\"1848\" data-end=\"1858\">Motor:</strong> 3 HP</p>\n</li>\n<li data-start=\"1866\" data-end=\"1892\">\n<p data-start=\"1868\" data-end=\"1892\"><strong data-start=\"1868\" data-end=\"1885\">Alimentación:</strong> 110V</p>\n</li>\n<li data-start=\"1893\" data-end=\"1939\">\n<p data-start=\"1895\" data-end=\"1939\"><strong data-start=\"1895\" data-end=\"1937\">Requiere breaker independiente de 30 A</strong></p>\n</li>\n<li data-start=\"1940\" data-end=\"1971\">\n<p data-start=\"1942\" data-end=\"1971\"><strong data-start=\"1942\" data-end=\"1962\">Peso sin guacal:</strong> 168 kg</p>\n</li>\n<li data-start=\"1972\" data-end=\"2001\">\n<p data-start=\"1974\" data-end=\"2001\"><strong data-start=\"1974\" data-end=\"1992\">Peso empacada:</strong> 178 kg</p>\n</li>\n<li data-start=\"2002\" data-end=\"2074\">\n<p data-start=\"2004\" data-end=\"2074\"><strong data-start=\"2004\" data-end=\"2033\">Dimensiones (sin guacal):</strong> 88 cm alto x 92 cm largo x 53 cm ancho</p>\n</li>\n<li data-start=\"2075\" data-end=\"2153\">\n<p data-start=\"2077\" data-end=\"2153\"><strong data-start=\"2077\" data-end=\"2089\">Incluye:</strong> operación asistida, reversa, temporizador, rejilla de seguridad</p>\n</li>\n</ul>\n<hr data-start=\"2155\" data-end=\"2158\" />\n<h3 data-start=\"2160\" data-end=\"2188\">✅ <strong data-start=\"2166\" data-end=\"2188\">Usos recomendados:</strong></h3>\n<p data-start=\"2190\" data-end=\"2332\">Ideal para panaderías, pizzerías, pastelerías, fábricas de alimentos y negocios que requieren alta producción de masa con control y seguridad.</p>\n",
+    "images": [
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/amasadora-industrial-50-libras-20kg-110v/0.png",
+        "alt": "La amasadora moledora de masas de 50 libras es una máquina diseñada para amasar grandes cantidades de masa de manera eficiente y uniforme. Está compuesta por varios elementos que contribuyen a su funcionamiento."
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/amasadora-industrial-50-libras-20kg-110v/1.png",
+        "alt": "La amasadora moledora de masas de 50 libras es una máquina diseñada para amasar grandes cantidades de masa de manera eficiente y uniforme. Está compuesta por varios elementos que contribuyen a su funcionamiento."
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/amasadora-industrial-50-libras-20kg-110v/2.png",
+        "alt": "La amasadora moledora de masas de 50 libras es una máquina diseñada para amasar grandes cantidades de masa de manera eficiente y uniforme. Está compuesta por varios elementos que contribuyen a su funcionamiento."
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/amasadora-industrial-50-libras-20kg-110v/3.png",
+        "alt": "La amasadora moledora de masas de 50 libras es una máquina diseñada para amasar grandes cantidades de masa de manera eficiente y uniforme. Está compuesta por varios elementos que contribuyen a su funcionamiento."
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/amasadora-industrial-50-libras-20kg-110v/4.png",
+        "alt": ""
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/amasadora-industrial-50-libras-20kg-110v/5.png",
+        "alt": ""
+      }
+    ],
+    "wooUrl": "https://tienda.fullermachinery.com/index.php/producto/amasadora-industrial-50-libras-20kg-110v/"
+  },
+  {
+    "wooId": 16503,
+    "name": "Amasadora Moledora 20 Libras | 2 Velocidades | Motor 2.0HP",
+    "slug": "amasadora-moledora-20-libras-uso-comercial",
+    "price": 3998900,
+    "regularPrice": 3998900,
+    "stockStatus": "instock",
+    "currency": "COP",
+    "categories": [
+      "amasadoras",
+      "preparacion-de-alimentos"
+    ],
+    "specs": [
+      {
+        "label": "Material",
+        "value": "Acero inoxidable"
+      },
+      {
+        "label": "Alimentación",
+        "value": "110 V"
+      },
+      {
+        "label": "Capacidad",
+        "value": "20 lb"
+      },
+      {
+        "label": "Potencia",
+        "value": "1.5 kW"
+      },
+      {
+        "label": "Garantía",
+        "value": "12 meses"
+      },
+      {
+        "label": "Incluye",
+        "value": "Manual"
+      }
+    ],
+    "shortDescriptionHtml": "<p data-start=\"713\" data-end=\"873\">Amasadora moledora de 20 lb con tazón en acero inoxidable, 2 velocidades, temporizador, botón de emergencia y motor 2.0HP. Perfecta para panaderías y pizzerías.</p>\n",
+    "descriptionHtml": "<p data-start=\"931\" data-end=\"1023\"><strong data-start=\"931\" data-end=\"1023\">Amasadora Moledora 20 Libras | Precisión y potencia para tu negocio de panadería o pizza</strong></p>\n<p data-start=\"1025\" data-end=\"1323\">La <strong data-start=\"1028\" data-end=\"1072\">amasadora moledora de masas de 20 libras</strong> está diseñada para optimizar el proceso de mezcla y amasado de masas granuladas en entornos comerciales. Es perfecta para panaderías, pizzerías, pastelerías y negocios de producción media que requieren eficiencia, seguridad y resultados consistentes.</p>\n<p data-start=\"1325\" data-end=\"1615\">Con su <strong data-start=\"1332\" data-end=\"1361\">tazón en acero inoxidable</strong>, garantiza una operación higiénica, resistente y fácil de limpiar. Sus <strong data-start=\"1433\" data-end=\"1452\">dos velocidades</strong> (lenta y rápida) permiten adaptar el amasado según el tipo de preparación, y su motor de <strong data-start=\"1542\" data-end=\"1552\">2.0 HP</strong> con potencia de <strong data-start=\"1569\" data-end=\"1579\">1.5 kW</strong> ofrece un trabajo ágil y eficiente.</p>\n<hr data-start=\"1617\" data-end=\"1620\" />\n<h3 data-start=\"1622\" data-end=\"1661\">⚙️ <strong data-start=\"1629\" data-end=\"1661\">Características principales:</strong></h3>\n<ul data-start=\"1663\" data-end=\"1995\">\n<li data-start=\"1663\" data-end=\"1691\">\n<p data-start=\"1665\" data-end=\"1691\"><strong data-start=\"1665\" data-end=\"1679\">Capacidad:</strong> 20 libras</p>\n</li>\n<li data-start=\"1692\" data-end=\"1736\">\n<p data-start=\"1694\" data-end=\"1736\"><strong data-start=\"1694\" data-end=\"1717\">Material del tazón:</strong> Acero inoxidable</p>\n</li>\n<li data-start=\"1737\" data-end=\"1772\">\n<p data-start=\"1739\" data-end=\"1772\"><strong data-start=\"1739\" data-end=\"1755\">Velocidades:</strong> Lenta y rápida</p>\n</li>\n<li data-start=\"1773\" data-end=\"1845\">\n<p data-start=\"1775\" data-end=\"1845\"><strong data-start=\"1775\" data-end=\"1787\">Incluye:</strong> Rejilla de seguridad, temporizador, botón de emergencia</p>\n</li>\n<li data-start=\"1846\" data-end=\"1870\">\n<p data-start=\"1848\" data-end=\"1870\"><strong data-start=\"1848\" data-end=\"1861\">Potencia:</strong> 1.5 kW</p>\n</li>\n<li data-start=\"1871\" data-end=\"1892\">\n<p data-start=\"1873\" data-end=\"1892\"><strong data-start=\"1873\" data-end=\"1883\">Motor:</strong> 2.0 HP</p>\n</li>\n<li data-start=\"1893\" data-end=\"1958\">\n<p data-start=\"1895\" data-end=\"1958\"><strong data-start=\"1895\" data-end=\"1911\">Dimensiones:</strong> 90 cm (alto) x 73 cm (largo) x 40 cm (ancho)</p>\n</li>\n<li data-start=\"1959\" data-end=\"1995\">\n<p data-start=\"1961\" data-end=\"1995\"><strong data-start=\"1961\" data-end=\"1988\">Alimentación eléctrica:</strong> 110V</p>\n</li>\n</ul>\n<hr data-start=\"1997\" data-end=\"2000\" />\n<h3 data-start=\"2002\" data-end=\"2031\">🧑‍🍳 <strong data-start=\"2012\" data-end=\"2031\">Funcionamiento:</strong></h3>\n<p data-start=\"2033\" data-end=\"2104\">Ideal para masas con al menos <strong data-start=\"2063\" data-end=\"2097\">60% de humedad y 40% de harina</strong>, como:</p>\n<ul data-start=\"2106\" data-end=\"2212\">\n<li data-start=\"2106\" data-end=\"2124\">\n<p data-start=\"2108\" data-end=\"2124\">Panes de queso</p>\n</li>\n<li data-start=\"2125\" data-end=\"2138\">\n<p data-start=\"2127\" data-end=\"2138\">Bizcochos</p>\n</li>\n<li data-start=\"2139\" data-end=\"2159\">\n<p data-start=\"2141\" data-end=\"2159\">Masas para pizza</p>\n</li>\n<li data-start=\"2160\" data-end=\"2212\">\n<p data-start=\"2162\" data-end=\"2212\">Otras masas granuladas de repostería y panadería</p>\n</li>\n</ul>\n<p data-start=\"2214\" data-end=\"2396\">Solo debes verter los ingredientes en el tazón, seleccionar la velocidad adecuada y programar el temporizador. La máquina se encarga del resto con un amasado homogéneo y profesional.</p>\n<hr data-start=\"2398\" data-end=\"2401\" />\n<h3 data-start=\"2403\" data-end=\"2443\">🏭 <strong data-start=\"2410\" data-end=\"2443\">Aplicaciones en la industria:</strong></h3>\n<ul data-start=\"2445\" data-end=\"2545\">\n<li data-start=\"2445\" data-end=\"2459\">\n<p data-start=\"2447\" data-end=\"2459\">Panaderías</p>\n</li>\n<li data-start=\"2460\" data-end=\"2475\">\n<p data-start=\"2462\" data-end=\"2475\">Pastelerías</p>\n</li>\n<li data-start=\"2476\" data-end=\"2489\">\n<p data-start=\"2478\" data-end=\"2489\">Pizzerías</p>\n</li>\n<li data-start=\"2490\" data-end=\"2545\">\n<p data-start=\"2492\" data-end=\"2545\">Restaurantes y negocios con producción media de masas</p>\n</li>\n</ul>\n<hr data-start=\"2547\" data-end=\"2550\" />\n<h3 data-start=\"2552\" data-end=\"2579\">✅ <strong data-start=\"2558\" data-end=\"2579\">Beneficios clave:</strong></h3>\n<ul data-start=\"2581\" data-end=\"2786\">\n<li data-start=\"2581\" data-end=\"2625\">\n<p data-start=\"2583\" data-end=\"2625\">Operación segura con botón de emergencia</p>\n</li>\n<li data-start=\"2626\" data-end=\"2660\">\n<p data-start=\"2628\" data-end=\"2660\">Mezcla homogénea y profesional</p>\n</li>\n<li data-start=\"2661\" data-end=\"2714\">\n<p data-start=\"2663\" data-end=\"2714\">Compacta y fácil de instalar en espacios pequeños</p>\n</li>\n<li data-start=\"2715\" data-end=\"2786\">\n<p data-start=\"2717\" data-end=\"2786\">Ideal para negocios que necesitan eficiencia sin sacrificar calidad</p>\n</li>\n</ul>\n",
+    "images": [
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/amasadora-moledora-20-libras-uso-comercial/0.png",
+        "alt": "amasadora mojadora 20 libras perfecta para cafeterias, panaderias y cocinas que necesiten automatizar el amase de sus masas"
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/amasadora-moledora-20-libras-uso-comercial/1.png",
+        "alt": "La amasadora moledora de masas de 20 libras es una máquina diseñada para simplificar y agilizar el proceso de amasado de masas granuladas en entornos comerciales. Con una capacidad de 20 libras y características específicas para facilitar su uso, esta máquina se destaca por su eficiencia y versatilidad en la preparación de una amplia variedad de productos horneados."
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/amasadora-moledora-20-libras-uso-comercial/2.png",
+        "alt": "La amasadora moledora de masas de 20 libras es una máquina diseñada para simplificar y agilizar el proceso de amasado de masas granuladas en entornos comerciales. Con una capacidad de 20 libras y características específicas para facilitar su uso, esta máquina se destaca por su eficiencia y versatilidad en la preparación de una amplia variedad de productos horneados."
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/amasadora-moledora-20-libras-uso-comercial/3.png",
+        "alt": ""
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/amasadora-moledora-20-libras-uso-comercial/4.png",
+        "alt": ""
+      }
+    ],
+    "wooUrl": "https://tienda.fullermachinery.com/index.php/producto/amasadora-moledora-20-libras-uso-comercial/"
+  },
+  {
+    "wooId": 16496,
+    "name": "Horno 3 Cabinas 6 Latas a Gas",
+    "slug": "horno-3-cabinas-6-latas-a-gas",
+    "price": 12980900,
+    "regularPrice": 12980900,
+    "stockStatus": "instock",
+    "currency": "COP",
+    "categories": [
+      "hornos",
+      "preparacion-de-alimentos"
+    ],
+    "specs": [
+      {
+        "label": "Material",
+        "value": "Acero inoxidable"
+      },
+      {
+        "label": "Capacidad",
+        "value": "6 bandejas de 65cm por 55cm"
+      },
+      {
+        "label": "Potencia",
+        "value": "-2.8 kpa"
+      },
+      {
+        "label": "Alimentación",
+        "value": "Gas propano y gas natural y elecricidad 110 V"
+      },
+      {
+        "label": "Incluye",
+        "value": "Manual y chimenea extractora de humo"
+      },
+      {
+        "label": "Garantia",
+        "value": "12 Meses"
+      }
+    ],
+    "shortDescriptionHtml": "<p>El horno multiusos «Horno 3 Cabinas 6 Bandejas» es una solución de alta gama para panaderías, pizzerías, y establecimientos de preparación de carnes y otros alimentos. Este equipo, fabricado en acero inoxidable calibre 304, ofrece robustez y durabilidad, combinado con la flexibilidad de operar con gas natural o propano. Sus características avanzadas lo hacen ideal para negocios que requieren un rendimiento confiable y versátil.</p>\n<p>Características y Especificaciones</p>\n<p>Dimensiones del Equipo (sin caja de empaque):</p>\n<p>Altura: 180 cm</p>\n<p>Ancho: 134 cm</p>\n<p>Largo: 90 cm</p>\n<p>Dimensiones del Equipo (empacado):</p>\n<p>Altura: 186 cm</p>\n<p>Ancho: 144 cm</p>\n<p>Largo: 100 cm</p>\n<p>Especificaciones Técnicas:</p>\n<p>Calibre del Acero: 304</p>\n<p>Alimentación de Gas: 2.8 kPa</p>\n<p>Alimentación Eléctrica: 110V, 50 Hz</p>\n<p>Material: Acero inoxidable</p>\n<p>Dimensiones de las Cabinas:</p>\n<p>Ancho: 86 cm</p>\n<p>Largo: 65 cm</p>\n<p>Alto: 25 cm</p>\n<p>Capacidades y Funcionalidades:</p>\n<p>Número de Cabinas: 3</p>\n<p>Número de Latas o Bandejas: 6</p>\n<p>Rango de Temperatura: Máxima de 400°C y Mínima de 50°C</p>\n<p>Tipo de Gas: Gas Propano o Gas Natural</p>\n<p>Evaluación del Diseño</p>\n<p>El diseño del Horno 3 Cabinas 6 Bandejas  es una muestra de ingeniería enfocada en la durabilidad y la eficiencia. Su construcción en acero inoxidable calibre 304 garantiza una resistencia superior a la corrosión, ideal para entornos de cocina intensivos. Las dimensiones del equipo permiten una capacidad significativa sin comprometer la ergonomía y el espacio en la cocina.</p>\n<p>Rendimiento</p>\n<p>Con una alimentación eléctrica de 110V y una capacidad de operar tanto con gas natural como con propano, este horno ofrece una flexibilidad notable para diversas configuraciones de energía. El amplio rango de temperatura, que va desde 50°C hasta 400°C, permite una cocción precisa y adaptable para una variedad de alimentos, desde panes hasta carnes.</p>\n<p>Usabilidad</p>\n<p>El Horno 3 Cabinas 6 Bandejas está diseñado para ser fácil de operar y mantener. La disposición de tres cabinas proporciona la capacidad de manejar múltiples preparaciones simultáneamente, aumentando la eficiencia en la cocina. Las bandejas grandes permiten una distribución uniforme del calor, asegurando que los productos se cocinen de manera consistente.</p>\n<p>Versatilidad</p>\n<p>Este horno es ideal para panaderías, pizzerías y establecimientos de carnes debido a su capacidad de manejar diferentes tipos de cocción. La opción de usar gas natural o propano le da una ventaja adicional en términos de versatilidad y adaptabilidad a diferentes entornos de trabajo.</p>\n<p>Conclusión</p>\n<p>El Horno 3 Cabinas 6 Bandejas es un horno multiusos de alta capacidad fabricado en acero inoxidable calibre 304. Diseñado para satisfacer las necesidades de cocción de panaderías, pizzerías, y establecimientos de preparación de carnes y otros alimentos, este horno ofrece una combinación de robustez, versatilidad y eficiencia. Con una configuración de tres cabinas y la capacidad de albergar hasta seis bandejas, este equipo es ideal para operaciones culinarias que requieren una producción simultánea y diversificada.</p>\n<p>Funcionamiento del Producto</p>\n<p>El «Horno 3 Cabinas 6 Bandejas» opera utilizando una combinación de alimentación eléctrica y de gas, lo que le permite una gran flexibilidad en diferentes entornos. Aquí se describe su funcionamiento básico:</p>\n<p>Fuente de Energía: El horno puede alimentarse mediante gas propano o gas natural, con una presión de alimentación de 2.8 kPa. También requiere una conexión eléctrica de 110V y una frecuencia de 50 Hz para operar los controles y otros componentes eléctricos.</p>\n<p>Control de Temperatura: El horno permite un control preciso de la temperatura, con un rango que va desde 50°C hasta 400°C. Esto se maneja a través de termostatos ajustables que permiten al usuario establecer la temperatura deseada para cada cabina de cocción.</p>\n<p>Distribución del Calor: Las tres cabinas del horno están diseñadas para distribuir el calor de manera uniforme, asegurando que todos los alimentos se cocinen de manera consistente. El diseño en acero inoxidable ayuda a mantener una temperatura constante y eficiente.</p>\n<p>Capacidad y Espacio: Cada cabina tiene dimensiones de 86 cm de ancho, 65 cm de largo y 25 cm de alto, lo que permite acomodar bandejas grandes. En total, el horno puede albergar seis bandejas, optimizando el espacio para una mayor producción.</p>\n<p>Operación y Mantenimiento: El horno está diseñado para ser fácil de usar, con controles intuitivos para la temperatura y el tiempo de cocción. El acero inoxidable facilita la limpieza y el mantenimiento, asegurando una larga vida útil del equipo.</p>\n<p>Industrias en las que se Utiliza</p>\n<p>El Horno 3 Cabinas 6 Bandejas es especialmente útil en varias industrias culinarias debido a su capacidad de manejar diferentes tipos de cocción y su eficiencia operativa. Algunas de las industrias clave incluyen:</p>\n<p>Panaderías:</p>\n<p>Ideal para la cocción de una variedad de productos de panadería como panes, pasteles y galletas.</p>\n<p>La capacidad de mantener una temperatura constante y la distribución uniforme del calor aseguran resultados perfectos en cada lote.</p>\n<p>Pizzerías:</p>\n<p>Perfecto para hornear pizzas de diferentes tamaños y estilos, garantizando una corteza crujiente y bien cocida.</p>\n<p>La opción de operar a altas temperaturas (hasta 400°C) es especialmente beneficiosa para cocinar pizzas rápidamente.</p>\n<p>Carnicerías y Restaurantes de Carnes:</p>\n<p>Adecuado para la cocción de grandes cantidades de carnes, incluyendo asados, costillas y aves.</p>\n<p>La versatilidad en el control de la temperatura permite adaptarse a diferentes métodos de cocción, desde el asado lento hasta la cocción rápida a alta temperatura.</p>\n<p>Catering y Servicios de Banquetes:</p>\n<p>Su capacidad para manejar múltiples preparaciones simultáneamente lo hace ideal para eventos grandes y servicios de catering.</p>\n<p>La facilidad de transporte y la robustez del diseño aseguran que el horno pueda manejar un uso intensivo sin problemas.</p>\n<p>Establecimientos de Comidas Rápidas:</p>\n<p>Utilizado para la preparación rápida y eficiente de una variedad de alimentos, desde horneados hasta carnes y vegetales.</p>\n<p>La velocidad y la consistencia del rendimiento del horno ayudan a mantener un flujo constante de productos en entornos de alta demanda.</p>\n<p>En resumen, el Horno 3 Cabinas 6 Bandejas es una herramienta versátil y esencial en cualquier entorno culinario profesional, ofreciendo una combinación de durabilidad, eficiencia y flexibilidad para satisfacer diversas necesidades de cocción.</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n",
+    "descriptionHtml": "",
+    "images": [
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-3-cabinas-6-latas-a-gas/0.png",
+        "alt": "El horno multiusos \"Horno 3 Cabinas 6 Bandejas\" es una solución de alta gama para panaderías, pizzerías, y establecimientos de preparación de carnes y otros alimentos. Este equipo, fabricado en acero inoxidable calibre 304, ofrece robustez y durabilidad, combinado con la flexibilidad de operar con gas natural o propano. Sus características avanzadas lo hacen ideal para negocios que requieren un rendimiento confiable y versátil."
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-3-cabinas-6-latas-a-gas/1.png",
+        "alt": "El horno multiusos \"Horno 3 Cabinas 6 Bandejas\" es una solución de alta gama para panaderías, pizzerías, y establecimientos de preparación de carnes y otros alimentos. Este equipo, fabricado en acero inoxidable calibre 304, ofrece robustez y durabilidad, combinado con la flexibilidad de operar con gas natural o propano. Sus características avanzadas lo hacen ideal para negocios que requieren un rendimiento confiable y versátil."
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-3-cabinas-6-latas-a-gas/2.png",
+        "alt": "El horno multiusos \"Horno 3 Cabinas 6 Bandejas\" es una solución de alta gama para panaderías, pizzerías, y establecimientos de preparación de carnes y otros alimentos. Este equipo, fabricado en acero inoxidable calibre 304, ofrece robustez y durabilidad, combinado con la flexibilidad de operar con gas natural o propano. Sus características avanzadas lo hacen ideal para negocios que requieren un rendimiento confiable y versátil."
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-3-cabinas-6-latas-a-gas/3.png",
+        "alt": "El horno multiusos \"Horno 3 Cabinas 6 Bandejas\" es una solución de alta gama para panaderías, pizzerías, y establecimientos de preparación de carnes y otros alimentos. Este equipo, fabricado en acero inoxidable calibre 304, ofrece robustez y durabilidad, combinado con la flexibilidad de operar con gas natural o propano. Sus características avanzadas lo hacen ideal para negocios que requieren un rendimiento confiable y versátil."
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-3-cabinas-6-latas-a-gas/4.png",
+        "alt": "El horno multiusos \"Horno 3 Cabinas 6 Bandejas\" es una solución de alta gama para panaderías, pizzerías, y establecimientos de preparación de carnes y otros alimentos. Este equipo, fabricado en acero inoxidable calibre 304, ofrece robustez y durabilidad, combinado con la flexibilidad de operar con gas natural o propano. Sus características avanzadas lo hacen ideal para negocios que requieren un rendimiento confiable y versátil."
+      }
+    ],
+    "wooUrl": "https://tienda.fullermachinery.com/index.php/producto/horno-3-cabinas-6-latas-a-gas/"
+  },
+  {
+    "wooId": 15714,
+    "name": "Horno 2 Cabinas - 4 Latas",
+    "slug": "horno-2-cabinas-4-latas",
+    "price": 9311900,
+    "regularPrice": 9311900,
+    "stockStatus": "instock",
+    "currency": "COP",
+    "categories": [
+      "hornos"
+    ],
+    "specs": [
+      {
+        "label": "Material",
+        "value": "Acero inoxidable"
+      },
+      {
+        "label": "Garantía",
+        "value": "12 meses"
+      },
+      {
+        "label": "Temperatura",
+        "value": "Temperatura mínima: 50° - Máxima: 400°"
+      },
+      {
+        "label": "Alimentación",
+        "value": "Gas natural o propanoa y electricidad 110 V"
+      },
+      {
+        "label": "Potencia",
+        "value": "2.8 kpa"
+      },
+      {
+        "label": "Incluye",
+        "value": "Manual , regulador de gas a pipeta, y chimenea"
+      }
+    ],
+    "shortDescriptionHtml": "<p>&nbsp;</p>\n<p>El horno industrial multiusos de 2 cabinas es un equipo de cocción robusto y versátil, diseñado para satisfacer las necesidades de panaderías, pastelerías y otras industrias culinarias que requieren un alto volumen de producción. Este horno cuenta con dos cabinas independientes, cada una capaz de alojar hasta 4 latas de tamaño tradicional, permitiendo una cocción eficiente y uniforme de diversos productos.</p>\n<p>&nbsp;</p>\n<p>¿Cómo Funciona?</p>\n<p>Estructura y Material:</p>\n<p>&nbsp;</p>\n<p>Construcción: Fabricado en acero inoxidable, lo que proporciona durabilidad, resistencia a la corrosión y facilidad de limpieza.</p>\n<p>Dimensiones de Cabina: Cada cabina mide 25 cm de alto, 88 cm de ancho y 66 cm de largo.</p>\n<p>Capacidad y Configuración:</p>\n<p>&nbsp;</p>\n<p>Latas de Panadería: Cada cabina puede contener 4 latas, sumando un total de 8 latas para todo el horno.</p>\n<p>Rodachines: Equipado con rodachines para facilitar el movimiento y reposicionamiento del horno dentro del área de trabajo.</p>\n<p>Control de Temperatura:</p>\n<p>&nbsp;</p>\n<p>Rango de Temperatura: De 50 a 400 grados Celsius.</p>\n<p>Controladores Independientes: Cada cabina tiene sus propios controladores de temperatura, permitiendo ajustes específicos para diferentes tipos de cocción.</p>\n<p>Operación:</p>\n<p>&nbsp;</p>\n<p>Alimentación: Funciona con gas natural o propano.</p>\n<p>Botones de Control: Incluye un botón de temporizador (time) y un botón de luz en cada cabina para monitorear el proceso de cocción.</p>\n<p>Mangos de Compuerta: Hechos de material sintético para una manipulación segura.</p>\n<p>Proceso de Cocción:</p>\n<p>&nbsp;</p>\n<p>Preparación: Coloque los productos a hornear en las latas y ajuste los controladores de temperatura y tiempo según las necesidades específicas de la receta.</p>\n<p>Cocción: El horno se calienta a la temperatura deseada y mantiene una cocción uniforme gracias a la distribución eficiente del calor en cada cabina.</p>\n<p>Monitoreo: Los operadores pueden supervisar el proceso a través de las luces de cabina y ajustar los parámetros según sea necesario.</p>\n<p>¿En Qué Industrias se Utiliza?</p>\n<p>Industria de Panadería y Pastelería:</p>\n<p>&nbsp;</p>\n<p>Horneado de Pan: Ideal para todo tipo de panes, incluyendo baguettes, bollos y panes artesanales.</p>\n<p>Productos de Hojaldre: Excelente para hornear croissants, empanadas y otros productos de hojaldre.</p>\n<p>Tortas y Pasteles: Permite una cocción uniforme de tortas, pasteles y muffins.</p>\n<p>Industria de Pizzería:</p>\n<p>&nbsp;</p>\n<p>Horneado de Pizzas: Garantiza una cocción perfecta de la masa y los ingredientes, proporcionando una base crujiente y coberturas bien cocidas.</p>\n<p>Restauración y Catering:</p>\n<p>&nbsp;</p>\n<p>Preparación de Carnes: Adecuado para cocinar carnes, ofreciendo versatilidad para diferentes recetas y métodos de cocción.</p>\n<p>Cocina Multifuncional: Utilizable para una variedad de preparaciones, desde hornear hasta asar y gratinar.</p>\n<p>Industria Alimentaria General:</p>\n<p>&nbsp;</p>\n<p>Cocción de Productos Diversos: Adecuado para una amplia gama de productos alimentarios que requieren cocción a altas temperaturas.</p>\n<p>Producción en Masa: Ideal para empresas que necesitan producir grandes volúmenes de alimentos de manera rápida y eficiente.</p>\n<p>Hoteles y Grandes Cocinas:</p>\n<p>&nbsp;</p>\n<p>Servicio de Alimentos: Perfecto para hoteles y grandes cocinas que sirven a un gran número de comensales, proporcionando una cocción uniforme y eficiente.</p>\n<p>Conclusión</p>\n<p>El horno industrial multiusos de 2 cabinas es una herramienta esencial para cualquier negocio que necesite una cocción eficiente y de alta capacidad. Con su construcción robusta, control preciso de temperatura y facilidad de uso, es ideal para panaderías, pastelerías, pizzerías, y otras industrias alimentarias. Su versatilidad y durabilidad aseguran una operación confiable y de alta calidad</p>\n<p>&nbsp;</p>\n",
+    "descriptionHtml": "",
+    "images": [
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-2-cabinas-4-latas/0.png",
+        "alt": "Horno 2 cabinas 4 latas"
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-2-cabinas-4-latas/1.png",
+        "alt": "Horno 2 cabinas 4 latas abierto apagado"
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-2-cabinas-4-latas/2.png",
+        "alt": "Horno 2 cabinas 4 latas abierto"
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-2-cabinas-4-latas/3.png",
+        "alt": "Horno 2 cabinas 4 latas encendido"
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-2-cabinas-4-latas/4.png",
+        "alt": "Horno 2 cabinas 4 latas frontal"
+      }
+    ],
+    "wooUrl": "https://tienda.fullermachinery.com/index.php/producto/horno-2-cabinas-4-latas/"
+  },
+  {
+    "wooId": 15706,
+    "name": "Horno Panderia 1 Cabina - 2 Latas",
+    "slug": "horno-1-cabina-2-latas",
+    "price": 4690900,
+    "regularPrice": 4690900,
+    "stockStatus": "instock",
+    "currency": "COP",
+    "categories": [
+      "hornos"
+    ],
+    "specs": [
+      {
+        "label": "Material",
+        "value": "Acero inoxidable"
+      },
+      {
+        "label": "Garantía",
+        "value": "12 meses"
+      },
+      {
+        "label": "Temperatura",
+        "value": "Temperatura mínima: 40° - Máxima: 400°"
+      },
+      {
+        "label": "Alimentación",
+        "value": "110 V y gas natural"
+      },
+      {
+        "label": "Capacidad",
+        "value": "2 Bandejas"
+      },
+      {
+        "label": "Potencia",
+        "value": "2.8 kpa"
+      },
+      {
+        "label": "Incluye",
+        "value": "Manual y Extractor de humo"
+      }
+    ],
+    "shortDescriptionHtml": "<p>El horno multiusos es una pieza esencial de equipamiento diseñada para satisfacer las necesidades culinarias de panaderías, pizzerías, pastelerías y más. Con su capacidad versátil y rendimiento confiable, este horno ofrece una solución integral para la preparación de una amplia variedad de productos horneados.</p>\n<p>&nbsp;</p>\n<p>Características Destacadas:</p>\n<p>&nbsp;</p>\n<p>Diseño Compacto y Funcional: Con una cabina espaciosa que permite el uso de 2 latas o bandejas de 60cm x 40cm, este horno es ideal para espacios de trabajo de tamaño mediano. Con sus medidas externas de 65cm de alto, 134cm de ancho y 90cm de fondo, se adapta fácilmente a diferentes entornos de cocina.</p>\n<p>&nbsp;</p>\n<p>Rango de Temperatura Amplio: Desde una temperatura mínima de 40°C hasta una máxima de 400°C, este horno ofrece la flexibilidad necesaria para hornear una variedad de productos, desde pan fresco hasta pizzas crujientes y pasteles delicados. Su precisión en el control de temperatura garantiza resultados consistentes en cada horneado.</p>\n<p>&nbsp;</p>\n<p>Eficiencia Energética: Con un voltaje de 110V y un consumo de gas de 2.8kpa, este horno ofrece un equilibrio óptimo entre rendimiento y eficiencia energética. Su diseño con 2 quemadores de techo y piso asegura una distribución uniforme del calor, maximizando así la eficacia del proceso de horneado.</p>\n<p>&nbsp;</p>\n<p>Construcción Duradera: Fabricado con materiales de alta calidad y un peso de 140kg, este horno garantiza durabilidad y resistencia en entornos de cocina exigentes. Su diseño robusto y confiable lo convierte en una inversión a largo plazo para cualquier negocio de alimentación.</p>\n<p>&nbsp;</p>\n<p>Usos Versátiles:</p>\n<p>&nbsp;</p>\n<p>Panaderías: Perfecto para hornear una amplia variedad de panes, desde baguettes crujientes hasta bollos esponjosos, gracias a su capacidad para manejar múltiples bandejas simultáneamente.</p>\n<p>&nbsp;</p>\n<p>Pizzerías: Logra resultados profesionales con pizzas perfectamente doradas y crujientes, gracias a su capacidad para alcanzar altas temperaturas y su distribución uniforme del calor.</p>\n<p>&nbsp;</p>\n<p>Pastelerías: Ideal para la elaboración de deliciosos pasteles, galletas y otros postres, gracias a su precisión en el control de temperatura y su versatilidad para adaptarse a diferentes necesidades de horneado.</p>\n<p>&nbsp;</p>\n<p>En resumen, el horno multiusos es una herramienta indispensable para cualquier negocio de cocina que busque maximizar su capacidad de producción y ofrecer productos horneados de calidad superior. Su diseño versátil, eficiencia energética y rendimiento confiable lo convierten en una elección inteligente para panaderías, pizzerías, pastelerías y más.</p>\n",
+    "descriptionHtml": "",
+    "images": [
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-1-cabina-2-latas/0.png",
+        "alt": "Horno 1 Cabinas 2 Latas"
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-1-cabina-2-latas/1.png",
+        "alt": "Horno 1 Cabinas 2 Latas"
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-1-cabina-2-latas/2.png",
+        "alt": ""
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-1-cabina-2-latas/3.png",
+        "alt": "Horno 1 Cabinas 2 Latas vista 3"
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-1-cabina-2-latas/4.png",
+        "alt": "Horno 1 Cabinas 2 Latas abierto"
+      }
+    ],
+    "wooUrl": "https://tienda.fullermachinery.com/index.php/producto/horno-1-cabina-2-latas/"
+  },
+  {
+    "wooId": 15697,
+    "name": "Horno para Panadería 3 Cabinas - 3 Latas",
+    "slug": "horno-para-panaderia-3-cabinas-3-latas",
+    "price": 8513900,
+    "regularPrice": 8513900,
+    "stockStatus": "instock",
+    "currency": "COP",
+    "categories": [
+      "hornos"
+    ],
+    "specs": [
+      {
+        "label": "Material",
+        "value": "Acero inoxidable"
+      },
+      {
+        "label": "Garantía",
+        "value": "12 meses"
+      },
+      {
+        "label": "Alimentación",
+        "value": "A gas propano y gas natural y electricidad 110 V"
+      },
+      {
+        "label": "Capacidad",
+        "value": "3 Bandejas de 65 cm por 55 cm"
+      },
+      {
+        "label": "Potencia",
+        "value": "2.8kpa"
+      },
+      {
+        "label": "Incluye",
+        "value": "Manual y chimenea extractora de humo"
+      }
+    ],
+    "shortDescriptionHtml": "<p>El Horno 3 Cabinas 3 Bandejas es una herramienta de cocina robusta y versátil, diseñada para satisfacer las necesidades de panaderías, pizzerías y otros establecimientos culinarios. Fabricado en acero inoxidable, este horno ofrece durabilidad y eficiencia, junto con la flexibilidad de operar con gas natural o propano. Su diseño de tres cabinas independientes con temporizadores individuales y fogones separados lo convierte en una opción ideal para diversas aplicaciones culinarias.</p>\n<p>Características y Especificaciones</p>\n<p>Dimensiones del Equipo:</p>\n<p>Altura: 162 cm</p>\n<p>Ancho: 100 cm</p>\n<p>Largo: 74 cm</p>\n<p>Dimensiones de las Cabinas:</p>\n<p>Alto: 17 cm</p>\n<p>Ancho: 65 cm</p>\n<p>Fondo: 55 cm</p>\n<p>Especificaciones Técnicas:</p>\n<p>Peso: 180 kg</p>\n<p>Material: Acero inoxidable</p>\n<p>Número de Cabinas: 3</p>\n<p>Alimentación: Gas natural o propano</p>\n<p>Funciones y Componentes:</p>\n<p>Temporizador: Cada una de las tres cabinas tiene su propio temporizador, lo que permite un control preciso del tiempo de cocción.</p>\n<p>Fogones Independientes: Cada cabina cuenta con tres hornillas o fogones independientes, asegurando una distribución uniforme del calor.</p>\n<p>Chimenea: Incluye una chimenea para una ventilación adecuada y la eliminación de gases de combustión.</p>\n<p>Adaptabilidad: El horno puede funcionar con gas natural o propano, lo que brinda flexibilidad según la disponibilidad de combustible.</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>Evaluación del Diseño</p>\n<p>El diseño del «Horno 3 Cabinas 3 Bandejas» es sólido y funcional. La construcción en acero inoxidable garantiza una larga vida útil y resistencia a la corrosión, ideal para entornos de cocina intensivos. Las dimensiones del horno permiten una capacidad significativa sin ocupar demasiado espacio en la cocina, mientras que las cabinas bien dimensionadas aseguran una cocción eficiente y uniforme.</p>\n<p>Rendimiento</p>\n<p>Este horno multiusos es notable por su capacidad de mantener una temperatura constante y uniforme gracias a los fogones independientes en cada cabina. La opción de utilizar gas natural o propano proporciona flexibilidad y adaptabilidad en diferentes entornos de trabajo. Los temporizadores individuales para cada cabina permiten a los usuarios gestionar múltiples preparaciones simultáneamente, mejorando la eficiencia en la cocina.</p>\n<p>Usabilidad</p>\n<p>El «Horno 3 Cabinas 3 Bandejas» está diseñado para ser fácil de usar y mantener. Los controles intuitivos y los temporizadores individuales facilitan la operación del horno, mientras que el acero inoxidable simplifica la limpieza y el mantenimiento. La chimenea integrada asegura una adecuada ventilación, eliminando eficazmente los gases de combustión y mejorando la seguridad en la cocina.</p>\n<p>Versatilidad</p>\n<p>Este horno es extremadamente versátil y adecuado para una amplia gama de aplicaciones culinarias, incluyendo:</p>\n<p>Hojaldre: Su capacidad de mantener temperaturas constantes y uniformes es ideal para la cocción precisa de productos de hojaldre.</p>\n<p>Pan: Perfecto para la cocción de diferentes tipos de pan, asegurando una textura crujiente por fuera y suave por dentro.</p>\n<p>Pizza: Adecuado para hornear pizzas con una corteza perfecta, ya sea delgada o gruesa.</p>\n<p>Tortas: Excelente para la cocción de tortas, proporcionando un horneado uniforme y consistente.</p>\n<p>Carnes: Su diseño permite una cocción eficiente de diferentes tipos de carnes, manteniendo jugosidad y sabor.</p>\n<p>El «Horno 3 Cabinas 3 Bandejas» es un horno multiusos de alta capacidad fabricado en acero inoxidable, diseñado para aplicaciones comerciales en panaderías, pizzerías y otros establecimientos culinarios. Este horno está compuesto por tres cabinas independientes, cada una con su propio temporizador y tres fogones, lo que permite una cocción precisa y versátil. La robustez de su construcción y la flexibilidad de operar con gas natural o propano lo convierten en una opción ideal para diversas necesidades de cocción profesional.</p>\n<p>Funcionamiento del Producto</p>\n<p>El Horno 3 Cabinas 3 Bandejas opera utilizando una combinación de alimentación de gas (natural o propano) y control eléctrico para temporizadores. A continuación, se describe su funcionamiento básico:</p>\n<p>Fuente de Energía: El horno puede funcionar con gas natural o propano, lo que ofrece flexibilidad según la disponibilidad del combustible. Esto se maneja a través de conexiones de gas estandarizadas que suministran el combustible a los fogones en cada cabina.</p>\n<p>Control de Temperatura y Tiempo: Cada cabina está equipada con tres fogones independientes que aseguran una distribución uniforme del calor. Los controles de temperatura permiten ajustar el nivel de calor según las necesidades específicas de cada preparación. Además, cada cabina cuenta con su propio temporizador, lo que permite un control preciso del tiempo de cocción para diferentes alimentos simultáneamente.</p>\n<p>Distribución del Calor: Los fogones independientes en cada cabina garantizan que el calor se distribuya de manera uniforme, evitando puntos calientes o fríos que podrían afectar la calidad de la cocción.</p>\n<p>Ventilación: La chimenea integrada asegura una ventilación adecuada, eliminando eficientemente los gases de combustión y mejorando la seguridad y el ambiente en la cocina.</p>\n<p>Capacidad y Espacio: Las dimensiones de las cabinas (alto de 17 cm, ancho de 64 cm, fondo de 54 cm) permiten una cocción eficiente de diferentes tipos de alimentos. En total, el horno puede acomodar tres bandejas, optimizando el espacio para una producción diversificada.</p>\n<p>Material y Construcción: Fabricado en acero inoxidable, el horno es resistente a la corrosión y fácil de limpiar, lo que asegura una larga vida útil y un mantenimiento sencillo.</p>\n<p>Industrias en las que se Utiliza</p>\n<p>El Horno 3 Cabinas 3 Bandejas es altamente versátil y adecuado para varias industrias culinarias debido a su capacidad de manejar diferentes tipos de cocción y su eficiencia operativa. Algunas de las industrias clave incluyen:</p>\n<p>Panaderías:</p>\n<p>Ideal para la cocción de una variedad de productos de panadería como panes, pasteles y galletas.</p>\n<p>La capacidad de mantener una temperatura constante y la distribución uniforme del calor aseguran resultados perfectos en cada lote.</p>\n<p>Pizzerías:</p>\n<p>Perfecto para hornear pizzas con una corteza perfecta, ya sea delgada o gruesa.</p>\n<p>La opción de operar a altas temperaturas es especialmente beneficiosa para cocinar pizzas rápidamente y con resultados consistentes.</p>\n<p>Restaurantes y Carnicerías:</p>\n<p>Adecuado para la cocción de grandes cantidades de carnes, incluyendo asados, costillas y aves.</p>\n<p>La versatilidad en el control de la temperatura permite adaptarse a diferentes métodos de cocción, desde el asado lento hasta la cocción rápida a alta temperatura.</p>\n<p>Catering y Servicios de Banquetes:</p>\n<p>Su capacidad para manejar múltiples preparaciones simultáneamente lo hace ideal para eventos grandes y servicios de catering.</p>\n<p>La facilidad de transporte y la robustez del diseño aseguran que el horno pueda manejar un uso intensivo sin problemas.</p>\n<p>Pastelerías:</p>\n<p>Excelente para la cocción de tortas y otros productos de repostería, proporcionando un horneado uniforme y consistente.</p>\n<p>Los temporizadores individuales permiten gestionar diferentes productos con distintos tiempos de cocción simultáneamente.</p>\n",
+    "descriptionHtml": "",
+    "images": [
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-para-panaderia-3-cabinas-3-latas/0.png",
+        "alt": "Horno 3 cabinas 3 latas en acero inoxidable"
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-para-panaderia-3-cabinas-3-latas/1.png",
+        "alt": "Horno 3 cabinas 3 latas"
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-para-panaderia-3-cabinas-3-latas/2.png",
+        "alt": "Horno 3 cabinas 3 latas acero inoxidable"
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-para-panaderia-3-cabinas-3-latas/3.png",
+        "alt": "Horno 3 cabinas 3 latas acero inoxidable"
+      }
+    ],
+    "wooUrl": "https://tienda.fullermachinery.com/index.php/producto/horno-para-panaderia-3-cabinas-3-latas/"
+  },
+  {
+    "wooId": 15693,
+    "name": "Horno Asador de Pollos - 30 unidades",
+    "slug": "horno-asador-de-pollos-30-unidades",
+    "price": 9002900,
+    "regularPrice": 9002900,
+    "stockStatus": "instock",
+    "currency": "COP",
+    "categories": [
+      "hornos"
+    ],
+    "specs": [
+      {
+        "label": "Material",
+        "value": "Acero inoxidable"
+      },
+      {
+        "label": "Garantía",
+        "value": "6 meses"
+      },
+      {
+        "label": "Capacidad",
+        "value": "30 Pollos"
+      },
+      {
+        "label": "Alimentación",
+        "value": "Gas natural o propano"
+      }
+    ],
+    "shortDescriptionHtml": "<p>Qué es es el equipo?</p>\n<ol start=\"2\">\n<li>Este tipo de horno es un equipo especializado utilizado en la industria de la restauración y la cocina comercial para asar pollos en grandes cantidades. Su capacidad para asar hasta 30 pollos a la vez lo hace ideal para restaurantes, rostiserías, comedores industriales, y otros establecimientos de comida que requieren producir grandes volúmenes de pollo asado.</li>\n<li>¿Cómo funciona? El funcionamiento de un horno para pollos de esta capacidad suele ser bastante simple pero efectivo. Los pollos se colocan en brochetas que se insertan en el horno, el cual está equipado con quemadores o elementos calefactores que generan calor. Estos quemadores pueden controlarse independientemente para ajustar la temperatura y garantizar una cocción uniforme en todos los pollos. El calor generado por los quemadores asa los pollos gradualmente, resultando en una piel dorada y crujiente por fuera y una carne tierna y jugosa por dentro.</li>\n<li>¿En qué industrias sirve? El horno para pollos de capacidad para 30 pollos es una herramienta esencial en varias industrias relacionadas con la preparación y venta de alimentos. Se utiliza comúnmente en:</li>\n</ol>\n<ul>\n<li>Restaurantes: Tanto en establecimientos de comida rápida como en restaurantes de servicio completo, donde se ofrece pollo asado como plato principal o parte de un menú variado.</li>\n<li>Rotiserías: Establecimientos especializados en la venta de pollo asado para llevar o consumir en el lugar.</li>\n<li>Catering y Eventos: En servicios de catering para eventos como bodas, fiestas y reuniones corporativas, donde se sirve comida a un gran número de personas.</li>\n<li>Industria Hotelera: Hoteles y resorts que ofrecen pollo asado como parte de su oferta gastronómica para los huéspedes.</li>\n<li>Establecimientos de Comida para llevar: Lugares donde los clientes pueden comprar pollos asados enteros o por partes para llevar a casa y disfrutar en familia.</li>\n</ul>\n<p>En resumen, un horno para pollos de capacidad para 30 pollos es una herramienta esencial en la industria de la restauración y la cocina comercial, ya que permite asar grandes volúmenes de pollo de manera eficiente y uniforme. Su versatilidad y capacidad para producir pollo asado de alta calidad lo hacen invaluable en una variedad de industrias relacionadas con la preparación y venta de alimentos.</p>\n",
+    "descriptionHtml": "",
+    "images": [
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-asador-de-pollos-30-unidades/0.png",
+        "alt": "Horno para asar pollos 30 pollos"
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-asador-de-pollos-30-unidades/1.png",
+        "alt": "Horno para Pollos Industrial Capacidad 30Unds"
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-asador-de-pollos-30-unidades/2.png",
+        "alt": ""
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-asador-de-pollos-30-unidades/3.png",
+        "alt": "EQUIPOS DE COCCIÓN, HORNOS, PREPARACIÓN DE ALIMENTOS Tags: HORNO, horno de pollo, horno para negocio, hornodepollos"
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-asador-de-pollos-30-unidades/4.png",
+        "alt": "Horno asador de pollos a gas capacidad 30 pollos"
+      }
+    ],
+    "wooUrl": "https://tienda.fullermachinery.com/index.php/producto/horno-asador-de-pollos-30-unidades/"
+  },
+  {
+    "wooId": 15681,
+    "name": "Horno 2 Cabinas para Pizza con Piedra Refractaria",
+    "slug": "horno-2-cabinas-para-pizza-con-piedra-refractaria",
+    "price": 8998900,
+    "regularPrice": 8998900,
+    "stockStatus": "instock",
+    "currency": "COP",
+    "categories": [
+      "hornos"
+    ],
+    "specs": [
+      {
+        "label": "Material",
+        "value": "Acero inoxidable"
+      },
+      {
+        "label": "Temperatura",
+        "value": "20 a 400 grados."
+      },
+      {
+        "label": "Voltaje",
+        "value": "110 Vol. Presión De Gas:2.8 Kpa"
+      },
+      {
+        "label": "Capacidad",
+        "value": "2 Cabinas"
+      },
+      {
+        "label": "Potencia",
+        "value": "2.8 kpa"
+      },
+      {
+        "label": "Alimentación",
+        "value": "Gas natural -Gas propano"
+      },
+      {
+        "label": "Incluye",
+        "value": "Manual- Chimena"
+      },
+      {
+        "label": "Garantia",
+        "value": "12 meses"
+      }
+    ],
+    "shortDescriptionHtml": "<ol>\n<li>Que es el equipo: Horno con Piedra Refractaria: La piedra refractaria es un material capaz de soportar altas temperaturas y distribuir el calor de manera uniforme. En un horno para pizza, la piedra refractaria ayuda a crear una base crujiente y bien cocida para la pizza, ya que retiene y distribuye el calor de manera eficiente.</li>\n<li>Doble Cabina: La presencia de dos cabinas significa que el horno tiene dos espacios de cocción independientes. Esto es beneficioso para aquellos que desean cocinar diferentes tipos de pizzas o alimentos al mismo tiempo, ya que pueden ajustar las temperaturas de cada cabina según sus necesidades.</li>\n</ol>\n<p>Estos hornos a menudo se utilizan en entornos comerciales como pizzerías o restaurantes, donde la demanda de pizzas u otros alimentos horneados es alta y diversa. Al tener dos cabinas, los chefs pueden gestionar múltiples órdenes simultáneamente, optimizando el tiempo y la eficiencia de cocción.</p>\n<p>Es posible que estos hornos también incluyan características adicionales, como controles de temperatura precisos, temporizadores, y sistemas de ventilación para mantener un ambiente de cocción óptimo. Además, algunos modelos pueden ser eléctricos, a gas o incluso de leña, dependiendo de las preferencias y necesidades del usuario.</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>Como funciona :</p>\n<ol>\n<li>Encendido y Preparación:</li>\n</ol>\n<ul>\n<li>Para los modelos eléctricos, simplemente se conecta a la fuente de energía y se enciende.</li>\n<li>En los modelos a gas, se enciende el suministro de gas y se enciende el quemador.</li>\n</ul>\n<ol start=\"2\">\n<li>Calentamiento:</li>\n</ol>\n<ul>\n<li>El horno comienza a calentarse, y la piedra refractaria ubicada en el interior absorbe el calor.</li>\n</ul>\n<ol start=\"3\">\n<li>Control de Temperatura:</li>\n</ol>\n<ul>\n<li>Muchos hornos modernos tienen controles de temperatura precisos que permiten ajustar y mantener la temperatura deseada en cada una de las cabinas.</li>\n</ul>\n<ol start=\"4\">\n<li>Cocción en Piedra Refractaria:</li>\n</ol>\n<ul>\n<li>La piedra refractaria acumula calor y lo distribuye de manera uniforme en la superficie de cocción. Esto es crucial para lograr una cocción uniforme y una base crujiente para la pizza.</li>\n</ul>\n<ol start=\"5\">\n<li>Cabinas Independientes:</li>\n</ol>\n<ul>\n<li>Si tienes un horno de doble cabina, cada cabina puede funcionar de manera independiente. Puedes ajustar la temperatura de cada cabina según los requisitos de cocción específicos para los diferentes alimentos que estás preparando.</li>\n</ul>\n<ol start=\"6\">\n<li>Introducción de Alimentos:</li>\n</ol>\n<ul>\n<li>Una vez que el horno ha alcanzado la temperatura deseada, puedes colocar los alimentos directamente sobre la piedra refractaria.</li>\n</ul>\n<ol start=\"7\">\n<li>Cocción y Control:</li>\n</ol>\n<ul>\n<li>Durante el proceso de cocción, puedes monitorear el estado de los alimentos y ajustar la temperatura según sea necesario.</li>\n</ul>\n<ol start=\"8\">\n<li>Finalización:</li>\n</ol>\n<ul>\n<li>Cuando los alimentos están listos, se retiran del horno. La piedra refractaria seguirá liberando calor, por lo que es posible que la cocción continúe incluso después de sacar los alimentos. Este es un aspecto que los chefs suelen tener en cuenta.</li>\n</ul>\n<p>Es importante seguir las instrucciones del fabricante y ajustar los controles según las necesidades específicas de cada receta. El objetivo es lograr una cocción perfecta y consistente, aprovechando las propiedades de la piedra refractaria y la capacidad de tener cabinas independientes.</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>En que industrias sirve:</p>\n<ol>\n<li>Pizzerías y Restaurantes de Pizza:</li>\n</ol>\n<ul>\n<li>Son ideales para la cocción de pizzas debido a la capacidad de la piedra refractaria para crear una base crujiente.</li>\n</ul>\n<ol start=\"2\">\n<li>Panaderías:</li>\n</ol>\n<ul>\n<li>Los hornos de doble cabina permiten a las panaderías gestionar múltiples lotes de pan y productos de panadería al mismo tiempo.</li>\n</ul>\n<ol start=\"3\">\n<li>Restaurantes Italianos:</li>\n</ol>\n<ul>\n<li>En restaurantes que sirven una variedad de platos italianos, estos hornos pueden ser utilizados para cocinar pizzas, lasañas, calzone y otros platos horneados.</li>\n</ul>\n<ol start=\"4\">\n<li>Catering y Servicios de Alimentación:</li>\n</ol>\n<ul>\n<li>Para eventos y servicios de catering que requieren la preparación de alimentos horneados en grandes cantidades.</li>\n</ul>\n<ol start=\"5\">\n<li>Comida Rápida y Food Trucks:</li>\n</ol>\n<ul>\n<li>Algunos food trucks y establecimientos de comida rápida también emplean este tipo de hornos para ofrecer pizzas y otros productos horneados.</li>\n</ul>\n<ol start=\"6\">\n<li>Hoteles y Resorts:</li>\n</ol>\n<ul>\n<li>En la industria hotelera, estos hornos pueden ser utilizados en cocinas para ofrecer opciones de pizza a los huéspedes.</li>\n</ul>\n<ol start=\"7\">\n<li>Centros de Entretenimiento y Parques Temáticos:</li>\n</ol>\n<ul>\n<li>En lugares donde se sirven alimentos a gran escala, estos hornos pueden ser una elección popular para la preparación de pizzas y otros platos horneados.</li>\n</ul>\n<ol start=\"8\">\n<li>Escuelas de Cocina y Centros de Formación Culinaria:</li>\n</ol>\n<ul>\n<li>Para la enseñanza y práctica de técnicas de cocina, especialmente en la preparación de alimentos horneados.</li>\n</ul>\n<p>Es importante señalar que la versatilidad de estos hornos no se limita solo a la pizza; también pueden ser utilizados para cocinar una variedad de alimentos horneados, desde pan y pasteles hasta platos de horno más elaborados. Su capacidad para gestionar múltiples lotes de alimentos al mismo tiempo los hace valiosos en entornos de cocina comercial.</p>\n",
+    "descriptionHtml": "",
+    "images": [
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-2-cabinas-para-pizza-con-piedra-refractaria/0.png",
+        "alt": "Horno para pizza 2 cabinas Piedra refractaria abierto"
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-2-cabinas-para-pizza-con-piedra-refractaria/1.png",
+        "alt": "Horno para pizza 2 cabinas Piedra refractaria puertas cerradas"
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-2-cabinas-para-pizza-con-piedra-refractaria/2.png",
+        "alt": "Horno para pizza 2 cabinas Piedra refractaria lateral"
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-2-cabinas-para-pizza-con-piedra-refractaria/3.png",
+        "alt": "Horno para pizza 2 cabinas Piedra refractaria"
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-2-cabinas-para-pizza-con-piedra-refractaria/4.png",
+        "alt": "Horno para pizza 2 cabinas Piedra refractaria controles"
+      }
+    ],
+    "wooUrl": "https://tienda.fullermachinery.com/index.php/producto/horno-2-cabinas-para-pizza-con-piedra-refractaria/"
+  },
+  {
+    "wooId": 15668,
+    "name": "Horno 1 Cabina para Pizza con Piedra Refractaria",
+    "slug": "horno-1-cabina-para-pizza-con-piedra-refractaria",
+    "price": 5998900,
+    "regularPrice": 5998900,
+    "stockStatus": "instock",
+    "currency": "COP",
+    "categories": [
+      "hornos"
+    ],
+    "specs": [
+      {
+        "label": "Material",
+        "value": "Acero inoxidable"
+      },
+      {
+        "label": "Temperatura",
+        "value": "20 a 400 grados."
+      },
+      {
+        "label": "Voltaje",
+        "value": "110 Vol. Presión De Gas:2.8 Kpa"
+      },
+      {
+        "label": "Garantía",
+        "value": "12 meses"
+      },
+      {
+        "label": "Incluye",
+        "value": "Manual, chimenea"
+      },
+      {
+        "label": "Potencia",
+        "value": "2.8 KPA"
+      },
+      {
+        "label": "Peso",
+        "value": "110 Kg"
+      },
+      {
+        "label": "Alimentación",
+        "value": "Gas propano o gas natural"
+      }
+    ],
+    "shortDescriptionHtml": "<p>Un horno para pizza con piedra refractaria y cabina amplia es un equipo especializado diseñado específicamente para la cocción de pizzas de manera eficiente y con resultados excepcionales.</p>\n<p>&nbsp;</p>\n<p>Que es un horno para pizzas 1 cabinas:</p>\n<p>Este tipo de horno está diseñado con una cámara de cocción revestida con piedra refractaria, un material capaz de retener y distribuir uniformemente el calor. La cabina amplia se refiere al espacio interior del horno, que es lo suficientemente espacioso para acomodar varias pizzas de diferentes tamaños y formas.</p>\n<p>Como funciona?</p>\n<p>El funcionamiento de un horno para pizza con piedra refractaria es relativamente simple pero altamente efectivo. La piedra refractaria en el interior del horno se calienta uniformemente a la temperatura deseada, generalmente en un rango de 20 a 400 grados Celsius. Una vez que se alcanza la temperatura adecuada, la pizza se coloca en la piedra caliente para cocinarla. La piedra refractaria absorbe el exceso de humedad de la masa de la pizza y transfiere calor directamente a la base, creando una corteza crujiente y bien cocida. La cabina amplia permite la colocación de múltiples pizzas al mismo tiempo, lo que facilita la producción en grandes volúmenes o la preparación de pizzas de diferentes sabores y tamaños simultáneamente.</p>\n<p>En que industrias sirve?</p>\n<ol>\n<li>Este tipo de horno es indispensable en la industria de la restauración, incluyendo pizzerías, restaurantes italianos, food trucks y establecimientos de comida rápida que sirven pizzas frescas. También es utilizado en la industria hotelera, en buffets y banquetes donde se sirven pizzas personalizadas a los clientes. Además, estos hornos pueden encontrarse en supermercados y tiendas de comestibles que ofrecen pizzas para llevar o pre-cocidas. En resumen, cualquier industria que sirva pizzas frescas puede beneficiarse de un horno para pizza con piedra refractaria y cabina amplia debido a su capacidad para producir pizzas de alta calidad de manera eficiente y consistente.</li>\n</ol>\n<p>En conclusión, un horno para pizza con piedra refractaria y cabina amplia es un equipo esencial para la cocción de pizzas profesionales con resultados excepcionales. Su diseño y funcionamiento hacen que sea una herramienta versátil que puede satisfacer las demandas de diversas industrias relacionadas con la preparación y venta de pizzas.</p>\n",
+    "descriptionHtml": "",
+    "images": [
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-1-cabina-para-pizza-con-piedra-refractaria/0.png",
+        "alt": ""
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-1-cabina-para-pizza-con-piedra-refractaria/1.png",
+        "alt": ""
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-1-cabina-para-pizza-con-piedra-refractaria/2.png",
+        "alt": ""
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-1-cabina-para-pizza-con-piedra-refractaria/3.png",
+        "alt": ""
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-1-cabina-para-pizza-con-piedra-refractaria/4.png",
+        "alt": ""
+      }
+    ],
+    "wooUrl": "https://tienda.fullermachinery.com/index.php/producto/horno-1-cabina-para-pizza-con-piedra-refractaria/"
+  },
+  {
+    "wooId": 15628,
+    "name": "Horno de Convección Eléctrico",
+    "slug": "horno-de-conveccion-electrico",
+    "price": 4670900,
+    "regularPrice": 4670900,
+    "stockStatus": "instock",
+    "currency": "COP",
+    "categories": [
+      "hornos"
+    ],
+    "specs": [
+      {
+        "label": "Material",
+        "value": "Acero inoxidable"
+      },
+      {
+        "label": "Temperatura",
+        "value": "50 y 400°"
+      },
+      {
+        "label": "Alimentación",
+        "value": "220 V"
+      },
+      {
+        "label": "Garantía",
+        "value": "12 meses"
+      },
+      {
+        "label": "Capacidad",
+        "value": "4 bandejas de 50 cm*40 cm"
+      },
+      {
+        "label": "Potencia",
+        "value": "6 kW"
+      },
+      {
+        "label": "Incluye",
+        "value": "Manual y manguera para conexión hidráulica"
+      }
+    ],
+    "shortDescriptionHtml": "<p>Horno de convección eléctrico en acero inoxidable, diseñado para cocción uniforme y eficiente. Incluye 4 bandejas de 53 x 40 cm y trabaja en un rango de 50°C a 350°C, ideal para panadería, repostería y cocina profesional. Funciona a 220V con consumo de 4.5 kWh. Permite optimizar tiempos y producir de forma constante gracias a su sistema de circulación de aire caliente.</p>\n",
+    "descriptionHtml": "<link rel=\"stylesheet\" id=\"wd-text-block-css\" href=\"https://tienda.fullermachinery.com/wp-content/themes/woodmart/css/parts/el-text-block.min.css?ver=7.2.5\" type=\"text/css\" media=\"all\" />\n<p data-start=\"137\" data-end=\"483\">El <strong data-start=\"140\" data-end=\"173\">horno de convección eléctrico</strong> es una solución profesional diseñada para negocios que buscan <strong data-start=\"236\" data-end=\"293\">uniformidad, eficiencia y control en cada preparación</strong>. Gracias a su sistema de circulación de aire caliente, permite una cocción homogénea que mejora la textura, el color y el sabor de los alimentos, optimizando tiempos y resultados en cocina.</p>\n<p>Fabricado en <strong data-start=\"498\" data-end=\"518\" style=\"font-size: 14px;\">acero inoxidable</strong>, este equipo ofrece alta resistencia, fácil limpieza y durabilidad en entornos de trabajo exigentes como panaderías, restaurantes, cafeterías y cocinas industriales.</p>\n<p></p>\n<p data-start=\"1443\" data-end=\"1473\"><strong data-start=\"1443\" data-end=\"1473\">Especificaciones técnicas:</strong></p>\n<ul data-start=\"1474\" data-end=\"1682\">\n<li data-section-id=\"1bmibms\" data-start=\"1474\" data-end=\"1529\">Dimensiones: 55 cm alto x 92 cm ancho x 73 cm fondo\n</li>\n<li data-section-id=\"1xrubdg\" data-start=\"1530\" data-end=\"1552\">Alimentación: 220V\n</li>\n<li data-section-id=\"1ihcqlr\" data-start=\"1553\" data-end=\"1573\">Consumo: 4.5 kWh\n</li>\n<li data-section-id=\"vxeln8\" data-start=\"1574\" data-end=\"1604\">Material: Acero inoxidable\n</li>\n<li data-section-id=\"6ojixr\" data-start=\"1605\" data-end=\"1643\">Capacidad: 4 bandejas (53 x 40 cm)\n</li>\n<li data-section-id=\"19n0vbw\" data-start=\"1644\" data-end=\"1682\">Rango de temperatura: 50°C a 350°C</li>\n</ul>\n<p data-start=\"1684\" data-end=\"1870\"><strong data-start=\"1684\" data-end=\"1709\">Recomendación de uso:</strong><br />\nAntes de operar el equipo, verifica que la instalación eléctrica sea compatible con el voltaje requerido para garantizar un funcionamiento seguro y eficiente.Este horno es ideal para negocios que necesitan <strong data-start=\"1920\" data-end=\"1999\" style=\"font-size: 14px;\">productividad constante, resultados uniformes y control total en la cocción</strong>, sin depender de procesos manuales imprecisos.</p>\n",
+    "images": [
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-de-conveccion-electrico/0.png",
+        "alt": ""
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-de-conveccion-electrico/1.png",
+        "alt": ""
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-de-conveccion-electrico/2.png",
+        "alt": ""
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-de-conveccion-electrico/3.png",
+        "alt": ""
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-de-conveccion-electrico/4.png",
+        "alt": ""
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-de-conveccion-electrico/5.png",
+        "alt": ""
+      }
+    ],
+    "wooUrl": "https://tienda.fullermachinery.com/index.php/producto/horno-de-conveccion-electrico/"
+  },
+  {
+    "wooId": 344,
+    "name": "HORNO PARA POLLOS CAPACIDAD 14 POLLOS",
+    "slug": "asador-de-pollos-a-gas",
+    "price": 4904900,
+    "regularPrice": 4904900,
+    "stockStatus": "instock",
+    "currency": "COP",
+    "categories": [
+      "hornos"
+    ],
+    "specs": [
+      {
+        "label": "Material",
+        "value": "Acero inoxidable"
+      },
+      {
+        "label": "Capacidad",
+        "value": "14 pollos."
+      },
+      {
+        "label": "Potencia",
+        "value": "2800 BTU"
+      },
+      {
+        "label": "Alimentación",
+        "value": "Gas natural - Gas propano."
+      },
+      {
+        "label": "¿Qué incluye?",
+        "value": "Manual."
+      },
+      {
+        "label": "Garantía por defectos de fabricacion",
+        "value": "12 meses"
+      }
+    ],
+    "shortDescriptionHtml": "<p>Horno asador de pollos a gas es un equipo de cocina diseñado específicamente para asar pollos u otras aves utilizando gas como fuente de combustible. Este tipo de horno es comúnmente utilizado en entornos comerciales, como restaurantes, rotiserías, parrillas y establecimientos de comida para llevar.</p>\n<p>Cuenta con seis quemadores y seis brochetas, los quemadores se pueden controlar de forma independiente. La distancia entre el quemador y la brocheta se puede ajustar. Tiene rayo infrarrojo.</p>\n<p>¿Cómo funciona?</p>\n<p>Funcionamiento Básico:</p>\n<p>1. Preparación de los pollos: Los pollos se colocan en las canastillas o espetones. Estas canastillas se aseguran en su lugar para que giren con el motor.</p>\n<p>2. Encendido del horno: Se enciende la fuente de calor, ya sea eléctrica o a gas, y se ajusta la temperatura según la receta.</p>\n<p>3. Inicio de la rotación: Se activa el motor de rotación, comenzando a girar las canastillas o espetones con los pollos.</p>\n<p>4. Cocción uniforme: A medida que los pollos giran, la fuente de calor cocina uniformemente todas las superficies, resultando en una carne jugosa y una piel dorada y crujiente.</p>\n<p>5. Control de temperatura y tiempo: El usuario puede ajustar la temperatura y el tiempo según la receta o las preferencias de cocción.</p>\n<p>6. Finalización y servido: Una vez completada la cocción, se detiene la rotación y se retiran los pollos del horno. Están listos para ser servidos.</p>\n",
+    "descriptionHtml": "",
+    "images": [
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/asador-de-pollos-a-gas/0.png",
+        "alt": ""
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/asador-de-pollos-a-gas/1.png",
+        "alt": ""
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/asador-de-pollos-a-gas/2.png",
+        "alt": ""
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/asador-de-pollos-a-gas/3.jpg",
+        "alt": ""
+      },
+      {
+        "url": "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/asador-de-pollos-a-gas/4.jpg",
+        "alt": ""
+      }
+    ],
+    "wooUrl": "https://tienda.fullermachinery.com/index.php/producto/asador-de-pollos-a-gas/"
+  }
+]

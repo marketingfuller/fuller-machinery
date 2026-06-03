@@ -379,7 +379,10 @@ export default async function ProductosPage({
 
           {/* Encabezado de resultados de búsqueda */}
           {queryStr && (
-            <div className="mb-6 flex flex-wrap items-baseline gap-x-3 gap-y-1">
+            <div
+              className="mb-6 flex flex-wrap items-baseline gap-x-3 gap-y-1"
+              data-zocam-results-count={filtered.length}
+            >
               <h2 className="font-display font-black text-2xl text-bg-dark">
                 {filtered.length} resultado{filtered.length === 1 ? "" : "s"} para «{queryStr}»
               </h2>

@@ -4,8 +4,11 @@ import {
   createSupabaseAdminClient,
 } from "@/lib/supabase/server";
 import { getSettings } from "@/lib/settings";
+import { getAllProducts } from "@/lib/products";
+import { getAvailabilityMap, resolveAvailable } from "@/lib/availability";
 import WhatsAppForm from "./WhatsAppForm";
 import HeroForm from "./HeroForm";
+import InventoryManager from "./InventoryManager";
 import SignOutButton from "./SignOutButton";
 
 export const dynamic = "force-dynamic";
@@ -43,6 +46,17 @@ export default async function AdminDashboardPage() {
 
   const settings = await getSettings();
 
+  const [products, availMap] = await Promise.all([
+    getAllProducts(),
+    getAvailabilityMap(),
+  ]);
+  const inventoryItems = products.map((p) => ({
+    slug: p.slug,
+    name: p.name,
+    categoryLabel: p.categoryLabel,
+    available: resolveAvailable(p, availMap),
+  }));
+
   return (
     <main className="max-w-4xl mx-auto px-4 py-10">
       <header className="flex items-center justify-between mb-10">
@@ -75,6 +89,17 @@ export default async function AdminDashboardPage() {
           El hero tiene dos lados. Puedes ocultar uno desmarcando &ldquo;Mostrar&rdquo;.
         </p>
         <HeroForm settings={settings} />
+      </section>
+
+      <section className="bg-white rounded-2xl shadow p-6 mt-8">
+        <h2 className="font-display font-bold text-xl text-slate-900 mb-1">
+          Inventario de productos
+        </h2>
+        <p className="text-slate-500 text-sm mb-6">
+          Activa o desactiva la disponibilidad. Lo que apagues aquí, el agente de
+          ventas (ZOCAM/WhatsApp) lo reporta como agotado en el próximo sync.
+        </p>
+        <InventoryManager items={inventoryItems} />
       </section>
     </main>
   );

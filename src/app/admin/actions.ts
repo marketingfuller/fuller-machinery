@@ -7,6 +7,7 @@ import {
   createSupabaseAdminClient,
 } from "@/lib/supabase/server";
 import { SETTINGS_TAG } from "@/lib/settings";
+import { AVAILABILITY_TAG } from "@/lib/availability";
 
 async function assertAdmin() {
   const supabase = await createSupabaseServerClient();
@@ -178,6 +179,29 @@ export async function saveHero(
 
   revalidateTag(SETTINGS_TAG, "max");
   return { ok: true, message: "Hero actualizado." };
+}
+
+export async function setAvailability(
+  slug: string,
+  available: boolean,
+): Promise<FormState> {
+  const { user, admin } = await assertAdmin();
+  if (typeof slug !== "string" || !slug.trim()) {
+    return { ok: false, message: "Producto inválido." };
+  }
+  const { error } = await admin.from("product_availability").upsert(
+    {
+      slug: slug.trim(),
+      available: Boolean(available),
+      updated_at: new Date().toISOString(),
+      updated_by: user.id,
+    },
+    { onConflict: "slug" },
+  );
+  if (error) return { ok: false, message: error.message };
+
+  revalidateTag(AVAILABILITY_TAG, "max");
+  return { ok: true };
 }
 
 export async function signOut() {

@@ -48,9 +48,11 @@ function toZocamProduct(p: Product) {
     specs: Object.fromEntries(p.specs.map((s) => [s.label, s.value])),
     price: p.price ?? null,
     currency: p.currency ?? "COP",
-    // No llevamos inventario por unidad; solo disponibilidad.
+    // Fase A: sin inventario por unidad (stock null), solo disponibilidad.
+    // Prioriza el flag explícito `available`; si no, deriva del stockStatus; default true.
+    // Fase B: cuando exista control de stock → stock = unidades, available = stock > 0.
     stock: null,
-    available: p.stockStatus ? p.stockStatus !== "out_of_stock" : true,
+    available: p.available ?? (p.stockStatus ? p.stockStatus !== "out_of_stock" : true),
     category: p.categoryLabel,
     brand: BRAND,
     images: (p.images ?? []).map(absoluteImage),

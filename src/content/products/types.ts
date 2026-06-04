@@ -53,6 +53,12 @@ export type Product = {
   price?: number | null;
   currency?: string;
   stockStatus?: StockStatus;
+  /**
+   * Disponibilidad para el agente de ventas (ZOCAM/WhatsApp).
+   * Default true (lo ofrecemos). Marcar false si está descontinuado/agotado.
+   * Fase B: cuando exista control de stock, derivar de stock > 0.
+   */
+  available?: boolean;
 
   // ── SEO ──
   metaTitle?: string;

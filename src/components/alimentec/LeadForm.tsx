@@ -64,7 +64,7 @@ export default function LeadForm() {
 
   return (
     <form onSubmit={handleSubmit} data-zocam-form className="space-y-4" noValidate>
-      <input name="origen" type="hidden" value="cliente" readOnly />
+      <input name="origen" type="text" value="cliente" readOnly className="sr-only" tabIndex={-1} aria-hidden="true" />
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
         <div>
           <label htmlFor="lf-name" className="block text-sm font-medium text-gray-700 mb-1.5">

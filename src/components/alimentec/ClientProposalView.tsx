@@ -114,13 +114,14 @@ export default function ClientProposalView(props: ClientProposalProps) {
           <p className="text-sm text-white/80 font-medium">
             Déjanos tus datos y te enviamos esta propuesta:
           </p>
-          {/* Campos ocultos que ZOCAM usa para enrutar y enriquecer el lead. */}
-          <input name="origen" type="hidden" value="cliente" readOnly />
-          <input name="asesor" type="hidden" value={advisor.name} readOnly />
-          <input name="asesor_whatsapp" type="hidden" value={advisor.whatsapp} readOnly />
-          <input name="negocio" type="hidden" value={businessLabel} readOnly />
-          <input name="propuesta" type="hidden" value={propuestaResumen} readOnly />
-          <input name="propuesta_link" type="hidden" value={shareUrl} readOnly />
+          {/* Campos que ZOCAM usa para enrutar/enriquecer el lead. sr-only (text),
+              NO type="hidden": el script de ZOCAM ignora los inputs hidden. */}
+          <input name="origen" type="text" value="cliente" readOnly className="sr-only" tabIndex={-1} aria-hidden="true" />
+          <input name="asesor" type="text" value={advisor.name} readOnly className="sr-only" tabIndex={-1} aria-hidden="true" />
+          <input name="asesor_whatsapp" type="text" value={advisor.whatsapp} readOnly className="sr-only" tabIndex={-1} aria-hidden="true" />
+          <input name="negocio" type="text" value={businessLabel} readOnly className="sr-only" tabIndex={-1} aria-hidden="true" />
+          <input name="propuesta" type="text" value={propuestaResumen} readOnly className="sr-only" tabIndex={-1} aria-hidden="true" />
+          <input name="propuesta_link" type="text" value={shareUrl} readOnly className="sr-only" tabIndex={-1} aria-hidden="true" />
 
           <input
             name="name" type="text" autoComplete="name" placeholder="Tu nombre *"

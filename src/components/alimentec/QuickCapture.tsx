@@ -210,10 +210,12 @@ export default function QuickCapture() {
                 className="bg-white rounded-3xl border border-gray-100 shadow-sm p-6 space-y-3"
                 noValidate
               >
-                {/* Asesor → ZOCAM lo asigna. origen=asesor lo distingue del cliente. */}
-                <input name="asesor" type="hidden" value={advisor.name} readOnly />
-                <input name="asesor_whatsapp" type="hidden" value={advisor.whatsapp} readOnly />
-                <input name="origen" type="hidden" value="asesor" readOnly />
+                {/* Asesor → ZOCAM lo asigna. origen=asesor lo distingue del cliente.
+                    OJO: sr-only (text), NO type="hidden" — el script de ZOCAM ignora
+                    los inputs hidden y no los captura. */}
+                <input name="asesor" type="text" value={advisor.name} readOnly className="sr-only" tabIndex={-1} aria-hidden="true" />
+                <input name="asesor_whatsapp" type="text" value={advisor.whatsapp} readOnly className="sr-only" tabIndex={-1} aria-hidden="true" />
+                <input name="origen" type="text" value="asesor" readOnly className="sr-only" tabIndex={-1} aria-hidden="true" />
 
                 <input
                   name="name" type="text" autoComplete="off" placeholder="Nombre del cliente *"

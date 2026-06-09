@@ -1,13 +1,18 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { usePathname } from "next/navigation";
 import { useWhatsApp } from "@/components/SettingsProvider";
 
 export default function FloatingWhatsApp() {
+  const pathname = usePathname();
   const { url } = useWhatsApp(
     "commercial",
     "Hola, me gustaría recibir información sobre sus equipos.",
   );
+  // La herramienta "arma tu negocio" la usan varios asesores en el stand
+  // (proyectada a un TV) → sin WhatsApp a un número personal.
+  if (pathname?.startsWith("/alimentec/arma-tu-negocio")) return null;
   return (
     <motion.a
       href={url}

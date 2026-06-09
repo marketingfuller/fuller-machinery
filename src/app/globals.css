@@ -162,3 +162,26 @@ img {
   user-select: none;
   -webkit-user-select: none;
 }
+
+/* ── Modo presentación (TV / jalador del stand) ── */
+/* Oculta el chrome del sitio para una vista limpia en el televisor. */
+body.alimentec-presentacion header,
+body.alimentec-presentacion footer,
+body.alimentec-presentacion .at-intro {
+  display: none !important;
+}
+/* La herramienta ocupa la pantalla, sin el solape del intro. */
+body.alimentec-presentacion .at-tool-section {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+body.alimentec-presentacion .at-tool-inner {
+  margin-top: 0 !important;
+  max-width: 1400px;
+}
+/* Tipografía más grande para lectura a distancia en el TV (pantallas grandes). */
+@media (min-width: 1024px) {
+  .at-presentacion {
+    zoom: 1.15;
+  }
+}

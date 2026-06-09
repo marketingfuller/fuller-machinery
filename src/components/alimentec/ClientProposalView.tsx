@@ -115,6 +115,7 @@ export default function ClientProposalView(props: ClientProposalProps) {
             Déjanos tus datos y te enviamos esta propuesta:
           </p>
           {/* Campos ocultos que ZOCAM usa para enrutar y enriquecer el lead. */}
+          <input name="origen" type="hidden" value="cliente" readOnly />
           <input name="asesor" type="hidden" value={advisor.name} readOnly />
           <input name="asesor_whatsapp" type="hidden" value={advisor.whatsapp} readOnly />
           <input name="negocio" type="hidden" value={businessLabel} readOnly />

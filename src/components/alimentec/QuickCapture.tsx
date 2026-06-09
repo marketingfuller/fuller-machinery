@@ -10,7 +10,14 @@ import { BUSINESS_TYPES, FAIR } from "@/content/alimentec";
 // a ZOCAM por data-zocam-form (asesor + cliente + UTM) → tag + dueño + deal.
 
 const ADVISOR_KEY = "fuller_asesor";
-const QUICK_PICKS = ["Angie Loaiza", "Misael Amaya", "Javier Bello"];
+const QUICK_PICKS = [
+  "Angie Loaiza",
+  "Misael Amaya",
+  "Javier Bello",
+  "Brandon Buitrago",
+  "Juan Galindo",
+  "Ariadna Marketing",
+];
 
 type Advisor = { name: string; whatsapp: string };
 
@@ -203,9 +210,10 @@ export default function QuickCapture() {
                 className="bg-white rounded-3xl border border-gray-100 shadow-sm p-6 space-y-3"
                 noValidate
               >
-                {/* Asesor → ZOCAM lo asigna. */}
+                {/* Asesor → ZOCAM lo asigna. origen=asesor lo distingue del cliente. */}
                 <input name="asesor" type="hidden" value={advisor.name} readOnly />
                 <input name="asesor_whatsapp" type="hidden" value={advisor.whatsapp} readOnly />
+                <input name="origen" type="hidden" value="asesor" readOnly />
 
                 <input
                   name="name" type="text" autoComplete="off" placeholder="Nombre del cliente *"

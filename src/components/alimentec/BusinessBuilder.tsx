@@ -7,6 +7,7 @@ import { computeBusiness, formatPayback, type LineInput } from "@/lib/roi";
 import { typeLine, lineInsumoCost, type Insumo } from "@/content/alimentec-roi";
 import { FAIR } from "@/content/alimentec";
 import KitMachineSearch, { type AddableMachine } from "@/components/alimentec/KitMachineSearch";
+import ClientProposalView from "@/components/alimentec/ClientProposalView";
 import { openOfferPdf } from "@/lib/alimentec-offer";
 import { encodeCfg, decodeCfg } from "@/lib/alimentec-share";
 import { buildWhatsAppUrl } from "@/lib/whatsapp";
@@ -160,10 +161,7 @@ export default function BusinessBuilder({ businesses }: { businesses: ResolvedBu
   const [daysMonth, setDaysMonth] = useState(biz.daysMonth);
   const [fixedMonthly, setFixedMonthly] = useState(biz.fixedMonthly);
   const [captureOpen, setCaptureOpen] = useState(false);
-  const [captureStep, setCaptureStep] = useState<"form" | "done">("form");
   const [qrDataUrl, setQrDataUrl] = useState("");
-  const [submitting, setSubmitting] = useState(false);
-  const [formError, setFormError] = useState("");
   const [discountPct, setDiscountPct] = useState(0);
   const [advisor, setAdvisor] = useState<Advisor>({ name: "", whatsapp: "" });
   const [advisorOpen, setAdvisorOpen] = useState(false);
@@ -376,26 +374,11 @@ export default function BusinessBuilder({ businesses }: { businesses: ResolvedBu
     return `${origin}/alimentec/arma-tu-negocio?cfg=${encodeCfg(cfg)}`;
   }
 
-  function openCapture() {
-    setCaptureStep("form");
-    setFormError("");
+  // El asesor arma el kit y genera el QR directo. El cliente lo escanea, ve su
+  // propuesta (resumen limpio) y deja sus datos desde su propio celular → ahí se
+  // captura el lead en ZOCAM (no en el stand).
+  async function openCapture() {
     setCaptureOpen(true);
-  }
-
-  // Captura del lead: el <form data-zocam-form> lo registra en ZOCAM (form_submit
-  // con visitorId + UTM + firstTouch + los campos visibles). No usamos Supabase:
-  // todo lo de Fuller vive en ZOCAM. Aquí solo validamos y generamos el QR.
-  async function submitLead(e: React.FormEvent<HTMLFormElement>) {
-    e.preventDefault();
-    const data = new FormData(e.currentTarget);
-    const name = String(data.get("name") ?? "").trim();
-    const phone = String(data.get("telefono") ?? "").trim();
-    if (!name || !phone) {
-      setFormError("Por favor completa nombre y WhatsApp.");
-      return;
-    }
-    setSubmitting(true);
-
     try {
       const QR = await import("qrcode");
       const dataUrl = await QR.toDataURL(buildShareUrl(), {
@@ -407,9 +390,31 @@ export default function BusinessBuilder({ businesses }: { businesses: ResolvedBu
     } catch {
       setQrDataUrl("");
     }
+  }
 
-    setSubmitting(false);
-    setCaptureStep("done");
+  // Vista del CLIENTE (abrió el QR en su celular): resumen limpio + form, no la
+  // herramienta editable.
+  if (fromCfg) {
+    return (
+      <ClientProposalView
+        businessLabel={biz.label}
+        machines={selectedMachines.map((m) => ({ name: m.name, price: m.price, slug: m.slug }))}
+        investment={discountedInvestment}
+        discountPct={discountPct}
+        monthlyProfit={result.monthlyProfit}
+        monthlyRevenue={result.monthlyRevenue}
+        monthlyInsumos={result.monthlyInsumos}
+        fixedMonthly={fixedMonthly}
+        payback={result.payback}
+        fair={{
+          name: FAIR.name, pavilion: FAIR.pavilion, stand: FAIR.stand,
+          venue: FAIR.venue, datesLabel: FAIR.datesLabel,
+        }}
+        advisor={advisor}
+        shareUrl={buildShareUrl()}
+        onDownloadPdf={downloadPdf}
+      />
+    );
   }
 
   return (
@@ -720,7 +725,7 @@ export default function BusinessBuilder({ businesses }: { businesses: ResolvedBu
         </div>
       </div>
 
-      {/* Modal de captura del lead → QR + PDF */}
+      {/* Modal: QR para que el cliente escanee y abra su propuesta + deje datos */}
       {captureOpen && (
         <div
           className="fixed inset-0 z-[130] flex items-center justify-center bg-black/70 backdrop-blur-sm p-4"
@@ -730,120 +735,56 @@ export default function BusinessBuilder({ businesses }: { businesses: ResolvedBu
             className="bg-white rounded-3xl p-7 max-w-sm w-full text-center max-h-[92vh] overflow-y-auto"
             onClick={(e) => e.stopPropagation()}
           >
-            {captureStep === "form" ? (
-              <>
-                <p className="font-display font-black text-2xl text-primary mb-1">
-                  Datos del cliente
-                </p>
-                <p className="text-gray-500 text-sm mb-5">
-                  Para enviarle su propuesta y que la reciba en su celular.
-                </p>
-                {/* Asesor asignado (ZOCAM lo usa para enrutar el lead). */}
-                <div className="flex items-center justify-between gap-2 bg-primary/5 border border-primary/15 rounded-xl px-3 py-2 mb-3 text-left">
-                  <span className="text-xs text-gray-600 min-w-0 truncate">
-                    Asesor:{" "}
-                    <strong className={advisor.name ? "text-primary" : "text-secondary"}>
-                      {advisor.name || "sin asignar"}
-                    </strong>
-                  </span>
-                  <button
-                    type="button"
-                    onClick={() => { setCaptureOpen(false); setAdvisorOpen(true); }}
-                    className="shrink-0 text-xs font-semibold text-primary hover:underline"
-                  >
-                    {advisor.name ? "Cambiar" : "Definir"}
-                  </button>
-                </div>
-                {/* data-zocam-form → ZOCAM captura el lead (visitorId + UTM). */}
-                <form data-zocam-form onSubmit={submitLead} className="space-y-3 text-left">
-                  {/* Asesor → ZOCAM lo asigna (campos visibles a captura, ocultos a la vista). */}
-                  <input name="asesor" readOnly value={advisor.name} className="sr-only" tabIndex={-1} aria-hidden="true" />
-                  <input name="asesor_whatsapp" readOnly value={advisor.whatsapp} className="sr-only" tabIndex={-1} aria-hidden="true" />
-                  <input
-                    name="name" type="text" autoComplete="name" placeholder="Nombre *"
-                    className="w-full rounded-xl border border-gray-200 px-4 py-3 text-sm text-gray-900 outline-none focus:border-accent focus:ring-2 focus:ring-accent/20"
-                  />
-                  <input
-                    name="telefono" type="tel" inputMode="tel" autoComplete="tel" placeholder="WhatsApp *"
-                    className="w-full rounded-xl border border-gray-200 px-4 py-3 text-sm text-gray-900 outline-none focus:border-accent focus:ring-2 focus:ring-accent/20"
-                  />
-                  <input
-                    name="email" type="email" autoComplete="email" placeholder="Correo (opcional)"
-                    className="w-full rounded-xl border border-gray-200 px-4 py-3 text-sm text-gray-900 outline-none focus:border-accent focus:ring-2 focus:ring-accent/20"
-                  />
-                  <input
-                    name="negocio" type="text" defaultValue={biz.label} placeholder="Negocio de interés"
-                    className="w-full rounded-xl border border-gray-200 px-4 py-3 text-sm text-gray-900 outline-none focus:border-accent focus:ring-2 focus:ring-accent/20"
-                  />
-                  {/* Contexto de la simulación → ZOCAM lo captura (campos visibles). */}
-                  <div className="rounded-xl bg-gray-50 border border-gray-100 p-3">
-                    <p className="text-[11px] uppercase tracking-wider text-gray-400 mb-1">Resumen que se envía</p>
-                    <input
-                      name="propuesta"
-                      readOnly
-                      value={`${biz.label} · Inversión ${formatCOP(discountedInvestment)}${discountPct > 0 ? ` (-${discountPct}%)` : ""} · Utilidad ${formatCOP(result.monthlyProfit)}/mes · Recupera en ${formatPayback(result.payback)}`}
-                      className="w-full bg-transparent text-xs text-gray-600 outline-none"
-                    />
-                    <input name="propuesta_link" readOnly value={buildShareUrl()} className="sr-only" aria-hidden="true" tabIndex={-1} />
-                  </div>
-                  {formError && <p className="text-sm text-secondary font-medium">{formError}</p>}
-                  <button
-                    type="submit"
-                    disabled={submitting}
-                    data-zocam-event="lead-capturado"
-                    className="w-full inline-flex items-center justify-center gap-2 bg-secondary hover:bg-secondary/90 disabled:opacity-60 text-white font-bold text-sm px-6 py-3.5 rounded-full transition"
-                  >
-                    {submitting ? "Generando…" : "Generar propuesta"}
-                  </button>
-                  <button
-                    type="button"
-                    onClick={() => setCaptureOpen(false)}
-                    className="w-full text-gray-400 hover:text-gray-600 text-sm py-1"
-                  >
-                    Cancelar
-                  </button>
-                </form>
-              </>
+            <div className="w-14 h-14 mx-auto rounded-full bg-accent/15 flex items-center justify-center mb-3">
+              <span className="material-symbols-outlined text-accent" style={{ fontSize: "30px" }}>qr_code_2</span>
+            </div>
+            <p className="font-display font-black text-2xl text-primary mb-1">Propuesta lista</p>
+            <p className="text-gray-500 text-sm mb-1">
+              El cliente escanea este QR, ve su propuesta y deja sus datos desde su
+              celular. El lead te queda asignado a ti.
+            </p>
+            <p className="text-xs text-gray-400 mb-4">
+              Asesor: <strong className={advisor.name ? "text-primary" : "text-secondary"}>{advisor.name || "sin asignar"}</strong>
+              {!advisor.name && (
+                <button
+                  type="button"
+                  onClick={() => { setCaptureOpen(false); setAdvisorOpen(true); }}
+                  className="ml-2 font-semibold text-primary hover:underline"
+                >
+                  Definir
+                </button>
+              )}
+            </p>
+            {qrDataUrl ? (
+              /* eslint-disable-next-line @next/next/no-img-element */
+              <img
+                src={qrDataUrl}
+                alt="Código QR de la propuesta"
+                width={260}
+                height={260}
+                className="mx-auto rounded-xl border border-gray-100"
+              />
             ) : (
-              <>
-                <div className="w-14 h-14 mx-auto rounded-full bg-accent/15 flex items-center justify-center mb-3">
-                  <span className="material-symbols-outlined text-accent" style={{ fontSize: "30px" }}>check_circle</span>
-                </div>
-                <p className="font-display font-black text-2xl text-primary mb-1">¡Propuesta lista!</p>
-                <p className="text-gray-500 text-sm mb-4">
-                  El cliente escanea el QR y abre su negocio armado en el celular, o
-                  descarga el PDF.
-                </p>
-                {qrDataUrl && (
-                  /* eslint-disable-next-line @next/next/no-img-element */
-                  <img
-                    src={qrDataUrl}
-                    alt="Código QR de la propuesta"
-                    width={260}
-                    height={260}
-                    className="mx-auto rounded-xl border border-gray-100"
-                  />
-                )}
-                <div className="grid grid-cols-1 gap-2 mt-5">
-                  <button
-                    type="button"
-                    onClick={downloadPdf}
-                    data-zocam-event="armar-pdf"
-                    className="inline-flex items-center justify-center gap-2 bg-primary hover:bg-primary/90 text-white font-bold text-sm px-6 py-3 rounded-full transition"
-                  >
-                    <span className="material-symbols-outlined" style={{ fontSize: "18px" }}>download</span>
-                    Descargar PDF
-                  </button>
-                  <button
-                    type="button"
-                    onClick={() => setCaptureOpen(false)}
-                    className="text-gray-400 hover:text-gray-600 text-sm py-1"
-                  >
-                    Cerrar
-                  </button>
-                </div>
-              </>
+              <p className="text-gray-400 text-sm py-10">Generando QR…</p>
             )}
+            <div className="grid grid-cols-1 gap-2 mt-5">
+              <button
+                type="button"
+                onClick={downloadPdf}
+                data-zocam-event="armar-pdf"
+                className="inline-flex items-center justify-center gap-2 bg-primary hover:bg-primary/90 text-white font-bold text-sm px-6 py-3 rounded-full transition"
+              >
+                <span className="material-symbols-outlined" style={{ fontSize: "18px" }}>download</span>
+                Descargar PDF
+              </button>
+              <button
+                type="button"
+                onClick={() => setCaptureOpen(false)}
+                className="text-gray-400 hover:text-gray-600 text-sm py-1"
+              >
+                Cerrar
+              </button>
+            </div>
           </div>
         </div>
       )}

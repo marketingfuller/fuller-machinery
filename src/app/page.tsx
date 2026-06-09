@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import Header from "@/components/Header";
-import FairBanner from "@/components/FairBanner";
-import SplitHero from "@/components/SplitHero";
+import HomeHero from "@/components/HomeHero";
 import TrustBar from "@/components/TrustBar";
 import BentoCategories from "@/components/BentoCategories";
 import ViralCarousel from "@/components/ViralCarousel";
@@ -26,8 +25,11 @@ export default async function Home() {
     <>
       <Header />
       <main>
-        {isFairWindowOpen() && <FairBanner />}
-        <SplitHero left={settings.heroLeft} right={settings.heroRight} />
+        <HomeHero
+          left={settings.heroLeft}
+          right={settings.heroRight}
+          fairOpen={isFairWindowOpen()}
+        />
         <TrustBar />
         <BentoCategories />
         <ViralCarousel />

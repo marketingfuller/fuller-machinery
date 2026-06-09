@@ -28,6 +28,18 @@ export const FAIR = {
   mapsUrl: "https://maps.google.com/?q=Corferias+Bogotá+Carrera+37+24-67",
 } as const;
 
+/**
+ * ¿La feria está vigente hoy? (para el banner "estamos en la feria" de la home).
+ * Honesto: solo decimos "estamos en la feria" entre startDate y endDate inclusive.
+ * Usa la hora de Colombia (UTC-5) para que el corte sea a fin del día 12 local.
+ */
+export function isFairWindowOpen(now: Date = new Date()): boolean {
+  const start = new Date(`${FAIR.startDate}T00:00:00-05:00`).getTime();
+  const end = new Date(`${FAIR.endDate}T23:59:59-05:00`).getTime();
+  const t = now.getTime();
+  return t >= start && t <= end;
+}
+
 /** "Lo que vas a ver en el stand" — 3 experiencias reales del stand. */
 export const STAND_FEATURES = [
   {

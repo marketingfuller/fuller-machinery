@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Header from "@/components/Header";
+import FairBanner from "@/components/FairBanner";
 import SplitHero from "@/components/SplitHero";
 import TrustBar from "@/components/TrustBar";
 import BentoCategories from "@/components/BentoCategories";
@@ -8,6 +9,7 @@ import StarterKits from "@/components/StarterKits";
 import TechnicalAuthority from "@/components/TechnicalAuthority";
 import Footer from "@/components/Footer";
 import { getSettings } from "@/lib/settings";
+import { isFairWindowOpen } from "@/content/alimentec";
 
 export const metadata: Metadata = {
   title: "Fuller Machinery | Equipos y Maquinaria para la Industria Alimentaria",
@@ -24,6 +26,7 @@ export default async function Home() {
     <>
       <Header />
       <main>
+        {isFairWindowOpen() && <FairBanner />}
         <SplitHero left={settings.heroLeft} right={settings.heroRight} />
         <TrustBar />
         <BentoCategories />

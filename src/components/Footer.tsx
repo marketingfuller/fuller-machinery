@@ -103,7 +103,7 @@ export default function Footer() {
               <Image
                 src="/images/logo-fuller.webp"
                 alt="Fuller Machinery"
-                width={160}
+                width={154}
                 height={60}
                 className="h-14 w-auto object-contain"
               />

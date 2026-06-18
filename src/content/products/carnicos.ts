@@ -21,10 +21,10 @@ export const carnicosProducts: Product[] = [
       "Acero inoxidable de uso rudo"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/carnicos/molino-carne-industrial-32-2200w/0.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/carnicos/molino-carne-industrial-32-2200w/1.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/carnicos/molino-carne-industrial-32-2200w/2.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/carnicos/molino-carne-industrial-32-2200w/3.png"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/carnicos/molino-carne-industrial-32-2200w/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/carnicos/molino-carne-industrial-32-2200w/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/carnicos/molino-carne-industrial-32-2200w/2.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/carnicos/molino-carne-industrial-32-2200w/3.webp"
     ],
     "specs": [
       {
@@ -82,8 +82,8 @@ export const carnicosProducts: Product[] = [
       "Acero inoxidable, fácil de limpiar"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/carnicos/sierra-de-hueso-y-carnes/0.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/carnicos/sierra-de-hueso-y-carnes/1.png"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/carnicos/sierra-de-hueso-y-carnes/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/carnicos/sierra-de-hueso-y-carnes/1.webp"
     ],
     "specs": [
       {
@@ -148,9 +148,9 @@ export const carnicosProducts: Product[] = [
       "Dimensiones: Altura: 1.19 m y Base: 66 cm x 51 cm"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/carnicos/asador-vertical-a-gas-para-shawarma-kebab-4-quemadores-infrarrojos/0.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/carnicos/asador-vertical-a-gas-para-shawarma-kebab-4-quemadores-infrarrojos/1.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/carnicos/asador-vertical-a-gas-para-shawarma-kebab-4-quemadores-infrarrojos/2.png"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/carnicos/asador-vertical-a-gas-para-shawarma-kebab-4-quemadores-infrarrojos/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/carnicos/asador-vertical-a-gas-para-shawarma-kebab-4-quemadores-infrarrojos/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/carnicos/asador-vertical-a-gas-para-shawarma-kebab-4-quemadores-infrarrojos/2.webp"
     ],
     "specs": [
       {
@@ -206,11 +206,11 @@ export const carnicosProducts: Product[] = [
       "Alimentación: 110 V"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/carnicos/clipadora-amarradora-de-embutidos/0.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/carnicos/clipadora-amarradora-de-embutidos/1.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/carnicos/clipadora-amarradora-de-embutidos/2.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/carnicos/clipadora-amarradora-de-embutidos/3.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/carnicos/clipadora-amarradora-de-embutidos/4.png"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/carnicos/clipadora-amarradora-de-embutidos/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/carnicos/clipadora-amarradora-de-embutidos/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/carnicos/clipadora-amarradora-de-embutidos/2.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/carnicos/clipadora-amarradora-de-embutidos/3.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/carnicos/clipadora-amarradora-de-embutidos/4.webp"
     ],
     "specs": [
       {
@@ -278,10 +278,10 @@ export const carnicosProducts: Product[] = [
       "Alimentación: 110 V"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/carnicos/embutidora-7-libras-para-churros/0.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/carnicos/embutidora-7-libras-para-churros/1.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/carnicos/embutidora-7-libras-para-churros/2.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/carnicos/embutidora-7-libras-para-churros/3.png"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/carnicos/embutidora-7-libras-para-churros/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/carnicos/embutidora-7-libras-para-churros/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/carnicos/embutidora-7-libras-para-churros/2.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/carnicos/embutidora-7-libras-para-churros/3.webp"
     ],
     "specs": [
       {
@@ -349,11 +349,11 @@ export const carnicosProducts: Product[] = [
       "Alimentación: 110 V"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/carnicos/embutidora-7-litros-para-chorizos/0.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/carnicos/embutidora-7-litros-para-chorizos/1.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/carnicos/embutidora-7-litros-para-chorizos/2.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/carnicos/embutidora-7-litros-para-chorizos/3.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/carnicos/embutidora-7-litros-para-chorizos/4.png"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/carnicos/embutidora-7-litros-para-chorizos/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/carnicos/embutidora-7-litros-para-chorizos/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/carnicos/embutidora-7-litros-para-chorizos/2.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/carnicos/embutidora-7-litros-para-chorizos/3.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/carnicos/embutidora-7-litros-para-chorizos/4.webp"
     ],
     "specs": [
       {
@@ -421,11 +421,11 @@ export const carnicosProducts: Product[] = [
       "Alimentación: 110 V"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/carnicos/molino-de-carne-22/0.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/carnicos/molino-de-carne-22/1.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/carnicos/molino-de-carne-22/2.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/carnicos/molino-de-carne-22/3.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/carnicos/molino-de-carne-22/4.png"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/carnicos/molino-de-carne-22/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/carnicos/molino-de-carne-22/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/carnicos/molino-de-carne-22/2.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/carnicos/molino-de-carne-22/3.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/carnicos/molino-de-carne-22/4.webp"
     ],
     "specs": [
       {

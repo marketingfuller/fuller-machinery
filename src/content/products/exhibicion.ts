@@ -21,11 +21,11 @@ export const exhibicionProducts: Product[] = [
       "Dispara la venta por impulso"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-para-pizza-18-ref-18p/0.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-para-pizza-18-ref-18p/1.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-para-pizza-18-ref-18p/2.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-para-pizza-18-ref-18p/3.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-para-pizza-18-ref-18p/4.png"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-para-pizza-18-ref-18p/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-para-pizza-18-ref-18p/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-para-pizza-18-ref-18p/2.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-para-pizza-18-ref-18p/3.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-para-pizza-18-ref-18p/4.webp"
     ],
     "specs": [
       {
@@ -86,10 +86,10 @@ export const exhibicionProducts: Product[] = [
       "Voltaje: 110V–120V"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-para-sushi/0.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-para-sushi/1.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-para-sushi/2.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-para-sushi/3.png"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-para-sushi/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-para-sushi/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-para-sushi/2.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-para-sushi/3.webp"
     ],
     "specs": [
       {
@@ -143,10 +143,10 @@ export const exhibicionProducts: Product[] = [
       "Dimensiones: 50.5 x 37.5 x 43.5 cm"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-calefactora-2-pisos-ref-d503/0.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-calefactora-2-pisos-ref-d503/1.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-calefactora-2-pisos-ref-d503/2.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-calefactora-2-pisos-ref-d503/3.png"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-calefactora-2-pisos-ref-d503/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-calefactora-2-pisos-ref-d503/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-calefactora-2-pisos-ref-d503/2.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-calefactora-2-pisos-ref-d503/3.webp"
     ],
     "specs": [
       {
@@ -215,11 +215,11 @@ export const exhibicionProducts: Product[] = [
     "description": "## Vitrina caliente exhibidora: mantén pollo, empanadas y pizza listos para vender todo el día\n\nVitrina calefactora compacta Ref D5031. Ideal para exhibir y mantener calientes productos en cafeterías, panaderías o tiendas pequeñas. Acero inoxidable y vidrio.\n\n### ¿Para qué negocios es ideal?\nPanaderías, asaderos, pizzerías y autoservicios que exhiben alimentos calientes (pollo, pizza, sushi, empanadas) a la vista del cliente.\n\n### Compra con respaldo Fuller\nEnvío nacional desde Bogotá, garantía Fuller y asesoría experta. Cotiza por WhatsApp y recibe atención personalizada.",
     "highlights": [],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-calefactora-compacta-ref-d5031/0.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-calefactora-compacta-ref-d5031/1.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-calefactora-compacta-ref-d5031/2.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-calefactora-compacta-ref-d5031/3.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-calefactora-compacta-ref-d5031/4.png"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-calefactora-compacta-ref-d5031/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-calefactora-compacta-ref-d5031/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-calefactora-compacta-ref-d5031/2.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-calefactora-compacta-ref-d5031/3.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-calefactora-compacta-ref-d5031/4.webp"
     ],
     "specs": [],
     "price": 1199900,
@@ -260,12 +260,12 @@ export const exhibicionProducts: Product[] = [
       "Número de bandejas: 3"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-d1pn/0.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-d1pn/1.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-d1pn/2.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-d1pn/3.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-d1pn/4.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-d1pn/5.png"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-d1pn/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-d1pn/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-d1pn/2.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-d1pn/3.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-d1pn/4.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-d1pn/5.webp"
     ],
     "specs": [
       {
@@ -335,10 +335,10 @@ export const exhibicionProducts: Product[] = [
       "Voltaje: 110v"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-d1pm/0.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-d1pm/1.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-d1pm/2.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-d1pm/3.png"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-d1pm/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-d1pm/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-d1pm/2.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-d1pm/3.webp"
     ],
     "specs": [
       {
@@ -396,11 +396,11 @@ export const exhibicionProducts: Product[] = [
       "Material: Acero inoxidable y vidrio templado"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-d1pl/0.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-d1pl/1.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-d1pl/2.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-d1pl/3.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-d1pl/4.png"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-d1pl/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-d1pl/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-d1pl/2.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-d1pl/3.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-d1pl/4.webp"
     ],
     "specs": [
       {
@@ -482,12 +482,12 @@ export const exhibicionProducts: Product[] = [
       "Material: Acero inoxidable y vidrio templado"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-801p/0.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-801p/1.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-801p/2.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-801p/3.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-801p/4.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-801p/5.png"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-801p/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-801p/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-801p/2.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-801p/3.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-801p/4.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-801p/5.webp"
     ],
     "specs": [
       {
@@ -581,12 +581,12 @@ export const exhibicionProducts: Product[] = [
       "Voltaje: 110V"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-ld3p/0.jpg",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-ld3p/1.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-ld3p/2.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-ld3p/3.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-ld3p/4.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-ld3p/5.png"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-ld3p/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-ld3p/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-ld3p/2.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-ld3p/3.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-ld3p/4.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-ld3p/5.webp"
     ],
     "specs": [
       {
@@ -655,11 +655,11 @@ export const exhibicionProducts: Product[] = [
       "Termostato: ajustable (30°C - 85°C)"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-d1pb/0.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-d1pb/1.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-d1pb/2.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-d1pb/3.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-d1pb/4.png"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-d1pb/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-d1pb/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-d1pb/2.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-d1pb/3.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-d1pb/4.webp"
     ],
     "specs": [
       {
@@ -712,11 +712,11 @@ export const exhibicionProducts: Product[] = [
       "Niveles: 3"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-d1p/0.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-d1p/1.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-d1p/2.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-d1p/3.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-d1p/4.png"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-d1p/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-d1p/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-d1p/2.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-d1p/3.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-d1p/4.webp"
     ],
     "specs": [
       {
@@ -765,11 +765,11 @@ export const exhibicionProducts: Product[] = [
     "description": "## Vitrina caliente exhibidora: mantén pollo, empanadas y pizza listos para vender todo el día\n\nVitrina caliente de alta capacidad con potencia de 1.2 kW y temperatura de 30°C a 85°C. Ideal para negocios de alto flujo.\n\n### ¿Para qué negocios es ideal?\nPanaderías, asaderos, pizzerías y autoservicios que exhiben alimentos calientes (pollo, pizza, sushi, empanadas) a la vista del cliente.\n\n### Compra con respaldo Fuller\nEnvío nacional desde Bogotá, garantía Fuller y asesoría experta. Cotiza por WhatsApp y recibe atención personalizada.",
     "highlights": [],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-calefactora-vidrio-curvado-ref-702/0.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-calefactora-vidrio-curvado-ref-702/1.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-calefactora-vidrio-curvado-ref-702/2.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-calefactora-vidrio-curvado-ref-702/3.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-calefactora-vidrio-curvado-ref-702/4.png"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-calefactora-vidrio-curvado-ref-702/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-calefactora-vidrio-curvado-ref-702/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-calefactora-vidrio-curvado-ref-702/2.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-calefactora-vidrio-curvado-ref-702/3.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-calefactora-vidrio-curvado-ref-702/4.webp"
     ],
     "specs": [],
     "price": 1699900,
@@ -809,12 +809,12 @@ export const exhibicionProducts: Product[] = [
       "Peso: 7.2 kilos"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-calefactora-vidrio-curvo-ref-701/0.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-calefactora-vidrio-curvo-ref-701/1.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-calefactora-vidrio-curvo-ref-701/2.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-calefactora-vidrio-curvo-ref-701/3.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-calefactora-vidrio-curvo-ref-701/4.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-calefactora-vidrio-curvo-ref-701/5.png"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-calefactora-vidrio-curvo-ref-701/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-calefactora-vidrio-curvo-ref-701/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-calefactora-vidrio-curvo-ref-701/2.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-calefactora-vidrio-curvo-ref-701/3.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-calefactora-vidrio-curvo-ref-701/4.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-calefactora-vidrio-curvo-ref-701/5.webp"
     ],
     "specs": [
       {
@@ -868,11 +868,11 @@ export const exhibicionProducts: Product[] = [
       "Material resistente: Acero inoxidable con acabado negro"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-calefactora-acero-negra-ref-602/0.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-calefactora-acero-negra-ref-602/1.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-calefactora-acero-negra-ref-602/2.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-calefactora-acero-negra-ref-602/3.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-calefactora-acero-negra-ref-602/4.png"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-calefactora-acero-negra-ref-602/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-calefactora-acero-negra-ref-602/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-calefactora-acero-negra-ref-602/2.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-calefactora-acero-negra-ref-602/3.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-calefactora-acero-negra-ref-602/4.webp"
     ],
     "specs": [
       {
@@ -928,11 +928,11 @@ export const exhibicionProducts: Product[] = [
       "Niveles: 4"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-calefactora-de-pizza-de-12-ref-12p/0.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-calefactora-de-pizza-de-12-ref-12p/1.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-calefactora-de-pizza-de-12-ref-12p/2.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-calefactora-de-pizza-de-12-ref-12p/3.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-calefactora-de-pizza-de-12-ref-12p/4.png"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-calefactora-de-pizza-de-12-ref-12p/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-calefactora-de-pizza-de-12-ref-12p/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-calefactora-de-pizza-de-12-ref-12p/2.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-calefactora-de-pizza-de-12-ref-12p/3.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-calefactora-de-pizza-de-12-ref-12p/4.webp"
     ],
     "specs": [
       {
@@ -982,11 +982,11 @@ export const exhibicionProducts: Product[] = [
       "Alimentación: 110 V"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-hvw-2-puerta/0.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-hvw-2-puerta/1.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-hvw-2-puerta/2.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-hvw-2-puerta/3.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-hvw-2-puerta/4.png"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-hvw-2-puerta/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-hvw-2-puerta/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-hvw-2-puerta/2.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-hvw-2-puerta/3.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-hvw-2-puerta/4.webp"
     ],
     "specs": [
       {
@@ -1056,11 +1056,11 @@ export const exhibicionProducts: Product[] = [
       "Alimentación: 110 V"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-604-2/0.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-604-2/1.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-604-2/2.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-604-2/3.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-604-2/4.png"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-604-2/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-604-2/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-604-2/2.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-604-2/3.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-604-2/4.webp"
     ],
     "specs": [
       {
@@ -1130,11 +1130,11 @@ export const exhibicionProducts: Product[] = [
       "Alimentación: 110 V"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-604/0.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-604/1.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-604/2.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-604/3.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-604/4.png"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-604/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-604/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-604/2.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-604/3.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-604/4.webp"
     ],
     "specs": [
       {
@@ -1204,9 +1204,9 @@ export const exhibicionProducts: Product[] = [
       "Alimentación: 110 V"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-601/0.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-601/1.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-601/2.png"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-601/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-601/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/exhibicion/vitrina-de-calefaccion-ref-601/2.webp"
     ],
     "specs": [
       {

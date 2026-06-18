@@ -55,6 +55,11 @@ const imageHeaders = [
 const nextConfig: NextConfig = {
   poweredByHeader: false,
   images: {
+    // Las imágenes ya están comprimidas a WebP livianos en Supabase
+    // (scripts/compress-images-webp.mjs). Servimos directo sin pasar por el
+    // optimizador de Vercel, cuya cuota se agotó y devolvía 402
+    // (OPTIMIZED_IMAGE_REQUEST_PAYMENT_REQUIRED) rompiendo imágenes.
+    unoptimized: true,
     remotePatterns: [
       {
         protocol: "https",

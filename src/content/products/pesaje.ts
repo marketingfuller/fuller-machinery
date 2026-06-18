@@ -21,11 +21,11 @@ export const pesajeProducts: Product[] = [
       "Alta precisión y pantalla clara"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-electronica-50-kg-de-impresion-de-precios/0.jpg",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-electronica-50-kg-de-impresion-de-precios/1.jpg",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-electronica-50-kg-de-impresion-de-precios/2.jpg",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-electronica-50-kg-de-impresion-de-precios/3.jpg",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-electronica-50-kg-de-impresion-de-precios/4.jpg"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-electronica-50-kg-de-impresion-de-precios/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-electronica-50-kg-de-impresion-de-precios/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-electronica-50-kg-de-impresion-de-precios/2.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-electronica-50-kg-de-impresion-de-precios/3.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-electronica-50-kg-de-impresion-de-precios/4.webp"
     ],
     "specs": [
       {
@@ -99,8 +99,8 @@ export const pesajeProducts: Product[] = [
       "Alimentación: 4V/4 AH"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/balanza-gramera-600-gr-alta-precision/0.jpg",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/balanza-gramera-600-gr-alta-precision/1.jpg"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/balanza-gramera-600-gr-alta-precision/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/balanza-gramera-600-gr-alta-precision/1.webp"
     ],
     "specs": [
       {
@@ -166,11 +166,11 @@ export const pesajeProducts: Product[] = [
       "Alimentación: 110 V"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-2000-kg-ganadera/0.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-2000-kg-ganadera/1.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-2000-kg-ganadera/2.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-2000-kg-ganadera/3.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-2000-kg-ganadera/4.png"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-2000-kg-ganadera/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-2000-kg-ganadera/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-2000-kg-ganadera/2.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-2000-kg-ganadera/3.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-2000-kg-ganadera/4.webp"
     ],
     "specs": [
       {
@@ -240,11 +240,11 @@ export const pesajeProducts: Product[] = [
       "Alimentación: 110 V"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-electronica-15-kg/0.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-electronica-15-kg/1.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-electronica-15-kg/2.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-electronica-15-kg/3.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-electronica-15-kg/4.png"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-electronica-15-kg/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-electronica-15-kg/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-electronica-15-kg/2.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-electronica-15-kg/3.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-electronica-15-kg/4.webp"
     ],
     "specs": [
       {
@@ -310,11 +310,11 @@ export const pesajeProducts: Product[] = [
       "Alimentación: 110 V"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-electronica-30-kg-fuller-machinery/0.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-electronica-30-kg-fuller-machinery/1.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-electronica-30-kg-fuller-machinery/2.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-electronica-30-kg-fuller-machinery/3.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-electronica-30-kg-fuller-machinery/4.png"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-electronica-30-kg-fuller-machinery/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-electronica-30-kg-fuller-machinery/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-electronica-30-kg-fuller-machinery/2.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-electronica-30-kg-fuller-machinery/3.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-electronica-30-kg-fuller-machinery/4.webp"
     ],
     "specs": [
       {
@@ -380,11 +380,11 @@ export const pesajeProducts: Product[] = [
       "Alimentación: 110 V"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-electronica-30-kg-kinlee/0.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-electronica-30-kg-kinlee/1.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-electronica-30-kg-kinlee/2.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-electronica-30-kg-kinlee/3.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-electronica-30-kg-kinlee/4.png"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-electronica-30-kg-kinlee/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-electronica-30-kg-kinlee/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-electronica-30-kg-kinlee/2.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-electronica-30-kg-kinlee/3.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-electronica-30-kg-kinlee/4.webp"
     ],
     "specs": [
       {
@@ -450,11 +450,11 @@ export const pesajeProducts: Product[] = [
       "Alimentación: 110 V"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-electronica-40-kg/0.jpg",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-electronica-40-kg/1.jpg",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-electronica-40-kg/2.jpg",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-electronica-40-kg/3.jpg",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-electronica-40-kg/4.jpg"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-electronica-40-kg/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-electronica-40-kg/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-electronica-40-kg/2.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-electronica-40-kg/3.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-electronica-40-kg/4.webp"
     ],
     "specs": [
       {
@@ -520,10 +520,10 @@ export const pesajeProducts: Product[] = [
       "Alimentación: 110 V"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-350kg-de-brazo/0.jpg",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-350kg-de-brazo/1.jpg",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-350kg-de-brazo/2.jpg",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-350kg-de-brazo/3.jpg"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-350kg-de-brazo/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-350kg-de-brazo/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-350kg-de-brazo/2.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-350kg-de-brazo/3.webp"
     ],
     "specs": [
       {
@@ -589,11 +589,11 @@ export const pesajeProducts: Product[] = [
       "Alimentación: 110 V"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-300-kg-de-brazo/0.jpg",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-300-kg-de-brazo/1.jpg",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-300-kg-de-brazo/2.jpg",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-300-kg-de-brazo/3.jpg",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-300-kg-de-brazo/4.jpg"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-300-kg-de-brazo/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-300-kg-de-brazo/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-300-kg-de-brazo/2.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-300-kg-de-brazo/3.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-300-kg-de-brazo/4.webp"
     ],
     "specs": [
       {
@@ -659,11 +659,11 @@ export const pesajeProducts: Product[] = [
       "Alimentación: 110 V"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-200-kg-de-brazo/0.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-200-kg-de-brazo/1.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-200-kg-de-brazo/2.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-200-kg-de-brazo/3.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-200-kg-de-brazo/4.png"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-200-kg-de-brazo/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-200-kg-de-brazo/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-200-kg-de-brazo/2.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-200-kg-de-brazo/3.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-200-kg-de-brazo/4.webp"
     ],
     "specs": [
       {
@@ -729,11 +729,11 @@ export const pesajeProducts: Product[] = [
       "Alimentación: 11o V"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-inalambrica-bluetooth-600kg/0.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-inalambrica-bluetooth-600kg/1.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-inalambrica-bluetooth-600kg/2.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-inalambrica-bluetooth-600kg/3.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-inalambrica-bluetooth-600kg/4.png"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-inalambrica-bluetooth-600kg/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-inalambrica-bluetooth-600kg/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-inalambrica-bluetooth-600kg/2.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-inalambrica-bluetooth-600kg/3.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-inalambrica-bluetooth-600kg/4.webp"
     ],
     "specs": [
       {
@@ -799,10 +799,10 @@ export const pesajeProducts: Product[] = [
       "Alimentación: 110 V"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-inalambrica-wifi-300kg/0.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-inalambrica-wifi-300kg/1.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-inalambrica-wifi-300kg/2.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-inalambrica-wifi-300kg/3.png"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-inalambrica-wifi-300kg/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-inalambrica-wifi-300kg/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-inalambrica-wifi-300kg/2.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-inalambrica-wifi-300kg/3.webp"
     ],
     "specs": [
       {
@@ -868,11 +868,11 @@ export const pesajeProducts: Product[] = [
       "Garantía: 3 Meses"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/tallimetro-pared-adultos-medicion-estatura/0.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/tallimetro-pared-adultos-medicion-estatura/1.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/tallimetro-pared-adultos-medicion-estatura/2.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/tallimetro-pared-adultos-medicion-estatura/3.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/tallimetro-pared-adultos-medicion-estatura/4.png"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/tallimetro-pared-adultos-medicion-estatura/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/tallimetro-pared-adultos-medicion-estatura/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/tallimetro-pared-adultos-medicion-estatura/2.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/tallimetro-pared-adultos-medicion-estatura/3.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/tallimetro-pared-adultos-medicion-estatura/4.webp"
     ],
     "specs": [
       {
@@ -932,11 +932,11 @@ export const pesajeProducts: Product[] = [
       "Garantía: 3 Meses"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/tallimetro-pared-adultos-medidor-estatura/0.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/tallimetro-pared-adultos-medidor-estatura/1.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/tallimetro-pared-adultos-medidor-estatura/2.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/tallimetro-pared-adultos-medidor-estatura/3.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/tallimetro-pared-adultos-medidor-estatura/4.png"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/tallimetro-pared-adultos-medidor-estatura/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/tallimetro-pared-adultos-medidor-estatura/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/tallimetro-pared-adultos-medidor-estatura/2.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/tallimetro-pared-adultos-medidor-estatura/3.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/tallimetro-pared-adultos-medidor-estatura/4.webp"
     ],
     "specs": [
       {
@@ -986,11 +986,11 @@ export const pesajeProducts: Product[] = [
       "Alimentación: 110 V"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-bebes-20kg-peso-digital/0.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-bebes-20kg-peso-digital/1.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-bebes-20kg-peso-digital/2.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-bebes-20kg-peso-digital/3.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-bebes-20kg-peso-digital/4.png"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-bebes-20kg-peso-digital/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-bebes-20kg-peso-digital/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-bebes-20kg-peso-digital/2.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-bebes-20kg-peso-digital/3.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-bebes-20kg-peso-digital/4.webp"
     ],
     "specs": [
       {
@@ -1056,11 +1056,11 @@ export const pesajeProducts: Product[] = [
       "Alimentación: 110 V"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-bebes-20kg-peso-preciso/0.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-bebes-20kg-peso-preciso/1.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-bebes-20kg-peso-preciso/2.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-bebes-20kg-peso-preciso/3.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-bebes-20kg-peso-preciso/4.png"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-bebes-20kg-peso-preciso/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-bebes-20kg-peso-preciso/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-bebes-20kg-peso-preciso/2.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-bebes-20kg-peso-preciso/3.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-bebes-20kg-peso-preciso/4.webp"
     ],
     "specs": [
       {
@@ -1126,11 +1126,11 @@ export const pesajeProducts: Product[] = [
       "Alimentación: 110 V"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-para-bebes-20kg-tallimetro-precisa/0.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-para-bebes-20kg-tallimetro-precisa/1.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-para-bebes-20kg-tallimetro-precisa/2.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-para-bebes-20kg-tallimetro-precisa/3.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-para-bebes-20kg-tallimetro-precisa/4.png"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-para-bebes-20kg-tallimetro-precisa/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-para-bebes-20kg-tallimetro-precisa/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-para-bebes-20kg-tallimetro-precisa/2.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-para-bebes-20kg-tallimetro-precisa/3.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-para-bebes-20kg-tallimetro-precisa/4.webp"
     ],
     "specs": [
       {
@@ -1196,11 +1196,11 @@ export const pesajeProducts: Product[] = [
       "Alimentación: 110 V"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-para-bebe-con-tazon/0.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-para-bebe-con-tazon/1.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-para-bebe-con-tazon/2.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-para-bebe-con-tazon/3.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-para-bebe-con-tazon/4.png"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-para-bebe-con-tazon/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-para-bebe-con-tazon/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-para-bebe-con-tazon/2.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-para-bebe-con-tazon/3.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-para-bebe-con-tazon/4.webp"
     ],
     "specs": [
       {
@@ -1266,11 +1266,11 @@ export const pesajeProducts: Product[] = [
       "Alimentación: 110 V"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-para-bebe-yrbb-20-mecanica/0.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-para-bebe-yrbb-20-mecanica/1.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-para-bebe-yrbb-20-mecanica/2.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-para-bebe-yrbb-20-mecanica/3.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-para-bebe-yrbb-20-mecanica/4.png"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-para-bebe-yrbb-20-mecanica/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-para-bebe-yrbb-20-mecanica/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-para-bebe-yrbb-20-mecanica/2.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-para-bebe-yrbb-20-mecanica/3.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/bascula-para-bebe-yrbb-20-mecanica/4.webp"
     ],
     "specs": [
       {
@@ -1336,10 +1336,10 @@ export const pesajeProducts: Product[] = [
       "Alimentación: Pilas AA"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/gramera-5000-gr-digital-tazon-ovalada/0.jpg",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/gramera-5000-gr-digital-tazon-ovalada/1.jpg",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/gramera-5000-gr-digital-tazon-ovalada/2.jpg",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/gramera-5000-gr-digital-tazon-ovalada/3.jpg"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/gramera-5000-gr-digital-tazon-ovalada/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/gramera-5000-gr-digital-tazon-ovalada/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/gramera-5000-gr-digital-tazon-ovalada/2.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/gramera-5000-gr-digital-tazon-ovalada/3.webp"
     ],
     "specs": [
       {
@@ -1405,10 +1405,10 @@ export const pesajeProducts: Product[] = [
       "Alimentación: Pilas AA"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/gramera-5-kg-digital-tazon-circular/0.jpg",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/gramera-5-kg-digital-tazon-circular/1.jpg",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/gramera-5-kg-digital-tazon-circular/2.jpg",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/gramera-5-kg-digital-tazon-circular/3.jpg"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/gramera-5-kg-digital-tazon-circular/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/gramera-5-kg-digital-tazon-circular/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/gramera-5-kg-digital-tazon-circular/2.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/gramera-5-kg-digital-tazon-circular/3.webp"
     ],
     "specs": [
       {
@@ -1474,11 +1474,11 @@ export const pesajeProducts: Product[] = [
       "Alimentación: Requiere pilas AA"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/gramera-10-kg-digital/0.jpg",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/gramera-10-kg-digital/1.jpg",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/gramera-10-kg-digital/2.jpg",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/gramera-10-kg-digital/3.jpg",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/gramera-10-kg-digital/4.jpg"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/gramera-10-kg-digital/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/gramera-10-kg-digital/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/gramera-10-kg-digital/2.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/gramera-10-kg-digital/3.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/pesaje/gramera-10-kg-digital/4.webp"
     ],
     "specs": [
       {

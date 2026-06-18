@@ -21,8 +21,8 @@ export const mobiliarioProducts: Product[] = [
       "Base sólida y estable"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/mobiliario/mesa-de-trabajo-en-acero-180-x-60/0.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/mobiliario/mesa-de-trabajo-en-acero-180-x-60/1.png"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/mobiliario/mesa-de-trabajo-en-acero-180-x-60/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/mobiliario/mesa-de-trabajo-en-acero-180-x-60/1.webp"
     ],
     "specs": [],
     "badge": {
@@ -65,9 +65,9 @@ export const mobiliarioProducts: Product[] = [
     "description": "## Mesas de trabajo y lavaplatos en acero inoxidable 304: monta una cocina industrial a prueba de uso pesado\n\nPala para pizza en aleación de aluminio con mango de madera color caoba oscuro. Ideal para retirar y trasladar pizzas, panes, pasteles y productos horneados de forma práctica y segura.\n\n### ¿Para qué negocios es ideal?\nCocinas, restaurantes y obradores que necesitan superficies y mobiliario en acero inoxidable resistente e higiénico.\n\n### Compra con respaldo Fuller\nEnvío nacional desde Bogotá, garantía Fuller y asesoría experta. Cotiza por WhatsApp y recibe atención personalizada.",
     "highlights": [],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/mobiliario/pala-para-pizza-lamina-de-aluminio/0.jpg",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/mobiliario/pala-para-pizza-lamina-de-aluminio/1.jpg",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/mobiliario/pala-para-pizza-lamina-de-aluminio/2.png"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/mobiliario/pala-para-pizza-lamina-de-aluminio/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/mobiliario/pala-para-pizza-lamina-de-aluminio/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/mobiliario/pala-para-pizza-lamina-de-aluminio/2.webp"
     ],
     "specs": [],
     "price": 133900,
@@ -105,8 +105,8 @@ export const mobiliarioProducts: Product[] = [
       "Material: Acero inox"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/mobiliario/pinza-en-acero-inoxidable/0.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/mobiliario/pinza-en-acero-inoxidable/1.png"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/mobiliario/pinza-en-acero-inoxidable/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/mobiliario/pinza-en-acero-inoxidable/1.webp"
     ],
     "specs": [
       {
@@ -150,7 +150,7 @@ export const mobiliarioProducts: Product[] = [
       "Peso: 63 gramos"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/mobiliario/dispensador-desal-grande-acero-inoxidable/0.png"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/mobiliario/dispensador-desal-grande-acero-inoxidable/0.webp"
     ],
     "specs": [
       {
@@ -195,7 +195,7 @@ export const mobiliarioProducts: Product[] = [
     "description": "## Mesas de trabajo y lavaplatos en acero inoxidable 304: monta una cocina industrial a prueba de uso pesado\n\nKit de cucharas medidoras en acero inoxidable, ideal para medir ingredientes con precisión y evitar desperdicios.\n\n### ¿Para qué negocios es ideal?\nCocinas, restaurantes y obradores que necesitan superficies y mobiliario en acero inoxidable resistente e higiénico.\n\n### Compra con respaldo Fuller\nEnvío nacional desde Bogotá, garantía Fuller y asesoría experta. Cotiza por WhatsApp y recibe atención personalizada.",
     "highlights": [],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/mobiliario/kit-decucharas-medidoras/0.jpg"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/mobiliario/kit-decucharas-medidoras/0.webp"
     ],
     "specs": [],
     "price": 17900,
@@ -236,8 +236,8 @@ export const mobiliarioProducts: Product[] = [
       "Alimentación: 110 V"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/mobiliario/fregadero-para-cocina-acero/0.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/mobiliario/fregadero-para-cocina-acero/1.png"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/mobiliario/fregadero-para-cocina-acero/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/mobiliario/fregadero-para-cocina-acero/1.webp"
     ],
     "specs": [
       {
@@ -305,10 +305,10 @@ export const mobiliarioProducts: Product[] = [
       "Garantía: 1 a 3 meses"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/mobiliario/mesa-de-trabajo-de-150-cm-por-60-cm/0.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/mobiliario/mesa-de-trabajo-de-150-cm-por-60-cm/1.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/mobiliario/mesa-de-trabajo-de-150-cm-por-60-cm/2.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/mobiliario/mesa-de-trabajo-de-150-cm-por-60-cm/3.png"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/mobiliario/mesa-de-trabajo-de-150-cm-por-60-cm/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/mobiliario/mesa-de-trabajo-de-150-cm-por-60-cm/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/mobiliario/mesa-de-trabajo-de-150-cm-por-60-cm/2.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/mobiliario/mesa-de-trabajo-de-150-cm-por-60-cm/3.webp"
     ],
     "specs": [
       {
@@ -356,7 +356,7 @@ export const mobiliarioProducts: Product[] = [
       "Garantía: 1 a 3 meses"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/mobiliario/mesa-de-trabajo-de-3-metros-largo-2/0.png"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/mobiliario/mesa-de-trabajo-de-3-metros-largo-2/0.webp"
     ],
     "specs": [
       {

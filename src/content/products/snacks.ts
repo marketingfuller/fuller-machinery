@@ -21,13 +21,13 @@ export const snacksProducts: Product[] = [
       "Estructura de piso en acero inoxidable"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/freidora-a-gas-de-piso-2-tanques-30-lt/0.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/freidora-a-gas-de-piso-2-tanques-30-lt/1.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/freidora-a-gas-de-piso-2-tanques-30-lt/2.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/freidora-a-gas-de-piso-2-tanques-30-lt/3.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/freidora-a-gas-de-piso-2-tanques-30-lt/4.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/freidora-a-gas-de-piso-2-tanques-30-lt/5.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/freidora-a-gas-de-piso-2-tanques-30-lt/6.png"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/freidora-a-gas-de-piso-2-tanques-30-lt/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/freidora-a-gas-de-piso-2-tanques-30-lt/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/freidora-a-gas-de-piso-2-tanques-30-lt/2.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/freidora-a-gas-de-piso-2-tanques-30-lt/3.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/freidora-a-gas-de-piso-2-tanques-30-lt/4.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/freidora-a-gas-de-piso-2-tanques-30-lt/5.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/freidora-a-gas-de-piso-2-tanques-30-lt/6.webp"
     ],
     "specs": [
       {
@@ -93,8 +93,8 @@ export const snacksProducts: Product[] = [
       "Margen altísimo por porción"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/crispetera-16-oz-industrial/0.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/crispetera-16-oz-industrial/1.png"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/crispetera-16-oz-industrial/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/crispetera-16-oz-industrial/1.webp"
     ],
     "specs": [
       {
@@ -150,8 +150,8 @@ export const snacksProducts: Product[] = [
     "description": "## Wafleras industriales tradicional, burbuja y 2 puestos: waffles listos para vender\n\nWafflera tradicional de uso comercial con molde de 18.5 cm y 4 secciones. Fabricada en acero inoxidable con placas de alta conductividad, ofrece cocción uniforme, control de temperatura.\n\n### ¿Para qué negocios es ideal?\nCafeterías, food trucks, heladerías y negocios de postres que venden waffles tradicionales, de burbuja y rellenos.\n\n### Compra con respaldo Fuller\nEnvío nacional desde Bogotá, garantía Fuller y asesoría experta. Cotiza por WhatsApp y recibe atención personalizada.",
     "highlights": [],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/waflera-tradicional-2/0.jpg",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/waflera-tradicional-2/1.jpg"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/waflera-tradicional-2/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/waflera-tradicional-2/1.webp"
     ],
     "specs": [],
     "price": 1318900,
@@ -192,11 +192,11 @@ export const snacksProducts: Product[] = [
       "Material: Acero inox"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/waflera-tradicional-de-2-puestos-2-placas-redondas-4-porciones/0.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/waflera-tradicional-de-2-puestos-2-placas-redondas-4-porciones/1.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/waflera-tradicional-de-2-puestos-2-placas-redondas-4-porciones/2.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/waflera-tradicional-de-2-puestos-2-placas-redondas-4-porciones/3.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/waflera-tradicional-de-2-puestos-2-placas-redondas-4-porciones/4.png"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/waflera-tradicional-de-2-puestos-2-placas-redondas-4-porciones/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/waflera-tradicional-de-2-puestos-2-placas-redondas-4-porciones/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/waflera-tradicional-de-2-puestos-2-placas-redondas-4-porciones/2.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/waflera-tradicional-de-2-puestos-2-placas-redondas-4-porciones/3.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/waflera-tradicional-de-2-puestos-2-placas-redondas-4-porciones/4.webp"
     ],
     "specs": [
       {
@@ -254,11 +254,11 @@ export const snacksProducts: Product[] = [
       "Diametro: 15 cm"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/formador-de-hamburguesa-manual-15-cm/0.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/formador-de-hamburguesa-manual-15-cm/1.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/formador-de-hamburguesa-manual-15-cm/2.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/formador-de-hamburguesa-manual-15-cm/3.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/formador-de-hamburguesa-manual-15-cm/4.png"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/formador-de-hamburguesa-manual-15-cm/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/formador-de-hamburguesa-manual-15-cm/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/formador-de-hamburguesa-manual-15-cm/2.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/formador-de-hamburguesa-manual-15-cm/3.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/formador-de-hamburguesa-manual-15-cm/4.webp"
     ],
     "specs": [
       {
@@ -313,11 +313,11 @@ export const snacksProducts: Product[] = [
       "Capacidad: 8 onz"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/18948/0.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/18948/1.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/18948/2.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/18948/3.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/18948/4.png"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/18948/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/18948/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/18948/2.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/18948/3.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/18948/4.webp"
     ],
     "specs": [
       {
@@ -363,11 +363,11 @@ export const snacksProducts: Product[] = [
       "Material: Acero Inoxidable"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/plancha-electrica-industrial-2-zonas-110v-fuller/0.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/plancha-electrica-industrial-2-zonas-110v-fuller/1.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/plancha-electrica-industrial-2-zonas-110v-fuller/2.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/plancha-electrica-industrial-2-zonas-110v-fuller/3.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/plancha-electrica-industrial-2-zonas-110v-fuller/4.png"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/plancha-electrica-industrial-2-zonas-110v-fuller/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/plancha-electrica-industrial-2-zonas-110v-fuller/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/plancha-electrica-industrial-2-zonas-110v-fuller/2.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/plancha-electrica-industrial-2-zonas-110v-fuller/3.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/plancha-electrica-industrial-2-zonas-110v-fuller/4.webp"
     ],
     "specs": [
       {
@@ -420,11 +420,11 @@ export const snacksProducts: Product[] = [
     "description": "## Máquina de algodón de azúcar con carro: conos para eventos y negocio de alto margen\n\nMáquina de algodón de azúcar con carro color negro. Ideal para eventos, ferias y negocios. Capacidad de 7 porciones por minuto, control de temperatura, diseño profesional y ruedas para transporte. ¡Perfecta para emprender o hacer crecer tu negocio!\n\n### ¿Para qué negocios es ideal?\nEventos, fiestas infantiles, parques y kioscos que venden algodón de azúcar de alta rotación.\n\n### Compra con respaldo Fuller\nEnvío nacional desde Bogotá, garantía Fuller y asesoría experta. Cotiza por WhatsApp y recibe atención personalizada.",
     "highlights": [],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/algodonera-con-carro-negra/0.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/algodonera-con-carro-negra/1.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/algodonera-con-carro-negra/2.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/algodonera-con-carro-negra/3.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/algodonera-con-carro-negra/4.png"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/algodonera-con-carro-negra/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/algodonera-con-carro-negra/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/algodonera-con-carro-negra/2.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/algodonera-con-carro-negra/3.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/algodonera-con-carro-negra/4.webp"
     ],
     "specs": [],
     "price": 1903900,
@@ -465,11 +465,11 @@ export const snacksProducts: Product[] = [
       "Voltaje: 110V"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/deshidratador-alimentos-12-bandejas-acero-inoxidable/0.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/deshidratador-alimentos-12-bandejas-acero-inoxidable/1.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/deshidratador-alimentos-12-bandejas-acero-inoxidable/2.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/deshidratador-alimentos-12-bandejas-acero-inoxidable/3.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/deshidratador-alimentos-12-bandejas-acero-inoxidable/4.png"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/deshidratador-alimentos-12-bandejas-acero-inoxidable/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/deshidratador-alimentos-12-bandejas-acero-inoxidable/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/deshidratador-alimentos-12-bandejas-acero-inoxidable/2.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/deshidratador-alimentos-12-bandejas-acero-inoxidable/3.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/deshidratador-alimentos-12-bandejas-acero-inoxidable/4.webp"
     ],
     "specs": [
       {
@@ -537,10 +537,10 @@ export const snacksProducts: Product[] = [
       "Voltaje: 110"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/freidor-vertical-de-salchichas-egg-roller/0.jpg",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/freidor-vertical-de-salchichas-egg-roller/1.jpg",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/freidor-vertical-de-salchichas-egg-roller/2.jpg",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/freidor-vertical-de-salchichas-egg-roller/3.jpg"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/freidor-vertical-de-salchichas-egg-roller/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/freidor-vertical-de-salchichas-egg-roller/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/freidor-vertical-de-salchichas-egg-roller/2.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/freidor-vertical-de-salchichas-egg-roller/3.webp"
     ],
     "specs": [
       {
@@ -594,11 +594,11 @@ export const snacksProducts: Product[] = [
       "Rango de temperatura: 0 a 90 grados centígrados"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/fundidora-de-chocolate-1-tanque/0.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/fundidora-de-chocolate-1-tanque/1.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/fundidora-de-chocolate-1-tanque/2.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/fundidora-de-chocolate-1-tanque/3.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/fundidora-de-chocolate-1-tanque/4.png"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/fundidora-de-chocolate-1-tanque/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/fundidora-de-chocolate-1-tanque/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/fundidora-de-chocolate-1-tanque/2.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/fundidora-de-chocolate-1-tanque/3.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/fundidora-de-chocolate-1-tanque/4.webp"
     ],
     "specs": [
       {
@@ -655,9 +655,9 @@ export const snacksProducts: Product[] = [
       "Alimentacion: 110v"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/crispetera-oil-free-830/0.jpg",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/crispetera-oil-free-830/1.jpg",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/crispetera-oil-free-830/2.jpg"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/crispetera-oil-free-830/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/crispetera-oil-free-830/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/crispetera-oil-free-830/2.webp"
     ],
     "specs": [
       {
@@ -711,10 +711,10 @@ export const snacksProducts: Product[] = [
       "Material: Olla antiadherente"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/crispetera-mini-aceite/0.jpg",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/crispetera-mini-aceite/1.jpg",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/crispetera-mini-aceite/2.jpg",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/crispetera-mini-aceite/3.jpg"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/crispetera-mini-aceite/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/crispetera-mini-aceite/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/crispetera-mini-aceite/2.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/crispetera-mini-aceite/3.webp"
     ],
     "specs": [
       {
@@ -780,15 +780,15 @@ export const snacksProducts: Product[] = [
       "¿Qué incluye?: bandeja para residuos, cubierta en acrílico, manual"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/asador-salchichas-11-rodillos-cabina-pan/0.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/asador-salchichas-11-rodillos-cabina-pan/1.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/asador-salchichas-11-rodillos-cabina-pan/2.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/asador-salchichas-11-rodillos-cabina-pan/3.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/asador-salchichas-11-rodillos-cabina-pan/4.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/asador-salchichas-11-rodillos-cabina-pan/5.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/asador-salchichas-11-rodillos-cabina-pan/6.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/asador-salchichas-11-rodillos-cabina-pan/7.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/asador-salchichas-11-rodillos-cabina-pan/8.png"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/asador-salchichas-11-rodillos-cabina-pan/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/asador-salchichas-11-rodillos-cabina-pan/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/asador-salchichas-11-rodillos-cabina-pan/2.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/asador-salchichas-11-rodillos-cabina-pan/3.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/asador-salchichas-11-rodillos-cabina-pan/4.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/asador-salchichas-11-rodillos-cabina-pan/5.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/asador-salchichas-11-rodillos-cabina-pan/6.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/asador-salchichas-11-rodillos-cabina-pan/7.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/asador-salchichas-11-rodillos-cabina-pan/8.webp"
     ],
     "specs": [
       {
@@ -845,13 +845,13 @@ export const snacksProducts: Product[] = [
       "Voltaje: 110v"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/algodonera-mini-comercial/0.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/algodonera-mini-comercial/1.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/algodonera-mini-comercial/2.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/algodonera-mini-comercial/3.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/algodonera-mini-comercial/4.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/algodonera-mini-comercial/5.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/algodonera-mini-comercial/6.png"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/algodonera-mini-comercial/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/algodonera-mini-comercial/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/algodonera-mini-comercial/2.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/algodonera-mini-comercial/3.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/algodonera-mini-comercial/4.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/algodonera-mini-comercial/5.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/algodonera-mini-comercial/6.webp"
     ],
     "specs": [
       {
@@ -909,11 +909,11 @@ export const snacksProducts: Product[] = [
       "Alimentación: 110 V"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/calentador-papas-chips-y-a-la-francesa/0.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/calentador-papas-chips-y-a-la-francesa/1.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/calentador-papas-chips-y-a-la-francesa/2.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/calentador-papas-chips-y-a-la-francesa/3.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/calentador-papas-chips-y-a-la-francesa/4.png"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/calentador-papas-chips-y-a-la-francesa/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/calentador-papas-chips-y-a-la-francesa/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/calentador-papas-chips-y-a-la-francesa/2.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/calentador-papas-chips-y-a-la-francesa/3.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/calentador-papas-chips-y-a-la-francesa/4.webp"
     ],
     "specs": [
       {
@@ -982,11 +982,11 @@ export const snacksProducts: Product[] = [
       "Alimentación: 110 V"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/freidor-electrico-2-tanques-cada-tanque-10-lt/0.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/freidor-electrico-2-tanques-cada-tanque-10-lt/1.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/freidor-electrico-2-tanques-cada-tanque-10-lt/2.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/freidor-electrico-2-tanques-cada-tanque-10-lt/3.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/freidor-electrico-2-tanques-cada-tanque-10-lt/4.png"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/freidor-electrico-2-tanques-cada-tanque-10-lt/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/freidor-electrico-2-tanques-cada-tanque-10-lt/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/freidor-electrico-2-tanques-cada-tanque-10-lt/2.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/freidor-electrico-2-tanques-cada-tanque-10-lt/3.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/freidor-electrico-2-tanques-cada-tanque-10-lt/4.webp"
     ],
     "specs": [
       {
@@ -1052,11 +1052,11 @@ export const snacksProducts: Product[] = [
       "Alimentación: 110 V"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/freidor-electrico-2-tanques-cada-tanque-5-lt/0.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/freidor-electrico-2-tanques-cada-tanque-5-lt/1.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/freidor-electrico-2-tanques-cada-tanque-5-lt/2.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/freidor-electrico-2-tanques-cada-tanque-5-lt/3.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/freidor-electrico-2-tanques-cada-tanque-5-lt/4.png"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/freidor-electrico-2-tanques-cada-tanque-5-lt/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/freidor-electrico-2-tanques-cada-tanque-5-lt/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/freidor-electrico-2-tanques-cada-tanque-5-lt/2.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/freidor-electrico-2-tanques-cada-tanque-5-lt/3.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/freidor-electrico-2-tanques-cada-tanque-5-lt/4.webp"
     ],
     "specs": [
       {
@@ -1122,9 +1122,9 @@ export const snacksProducts: Product[] = [
       "Alimentación: 110 V"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/freidor-electrico-1-tanque-5-5-lt/0.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/freidor-electrico-1-tanque-5-5-lt/1.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/freidor-electrico-1-tanque-5-5-lt/2.png"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/freidor-electrico-1-tanque-5-5-lt/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/freidor-electrico-1-tanque-5-5-lt/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/freidor-electrico-1-tanque-5-5-lt/2.webp"
     ],
     "specs": [
       {
@@ -1190,10 +1190,10 @@ export const snacksProducts: Product[] = [
       "Alimentación: 110 V"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/parrilla-asador-plancha-electrica/0.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/parrilla-asador-plancha-electrica/1.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/parrilla-asador-plancha-electrica/2.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/parrilla-asador-plancha-electrica/3.png"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/parrilla-asador-plancha-electrica/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/parrilla-asador-plancha-electrica/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/parrilla-asador-plancha-electrica/2.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/parrilla-asador-plancha-electrica/3.webp"
     ],
     "specs": [
       {
@@ -1259,11 +1259,11 @@ export const snacksProducts: Product[] = [
       "Garantía: 6 Meses"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/sanduchera-electrica-2-puesto/0.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/sanduchera-electrica-2-puesto/1.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/sanduchera-electrica-2-puesto/2.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/sanduchera-electrica-2-puesto/3.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/sanduchera-electrica-2-puesto/4.png"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/sanduchera-electrica-2-puesto/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/sanduchera-electrica-2-puesto/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/sanduchera-electrica-2-puesto/2.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/sanduchera-electrica-2-puesto/3.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/sanduchera-electrica-2-puesto/4.webp"
     ],
     "specs": [
       {
@@ -1325,10 +1325,10 @@ export const snacksProducts: Product[] = [
       "Potencia: 1.8 kW"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/sanduchera-electrica-1-puesto/0.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/sanduchera-electrica-1-puesto/1.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/sanduchera-electrica-1-puesto/2.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/sanduchera-electrica-1-puesto/3.png"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/sanduchera-electrica-1-puesto/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/sanduchera-electrica-1-puesto/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/sanduchera-electrica-1-puesto/2.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/sanduchera-electrica-1-puesto/3.webp"
     ],
     "specs": [
       {
@@ -1394,11 +1394,11 @@ export const snacksProducts: Product[] = [
       "Potencia: 800 W"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/waflera-erotica-06-2/0.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/waflera-erotica-06-2/1.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/waflera-erotica-06-2/2.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/waflera-erotica-06-2/3.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/waflera-erotica-06-2/4.png"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/waflera-erotica-06-2/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/waflera-erotica-06-2/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/waflera-erotica-06-2/2.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/waflera-erotica-06-2/3.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/waflera-erotica-06-2/4.webp"
     ],
     "specs": [
       {
@@ -1462,11 +1462,11 @@ export const snacksProducts: Product[] = [
       "Potencia: 1.6 kW"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/waflera-erotica-06/0.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/waflera-erotica-06/1.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/waflera-erotica-06/2.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/waflera-erotica-06/3.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/waflera-erotica-06/4.png"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/waflera-erotica-06/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/waflera-erotica-06/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/waflera-erotica-06/2.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/waflera-erotica-06/3.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/waflera-erotica-06/4.webp"
     ],
     "specs": [
       {
@@ -1530,11 +1530,11 @@ export const snacksProducts: Product[] = [
       "Potencia: 1.6 kW"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/waflera-erotica-05/0.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/waflera-erotica-05/1.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/waflera-erotica-05/2.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/waflera-erotica-05/3.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/waflera-erotica-05/4.png"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/waflera-erotica-05/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/waflera-erotica-05/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/waflera-erotica-05/2.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/waflera-erotica-05/3.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/waflera-erotica-05/4.webp"
     ],
     "specs": [
       {
@@ -1598,11 +1598,11 @@ export const snacksProducts: Product[] = [
       "Potencia: 1.6 kW"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/waflera-erotica-04/0.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/waflera-erotica-04/1.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/waflera-erotica-04/2.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/waflera-erotica-04/3.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/waflera-erotica-04/4.png"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/waflera-erotica-04/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/waflera-erotica-04/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/waflera-erotica-04/2.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/waflera-erotica-04/3.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/waflera-erotica-04/4.webp"
     ],
     "specs": [
       {
@@ -1666,11 +1666,11 @@ export const snacksProducts: Product[] = [
       "Potencia: 1.56 kW"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/waflera-erotica-femenina/0.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/waflera-erotica-femenina/1.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/waflera-erotica-femenina/2.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/waflera-erotica-femenina/3.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/waflera-erotica-femenina/4.png"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/waflera-erotica-femenina/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/waflera-erotica-femenina/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/waflera-erotica-femenina/2.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/waflera-erotica-femenina/3.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/waflera-erotica-femenina/4.webp"
     ],
     "specs": [
       {
@@ -1734,10 +1734,10 @@ export const snacksProducts: Product[] = [
       "Potencia: 1.65 kW"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/wafflera-erotica-masculina/0.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/wafflera-erotica-masculina/1.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/wafflera-erotica-masculina/2.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/wafflera-erotica-masculina/3.png"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/wafflera-erotica-masculina/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/wafflera-erotica-masculina/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/wafflera-erotica-masculina/2.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/wafflera-erotica-masculina/3.webp"
     ],
     "specs": [
       {
@@ -1801,11 +1801,11 @@ export const snacksProducts: Product[] = [
       "Garantía: 6 Meses"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/maquina-para-hacer-galleta-cono-de-helado/0.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/maquina-para-hacer-galleta-cono-de-helado/1.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/maquina-para-hacer-galleta-cono-de-helado/2.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/maquina-para-hacer-galleta-cono-de-helado/3.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/maquina-para-hacer-galleta-cono-de-helado/4.png"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/maquina-para-hacer-galleta-cono-de-helado/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/maquina-para-hacer-galleta-cono-de-helado/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/maquina-para-hacer-galleta-cono-de-helado/2.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/maquina-para-hacer-galleta-cono-de-helado/3.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/maquina-para-hacer-galleta-cono-de-helado/4.webp"
     ],
     "specs": [
       {
@@ -1866,9 +1866,9 @@ export const snacksProducts: Product[] = [
       "Alimentación: 110 V"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/waflera-tradicional/0.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/waflera-tradicional/1.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/waflera-tradicional/2.png"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/waflera-tradicional/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/waflera-tradicional/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/waflera-tradicional/2.webp"
     ],
     "specs": [
       {
@@ -1934,10 +1934,10 @@ export const snacksProducts: Product[] = [
       "Potencia: 1.5 kW"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/waflera-burbuja/0.jpg",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/waflera-burbuja/1.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/waflera-burbuja/2.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/waflera-burbuja/3.png"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/waflera-burbuja/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/waflera-burbuja/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/waflera-burbuja/2.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/waflera-burbuja/3.webp"
     ],
     "specs": [
       {
@@ -2003,11 +2003,11 @@ export const snacksProducts: Product[] = [
       "Método de cocción: Baño María"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/vaporizador-de-salchicha-y-pan-12/0.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/vaporizador-de-salchicha-y-pan-12/1.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/vaporizador-de-salchicha-y-pan-12/2.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/vaporizador-de-salchicha-y-pan-12/3.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/vaporizador-de-salchicha-y-pan-12/4.png"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/vaporizador-de-salchicha-y-pan-12/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/vaporizador-de-salchicha-y-pan-12/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/vaporizador-de-salchicha-y-pan-12/2.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/vaporizador-de-salchicha-y-pan-12/3.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/vaporizador-de-salchicha-y-pan-12/4.webp"
     ],
     "specs": [
       {
@@ -2072,9 +2072,9 @@ export const snacksProducts: Product[] = [
       "Alimentación: -"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/asador-salchichas-9-rodillos-bodega-pan/0.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/asador-salchichas-9-rodillos-bodega-pan/1.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/asador-salchichas-9-rodillos-bodega-pan/2.png"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/asador-salchichas-9-rodillos-bodega-pan/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/asador-salchichas-9-rodillos-bodega-pan/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/asador-salchichas-9-rodillos-bodega-pan/2.webp"
     ],
     "specs": [
       {
@@ -2139,9 +2139,9 @@ export const snacksProducts: Product[] = [
       "Alimentación: -"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/asador-salchichas-compacto-7-rodillos-18-unidades/0.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/asador-salchichas-compacto-7-rodillos-18-unidades/1.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/asador-salchichas-compacto-7-rodillos-18-unidades/2.png"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/asador-salchichas-compacto-7-rodillos-18-unidades/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/asador-salchichas-compacto-7-rodillos-18-unidades/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/asador-salchichas-compacto-7-rodillos-18-unidades/2.webp"
     ],
     "specs": [
       {
@@ -2202,11 +2202,11 @@ export const snacksProducts: Product[] = [
       "Alimentación: 110 W"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/maquina-de-helado-pequena/0.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/maquina-de-helado-pequena/1.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/maquina-de-helado-pequena/2.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/maquina-de-helado-pequena/3.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/maquina-de-helado-pequena/4.png"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/maquina-de-helado-pequena/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/maquina-de-helado-pequena/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/maquina-de-helado-pequena/2.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/maquina-de-helado-pequena/3.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/maquina-de-helado-pequena/4.webp"
     ],
     "specs": [
       {
@@ -2267,10 +2267,10 @@ export const snacksProducts: Product[] = [
       "Alimentación: 110 W"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/crispetera-2-5-oz-mediana-f1-850/0.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/crispetera-2-5-oz-mediana-f1-850/1.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/crispetera-2-5-oz-mediana-f1-850/2.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/crispetera-2-5-oz-mediana-f1-850/3.png"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/crispetera-2-5-oz-mediana-f1-850/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/crispetera-2-5-oz-mediana-f1-850/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/crispetera-2-5-oz-mediana-f1-850/2.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/crispetera-2-5-oz-mediana-f1-850/3.webp"
     ],
     "specs": [
       {
@@ -2336,7 +2336,7 @@ export const snacksProducts: Product[] = [
       "Alimentación: N/A"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/carro-para-crispetera/0.png"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/carro-para-crispetera/0.webp"
     ],
     "specs": [
       {
@@ -2398,10 +2398,10 @@ export const snacksProducts: Product[] = [
       "Alimentación: -"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/asador-salchichas-5-rodillos-cabina-vidrio/0.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/asador-salchichas-5-rodillos-cabina-vidrio/1.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/asador-salchichas-5-rodillos-cabina-vidrio/2.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/asador-salchichas-5-rodillos-cabina-vidrio/3.png"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/asador-salchichas-5-rodillos-cabina-vidrio/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/asador-salchichas-5-rodillos-cabina-vidrio/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/asador-salchichas-5-rodillos-cabina-vidrio/2.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/asador-salchichas-5-rodillos-cabina-vidrio/3.webp"
     ],
     "specs": [
       {
@@ -2466,9 +2466,9 @@ export const snacksProducts: Product[] = [
       "Alimentación: 110 voltios"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/fuente-de-chocolate-grande-5/0.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/fuente-de-chocolate-grande-5/1.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/fuente-de-chocolate-grande-5/2.png"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/fuente-de-chocolate-grande-5/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/fuente-de-chocolate-grande-5/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/fuente-de-chocolate-grande-5/2.webp"
     ],
     "specs": [
       {
@@ -2530,8 +2530,8 @@ export const snacksProducts: Product[] = [
       "Alimentación: 110 voltios"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/fuente-de-chocolate-pequena/0.jpg",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/fuente-de-chocolate-pequena/1.jpg"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/fuente-de-chocolate-pequena/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/fuente-de-chocolate-pequena/1.webp"
     ],
     "specs": [
       {
@@ -2594,7 +2594,7 @@ export const snacksProducts: Product[] = [
       "Material: Acrílico"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/cubierta-para-algodonera/0.png"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/cubierta-para-algodonera/0.webp"
     ],
     "specs": [
       {
@@ -2640,13 +2640,13 @@ export const snacksProducts: Product[] = [
       "Alimentación: 110 V"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/maquina-algodonera-industrial-para-eventos/0.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/maquina-algodonera-industrial-para-eventos/1.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/maquina-algodonera-industrial-para-eventos/2.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/maquina-algodonera-industrial-para-eventos/3.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/maquina-algodonera-industrial-para-eventos/4.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/maquina-algodonera-industrial-para-eventos/5.jpg",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/maquina-algodonera-industrial-para-eventos/6.png"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/maquina-algodonera-industrial-para-eventos/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/maquina-algodonera-industrial-para-eventos/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/maquina-algodonera-industrial-para-eventos/2.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/maquina-algodonera-industrial-para-eventos/3.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/maquina-algodonera-industrial-para-eventos/4.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/maquina-algodonera-industrial-para-eventos/5.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/maquina-algodonera-industrial-para-eventos/6.webp"
     ],
     "specs": [
       {
@@ -2708,12 +2708,12 @@ export const snacksProducts: Product[] = [
       "Alimentación: 110 W"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/maquina-algodonera-industrial-ferias-eventos/0.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/maquina-algodonera-industrial-ferias-eventos/1.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/maquina-algodonera-industrial-ferias-eventos/2.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/maquina-algodonera-industrial-ferias-eventos/3.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/maquina-algodonera-industrial-ferias-eventos/4.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/maquina-algodonera-industrial-ferias-eventos/5.png"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/maquina-algodonera-industrial-ferias-eventos/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/maquina-algodonera-industrial-ferias-eventos/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/maquina-algodonera-industrial-ferias-eventos/2.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/maquina-algodonera-industrial-ferias-eventos/3.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/maquina-algodonera-industrial-ferias-eventos/4.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/maquina-algodonera-industrial-ferias-eventos/5.webp"
     ],
     "specs": [
       {
@@ -2773,9 +2773,9 @@ export const snacksProducts: Product[] = [
       "Capacidad: 0.27 litros"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/crispetera-1oz-pequena-f1-820/0.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/crispetera-1oz-pequena-f1-820/1.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/crispetera-1oz-pequena-f1-820/2.png"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/crispetera-1oz-pequena-f1-820/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/crispetera-1oz-pequena-f1-820/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/crispetera-1oz-pequena-f1-820/2.webp"
     ],
     "specs": [
       {
@@ -2824,10 +2824,10 @@ export const snacksProducts: Product[] = [
       "Capacidad: 8 onzas"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/crispetera-8-oz-mini-comercial/0.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/crispetera-8-oz-mini-comercial/1.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/crispetera-8-oz-mini-comercial/2.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/crispetera-8-oz-mini-comercial/3.png"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/crispetera-8-oz-mini-comercial/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/crispetera-8-oz-mini-comercial/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/crispetera-8-oz-mini-comercial/2.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/crispetera-8-oz-mini-comercial/3.webp"
     ],
     "specs": [
       {
@@ -2880,9 +2880,9 @@ export const snacksProducts: Product[] = [
       "Capacidad: 8 onzas"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/crispetera-8oz-con-carro/0.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/crispetera-8oz-con-carro/1.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/crispetera-8oz-con-carro/2.png"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/crispetera-8oz-con-carro/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/crispetera-8oz-con-carro/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/crispetera-8oz-con-carro/2.webp"
     ],
     "specs": [
       {
@@ -2935,11 +2935,11 @@ export const snacksProducts: Product[] = [
       "Capacidad: 8 onzas"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/crispetera-sencilla-8oz/0.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/crispetera-sencilla-8oz/1.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/crispetera-sencilla-8oz/2.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/crispetera-sencilla-8oz/3.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/crispetera-sencilla-8oz/4.png"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/crispetera-sencilla-8oz/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/crispetera-sencilla-8oz/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/crispetera-sencilla-8oz/2.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/crispetera-sencilla-8oz/3.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/crispetera-sencilla-8oz/4.webp"
     ],
     "specs": [
       {
@@ -2993,8 +2993,8 @@ export const snacksProducts: Product[] = [
       "Alimentación: 110 V"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/maquina-dispensadora-vending-combinada/0.jpg",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/maquina-dispensadora-vending-combinada/1.jpg"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/maquina-dispensadora-vending-combinada/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/maquina-dispensadora-vending-combinada/1.webp"
     ],
     "specs": [
       {
@@ -3059,10 +3059,10 @@ export const snacksProducts: Product[] = [
       "Garantía: 12 meses"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/maquina-dispensadora-vending-ambiente/0.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/maquina-dispensadora-vending-ambiente/1.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/maquina-dispensadora-vending-ambiente/2.png",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/maquina-dispensadora-vending-ambiente/3.png"
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/maquina-dispensadora-vending-ambiente/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/maquina-dispensadora-vending-ambiente/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/maquina-dispensadora-vending-ambiente/2.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/maquina-dispensadora-vending-ambiente/3.webp"
     ],
     "specs": [
       {

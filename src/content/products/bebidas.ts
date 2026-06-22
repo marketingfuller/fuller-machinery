@@ -1324,7 +1324,7 @@ export const bebidasProducts: Product[] = [
   },
   {
     "slug": "selladora-de-latas-plasticas",
-    "name": "Selladora de Latas Plásticas · 12 Sellados/Min",
+    "name": "Selladora de Latas Plásticas Semiautomática · 12 Sellados/Min",
     "type": "selladora-latas",
     "category": "bebidas",
     "categoryLabel": "Bebidas y Café",

@@ -115,4 +115,59 @@ export const nuevosProducts: Product[] = [
     whatsappMessage:
       "Hola, me interesa la Cámara de Fermentación para Panadería (16 bandejas). ¿Me das precio y disponibilidad?",
   },
+  {
+    slug: "maquina-corn-dogs-coreanos",
+    name: "Máquina para Corn Dogs Coreanos · Perros de Maíz",
+    category: "snacks",
+    categoryLabel: "Snacks y Comida Rápida",
+    shortDescription:
+      "Máquina eléctrica para corn dogs coreanos (perros de maíz): 6 unidades por tanda, placa moldeada y cocción uniforme. Producto viral y de alta rotación.",
+    description:
+      "## Corn dogs coreanos: el snack viral, listo en minutos\n\n" +
+      "La **Máquina para Corn Dogs Coreanos** (perros de maíz) trae una **placa especial moldeada para 6 unidades por tanda**, con cocción pareja y control automático de temperatura hasta **250 °C**. Prepara el snack de moda con una presentación atractiva y consistente en cada ronda.\n\n" +
+      "### ¿Para qué negocios es ideal?\n" +
+      "Comidas rápidas, ferias, food trucks, heladerías y emprendimientos que buscan un producto llamativo, de alta rotación y excelente margen.\n\n" +
+      "### Por qué conviene\n" +
+      "- **6 corn dogs por tanda** para atender alta demanda.\n" +
+      "- **Hasta 250 °C** con calentamiento rápido y cocción uniforme.\n" +
+      "- **Temporizador 0–5 min** para resultados parejos sin estar pendiente.\n" +
+      "- **Compacta (31 × 22 × 23 cm)** y de uso comercial: cabe en cualquier barra.",
+    highlights: [
+      "Placa para 6 corn dogs por tanda",
+      "Calienta hasta 250 °C",
+      "Temporizador integrado 0–5 min",
+      "Compacta, 110V (toma estándar)",
+    ],
+    images: [
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/maquina-corn-dogs-coreanos/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/maquina-corn-dogs-coreanos/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/maquina-corn-dogs-coreanos/2.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/maquina-corn-dogs-coreanos/3.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/maquina-corn-dogs-coreanos/4.webp",
+    ],
+    specs: [
+      { label: "Capacidad", value: "6 unidades por tanda" },
+      { label: "Temperatura máxima", value: "250 °C" },
+      { label: "Temporizador", value: "0–5 minutos" },
+      { label: "Voltaje", value: "110 V" },
+      { label: "Potencia", value: "1.5 kW" },
+      { label: "Frecuencia", value: "60 Hz" },
+      { label: "Peso", value: "9 kg" },
+      { label: "Dimensiones", value: "31.2 × 22.2 × 23 cm" },
+    ],
+    badge: { text: "Nuevo", color: "bg-accent" },
+    price: 998900,
+    currency: "COP",
+    stockStatus: "in_stock",
+    keywords: [
+      "máquina corn dog coreano",
+      "máquina perros de maíz",
+      "corn dog coreano",
+      "waflera corn dog",
+      "máquina hot dog de maíz",
+      "snack coreano máquina",
+    ],
+    whatsappMessage:
+      "Hola, me interesa la Máquina para Corn Dogs Coreanos (perros de maíz). ¿Me das precio y disponibilidad?",
+  },
 ];

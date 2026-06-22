@@ -101,9 +101,9 @@ export const nuevosProducts: Product[] = [
       { label: "Dimensiones", value: "49 × 69 × 188 cm" },
     ],
     badge: { text: "Nuevo", color: "bg-accent" },
-    price: null,
+    price: 2458540,
     currency: "COP",
-    stockStatus: "on_request",
+    stockStatus: "in_stock",
     keywords: [
       "cámara de fermentación",
       "cámara de crecimiento panadería",

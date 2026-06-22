@@ -9,8 +9,11 @@ import type { Product } from "./types";
 // ────────────────────────────────────────────────────────────
 
 const IMG = "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/cocina";
+// `?v=N` rompe la caché del navegador/CDN cuando se reemplazan fotos en la misma
+// ruta (subir v al cambiar imágenes de esta línea).
+const IMG_VER = 2;
 const imgs = (slug: string, n: number) =>
-  Array.from({ length: n }, (_, i) => `${IMG}/${slug}/${i}.webp`);
+  Array.from({ length: n }, (_, i) => `${IMG}/${slug}/${i}.webp?v=${IMG_VER}`);
 
 export const cocinaProducts: Product[] = [
   // ───────── Estufas de mesa ─────────

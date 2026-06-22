@@ -19,6 +19,12 @@ export async function GET() {
     keywords: p.keywords ?? [],
   }));
   return NextResponse.json(index, {
-    headers: { "Cache-Control": "public, max-age=3600, s-maxage=86400" },
+    // El navegador revalida en cada carga (max-age=0) para que los productos
+    // nuevos aparezcan en el buscador justo tras el deploy; el CDN sí lo cachea
+    // (s-maxage) y se refresca solo en cada despliegue. stale-while-revalidate
+    // sirve el índice al instante y lo actualiza en segundo plano.
+    headers: {
+      "Cache-Control": "public, max-age=0, s-maxage=86400, stale-while-revalidate=60",
+    },
   });
 }

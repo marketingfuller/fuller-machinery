@@ -278,4 +278,59 @@ export const nuevosProducts: Product[] = [
     whatsappMessage:
       "Hola, me interesa la Selladora de Latas Full Automática. ¿Me das precio y disponibilidad?",
   },
+  {
+    slug: "desmechadora-de-carne",
+    name: "Desmechadora de Carne y Pollo · Eléctrica Industrial",
+    category: "carnicos",
+    categoryLabel: "Cárnicos",
+    shortDescription:
+      "Desmechadora eléctrica de carne y pollo: deshebra grandes volúmenes de forma rápida y uniforme. Equipo compacto y robusto para cocinas industriales.",
+    description:
+      "## Desmecha carne y pollo en minutos, no en horas\n\n" +
+      "La **Desmechadora de Carne y Pollo** deshebra de forma rápida y uniforme, reemplazando el desmechado manual que consume tiempo y personal. Su motor de **700W** procesa grandes volúmenes con un acabado parejo, listo para arepas, tamales, empanadas, sándwiches y platos a base de carne mechada.\n\n" +
+      "### ¿Para qué negocios es ideal?\n" +
+      "Restaurantes, cocinas industriales, comidas rápidas, casinos y producción de alimentos que preparan carne o pollo desmechado todos los días.\n\n" +
+      "### Por qué conviene\n" +
+      "- **Motor de 700W** para procesar grandes volúmenes sin esfuerzo manual.\n" +
+      "- **Tazón en acero inoxidable** con tapa de seguridad y paro de emergencia.\n" +
+      "- **Acabado en pintura epóxica** resistente, pensado para uso continuo.\n" +
+      "- **Doble voltaje (127–220V)**: se adapta a tu instalación.\n\n" +
+      "> Ahorra horas de mano de obra: lo que un cocinero desmecha en una jornada, este equipo lo hace en una fracción del tiempo.",
+    highlights: [
+      "Deshebra carne y pollo en minutos",
+      "Tazón en acero con tapa de seguridad",
+      "Motor robusto de 700W para uso continuo",
+      "Paro de emergencia integrado",
+    ],
+    images: [
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/carnicos/desmechadora-de-carne/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/carnicos/desmechadora-de-carne/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/carnicos/desmechadora-de-carne/2.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/carnicos/desmechadora-de-carne/3.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/carnicos/desmechadora-de-carne/4.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/carnicos/desmechadora-de-carne/5.webp",
+    ],
+    specs: [
+      { label: "Voltaje", value: "127–220 V" },
+      { label: "Potencia", value: "700 W" },
+      { label: "Frecuencia", value: "60 Hz" },
+      { label: "Peso", value: "36 kg (52 kg con empaque)" },
+      { label: "Material", value: "Tazón en acero inoxidable" },
+      { label: "Protección", value: "IPX1 (contra goteo)" },
+    ],
+    badge: { text: "Nuevo", color: "bg-accent" },
+    price: 5698900,
+    currency: "COP",
+    stockStatus: "in_stock",
+    keywords: [
+      "desmechadora de carne",
+      "deshebradora de carne",
+      "desmechadora de pollo",
+      "máquina para desmechar carne",
+      "máquina deshebradora de pollo",
+      "desmechadora industrial",
+    ],
+    whatsappMessage:
+      "Hola, me interesa la Desmechadora de Carne y Pollo. ¿Me das precio y disponibilidad?",
+  },
 ];

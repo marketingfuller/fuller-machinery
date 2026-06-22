@@ -2587,7 +2587,7 @@ export const snacksProducts: Product[] = [
   },
   {
     "slug": "maquina-algodonera-industrial-para-eventos",
-    "name": "Algodonera con Carro · Disponible en Rosado y Negro",
+    "name": "Algodonera con Carro",
     "type": "algodonera",
     "category": "snacks",
     "categoryLabel": "Snacks y Comida Rápida",

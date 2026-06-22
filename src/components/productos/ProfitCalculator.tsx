@@ -51,6 +51,12 @@ export default function ProfitCalculator({
   const monthlyProfit = netPerUnit * monthlyUnits - fixed;
   const payback = monthlyProfit > 0 ? machinePrice / monthlyProfit : null;
 
+  // Diagnóstico honesto cuando aún no es rentable: muestra dónde está el cuello de
+  // botella (margen negativo, volumen bajo o costos fijos altos) e invita a no
+  // depender de un solo producto/equipo (cross-selling).
+  const breakEvenPerDay =
+    netPerUnit > 0 ? Math.ceil(fixed / (netPerUnit * daysMonth)) : null;
+
   // 3 escenarios por volumen de venta (conservador / realista / optimista).
   const scenarios = [
     { name: "Conservador", factor: 0.6 },
@@ -111,6 +117,47 @@ export default function ProfitCalculator({
               Inversión del equipo: {formatCOP(machinePrice)}
             </p>
           </div>
+
+          {/* Diagnóstico honesto cuando aún no es rentable */}
+          {monthlyProfit <= 0 && (
+            <div className="bg-amber-400/10 border border-amber-400/30 rounded-xl p-5">
+              <div className="flex items-start gap-2.5">
+                <span className="material-symbols-outlined text-amber-400 text-[22px] mt-0.5 shrink-0">
+                  lightbulb
+                </span>
+                <div className="space-y-2 text-sm">
+                  {netPerUnit <= 0 ? (
+                    <p className="text-white/80">
+                      Tu <strong className="text-white">costo de insumos ({formatCOP(cost)})</strong> es
+                      igual o mayor que el <strong className="text-white">precio de venta ({formatCOP(price)})</strong>:
+                      así cada {d.unitLabel} te haría perder dinero. Sube el precio o baja el costo.
+                    </p>
+                  ) : (
+                    <p className="text-white/80">
+                      Con estos supuestos <strong className="text-white">aún no llegas al punto de
+                      equilibrio</strong>. Para cubrir tus costos fijos de {formatCOP(fixed)} necesitas
+                      vender ~<strong className="text-amber-300">{breakEvenPerDay} {d.unitLabel}
+                      {breakEvenPerDay === 1 ? "" : "s"}/día</strong> (hoy pusiste {unitsDay}). Si tu
+                      operación es pequeña, baja también los <strong className="text-white">costos fijos</strong>.
+                    </p>
+                  )}
+                  <p className="text-white/70">
+                    <strong className="text-white">Y ojo:</strong> casi ningún negocio vive de un solo
+                    producto. Si solo cuentas las ventas de este equipo, el cálculo se queda corto —
+                    combinando varios productos y equipos repartes los costos fijos y llegas al
+                    equilibrio mucho antes.
+                  </p>
+                  <a
+                    href={`/productos?categoria=${category}`}
+                    className="inline-flex items-center gap-1 text-accent font-bold hover:underline"
+                  >
+                    Ver más equipos para tu negocio
+                    <span className="material-symbols-outlined text-[16px]">arrow_forward</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          )}
 
           {/* 3 escenarios */}
           <div className="bg-white/5 border border-white/10 rounded-xl p-4">

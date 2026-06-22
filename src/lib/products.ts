@@ -125,12 +125,14 @@ export type CalcDefault = {
 };
 
 // Supuestos por defecto realistas para el mercado colombiano (el usuario los edita).
-// Insumos y costos fijos creíbles para que el payback no parezca inflado.
+// Costos fijos calibrados para el EMPRENDEDOR que arranca (carrito, kiosco, local
+// pequeño o desde casa), no para un local establecido grande — así el payback es
+// creíble y el equilibrio se alcanza a volúmenes razonables sin inflar resultados.
 export const CALC_DEFAULTS: Partial<Record<ProductCategory, CalcDefault>> = {
-  bebidas: { unitLabel: "vaso", price: 6000, unitsDay: 45, daysMonth: 26, cost: 2500, fixed: 1500000, priceMax: 20000, unitsMax: 300 },
-  snacks: { unitLabel: "porción", price: 7000, unitsDay: 40, daysMonth: 26, cost: 2800, fixed: 1500000, priceMax: 25000, unitsMax: 300 },
-  panaderia: { unitLabel: "unidad", price: 2500, unitsDay: 180, daysMonth: 26, cost: 1100, fixed: 2800000, priceMax: 15000, unitsMax: 800 },
-  carnicos: { unitLabel: "kg", price: 22000, unitsDay: 30, daysMonth: 26, cost: 16500, fixed: 2200000, priceMax: 60000, unitsMax: 150 },
+  bebidas: { unitLabel: "vaso", price: 6000, unitsDay: 45, daysMonth: 26, cost: 2500, fixed: 900000, priceMax: 20000, unitsMax: 300 },
+  snacks: { unitLabel: "porción", price: 7000, unitsDay: 40, daysMonth: 26, cost: 2800, fixed: 900000, priceMax: 25000, unitsMax: 300 },
+  panaderia: { unitLabel: "unidad", price: 2500, unitsDay: 180, daysMonth: 26, cost: 1100, fixed: 1800000, priceMax: 15000, unitsMax: 800 },
+  carnicos: { unitLabel: "kg", price: 22000, unitsDay: 30, daysMonth: 26, cost: 16500, fixed: 1500000, priceMax: 60000, unitsMax: 150 },
 };
 
 /** Formatea un precio en pesos colombianos: 8399900 → "$8.399.900". */

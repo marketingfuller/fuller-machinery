@@ -170,4 +170,112 @@ export const nuevosProducts: Product[] = [
     whatsappMessage:
       "Hola, me interesa la Máquina para Corn Dogs Coreanos (perros de maíz). ¿Me das precio y disponibilidad?",
   },
+  {
+    slug: "selladora-de-latas-manual",
+    name: "Selladora de Latas Manual · Sistema de Palanca",
+    category: "bebidas",
+    categoryLabel: "Bebidas y Café",
+    type: "selladora-latas",
+    shortDescription:
+      "Selladora de latas y botellas manual por palanca, con pantalla digital y contador. Sella hasta 7 unidades por minuto: la opción económica para arrancar.",
+    description:
+      "## Sella tus latas con presentación profesional, sin complicarte\n\n" +
+      "Selladora **manual** para latas y botellas mediante **sistema de palanca**, con **pantalla digital y contador** de sellados. Práctica y segura, sella hasta **7 unidades por minuto** — ideal para empezar tu línea de bebidas con una inversión menor.\n\n" +
+      "### ¿Para qué negocios es ideal?\n" +
+      "Emprendimientos de bebidas, cafeterías, jugueras y negocios que venden bebidas selladas con buena presentación y volúmenes moderados.\n\n" +
+      "### Por qué conviene\n" +
+      "- **Sistema de palanca** sencillo y resistente.\n" +
+      "- **Pantalla digital con contador** para llevar control.\n" +
+      "- **Hasta 7 latas/min** para arrancar tu operación.\n" +
+      "- **Compacta (33.5 × 22 × 47.5 cm)** y de bajo consumo (200W).",
+    highlights: [
+      "Sellado manual por palanca",
+      "Pantalla digital con contador",
+      "Hasta 7 latas por minuto",
+      "Compacta y de bajo consumo",
+    ],
+    images: [
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/selladora-de-latas-manual/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/selladora-de-latas-manual/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/selladora-de-latas-manual/2.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/selladora-de-latas-manual/3.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/selladora-de-latas-manual/4.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/selladora-de-latas-manual/5.webp",
+    ],
+    specs: [
+      { label: "Capacidad", value: "7 latas/min" },
+      { label: "Operación", value: "Manual (palanca)" },
+      { label: "Pantalla", value: "Digital con contador" },
+      { label: "Voltaje", value: "110 V" },
+      { label: "Potencia", value: "200 W" },
+      { label: "Dimensiones", value: "33.5 × 22 × 47.5 cm" },
+    ],
+    badge: { text: "Nuevo", color: "bg-accent" },
+    price: 1786900,
+    currency: "COP",
+    stockStatus: "in_stock",
+    keywords: [
+      "selladora de latas manual",
+      "selladora de latas",
+      "selladora de bebidas",
+      "selladora de botellas",
+      "máquina selladora de latas",
+    ],
+    whatsappMessage:
+      "Hola, me interesa la Selladora de Latas Manual. ¿Me das precio y disponibilidad?",
+  },
+  {
+    slug: "selladora-de-latas-full-automatica",
+    name: "Selladora de Latas Full Automática · Elevación Automática",
+    category: "bebidas",
+    categoryLabel: "Bebidas y Café",
+    type: "selladora-latas",
+    shortDescription:
+      "Selladora de latas y botellas totalmente automática, con elevación automática y panel digital. Sella hasta 8 unidades por minuto para alta rotación.",
+    description:
+      "## Sella latas en serie, rápido y parejo\n\n" +
+      "Selladora **totalmente automática** para latas y botellas, con **sistema de elevación automática** y **panel de control digital**. Sella de forma rápida, segura y uniforme hasta **8 unidades por minuto** — pensada para negocios con alta demanda.\n\n" +
+      "### ¿Para qué negocios es ideal?\n" +
+      "Marcas de bebidas, cervecerías artesanales, jugueras y operaciones que sellan grandes volúmenes y necesitan ritmo constante.\n\n" +
+      "### Por qué conviene\n" +
+      "- **Elevación automática**: colocas la lata y la máquina hace el resto.\n" +
+      "- **Panel de control digital** para ajustes precisos.\n" +
+      "- **Hasta 8 latas/min** para sostener alta rotación.\n" +
+      "- **Acero y estructura robusta** (45 × 25.4 × 60 cm) para uso intensivo.",
+    highlights: [
+      "Operación 100% automática",
+      "Elevación automática de lata",
+      "Panel de control digital",
+      "Hasta 8 latas por minuto",
+    ],
+    images: [
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/selladora-de-latas-full-automatica/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/selladora-de-latas-full-automatica/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/selladora-de-latas-full-automatica/2.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/selladora-de-latas-full-automatica/3.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/selladora-de-latas-full-automatica/4.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/selladora-de-latas-full-automatica/5.webp",
+    ],
+    specs: [
+      { label: "Capacidad", value: "8 latas/min" },
+      { label: "Operación", value: "Automática (elevación automática)" },
+      { label: "Panel", value: "Control digital" },
+      { label: "Voltaje", value: "110 V" },
+      { label: "Potencia", value: "220 W" },
+      { label: "Dimensiones", value: "45 × 25.4 × 60 cm" },
+    ],
+    badge: { text: "Nuevo", color: "bg-accent" },
+    price: 3879900,
+    currency: "COP",
+    stockStatus: "in_stock",
+    keywords: [
+      "selladora de latas automática",
+      "selladora de latas full automática",
+      "selladora de bebidas automática",
+      "selladora de latas",
+      "máquina selladora de latas",
+    ],
+    whatsappMessage:
+      "Hola, me interesa la Selladora de Latas Full Automática. ¿Me das precio y disponibilidad?",
+  },
 ];

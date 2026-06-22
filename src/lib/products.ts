@@ -200,6 +200,9 @@ function familyKey(slug: string): string {
   // "maquina-*" es ambiguo (cafeteras, de hielo…): usamos 2 tokens para no
   // mezclar familias distintas. El resto agrupa bien con el primer token.
   if (parts[0] === "maquina") return `${parts[0]}-${parts[1] ?? ""}`;
+  // "selladora-de-latas-*" vs "selladora-de-vasos-*": 3 tokens para no mezclar
+  // selladoras de latas con las de vasos en la comparativa "elige tu modelo".
+  if (parts[0] === "selladora") return parts.slice(0, 3).join("-");
   return parts[0];
 }
 

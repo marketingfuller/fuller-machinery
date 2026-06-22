@@ -227,7 +227,7 @@ export const pesajeProducts: Product[] = [
   },
   {
     "slug": "bascula-electronica-15-kg",
-    "name": "Báscula Digital MODEL ACSA 15K · Capacidad 15 kg",
+    "name": "Báscula Digital · Capacidad 15 kg",
     "type": "bascula",
     "category": "pesaje",
     "categoryLabel": "Pesaje y Básculas",
@@ -297,7 +297,7 @@ export const pesajeProducts: Product[] = [
   },
   {
     "slug": "bascula-electronica-30-kg-fuller-machinery",
-    "name": "Báscula Digital MODEL JCACS 30JE · Capacidad 30 kg",
+    "name": "Báscula Digital · Capacidad 30 kg",
     "type": "bascula",
     "category": "pesaje",
     "categoryLabel": "Pesaje y Básculas",
@@ -367,7 +367,7 @@ export const pesajeProducts: Product[] = [
   },
   {
     "slug": "bascula-electronica-30-kg-kinlee",
-    "name": "Báscula Digital Kinlee MODEL ACS30E · 30 kg · Display LED y Función TARE",
+    "name": "Báscula Digital Kinlee · 30 kg · Display LED y Función TARE",
     "type": "bascula",
     "category": "pesaje",
     "categoryLabel": "Pesaje y Básculas",
@@ -855,7 +855,7 @@ export const pesajeProducts: Product[] = [
   },
   {
     "slug": "tallimetro-pared-adultos-medicion-estatura",
-    "name": "Tallimetro Bebes Model JCMC 210B",
+    "name": "Tallimetro Bebes",
     "type": "tallimetro",
     "category": "pesaje",
     "categoryLabel": "Pesaje y Básculas",
@@ -921,7 +921,7 @@ export const pesajeProducts: Product[] = [
   },
   {
     "slug": "tallimetro-pared-adultos-medidor-estatura",
-    "name": "Tallimetro Adultos Niños Model JCMC 210",
+    "name": "Tallimetro Adultos Niños",
     "type": "tallimetro",
     "category": "pesaje",
     "categoryLabel": "Pesaje y Básculas",
@@ -1043,7 +1043,7 @@ export const pesajeProducts: Product[] = [
   },
   {
     "slug": "bascula-bebes-20kg-peso-preciso",
-    "name": "Báscula para Bebés Sin Tazon MODEL EBSL 20 · Capacidad 20 kg · Precisión 10g",
+    "name": "Báscula para Bebés Sin Tazon · Capacidad 20 kg · Precisión 10g",
     "type": "bascula",
     "category": "pesaje",
     "categoryLabel": "Pesaje y Básculas",
@@ -1183,7 +1183,7 @@ export const pesajeProducts: Product[] = [
   },
   {
     "slug": "bascula-para-bebe-con-tazon",
-    "name": "Báscula Mecánica para Bebés MODEL JCEBSA · Con Tazón · 20 kg de Capacidad",
+    "name": "Báscula Mecánica para Bebés · Con Tazón · 20 kg de Capacidad",
     "type": "bascula",
     "category": "pesaje",
     "categoryLabel": "Pesaje y Básculas",

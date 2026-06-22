@@ -350,12 +350,12 @@ export const snacksProducts: Product[] = [
   },
   {
     "slug": "plancha-electrica-industrial-2-zonas-110v-fuller",
-    "name": "Plancha Eléctrica Modelo JCETPL-820",
+    "name": "Plancha Eléctrica",
     "type": "plancha",
     "category": "snacks",
     "categoryLabel": "Snacks y Comida Rápida",
-    "shortDescription": "Plancha eléctrica profesional JCET-PL-820 con superficie lisa, cuerpo en acero inoxidable y 2 controles independientes de temperatura. Ideal para preparar hamburguesas, sándwiches, huevos, carnes, vegetales y más en restaurantes, cafeterías y negocios de comida rápida.",
-    "description": "## Plancha asadora industrial eléctrica: superficie pareja para asar todo el día sin parar\n\nPlancha eléctrica profesional JCET-PL-820 con superficie lisa, cuerpo en acero inoxidable y 2 controles independientes de temperatura. Ideal para preparar hamburguesas, sándwiches, huevos, carnes, vegetales y más en restaurantes, cafeterías y negocios de comida rápida.\n\n### ¿Para qué negocios es ideal?\nAsaderos, food trucks y restaurantes que preparan carnes, arepas, hamburguesas y desayunos a la plancha.\n\n### Especificaciones principales\n- **Tipo:** Plancha Asadora\n- **Fuente de Energía:** Eléctrica\n- **Voltaje:** 110V (Estándar)\n- **Material:** Acero Inoxidable\n\n### Compra con respaldo Fuller\nEnvío nacional desde Bogotá, garantía Fuller y asesoría experta. Cotiza por WhatsApp y recibe atención personalizada.",
+    "shortDescription": "Plancha eléctrica profesional con superficie lisa, cuerpo en acero inoxidable y 2 controles independientes de temperatura. Ideal para preparar hamburguesas, sándwiches, huevos, carnes, vegetales y más en restaurantes, cafeterías y negocios de comida rápida.",
+    "description": "## Plancha asadora industrial eléctrica: superficie pareja para asar todo el día sin parar\n\nPlancha eléctrica profesional con superficie lisa, cuerpo en acero inoxidable y 2 controles independientes de temperatura. Ideal para preparar hamburguesas, sándwiches, huevos, carnes, vegetales y más en restaurantes, cafeterías y negocios de comida rápida.\n\n### ¿Para qué negocios es ideal?\nAsaderos, food trucks y restaurantes que preparan carnes, arepas, hamburguesas y desayunos a la plancha.\n\n### Especificaciones principales\n- **Tipo:** Plancha Asadora\n- **Fuente de Energía:** Eléctrica\n- **Voltaje:** 110V (Estándar)\n- **Material:** Acero Inoxidable\n\n### Compra con respaldo Fuller\nEnvío nacional desde Bogotá, garantía Fuller y asesoría experta. Cotiza por WhatsApp y recibe atención personalizada.",
     "highlights": [
       "Tipo: Plancha Asadora",
       "Fuente de Energía: Eléctrica",
@@ -390,7 +390,7 @@ export const snacksProducts: Product[] = [
     "price": 1298900,
     "currency": "COP",
     "stockStatus": "out_of_stock",
-    "metaDescription": "Plancha eléctrica profesional JCET-PL-820 con superficie lisa, cuerpo en acero inoxidable y 2 controles ind… Envío nacional desde Bogotá. Cotiza por WhatsApp.",
+    "metaDescription": "Plancha eléctrica profesional con superficie lisa, cuerpo en acero inoxidable y 2 controles ind… Envío nacional desde Bogotá. Cotiza por WhatsApp.",
     "keywords": [
       "plancha asadora industrial",
       "plancha eléctrica industrial",
@@ -643,12 +643,12 @@ export const snacksProducts: Product[] = [
   },
   {
     "slug": "crispetera-oil-free-830",
-    "name": "Crispetera Oil Free · Modelo 830 · Sin Aceite",
+    "name": "Crispetera Oil Free · Sin Aceite",
     "type": "crispetera",
     "category": "snacks",
     "categoryLabel": "Snacks y Comida Rápida",
-    "shortDescription": "Crispetera Oil Free Modelo 830. Prepara palomitas sin aceite, crujientes y saludables en minutos. Sistema de aire caliente, fácil de usar y limpiar. Compacta y segura.",
-    "description": "## Crispetera con carro y oil free: monta tu negocio de crispetas con margen alto\n\nCrispetera Oil Free Modelo 830. Prepara palomitas sin aceite, crujientes y saludables en minutos. Sistema de aire caliente, fácil de usar y limpiar. Compacta y segura.\n\n### ¿Para qué negocios es ideal?\nCines, eventos, kioscos, heladerías y negocios de comida divertida que venden crispetas y palomitas.\n\n### Especificaciones principales\n- **Dimensiones:** 15cm de ancho, 15cm de largo, 34cm de alto\n- **Peso:** 1Kg\n- **Alimentacion:** 110v\n\n### Compra con respaldo Fuller\nEnvío nacional desde Bogotá, garantía Fuller y asesoría experta. Cotiza por WhatsApp y recibe atención personalizada.",
+    "shortDescription": "Crispetera Oil Free. Prepara palomitas sin aceite, crujientes y saludables en minutos. Sistema de aire caliente, fácil de usar y limpiar. Compacta y segura.",
+    "description": "## Crispetera con carro y oil free: monta tu negocio de crispetas con margen alto\n\nCrispetera Oil Free. Prepara palomitas sin aceite, crujientes y saludables en minutos. Sistema de aire caliente, fácil de usar y limpiar. Compacta y segura.\n\n### ¿Para qué negocios es ideal?\nCines, eventos, kioscos, heladerías y negocios de comida divertida que venden crispetas y palomitas.\n\n### Especificaciones principales\n- **Dimensiones:** 15cm de ancho, 15cm de largo, 34cm de alto\n- **Peso:** 1Kg\n- **Alimentacion:** 110v\n\n### Compra con respaldo Fuller\nEnvío nacional desde Bogotá, garantía Fuller y asesoría experta. Cotiza por WhatsApp y recibe atención personalizada.",
     "highlights": [
       "Dimensiones: 15cm de ancho, 15cm de largo, 34cm de alto",
       "Peso: 1Kg",
@@ -676,7 +676,7 @@ export const snacksProducts: Product[] = [
     "price": 104900,
     "currency": "COP",
     "stockStatus": "in_stock",
-    "metaDescription": "Crispetera Oil Free Modelo 830. Prepara palomitas sin aceite, crujientes y saludables en minutos. Sistema d… Envío nacional desde Bogotá. Cotiza por WhatsApp.",
+    "metaDescription": "Crispetera Oil Free. Prepara palomitas sin aceite, crujientes y saludables en minutos. Sistema d… Envío nacional desde Bogotá. Cotiza por WhatsApp.",
     "keywords": [
       "crispetera",
       "máquina de crispetas",

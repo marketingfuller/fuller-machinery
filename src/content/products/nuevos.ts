@@ -17,7 +17,7 @@ export const nuevosProducts: Product[] = [
       "Máquina eléctrica para hamburguesas y gofres tipo UFO: sella y cocina relleno de forma uniforme. Producto novedoso y rentable para comidas rápidas.",
     description:
       "## Hamburguesas y gofres tipo UFO, sellados y rellenos en minutos\n\n" +
-      "La **Máquina para Hamburguesa Tipo UFO** (modelo JCET-UBM-1) prensa, sella y cocina gofres rellenos tipo *UFO* de forma uniforme, con moldes de cocción que dan una presentación redonda perfecta y un sellado parejo en cada preparación.\n\n" +
+      "La **Máquina para Hamburguesa Tipo UFO** prensa, sella y cocina gofres rellenos tipo *UFO* de forma uniforme, con moldes de cocción que dan una presentación redonda perfecta y un sellado parejo en cada preparación.\n\n" +
       "### ¿Para qué negocios es ideal?\n" +
       "Comidas rápidas, food trucks, cafeterías, restaurantes y emprendimientos gastronómicos que buscan un producto diferente, llamativo y de alto margen.\n\n" +
       "### Por qué conviene\n" +
@@ -39,7 +39,6 @@ export const nuevosProducts: Product[] = [
       "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/maquina-hamburguesa-ufo/4.webp",
     ],
     specs: [
-      { label: "Modelo", value: "JCET-UBM-1" },
       { label: "Voltaje", value: "110 V" },
       { label: "Potencia", value: "1.6 kW" },
       { label: "Frecuencia", value: "60 Hz" },
@@ -47,7 +46,6 @@ export const nuevosProducts: Product[] = [
       { label: "Temperatura máxima", value: "300 °C" },
     ],
     badge: { text: "Nuevo", color: "bg-accent" },
-    sku: "JCET-UBM-1",
     price: 783900,
     currency: "COP",
     stockStatus: "in_stock",
@@ -57,9 +55,8 @@ export const nuevosProducts: Product[] = [
       "prensa de gofres",
       "máquina UFO waffle",
       "comida rápida UFO",
-      "JCET-UBM-1",
     ],
     whatsappMessage:
-      "Hola, me interesa la Máquina para Hamburguesa Tipo UFO (JCET-UBM-1). ¿Me das precio y disponibilidad?",
+      "Hola, me interesa la Máquina para Hamburguesa Tipo UFO. ¿Me das precio y disponibilidad?",
   },
 ];

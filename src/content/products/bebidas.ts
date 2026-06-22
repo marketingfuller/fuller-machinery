@@ -1201,10 +1201,6 @@ export const bebidasProducts: Product[] = [
     ],
     "specs": [
       {
-        "label": "Modelo",
-        "value": "JP 2000"
-      },
-      {
         "label": "Tipo de extractor",
         "value": "Centrífugo"
       },
@@ -2681,7 +2677,7 @@ export const bebidasProducts: Product[] = [
   },
   {
     "slug": "sello-para-vasos-multicolor-796",
-    "name": "Rollos Para Selladora De Vasos  Multicolor",
+    "name": "Rollos Para Selladora De Vasos Multicolor",
     "type": "consumible-empaque",
     "category": "bebidas",
     "categoryLabel": "Bebidas y Café",

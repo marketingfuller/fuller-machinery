@@ -26,10 +26,6 @@ export const empaqueProducts: Product[] = [
     ],
     "specs": [
       {
-        "label": "Modelo",
-        "value": "DZ400"
-      },
-      {
         "label": "Tipo de selladora",
         "value": "Al vacío"
       },
@@ -93,7 +89,7 @@ export const empaqueProducts: Product[] = [
   },
   {
     "slug": "llenadora-manual-industrial-dosificadora-de-piston-modelo-a03",
-    "name": "Llenadora Manual Industrial Dosificadora de Pistón · Modelo A03",
+    "name": "Llenadora Manual Industrial Dosificadora de Pistón",
     "type": "dosificadora",
     "category": "empaque",
     "categoryLabel": "Empaque y Sellado",
@@ -887,10 +883,6 @@ export const empaqueProducts: Product[] = [
     ],
     "specs": [
       {
-        "label": "Modelo",
-        "value": "DZ300 SD Blanca"
-      },
-      {
         "label": "Tipo de selladora",
         "value": "Al vacío"
       },
@@ -960,10 +952,6 @@ export const empaqueProducts: Product[] = [
       "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/empacadora-al-vacio-dz300se/4.webp"
     ],
     "specs": [
-      {
-        "label": "Modelo",
-        "value": "DZ300 SE-Roja"
-      },
       {
         "label": "Tipo de selladora",
         "value": "Al vacío"
@@ -1568,7 +1556,7 @@ export const empaqueProducts: Product[] = [
   },
   {
     "slug": "empacadora-al-vacio-doble-camara-2sb-doble-barra",
-    "name": "Máquina Empacadora al Vacío · Doble Cámara · Modelo 2SB",
+    "name": "Máquina Empacadora al Vacío · Doble Cámara",
     "type": "empacadora",
     "category": "empaque",
     "categoryLabel": "Empaque y Sellado",

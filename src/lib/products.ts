@@ -10,6 +10,7 @@ import { buffetProducts } from "@/content/products/buffet";
 import { refrigeracionProducts } from "@/content/products/refrigeracion";
 import { mobiliarioProducts } from "@/content/products/mobiliario";
 import { carnicosProducts } from "@/content/products/carnicos";
+import { nuevosProducts } from "@/content/products/nuevos";
 import type { Product, ProductCategory } from "@/content/products/types";
 import { COLLECTIONS, type Collection } from "@/content/products/collections";
 
@@ -37,6 +38,7 @@ const ALL_PRODUCTS: Product[] = [
   ...refrigeracionProducts,
   ...mobiliarioProducts,
   ...carnicosProducts,
+  ...nuevosProducts,
 ];
 
 /** Categorías ocultas del grid principal y de los chips de filtro (acceso discreto). */

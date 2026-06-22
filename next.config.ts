@@ -92,6 +92,13 @@ const nextConfig: NextConfig = {
         destination: "/emprende/:slug*",
         permanent: true,
       },
+      // Algodonera negro/rosado fusionadas en una sola ficha con selector de
+      // color (variantes). La antigua ficha del color negro ahora redirige.
+      {
+        source: "/productos/algodonera-con-carro-negra",
+        destination: "/productos/maquina-algodonera-industrial-para-eventos",
+        permanent: true,
+      },
     ];
   },
 };

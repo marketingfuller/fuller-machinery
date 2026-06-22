@@ -1,11 +1,12 @@
 "use client";
 
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import type { ProductBadge } from "@/content/products/types";
+import { useVariant } from "./VariantContext";
 
 export default function ProductGallery({
-  images,
+  images: baseImages,
   name,
   badge,
 }: {
@@ -13,9 +14,22 @@ export default function ProductGallery({
   name: string;
   badge?: ProductBadge;
 }) {
+  const variant = useVariant();
+  // Si hay variantes de color, la galería muestra las fotos de la variante
+  // activa; si no, las imágenes base del producto.
+  const images = variant?.images ?? baseImages;
+  const variants = variant?.variants ?? [];
+  const selectedVariant = variant?.selected ?? 0;
+
   const [active, setActive] = useState(0);
   const trackRef = useRef<HTMLDivElement>(null);
   const total = images.length;
+
+  // Al cambiar de color, volver a la primera foto del nuevo set.
+  useEffect(() => {
+    setActive(0);
+    trackRef.current?.scrollTo({ left: 0 });
+  }, [selectedVariant]);
 
   // El carrusel usa scroll-snap nativo: en móvil se desliza con el dedo (swipe)
   // y en desktop con flechas/miniaturas. `active` se sincroniza desde el scroll.
@@ -97,6 +111,38 @@ export default function ProductGallery({
           </>
         )}
       </div>
+
+      {/* Selector de color (swatches) — cambia la galería de fotos */}
+      {variant && variants.length > 1 && (
+        <div className="mt-5">
+          <div className="flex items-center gap-2 mb-2">
+            <span className="text-xs uppercase tracking-wide text-slate-500 font-semibold">
+              Color
+            </span>
+            <span className="text-sm font-bold text-slate-900">
+              {variants[selectedVariant]?.label}
+            </span>
+          </div>
+          <div className="flex flex-wrap items-center gap-3">
+            {variants.map((v, i) => (
+              <button
+                type="button"
+                key={v.label}
+                onClick={() => variant.setSelected(i)}
+                aria-label={`Ver color ${v.label}`}
+                aria-pressed={i === selectedVariant}
+                title={v.label}
+                className={`size-9 rounded-full border transition-all ${
+                  i === selectedVariant
+                    ? "ring-2 ring-primary ring-offset-2 border-transparent"
+                    : "border-slate-300 hover:border-slate-400"
+                }`}
+                style={{ backgroundColor: v.swatch }}
+              />
+            ))}
+          </div>
+        </div>
+      )}
 
       {/* Miniaturas clicables (desktop/tablet) */}
       {total > 1 && (

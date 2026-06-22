@@ -411,46 +411,6 @@ export const snacksProducts: Product[] = [
     "published": true
   },
   {
-    "slug": "algodonera-con-carro-negra",
-    "name": "Algodonera con Carro Negro",
-    "type": "algodonera",
-    "category": "snacks",
-    "categoryLabel": "Snacks y Comida Rápida",
-    "shortDescription": "Máquina de algodón de azúcar con carro color negro. Ideal para eventos, ferias y negocios. Capacidad de 7 porciones por minuto, control de temperatura, diseño profesional y ruedas para transporte. ¡Perfecta para emprender o hacer crecer tu negocio!",
-    "description": "## Máquina de algodón de azúcar con carro: conos para eventos y negocio de alto margen\n\nMáquina de algodón de azúcar con carro color negro. Ideal para eventos, ferias y negocios. Capacidad de 7 porciones por minuto, control de temperatura, diseño profesional y ruedas para transporte. ¡Perfecta para emprender o hacer crecer tu negocio!\n\n### ¿Para qué negocios es ideal?\nEventos, fiestas infantiles, parques y kioscos que venden algodón de azúcar de alta rotación.\n\n### Compra con respaldo Fuller\nEnvío nacional desde Bogotá, garantía Fuller y asesoría experta. Cotiza por WhatsApp y recibe atención personalizada.",
-    "highlights": [],
-    "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/algodonera-con-carro-negra/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/algodonera-con-carro-negra/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/algodonera-con-carro-negra/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/algodonera-con-carro-negra/3.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/algodonera-con-carro-negra/4.webp"
-    ],
-    "specs": [],
-    "price": 1903900,
-    "currency": "COP",
-    "stockStatus": "out_of_stock",
-    "metaDescription": "Máquina de algodón de azúcar con carro color negro. Ideal para eventos, ferias y negocios. Capacidad de 7 p… Envío nacional desde Bogotá. Cotiza por WhatsApp.",
-    "keywords": [
-      "máquina de algodón de azúcar",
-      "algodonera",
-      "máquina de algodón de azúcar industrial",
-      "algodonera con carro",
-      "máquina de algodón de azúcar precio",
-      "máquina de algodón de azúcar bogotá",
-      "algodonera comercial",
-      "máquina algodón azúcar colombia",
-      "algodonera para negocio",
-      "máquina de algodones",
-      "algodonera manual",
-      "máquina de algodón de azúcar para eventos"
-    ],
-    "wooUrl": "https://tienda.fullermachinery.com/index.php/producto/algodonera-con-carro-negra/",
-    "wooId": 18606,
-    "sortOrder": 8,
-    "published": true
-  },
-  {
     "slug": "deshidratador-alimentos-12-bandejas-acero-inoxidable",
     "name": "Deshidratador de Alimentos · 12 Bandejas · Acero Inoxidable y Control Digital",
     "type": "deshidratador",
@@ -2627,12 +2587,12 @@ export const snacksProducts: Product[] = [
   },
   {
     "slug": "maquina-algodonera-industrial-para-eventos",
-    "name": "Algodonera con Carro Rosado",
+    "name": "Algodonera con Carro · Disponible en Rosado y Negro",
     "type": "algodonera",
     "category": "snacks",
     "categoryLabel": "Snacks y Comida Rápida",
-    "shortDescription": "Máquina profesional para hacer algodón de azúcar. Ideal para ferias, parques, eventos y cines. Rápida, eficiente y fácil de operar.",
-    "description": "## Máquina de algodón de azúcar con carro: conos para eventos y negocio de alto margen\n\nMáquina profesional para hacer algodón de azúcar. Ideal para ferias, parques, eventos y cines. Rápida, eficiente y fácil de operar.\n\n### ¿Para qué negocios es ideal?\nEventos, fiestas infantiles, parques y kioscos que venden algodón de azúcar de alta rotación.\n\n### Especificaciones principales\n- **Material:** Acero inoxidable\n- **Capacidad:** 7 porciones por minuto.\n- **Potencia:** 1.08 kW\n- **Alimentación:** 110 V\n- **¿Qué incluye?:** Incluye manual y cuchara para verter azúcar.\n\n### Compra con respaldo Fuller\nEnvío nacional desde Bogotá, garantía Fuller y asesoría experta. Cotiza por WhatsApp y recibe atención personalizada.",
+    "shortDescription": "Máquina profesional para hacer algodón de azúcar, con carro y ruedas. Disponible en color rosado o negro. Ideal para ferias, parques, eventos y cines. Rápida, eficiente y fácil de operar.",
+    "description": "## Máquina de algodón de azúcar con carro: conos para eventos y negocio de alto margen\n\nMáquina profesional para hacer algodón de azúcar, con carro y ruedas para transportarla fácil. **Disponible en color rosado o negro** (elige arriba). Ideal para ferias, parques, eventos y cines. Rápida, eficiente y fácil de operar.\n\n### ¿Para qué negocios es ideal?\nEventos, fiestas infantiles, parques y kioscos que venden algodón de azúcar de alta rotación.\n\n### Especificaciones principales\n- **Material:** Acero inoxidable\n- **Capacidad:** 7 porciones por minuto.\n- **Potencia:** 1.08 kW\n- **Alimentación:** 110 V\n- **¿Qué incluye?:** Incluye manual y cuchara para verter azúcar.\n\n### Compra con respaldo Fuller\nEnvío nacional desde Bogotá, garantía Fuller y asesoría experta. Cotiza por WhatsApp y recibe atención personalizada.",
     "highlights": [
       "Material: Acero inoxidable",
       "Capacidad: 7 porciones por minuto.",
@@ -2647,6 +2607,32 @@ export const snacksProducts: Product[] = [
       "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/maquina-algodonera-industrial-para-eventos/4.webp",
       "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/maquina-algodonera-industrial-para-eventos/5.webp",
       "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/maquina-algodonera-industrial-para-eventos/6.webp"
+    ],
+    "variants": [
+      {
+        "label": "Rosado",
+        "swatch": "#ec4899",
+        "images": [
+          "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/maquina-algodonera-industrial-para-eventos/0.webp",
+          "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/maquina-algodonera-industrial-para-eventos/1.webp",
+          "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/maquina-algodonera-industrial-para-eventos/2.webp",
+          "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/maquina-algodonera-industrial-para-eventos/3.webp",
+          "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/maquina-algodonera-industrial-para-eventos/4.webp",
+          "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/maquina-algodonera-industrial-para-eventos/5.webp",
+          "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/maquina-algodonera-industrial-para-eventos/6.webp"
+        ]
+      },
+      {
+        "label": "Negro",
+        "swatch": "#1f2937",
+        "images": [
+          "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/algodonera-con-carro-negra/0.webp",
+          "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/algodonera-con-carro-negra/1.webp",
+          "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/algodonera-con-carro-negra/2.webp",
+          "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/algodonera-con-carro-negra/3.webp",
+          "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/algodonera-con-carro-negra/4.webp"
+        ]
+      }
     ],
     "specs": [
       {

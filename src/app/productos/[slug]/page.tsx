@@ -8,6 +8,8 @@ import Footer from "@/components/Footer";
 import JsonLd from "@/components/JsonLd";
 import ProductCard from "@/components/productos/ProductCard";
 import ProductGallery from "@/components/productos/ProductGallery";
+import { VariantProvider } from "@/components/productos/VariantContext";
+import WhatsAppCta from "@/components/productos/WhatsAppCta";
 import ProductComparison from "@/components/productos/ProductComparison";
 import ProfitCalculator from "@/components/productos/ProfitCalculator";
 import {
@@ -27,7 +29,6 @@ import {
   formatCOP,
 } from "@/lib/products";
 import { getSettings } from "@/lib/settings";
-import { buildWhatsAppUrl } from "@/lib/whatsapp";
 
 type Params = Promise<{ slug: string }>;
 
@@ -110,7 +111,6 @@ export default async function ProductoPage({
   const waMsg =
     product.whatsappMessage ??
     `Hola, me interesa conocer el precio y disponibilidad de ${product.name}.`;
-  const waUrl = buildWhatsAppUrl(settings.whatsappCommercial, waMsg);
   const availability =
     product.stockStatus === "out_of_stock" ? "OutOfStock" : "InStock";
 
@@ -142,6 +142,7 @@ export default async function ProductoPage({
         ]}
       />
       <Header />
+      <VariantProvider variants={product.variants} baseImages={product.images}>
       <main className="min-h-screen mt-[80px] bg-white pb-24 lg:pb-0">
         {/* Breadcrumb visual */}
         <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 text-sm text-slate-500">
@@ -265,15 +266,14 @@ export default async function ProductoPage({
 
               {/* CTA principal */}
               <div className="flex flex-col sm:flex-row gap-3">
-                <a
-                  href={waUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                <WhatsAppCta
+                  phone={settings.whatsappCommercial}
+                  message={waMsg}
                   className="flex-1 inline-flex items-center justify-center gap-2 bg-secondary hover:bg-secondary/90 text-white font-bold text-base px-6 py-4 rounded-xl transition-colors shadow-lg shadow-secondary/20"
                 >
                   <span className="material-symbols-outlined text-[20px]">chat</span>
                   Cotizar por WhatsApp
-                </a>
+                </WhatsAppCta>
                 {product.wooUrl && (
                   <a
                     href={product.wooUrl}
@@ -342,15 +342,14 @@ export default async function ProductoPage({
                     </div>
                   ))}
                 </dl>
-                <a
-                  href={waUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                <WhatsAppCta
+                  phone={settings.whatsappCommercial}
+                  message={waMsg}
                   className="mt-6 w-full inline-flex items-center justify-center gap-2 bg-primary hover:bg-primary/90 text-white font-bold text-sm px-4 py-3 rounded-lg transition-colors"
                 >
                   <span className="material-symbols-outlined text-[18px]">chat</span>
                   Solicitar cotización
-                </a>
+                </WhatsAppCta>
               </div>
             </aside>
           </div>
@@ -439,16 +438,16 @@ export default async function ProductoPage({
             </span>
           </div>
         )}
-        <a
-          href={waUrl}
-          target="_blank"
-          rel="noopener noreferrer"
+        <WhatsAppCta
+          phone={settings.whatsappCommercial}
+          message={waMsg}
           className="flex-1 inline-flex items-center justify-center gap-2 bg-secondary hover:bg-secondary/90 text-white font-bold text-sm px-4 py-3 rounded-xl transition-colors"
         >
           <span className="material-symbols-outlined text-[18px]">chat</span>
           Cotizar por WhatsApp
-        </a>
+        </WhatsAppCta>
       </div>
+      </VariantProvider>
 
       <Footer />
     </>

@@ -26,6 +26,20 @@ export type ProductSpec = { label: string; value: string };
 
 export type ProductBadge = { text: string; color: string };
 
+/**
+ * Variante de color de un producto. Cuando un producto tiene `variants`, la
+ * ficha muestra un selector de color (swatches) que cambia la galería de fotos
+ * y el color viaja al mensaje de WhatsApp. Evita duplicar fichas por color.
+ */
+export type ProductVariant = {
+  /** Etiqueta visible, ej "Rosado". */
+  label: string;
+  /** Color CSS para el círculo del swatch, ej "#ec4899". */
+  swatch: string;
+  /** Imágenes de esta variante (la primera es la principal). */
+  images: string[];
+};
+
 export type Product = {
   /** Slug único para la URL: /productos/[slug] */
   slug: string;
@@ -48,6 +62,12 @@ export type Product = {
   images: string[];
   specs: ProductSpec[];
   badge?: ProductBadge;
+  /**
+   * Variantes de color. Si está presente, la ficha muestra un selector que
+   * cambia la galería al color elegido. `images` (arriba) debe coincidir con
+   * la primera variante (es el fallback para card/OG/buscador).
+   */
+  variants?: ProductVariant[];
 
   // ── Campos comerciales (híbrido — listos para carrito en fase 2) ──
   sku?: string;

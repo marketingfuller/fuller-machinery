@@ -9,6 +9,7 @@ export type ProductCategory =
   | "bebidas"
   | "carnicos"
   | "panaderia"
+  | "cocina"
   | "snacks"
   | "refrigeracion"
   | "empaque"

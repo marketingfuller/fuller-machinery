@@ -11,6 +11,7 @@ import { refrigeracionProducts } from "@/content/products/refrigeracion";
 import { mobiliarioProducts } from "@/content/products/mobiliario";
 import { carnicosProducts } from "@/content/products/carnicos";
 import { nuevosProducts } from "@/content/products/nuevos";
+import { cocinaProducts } from "@/content/products/cocina";
 import type { Product, ProductCategory } from "@/content/products/types";
 import { COLLECTIONS, type Collection } from "@/content/products/collections";
 
@@ -39,6 +40,7 @@ const ALL_PRODUCTS: Product[] = [
   ...mobiliarioProducts,
   ...carnicosProducts,
   ...nuevosProducts,
+  ...cocinaProducts,
 ];
 
 /** Categorías ocultas del grid principal y de los chips de filtro (acceso discreto). */
@@ -67,6 +69,11 @@ export const CATEGORY_META: Record<
     label: "Panadería y Repostería",
     href: "/productos?categoria=panaderia",
     tagline: "Hornos, amasadoras, batidoras y equipos de panificación",
+  },
+  cocina: {
+    label: "Cocina Industrial",
+    href: "/productos?categoria=cocina",
+    tagline: "Estufas, parrillas, planchas con horno y bases de chef",
   },
   pesaje: {
     label: "Pesaje y Básculas",
@@ -172,7 +179,7 @@ export function isHiddenCategory(c: ProductCategory): boolean {
 
 /** Categorías visibles con al menos un producto (para chips/filtros), en orden. */
 const CATEGORY_ORDER: ProductCategory[] = [
-  "bebidas", "snacks", "empaque", "panaderia", "pesaje", "exhibicion",
+  "bebidas", "snacks", "cocina", "empaque", "panaderia", "pesaje", "exhibicion",
   "procesamiento", "buffet", "refrigeracion", "mobiliario", "carnicos",
 ];
 
@@ -203,6 +210,9 @@ function familyKey(slug: string): string {
   // "selladora-de-latas-*" vs "selladora-de-vasos-*": 3 tokens para no mezclar
   // selladoras de latas con las de vasos en la comparativa "elige tu modelo".
   if (parts[0] === "selladora") return parts.slice(0, 3).join("-");
+  // "estufa-mesa-*" vs "estufa-industrial-*": 2 tokens para separar las de mesa
+  // de las de piso con horno.
+  if (parts[0] === "estufa") return `${parts[0]}-${parts[1] ?? ""}`;
   return parts[0];
 }
 

@@ -905,7 +905,7 @@ export const snacksProducts: Product[] = [
         "value": "Alto 90 cm - 1.2 metros Largo - 60 cm ancho"
       }
     ],
-    "price": 1058834,
+    "price": 998900,
     "currency": "COP",
     "stockStatus": "in_stock",
     "metaDescription": "Calentador para Papas a la Francesa de acero inoxidable. Compacto, potente y fácil de usar. Mantén papas y… Envío nacional desde Bogotá. Cotiza por WhatsApp.",

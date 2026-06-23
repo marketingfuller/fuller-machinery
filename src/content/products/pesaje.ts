@@ -202,7 +202,7 @@ export const pesajeProducts: Product[] = [
         "value": "Cliente elige recoger el producto en la sede principal de Fuller Machinery"
       }
     ],
-    "price": 1879900,
+    "price": 1886900,
     "currency": "COP",
     "stockStatus": "in_stock",
     "metaDescription": "🐄 Controla el peso de tu ganado con precisión y seguridad La Báscula Ganadera de 2000 kg ha sido diseñada… Envío nacional desde Bogotá. Cotiza por WhatsApp.",
@@ -482,7 +482,7 @@ export const pesajeProducts: Product[] = [
         "value": "Cargador y manual"
       }
     ],
-    "price": 194900,
+    "price": 191900,
     "currency": "COP",
     "stockStatus": "out_of_stock",
     "metaDescription": "⚖️ Pesaje preciso y cálculo automático de precios, todo en un equipo compacto y confiable La Báscula Electr… Envío nacional desde Bogotá. Cotiza por WhatsApp.",

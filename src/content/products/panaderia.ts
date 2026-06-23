@@ -584,7 +584,7 @@ export const panaderiaProducts: Product[] = [
         "value": "12 Meses"
       }
     ],
-    "price": 1896000,
+    "price": 1896900,
     "currency": "COP",
     "stockStatus": "in_stock",
     "metaDescription": "🍰 Batidora Profesional de 7 Litros | Potencia, versatilidad y robustez para tu negocio Esta Batidora de 7… Envío nacional desde Bogotá. Cotiza por WhatsApp.",

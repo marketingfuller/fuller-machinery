@@ -618,7 +618,7 @@ export const exhibicionProducts: Product[] = [
         "value": "30 kg"
       }
     ],
-    "price": 1611900,
+    "price": 1616900,
     "currency": "COP",
     "stockStatus": "out_of_stock",
     "metaDescription": "Vitrina caliente vertical ideal para mantener alimentos calientes, organizados y visibles en el punto de ve… Envío nacional desde Bogotá. Cotiza por WhatsApp.",
@@ -1166,7 +1166,7 @@ export const exhibicionProducts: Product[] = [
         "value": "Alto 90 cm - 1.2 metros Largo - 60 cm ancho"
       }
     ],
-    "price": 1145754,
+    "price": 1080900,
     "currency": "COP",
     "stockStatus": "in_stock",
     "metaDescription": "Vitrina caliente con 3 bandejas y temperatura hasta 85°C. Ideal para mantener alimentos calientes, organiza… Envío nacional desde Bogotá. Cotiza por WhatsApp.",

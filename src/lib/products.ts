@@ -213,9 +213,8 @@ function familyKey(slug: string): string {
   // "estufa-mesa-*" vs "estufa-industrial-*": 2 tokens para separar las de mesa
   // de las de piso con horno.
   if (parts[0] === "estufa") return `${parts[0]}-${parts[1] ?? ""}`;
-  // "termo-jarra-*" (1.5/2/3 L) vs "termo-airpot-*": 2 tokens para que las
-  // jarras se comparen entre sí y el airpot no se mezcle en la comparativa.
-  if (parts[0] === "termo") return `${parts[0]}-${parts[1] ?? ""}`;
+  // "termo-*": todos los termos (jarras 1.5/2/3 L + airpot) se comparan juntos
+  // en "elige tu modelo" para que el cliente vea toda la línea de un vistazo.
   return parts[0];
 }
 

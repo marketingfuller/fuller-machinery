@@ -46,7 +46,7 @@ export const nuevosProducts: Product[] = [
       { label: "Temperatura máxima", value: "300 °C" },
     ],
     badge: { text: "Nuevo", color: "bg-accent" },
-    price: 783900,
+    price: 1198900,
     currency: "COP",
     stockStatus: "in_stock",
     keywords: [

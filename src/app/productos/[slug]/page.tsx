@@ -298,6 +298,7 @@ export default async function ProductoPage({
         {/* WOW — Calculadora de rentabilidad (solo categorías que generan ingreso) */}
         {typeof product.price === "number" &&
           product.price > 0 &&
+          !product.hideCalculator &&
           CALC_DEFAULTS[product.category] && (
             <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-12">
               <ProfitCalculator price={product.price} category={product.category} />

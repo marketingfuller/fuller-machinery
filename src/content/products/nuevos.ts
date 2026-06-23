@@ -333,4 +333,224 @@ export const nuevosProducts: Product[] = [
     whatsappMessage:
       "Hola, me interesa la Desmechadora de Carne y Pollo. ¿Me das precio y disponibilidad?",
   },
+
+  // ── Termos / jarras conservadoras (accesorios — sin calculadora) ──
+  {
+    slug: "termo-jarra-1-5-litros",
+    name: "Termo Jarra Conservador · 1.5 Litros · Acero Inoxidable",
+    category: "bebidas",
+    categoryLabel: "Bebidas y Café",
+    type: "termo",
+    shortDescription:
+      "Jarra térmica de 1.5 L en acero inoxidable con pico dispensador. Mantiene café, agua aromática o jugos a temperatura sin conexión eléctrica.",
+    description:
+      "## Sirve café caliente todo el día, sin enchufar nada\n\n" +
+      "El **Termo Jarra Conservador de 1.5 L** mantiene la temperatura de bebidas calientes o frías durante el servicio, gracias a su cuerpo en **acero inoxidable** con aislamiento térmico. La tapa con **pico dispensador** permite servir sin destapar, conservando el calor.\n\n" +
+      "### ¿Para qué negocios es ideal?\n" +
+      "Cafeterías, restaurantes, hoteles, oficinas, eventos y catering que necesitan tener café, agua aromática, chocolate o jugos listos para servir.\n\n" +
+      "### Por qué conviene\n" +
+      "- **Sin conexión eléctrica**: lo llenas y conserva la temperatura.\n" +
+      "- **Pico dispensador** para servir rápido sin perder calor.\n" +
+      "- **Acero inoxidable** resistente y fácil de limpiar.\n" +
+      "- **Tamaño compacto (1.5 L)** ideal para mesa o barra.",
+    highlights: [
+      "Capacidad 1.5 litros",
+      "Acero inoxidable con aislamiento térmico",
+      "Tapa con pico dispensador",
+      "No requiere electricidad",
+    ],
+    images: [
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/termo-jarra-1-5-litros/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/termo-jarra-1-5-litros/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/termo-jarra-1-5-litros/2.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/termo-jarra-1-5-litros/3.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/termo-jarra-1-5-litros/4.webp",
+    ],
+    specs: [
+      { label: "Capacidad", value: "1.5 litros" },
+      { label: "Material", value: "Acero inoxidable · tapa plástica" },
+      { label: "Dispensado", value: "Tapa con pico dispensador" },
+      { label: "Conservación", value: "Térmico, sin conexión eléctrica" },
+    ],
+    badge: { text: "Nuevo", color: "bg-accent" },
+    price: 159900,
+    currency: "COP",
+    stockStatus: "in_stock",
+    hideCalculator: true,
+    keywords: [
+      "termo jarra 1.5 litros",
+      "jarra térmica acero inoxidable",
+      "termo para café",
+      "jarra dispensadora de café",
+      "termo conservador de bebidas",
+    ],
+    whatsappMessage:
+      "Hola, me interesa el Termo Jarra Conservador de 1.5 L. ¿Me das precio y disponibilidad?",
+    sortOrder: 91,
+  },
+  {
+    slug: "termo-jarra-2-litros",
+    name: "Termo Jarra Conservador · 2 Litros · Acero Inoxidable",
+    category: "bebidas",
+    categoryLabel: "Bebidas y Café",
+    type: "termo",
+    shortDescription:
+      "Jarra térmica de 2 L en acero inoxidable con pico dispensador. Conserva café, aromática o jugos a temperatura durante el servicio, sin electricidad.",
+    description:
+      "## Más capacidad para servir sin parar\n\n" +
+      "El **Termo Jarra Conservador de 2 L** almacena y sirve bebidas calientes o frías de forma práctica y segura. Su cuerpo en **acero inoxidable** conserva la temperatura y su tapa con **pico dispensador** facilita el servicio sin destapar.\n\n" +
+      "### ¿Para qué negocios es ideal?\n" +
+      "Cafeterías, restaurantes, hoteles, oficinas, eventos y puntos de atención con volumen medio de servicio.\n\n" +
+      "### Por qué conviene\n" +
+      "- **2 litros**: equilibrio entre capacidad y manejo.\n" +
+      "- **Pico dispensador** para servir sin perder calor.\n" +
+      "- **Acero inoxidable** resistente y fácil de limpiar.\n" +
+      "- **Sin conexión eléctrica**.",
+    highlights: [
+      "Capacidad 2 litros",
+      "Acero inoxidable con aislamiento térmico",
+      "Tapa con pico dispensador",
+      "No requiere electricidad",
+    ],
+    images: [
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/termo-jarra-2-litros/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/termo-jarra-2-litros/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/termo-jarra-2-litros/2.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/termo-jarra-2-litros/3.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/termo-jarra-2-litros/4.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/termo-jarra-2-litros/5.webp",
+    ],
+    specs: [
+      { label: "Capacidad", value: "2 litros" },
+      { label: "Material", value: "Acero inoxidable · tapa plástica" },
+      { label: "Dispensado", value: "Tapa con pico dispensador" },
+      { label: "Conservación", value: "Térmico, sin conexión eléctrica" },
+    ],
+    badge: { text: "Nuevo", color: "bg-accent" },
+    price: 169900,
+    currency: "COP",
+    stockStatus: "in_stock",
+    hideCalculator: true,
+    keywords: [
+      "termo jarra 2 litros",
+      "jarra térmica acero inoxidable",
+      "termo para café",
+      "jarra dispensadora de café",
+      "termo conservador de bebidas",
+    ],
+    whatsappMessage:
+      "Hola, me interesa el Termo Jarra Conservador de 2 L. ¿Me das precio y disponibilidad?",
+    sortOrder: 92,
+  },
+  {
+    slug: "termo-jarra-3-litros",
+    name: "Termo Jarra Conservador · 3 Litros · Acero Inoxidable",
+    category: "bebidas",
+    categoryLabel: "Bebidas y Café",
+    type: "termo",
+    shortDescription:
+      "Jarra térmica de 3 L en acero inoxidable con pico dispensador. La mayor capacidad de la línea jarra para servicio continuo, sin electricidad.",
+    description:
+      "## La jarra de mayor capacidad para servicio continuo\n\n" +
+      "El **Termo Jarra Conservador de 3 L** mantiene la temperatura de bebidas calientes o frías durante el servicio. Cuerpo en **acero inoxidable**, tapa con **pico dispensador** y **manija lateral ergonómica** para servir cómodo incluso lleno.\n\n" +
+      "### ¿Para qué negocios es ideal?\n" +
+      "Cafeterías, restaurantes, hoteles, eventos y catering con alta rotación de café o bebidas calientes.\n\n" +
+      "### Por qué conviene\n" +
+      "- **3 litros**: la mayor capacidad de la línea jarra.\n" +
+      "- **Pico dispensador** + **manija ergonómica**.\n" +
+      "- **Acero inoxidable** resistente y fácil de limpiar.\n" +
+      "- **Sin conexión eléctrica**.",
+    highlights: [
+      "Capacidad 3 litros",
+      "Acero inoxidable con aislamiento térmico",
+      "Pico dispensador + manija ergonómica",
+      "No requiere electricidad",
+    ],
+    images: [
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/termo-jarra-3-litros/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/termo-jarra-3-litros/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/termo-jarra-3-litros/2.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/termo-jarra-3-litros/3.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/termo-jarra-3-litros/4.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/termo-jarra-3-litros/5.webp",
+    ],
+    specs: [
+      { label: "Capacidad", value: "3 litros" },
+      { label: "Material", value: "Acero inoxidable · tapa plástica" },
+      { label: "Dispensado", value: "Tapa con pico dispensador" },
+      { label: "Conservación", value: "Térmico, sin conexión eléctrica" },
+    ],
+    badge: { text: "Nuevo", color: "bg-accent" },
+    price: 189900,
+    currency: "COP",
+    stockStatus: "in_stock",
+    hideCalculator: true,
+    keywords: [
+      "termo jarra 3 litros",
+      "jarra térmica acero inoxidable",
+      "termo para café",
+      "jarra dispensadora de café",
+      "termo conservador de bebidas",
+    ],
+    whatsappMessage:
+      "Hola, me interesa el Termo Jarra Conservador de 3 L. ¿Me das precio y disponibilidad?",
+    sortOrder: 93,
+  },
+  {
+    slug: "termo-airpot-3-litros",
+    name: "Termo Airpot Conservador · 3 Litros · Bomba de Presión",
+    category: "bebidas",
+    categoryLabel: "Bebidas y Café",
+    type: "termo",
+    shortDescription:
+      "Termo airpot de 3 L en acero inoxidable con bomba de presión y asa superior. Autoservicio de café o bebidas calientes, sin electricidad.",
+    description:
+      "## Café en autoservicio: presionas y sirve solo\n\n" +
+      "El **Termo Airpot Conservador de 3 L** es el formato vertical con **bomba de presión**: el cliente o el personal sirve con un solo toque, sin destapar ni inclinar. Cuerpo en **acero inoxidable** con **tapa de cierre de seguridad** y **asa superior** para transportarlo lleno.\n\n" +
+      "### ¿Para qué negocios es ideal?\n" +
+      "Cafeterías, hoteles, eventos, salas de juntas y catering que ofrecen café en autoservicio o necesitan servir muchas tazas sin esfuerzo.\n\n" +
+      "### Por qué conviene\n" +
+      "- **Bomba de presión**: sirve con un toque, ideal para autoservicio.\n" +
+      "- **3 litros** y **asa superior** para mover lleno.\n" +
+      "- **Tapa con cierre de seguridad** que conserva mejor el calor.\n" +
+      "- **Acero inoxidable**, sin conexión eléctrica.",
+    highlights: [
+      "Bomba de presión para autoservicio",
+      "Capacidad 3 litros",
+      "Asa superior + tapa con cierre de seguridad",
+      "No requiere electricidad",
+    ],
+    images: [
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/termo-airpot-3-litros/0.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/termo-airpot-3-litros/1.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/termo-airpot-3-litros/2.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/termo-airpot-3-litros/3.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/termo-airpot-3-litros/4.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/termo-airpot-3-litros/5.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/termo-airpot-3-litros/6.webp",
+      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/termo-airpot-3-litros/7.webp",
+    ],
+    specs: [
+      { label: "Capacidad", value: "3 litros" },
+      { label: "Material", value: "Acero inoxidable · tapa plástica" },
+      { label: "Dispensado", value: "Bomba de presión (pulsar)" },
+      { label: "Extras", value: "Asa superior · cierre de seguridad" },
+      { label: "Conservación", value: "Térmico, sin conexión eléctrica" },
+    ],
+    badge: { text: "Nuevo", color: "bg-accent" },
+    price: 248900,
+    currency: "COP",
+    stockStatus: "in_stock",
+    hideCalculator: true,
+    keywords: [
+      "termo airpot 3 litros",
+      "termo bomba de presión",
+      "airpot café",
+      "termo dispensador de café",
+      "termo conservador autoservicio",
+    ],
+    whatsappMessage:
+      "Hola, me interesa el Termo Airpot Conservador de 3 L. ¿Me das precio y disponibilidad?",
+    sortOrder: 94,
+  },
 ];

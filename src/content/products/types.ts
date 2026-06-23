@@ -94,6 +94,13 @@ export type Product = {
   /** Mensaje prellenado para el CTA de WhatsApp. */
   whatsappMessage?: string;
 
+  /**
+   * Oculta la calculadora de rentabilidad aunque la categoría la tenga.
+   * Para accesorios (termos, sellos, rollos…) que no generan ingreso por
+   * unidad vendida: mostrar la calculadora ahí sería engañoso.
+   */
+  hideCalculator?: boolean;
+
   /** Orden manual dentro de su categoría (menor = primero). */
   sortOrder?: number;
   /** Si false, no se renderiza ni entra al sitemap. */

@@ -309,7 +309,7 @@ export const carnicosProducts: Product[] = [
         "value": "Boquillas"
       }
     ],
-    "price": 1499900,
+    "price": 1263900,
     "currency": "COP",
     "stockStatus": "in_stock",
     "metaDescription": "Embutidora de Churros de 7 Libras. Acero inoxidable de grado alimenticio. Incluye 4 boquillas y empaque de… Envío nacional desde Bogotá. Cotiza por WhatsApp.",

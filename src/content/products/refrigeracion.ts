@@ -343,7 +343,7 @@ export const refrigeracionProducts: Product[] = [
         "value": "Puertas seguras, estantes ajustables"
       }
     ],
-    "price": 3799900,
+    "price": 3189900,
     "currency": "COP",
     "stockStatus": "in_stock",
     "metaDescription": "Botellero mini bar de 2 puertas con 191L, ideal para negocios. Compacto, eficiente, con estantes ajustables… Envío nacional desde Bogotá. Cotiza por WhatsApp.",

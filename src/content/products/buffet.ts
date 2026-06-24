@@ -609,7 +609,7 @@ export const buffetProducts: Product[] = [
         "value": "Alto 90 cm - 1.2 metros Largo - 60 cm ancho"
       }
     ],
-    "price": 1165894,
+    "price": 1099900,
     "currency": "COP",
     "stockStatus": "in_stock",
     "metaDescription": "Calentador de Salsas de 2 recipientes de 650 ml, con control de temperatura independiente (0-85°C). Compact… Envío nacional desde Bogotá. Cotiza por WhatsApp.",

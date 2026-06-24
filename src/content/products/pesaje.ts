@@ -57,7 +57,7 @@ export const pesajeProducts: Product[] = [
       "text": "Comercio",
       "color": "bg-secondary"
     },
-    "price": 699900,
+    "price": 700900,
     "currency": "COP",
     "stockStatus": "in_stock",
     "metaDescription": "Báscula electrónica de 50 kg con impresión de precios para tu negocio. Pesa, calcula y etiqueta en segundos… Envío nacional desde Bogotá. Cotiza por WhatsApp.",
@@ -761,7 +761,7 @@ export const pesajeProducts: Product[] = [
         "value": "Cargador y manual"
       }
     ],
-    "price": 670000,
+    "price": 672900,
     "currency": "COP",
     "stockStatus": "in_stock",
     "metaDescription": "Báscula inalámbrica Bluetooth de 600 kg con plataforma de acero inoxidable, indicador digital remoto y bate… Envío nacional desde Bogotá. Cotiza por WhatsApp.",
@@ -1018,7 +1018,7 @@ export const pesajeProducts: Product[] = [
         "value": "Manual y cargador"
       }
     ],
-    "price": 464174,
+    "price": 437900,
     "currency": "COP",
     "stockStatus": "in_stock",
     "metaDescription": "Báscula digital para bebés de hasta 20 kg, graduación de 10 g, función TARE, indicador de batería baja y un… Envío nacional desde Bogotá. Cotiza por WhatsApp.",
@@ -1158,7 +1158,7 @@ export const pesajeProducts: Product[] = [
         "value": "Manual y cargador"
       }
     ],
-    "price": 529894,
+    "price": 499900,
     "currency": "COP",
     "stockStatus": "in_stock",
     "metaDescription": "Báscula digital para bebés de 20 kg con tallímetro de 58 cm, precisión de 5 g, función Tara, memoria, cambi… Envío nacional desde Bogotá. Cotiza por WhatsApp.",
@@ -1298,7 +1298,7 @@ export const pesajeProducts: Product[] = [
         "value": "Manual y cargador"
       }
     ],
-    "price": 243694,
+    "price": 229900,
     "currency": "COP",
     "stockStatus": "in_stock",
     "metaDescription": "Controla el crecimiento de tu bebé con comodidad y precisión. Báscula con tazón ergonómico, medidor mecánic… Envío nacional desde Bogotá. Cotiza por WhatsApp.",

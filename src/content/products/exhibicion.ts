@@ -45,7 +45,7 @@ export const exhibicionProducts: Product[] = [
       "text": "Pizzería",
       "color": "bg-secondary"
     },
-    "price": 2425900,
+    "price": 2433900,
     "currency": "COP",
     "stockStatus": "in_stock",
     "metaDescription": "Vitrina de calefacción para pizza con capacidad de 18 porciones. Mantén la pizza caliente y a la vista del… Envío nacional desde Bogotá. Cotiza por WhatsApp.",

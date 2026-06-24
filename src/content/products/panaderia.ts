@@ -1069,7 +1069,7 @@ export const panaderiaProducts: Product[] = [
         "value": "12 Meses"
       }
     ],
-    "price": 3569900,
+    "price": 3569000,
     "currency": "COP",
     "stockStatus": "in_stock",
     "metaDescription": "Dimensiones: 40 cm Ancho x 37 cm Largo x 60 Alto cm Dimensión del tazón: Capacidad: 20 litros Alimentación:… Envío nacional desde Bogotá. Cotiza por WhatsApp.",

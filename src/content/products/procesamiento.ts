@@ -273,7 +273,7 @@ export const procesamientoProducts: Product[] = [
         "value": "Manual y empaques"
       }
     ],
-    "price": 7445900,
+    "price": 6790000,
     "currency": "COP",
     "stockStatus": "in_stock",
     "metaDescription": "✅ Laminadora con rodillos eléctricos superiores e inferiores ✅ Estructura de acero inoxidable de alta calid… Envío nacional desde Bogotá. Cotiza por WhatsApp.",

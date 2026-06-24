@@ -633,7 +633,7 @@ export const snacksProducts: Product[] = [
         "value": "110v"
       }
     ],
-    "price": 104900,
+    "price": 101900,
     "currency": "COP",
     "stockStatus": "in_stock",
     "metaDescription": "Crispetera Oil Free. Prepara palomitas sin aceite, crujientes y saludables en minutos. Sistema d… Envío nacional desde Bogotá. Cotiza por WhatsApp.",
@@ -702,7 +702,7 @@ export const snacksProducts: Product[] = [
         "value": "23cm"
       }
     ],
-    "price": 199900,
+    "price": 197900,
     "currency": "COP",
     "stockStatus": "in_stock",
     "metaDescription": "Crispetera pequeña con Bowl integrado para servir. Capacidad: 2 oz maíz y 1 oz aceite, sistema de agitación… Envío nacional desde Bogotá. Cotiza por WhatsApp.",
@@ -2452,7 +2452,7 @@ export const snacksProducts: Product[] = [
         "value": "Cepillo para limpieza y manual."
       }
     ],
-    "price": 1498900,
+    "price": 1398900,
     "currency": "COP",
     "stockStatus": "in_stock",
     "metaDescription": "Una fuente de chocolate es un dispositivo diseñado para derretir chocolate y bombearlo hacia la parte super… Envío nacional desde Bogotá. Cotiza por WhatsApp.",
@@ -2829,7 +2829,7 @@ export const snacksProducts: Product[] = [
         "value": "8 onzas"
       }
     ],
-    "price": 1568900,
+    "price": 1428900,
     "currency": "COP",
     "stockStatus": "in_stock",
     "metaDescription": "Producción: aprox 3kg por hora. Incluye: Luz y calentador en la parte inferior, tapa imantada. Consumo en p… Envío nacional desde Bogotá. Cotiza por WhatsApp.",

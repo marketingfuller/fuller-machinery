@@ -1576,7 +1576,7 @@ export const empaqueProducts: Product[] = [
       "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/empacadora-al-vacio-doble-camara-2sb-doble-barra/9.webp"
     ],
     "specs": [],
-    "price": 7914900,
+    "price": 7942900,
     "currency": "COP",
     "stockStatus": "in_stock",
     "metaDescription": "Empacadora al vacío de acero inoxidable con doble cámara y barra de sellado de 40 cm. 2-3 ciclos/minuto, si… Envío nacional desde Bogotá. Cotiza por WhatsApp.",

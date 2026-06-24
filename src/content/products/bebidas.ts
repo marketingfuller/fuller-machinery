@@ -395,7 +395,7 @@ export const bebidasProducts: Product[] = [
       "text": "Cafeterías",
       "color": "bg-primary"
     },
-    "price": 8998900,
+    "price": 8874900,
     "currency": "COP",
     "stockStatus": "in_stock",
     "metaDescription": "Máquina de café espresso Magister Stella en acero inoxidable, con depósito de 3 litros y pulsante manual pa… Envío nacional desde Bogotá. Cotiza por WhatsApp.",
@@ -554,7 +554,7 @@ export const bebidasProducts: Product[] = [
       "text": "Jugo al instante",
       "color": "bg-secondary"
     },
-    "price": 7142900,
+    "price": 6998900,
     "currency": "COP",
     "stockStatus": "in_stock",
     "metaDescription": "Exprimidor automático de naranjas de mesa en acero inoxidable. Jugo recién exprimido frente al cliente, con… Envío nacional desde Bogotá. Cotiza por WhatsApp.",
@@ -1158,7 +1158,7 @@ export const bebidasProducts: Product[] = [
       "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/fabricadora-de-hielo-fuller-machinery-30kg-cubos-110v-c-filtros/5.webp"
     ],
     "specs": [],
-    "price": 2790000,
+    "price": 2930900,
     "currency": "COP",
     "stockStatus": "in_stock",
     "metaDescription": "Produce hasta 30 kg de hielo en cubos al día con esta fabricadora Fuller Machinery. Funciona a 110V, incluy… Envío nacional desde Bogotá. Cotiza por WhatsApp.",
@@ -1585,7 +1585,7 @@ export const bebidasProducts: Product[] = [
         "value": "6 Meses"
       }
     ],
-    "price": 864900,
+    "price": 867900,
     "currency": "COP",
     "stockStatus": "in_stock",
     "metaDescription": "Licuadora Industrial 3.6 L: vaso de policarbonato, motor potente, velocidades variables y función pulso. Id… Envío nacional desde Bogotá. Cotiza por WhatsApp.",
@@ -1856,7 +1856,7 @@ export const bebidasProducts: Product[] = [
         "value": "12 Meses"
       }
     ],
-    "price": 15646900,
+    "price": 14646900,
     "currency": "COP",
     "stockStatus": "in_stock",
     "metaDescription": "Exprimidor industrial de piso, automático y de alta capacidad. Pela y exprime hasta 50 naranjas/minuto. Ide… Envío nacional desde Bogotá. Cotiza por WhatsApp.",
@@ -1923,7 +1923,7 @@ export const bebidasProducts: Product[] = [
         "value": "6 Meses"
       }
     ],
-    "price": 5758900,
+    "price": 4998900,
     "currency": "COP",
     "stockStatus": "in_stock",
     "metaDescription": "Exprimidor industrial de naranjas de mesa con cubierta acrílica transparente. Motor 300W, exprime 20-30 nar… Envío nacional desde Bogotá. Cotiza por WhatsApp.",

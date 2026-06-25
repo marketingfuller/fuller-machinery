@@ -2966,12 +2966,12 @@ export const snacksProducts: Product[] = [
   },
   {
     "slug": "maquina-dispensadora-vending-combinada",
-    "name": "Maquina Dispensadora de Snacks Seaga Combinada Vending",
+    "name": "Máquina Vending Seaga Combinada · Snacks y Bebidas Frías",
     "type": "vending",
     "category": "snacks",
     "categoryLabel": "Snacks y Comida Rápida",
-    "shortDescription": "Máquina vending combinada para snacks y bebidas con capacidad de hasta 420 productos. Ideal para autoservicio.",
-    "description": "## Máquina expendedora de snacks: punto de venta 24/7 que trabaja solo, sin empleados\n\nMáquina vending combinada para snacks y bebidas con capacidad de hasta 420 productos. Ideal para autoservicio.\n\n### ¿Para qué negocios es ideal?\nOficinas, universidades, gimnasios y conjuntos que venden snacks y bebidas por máquina dispensadora.\n\n### Especificaciones principales\n- **Material:** Lámina de acero anti vandálico\n- **Capacidad:** 420 productos\n- **Potencia:** 3.5 amp\n- **Alimentación:** 110 V\n- **Garantía:** 12 meses\n- **Incluye:** Capacitacion y sistemas de pagos ( billetero y monedero)\n\n### Compra con respaldo Fuller\nEnvío nacional desde Bogotá, garantía Fuller y asesoría experta. Cotiza por WhatsApp y recibe atención personalizada.",
+    "shortDescription": "Máquina vending COMBINADA: dispensa snacks y bebidas frías (zona refrigerada) en un solo equipo. Hasta 420 productos, pagos con billetero y monedero. Autoservicio 24/7.",
+    "description": "## Máquina expendedora combinada: snacks + bebidas frías, 24/7 sin empleados\n\nLa versión **combinada** dispensa **snacks y bebidas frías en una sola máquina**, gracias a su **zona refrigerada** para gaseosas, jugos y aguas, más las espirales para snacks empacados. Capacidad de hasta **420 productos**. Es un punto de venta que trabaja solo, todo el día.\n\n### ¿Para qué negocios es ideal?\nOficinas, universidades, gimnasios, hospitales y conjuntos que quieren ofrecer snacks **y** bebidas frías por autoservicio.\n\n### Especificaciones principales\n- **Tipo:** Combinada (snacks + bebidas frías refrigeradas)\n- **Material:** Lámina de acero anti vandálico\n- **Capacidad:** 420 productos\n- **Potencia:** 3.5 amp · 110 V\n- **Garantía:** 12 meses\n- **Incluye:** Capacitación y sistemas de pago (billetero y monedero)\n\n### Compra con respaldo Fuller\nEnvío nacional desde Bogotá, garantía Fuller y asesoría experta. Cotiza por WhatsApp y recibe atención personalizada.",
     "highlights": [
       "Material: Lámina de acero anti vandálico",
       "Capacidad: 420 productos",
@@ -2983,6 +2983,10 @@ export const snacksProducts: Product[] = [
       "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/snacks/maquina-dispensadora-vending-combinada/1.webp"
     ],
     "specs": [
+      {
+        "label": "Tipo",
+        "value": "Combinada (snacks + bebidas frías refrigeradas)"
+      },
       {
         "label": "Material",
         "value": "Lámina de acero anti vandálico"
@@ -3011,7 +3015,7 @@ export const snacksProducts: Product[] = [
     "price": 37962900,
     "currency": "COP",
     "stockStatus": "in_stock",
-    "metaDescription": "Máquina vending combinada para snacks y bebidas con capacidad de hasta 420 productos. Ideal para autoservic… Envío nacional desde Bogotá. Cotiza por WhatsApp.",
+    "metaDescription": "Máquina vending combinada Seaga: snacks y bebidas frías (zona refrigerada) en un solo equipo, hasta 420 productos. Envío nacional desde Bogotá. Cotiza por WhatsApp.",
     "keywords": [
       "máquina expendedora",
       "máquina dispensadora de snacks",
@@ -3032,16 +3036,16 @@ export const snacksProducts: Product[] = [
   },
   {
     "slug": "maquina-dispensadora-vending-ambiente",
-    "name": "Máquina Dispensadora de Snacks Seaga Combinada Vending",
+    "name": "Máquina Vending Seaga Ambiente · Snacks",
     "type": "vending",
     "category": "snacks",
     "categoryLabel": "Snacks y Comida Rápida",
-    "shortDescription": "Máquina vending para snacks y bebidas con refrigeración, sistemas de pago y alta seguridad. Ideal para autoservicio.",
-    "description": "## Máquina expendedora de snacks: punto de venta 24/7 que trabaja solo, sin empleados\n\nMáquina vending para snacks y bebidas con refrigeración, sistemas de pago y alta seguridad. Ideal para autoservicio.\n\n### ¿Para qué negocios es ideal?\nOficinas, universidades, gimnasios y conjuntos que venden snacks y bebidas por máquina dispensadora.\n\n### Especificaciones principales\n- **Material:** Acero inoxidable\n- **Potencia:** 3.5 amp\n- **Alimentación:** Consumo: 3.5 amp Alimentación: 110v.\n- **Garantía:** 12 meses\n\n### Compra con respaldo Fuller\nEnvío nacional desde Bogotá, garantía Fuller y asesoría experta. Cotiza por WhatsApp y recibe atención personalizada.",
+    "shortDescription": "Máquina vending de AMBIENTE: dispensa snacks y productos empacados a temperatura ambiente (sin refrigeración). Sistemas de pago, alta seguridad y autoservicio 24/7.",
+    "description": "## Máquina expendedora de ambiente: snacks 24/7 sin empleados\n\nLa versión **ambiente** dispensa **snacks y productos empacados a temperatura ambiente** (papas, galletas, chocolates, mecato) — **sin refrigeración**. Es la opción para puntos donde solo necesitas vender snacks por autoservicio, con sistemas de pago y estructura de alta seguridad.\n\n### ¿Para qué negocios es ideal?\nOficinas, universidades, gimnasios, fábricas y conjuntos que quieren vender snacks por máquina, sin manejar bebidas frías.\n\n### Especificaciones principales\n- **Tipo:** Ambiente (snacks, sin refrigeración)\n- **Material:** Acero inoxidable\n- **Potencia:** 3.5 amp · 110 V\n- **Garantía:** 12 meses\n\n> ¿Necesitas vender también bebidas frías? Mira la versión **Combinada**, que incluye zona refrigerada.\n\n### Compra con respaldo Fuller\nEnvío nacional desde Bogotá, garantía Fuller y asesoría experta. Cotiza por WhatsApp y recibe atención personalizada.",
     "highlights": [
-      "Material: Acero inoxidable",
-      "Potencia: 3.5 amp",
-      "Alimentación: Consumo: 3.5 amp Alimentación: 110v.",
+      "Tipo: Ambiente (sin refrigeración)",
+      "Dispensa snacks y productos empacados",
+      "Sistemas de pago y alta seguridad",
       "Garantía: 12 meses"
     ],
     "images": [
@@ -3052,16 +3056,16 @@ export const snacksProducts: Product[] = [
     ],
     "specs": [
       {
+        "label": "Tipo",
+        "value": "Ambiente (snacks, sin refrigeración)"
+      },
+      {
         "label": "Material",
         "value": "Acero inoxidable"
       },
       {
         "label": "Potencia",
-        "value": "3.5 amp"
-      },
-      {
-        "label": "Alimentación",
-        "value": "Consumo: 3.5 amp Alimentación: 110v."
+        "value": "3.5 amp · 110 V"
       },
       {
         "label": "Garantía",
@@ -3071,7 +3075,7 @@ export const snacksProducts: Product[] = [
     "price": 32319900,
     "currency": "COP",
     "stockStatus": "in_stock",
-    "metaDescription": "Máquina vending para snacks y bebidas con refrigeración, sistemas de pago y alta seguridad. Ideal para auto… Envío nacional desde Bogotá. Cotiza por WhatsApp.",
+    "metaDescription": "Máquina vending Seaga de ambiente: dispensa snacks a temperatura ambiente (sin refrigeración), con sistemas de pago. Envío nacional desde Bogotá. Cotiza por WhatsApp.",
     "keywords": [
       "máquina expendedora",
       "máquina dispensadora de snacks",

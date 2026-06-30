@@ -274,17 +274,6 @@ export default async function ProductoPage({
                   <span className="material-symbols-outlined text-[20px]">chat</span>
                   Cotizar por WhatsApp
                 </WhatsAppCta>
-                {product.wooUrl && (
-                  <a
-                    href={product.wooUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center justify-center gap-2 border-2 border-slate-200 hover:border-primary text-slate-700 hover:text-primary font-bold text-base px-6 py-4 rounded-xl transition-colors"
-                  >
-                    <span className="material-symbols-outlined text-[20px]">description</span>
-                    Ficha técnica
-                  </a>
-                )}
               </div>
 
               <p className="text-slate-400 text-xs mt-4 flex items-center gap-1.5">

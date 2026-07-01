@@ -19,6 +19,19 @@ type CategoryOption = { value: string; label: string };
 
 const initialState: ProductActionState = { ok: true };
 
+// Colores de la etiqueta destacada con nombres humanos → clase CSS del tema.
+const BADGE_COLORS: { label: string; value: string; hex: string }[] = [
+  { label: "Rojo", value: "bg-secondary", hex: "#d32f2f" },
+  { label: "Verde", value: "bg-primary", hex: "#038f06" },
+  { label: "Verde claro", value: "bg-accent text-bg-dark", hex: "#4ab84c" },
+  { label: "Morado", value: "bg-purple-600", hex: "#9333ea" },
+  { label: "Naranja", value: "bg-orange-500", hex: "#f97316" },
+  { label: "Azul", value: "bg-blue-600", hex: "#2563eb" },
+  { label: "Negro", value: "bg-slate-800", hex: "#1e293b" },
+];
+
+const hintCls = "text-[11px] text-slate-400 mt-1 leading-snug";
+
 /** Convierte texto libre en slug (igual que el servidor): minúsculas, sin acentos, guiones. */
 function slugify(raw: string): string {
   return raw
@@ -121,6 +134,13 @@ export default function ProductEditor({
     });
   }
 
+  // Si el producto ya tiene un color que no está en la lista, lo conservamos como opción.
+  const initialBadgeColor = initial.badge?.color;
+  const badgeColorOptions =
+    initialBadgeColor && !BADGE_COLORS.some((c) => c.value === initialBadgeColor)
+      ? [{ label: "Actual", value: initialBadgeColor, hex: "#64748b" }, ...BADGE_COLORS]
+      : BADGE_COLORS;
+
   return (
     <form action={formAction} className="space-y-6">
       <input type="hidden" name="mode" value={mode} />
@@ -188,10 +208,17 @@ export default function ProductEditor({
             </div>
           </div>
           <div>
-            <label className={labelCls}>
-              Tipo de equipo (agrupa colecciones, ej: granizadora)
-            </label>
-            <input name="type" defaultValue={initial.type} className={inputCls} />
+            <label className={labelCls}>Tipo de equipo (opcional)</label>
+            <input
+              name="type"
+              defaultValue={initial.type}
+              placeholder="Ej: granizadora, freidora, horno"
+              className={inputCls}
+            />
+            <p className={hintCls}>
+              Una sola palabra que agrupa productos parecidos (todas las
+              granizadoras juntas). Si no sabes, déjalo vacío.
+            </p>
           </div>
         </div>
       </section>
@@ -201,34 +228,49 @@ export default function ProductEditor({
         <h2 className="font-bold text-lg text-slate-900 mb-4">Descripción</h2>
         <div className="space-y-4">
           <div>
-            <label className={labelCls}>Descripción corta (tarjetas) *</label>
+            <label className={labelCls}>Descripción corta *</label>
             <textarea
               name="shortDescription"
               required
               rows={2}
               defaultValue={initial.shortDescription}
+              placeholder="1 o 2 líneas que resuman el producto."
               className={inputCls}
             />
+            <p className={hintCls}>
+              Es lo que se ve en las tarjetas del catálogo y en Google. Corta y
+              directa.
+            </p>
           </div>
           <div>
-            <label className={labelCls}>Descripción larga (markdown)</label>
+            <label className={labelCls}>Descripción completa (opcional)</label>
             <textarea
               name="description"
               rows={8}
               defaultValue={initial.description}
-              className={`${inputCls} font-mono`}
+              placeholder="El texto largo que aparece en la ficha del producto."
+              className={inputCls}
             />
+            <p className={hintCls}>
+              Para <strong>negrita</strong>, rodea el texto con dos asteriscos:
+              **así**. Para una lista, empieza cada línea con un guion (-).
+            </p>
           </div>
           <div>
             <label className={labelCls}>
-              Bullets de venta (uno por línea)
+              Puntos de venta rápida (uno por línea)
             </label>
             <textarea
               name="highlights"
               rows={4}
               defaultValue={(initial.highlights ?? []).join("\n")}
+              placeholder={"Ej:\nBajo consumo de energía\nAcero inoxidable resistente\nGarantía Fuller"}
               className={inputCls}
             />
+            <p className={hintCls}>
+              Frases cortas con lo mejor del producto. Aparecen como lista con
+              viñetas junto a las especificaciones.
+            </p>
           </div>
         </div>
       </section>
@@ -307,9 +349,14 @@ export default function ProductEditor({
 
       {/* ── Especificaciones ── */}
       <section className={sectionCls}>
-        <h2 className="font-bold text-lg text-slate-900 mb-4">
+        <h2 className="font-bold text-lg text-slate-900 mb-1">
           Especificaciones
         </h2>
+        <p className="text-slate-500 text-sm mb-4">
+          Los datos técnicos que se muestran en tabla en la ficha (capacidad,
+          voltaje, medidas, material…). A la izquierda el dato, a la derecha el
+          valor.
+        </p>
         <div className="space-y-2">
           {specs.map((s, i) => (
             <div key={i} className="flex gap-2">
@@ -370,7 +417,7 @@ export default function ProductEditor({
             <div key={i} className="border border-slate-200 rounded-xl p-4">
               <div className="flex gap-2 items-end mb-3">
                 <div className="flex-1">
-                  <label className={labelCls}>Color</label>
+                  <label className={labelCls}>Nombre del color</label>
                   <input
                     value={v.label}
                     onChange={(e) =>
@@ -385,7 +432,7 @@ export default function ProductEditor({
                   />
                 </div>
                 <div>
-                  <label className={labelCls}>Swatch</label>
+                  <label className={labelCls}>Muestra</label>
                   <input
                     type="color"
                     value={v.swatch || "#000000"}
@@ -464,7 +511,7 @@ export default function ProductEditor({
         <h2 className="font-bold text-lg text-slate-900 mb-4">Comercial</h2>
         <div className="grid grid-cols-2 gap-4">
           <div>
-            <label className={labelCls}>Precio (COP)</label>
+            <label className={labelCls}>Precio</label>
             <input
               name="price"
               inputMode="numeric"
@@ -472,10 +519,22 @@ export default function ProductEditor({
               placeholder="Ej: 8399900"
               className={inputCls}
             />
+            <p className={hintCls}>
+              Solo el número, sin puntos ni signo $. Déjalo vacío si el precio se
+              cotiza por WhatsApp.
+            </p>
           </div>
           <div>
-            <label className={labelCls}>SKU</label>
-            <input name="sku" defaultValue={initial.sku} className={inputCls} />
+            <label className={labelCls}>SKU (opcional)</label>
+            <input
+              name="sku"
+              defaultValue={initial.sku}
+              placeholder="Código interno"
+              className={inputCls}
+            />
+            <p className={hintCls}>
+              Código interno del producto, si lo manejas. Puedes dejarlo vacío.
+            </p>
           </div>
           <div>
             <label className={labelCls}>Moneda</label>
@@ -505,16 +564,22 @@ export default function ProductEditor({
             name="available"
             defaultChecked={initial.available !== false}
           />
-          Disponible para el agente de ventas (ZOCAM/WhatsApp)
+          Disponible: el chatbot de ventas por WhatsApp puede ofrecerlo
         </label>
       </section>
 
-      {/* ── Insignia ── */}
+      {/* ── Etiqueta destacada ── */}
       <section className={sectionCls}>
-        <h2 className="font-bold text-lg text-slate-900 mb-4">Insignia (badge)</h2>
+        <h2 className="font-bold text-lg text-slate-900 mb-1">
+          Etiqueta destacada
+        </h2>
+        <p className="text-slate-500 text-sm mb-4">
+          El cartelito de color que aparece sobre la foto (ej: “Más vendido”,
+          “Nuevo”, “Oferta”). Déjalo vacío si no quieres etiqueta.
+        </p>
         <div className="grid grid-cols-2 gap-4">
           <div>
-            <label className={labelCls}>Texto (vacío = sin insignia)</label>
+            <label className={labelCls}>Texto de la etiqueta</label>
             <input
               name="badgeText"
               defaultValue={initial.badge?.text}
@@ -523,86 +588,139 @@ export default function ProductEditor({
             />
           </div>
           <div>
-            <label className={labelCls}>Color (clase CSS)</label>
-            <input
+            <label className={labelCls}>Color</label>
+            <select
               name="badgeColor"
-              defaultValue={initial.badge?.color ?? "bg-secondary"}
+              defaultValue={initialBadgeColor ?? "bg-secondary"}
               className={inputCls}
-            />
+            >
+              {badgeColorOptions.map((c) => (
+                <option key={c.value} value={c.value}>
+                  {c.label}
+                </option>
+              ))}
+            </select>
+            <div className="flex gap-1.5 mt-2">
+              {badgeColorOptions.map((c) => (
+                <span
+                  key={c.value}
+                  title={c.label}
+                  className="h-4 w-4 rounded-full border border-slate-200"
+                  style={{ backgroundColor: c.hex }}
+                />
+              ))}
+            </div>
           </div>
         </div>
       </section>
 
       {/* ── SEO ── */}
       <section className={sectionCls}>
-        <h2 className="font-bold text-lg text-slate-900 mb-4">SEO</h2>
+        <h2 className="font-bold text-lg text-slate-900 mb-1">
+          Cómo se ve en Google (opcional)
+        </h2>
+        <p className="text-slate-500 text-sm mb-4">
+          Si dejas todo vacío, se usa automáticamente el nombre y la descripción
+          corta. Solo llénalo si quieres controlar cómo aparece en el buscador.
+        </p>
         <div className="space-y-4">
           <div>
-            <label className={labelCls}>Meta título</label>
+            <label className={labelCls}>Título para Google</label>
             <input
               name="metaTitle"
               defaultValue={initial.metaTitle}
+              placeholder="Se usa el nombre del producto si lo dejas vacío"
               className={inputCls}
             />
           </div>
           <div>
-            <label className={labelCls}>Meta descripción</label>
+            <label className={labelCls}>Descripción para Google</label>
             <textarea
               name="metaDescription"
               rows={2}
               defaultValue={initial.metaDescription}
+              placeholder="Se usa la descripción corta si lo dejas vacío"
               className={inputCls}
             />
           </div>
           <div>
-            <label className={labelCls}>Keywords (una por línea)</label>
+            <label className={labelCls}>Palabras clave (una por línea)</label>
             <textarea
               name="keywords"
               rows={3}
               defaultValue={(initial.keywords ?? []).join("\n")}
+              placeholder={"Ej:\ngranizadora industrial\nmáquina de granizados"}
               className={inputCls}
             />
+            <p className={hintCls}>
+              Términos por los que la gente buscaría este producto en Google.
+            </p>
           </div>
         </div>
       </section>
 
       {/* ── Avanzado ── */}
       <section className={sectionCls}>
-        <h2 className="font-bold text-lg text-slate-900 mb-4">Avanzado</h2>
+        <h2 className="font-bold text-lg text-slate-900 mb-1">Avanzado</h2>
+        <p className="text-slate-500 text-sm mb-4">
+          Casi siempre puedes dejar esto como está.
+        </p>
         <div className="space-y-4">
           <div>
-            <label className={labelCls}>Mensaje de WhatsApp prellenado</label>
+            <label className={labelCls}>Mensaje de WhatsApp (opcional)</label>
             <input
               name="whatsappMessage"
               defaultValue={initial.whatsappMessage}
+              placeholder="Hola, me interesa la Granizadora de 12 litros…"
               className={inputCls}
             />
+            <p className={hintCls}>
+              El texto que aparece ya escrito cuando el cliente toca “Cotizar por
+              WhatsApp”. Si lo dejas vacío, se arma uno solo.
+            </p>
           </div>
           <div>
-            <label className={labelCls}>Orden (menor = primero)</label>
+            <label className={labelCls}>Orden en la lista (opcional)</label>
             <input
               name="sortOrder"
               inputMode="numeric"
               defaultValue={initial.sortOrder ?? ""}
+              placeholder="Ej: 1"
               className={inputCls}
             />
+            <p className={hintCls}>
+              Número para decidir cuál va primero en su categoría (1 = primero).
+              Déjalo vacío para el orden normal.
+            </p>
           </div>
-          <label className="flex items-center gap-2 text-sm">
-            <input
-              type="checkbox"
-              name="hideCalculator"
-              defaultChecked={initial.hideCalculator === true}
-            />
-            Ocultar calculadora de rentabilidad
-          </label>
-          <label className="flex items-center gap-2 text-sm">
-            <input
-              type="checkbox"
-              name="published"
-              defaultChecked={initial.published !== false}
-            />
-            Publicado (visible en la web)
-          </label>
+          <div>
+            <label className="flex items-center gap-2 text-sm">
+              <input
+                type="checkbox"
+                name="hideCalculator"
+                defaultChecked={initial.hideCalculator === true}
+              />
+              Ocultar la calculadora de ganancias
+            </label>
+            <p className={hintCls}>
+              La calculadora estima cuánto podría ganar el cliente con el equipo.
+              Márcalo solo en accesorios (rollos, termos…) que no generan ingreso
+              por sí solos.
+            </p>
+          </div>
+          <div>
+            <label className="flex items-center gap-2 text-sm">
+              <input
+                type="checkbox"
+                name="published"
+                defaultChecked={initial.published !== false}
+              />
+              Publicado (visible en la web)
+            </label>
+            <p className={hintCls}>
+              Si lo desmarcas, el producto se guarda pero no aparece en la web.
+            </p>
+          </div>
         </div>
       </section>
 

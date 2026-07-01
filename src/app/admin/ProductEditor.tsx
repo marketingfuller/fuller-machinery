@@ -18,6 +18,18 @@ import type {
 type CategoryOption = { value: string; label: string };
 
 const initialState: ProductActionState = { ok: true };
+
+/** Convierte texto libre en slug (igual que el servidor): minúsculas, sin acentos, guiones. */
+function slugify(raw: string): string {
+  return raw
+    .toLowerCase()
+    .trim()
+    .normalize("NFD")
+    .replace(/[̀-ͯ]/g, "")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
 const inputCls =
   "w-full px-3 py-2 rounded-lg border border-slate-200 text-sm";
 const labelCls = "block text-xs font-semibold text-slate-600 mb-1";
@@ -36,6 +48,7 @@ export default function ProductEditor({
   const [state, formAction, pending] = useActionState(saveProduct, initialState);
 
   const [slug, setSlug] = useState(initial.slug);
+  const [slugTouched, setSlugTouched] = useState(false);
   const [category, setCategory] = useState(initial.category);
   const [images, setImages] = useState<string[]>(initial.images ?? []);
   const [specs, setSpecs] = useState<ProductSpec[]>(initial.specs ?? []);
@@ -125,22 +138,38 @@ export default function ProductEditor({
               name="name"
               required
               defaultValue={initial.name}
+              onChange={(e) => {
+                // En modo crear, el slug se genera del nombre hasta que lo editen a mano.
+                if (mode === "create" && !slugTouched) {
+                  setSlug(slugify(e.target.value));
+                }
+              }}
               className={inputCls}
             />
           </div>
           <div className="grid grid-cols-2 gap-4">
             <div>
               <label className={labelCls}>
-                Slug (URL) * {mode === "edit" && "· no editable"}
+                Dirección web (slug) {mode === "edit" && "· no se puede cambiar"}
               </label>
               <input
                 name="slug"
                 required
                 value={slug}
-                onChange={(e) => setSlug(e.target.value)}
+                onChange={(e) => {
+                  setSlug(e.target.value);
+                  setSlugTouched(true);
+                }}
                 readOnly={mode === "edit"}
+                placeholder="se genera solo del nombre"
                 className={`${inputCls} ${mode === "edit" ? "bg-slate-50 text-slate-500" : ""}`}
               />
+              <p className="text-[11px] text-slate-400 mt-1 leading-snug">
+                {mode === "edit"
+                  ? "Es la parte final de la URL del producto. No se cambia para no romper el enlace ni el SEO."
+                  : "Se llena solo con el nombre. Es lo que aparece en la URL: fullermachinery.com/productos/" +
+                    (slug || "…")}
+              </p>
             </div>
             <div>
               <label className={labelCls}>Categoría *</label>

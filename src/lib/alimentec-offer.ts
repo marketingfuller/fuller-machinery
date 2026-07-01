@@ -2,7 +2,7 @@
 // Descarga DIRECTA con jsPDF (doc.save). Sin número de WhatsApp: la usan varios
 // asesores en vivo en la feria. Solo cliente (usa window/jsPDF).
 
-import { formatCOP } from "@/lib/products";
+import { formatCOP } from "@/lib/products-shared";
 import { formatPayback, type BusinessResult } from "@/lib/roi";
 
 export type OfferLine = {

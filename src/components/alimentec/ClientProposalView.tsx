@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { formatCOP } from "@/lib/products";
+import { formatCOP } from "@/lib/products-shared";
 import { formatPayback } from "@/lib/roi";
 
 // Vista que ve el CLIENTE al escanear el QR: resumen limpio de su propuesta

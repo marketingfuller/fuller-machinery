@@ -8,22 +8,7 @@ import {
 } from "@/lib/supabase/server";
 import { SETTINGS_TAG } from "@/lib/settings";
 import { AVAILABILITY_TAG } from "@/lib/availability";
-
-async function assertAdmin() {
-  const supabase = await createSupabaseServerClient();
-  const {
-    data: { user },
-  } = await supabase.auth.getUser();
-  if (!user) redirect("/admin/login");
-  const admin = createSupabaseAdminClient();
-  const { data: adminRow } = await admin
-    .from("admins")
-    .select("user_id")
-    .eq("user_id", user.id)
-    .maybeSingle();
-  if (!adminRow) redirect("/admin/login?error=not-admin");
-  return { user, admin };
-}
+import { assertAdmin } from "./shared";
 
 // Normaliza a "57XXXXXXXXXX" (E.164 sin el +). Acepta "+57 322 853 4925", "3228534925", etc.
 function normalizePhone(raw: string): string | null {

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { redirect } from "next/navigation";
 import {
   createSupabaseServerClient,
@@ -70,6 +71,23 @@ export default async function AdminDashboardPage() {
         </div>
         <SignOutButton />
       </header>
+
+      <section className="bg-white rounded-2xl shadow p-6 mb-8 flex items-center justify-between gap-4">
+        <div>
+          <h2 className="font-display font-bold text-xl text-slate-900 mb-1">
+            Catálogo de productos
+          </h2>
+          <p className="text-slate-500 text-sm">
+            Crear, editar, subir fotos y borrar productos.
+          </p>
+        </div>
+        <Link
+          href="/admin/productos"
+          className="shrink-0 bg-primary text-white font-bold px-5 py-2.5 rounded-xl hover:bg-primary/90 transition-colors"
+        >
+          Administrar productos →
+        </Link>
+      </section>
 
       <section className="bg-white rounded-2xl shadow p-6 mb-8">
         <h2 className="font-display font-bold text-xl text-slate-900 mb-4">

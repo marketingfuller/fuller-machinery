@@ -4,7 +4,7 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import { Search, Plus, X } from "lucide-react";
 import { searchProducts, type SearchItem } from "@/lib/search";
-import { formatCOP } from "@/lib/products";
+import { formatCOP } from "@/lib/products-shared";
 
 // Índice del catálogo: se descarga una vez y se comparte entre instancias.
 let indexCache: Promise<SearchItem[]> | null = null;

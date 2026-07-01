@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
-import { formatCOP } from "@/lib/products";
+import { formatCOP } from "@/lib/products-shared";
 import { computeBusiness, formatPayback, type LineInput } from "@/lib/roi";
 import { typeLine, lineInsumoCost, type Insumo } from "@/content/alimentec-roi";
 import { FAIR } from "@/content/alimentec";

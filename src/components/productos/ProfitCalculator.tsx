@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { formatCOP, CALC_DEFAULTS, type ProductCategory } from "@/lib/products";
+import { formatCOP, CALC_DEFAULTS, type ProductCategory } from "@/lib/products-shared";
 
 function Slider({
   label, value, min, max, step, onChange, format,

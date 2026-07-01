@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
-import type { Product } from "@/lib/products";
-import { formatCOP } from "@/lib/products";
+import type { Product } from "@/lib/products-shared";
+import { formatCOP } from "@/lib/products-shared";
 import { buildWhatsAppUrl } from "@/lib/whatsapp";
 
 export default function ProductCard({

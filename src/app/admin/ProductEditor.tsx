@@ -277,10 +277,11 @@ export default function ProductEditor({
 
       {/* ── Imágenes ── */}
       <section className={sectionCls}>
-        <h2 className="font-bold text-lg text-slate-900 mb-1">Imágenes</h2>
-        <p className="text-xs text-slate-400 mb-4">
-          La primera es la principal (tarjeta y galería). Sube el slug y la
-          categoría antes de subir fotos.
+        <h2 className="font-bold text-lg text-slate-900 mb-1">Fotos</h2>
+        <p className="text-slate-500 text-sm mb-4">
+          La <strong>primera foto</strong> es la que se ve en el catálogo y en la
+          galería. Usa las flechas ← → para reordenar y la ✕ para quitar una.
+          {mode === "create" && " Escribe primero el nombre del producto (arriba)."}
         </p>
         <div className="grid grid-cols-3 sm:grid-cols-4 gap-3 mb-4">
           {images.map((url, i) => (
@@ -300,7 +301,7 @@ export default function ProductEditor({
                   Principal
                 </span>
               )}
-              <div className="absolute inset-x-0 bottom-0 flex justify-between bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity">
+              <div className="absolute inset-x-0 bottom-0 flex justify-between bg-black/55">
                 <button
                   type="button"
                   onClick={() => moveImage(i, i - 1)}
@@ -331,7 +332,7 @@ export default function ProductEditor({
         </div>
         <label className="inline-block text-sm">
           <span className="cursor-pointer inline-block bg-slate-100 hover:bg-slate-200 px-4 py-2 rounded-lg font-medium">
-            {uploading ? "Subiendo…" : "+ Subir imágenes"}
+            {uploading ? "Subiendo…" : "+ Subir fotos"}
           </span>
           <input
             type="file"

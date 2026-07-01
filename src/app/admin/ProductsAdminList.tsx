@@ -116,12 +116,19 @@ export default function ProductsAdminList({
         </div>
       )}
 
-      <div className="flex flex-wrap items-center gap-3 mb-4">
+      <p className="text-slate-500 text-sm mb-3">
+        Toca <strong>Editar</strong> para cambiar fotos, precio o descripción de
+        un producto. Los cambios se ven en la web en segundos.
+        <strong>Ocultar</strong> lo quita de la web sin borrarlo;{" "}
+        <strong>Eliminar</strong> lo borra para siempre.
+      </p>
+
+      <div className="flex flex-wrap items-center gap-3 mb-2">
         <input
           type="search"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
-          placeholder="Buscar por nombre o slug…"
+          placeholder="Buscar producto por nombre…"
           className="flex-1 min-w-[200px] px-4 py-2.5 rounded-xl border border-slate-200 text-sm"
         />
         <select
@@ -137,6 +144,10 @@ export default function ProductsAdminList({
           ))}
         </select>
       </div>
+
+      <p className="text-xs text-slate-400 mb-3">
+        Mostrando {filtered.length} de {items.length} productos.
+      </p>
 
       {error && <p className="text-sm text-red-600 mb-3">{error}</p>}
 
@@ -197,7 +208,7 @@ export default function ProductsAdminList({
         ))}
         {filtered.length === 0 && (
           <p className="text-sm text-slate-400 py-6 text-center">
-            Sin resultados.
+            Ningún producto coincide con tu búsqueda.
           </p>
         )}
       </div>

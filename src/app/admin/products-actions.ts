@@ -252,7 +252,10 @@ export async function uploadProductImages(
     String(fd.get("category") ?? "").replace(/[^a-z0-9-]/gi, "") || "general";
   const sub = String(fd.get("sub") ?? "").replace(/[^a-z0-9-]/gi, "");
   if (!slug) {
-    return { ok: false, message: "Escribe el slug del producto antes de subir imágenes." };
+    return {
+      ok: false,
+      message: "Escribe primero el nombre del producto antes de subir las fotos.",
+    };
   }
   const files = fd
     .getAll("files")

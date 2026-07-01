@@ -4,7 +4,7 @@ import {
   createSupabaseServerClient,
   createSupabaseAdminClient,
 } from "@/lib/supabase/server";
-import { getProductsFromDb } from "@/lib/products-db";
+import { getProductsFromDbFresh } from "@/lib/products-db";
 import { SEED_PRODUCTS, CATEGORY_META } from "@/lib/products";
 import type { ProductCategory } from "@/content/products/types";
 import ProductsAdminList from "../ProductsAdminList";
@@ -25,7 +25,7 @@ export default async function AdminProductsPage() {
     .maybeSingle();
   if (!adminRow) redirect("/admin/login?error=not-admin");
 
-  const db = await getProductsFromDb();
+  const db = await getProductsFromDbFresh();
   const imported = db.length > 0;
   const source = imported ? db : SEED_PRODUCTS;
 

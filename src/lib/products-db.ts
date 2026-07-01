@@ -142,3 +142,19 @@ const fetchFromDb = unstable_cache(
 export const getProductsFromDb = cache(
   async (): Promise<Product[]> => fetchFromDb(),
 );
+
+/**
+ * Lectura EN VIVO, sin caché. Para el panel /admin, que debe reflejar siempre
+ * el estado real de la DB (ZOCAM y otros procesos pueden escribir directo, sin
+ * pasar por revalidateTag). Dedupe por request con React.cache.
+ */
+export const getProductsFromDbFresh = cache(async (): Promise<Product[]> => {
+  try {
+    const supabase = createSupabaseAdminClient();
+    const { data, error } = await supabase.from("products").select("*");
+    if (error || !data) return [];
+    return (data as ProductRow[]).map(rowToProduct);
+  } catch {
+    return [];
+  }
+});

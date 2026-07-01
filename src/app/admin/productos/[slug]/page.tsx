@@ -4,7 +4,7 @@ import {
   createSupabaseServerClient,
   createSupabaseAdminClient,
 } from "@/lib/supabase/server";
-import { getProductsFromDb } from "@/lib/products-db";
+import { getProductsFromDbFresh } from "@/lib/products-db";
 import { SEED_PRODUCTS, CATEGORY_META } from "@/lib/products";
 import type { Product, ProductCategory } from "@/content/products/types";
 import ProductEditor from "../../ProductEditor";
@@ -49,7 +49,7 @@ export default async function AdminProductEditPage({
 
   let product: Product = EMPTY;
   if (!isNew) {
-    const db = await getProductsFromDb();
+    const db = await getProductsFromDbFresh();
     const source = db.length ? db : SEED_PRODUCTS;
     const found = source.find((p) => p.slug === slug);
     if (!found) notFound();

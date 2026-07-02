@@ -32,6 +32,51 @@ const BADGE_COLORS: { label: string; value: string; hex: string }[] = [
 
 const hintCls = "text-[11px] text-slate-400 mt-1 leading-snug";
 
+// Máximo lado de la imagen tras redimensionar (buena calidad, peso bajo).
+const MAX_DIM = 1600;
+
+/**
+ * Comprime y convierte una foto a WebP en el navegador antes de subirla.
+ * Reduce una foto de celular de varios MB a ~100-300 KB, así el sitio queda
+ * liviano (se sirven sin optimizador) y nunca choca con el límite de subida.
+ * Si algo falla (formato no soportado, etc.), devuelve el archivo original.
+ */
+async function compressToWebp(file: File): Promise<File> {
+  if (!file.type.startsWith("image/")) return file;
+  try {
+    const url = URL.createObjectURL(file);
+    const img = await new Promise<HTMLImageElement>((resolve, reject) => {
+      const im = new window.Image();
+      im.onload = () => resolve(im);
+      im.onerror = reject;
+      im.src = url;
+    });
+    URL.revokeObjectURL(url);
+
+    let { width, height } = img;
+    if (width > MAX_DIM || height > MAX_DIM) {
+      const scale = MAX_DIM / Math.max(width, height);
+      width = Math.round(width * scale);
+      height = Math.round(height * scale);
+    }
+    const canvas = document.createElement("canvas");
+    canvas.width = width;
+    canvas.height = height;
+    const ctx = canvas.getContext("2d");
+    if (!ctx) return file;
+    ctx.drawImage(img, 0, 0, width, height);
+
+    const blob = await new Promise<Blob | null>((res) =>
+      canvas.toBlob((b) => res(b), "image/webp", 0.82),
+    );
+    if (!blob) return file;
+    const name = file.name.replace(/\.[^.]+$/, "") + ".webp";
+    return new File([blob], name, { type: "image/webp" });
+  } catch {
+    return file;
+  }
+}
+
 /** Convierte texto libre en slug (igual que el servidor): minúsculas, sin acentos, guiones. */
 function slugify(raw: string): string {
   return raw
@@ -84,7 +129,9 @@ export default function ProductEditor({
     const fd = new FormData();
     fd.set("slug", slug);
     fd.set("category", category);
-    Array.from(files).forEach((f) => fd.append("files", f));
+    // Comprime cada foto a WebP en el navegador antes de subir.
+    const webp = await Promise.all(Array.from(files).map(compressToWebp));
+    webp.forEach((f) => fd.append("files", f));
     try {
       const res = await uploadProductImages(fd);
       if (!res.ok) {
@@ -289,6 +336,7 @@ export default function ProductEditor({
         <p className="text-slate-500 text-sm mb-4">
           La <strong>primera foto</strong> es la que se ve en el catálogo y en la
           galería. Usa las flechas ← → para reordenar y la ✕ para quitar una.
+          Puedes subir fotos de celular tal cual — se optimizan solas.
           {mode === "create" && " Escribe primero el nombre del producto (arriba)."}
         </p>
         <div className="grid grid-cols-3 sm:grid-cols-4 gap-3 mb-4">

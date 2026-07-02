@@ -54,6 +54,13 @@ const imageHeaders = [
 
 const nextConfig: NextConfig = {
   poweredByHeader: false,
+  // Subida de fotos de productos: el límite default de Server Actions es 1MB,
+  // que bloquea fotos normales. Subimos a 25MB (varias fotos de hasta 5MB c/u).
+  experimental: {
+    serverActions: {
+      bodySizeLimit: "25mb",
+    },
+  },
   images: {
     // Las imágenes ya están comprimidas a WebP livianos en Supabase
     // (scripts/compress-images-webp.mjs). Servimos directo sin pasar por el

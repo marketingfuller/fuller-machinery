@@ -85,12 +85,20 @@ export default function ProductEditor({
     fd.set("slug", slug);
     fd.set("category", category);
     Array.from(files).forEach((f) => fd.append("files", f));
-    const res = await uploadProductImages(fd);
-    if (!res.ok) {
-      setUploadError(res.message ?? "Error al subir imágenes.");
+    try {
+      const res = await uploadProductImages(fd);
+      if (!res.ok) {
+        setUploadError(res.message ?? "Error al subir las fotos.");
+        return [];
+      }
+      return res.urls ?? [];
+    } catch {
+      // Nunca dejar el botón colgado en "Subiendo…": muestra el error y sigue.
+      setUploadError(
+        "No se pudieron subir las fotos. Revisa que cada una pese máx. 5 MB (jpg, png o webp) e inténtalo de nuevo.",
+      );
       return [];
     }
-    return res.urls ?? [];
   }
 
   async function onMainFiles(e: React.ChangeEvent<HTMLInputElement>) {

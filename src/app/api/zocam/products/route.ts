@@ -1,7 +1,7 @@
 import { timingSafeEqual } from "node:crypto";
 import { type NextRequest } from "next/server";
 import { getAllProducts } from "@/lib/products";
-import { getAvailabilityMap, resolveAvailable } from "@/lib/availability";
+import { resolveAvailable } from "@/lib/availability";
 import type { Product } from "@/content/products/types";
 
 // Endpoint de sincronización de catálogo para ZOCAM.
@@ -39,7 +39,7 @@ function absoluteImage(src: string): string {
   return `${SITE_URL}${src.startsWith("/") ? "" : "/"}${src}`;
 }
 
-function toZocamProduct(p: Product, overrides: Record<string, boolean>) {
+function toZocamProduct(p: Product) {
   return {
     external_id: p.slug,
     sku: p.sku ?? null,
@@ -53,7 +53,7 @@ function toZocamProduct(p: Product, overrides: Record<string, boolean>) {
     // available sale del panel /admin (Supabase) → seed → stockStatus → true.
     // Fase B: cuando exista control de stock → stock = unidades, available = stock > 0.
     stock: null,
-    available: resolveAvailable(p, overrides),
+    available: resolveAvailable(p),
     category: p.categoryLabel,
     brand: BRAND,
     images: (p.images ?? []).map(absoluteImage),
@@ -78,14 +78,11 @@ export async function GET(request: NextRequest) {
     ? DEFAULT_LIMIT
     : Math.min(Math.max(rawLimit, 1), MAX_LIMIT);
 
-  const [all, overrides] = await Promise.all([
-    getAllProducts(),
-    getAvailabilityMap(),
-  ]);
+  const all = await getAllProducts();
   const total = all.length;
 
   const slice = all.slice(cursor, cursor + limit);
-  const products = slice.map((p) => toZocamProduct(p, overrides));
+  const products = slice.map((p) => toZocamProduct(p));
 
   const nextOffset = cursor + limit;
   const next_cursor = nextOffset < total ? String(nextOffset) : undefined;

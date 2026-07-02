@@ -1,0 +1,428 @@
+[
+  {
+    "nombre": "Batidora 20 Litros Panel Digital",
+    "nuestra_categoria": "panaderia",
+    "precio_cop": 3569000,
+    "_ficha": "Batidora"
+  },
+  {
+    "nombre": "Cortador de Masas 5 Ruedas Ajustable",
+    "nuestra_categoria": "panaderia",
+    "precio_cop": 2968900,
+    "_ficha": "Cortador de Masas"
+  },
+  {
+    "nombre": "Cortador de galletas y masas",
+    "nuestra_categoria": "panaderia",
+    "precio_cop": 59900,
+    "_ficha": "Cortador"
+  },
+  {
+    "nombre": "Batidor Manual en Acero Inoxidable",
+    "nuestra_categoria": "procesamiento",
+    "precio_cop": 22900,
+    "_ficha": "Batidor"
+  },
+  {
+    "nombre": "Cortadora Manual",
+    "nuestra_categoria": "procesamiento",
+    "precio_cop": 29900,
+    "_ficha": "Cortadora"
+  },
+  {
+    "nombre": "Freidora Eléctrica 2 Tanques",
+    "nuestra_categoria": "snacks",
+    "precio_cop": 661900,
+    "_ficha": "Freidora"
+  },
+  {
+    "nombre": "Freidora Eléctrica 2 Tanques 20 Lt",
+    "nuestra_categoria": "snacks",
+    "precio_cop": 1006900,
+    "_ficha": "Freidora"
+  },
+  {
+    "nombre": "Freidora Vertical de Salchichas EGG Roller",
+    "nuestra_categoria": "snacks",
+    "precio_cop": 2236900,
+    "_ficha": "Freidora"
+  },
+  {
+    "nombre": "Crispetera Mini Aceite",
+    "nuestra_categoria": "snacks",
+    "precio_cop": 101900,
+    "_ficha": "Crispetera"
+  },
+  {
+    "nombre": "Crispetera Air Oil Free 810",
+    "nuestra_categoria": "snacks",
+    "precio_cop": 197900,
+    "_ficha": "Freidora de Aire"
+  },
+  {
+    "nombre": "Mini Crispera 8 Onzas Comercial",
+    "nuestra_categoria": "snacks",
+    "precio_cop": 879900,
+    "_ficha": "Crispera"
+  },
+  {
+    "nombre": "Calentadora de Nachos y Queso Cheddar",
+    "nuestra_categoria": "snacks",
+    "precio_cop": 3480900,
+    "_ficha": "Calentadora"
+  },
+  {
+    "nombre": "Calentadora de Alimentos Papas a la Francesa Chips",
+    "nuestra_categoria": "snacks",
+    "precio_cop": 1390900,
+    "_ficha": "Calentadora de Alimentos"
+  },
+  {
+    "nombre": "Malteadora 2 Puestos 1Lt Cada Jarra",
+    "nuestra_categoria": "bebidas",
+    "precio_cop": 806900,
+    "_ficha": "Batidora"
+  },
+  {
+    "nombre": "Máquina Fabricadora de Hielo 30 kg",
+    "nuestra_categoria": "bebidas",
+    "precio_cop": 1175900,
+    "_ficha": "Fabricadora de Hielo"
+  },
+  {
+    "nombre": "Máquina Fabricadora de Hielo 45 kg",
+    "nuestra_categoria": "bebidas",
+    "precio_cop": 2550000,
+    "_ficha": "Fabricadora de Hielo"
+  },
+  {
+    "nombre": "Fabricadora de hielo 120 kg en 24 horas",
+    "nuestra_categoria": "bebidas",
+    "precio_cop": 6464900,
+    "_ficha": "Fabricadora de Hielo"
+  },
+  {
+    "nombre": "Máquina de Hielo Coreano Tipo Nieve",
+    "nuestra_categoria": "bebidas",
+    "precio_cop": 684900,
+    "_ficha": "Máquina de Hielo"
+  },
+  {
+    "nombre": "Vini Peladora Industrial",
+    "nuestra_categoria": "procesamiento",
+    "precio_cop": 33900,
+    "_ficha": "Peladora"
+  },
+  {
+    "nombre": "Máquina Desmechadora de Carne DC 04 Mono",
+    "nuestra_categoria": "carnicos",
+    "precio_cop": 3781900,
+    "_ficha": "Desmechadora de Carne"
+  },
+  {
+    "nombre": "Gramera Digital 10 kg",
+    "nuestra_categoria": "pesaje",
+    "precio_cop": 296900,
+    "_ficha": "Gramera"
+  },
+  {
+    "nombre": "Balanza Báscula para Bebé Digita con Tazón 20 kg JCEBSA",
+    "nuestra_categoria": "pesaje",
+    "precio_cop": null,
+    "_ficha": "Balanza"
+  },
+  {
+    "nombre": "Balanza Báscula para Bebé Digital 20kg",
+    "nuestra_categoria": "pesaje",
+    "precio_cop": 394900,
+    "_ficha": "Balanza"
+  },
+  {
+    "nombre": "Báscula de 50 kg Digital Impresora Liquidadora",
+    "nuestra_categoria": "pesaje",
+    "precio_cop": 399900,
+    "_ficha": "Báscula Digital"
+  },
+  {
+    "nombre": "Báscula de 600 kg Tablero Inalámbrico",
+    "nuestra_categoria": "pesaje",
+    "precio_cop": 467900,
+    "_ficha": "Báscula"
+  },
+  {
+    "nombre": "Embutidora Manual",
+    "nuestra_categoria": "carnicos",
+    "precio_cop": 831900,
+    "_ficha": "Embutidora"
+  },
+  {
+    "nombre": "Cortadora para pan 31",
+    "nuestra_categoria": "panaderia",
+    "precio_cop": 638900,
+    "_ficha": "Cortadora"
+  },
+  {
+    "nombre": "Fuente de Chocolate Mediana",
+    "nuestra_categoria": "snacks",
+    "precio_cop": null,
+    "_ficha": "Fuente de Chocolate"
+  },
+  {
+    "nombre": "Fuente de Chocolate Uso Comercial",
+    "nuestra_categoria": "snacks",
+    "precio_cop": 1498900,
+    "_ficha": "Fuente de Chocolate"
+  },
+  {
+    "nombre": "Fuente de Chocolate con Grifo",
+    "nuestra_categoria": "snacks",
+    "precio_cop": 1616900,
+    "_ficha": "Fuente de Chocolate"
+  },
+  {
+    "nombre": "Fuente de Chocolate Profesional JCET-CF-51Z",
+    "nuestra_categoria": "snacks",
+    "precio_cop": 1819900,
+    "_ficha": "Fuente de Chocolate"
+  },
+  {
+    "nombre": "Termo Conservador",
+    "nuestra_categoria": "buffet",
+    "precio_cop": null,
+    "_ficha": "Termo Conservador"
+  },
+  {
+    "nombre": "Termo BQ 1.5 Litros",
+    "nuestra_categoria": "buffet",
+    "precio_cop": null,
+    "_ficha": "Conservador de Bebidas"
+  },
+  {
+    "nombre": "Termo BQ",
+    "nuestra_categoria": "buffet",
+    "precio_cop": null,
+    "_ficha": "Termo Conservador"
+  },
+  {
+    "nombre": "Termo Conservador de 3 Litros",
+    "nuestra_categoria": "buffet",
+    "precio_cop": null,
+    "_ficha": "Conservador de Bebidas"
+  },
+  {
+    "nombre": "Exprimidor de Naranja Mini Duty",
+    "nuestra_categoria": "bebidas",
+    "precio_cop": null,
+    "_ficha": "Exprimidor"
+  },
+  {
+    "nombre": "Exprimidor de Naranja Duty",
+    "nuestra_categoria": "bebidas",
+    "precio_cop": 905900,
+    "_ficha": "Exprimidor"
+  },
+  {
+    "nombre": "Exprimidor de Naranja Charlotte",
+    "nuestra_categoria": "bebidas",
+    "precio_cop": 1988900,
+    "_ficha": "Exprimidor"
+  },
+  {
+    "nombre": "Exprimidor de Naranja Charlotte",
+    "nuestra_categoria": "bebidas",
+    "precio_cop": 5758900,
+    "_ficha": "Exprimidor"
+  },
+  {
+    "nombre": "Exprimidor de Naranja Carlotta",
+    "nuestra_categoria": "bebidas",
+    "precio_cop": 7142900,
+    "_ficha": "Exprimidor"
+  },
+  {
+    "nombre": "Congelador de Piso 1 Canastilla 155L",
+    "nuestra_categoria": "refrigeracion",
+    "precio_cop": null,
+    "_ficha": "Congelador"
+  },
+  {
+    "nombre": "Congelador Vertical",
+    "nuestra_categoria": "refrigeracion",
+    "precio_cop": 3496900,
+    "_ficha": "Congelador"
+  },
+  {
+    "nombre": "Congelador Vertical",
+    "nuestra_categoria": "refrigeracion",
+    "precio_cop": 7560900,
+    "_ficha": "Congelador"
+  },
+  {
+    "nombre": "Horno Deshidratador",
+    "nuestra_categoria": "panaderia",
+    "precio_cop": 1616900,
+    "_ficha": "Horno"
+  },
+  {
+    "nombre": "Chantillera Profesional Dispensador Crema Chantilly 500 ml",
+    "nuestra_categoria": "bebidas",
+    "precio_cop": 1616900,
+    "_ficha": "Dispensador de Crema"
+  },
+  {
+    "nombre": "Dispensador Crema Chantilly",
+    "nuestra_categoria": "bebidas",
+    "precio_cop": 367900,
+    "_ficha": "Dispensador de Crema"
+  },
+  {
+    "nombre": "Dispensador de Crema Chantilly 1000 ml",
+    "nuestra_categoria": "bebidas",
+    "precio_cop": 167900,
+    "_ficha": "Dispensador de Crema"
+  },
+  {
+    "nombre": "Extractor de Jugos JP2000",
+    "nuestra_categoria": "bebidas",
+    "precio_cop": null,
+    "_ficha": "Extractor de Jugos"
+  },
+  {
+    "nombre": "Sierra Cortadora de Huesos para Alimentos Sin Fin",
+    "nuestra_categoria": "carnicos",
+    "precio_cop": null,
+    "_ficha": "Sierra Cortadora"
+  },
+  {
+    "nombre": "Máquina Capuchinera Italiana Magister 1 Grupo ES40",
+    "nuestra_categoria": "bebidas",
+    "precio_cop": 14541900,
+    "_ficha": "Cafetera Automática"
+  },
+  {
+    "nombre": "Máquina Capuchinera Italiana 1 Grupo Stella Profesional",
+    "nuestra_categoria": "bebidas",
+    "precio_cop": null,
+    "_ficha": "Cafetera"
+  },
+  {
+    "nombre": "Máquina Capuchinera Italiana 1 Grupo ES30",
+    "nuestra_categoria": "bebidas",
+    "precio_cop": null,
+    "_ficha": "Cafetera de Grupo"
+  },
+  {
+    "nombre": "Máquina para Café Mini Espresso con Molino Incorporado",
+    "nuestra_categoria": "bebidas",
+    "precio_cop": 2290000,
+    "_ficha": "Cafetera Espresso"
+  },
+  {
+    "nombre": "Dosificadora de Granulados 500 GR",
+    "nuestra_categoria": "empaque",
+    "precio_cop": null,
+    "_ficha": "Dosificadora"
+  },
+  {
+    "nombre": "Licuadora de Inmersión Industrial 450W",
+    "nuestra_categoria": "bebidas",
+    "precio_cop": null,
+    "_ficha": "Licuadora de Inmersión"
+  },
+  {
+    "nombre": "Licuadora Vitamix 1.4 Lt Drink Machine",
+    "nuestra_categoria": "bebidas",
+    "precio_cop": null,
+    "_ficha": "Licuadora"
+  },
+  {
+    "nombre": "Máquina Crepera 1 Puesto",
+    "nuestra_categoria": "snacks",
+    "precio_cop": null,
+    "_ficha": "Crepera"
+  },
+  {
+    "nombre": "Crepera 2 Puestos a Gas",
+    "nuestra_categoria": "snacks",
+    "precio_cop": 1443900,
+    "_ficha": "Crepera"
+  },
+  {
+    "nombre": "Máquina para hacer donas comercial",
+    "nuestra_categoria": "panaderia",
+    "precio_cop": 995900,
+    "_ficha": "Máquina de Donas"
+  },
+  {
+    "nombre": "Máquina para Hamburguesa Tipo UFO",
+    "nuestra_categoria": "snacks",
+    "precio_cop": 783900,
+    "_ficha": "Freidora/plancha de Cocción"
+  },
+  {
+    "nombre": "Wafleadora Burbuja",
+    "nuestra_categoria": "snacks",
+    "precio_cop": null,
+    "_ficha": "Wafleadora"
+  },
+  {
+    "nombre": "Waflera para Perros de Maíz Corn Dog",
+    "nuestra_categoria": "snacks",
+    "precio_cop": null,
+    "_ficha": "Waflera"
+  },
+  {
+    "nombre": "LAMINADORADEMASAS",
+    "nuestra_categoria": "procesamiento",
+    "precio_cop": null,
+    "_ficha": null
+  },
+  {
+    "nombre": "Escabiladero 15 Latas",
+    "nuestra_categoria": "panaderia",
+    "precio_cop": null,
+    "_ficha": "Escabiladero"
+  },
+  {
+    "nombre": "Horno de Pizza Amplio",
+    "nuestra_categoria": "panaderia",
+    "precio_cop": 698900,
+    "_ficha": "Horno"
+  },
+  {
+    "nombre": "Horno Eléctrico Pizza EP1ST",
+    "nuestra_categoria": "panaderia",
+    "precio_cop": 6812900,
+    "_ficha": "Horno"
+  },
+  {
+    "nombre": "Horno Eléctrico Pizza EP2ST",
+    "nuestra_categoria": "panaderia",
+    "precio_cop": null,
+    "_ficha": "Horno"
+  },
+  {
+    "nombre": "Horno 1 Cabina 1 Lata a Gas Pequeño",
+    "nuestra_categoria": "panaderia",
+    "precio_cop": 9002900,
+    "_ficha": "Horno"
+  },
+  {
+    "nombre": "Horno Industrial de Gas",
+    "nuestra_categoria": "panaderia",
+    "precio_cop": null,
+    "_ficha": "Horno"
+  },
+  {
+    "nombre": "Horno Microondas 25 L",
+    "nuestra_categoria": "panaderia",
+    "precio_cop": null,
+    "_ficha": "Horno Microondas"
+  },
+  {
+    "nombre": "Dispensador de Salsas 1 Tanque 2 Lt",
+    "nuestra_categoria": "mobiliario",
+    "precio_cop": null,
+    "_ficha": "Dispensador de Salsas"
+  }
+]

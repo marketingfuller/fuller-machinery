@@ -6,7 +6,7 @@ import {
 } from "@/lib/supabase/server";
 import { getSettings } from "@/lib/settings";
 import { getAllProducts } from "@/lib/products";
-import { getAvailabilityMap, resolveAvailable } from "@/lib/availability";
+import { resolveAvailable } from "@/lib/availability";
 import WhatsAppForm from "./WhatsAppForm";
 import HeroForm from "./HeroForm";
 import InventoryManager from "./InventoryManager";
@@ -47,15 +47,12 @@ export default async function AdminDashboardPage() {
 
   const settings = await getSettings();
 
-  const [products, availMap] = await Promise.all([
-    getAllProducts(),
-    getAvailabilityMap(),
-  ]);
+  const products = await getAllProducts();
   const inventoryItems = products.map((p) => ({
     slug: p.slug,
     name: p.name,
     categoryLabel: p.categoryLabel,
-    available: resolveAvailable(p, availMap),
+    available: resolveAvailable(p),
   }));
 
   return (

@@ -7,7 +7,7 @@ import {
   createSupabaseAdminClient,
 } from "@/lib/supabase/server";
 import { SETTINGS_TAG } from "@/lib/settings";
-import { AVAILABILITY_TAG } from "@/lib/availability";
+import { PRODUCTS_TAG } from "@/lib/products-db";
 import { assertAdmin } from "./shared";
 
 // Normaliza a "57XXXXXXXXXX" (E.164 sin el +). Acepta "+57 322 853 4925", "3228534925", etc.
@@ -170,22 +170,17 @@ export async function setAvailability(
   slug: string,
   available: boolean,
 ): Promise<FormState> {
-  const { user, admin } = await assertAdmin();
+  const { admin } = await assertAdmin();
   if (typeof slug !== "string" || !slug.trim()) {
     return { ok: false, message: "Producto inválido." };
   }
-  const { error } = await admin.from("product_availability").upsert(
-    {
-      slug: slug.trim(),
-      available: Boolean(available),
-      updated_at: new Date().toISOString(),
-      updated_by: user.id,
-    },
-    { onConflict: "slug" },
-  );
+  const { error } = await admin
+    .from("products")
+    .update({ available: Boolean(available) })
+    .eq("slug", slug.trim());
   if (error) return { ok: false, message: error.message };
 
-  revalidateTag(AVAILABILITY_TAG, "max");
+  revalidateTag(PRODUCTS_TAG, "max");
   return { ok: true };
 }
 

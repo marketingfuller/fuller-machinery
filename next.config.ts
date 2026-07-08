@@ -21,7 +21,7 @@ const ContentSecurityPolicy = [
   "frame-ancestors 'self'",
   // Supabase para auth + datos del CMS (navegación de WhatsApp sigue siendo ok)
   // zocam.app: POST de pings de analítica al endpoint /collect
-  "connect-src 'self' https://awxewohsgzpvnkxffmgj.supabase.co wss://awxewohsgzpvnkxffmgj.supabase.co https://zocam.app",
+  "connect-src 'self' https://ykoxlneiienplstyibct.supabase.co wss://ykoxlneiienplstyibct.supabase.co https://zocam.app",
   "object-src 'none'",
   "base-uri 'self'",
   "form-action 'self'",

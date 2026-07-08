@@ -21,11 +21,11 @@ export const buffetProducts: Product[] = [
       "Para buffet y línea de servicio"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/buffet/bano-maria-electrico-5-azafates-cubierta-vidrio/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/buffet/bano-maria-electrico-5-azafates-cubierta-vidrio/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/buffet/bano-maria-electrico-5-azafates-cubierta-vidrio/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/buffet/bano-maria-electrico-5-azafates-cubierta-vidrio/3.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/buffet/bano-maria-electrico-5-azafates-cubierta-vidrio/4.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/buffet/bano-maria-electrico-5-azafates-cubierta-vidrio/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/buffet/bano-maria-electrico-5-azafates-cubierta-vidrio/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/buffet/bano-maria-electrico-5-azafates-cubierta-vidrio/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/buffet/bano-maria-electrico-5-azafates-cubierta-vidrio/3.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/buffet/bano-maria-electrico-5-azafates-cubierta-vidrio/4.webp"
     ],
     "specs": [
       {
@@ -112,9 +112,9 @@ export const buffetProducts: Product[] = [
     "description": "## Baño maría y samovares para buffet: sirve la comida caliente y presentable en eventos y línea de servicio\n\nMesa refrigerada para recipientes GN 1/4 con control digital. Ideal para ingredientes frescos y servicio rápido.\n\n### ¿Para qué negocios es ideal?\nRestaurantes, casinos, hoteles y catering que mantienen alimentos calientes en línea de servicio o buffet.\n\n### Compra con respaldo Fuller\nEnvío nacional desde Bogotá, garantía Fuller y asesoría experta. Cotiza por WhatsApp y recibe atención personalizada.",
     "highlights": [],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/buffet/mesa-refrigerada-de-recipientes-para-alimentos/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/buffet/mesa-refrigerada-de-recipientes-para-alimentos/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/buffet/mesa-refrigerada-de-recipientes-para-alimentos/2.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/buffet/mesa-refrigerada-de-recipientes-para-alimentos/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/buffet/mesa-refrigerada-de-recipientes-para-alimentos/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/buffet/mesa-refrigerada-de-recipientes-para-alimentos/2.webp"
     ],
     "specs": [],
     "price": 4699900,
@@ -155,11 +155,11 @@ export const buffetProducts: Product[] = [
       "Potencia: 400 W"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/buffet/olla-sopera-electrica-10l-fuller-2/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/buffet/olla-sopera-electrica-10l-fuller-2/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/buffet/olla-sopera-electrica-10l-fuller-2/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/buffet/olla-sopera-electrica-10l-fuller-2/3.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/buffet/olla-sopera-electrica-10l-fuller-2/4.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/buffet/olla-sopera-electrica-10l-fuller-2/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/buffet/olla-sopera-electrica-10l-fuller-2/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/buffet/olla-sopera-electrica-10l-fuller-2/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/buffet/olla-sopera-electrica-10l-fuller-2/3.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/buffet/olla-sopera-electrica-10l-fuller-2/4.webp"
     ],
     "specs": [
       {
@@ -228,7 +228,7 @@ export const buffetProducts: Product[] = [
     "description": "## Baño maría y samovares para buffet: sirve la comida caliente y presentable en eventos y línea de servicio\n\nBandeja redonda de 40 cm en acero inoxidable con superficie antideslizante. Perfecta para servir con seguridad en restaurantes, eventos y servicios de catering.\n\n### ¿Para qué negocios es ideal?\nRestaurantes, casinos, hoteles y catering que mantienen alimentos calientes en línea de servicio o buffet.\n\n### Compra con respaldo Fuller\nEnvío nacional desde Bogotá, garantía Fuller y asesoría experta. Cotiza por WhatsApp y recibe atención personalizada.",
     "highlights": [],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/buffet/bandeja-redonda-antideslizante-40cm-acero-inoxidable/0.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/buffet/bandeja-redonda-antideslizante-40cm-acero-inoxidable/0.webp"
     ],
     "specs": [],
     "price": 93900,
@@ -264,7 +264,7 @@ export const buffetProducts: Product[] = [
     "description": "## Baño maría y samovares para buffet: sirve la comida caliente y presentable en eventos y línea de servicio\n\nBandeja redonda de acero inoxidable con diámetro de 30 cm y base antideslizante. Ideal para servir con estilo y seguridad en restaurantes, negocios de alimentos o uso doméstico.\n\n### ¿Para qué negocios es ideal?\nRestaurantes, casinos, hoteles y catering que mantienen alimentos calientes en línea de servicio o buffet.\n\n### Compra con respaldo Fuller\nEnvío nacional desde Bogotá, garantía Fuller y asesoría experta. Cotiza por WhatsApp y recibe atención personalizada.",
     "highlights": [],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/buffet/tazon-acero-inoxidable-30cm-antideslizante/0.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/buffet/tazon-acero-inoxidable-30cm-antideslizante/0.webp"
     ],
     "specs": [],
     "price": 55900,
@@ -305,11 +305,11 @@ export const buffetProducts: Product[] = [
       "Peso: 14 kg"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/buffet/bano-maria-electrico-4-azafates-cubierta-vidrio/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/buffet/bano-maria-electrico-4-azafates-cubierta-vidrio/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/buffet/bano-maria-electrico-4-azafates-cubierta-vidrio/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/buffet/bano-maria-electrico-4-azafates-cubierta-vidrio/3.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/buffet/bano-maria-electrico-4-azafates-cubierta-vidrio/4.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/buffet/bano-maria-electrico-4-azafates-cubierta-vidrio/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/buffet/bano-maria-electrico-4-azafates-cubierta-vidrio/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/buffet/bano-maria-electrico-4-azafates-cubierta-vidrio/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/buffet/bano-maria-electrico-4-azafates-cubierta-vidrio/3.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/buffet/bano-maria-electrico-4-azafates-cubierta-vidrio/4.webp"
     ],
     "specs": [
       {
@@ -391,11 +391,11 @@ export const buffetProducts: Product[] = [
       "Peso: 12 kg"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/buffet/bano-maria-electrico-3-azafates-vidrio-templado-17l/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/buffet/bano-maria-electrico-3-azafates-vidrio-templado-17l/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/buffet/bano-maria-electrico-3-azafates-vidrio-templado-17l/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/buffet/bano-maria-electrico-3-azafates-vidrio-templado-17l/3.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/buffet/bano-maria-electrico-3-azafates-vidrio-templado-17l/4.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/buffet/bano-maria-electrico-3-azafates-vidrio-templado-17l/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/buffet/bano-maria-electrico-3-azafates-vidrio-templado-17l/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/buffet/bano-maria-electrico-3-azafates-vidrio-templado-17l/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/buffet/bano-maria-electrico-3-azafates-vidrio-templado-17l/3.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/buffet/bano-maria-electrico-3-azafates-vidrio-templado-17l/4.webp"
     ],
     "specs": [
       {
@@ -474,12 +474,12 @@ export const buffetProducts: Product[] = [
       "Material: Acero inox"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/buffet/samovar-buffet-base-mecheros-para-combustible-ref-371/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/buffet/samovar-buffet-base-mecheros-para-combustible-ref-371/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/buffet/samovar-buffet-base-mecheros-para-combustible-ref-371/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/buffet/samovar-buffet-base-mecheros-para-combustible-ref-371/3.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/buffet/samovar-buffet-base-mecheros-para-combustible-ref-371/4.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/buffet/samovar-buffet-base-mecheros-para-combustible-ref-371/5.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/buffet/samovar-buffet-base-mecheros-para-combustible-ref-371/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/buffet/samovar-buffet-base-mecheros-para-combustible-ref-371/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/buffet/samovar-buffet-base-mecheros-para-combustible-ref-371/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/buffet/samovar-buffet-base-mecheros-para-combustible-ref-371/3.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/buffet/samovar-buffet-base-mecheros-para-combustible-ref-371/4.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/buffet/samovar-buffet-base-mecheros-para-combustible-ref-371/5.webp"
     ],
     "specs": [
       {
@@ -522,12 +522,12 @@ export const buffetProducts: Product[] = [
       "Material: Acero inox"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/buffet/samovar-buffet-base-ref-351/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/buffet/samovar-buffet-base-ref-351/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/buffet/samovar-buffet-base-ref-351/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/buffet/samovar-buffet-base-ref-351/3.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/buffet/samovar-buffet-base-ref-351/4.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/buffet/samovar-buffet-base-ref-351/5.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/buffet/samovar-buffet-base-ref-351/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/buffet/samovar-buffet-base-ref-351/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/buffet/samovar-buffet-base-ref-351/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/buffet/samovar-buffet-base-ref-351/3.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/buffet/samovar-buffet-base-ref-351/4.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/buffet/samovar-buffet-base-ref-351/5.webp"
     ],
     "specs": [
       {
@@ -573,11 +573,11 @@ export const buffetProducts: Product[] = [
       "Alimentación: 110 V"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/buffet/calentadora-de-salsa-2-puestos/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/buffet/calentadora-de-salsa-2-puestos/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/buffet/calentadora-de-salsa-2-puestos/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/buffet/calentadora-de-salsa-2-puestos/3.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/buffet/calentadora-de-salsa-2-puestos/4.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/buffet/calentadora-de-salsa-2-puestos/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/buffet/calentadora-de-salsa-2-puestos/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/buffet/calentadora-de-salsa-2-puestos/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/buffet/calentadora-de-salsa-2-puestos/3.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/buffet/calentadora-de-salsa-2-puestos/4.webp"
     ],
     "specs": [
       {

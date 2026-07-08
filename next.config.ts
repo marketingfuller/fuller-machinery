@@ -14,7 +14,7 @@ const ContentSecurityPolicy = [
   "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
   "font-src 'self' data: https://fonts.gstatic.com",
   // Imágenes: propias + data/blob + tienda.fullermachinery.com + Unsplash (2 refs pendientes de reemplazar)
-  "img-src 'self' data: blob: https://images.unsplash.com https://tienda.fullermachinery.com https://awxewohsgzpvnkxffmgj.supabase.co",
+  "img-src 'self' data: blob: https://images.unsplash.com https://tienda.fullermachinery.com https://ykoxlneiienplstyibct.supabase.co https://awxewohsgzpvnkxffmgj.supabase.co",
   // Iframes permitidos: Google Maps (/nosotros) + TikTok embed (/negocios/bebidas)
   "frame-src https://www.google.com https://maps.google.com https://www.tiktok.com",
   // Impedir que el sitio sea incrustado en iframes de terceros (anti-clickjacking)
@@ -71,6 +71,11 @@ const nextConfig: NextConfig = {
       {
         protocol: "https",
         hostname: "images.unsplash.com",
+      },
+      {
+        protocol: "https",
+        hostname: "ykoxlneiienplstyibct.supabase.co",
+        pathname: "/storage/v1/object/public/**",
       },
       {
         protocol: "https",

@@ -21,9 +21,9 @@ export const procesamientoProducts: Product[] = [
       "Acero inoxidable, fácil de limpiar"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/procesamiento/peladora-de-papas-industrial10-litros-modelo-jcet-x10c/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/procesamiento/peladora-de-papas-industrial10-litros-modelo-jcet-x10c/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/procesamiento/peladora-de-papas-industrial10-litros-modelo-jcet-x10c/2.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/procesamiento/peladora-de-papas-industrial10-litros-modelo-jcet-x10c/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/procesamiento/peladora-de-papas-industrial10-litros-modelo-jcet-x10c/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/procesamiento/peladora-de-papas-industrial10-litros-modelo-jcet-x10c/2.webp"
     ],
     "specs": [],
     "badge": {
@@ -72,10 +72,10 @@ export const procesamientoProducts: Product[] = [
       "Material: Acero Inoxidable"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/procesamiento/procesador-alimentos-industrial-cutter-750w-fuller/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/procesamiento/procesador-alimentos-industrial-cutter-750w-fuller/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/procesamiento/procesador-alimentos-industrial-cutter-750w-fuller/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/procesamiento/procesador-alimentos-industrial-cutter-750w-fuller/3.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/procesamiento/procesador-alimentos-industrial-cutter-750w-fuller/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/procesamiento/procesador-alimentos-industrial-cutter-750w-fuller/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/procesamiento/procesador-alimentos-industrial-cutter-750w-fuller/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/procesamiento/procesador-alimentos-industrial-cutter-750w-fuller/3.webp"
     ],
     "specs": [
       {
@@ -141,11 +141,11 @@ export const procesamientoProducts: Product[] = [
       "Peso: 4 kilos"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/procesamiento/tostadora-electrica-6-rebanadas-uso-comercial/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/procesamiento/tostadora-electrica-6-rebanadas-uso-comercial/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/procesamiento/tostadora-electrica-6-rebanadas-uso-comercial/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/procesamiento/tostadora-electrica-6-rebanadas-uso-comercial/3.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/procesamiento/tostadora-electrica-6-rebanadas-uso-comercial/4.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/procesamiento/tostadora-electrica-6-rebanadas-uso-comercial/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/procesamiento/tostadora-electrica-6-rebanadas-uso-comercial/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/procesamiento/tostadora-electrica-6-rebanadas-uso-comercial/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/procesamiento/tostadora-electrica-6-rebanadas-uso-comercial/3.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/procesamiento/tostadora-electrica-6-rebanadas-uso-comercial/4.webp"
     ],
     "specs": [
       {
@@ -190,10 +190,10 @@ export const procesamientoProducts: Product[] = [
       "Medidas: 31x27x22"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/procesamiento/tostadora-electrica-4-rebanadas-uso-comercial/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/procesamiento/tostadora-electrica-4-rebanadas-uso-comercial/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/procesamiento/tostadora-electrica-4-rebanadas-uso-comercial/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/procesamiento/tostadora-electrica-4-rebanadas-uso-comercial/3.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/procesamiento/tostadora-electrica-4-rebanadas-uso-comercial/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/procesamiento/tostadora-electrica-4-rebanadas-uso-comercial/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/procesamiento/tostadora-electrica-4-rebanadas-uso-comercial/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/procesamiento/tostadora-electrica-4-rebanadas-uso-comercial/3.webp"
     ],
     "specs": [
       {
@@ -240,12 +240,12 @@ export const procesamientoProducts: Product[] = [
       "Alimentación: 110 V"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/procesamiento/laminadora-de-masas/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/procesamiento/laminadora-de-masas/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/procesamiento/laminadora-de-masas/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/procesamiento/laminadora-de-masas/3.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/procesamiento/laminadora-de-masas/4.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/procesamiento/laminadora-de-masas/5.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/procesamiento/laminadora-de-masas/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/procesamiento/laminadora-de-masas/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/procesamiento/laminadora-de-masas/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/procesamiento/laminadora-de-masas/3.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/procesamiento/laminadora-de-masas/4.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/procesamiento/laminadora-de-masas/5.webp"
     ],
     "specs": [
       {
@@ -313,12 +313,12 @@ export const procesamientoProducts: Product[] = [
       "Alimentación: 110 V"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/procesamiento/maquina-para-hacer-pasta-manual/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/procesamiento/maquina-para-hacer-pasta-manual/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/procesamiento/maquina-para-hacer-pasta-manual/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/procesamiento/maquina-para-hacer-pasta-manual/3.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/procesamiento/maquina-para-hacer-pasta-manual/4.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/procesamiento/maquina-para-hacer-pasta-manual/5.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/procesamiento/maquina-para-hacer-pasta-manual/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/procesamiento/maquina-para-hacer-pasta-manual/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/procesamiento/maquina-para-hacer-pasta-manual/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/procesamiento/maquina-para-hacer-pasta-manual/3.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/procesamiento/maquina-para-hacer-pasta-manual/4.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/procesamiento/maquina-para-hacer-pasta-manual/5.webp"
     ],
     "specs": [
       {
@@ -386,10 +386,10 @@ export const procesamientoProducts: Product[] = [
       "Garantía: 6 Meses"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/procesamiento/olla-a-presion-51-lt/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/procesamiento/olla-a-presion-51-lt/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/procesamiento/olla-a-presion-51-lt/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/procesamiento/olla-a-presion-51-lt/3.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/procesamiento/olla-a-presion-51-lt/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/procesamiento/olla-a-presion-51-lt/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/procesamiento/olla-a-presion-51-lt/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/procesamiento/olla-a-presion-51-lt/3.webp"
     ],
     "specs": [
       {
@@ -449,11 +449,11 @@ export const procesamientoProducts: Product[] = [
       "Alimentación: 110 V"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/procesamiento/procesador-de-vegetales-5-discos/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/procesamiento/procesador-de-vegetales-5-discos/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/procesamiento/procesador-de-vegetales-5-discos/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/procesamiento/procesador-de-vegetales-5-discos/3.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/procesamiento/procesador-de-vegetales-5-discos/4.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/procesamiento/procesador-de-vegetales-5-discos/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/procesamiento/procesador-de-vegetales-5-discos/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/procesamiento/procesador-de-vegetales-5-discos/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/procesamiento/procesador-de-vegetales-5-discos/3.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/procesamiento/procesador-de-vegetales-5-discos/4.webp"
     ],
     "specs": [
       {
@@ -521,8 +521,8 @@ export const procesamientoProducts: Product[] = [
       "Alimentación: 110 V"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/procesamiento/cortador-de-papa-en-espiral/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/procesamiento/cortador-de-papa-en-espiral/1.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/procesamiento/cortador-de-papa-en-espiral/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/procesamiento/cortador-de-papa-en-espiral/1.webp"
     ],
     "specs": [
       {
@@ -590,10 +590,10 @@ export const procesamientoProducts: Product[] = [
       "Potencia: 150 W"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/procesamiento/rebanadora-tomate-comercial-corte-3-16/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/procesamiento/rebanadora-tomate-comercial-corte-3-16/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/procesamiento/rebanadora-tomate-comercial-corte-3-16/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/procesamiento/rebanadora-tomate-comercial-corte-3-16/3.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/procesamiento/rebanadora-tomate-comercial-corte-3-16/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/procesamiento/rebanadora-tomate-comercial-corte-3-16/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/procesamiento/rebanadora-tomate-comercial-corte-3-16/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/procesamiento/rebanadora-tomate-comercial-corte-3-16/3.webp"
     ],
     "specs": [
       {
@@ -656,8 +656,8 @@ export const procesamientoProducts: Product[] = [
     "description": "## Peladoras, tajadoras y laminadoras industriales: procesa papa, pan y masa en minutos y ahorra mano de obra\n\nRallador industrial G.Paniz RQ15 con producción de hasta 30 kg/h. Ideal para queso, pan y legumbres.\n\n### ¿Para qué negocios es ideal?\nRestaurantes, comidas rápidas y obradores que pelan, cortan, rallan y procesan grandes volúmenes de alimento.\n\n### Compra con respaldo Fuller\nEnvío nacional desde Bogotá, garantía Fuller y asesoría experta. Cotiza por WhatsApp y recibe atención personalizada.",
     "highlights": [],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/procesamiento/rallador-de-queso/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/procesamiento/rallador-de-queso/1.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/procesamiento/rallador-de-queso/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/procesamiento/rallador-de-queso/1.webp"
     ],
     "specs": [],
     "price": 3781900,
@@ -700,9 +700,9 @@ export const procesamientoProducts: Product[] = [
       "Potencia: 150 W"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/procesamiento/tajadora-de-jamon/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/procesamiento/tajadora-de-jamon/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/procesamiento/tajadora-de-jamon/2.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/procesamiento/tajadora-de-jamon/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/procesamiento/tajadora-de-jamon/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/procesamiento/tajadora-de-jamon/2.webp"
     ],
     "specs": [
       {

@@ -21,10 +21,10 @@ export const refrigeracionProducts: Product[] = [
       "Ideal para tiendas y restaurantes"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/refrigeracion/reefrigerador-vertical-doble-puerta-de-vidrio-630-l-jclg-882m2w/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/refrigeracion/reefrigerador-vertical-doble-puerta-de-vidrio-630-l-jclg-882m2w/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/refrigeracion/reefrigerador-vertical-doble-puerta-de-vidrio-630-l-jclg-882m2w/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/refrigeracion/reefrigerador-vertical-doble-puerta-de-vidrio-630-l-jclg-882m2w/3.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/refrigeracion/reefrigerador-vertical-doble-puerta-de-vidrio-630-l-jclg-882m2w/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/refrigeracion/reefrigerador-vertical-doble-puerta-de-vidrio-630-l-jclg-882m2w/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/refrigeracion/reefrigerador-vertical-doble-puerta-de-vidrio-630-l-jclg-882m2w/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/refrigeracion/reefrigerador-vertical-doble-puerta-de-vidrio-630-l-jclg-882m2w/3.webp"
     ],
     "specs": [],
     "badge": {
@@ -60,10 +60,10 @@ export const refrigeracionProducts: Product[] = [
       "Capacidad: 310 litros"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/refrigeracion/congelador-horizontal-tipo-isla-exhibidor-de-carnes-310-litros-110v/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/refrigeracion/congelador-horizontal-tipo-isla-exhibidor-de-carnes-310-litros-110v/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/refrigeracion/congelador-horizontal-tipo-isla-exhibidor-de-carnes-310-litros-110v/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/refrigeracion/congelador-horizontal-tipo-isla-exhibidor-de-carnes-310-litros-110v/3.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/refrigeracion/congelador-horizontal-tipo-isla-exhibidor-de-carnes-310-litros-110v/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/refrigeracion/congelador-horizontal-tipo-isla-exhibidor-de-carnes-310-litros-110v/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/refrigeracion/congelador-horizontal-tipo-isla-exhibidor-de-carnes-310-litros-110v/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/refrigeracion/congelador-horizontal-tipo-isla-exhibidor-de-carnes-310-litros-110v/3.webp"
     ],
     "specs": [
       {
@@ -119,10 +119,10 @@ export const refrigeracionProducts: Product[] = [
       "Garantia: 12 meses"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/refrigeracion/vitrina-refrigerada-multideck-abierta-fan-cooling-296-l/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/refrigeracion/vitrina-refrigerada-multideck-abierta-fan-cooling-296-l/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/refrigeracion/vitrina-refrigerada-multideck-abierta-fan-cooling-296-l/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/refrigeracion/vitrina-refrigerada-multideck-abierta-fan-cooling-296-l/3.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/refrigeracion/vitrina-refrigerada-multideck-abierta-fan-cooling-296-l/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/refrigeracion/vitrina-refrigerada-multideck-abierta-fan-cooling-296-l/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/refrigeracion/vitrina-refrigerada-multideck-abierta-fan-cooling-296-l/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/refrigeracion/vitrina-refrigerada-multideck-abierta-fan-cooling-296-l/3.webp"
     ],
     "specs": [
       {
@@ -177,10 +177,10 @@ export const refrigeracionProducts: Product[] = [
     "description": "## Congeladores y vitrinas refrigeradas comerciales: conserva carne, helados y bebidas sin perder producto\n\nVitrina vertical de 426L con iluminación LED, puerta de doble vidrio y temperatura de 2°C a 8°C. Ideal para exhibición eficiente y conservación de productos.\n\n### ¿Para qué negocios es ideal?\nTiendas, restaurantes, carnicerías y supermercados que conservan y exhiben productos refrigerados o congelados.\n\n### Compra con respaldo Fuller\nEnvío nacional desde Bogotá, garantía Fuller y asesoría experta. Cotiza por WhatsApp y recibe atención personalizada.",
     "highlights": [],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/refrigeracion/vitrina-vertical-de-enfriamiento-comercial-426litros/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/refrigeracion/vitrina-vertical-de-enfriamiento-comercial-426litros/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/refrigeracion/vitrina-vertical-de-enfriamiento-comercial-426litros/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/refrigeracion/vitrina-vertical-de-enfriamiento-comercial-426litros/3.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/refrigeracion/vitrina-vertical-de-enfriamiento-comercial-426litros/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/refrigeracion/vitrina-vertical-de-enfriamiento-comercial-426litros/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/refrigeracion/vitrina-vertical-de-enfriamiento-comercial-426litros/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/refrigeracion/vitrina-vertical-de-enfriamiento-comercial-426litros/3.webp"
     ],
     "specs": [],
     "price": 3980900,
@@ -221,11 +221,11 @@ export const refrigeracionProducts: Product[] = [
       "Voltaje: 110Vol"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/refrigeracion/vitrina-vertical-de-enfriamiento-comercial-228lt/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/refrigeracion/vitrina-vertical-de-enfriamiento-comercial-228lt/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/refrigeracion/vitrina-vertical-de-enfriamiento-comercial-228lt/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/refrigeracion/vitrina-vertical-de-enfriamiento-comercial-228lt/3.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/refrigeracion/vitrina-vertical-de-enfriamiento-comercial-228lt/4.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/refrigeracion/vitrina-vertical-de-enfriamiento-comercial-228lt/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/refrigeracion/vitrina-vertical-de-enfriamiento-comercial-228lt/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/refrigeracion/vitrina-vertical-de-enfriamiento-comercial-228lt/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/refrigeracion/vitrina-vertical-de-enfriamiento-comercial-228lt/3.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/refrigeracion/vitrina-vertical-de-enfriamiento-comercial-228lt/4.webp"
     ],
     "specs": [
       {
@@ -277,13 +277,13 @@ export const refrigeracionProducts: Product[] = [
       "Dimensiones de puerta (abierta): 44 cm"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/refrigeracion/refrigerador-botellero-mini-bar-2-puertas-191l/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/refrigeracion/refrigerador-botellero-mini-bar-2-puertas-191l/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/refrigeracion/refrigerador-botellero-mini-bar-2-puertas-191l/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/refrigeracion/refrigerador-botellero-mini-bar-2-puertas-191l/3.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/refrigeracion/refrigerador-botellero-mini-bar-2-puertas-191l/4.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/refrigeracion/refrigerador-botellero-mini-bar-2-puertas-191l/5.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/refrigeracion/refrigerador-botellero-mini-bar-2-puertas-191l/6.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/refrigeracion/refrigerador-botellero-mini-bar-2-puertas-191l/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/refrigeracion/refrigerador-botellero-mini-bar-2-puertas-191l/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/refrigeracion/refrigerador-botellero-mini-bar-2-puertas-191l/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/refrigeracion/refrigerador-botellero-mini-bar-2-puertas-191l/3.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/refrigeracion/refrigerador-botellero-mini-bar-2-puertas-191l/4.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/refrigeracion/refrigerador-botellero-mini-bar-2-puertas-191l/5.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/refrigeracion/refrigerador-botellero-mini-bar-2-puertas-191l/6.webp"
     ],
     "specs": [
       {
@@ -383,11 +383,11 @@ export const refrigeracionProducts: Product[] = [
       "Voltaje: 110V"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/refrigeracion/congelador-vertical-460-litros-no-frost/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/refrigeracion/congelador-vertical-460-litros-no-frost/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/refrigeracion/congelador-vertical-460-litros-no-frost/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/refrigeracion/congelador-vertical-460-litros-no-frost/3.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/refrigeracion/congelador-vertical-460-litros-no-frost/4.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/refrigeracion/congelador-vertical-460-litros-no-frost/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/refrigeracion/congelador-vertical-460-litros-no-frost/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/refrigeracion/congelador-vertical-460-litros-no-frost/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/refrigeracion/congelador-vertical-460-litros-no-frost/3.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/refrigeracion/congelador-vertical-460-litros-no-frost/4.webp"
     ],
     "specs": [
       {
@@ -471,10 +471,10 @@ export const refrigeracionProducts: Product[] = [
       "Capacidad en litros: 538"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/refrigeracion/congelador-de-piso-5-canastillas-538lt/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/refrigeracion/congelador-de-piso-5-canastillas-538lt/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/refrigeracion/congelador-de-piso-5-canastillas-538lt/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/refrigeracion/congelador-de-piso-5-canastillas-538lt/3.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/refrigeracion/congelador-de-piso-5-canastillas-538lt/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/refrigeracion/congelador-de-piso-5-canastillas-538lt/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/refrigeracion/congelador-de-piso-5-canastillas-538lt/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/refrigeracion/congelador-de-piso-5-canastillas-538lt/3.webp"
     ],
     "specs": [
       {

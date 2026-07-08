@@ -22,12 +22,12 @@ export const bebidasProducts: Product[] = [
       "Apta para bebidas con y sin alcohol"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/granizadora-3-tanques-12-litros/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/granizadora-3-tanques-12-litros/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/granizadora-3-tanques-12-litros/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/granizadora-3-tanques-12-litros/3.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/granizadora-3-tanques-12-litros/4.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/granizadora-3-tanques-12-litros/5.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/granizadora-3-tanques-12-litros/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/granizadora-3-tanques-12-litros/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/granizadora-3-tanques-12-litros/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/granizadora-3-tanques-12-litros/3.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/granizadora-3-tanques-12-litros/4.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/granizadora-3-tanques-12-litros/5.webp"
     ],
     "specs": [
       {
@@ -89,12 +89,12 @@ export const bebidasProducts: Product[] = [
       "Acero inoxidable, fácil de limpiar"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/granizadora-2-tanques-12-litros/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/granizadora-2-tanques-12-litros/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/granizadora-2-tanques-12-litros/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/granizadora-2-tanques-12-litros/3.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/granizadora-2-tanques-12-litros/4.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/granizadora-2-tanques-12-litros/5.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/granizadora-2-tanques-12-litros/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/granizadora-2-tanques-12-litros/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/granizadora-2-tanques-12-litros/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/granizadora-2-tanques-12-litros/3.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/granizadora-2-tanques-12-litros/4.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/granizadora-2-tanques-12-litros/5.webp"
     ],
     "specs": [
       {
@@ -154,13 +154,13 @@ export const bebidasProducts: Product[] = [
       "Ideal para emprender"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/granizadora-1-tanque-12-litros/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/granizadora-1-tanque-12-litros/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/granizadora-1-tanque-12-litros/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/granizadora-1-tanque-12-litros/3.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/granizadora-1-tanque-12-litros/4.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/granizadora-1-tanque-12-litros/5.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/granizadora-1-tanque-12-litros/6.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/granizadora-1-tanque-12-litros/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/granizadora-1-tanque-12-litros/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/granizadora-1-tanque-12-litros/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/granizadora-1-tanque-12-litros/3.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/granizadora-1-tanque-12-litros/4.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/granizadora-1-tanque-12-litros/5.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/granizadora-1-tanque-12-litros/6.webp"
     ],
     "specs": [
       {
@@ -221,10 +221,10 @@ export const bebidasProducts: Product[] = [
       "Incluye bastón para mezclas · Garantía 6 meses"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/licuadora-industrial-2-7-litros-aislador-ruido/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/licuadora-industrial-2-7-litros-aislador-ruido/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/licuadora-industrial-2-7-litros-aislador-ruido/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/licuadora-industrial-2-7-litros-aislador-ruido/3.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/licuadora-industrial-2-7-litros-aislador-ruido/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/licuadora-industrial-2-7-litros-aislador-ruido/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/licuadora-industrial-2-7-litros-aislador-ruido/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/licuadora-industrial-2-7-litros-aislador-ruido/3.webp"
     ],
     "specs": [
       {
@@ -298,11 +298,11 @@ export const bebidasProducts: Product[] = [
       "Texturas perfectas en segundos"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/licuadora-vitamix-1-4-litros/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/licuadora-vitamix-1-4-litros/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/licuadora-vitamix-1-4-litros/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/licuadora-vitamix-1-4-litros/3.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/licuadora-vitamix-1-4-litros/4.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/licuadora-vitamix-1-4-litros/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/licuadora-vitamix-1-4-litros/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/licuadora-vitamix-1-4-litros/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/licuadora-vitamix-1-4-litros/3.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/licuadora-vitamix-1-4-litros/4.webp"
     ],
     "specs": [
       {
@@ -374,12 +374,12 @@ export const bebidasProducts: Product[] = [
       "Grupo termosifónico de erogación continua"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/capuchinera-magister-stella/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/capuchinera-magister-stella/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/capuchinera-magister-stella/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/capuchinera-magister-stella/3.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/capuchinera-magister-stella/4.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/capuchinera-magister-stella/5.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/capuchinera-magister-stella/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/capuchinera-magister-stella/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/capuchinera-magister-stella/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/capuchinera-magister-stella/3.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/capuchinera-magister-stella/4.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/capuchinera-magister-stella/5.webp"
     ],
     "specs": [
       {
@@ -437,11 +437,11 @@ export const bebidasProducts: Product[] = [
       "Estructura robusta · 240W · 110V"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/selladora-vasos-automatica-digital-fuller/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/selladora-vasos-automatica-digital-fuller/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/selladora-vasos-automatica-digital-fuller/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/selladora-vasos-automatica-digital-fuller/3.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/selladora-vasos-automatica-digital-fuller/4.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/selladora-vasos-automatica-digital-fuller/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/selladora-vasos-automatica-digital-fuller/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/selladora-vasos-automatica-digital-fuller/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/selladora-vasos-automatica-digital-fuller/3.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/selladora-vasos-automatica-digital-fuller/4.webp"
     ],
     "specs": [
       {
@@ -519,10 +519,10 @@ export const bebidasProducts: Product[] = [
       "Jugo fresco a la vista del cliente"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/exprimidor-naranjas-mesa-acero-inoxidable/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/exprimidor-naranjas-mesa-acero-inoxidable/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/exprimidor-naranjas-mesa-acero-inoxidable/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/exprimidor-naranjas-mesa-acero-inoxidable/3.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/exprimidor-naranjas-mesa-acero-inoxidable/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/exprimidor-naranjas-mesa-acero-inoxidable/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/exprimidor-naranjas-mesa-acero-inoxidable/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/exprimidor-naranjas-mesa-acero-inoxidable/3.webp"
     ],
     "specs": [
       {
@@ -593,11 +593,11 @@ export const bebidasProducts: Product[] = [
       "Exhibe el producto y atrae la compra"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/dispensador-bebidas-3-tanques-electrico-control-temperatura/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/dispensador-bebidas-3-tanques-electrico-control-temperatura/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/dispensador-bebidas-3-tanques-electrico-control-temperatura/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/dispensador-bebidas-3-tanques-electrico-control-temperatura/3.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/dispensador-bebidas-3-tanques-electrico-control-temperatura/4.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/dispensador-bebidas-3-tanques-electrico-control-temperatura/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/dispensador-bebidas-3-tanques-electrico-control-temperatura/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/dispensador-bebidas-3-tanques-electrico-control-temperatura/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/dispensador-bebidas-3-tanques-electrico-control-temperatura/3.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/dispensador-bebidas-3-tanques-electrico-control-temperatura/4.webp"
     ],
     "specs": [
       {
@@ -670,11 +670,11 @@ export const bebidasProducts: Product[] = [
       "Malteadas, frappés y mezclas cremosas"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/malteadora-2-puestos/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/malteadora-2-puestos/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/malteadora-2-puestos/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/malteadora-2-puestos/3.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/malteadora-2-puestos/4.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/malteadora-2-puestos/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/malteadora-2-puestos/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/malteadora-2-puestos/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/malteadora-2-puestos/3.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/malteadora-2-puestos/4.webp"
     ],
     "specs": [
       {
@@ -745,11 +745,11 @@ export const bebidasProducts: Product[] = [
       "Uso comercial continuo"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/trituradora-de-hielo-con-bodega/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/trituradora-de-hielo-con-bodega/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/trituradora-de-hielo-con-bodega/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/trituradora-de-hielo-con-bodega/3.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/trituradora-de-hielo-con-bodega/4.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/trituradora-de-hielo-con-bodega/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/trituradora-de-hielo-con-bodega/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/trituradora-de-hielo-con-bodega/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/trituradora-de-hielo-con-bodega/3.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/trituradora-de-hielo-con-bodega/4.webp"
     ],
     "specs": [
       {
@@ -808,11 +808,11 @@ export const bebidasProducts: Product[] = [
       "Construcción comercial resistente"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/fabricadora-de-hielo-en-cubo-90kg/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/fabricadora-de-hielo-en-cubo-90kg/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/fabricadora-de-hielo-en-cubo-90kg/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/fabricadora-de-hielo-en-cubo-90kg/3.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/fabricadora-de-hielo-en-cubo-90kg/4.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/fabricadora-de-hielo-en-cubo-90kg/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/fabricadora-de-hielo-en-cubo-90kg/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/fabricadora-de-hielo-en-cubo-90kg/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/fabricadora-de-hielo-en-cubo-90kg/3.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/fabricadora-de-hielo-en-cubo-90kg/4.webp"
     ],
     "specs": [
       {
@@ -868,11 +868,11 @@ export const bebidasProducts: Product[] = [
       "Esencial en toda cafetería"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/molino-para-cafe-1-kg/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/molino-para-cafe-1-kg/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/molino-para-cafe-1-kg/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/molino-para-cafe-1-kg/3.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/molino-para-cafe-1-kg/4.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/molino-para-cafe-1-kg/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/molino-para-cafe-1-kg/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/molino-para-cafe-1-kg/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/molino-para-cafe-1-kg/3.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/molino-para-cafe-1-kg/4.webp"
     ],
     "specs": [
       {
@@ -940,11 +940,11 @@ export const bebidasProducts: Product[] = [
       "Consistencia en cada taza"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/maquina-de-cafe-primax-12-bebidas/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/maquina-de-cafe-primax-12-bebidas/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/maquina-de-cafe-primax-12-bebidas/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/maquina-de-cafe-primax-12-bebidas/3.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/maquina-de-cafe-primax-12-bebidas/4.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/maquina-de-cafe-primax-12-bebidas/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/maquina-de-cafe-primax-12-bebidas/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/maquina-de-cafe-primax-12-bebidas/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/maquina-de-cafe-primax-12-bebidas/3.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/maquina-de-cafe-primax-12-bebidas/4.webp"
     ],
     "specs": [
       {
@@ -1010,9 +1010,9 @@ export const bebidasProducts: Product[] = [
     "description": "## Cafetera percoladora de 100 tazas: café tinto por volumen para eventos y catering\n\nPercoladora de café de 16 litros para hasta 100 tazas por hora. Ideal para eventos y negocios de alto consumo.\n\n### ¿Para qué negocios es ideal?\nEventos, casinos, oficinas, restaurantes y catering que necesitan servir grandes volúmenes de café tinto.\n\n### Compra con respaldo Fuller\nEnvío nacional desde Bogotá, garantía Fuller y asesoría experta. Cotiza por WhatsApp y recibe atención personalizada.",
     "highlights": [],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/maquina-percoladora-de-cafe-100-tazas/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/maquina-percoladora-de-cafe-100-tazas/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/maquina-percoladora-de-cafe-100-tazas/2.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/maquina-percoladora-de-cafe-100-tazas/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/maquina-percoladora-de-cafe-100-tazas/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/maquina-percoladora-de-cafe-100-tazas/2.webp"
     ],
     "specs": [],
     "price": 815900,
@@ -1052,9 +1052,9 @@ export const bebidasProducts: Product[] = [
       "Capacidad: 140 a 160 vasos por hora"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/selladora-de-vasos-manual-sin-contador-digital/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/selladora-de-vasos-manual-sin-contador-digital/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/selladora-de-vasos-manual-sin-contador-digital/2.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/selladora-de-vasos-manual-sin-contador-digital/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/selladora-de-vasos-manual-sin-contador-digital/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/selladora-de-vasos-manual-sin-contador-digital/2.webp"
     ],
     "specs": [
       {
@@ -1107,15 +1107,15 @@ export const bebidasProducts: Product[] = [
     "description": "## Licuadora industrial de alto rendimiento para procesar a toda hora sin recalentarse\n\nLicuadora industrial de 4 litros con vaso de policarbonato ultra resistente, ideal para uso comercial. Motor potente de 2.9 HP, velocidades variables y alto rendimiento.\n\n### ¿Para qué negocios es ideal?\nBares de jugos, cafeterías, restaurantes y negocios de smoothies y frappés que procesan hielo y fruta congelada a diario.\n\n### Compra con respaldo Fuller\nEnvío nacional desde Bogotá, garantía Fuller y asesoría experta. Cotiza por WhatsApp y recibe atención personalizada.",
     "highlights": [],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/licuadora-industrial-4-litros-uso-comercial/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/licuadora-industrial-4-litros-uso-comercial/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/licuadora-industrial-4-litros-uso-comercial/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/licuadora-industrial-4-litros-uso-comercial/3.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/licuadora-industrial-4-litros-uso-comercial/4.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/licuadora-industrial-4-litros-uso-comercial/5.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/licuadora-industrial-4-litros-uso-comercial/6.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/licuadora-industrial-4-litros-uso-comercial/7.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/licuadora-industrial-4-litros-uso-comercial/8.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/licuadora-industrial-4-litros-uso-comercial/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/licuadora-industrial-4-litros-uso-comercial/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/licuadora-industrial-4-litros-uso-comercial/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/licuadora-industrial-4-litros-uso-comercial/3.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/licuadora-industrial-4-litros-uso-comercial/4.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/licuadora-industrial-4-litros-uso-comercial/5.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/licuadora-industrial-4-litros-uso-comercial/6.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/licuadora-industrial-4-litros-uso-comercial/7.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/licuadora-industrial-4-litros-uso-comercial/8.webp"
     ],
     "specs": [],
     "price": 867900,
@@ -1150,12 +1150,12 @@ export const bebidasProducts: Product[] = [
     "description": "## Máquina de hielo industrial en cubo: fabrica hasta 90 kg al día para tu negocio\n\nProduce hasta 30 kg de hielo en cubos al día con esta fabricadora Fuller Machinery. Funciona a 110V, incluye filtros y es perfecta para negocios comerciales.\n\n### ¿Para qué negocios es ideal?\nBares, restaurantes, cafeterías y negocios de bebidas que requieren producción constante de hielo.\n\n### Compra con respaldo Fuller\nEnvío nacional desde Bogotá, garantía Fuller y asesoría experta. Cotiza por WhatsApp y recibe atención personalizada.",
     "highlights": [],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/fabricadora-de-hielo-fuller-machinery-30kg-cubos-110v-c-filtros/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/fabricadora-de-hielo-fuller-machinery-30kg-cubos-110v-c-filtros/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/fabricadora-de-hielo-fuller-machinery-30kg-cubos-110v-c-filtros/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/fabricadora-de-hielo-fuller-machinery-30kg-cubos-110v-c-filtros/3.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/fabricadora-de-hielo-fuller-machinery-30kg-cubos-110v-c-filtros/4.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/fabricadora-de-hielo-fuller-machinery-30kg-cubos-110v-c-filtros/5.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/fabricadora-de-hielo-fuller-machinery-30kg-cubos-110v-c-filtros/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/fabricadora-de-hielo-fuller-machinery-30kg-cubos-110v-c-filtros/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/fabricadora-de-hielo-fuller-machinery-30kg-cubos-110v-c-filtros/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/fabricadora-de-hielo-fuller-machinery-30kg-cubos-110v-c-filtros/3.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/fabricadora-de-hielo-fuller-machinery-30kg-cubos-110v-c-filtros/4.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/fabricadora-de-hielo-fuller-machinery-30kg-cubos-110v-c-filtros/5.webp"
     ],
     "specs": [],
     "price": 2930900,
@@ -1196,8 +1196,8 @@ export const bebidasProducts: Product[] = [
       "Voltaje: 110V"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/extractor-industrial-jugos-jp-2000/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/extractor-industrial-jugos-jp-2000/1.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/extractor-industrial-jugos-jp-2000/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/extractor-industrial-jugos-jp-2000/1.webp"
     ],
     "specs": [
       {
@@ -1266,9 +1266,9 @@ export const bebidasProducts: Product[] = [
       "Presión de Vapor Máxima: 0.78MPA"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/gasificadora-de-liquidos-1-litro/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/gasificadora-de-liquidos-1-litro/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/gasificadora-de-liquidos-1-litro/2.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/gasificadora-de-liquidos-1-litro/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/gasificadora-de-liquidos-1-litro/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/gasificadora-de-liquidos-1-litro/2.webp"
     ],
     "specs": [
       {
@@ -1337,12 +1337,12 @@ export const bebidasProducts: Product[] = [
       "Alto: 53 cm"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/selladora-de-latas-plasticas/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/selladora-de-latas-plasticas/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/selladora-de-latas-plasticas/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/selladora-de-latas-plasticas/3.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/selladora-de-latas-plasticas/4.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/selladora-de-latas-plasticas/5.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/selladora-de-latas-plasticas/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/selladora-de-latas-plasticas/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/selladora-de-latas-plasticas/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/selladora-de-latas-plasticas/3.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/selladora-de-latas-plasticas/4.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/selladora-de-latas-plasticas/5.webp"
     ],
     "specs": [
       {
@@ -1416,10 +1416,10 @@ export const bebidasProducts: Product[] = [
       "Alimentación: 220 V"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/capuchinera-barismo-magister-1-grupo/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/capuchinera-barismo-magister-1-grupo/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/capuchinera-barismo-magister-1-grupo/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/capuchinera-barismo-magister-1-grupo/3.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/capuchinera-barismo-magister-1-grupo/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/capuchinera-barismo-magister-1-grupo/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/capuchinera-barismo-magister-1-grupo/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/capuchinera-barismo-magister-1-grupo/3.webp"
     ],
     "specs": [
       {
@@ -1485,11 +1485,11 @@ export const bebidasProducts: Product[] = [
       "Alimentación: 220 V"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/maquina-cafe-magister-2-grupos/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/maquina-cafe-magister-2-grupos/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/maquina-cafe-magister-2-grupos/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/maquina-cafe-magister-2-grupos/3.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/maquina-cafe-magister-2-grupos/4.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/maquina-cafe-magister-2-grupos/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/maquina-cafe-magister-2-grupos/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/maquina-cafe-magister-2-grupos/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/maquina-cafe-magister-2-grupos/3.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/maquina-cafe-magister-2-grupos/4.webp"
     ],
     "specs": [
       {
@@ -1555,9 +1555,9 @@ export const bebidasProducts: Product[] = [
       "Alimentación: 110 V"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/licuadora-industrial-3-6-litros/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/licuadora-industrial-3-6-litros/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/licuadora-industrial-3-6-litros/2.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/licuadora-industrial-3-6-litros/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/licuadora-industrial-3-6-litros/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/licuadora-industrial-3-6-litros/2.webp"
     ],
     "specs": [
       {
@@ -1622,9 +1622,9 @@ export const bebidasProducts: Product[] = [
       "Alimentación: 110 V"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/licuadora-comercial-2-7-litros-vaso-policarbonato/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/licuadora-comercial-2-7-litros-vaso-policarbonato/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/licuadora-comercial-2-7-litros-vaso-policarbonato/2.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/licuadora-comercial-2-7-litros-vaso-policarbonato/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/licuadora-comercial-2-7-litros-vaso-policarbonato/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/licuadora-comercial-2-7-litros-vaso-policarbonato/2.webp"
     ],
     "specs": [
       {
@@ -1689,9 +1689,9 @@ export const bebidasProducts: Product[] = [
       "Alimentación: 110 V"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/licuadora-comercial-2-litros-vaso-policarbonato/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/licuadora-comercial-2-litros-vaso-policarbonato/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/licuadora-comercial-2-litros-vaso-policarbonato/2.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/licuadora-comercial-2-litros-vaso-policarbonato/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/licuadora-comercial-2-litros-vaso-policarbonato/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/licuadora-comercial-2-litros-vaso-policarbonato/2.webp"
     ],
     "specs": [
       {
@@ -1756,10 +1756,10 @@ export const bebidasProducts: Product[] = [
       "Alimentación: 110 V"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/exprimidor-industrial-manual-jugo-naranja/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/exprimidor-industrial-manual-jugo-naranja/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/exprimidor-industrial-manual-jugo-naranja/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/exprimidor-industrial-manual-jugo-naranja/3.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/exprimidor-industrial-manual-jugo-naranja/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/exprimidor-industrial-manual-jugo-naranja/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/exprimidor-industrial-manual-jugo-naranja/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/exprimidor-industrial-manual-jugo-naranja/3.webp"
     ],
     "specs": [
       {
@@ -1824,11 +1824,11 @@ export const bebidasProducts: Product[] = [
       "Alimentación: 110 V"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/exprimidor-industrial-naranjas-piso-automatico/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/exprimidor-industrial-naranjas-piso-automatico/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/exprimidor-industrial-naranjas-piso-automatico/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/exprimidor-industrial-naranjas-piso-automatico/3.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/exprimidor-industrial-naranjas-piso-automatico/4.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/exprimidor-industrial-naranjas-piso-automatico/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/exprimidor-industrial-naranjas-piso-automatico/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/exprimidor-industrial-naranjas-piso-automatico/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/exprimidor-industrial-naranjas-piso-automatico/3.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/exprimidor-industrial-naranjas-piso-automatico/4.webp"
     ],
     "specs": [
       {
@@ -1893,9 +1893,9 @@ export const bebidasProducts: Product[] = [
       "Alimentación: 110 V"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/exprimidor-naranjas-industrial-mesa-acrilico-transparente/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/exprimidor-naranjas-industrial-mesa-acrilico-transparente/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/exprimidor-naranjas-industrial-mesa-acrilico-transparente/2.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/exprimidor-naranjas-industrial-mesa-acrilico-transparente/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/exprimidor-naranjas-industrial-mesa-acrilico-transparente/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/exprimidor-naranjas-industrial-mesa-acrilico-transparente/2.webp"
     ],
     "specs": [
       {
@@ -1960,8 +1960,8 @@ export const bebidasProducts: Product[] = [
       "Alimentación: 110 V"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/exprimidor-naranjas-semi-automatico-acero-inoxidable-180w/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/exprimidor-naranjas-semi-automatico-acero-inoxidable-180w/1.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/exprimidor-naranjas-semi-automatico-acero-inoxidable-180w/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/exprimidor-naranjas-semi-automatico-acero-inoxidable-180w/1.webp"
     ],
     "specs": [
       {
@@ -2026,8 +2026,8 @@ export const bebidasProducts: Product[] = [
       "Alimentación: 110 V"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/exprimidor-naranjas-semi-automatico-carcasa-plastica/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/exprimidor-naranjas-semi-automatico-carcasa-plastica/1.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/exprimidor-naranjas-semi-automatico-carcasa-plastica/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/exprimidor-naranjas-semi-automatico-carcasa-plastica/1.webp"
     ],
     "specs": [
       {
@@ -2092,9 +2092,9 @@ export const bebidasProducts: Product[] = [
       "Alimentación: 110 V"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/dispensador-jugos-2-tanques-electrico-acero-inoxidable/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/dispensador-jugos-2-tanques-electrico-acero-inoxidable/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/dispensador-jugos-2-tanques-electrico-acero-inoxidable/2.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/dispensador-jugos-2-tanques-electrico-acero-inoxidable/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/dispensador-jugos-2-tanques-electrico-acero-inoxidable/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/dispensador-jugos-2-tanques-electrico-acero-inoxidable/2.webp"
     ],
     "specs": [
       {
@@ -2160,8 +2160,8 @@ export const bebidasProducts: Product[] = [
       "Garantía: 6 meses."
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/dispensador-jugos-1-tanque-17-litros-acero-inoxidable/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/dispensador-jugos-1-tanque-17-litros-acero-inoxidable/1.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/dispensador-jugos-1-tanque-17-litros-acero-inoxidable/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/dispensador-jugos-1-tanque-17-litros-acero-inoxidable/1.webp"
     ],
     "specs": [
       {
@@ -2218,8 +2218,8 @@ export const bebidasProducts: Product[] = [
       "Garantía: 6 meses."
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/dispensador-bebidas-manual-3-tanques-8-litros/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/dispensador-bebidas-manual-3-tanques-8-litros/1.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/dispensador-bebidas-manual-3-tanques-8-litros/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/dispensador-bebidas-manual-3-tanques-8-litros/1.webp"
     ],
     "specs": [
       {
@@ -2272,8 +2272,8 @@ export const bebidasProducts: Product[] = [
       "Garantía: 6 meses."
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/dispensador-bebidas-manual-2-tanques-8-litros/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/dispensador-bebidas-manual-2-tanques-8-litros/1.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/dispensador-bebidas-manual-2-tanques-8-litros/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/dispensador-bebidas-manual-2-tanques-8-litros/1.webp"
     ],
     "specs": [
       {
@@ -2326,9 +2326,9 @@ export const bebidasProducts: Product[] = [
       "Garantía: 3 meses."
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/dispensador-de-bebidas-manual-1-tanque/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/dispensador-de-bebidas-manual-1-tanque/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/dispensador-de-bebidas-manual-1-tanque/2.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/dispensador-de-bebidas-manual-1-tanque/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/dispensador-de-bebidas-manual-1-tanque/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/dispensador-de-bebidas-manual-1-tanque/2.webp"
     ],
     "specs": [
       {
@@ -2382,10 +2382,10 @@ export const bebidasProducts: Product[] = [
       "Alimentación: 110 V"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/molino-para-cafe-1-5-kg-dosificador/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/molino-para-cafe-1-5-kg-dosificador/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/molino-para-cafe-1-5-kg-dosificador/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/molino-para-cafe-1-5-kg-dosificador/3.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/molino-para-cafe-1-5-kg-dosificador/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/molino-para-cafe-1-5-kg-dosificador/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/molino-para-cafe-1-5-kg-dosificador/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/molino-para-cafe-1-5-kg-dosificador/3.webp"
     ],
     "specs": [
       {
@@ -2450,10 +2450,10 @@ export const bebidasProducts: Product[] = [
       "Alimentación: 110 V"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/maquina-de-cafe-de-goteo-2-jarras/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/maquina-de-cafe-de-goteo-2-jarras/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/maquina-de-cafe-de-goteo-2-jarras/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/maquina-de-cafe-de-goteo-2-jarras/3.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/maquina-de-cafe-de-goteo-2-jarras/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/maquina-de-cafe-de-goteo-2-jarras/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/maquina-de-cafe-de-goteo-2-jarras/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/maquina-de-cafe-de-goteo-2-jarras/3.webp"
     ],
     "specs": [
       {
@@ -2517,10 +2517,10 @@ export const bebidasProducts: Product[] = [
       "Alimentación: 110 V"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/maquina-de-cafe-percoladora/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/maquina-de-cafe-percoladora/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/maquina-de-cafe-percoladora/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/maquina-de-cafe-percoladora/3.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/maquina-de-cafe-percoladora/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/maquina-de-cafe-percoladora/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/maquina-de-cafe-percoladora/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/maquina-de-cafe-percoladora/3.webp"
     ],
     "specs": [
       {
@@ -2585,11 +2585,11 @@ export const bebidasProducts: Product[] = [
       "Alimentación: 110 W"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/malteadora-1-puesto/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/malteadora-1-puesto/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/malteadora-1-puesto/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/malteadora-1-puesto/3.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/malteadora-1-puesto/4.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/malteadora-1-puesto/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/malteadora-1-puesto/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/malteadora-1-puesto/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/malteadora-1-puesto/3.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/malteadora-1-puesto/4.webp"
     ],
     "specs": [
       {
@@ -2649,8 +2649,8 @@ export const bebidasProducts: Product[] = [
     "description": "## Rollos y film para empacadora al vacío: insumos grado alimenticio que rinden más por sello\n\nRollo film transparente para selladora de vasos con 2000 sellos aprox. Ideal para sellado limpio y presentación visible.\n\n### ¿Para qué negocios es ideal?\nNegocios de bubble tea, granizados, jugos y bebidas para llevar que necesitan rollos y sellos compatibles con su selladora de vasos.\n\n### Compra con respaldo Fuller\nEnvío nacional desde Bogotá, garantía Fuller y asesoría experta. Cotiza por WhatsApp y recibe atención personalizada.",
     "highlights": [],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/sello-para-vasos-transparente-1035/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/sello-para-vasos-transparente-1035/1.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/sello-para-vasos-transparente-1035/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/sello-para-vasos-transparente-1035/1.webp"
     ],
     "specs": [],
     "price": 81900,
@@ -2690,9 +2690,9 @@ export const bebidasProducts: Product[] = [
       "Alimentación: -"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/sello-para-vasos-multicolor-796/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/sello-para-vasos-multicolor-796/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/sello-para-vasos-multicolor-796/2.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/sello-para-vasos-multicolor-796/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/sello-para-vasos-multicolor-796/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/sello-para-vasos-multicolor-796/2.webp"
     ],
     "specs": [
       {
@@ -2757,8 +2757,8 @@ export const bebidasProducts: Product[] = [
       "Peso: 3 kg"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/sello-para-vasos-frutas-pequeno-691/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/sello-para-vasos-frutas-pequeno-691/1.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/sello-para-vasos-frutas-pequeno-691/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/sello-para-vasos-frutas-pequeno-691/1.webp"
     ],
     "specs": [
       {
@@ -2818,9 +2818,9 @@ export const bebidasProducts: Product[] = [
     "description": "## Rollos y film para empacadora al vacío: insumos grado alimenticio que rinden más por sello\n\nRollo film para selladora de vasos con rendimiento de 2700 sellos. Compatible con múltiples equipos y fácil de usar.\n\n### ¿Para qué negocios es ideal?\nNegocios de bubble tea, granizados, jugos y bebidas para llevar que necesitan rollos y sellos compatibles con su selladora de vasos.\n\n### Compra con respaldo Fuller\nEnvío nacional desde Bogotá, garantía Fuller y asesoría experta. Cotiza por WhatsApp y recibe atención personalizada.",
     "highlights": [],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/sello-para-vasos-frutas-grande-677/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/sello-para-vasos-frutas-grande-677/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/sello-para-vasos-frutas-grande-677/2.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/sello-para-vasos-frutas-grande-677/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/sello-para-vasos-frutas-grande-677/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/sello-para-vasos-frutas-grande-677/2.webp"
     ],
     "specs": [],
     "price": 91900,
@@ -2860,11 +2860,11 @@ export const bebidasProducts: Product[] = [
       "Alimentación: -"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/sello-para-vasos-emoji-cara-colores-157/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/sello-para-vasos-emoji-cara-colores-157/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/sello-para-vasos-emoji-cara-colores-157/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/sello-para-vasos-emoji-cara-colores-157/3.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/sello-para-vasos-emoji-cara-colores-157/4.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/sello-para-vasos-emoji-cara-colores-157/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/sello-para-vasos-emoji-cara-colores-157/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/sello-para-vasos-emoji-cara-colores-157/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/sello-para-vasos-emoji-cara-colores-157/3.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/sello-para-vasos-emoji-cara-colores-157/4.webp"
     ],
     "specs": [
       {
@@ -2924,10 +2924,10 @@ export const bebidasProducts: Product[] = [
     "description": "## Rollos y film para empacadora al vacío: insumos grado alimenticio que rinden más por sello\n\nRollo para selladora de vasos diseño emoticones con 2000 sellos aprox. Ideal para bebidas con presentación llamativa.\n\n### ¿Para qué negocios es ideal?\nNegocios de bubble tea, granizados, jugos y bebidas para llevar que necesitan rollos y sellos compatibles con su selladora de vasos.\n\n### Compra con respaldo Fuller\nEnvío nacional desde Bogotá, garantía Fuller y asesoría experta. Cotiza por WhatsApp y recibe atención personalizada.",
     "highlights": [],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/sello-para-vasos-emoji-cara-amarilla-135/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/sello-para-vasos-emoji-cara-amarilla-135/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/sello-para-vasos-emoji-cara-amarilla-135/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/sello-para-vasos-emoji-cara-amarilla-135/3.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/sello-para-vasos-emoji-cara-amarilla-135/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/sello-para-vasos-emoji-cara-amarilla-135/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/sello-para-vasos-emoji-cara-amarilla-135/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/sello-para-vasos-emoji-cara-amarilla-135/3.webp"
     ],
     "specs": [],
     "price": 81900,
@@ -2967,7 +2967,7 @@ export const bebidasProducts: Product[] = [
       "Alimentación: -"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/sello-para-vasos-angry-birds-1099/0.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/sello-para-vasos-angry-birds-1099/0.webp"
     ],
     "specs": [
       {
@@ -3030,11 +3030,11 @@ export const bebidasProducts: Product[] = [
       "Dimensiones: 46,5 cm Ancho x 20,5 cm Largo x 60 cm Alto"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/selladora-de-vasos-semi-automatica-44-negra/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/selladora-de-vasos-semi-automatica-44-negra/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/selladora-de-vasos-semi-automatica-44-negra/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/selladora-de-vasos-semi-automatica-44-negra/3.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/selladora-de-vasos-semi-automatica-44-negra/4.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/selladora-de-vasos-semi-automatica-44-negra/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/selladora-de-vasos-semi-automatica-44-negra/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/selladora-de-vasos-semi-automatica-44-negra/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/selladora-de-vasos-semi-automatica-44-negra/3.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/selladora-de-vasos-semi-automatica-44-negra/4.webp"
     ],
     "specs": [
       {
@@ -3084,11 +3084,11 @@ export const bebidasProducts: Product[] = [
       "Peso: 12kg"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/selladora-de-vasos-semi-automatica/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/selladora-de-vasos-semi-automatica/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/selladora-de-vasos-semi-automatica/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/selladora-de-vasos-semi-automatica/3.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/selladora-de-vasos-semi-automatica/4.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/selladora-de-vasos-semi-automatica/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/selladora-de-vasos-semi-automatica/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/selladora-de-vasos-semi-automatica/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/selladora-de-vasos-semi-automatica/3.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/selladora-de-vasos-semi-automatica/4.webp"
     ],
     "specs": [
       {
@@ -3146,11 +3146,11 @@ export const bebidasProducts: Product[] = [
       "Material: Acero inoxidable"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/selladora-de-vasos-manual-contador-digital/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/selladora-de-vasos-manual-contador-digital/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/selladora-de-vasos-manual-contador-digital/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/selladora-de-vasos-manual-contador-digital/3.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/selladora-de-vasos-manual-contador-digital/4.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/selladora-de-vasos-manual-contador-digital/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/selladora-de-vasos-manual-contador-digital/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/selladora-de-vasos-manual-contador-digital/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/selladora-de-vasos-manual-contador-digital/3.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/selladora-de-vasos-manual-contador-digital/4.webp"
     ],
     "specs": [
       {
@@ -3236,11 +3236,11 @@ export const bebidasProducts: Product[] = [
       "Peso: 24kg"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/selladora-de-vasos-full-automatica/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/selladora-de-vasos-full-automatica/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/selladora-de-vasos-full-automatica/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/selladora-de-vasos-full-automatica/3.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/selladora-de-vasos-full-automatica/4.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/selladora-de-vasos-full-automatica/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/selladora-de-vasos-full-automatica/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/selladora-de-vasos-full-automatica/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/selladora-de-vasos-full-automatica/3.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/selladora-de-vasos-full-automatica/4.webp"
     ],
     "specs": [
       {
@@ -3298,11 +3298,11 @@ export const bebidasProducts: Product[] = [
       "Alimentación: -"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/selladora-de-vasos-automatica/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/selladora-de-vasos-automatica/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/selladora-de-vasos-automatica/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/selladora-de-vasos-automatica/3.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/selladora-de-vasos-automatica/4.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/selladora-de-vasos-automatica/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/selladora-de-vasos-automatica/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/selladora-de-vasos-automatica/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/selladora-de-vasos-automatica/3.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/selladora-de-vasos-automatica/4.webp"
     ],
     "specs": [
       {
@@ -3367,11 +3367,11 @@ export const bebidasProducts: Product[] = [
       "Alimentación: 110 voltios"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/trituradora-de-hielo-mediana/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/trituradora-de-hielo-mediana/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/trituradora-de-hielo-mediana/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/trituradora-de-hielo-mediana/3.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/trituradora-de-hielo-mediana/4.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/trituradora-de-hielo-mediana/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/trituradora-de-hielo-mediana/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/trituradora-de-hielo-mediana/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/trituradora-de-hielo-mediana/3.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/trituradora-de-hielo-mediana/4.webp"
     ],
     "specs": [
       {
@@ -3423,8 +3423,8 @@ export const bebidasProducts: Product[] = [
       "Alimentación: 110 voltios"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/trituradora-de-hielo-grande/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/trituradora-de-hielo-grande/1.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/trituradora-de-hielo-grande/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/trituradora-de-hielo-grande/1.webp"
     ],
     "specs": [
       {
@@ -3476,9 +3476,9 @@ export const bebidasProducts: Product[] = [
       "Alimentación: 110 voltios"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/trituradora-de-hielo-pequena/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/trituradora-de-hielo-pequena/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/trituradora-de-hielo-pequena/2.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/trituradora-de-hielo-pequena/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/trituradora-de-hielo-pequena/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/trituradora-de-hielo-pequena/2.webp"
     ],
     "specs": [
       {
@@ -3529,10 +3529,10 @@ export const bebidasProducts: Product[] = [
       "Alimentación: Voltaje 110 voltios, Potencia: 0,495 kw."
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/maquina-hielo-45kg-18kg-bodega-fuller/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/maquina-hielo-45kg-18kg-bodega-fuller/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/maquina-hielo-45kg-18kg-bodega-fuller/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/maquina-hielo-45kg-18kg-bodega-fuller/3.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/maquina-hielo-45kg-18kg-bodega-fuller/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/maquina-hielo-45kg-18kg-bodega-fuller/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/maquina-hielo-45kg-18kg-bodega-fuller/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/maquina-hielo-45kg-18kg-bodega-fuller/3.webp"
     ],
     "specs": [
       {
@@ -3582,9 +3582,9 @@ export const bebidasProducts: Product[] = [
       "Alimentación: 110 V"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/maquina-de-cafe-berna/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/maquina-de-cafe-berna/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/maquina-de-cafe-berna/2.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/maquina-de-cafe-berna/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/maquina-de-cafe-berna/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/maquina-de-cafe-berna/2.webp"
     ],
     "specs": [
       {
@@ -3648,9 +3648,9 @@ export const bebidasProducts: Product[] = [
       "Alimentación: 110 V"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/maquina-de-cafe-lucerna/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/maquina-de-cafe-lucerna/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/bebidas/maquina-de-cafe-lucerna/2.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/maquina-de-cafe-lucerna/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/maquina-de-cafe-lucerna/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/bebidas/maquina-de-cafe-lucerna/2.webp"
     ],
     "specs": [
       {

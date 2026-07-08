@@ -21,8 +21,8 @@ export const empaqueProducts: Product[] = [
       "Presentación para vender mejor"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/empacadora-al-vacio-dz-400/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/empacadora-al-vacio-dz-400/1.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/empacadora-al-vacio-dz-400/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/empacadora-al-vacio-dz-400/1.webp"
     ],
     "specs": [
       {
@@ -101,8 +101,8 @@ export const empaqueProducts: Product[] = [
       "Peso: 13 kg"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/llenadora-manual-industrial-dosificadora-de-piston-modelo-a03/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/llenadora-manual-industrial-dosificadora-de-piston-modelo-a03/2.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/llenadora-manual-industrial-dosificadora-de-piston-modelo-a03/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/llenadora-manual-industrial-dosificadora-de-piston-modelo-a03/2.webp"
     ],
     "specs": [
       {
@@ -154,8 +154,8 @@ export const empaqueProducts: Product[] = [
       "Material: Corrugado y Liso"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/rollo-empacadora-al-vacio-24cm5mt/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/rollo-empacadora-al-vacio-24cm5mt/1.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/rollo-empacadora-al-vacio-24cm5mt/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/rollo-empacadora-al-vacio-24cm5mt/1.webp"
     ],
     "specs": [
       {
@@ -199,8 +199,8 @@ export const empaqueProducts: Product[] = [
     "description": "## Rollos y film para empacadora al vacío: insumos grado alimenticio que rinden más por sello\n\nRollo para empacadora al vacío 28 cm x 15 m. Ideal para conservación de alimentos con alto rendimiento.\n\n### ¿Para qué negocios es ideal?\nNegocios que necesitan rollos y consumibles compatibles para sus equipos de empaque y sellado.\n\n### Compra con respaldo Fuller\nEnvío nacional desde Bogotá, garantía Fuller y asesoría experta. Cotiza por WhatsApp y recibe atención personalizada.",
     "highlights": [],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/rollo-empacadora-al-vacio-2815mt/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/rollo-empacadora-al-vacio-2815mt/1.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/rollo-empacadora-al-vacio-2815mt/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/rollo-empacadora-al-vacio-2815mt/1.webp"
     ],
     "specs": [],
     "price": 59900,
@@ -235,7 +235,7 @@ export const empaqueProducts: Product[] = [
     "description": "## Rollos y film para empacadora al vacío: insumos grado alimenticio que rinden más por sello\n\nRollo para empacadora al vacío 28 cm x 5 m. Ideal para conservar alimentos con sellado hermético.\n\n### ¿Para qué negocios es ideal?\nNegocios que necesitan rollos y consumibles compatibles para sus equipos de empaque y sellado.\n\n### Compra con respaldo Fuller\nEnvío nacional desde Bogotá, garantía Fuller y asesoría experta. Cotiza por WhatsApp y recibe atención personalizada.",
     "highlights": [],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/rollos-para-empacadora-al-vacio-de-285-mt/0.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/rollos-para-empacadora-al-vacio-de-285-mt/0.webp"
     ],
     "specs": [],
     "price": 45900,
@@ -270,8 +270,8 @@ export const empaqueProducts: Product[] = [
     "description": "## Rollos y film para empacadora al vacío: insumos grado alimenticio que rinden más por sello\n\nRollo para empacadora al vacío de 22 cm x 5 m. Ideal para conservar alimentos con sellado hermético y corte a medida.\n\n### ¿Para qué negocios es ideal?\nNegocios que necesitan rollos y consumibles compatibles para sus equipos de empaque y sellado.\n\n### Compra con respaldo Fuller\nEnvío nacional desde Bogotá, garantía Fuller y asesoría experta. Cotiza por WhatsApp y recibe atención personalizada.",
     "highlights": [],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/rollos-para-empacadora-al-vacio-22cm-x-15mt/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/rollos-para-empacadora-al-vacio-22cm-x-15mt/1.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/rollos-para-empacadora-al-vacio-22cm-x-15mt/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/rollos-para-empacadora-al-vacio-22cm-x-15mt/1.webp"
     ],
     "specs": [],
     "price": 39900,
@@ -463,10 +463,10 @@ export const empaqueProducts: Product[] = [
       "Alimentación: 110v"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/selladora-de-bolsas-de-pedal-45-cm/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/selladora-de-bolsas-de-pedal-45-cm/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/selladora-de-bolsas-de-pedal-45-cm/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/selladora-de-bolsas-de-pedal-45-cm/3.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/selladora-de-bolsas-de-pedal-45-cm/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/selladora-de-bolsas-de-pedal-45-cm/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/selladora-de-bolsas-de-pedal-45-cm/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/selladora-de-bolsas-de-pedal-45-cm/3.webp"
     ],
     "specs": [
       {
@@ -519,10 +519,10 @@ export const empaqueProducts: Product[] = [
       "Garantia: 6 meses + soporte"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/selladora-de-bolsas-banda-continua-con-impresion-digital/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/selladora-de-bolsas-banda-continua-con-impresion-digital/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/selladora-de-bolsas-banda-continua-con-impresion-digital/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/selladora-de-bolsas-banda-continua-con-impresion-digital/3.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/selladora-de-bolsas-banda-continua-con-impresion-digital/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/selladora-de-bolsas-banda-continua-con-impresion-digital/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/selladora-de-bolsas-banda-continua-con-impresion-digital/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/selladora-de-bolsas-banda-continua-con-impresion-digital/3.webp"
     ],
     "specs": [
       {
@@ -575,9 +575,9 @@ export const empaqueProducts: Product[] = [
       "Dimensiones: 71.1 × 56 × 100 cm"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/selladora-de-bolsas-de-pedal-35-cm-con-fechador/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/selladora-de-bolsas-de-pedal-35-cm-con-fechador/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/selladora-de-bolsas-de-pedal-35-cm-con-fechador/2.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/selladora-de-bolsas-de-pedal-35-cm-con-fechador/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/selladora-de-bolsas-de-pedal-35-cm-con-fechador/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/selladora-de-bolsas-de-pedal-35-cm-con-fechador/2.webp"
     ],
     "specs": [
       {
@@ -630,9 +630,9 @@ export const empaqueProducts: Product[] = [
       "Peso: 30 kg"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/selladora-de-bolsas-de-pedal-45-cm-con-fechador/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/selladora-de-bolsas-de-pedal-45-cm-con-fechador/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/selladora-de-bolsas-de-pedal-45-cm-con-fechador/2.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/selladora-de-bolsas-de-pedal-45-cm-con-fechador/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/selladora-de-bolsas-de-pedal-45-cm-con-fechador/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/selladora-de-bolsas-de-pedal-45-cm-con-fechador/2.webp"
     ],
     "specs": [
       {
@@ -685,10 +685,10 @@ export const empaqueProducts: Product[] = [
       "Pesos: 38kg"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/selladora-de-induccion-tipo-magnetica-para-empaque-plasticos/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/selladora-de-induccion-tipo-magnetica-para-empaque-plasticos/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/selladora-de-induccion-tipo-magnetica-para-empaque-plasticos/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/selladora-de-induccion-tipo-magnetica-para-empaque-plasticos/3.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/selladora-de-induccion-tipo-magnetica-para-empaque-plasticos/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/selladora-de-induccion-tipo-magnetica-para-empaque-plasticos/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/selladora-de-induccion-tipo-magnetica-para-empaque-plasticos/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/selladora-de-induccion-tipo-magnetica-para-empaque-plasticos/3.webp"
     ],
     "specs": [
       {
@@ -729,8 +729,8 @@ export const empaqueProducts: Product[] = [
       "Material: estructura en acero inoxidable y aleación de Aluminio/acero"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/inipeladora-industrial/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/inipeladora-industrial/1.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/inipeladora-industrial/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/inipeladora-industrial/1.webp"
     ],
     "specs": [
       {
@@ -782,10 +782,10 @@ export const empaqueProducts: Product[] = [
       "Material: Acero inoxidable y PTFE"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/dosificadora-para-granulados-500gr-volumetrica-industrial/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/dosificadora-para-granulados-500gr-volumetrica-industrial/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/dosificadora-para-granulados-500gr-volumetrica-industrial/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/dosificadora-para-granulados-500gr-volumetrica-industrial/3.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/dosificadora-para-granulados-500gr-volumetrica-industrial/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/dosificadora-para-granulados-500gr-volumetrica-industrial/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/dosificadora-para-granulados-500gr-volumetrica-industrial/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/dosificadora-para-granulados-500gr-volumetrica-industrial/3.webp"
     ],
     "specs": [
       {
@@ -875,11 +875,11 @@ export const empaqueProducts: Product[] = [
       "Peso: 1.7 kg"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/empacadora-al-vacio-dz300sd-blanca/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/empacadora-al-vacio-dz300sd-blanca/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/empacadora-al-vacio-dz300sd-blanca/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/empacadora-al-vacio-dz300sd-blanca/3.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/empacadora-al-vacio-dz300sd-blanca/4.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/empacadora-al-vacio-dz300sd-blanca/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/empacadora-al-vacio-dz300sd-blanca/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/empacadora-al-vacio-dz300sd-blanca/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/empacadora-al-vacio-dz300sd-blanca/3.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/empacadora-al-vacio-dz300sd-blanca/4.webp"
     ],
     "specs": [
       {
@@ -945,11 +945,11 @@ export const empaqueProducts: Product[] = [
       "Dimensiones: 35 cm (ancho) x 15 cm (largo) x 20 cm (alto)"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/empacadora-al-vacio-dz300se/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/empacadora-al-vacio-dz300se/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/empacadora-al-vacio-dz300se/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/empacadora-al-vacio-dz300se/3.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/empacadora-al-vacio-dz300se/4.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/empacadora-al-vacio-dz300se/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/empacadora-al-vacio-dz300se/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/empacadora-al-vacio-dz300se/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/empacadora-al-vacio-dz300se/3.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/empacadora-al-vacio-dz300se/4.webp"
     ],
     "specs": [
       {
@@ -1019,10 +1019,10 @@ export const empaqueProducts: Product[] = [
       "Peso: 11 kg"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/empacadora-al-vacio-dz300a/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/empacadora-al-vacio-dz300a/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/empacadora-al-vacio-dz300a/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/empacadora-al-vacio-dz300a/3.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/empacadora-al-vacio-dz300a/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/empacadora-al-vacio-dz300a/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/empacadora-al-vacio-dz300a/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/empacadora-al-vacio-dz300a/3.webp"
     ],
     "specs": [
       {
@@ -1100,11 +1100,11 @@ export const empaqueProducts: Product[] = [
       "Dimensiones: 95 cm (ancho) x 40 cm (largo) x 66 cm (alto)"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/selladora-bolsas-banda-continua-impresora/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/selladora-bolsas-banda-continua-impresora/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/selladora-bolsas-banda-continua-impresora/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/selladora-bolsas-banda-continua-impresora/3.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/selladora-bolsas-banda-continua-impresora/4.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/selladora-bolsas-banda-continua-impresora/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/selladora-bolsas-banda-continua-impresora/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/selladora-bolsas-banda-continua-impresora/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/selladora-bolsas-banda-continua-impresora/3.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/selladora-bolsas-banda-continua-impresora/4.webp"
     ],
     "specs": [
       {
@@ -1174,11 +1174,11 @@ export const empaqueProducts: Product[] = [
       "Peso: 32 kg"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/selladora-bolsas-banda-continua-impresora-mueble/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/selladora-bolsas-banda-continua-impresora-mueble/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/selladora-bolsas-banda-continua-impresora-mueble/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/selladora-bolsas-banda-continua-impresora-mueble/3.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/selladora-bolsas-banda-continua-impresora-mueble/4.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/selladora-bolsas-banda-continua-impresora-mueble/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/selladora-bolsas-banda-continua-impresora-mueble/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/selladora-bolsas-banda-continua-impresora-mueble/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/selladora-bolsas-banda-continua-impresora-mueble/3.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/selladora-bolsas-banda-continua-impresora-mueble/4.webp"
     ],
     "specs": [
       {
@@ -1272,9 +1272,9 @@ export const empaqueProducts: Product[] = [
       "Material: Acero inoxidable"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/selladora-de-bolsas-banda-continua-con-contador-digital-modo-vertical-y-horizontal/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/selladora-de-bolsas-banda-continua-con-contador-digital-modo-vertical-y-horizontal/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/selladora-de-bolsas-banda-continua-con-contador-digital-modo-vertical-y-horizontal/2.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/selladora-de-bolsas-banda-continua-con-contador-digital-modo-vertical-y-horizontal/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/selladora-de-bolsas-banda-continua-con-contador-digital-modo-vertical-y-horizontal/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/selladora-de-bolsas-banda-continua-con-contador-digital-modo-vertical-y-horizontal/2.webp"
     ],
     "specs": [
       {
@@ -1356,10 +1356,10 @@ export const empaqueProducts: Product[] = [
       "Voltaje: 110V"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/selladora-bolsas-industrial-banda-continua/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/selladora-bolsas-industrial-banda-continua/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/selladora-bolsas-industrial-banda-continua/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/selladora-bolsas-industrial-banda-continua/3.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/selladora-bolsas-industrial-banda-continua/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/selladora-bolsas-industrial-banda-continua/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/selladora-bolsas-industrial-banda-continua/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/selladora-bolsas-industrial-banda-continua/3.webp"
     ],
     "specs": [
       {
@@ -1449,10 +1449,10 @@ export const empaqueProducts: Product[] = [
       "Material de la base: Aleación de acero"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/dispensador-de-cereal-3-tanques-10-litros/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/dispensador-de-cereal-3-tanques-10-litros/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/dispensador-de-cereal-3-tanques-10-litros/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/dispensador-de-cereal-3-tanques-10-litros/3.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/dispensador-de-cereal-3-tanques-10-litros/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/dispensador-de-cereal-3-tanques-10-litros/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/dispensador-de-cereal-3-tanques-10-litros/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/dispensador-de-cereal-3-tanques-10-litros/3.webp"
     ],
     "specs": [
       {
@@ -1507,10 +1507,10 @@ export const empaqueProducts: Product[] = [
       "Material de Base: Aleación de acero"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/dispensador-de-cereal-1-tanque-3-5-litros/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/dispensador-de-cereal-1-tanque-3-5-litros/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/dispensador-de-cereal-1-tanque-3-5-litros/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/dispensador-de-cereal-1-tanque-3-5-litros/3.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/dispensador-de-cereal-1-tanque-3-5-litros/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/dispensador-de-cereal-1-tanque-3-5-litros/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/dispensador-de-cereal-1-tanque-3-5-litros/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/dispensador-de-cereal-1-tanque-3-5-litros/3.webp"
     ],
     "specs": [
       {
@@ -1564,16 +1564,16 @@ export const empaqueProducts: Product[] = [
     "description": "## Empacadora al vacío industrial: conserva tus alimentos mucho más tiempo y reduce mermas\n\nEmpacadora al vacío de acero inoxidable con doble cámara y barra de sellado de 40 cm. 2-3 ciclos/minuto, sin compresor externo, rodachines para movilidad y bajo consumo eléctrico.\n\n### ¿Para qué negocios es ideal?\nCarnicerías, restaurantes, fruver y obradores que empacan al vacío para alargar la vida útil de sus productos.\n\n### Compra con respaldo Fuller\nEnvío nacional desde Bogotá, garantía Fuller y asesoría experta. Cotiza por WhatsApp y recibe atención personalizada.",
     "highlights": [],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/empacadora-al-vacio-doble-camara-2sb-doble-barra/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/empacadora-al-vacio-doble-camara-2sb-doble-barra/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/empacadora-al-vacio-doble-camara-2sb-doble-barra/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/empacadora-al-vacio-doble-camara-2sb-doble-barra/3.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/empacadora-al-vacio-doble-camara-2sb-doble-barra/4.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/empacadora-al-vacio-doble-camara-2sb-doble-barra/5.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/empacadora-al-vacio-doble-camara-2sb-doble-barra/6.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/empacadora-al-vacio-doble-camara-2sb-doble-barra/7.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/empacadora-al-vacio-doble-camara-2sb-doble-barra/8.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/empacadora-al-vacio-doble-camara-2sb-doble-barra/9.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/empacadora-al-vacio-doble-camara-2sb-doble-barra/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/empacadora-al-vacio-doble-camara-2sb-doble-barra/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/empacadora-al-vacio-doble-camara-2sb-doble-barra/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/empacadora-al-vacio-doble-camara-2sb-doble-barra/3.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/empacadora-al-vacio-doble-camara-2sb-doble-barra/4.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/empacadora-al-vacio-doble-camara-2sb-doble-barra/5.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/empacadora-al-vacio-doble-camara-2sb-doble-barra/6.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/empacadora-al-vacio-doble-camara-2sb-doble-barra/7.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/empacadora-al-vacio-doble-camara-2sb-doble-barra/8.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/empacadora-al-vacio-doble-camara-2sb-doble-barra/9.webp"
     ],
     "specs": [],
     "price": 7942900,
@@ -1614,8 +1614,8 @@ export const empaqueProducts: Product[] = [
       "Alimentación: -"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/rollo-empacadora-al-vacio-25-cm-15-m-350/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/rollo-empacadora-al-vacio-25-cm-15-m-350/1.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/rollo-empacadora-al-vacio-25-cm-15-m-350/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/rollo-empacadora-al-vacio-25-cm-15-m-350/1.webp"
     ],
     "specs": [
       {
@@ -1675,9 +1675,9 @@ export const empaqueProducts: Product[] = [
     "description": "## Rollos y film para empacadora al vacío: insumos grado alimenticio que rinden más por sello\n\nPorta alimentos al vacío de 1600 ml en vidrio borosilicato con cierre hermético. Ideal para conservar alimentos frescos.\n\n### ¿Para qué negocios es ideal?\nNegocios que necesitan rollos y consumibles compatibles para sus equipos de empaque y sellado.\n\n### Compra con respaldo Fuller\nEnvío nacional desde Bogotá, garantía Fuller y asesoría experta. Cotiza por WhatsApp y recibe atención personalizada.",
     "highlights": [],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/empacadora-para-alimentos-al-vacio-1600-ml/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/empacadora-para-alimentos-al-vacio-1600-ml/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/empacadora-para-alimentos-al-vacio-1600-ml/2.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/empacadora-para-alimentos-al-vacio-1600-ml/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/empacadora-para-alimentos-al-vacio-1600-ml/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/empacadora-para-alimentos-al-vacio-1600-ml/2.webp"
     ],
     "specs": [],
     "price": 132900,
@@ -1712,10 +1712,10 @@ export const empaqueProducts: Product[] = [
     "description": "## Empacadora al vacío industrial: conserva tus alimentos mucho más tiempo y reduce mermas\n\nPorta alimentos al vacío de 1000 ml en vidrio boricado con cierre hermético. Ideal para conservar alimentos frescos.\n\n### ¿Para qué negocios es ideal?\nCarnicerías, restaurantes, fruver y obradores que empacan al vacío para alargar la vida útil de sus productos.\n\n### Compra con respaldo Fuller\nEnvío nacional desde Bogotá, garantía Fuller y asesoría experta. Cotiza por WhatsApp y recibe atención personalizada.",
     "highlights": [],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/empacadora-para-alimentos-al-vacio-1000-ml/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/empacadora-para-alimentos-al-vacio-1000-ml/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/empacadora-para-alimentos-al-vacio-1000-ml/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/empacadora-para-alimentos-al-vacio-1000-ml/3.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/empacadora-para-alimentos-al-vacio-1000-ml/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/empacadora-para-alimentos-al-vacio-1000-ml/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/empacadora-para-alimentos-al-vacio-1000-ml/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/empacadora-para-alimentos-al-vacio-1000-ml/3.webp"
     ],
     "specs": [],
     "price": 120900,
@@ -1753,10 +1753,10 @@ export const empaqueProducts: Product[] = [
       "Dimensiones: Altura 12.5cm, Ancho 10cm, Largo30cm"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/empacadora-para-alimentos-al-vacio-840-ml/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/empacadora-para-alimentos-al-vacio-840-ml/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/empacadora-para-alimentos-al-vacio-840-ml/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/empacadora-para-alimentos-al-vacio-840-ml/3.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/empacadora-para-alimentos-al-vacio-840-ml/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/empacadora-para-alimentos-al-vacio-840-ml/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/empacadora-para-alimentos-al-vacio-840-ml/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/empacadora-para-alimentos-al-vacio-840-ml/3.webp"
     ],
     "specs": [
       {
@@ -1801,10 +1801,10 @@ export const empaqueProducts: Product[] = [
       "Alimentación: -"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/empacadora-al-vacio-pequena-49/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/empacadora-al-vacio-pequena-49/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/empacadora-al-vacio-pequena-49/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/empaque/empacadora-al-vacio-pequena-49/3.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/empacadora-al-vacio-pequena-49/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/empacadora-al-vacio-pequena-49/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/empacadora-al-vacio-pequena-49/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/empaque/empacadora-al-vacio-pequena-49/3.webp"
     ],
     "specs": [
       {

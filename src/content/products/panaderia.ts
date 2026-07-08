@@ -21,11 +21,11 @@ export const panaderiaProducts: Product[] = [
       "Mayor producción en hora pico"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-2-cabinas-para-pizza-con-piedra-refractaria/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-2-cabinas-para-pizza-con-piedra-refractaria/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-2-cabinas-para-pizza-con-piedra-refractaria/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-2-cabinas-para-pizza-con-piedra-refractaria/3.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-2-cabinas-para-pizza-con-piedra-refractaria/4.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/horno-2-cabinas-para-pizza-con-piedra-refractaria/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/horno-2-cabinas-para-pizza-con-piedra-refractaria/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/horno-2-cabinas-para-pizza-con-piedra-refractaria/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/horno-2-cabinas-para-pizza-con-piedra-refractaria/3.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/horno-2-cabinas-para-pizza-con-piedra-refractaria/4.webp"
     ],
     "specs": [
       {
@@ -106,13 +106,13 @@ export const panaderiaProducts: Product[] = [
       "Potencia: 1.5 kW Caballo de fuerza de motor:2,0"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/amasadora-20libras-industrial-2-velocidades/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/amasadora-20libras-industrial-2-velocidades/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/amasadora-20libras-industrial-2-velocidades/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/amasadora-20libras-industrial-2-velocidades/3.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/amasadora-20libras-industrial-2-velocidades/4.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/amasadora-20libras-industrial-2-velocidades/5.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/amasadora-20libras-industrial-2-velocidades/6.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/amasadora-20libras-industrial-2-velocidades/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/amasadora-20libras-industrial-2-velocidades/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/amasadora-20libras-industrial-2-velocidades/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/amasadora-20libras-industrial-2-velocidades/3.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/amasadora-20libras-industrial-2-velocidades/4.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/amasadora-20libras-industrial-2-velocidades/5.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/amasadora-20libras-industrial-2-velocidades/6.webp"
     ],
     "specs": [
       {
@@ -170,10 +170,10 @@ export const panaderiaProducts: Product[] = [
       "Material: Acero Inoxidable"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/potencia-multiplicada-por-dossi-tu-negocio-esta-creciendo-el-horno-ep2st-de-fuller-machinery-es-el-siguiente-paso-logico-a-diferencia-de-los-hornos-de-una-sola-boca-este-modelo-cuenta-con-dos-camar/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/potencia-multiplicada-por-dossi-tu-negocio-esta-creciendo-el-horno-ep2st-de-fuller-machinery-es-el-siguiente-paso-logico-a-diferencia-de-los-hornos-de-una-sola-boca-este-modelo-cuenta-con-dos-camar/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/potencia-multiplicada-por-dossi-tu-negocio-esta-creciendo-el-horno-ep2st-de-fuller-machinery-es-el-siguiente-paso-logico-a-diferencia-de-los-hornos-de-una-sola-boca-este-modelo-cuenta-con-dos-camar/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/potencia-multiplicada-por-dossi-tu-negocio-esta-creciendo-el-horno-ep2st-de-fuller-machinery-es-el-siguiente-paso-logico-a-diferencia-de-los-hornos-de-una-sola-boca-este-modelo-cuenta-con-dos-camar/3.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/potencia-multiplicada-por-dossi-tu-negocio-esta-creciendo-el-horno-ep2st-de-fuller-machinery-es-el-siguiente-paso-logico-a-diferencia-de-los-hornos-de-una-sola-boca-este-modelo-cuenta-con-dos-camar/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/potencia-multiplicada-por-dossi-tu-negocio-esta-creciendo-el-horno-ep2st-de-fuller-machinery-es-el-siguiente-paso-logico-a-diferencia-de-los-hornos-de-una-sola-boca-este-modelo-cuenta-con-dos-camar/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/potencia-multiplicada-por-dossi-tu-negocio-esta-creciendo-el-horno-ep2st-de-fuller-machinery-es-el-siguiente-paso-logico-a-diferencia-de-los-hornos-de-una-sola-boca-este-modelo-cuenta-con-dos-camar/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/potencia-multiplicada-por-dossi-tu-negocio-esta-creciendo-el-horno-ep2st-de-fuller-machinery-es-el-siguiente-paso-logico-a-diferencia-de-los-hornos-de-una-sola-boca-este-modelo-cuenta-con-dos-camar/3.webp"
     ],
     "specs": [
       {
@@ -239,10 +239,10 @@ export const panaderiaProducts: Product[] = [
       "Material: Acero Inoxidable"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-pizza-electrico-piedra-350c-fuller/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-pizza-electrico-piedra-350c-fuller/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-pizza-electrico-piedra-350c-fuller/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-pizza-electrico-piedra-350c-fuller/3.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/horno-pizza-electrico-piedra-350c-fuller/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/horno-pizza-electrico-piedra-350c-fuller/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/horno-pizza-electrico-piedra-350c-fuller/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/horno-pizza-electrico-piedra-350c-fuller/3.webp"
     ],
     "specs": [
       {
@@ -308,11 +308,11 @@ export const panaderiaProducts: Product[] = [
       "Fuente de Energía: Eléctrico"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-conveccion-4-bandejas-60l-fuller/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-conveccion-4-bandejas-60l-fuller/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-conveccion-4-bandejas-60l-fuller/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-conveccion-4-bandejas-60l-fuller/3.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-conveccion-4-bandejas-60l-fuller/4.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/horno-conveccion-4-bandejas-60l-fuller/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/horno-conveccion-4-bandejas-60l-fuller/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/horno-conveccion-4-bandejas-60l-fuller/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/horno-conveccion-4-bandejas-60l-fuller/3.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/horno-conveccion-4-bandejas-60l-fuller/4.webp"
     ],
     "specs": [
       {
@@ -376,11 +376,11 @@ export const panaderiaProducts: Product[] = [
       "Capacidad: 25L"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/microondas-comercial-25l-acero-fuller/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/microondas-comercial-25l-acero-fuller/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/microondas-comercial-25l-acero-fuller/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/microondas-comercial-25l-acero-fuller/3.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/microondas-comercial-25l-acero-fuller/4.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/microondas-comercial-25l-acero-fuller/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/microondas-comercial-25l-acero-fuller/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/microondas-comercial-25l-acero-fuller/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/microondas-comercial-25l-acero-fuller/3.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/microondas-comercial-25l-acero-fuller/4.webp"
     ],
     "specs": [
       {
@@ -425,11 +425,11 @@ export const panaderiaProducts: Product[] = [
     "description": "## Amasadoras industriales para panadería: 20 y 50 libras que amasan más pan en menos tiempo\n\nAmasadora de 30 libras con tazón en acero inoxidable, motor 2HP, velocidades 150 y 200 rpm, temporizador y botón de emergencia. Alimentación 110V.\n\n### ¿Para qué negocios es ideal?\nPanaderías, pizzerías y obradores que amasan a diario y necesitan consistencia y volumen.\n\n### Compra con respaldo Fuller\nEnvío nacional desde Bogotá, garantía Fuller y asesoría experta. Cotiza por WhatsApp y recibe atención personalizada.",
     "highlights": [],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/amasadora-industrial-30-libras-2-velocidades/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/amasadora-industrial-30-libras-2-velocidades/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/amasadora-industrial-30-libras-2-velocidades/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/amasadora-industrial-30-libras-2-velocidades/3.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/amasadora-industrial-30-libras-2-velocidades/4.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/amasadora-industrial-30-libras-2-velocidades/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/amasadora-industrial-30-libras-2-velocidades/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/amasadora-industrial-30-libras-2-velocidades/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/amasadora-industrial-30-libras-2-velocidades/3.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/amasadora-industrial-30-libras-2-velocidades/4.webp"
     ],
     "specs": [],
     "price": 4968900,
@@ -470,11 +470,11 @@ export const panaderiaProducts: Product[] = [
       "Material del molde: Recubrimiento de teflón"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/maquina-para-hacer-donas-industrial/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/maquina-para-hacer-donas-industrial/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/maquina-para-hacer-donas-industrial/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/maquina-para-hacer-donas-industrial/3.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/maquina-para-hacer-donas-industrial/4.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/maquina-para-hacer-donas-industrial/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/maquina-para-hacer-donas-industrial/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/maquina-para-hacer-donas-industrial/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/maquina-para-hacer-donas-industrial/3.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/maquina-para-hacer-donas-industrial/4.webp"
     ],
     "specs": [
       {
@@ -552,11 +552,11 @@ export const panaderiaProducts: Product[] = [
       "Alimentación: 110 V"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/batidora-7-litros-12-velocidades-copia/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/batidora-7-litros-12-velocidades-copia/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/batidora-7-litros-12-velocidades-copia/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/batidora-7-litros-12-velocidades-copia/3.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/batidora-7-litros-12-velocidades-copia/4.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/batidora-7-litros-12-velocidades-copia/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/batidora-7-litros-12-velocidades-copia/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/batidora-7-litros-12-velocidades-copia/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/batidora-7-litros-12-velocidades-copia/3.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/batidora-7-litros-12-velocidades-copia/4.webp"
     ],
     "specs": [
       {
@@ -622,9 +622,9 @@ export const panaderiaProducts: Product[] = [
       "Alimentación: 110 V"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/escabiladero-de-15-latas/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/escabiladero-de-15-latas/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/escabiladero-de-15-latas/2.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/escabiladero-de-15-latas/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/escabiladero-de-15-latas/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/escabiladero-de-15-latas/2.webp"
     ],
     "specs": [
       {
@@ -694,8 +694,8 @@ export const panaderiaProducts: Product[] = [
       "Alimentación: 110 V"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/cortadora-de-pan-31-cuchillas/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/cortadora-de-pan-31-cuchillas/1.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/cortadora-de-pan-31-cuchillas/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/cortadora-de-pan-31-cuchillas/1.webp"
     ],
     "specs": [
       {
@@ -763,11 +763,11 @@ export const panaderiaProducts: Product[] = [
       "Alimentación: 110 V"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/batidora-7-litros-11-velocidades/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/batidora-7-litros-11-velocidades/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/batidora-7-litros-11-velocidades/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/batidora-7-litros-11-velocidades/3.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/batidora-7-litros-11-velocidades/4.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/batidora-7-litros-11-velocidades/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/batidora-7-litros-11-velocidades/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/batidora-7-litros-11-velocidades/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/batidora-7-litros-11-velocidades/3.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/batidora-7-litros-11-velocidades/4.webp"
     ],
     "specs": [
       {
@@ -833,10 +833,10 @@ export const panaderiaProducts: Product[] = [
       "Alimentación: 110 V"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/batidora-de-pedestal-30-lt-3-velocidades-industrial/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/batidora-de-pedestal-30-lt-3-velocidades-industrial/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/batidora-de-pedestal-30-lt-3-velocidades-industrial/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/batidora-de-pedestal-30-lt-3-velocidades-industrial/3.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/batidora-de-pedestal-30-lt-3-velocidades-industrial/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/batidora-de-pedestal-30-lt-3-velocidades-industrial/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/batidora-de-pedestal-30-lt-3-velocidades-industrial/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/batidora-de-pedestal-30-lt-3-velocidades-industrial/3.webp"
     ],
     "specs": [
       {
@@ -902,10 +902,10 @@ export const panaderiaProducts: Product[] = [
       "Alimentación: 110 V"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/batidora-de-pedestal-digital-20-lt-3-velocidades-industrial/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/batidora-de-pedestal-digital-20-lt-3-velocidades-industrial/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/batidora-de-pedestal-digital-20-lt-3-velocidades-industrial/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/batidora-de-pedestal-digital-20-lt-3-velocidades-industrial/3.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/batidora-de-pedestal-digital-20-lt-3-velocidades-industrial/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/batidora-de-pedestal-digital-20-lt-3-velocidades-industrial/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/batidora-de-pedestal-digital-20-lt-3-velocidades-industrial/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/batidora-de-pedestal-digital-20-lt-3-velocidades-industrial/3.webp"
     ],
     "specs": [
       {
@@ -971,9 +971,9 @@ export const panaderiaProducts: Product[] = [
       "Alimentación: 110 V"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/batidora-de-pedestal-10-lt-3-velocidades-industrial-2/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/batidora-de-pedestal-10-lt-3-velocidades-industrial-2/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/batidora-de-pedestal-10-lt-3-velocidades-industrial-2/2.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/batidora-de-pedestal-10-lt-3-velocidades-industrial-2/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/batidora-de-pedestal-10-lt-3-velocidades-industrial-2/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/batidora-de-pedestal-10-lt-3-velocidades-industrial-2/2.webp"
     ],
     "specs": [
       {
@@ -1039,9 +1039,9 @@ export const panaderiaProducts: Product[] = [
       "Alimentación: 110 V"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/batidora-de-pedestal-10-lt-3-velocidades-industrial/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/batidora-de-pedestal-10-lt-3-velocidades-industrial/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/batidora-de-pedestal-10-lt-3-velocidades-industrial/2.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/batidora-de-pedestal-10-lt-3-velocidades-industrial/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/batidora-de-pedestal-10-lt-3-velocidades-industrial/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/batidora-de-pedestal-10-lt-3-velocidades-industrial/2.webp"
     ],
     "specs": [
       {
@@ -1107,12 +1107,12 @@ export const panaderiaProducts: Product[] = [
       "Potencia: 2.2 kW"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/amasadora-industrial-50-libras-20kg-110v/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/amasadora-industrial-50-libras-20kg-110v/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/amasadora-industrial-50-libras-20kg-110v/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/amasadora-industrial-50-libras-20kg-110v/3.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/amasadora-industrial-50-libras-20kg-110v/4.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/amasadora-industrial-50-libras-20kg-110v/5.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/amasadora-industrial-50-libras-20kg-110v/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/amasadora-industrial-50-libras-20kg-110v/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/amasadora-industrial-50-libras-20kg-110v/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/amasadora-industrial-50-libras-20kg-110v/3.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/amasadora-industrial-50-libras-20kg-110v/4.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/amasadora-industrial-50-libras-20kg-110v/5.webp"
     ],
     "specs": [
       {
@@ -1178,11 +1178,11 @@ export const panaderiaProducts: Product[] = [
       "Potencia: 1.5 kW"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/amasadora-moledora-20-libras-uso-comercial/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/amasadora-moledora-20-libras-uso-comercial/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/amasadora-moledora-20-libras-uso-comercial/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/amasadora-moledora-20-libras-uso-comercial/3.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/amasadora-moledora-20-libras-uso-comercial/4.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/amasadora-moledora-20-libras-uso-comercial/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/amasadora-moledora-20-libras-uso-comercial/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/amasadora-moledora-20-libras-uso-comercial/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/amasadora-moledora-20-libras-uso-comercial/3.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/amasadora-moledora-20-libras-uso-comercial/4.webp"
     ],
     "specs": [
       {
@@ -1248,11 +1248,11 @@ export const panaderiaProducts: Product[] = [
       "Alimentación: Gas propano y gas natural y elecricidad 110 V"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-3-cabinas-6-latas-a-gas/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-3-cabinas-6-latas-a-gas/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-3-cabinas-6-latas-a-gas/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-3-cabinas-6-latas-a-gas/3.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-3-cabinas-6-latas-a-gas/4.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/horno-3-cabinas-6-latas-a-gas/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/horno-3-cabinas-6-latas-a-gas/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/horno-3-cabinas-6-latas-a-gas/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/horno-3-cabinas-6-latas-a-gas/3.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/horno-3-cabinas-6-latas-a-gas/4.webp"
     ],
     "specs": [
       {
@@ -1318,11 +1318,11 @@ export const panaderiaProducts: Product[] = [
       "Alimentación: Gas natural o propanoa y electricidad 110 V"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-2-cabinas-4-latas/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-2-cabinas-4-latas/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-2-cabinas-4-latas/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-2-cabinas-4-latas/3.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-2-cabinas-4-latas/4.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/horno-2-cabinas-4-latas/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/horno-2-cabinas-4-latas/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/horno-2-cabinas-4-latas/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/horno-2-cabinas-4-latas/3.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/horno-2-cabinas-4-latas/4.webp"
     ],
     "specs": [
       {
@@ -1388,11 +1388,11 @@ export const panaderiaProducts: Product[] = [
       "Alimentación: 110 V y gas natural"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-1-cabina-2-latas/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-1-cabina-2-latas/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-1-cabina-2-latas/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-1-cabina-2-latas/3.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-1-cabina-2-latas/4.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/horno-1-cabina-2-latas/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/horno-1-cabina-2-latas/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/horno-1-cabina-2-latas/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/horno-1-cabina-2-latas/3.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/horno-1-cabina-2-latas/4.webp"
     ],
     "specs": [
       {
@@ -1462,10 +1462,10 @@ export const panaderiaProducts: Product[] = [
       "Capacidad: 3 Bandejas de 65 cm por 55 cm"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-para-panaderia-3-cabinas-3-latas/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-para-panaderia-3-cabinas-3-latas/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-para-panaderia-3-cabinas-3-latas/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-para-panaderia-3-cabinas-3-latas/3.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/horno-para-panaderia-3-cabinas-3-latas/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/horno-para-panaderia-3-cabinas-3-latas/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/horno-para-panaderia-3-cabinas-3-latas/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/horno-para-panaderia-3-cabinas-3-latas/3.webp"
     ],
     "specs": [
       {
@@ -1531,11 +1531,11 @@ export const panaderiaProducts: Product[] = [
       "Alimentación: Gas natural o propano"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-asador-de-pollos-30-unidades/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-asador-de-pollos-30-unidades/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-asador-de-pollos-30-unidades/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-asador-de-pollos-30-unidades/3.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-asador-de-pollos-30-unidades/4.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/horno-asador-de-pollos-30-unidades/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/horno-asador-de-pollos-30-unidades/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/horno-asador-de-pollos-30-unidades/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/horno-asador-de-pollos-30-unidades/3.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/horno-asador-de-pollos-30-unidades/4.webp"
     ],
     "specs": [
       {
@@ -1593,11 +1593,11 @@ export const panaderiaProducts: Product[] = [
       "Garantía: 12 meses"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-1-cabina-para-pizza-con-piedra-refractaria/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-1-cabina-para-pizza-con-piedra-refractaria/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-1-cabina-para-pizza-con-piedra-refractaria/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-1-cabina-para-pizza-con-piedra-refractaria/3.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-1-cabina-para-pizza-con-piedra-refractaria/4.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/horno-1-cabina-para-pizza-con-piedra-refractaria/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/horno-1-cabina-para-pizza-con-piedra-refractaria/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/horno-1-cabina-para-pizza-con-piedra-refractaria/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/horno-1-cabina-para-pizza-con-piedra-refractaria/3.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/horno-1-cabina-para-pizza-con-piedra-refractaria/4.webp"
     ],
     "specs": [
       {
@@ -1671,12 +1671,12 @@ export const panaderiaProducts: Product[] = [
       "Garantía: 12 meses"
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-de-conveccion-electrico/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-de-conveccion-electrico/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-de-conveccion-electrico/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-de-conveccion-electrico/3.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-de-conveccion-electrico/4.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/horno-de-conveccion-electrico/5.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/horno-de-conveccion-electrico/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/horno-de-conveccion-electrico/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/horno-de-conveccion-electrico/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/horno-de-conveccion-electrico/3.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/horno-de-conveccion-electrico/4.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/horno-de-conveccion-electrico/5.webp"
     ],
     "specs": [
       {
@@ -1746,11 +1746,11 @@ export const panaderiaProducts: Product[] = [
       "Alimentación: Gas natural - Gas propano."
     ],
     "images": [
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/asador-de-pollos-a-gas/0.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/asador-de-pollos-a-gas/1.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/asador-de-pollos-a-gas/2.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/asador-de-pollos-a-gas/3.webp",
-      "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/panaderia/asador-de-pollos-a-gas/4.webp"
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/asador-de-pollos-a-gas/0.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/asador-de-pollos-a-gas/1.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/asador-de-pollos-a-gas/2.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/asador-de-pollos-a-gas/3.webp",
+      "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/panaderia/asador-de-pollos-a-gas/4.webp"
     ],
     "specs": [
       {

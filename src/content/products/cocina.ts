@@ -8,7 +8,7 @@ import type { Product } from "./types";
 // internos. Editar a mano (no lo regenera ningún composer).
 // ────────────────────────────────────────────────────────────
 
-const IMG = "https://awxewohsgzpvnkxffmgj.supabase.co/storage/v1/object/public/product-images/cocina";
+const IMG = "https://ykoxlneiienplstyibct.supabase.co/storage/v1/object/public/product-images/cocina";
 // `?v=N` rompe la caché del navegador/CDN cuando se reemplazan fotos en la misma
 // ruta (subir v al cambiar imágenes de esta línea).
 const IMG_VER = 2;

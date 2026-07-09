@@ -46,7 +46,7 @@ export const SEED_PRODUCTS: Product[] = [
 ];
 
 /** Categorías ocultas del grid principal y de los chips de filtro (acceso discreto). */
-const HIDDEN_CATEGORIES = new Set<ProductCategory>(["novelty"]);
+const HIDDEN_CATEGORIES = new Set<ProductCategory>([]);
 
 export const CATEGORY_META: Record<
   ProductCategory,
@@ -155,7 +155,7 @@ export function isHiddenCategory(c: ProductCategory): boolean {
 /** Categorías visibles con al menos un producto (para chips/filtros), en orden. */
 const CATEGORY_ORDER: ProductCategory[] = [
   "bebidas", "snacks", "cocina", "empaque", "panaderia", "pesaje", "exhibicion",
-  "procesamiento", "buffet", "refrigeracion", "mobiliario", "carnicos",
+  "procesamiento", "buffet", "refrigeracion", "mobiliario", "carnicos", "novelty",
 ];
 
 export const getActiveCategories = cache(

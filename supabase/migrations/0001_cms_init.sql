@@ -49,14 +49,14 @@ values (
   'Negocio Viral',
   'Equipos de tendencia para waffles, helados y bebidas que garantizan filas de clientes.',
   'VER EQUIPOS PARA EMPRENDER',
-  'https://tienda.fullermachinery.com/index.php/categoria-producto/comida-divertida/page/3/',
+  '/productos?categoria=snacks',
   '/images/Hero-potencia.webp',
   'Línea Industrial',
   'Potencia y',
   'Estandarización',
   'Soluciones de empaque al vacío y procesamiento para maximizar la eficiencia de tu planta.',
   'VER LÍNEA INDUSTRIAL',
-  'https://tienda.fullermachinery.com/index.php/categoria-producto/preparacion-de-alimentos/equipos-industriales-preparacion-de-alimentos/'
+  '/productos?categoria=procesamiento'
 )
 on conflict (id) do nothing;
 

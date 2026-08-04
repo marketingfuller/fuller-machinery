@@ -135,7 +135,10 @@ const fetchFromDb = unstable_cache(
     }
   },
   ["products-all"],
-  { tags: [PRODUCTS_TAG], revalidate: 3600 },
+  // revalidate:false → el catálogo se cachea indefinidamente y solo se refresca
+  // vía revalidateTag (guardados desde /admin). Evita regenerar cientos de
+  // páginas ISR cada hora, que disparaba el límite de ISR Writes del plan free.
+  { tags: [PRODUCTS_TAG], revalidate: false },
 );
 
 /** Todos los productos de la DB (sin filtrar por published). Vacío si no hay tabla/datos. */

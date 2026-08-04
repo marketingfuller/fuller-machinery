@@ -103,7 +103,7 @@ const fetchFromDb = unstable_cache(
     }
   },
   ["site-settings"],
-  { tags: [SETTINGS_TAG], revalidate: 3600 },
+  { tags: [SETTINGS_TAG], revalidate: false },
 );
 
 export const getSettings = cache(async (): Promise<SiteSettings> => {

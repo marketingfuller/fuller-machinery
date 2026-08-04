@@ -1,8 +1,8 @@
 import { getAllPosts } from "@/lib/emprende";
 import { getSettings } from "@/lib/settings";
 
-// Se regenera bajo demanda (con cache por tag de site-settings).
-export const revalidate = 3600;
+// Se regenera 1 vez al día (antes cada hora → sumaba ISR Writes del plan free).
+export const revalidate = 86400;
 
 function formatCoPhone(raw: string): string {
   const digits = raw.replace(/\D/g, "").replace(/^57/, "");

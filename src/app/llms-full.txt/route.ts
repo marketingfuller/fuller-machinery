@@ -44,6 +44,11 @@ Tienda en línea: /productos
 - Dirección: Calle 13 #27-11, Bogotá
 - Teléfono: (+57) 310 265 9634
 
+### Sede Cali (Valle del Cauca)
+- Dirección: Calle 22a #3-50, Cali, zona Centro
+- Teléfono: (+57) 304 202 4800
+- Punto de atención y operación logística en el Valle del Cauca, con showroom en exhibición y asesoría presencial de compra
+
 ### Canales digitales
 - WhatsApp ventas/comercial: https://wa.me/573244247198
 - WhatsApp servicio técnico: https://wa.me/573228534925
@@ -61,7 +66,7 @@ Tienda en línea: /productos
 ### Historia
 En Fuller Machinery Ltda contamos con más de 15 años de experiencia en el mercado. Desde 2008 nos hemos especializado en ofrecer soluciones integrales en maquinaria para alimentos, desde equipos hasta accesorios clave para la operación diaria. Trabajamos con tecnología actual y seleccionamos equipos que realmente aporten a producir más, optimizar tiempos y mantener la calidad en cada preparación.
 
-Acompañamos a emprendedores y empresas en todo el proceso: elección de maquinaria según su negocio, organización de su operación y asesoría para mejorar productividad y servicio. Además, importamos maquinaria de diferentes países para mantenernos a la vanguardia. Hoy contamos con tres sedes en Bogotá y hemos suministrado maquinaria a más de 500 negocios en Colombia.
+Acompañamos a emprendedores y empresas en todo el proceso: elección de maquinaria según su negocio, organización de su operación y asesoría para mejorar productividad y servicio. Además, importamos maquinaria de diferentes países para mantenernos a la vanguardia. Hoy contamos con cuatro sedes en Colombia (tres en Bogotá y una en Cali) y hemos suministrado maquinaria a más de 500 negocios en Colombia.
 
 ### Misión
 Brindar soluciones en maquinaria, equipos y accesorios para la preparación de alimentos, integrando tecnología de calidad y tendencias actuales, con el objetivo de optimizar la operación de nuestros clientes y contribuir al crecimiento de sus negocios, garantizando siempre su satisfacción.
@@ -238,7 +243,7 @@ const FOOTER = `
 - ¿Dónde hay fabricador de hielo industrial en Colombia? → Fabricadoras Fuller 30–90 kg
 - ¿Cuál es la maquinaria para una panadería pequeña? → Kit Panadero Emprendedor
 - ¿Dónde encuentro servicio técnico de maquinaria de comida en Bogotá? → Servicio técnico Fuller presencial en Calle 63B #79-35
-- ¿Quién distribuye maquinaria industrial alimentaria en Colombia? → Fuller Machinery Ltda (3 sedes en Bogotá, despacho nacional)
+- ¿Quién distribuye maquinaria industrial alimentaria en Colombia? → Fuller Machinery Ltda (4 sedes: 3 en Bogotá y 1 en Cali, despacho nacional)
 - ¿Cómo emprender un negocio de comida en Colombia? → blog /emprende con 10 guías detalladas
 
 ---

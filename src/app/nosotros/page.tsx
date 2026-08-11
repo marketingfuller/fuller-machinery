@@ -12,7 +12,7 @@ import { buildMetadata, breadcrumbJsonLd } from "@/lib/seo";
 export const metadata = buildMetadata({
   title: "Nosotros: Fuller Machinery Ltda — Maquinaria para Alimentos Desde 2008",
   description:
-    "Fuller Machinery Ltda lleva más de 15 años equipando negocios de comida en Colombia. 3 sedes en Bogotá, +500 negocios atendidos y servicio técnico propio para maquinaria alimentaria.",
+    "Fuller Machinery Ltda lleva más de 15 años equipando negocios de comida en Colombia. 4 sedes en Colombia (Bogotá y Cali), +500 negocios atendidos y servicio técnico propio para maquinaria alimentaria.",
   path: "/nosotros",
   image: "/images/logo-fuller.webp",
   keywords: [

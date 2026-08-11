@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 const stats = [
   { value: "+15", label: "Años en el mercado" },
   { value: "+500", label: "Negocios equipados" },
-  { value: "3", label: "Sedes en Bogotá" },
+  { value: "4", label: "Sedes en Colombia" },
   { value: "6", label: "Líneas de negocio" },
 ];
 
@@ -43,8 +43,8 @@ export default function NosotrosHero() {
             </h1>
             <p className="text-white/65 text-lg font-light max-w-2xl mx-auto leading-relaxed">
               Más de 15 años especializados en maquinaria, equipos y accesorios
-              para la preparación de alimentos, con tres sedes en Bogotá y
-              alcance nacional.
+              para la preparación de alimentos, con cuatro sedes en Colombia
+              (Bogotá y Cali) y alcance nacional.
             </p>
           </motion.div>
         </div>

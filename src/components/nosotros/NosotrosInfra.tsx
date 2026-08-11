@@ -55,6 +55,13 @@ export default function NosotrosInfra() {
       phones: [{ label: "", number: "310 265 9634", tel: "+573102659634" }],
       desc: "Segunda sede en Ricaurte, a una cuadra de la primera. Atención comercial y exhibición complementaria.",
     },
+    {
+      icon: Building2,
+      tag: "Sede Cali",
+      address: "Calle 22a #3-50, Cali",
+      phones: [{ label: "", number: "304 202 4800", tel: "+573042024800" }],
+      desc: "Zona Centro. Punto de atención y operación logística en el Valle del Cauca, con showroom en exhibición y asesoría presencial de compra.",
+    },
   ];
   return (
     <section className="py-20 md:py-24 bg-slate-50">
@@ -64,11 +71,11 @@ export default function NosotrosInfra() {
             Nuestras sedes
           </p>
           <h2 className="font-display font-black text-3xl md:text-4xl text-slate-900 mb-3">
-            Tres sedes en Bogotá
+            Cuatro sedes en Colombia
           </h2>
           <p className="text-slate-500 text-sm max-w-xl mx-auto leading-relaxed">
-            Tenemos presencia directa en dos zonas clave de Bogotá: la sede
-            principal con showroom y dos sedes en Ricaurte.
+            Presencia directa en Bogotá —sede principal con showroom y dos sedes
+            en Ricaurte— y ahora también en Cali, Valle del Cauca.
           </p>
         </div>
 
@@ -77,7 +84,7 @@ export default function NosotrosInfra() {
           initial="hidden"
           whileInView="show"
           viewport={{ once: true, margin: "-60px" }}
-          className="grid grid-cols-1 md:grid-cols-3 gap-6"
+          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6"
         >
           {sedes.map((s, i) => {
             const Icon = s.icon;

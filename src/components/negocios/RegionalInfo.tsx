@@ -54,6 +54,16 @@ export default function RegionalInfo() {
       { label: "Contacto", number: "310 265 9634" },
     ],
   },
+  {
+    name: "Sede Cali",
+    address: "Calle 22a #3-50, Cali",
+    desc: "Punto de atención y operación logística en el Valle del Cauca (zona Centro), con showroom en exhibición y asesoría presencial de compra.",
+    icon: "warehouse",
+    highlights: ["Showroom en exhibición", "Operación logística", "Valle del Cauca"],
+    phones: [
+      { label: "Contacto", number: "304 202 4800" },
+    ],
+  },
 ];
 
   return (
@@ -72,7 +82,7 @@ export default function RegionalInfo() {
               <div>
                 <p className="text-xs font-bold uppercase tracking-[0.18em] text-gray-400 mb-1">Cobertura</p>
                 <h2 className="text-xl md:text-2xl font-display font-bold text-primary leading-tight group-hover:text-accent transition-colors">
-                  Cobertura en Todo Colombia · 3 Sedes en Bogotá
+                  Cobertura en Todo Colombia · 4 Sedes (Bogotá y Cali)
                 </h2>
               </div>
             </div>
@@ -89,12 +99,12 @@ export default function RegionalInfo() {
           <div className="px-7 md:px-9 pb-9 border-t border-gray-100">
             <p className="text-gray-400 text-sm mt-6 mb-8 max-w-2xl">
               Con{' '}
-              <strong className="text-primary">3 sedes físicas en Bogotá</strong>{' '}
+              <strong className="text-primary">4 sedes físicas (3 en Bogotá y 1 en Cali)</strong>{' '}
               y envíos a todo Colombia. Compra con confianza: stock disponible, despacho rápido y servicio técnico certificado en todo el país.
             </p>
 
             {/* Sede cards */}
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
               {sedes.map((sede, i) => (
                 <motion.div
                   key={sede.name}

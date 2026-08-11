@@ -52,7 +52,7 @@ export default function NosotrosHistoria() {
               operación diaria.
             </p>
             <p>
-              Hoy contamos con <strong className="text-slate-900">tres sedes en Bogotá</strong>{" "}
+              Hoy contamos con <strong className="text-slate-900">cuatro sedes en Colombia (Bogotá y Cali)</strong>{" "}
               y hemos suministrado maquinaria a{" "}
               <strong className="text-slate-900">más de 500 negocios en Colombia</strong>,
               convirtiéndonos en un aliado para quienes buscan iniciar o

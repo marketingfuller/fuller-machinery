@@ -91,6 +91,11 @@ export default function Footer() {
       address: "Calle 13 #27-11 – Bogotá",
       phones: [{ label: "", number: "310 265 9634" }],
     },
+    {
+      name: "Sede Cali",
+      address: "Calle 22a #3-50 – Cali",
+      phones: [{ label: "", number: "304 202 4800" }],
+    },
   ];
   return (
     <footer className="bg-bg-dark border-t border-white/5">

@@ -1,7 +1,8 @@
+import React from "react";
+import { ImageResponse } from "next/og";
 import { getAllProducts } from "@/lib/products";
 
 export const dynamic = "force-dynamic";
-export const runtime = "nodejs";
 
 const SITE_URL = "https://www.fullermachinery.com";
 
@@ -14,7 +15,10 @@ export async function GET(
   _request: Request,
   { params }: { params: Promise<{ slug: string }> }
 ) {
-  const { slug } = await params;
+  const { slug: rawSlug } = await params;
+
+  // Permitimos URLs terminadas en .png
+  const slug = decodeURIComponent(rawSlug).replace(/\.png$/i, "");
 
   const products = await getAllProducts();
 
@@ -40,32 +44,34 @@ export async function GET(
 
   const imageUrl = absoluteImage(image);
 
-  try {
-    const imageResponse = await fetch(imageUrl, {
-      cache: "no-store",
-    });
-
-    if (!imageResponse.ok || !imageResponse.body) {
-      return Response.json(
-        { error: "No se pudo cargar la imagen" },
-        { status: 502 }
-      );
-    }
-
-    const contentType =
-      imageResponse.headers.get("content-type") || "image/jpeg";
-
-    return new Response(imageResponse.body, {
-      status: 200,
+  return new ImageResponse(
+    React.createElement(
+      "div",
+      {
+        style: {
+          display: "flex",
+          width: "100%",
+          height: "100%",
+          backgroundColor: "#ffffff",
+          alignItems: "center",
+          justifyContent: "center",
+        },
+      },
+      React.createElement("img", {
+        src: imageUrl,
+        style: {
+          width: "100%",
+          height: "100%",
+          objectFit: "contain",
+        },
+      })
+    ),
+    {
+      width: 1000,
+      height: 1000,
       headers: {
-        "Content-Type": contentType,
         "Cache-Control": "public, max-age=3600",
       },
-    });
-  } catch {
-    return Response.json(
-      { error: "Error obteniendo la imagen" },
-      { status: 500 }
-    );
-  }
+    }
+  );
 }
